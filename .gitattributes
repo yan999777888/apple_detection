@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Keep executed historical source bytes, including line endings, exact.
+/reference/** -text

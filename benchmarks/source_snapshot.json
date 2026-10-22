@@ -1,0 +1,129 @@
+{
+  "schema": "executed_baseline_source_snapshot_v1",
+  "created_utc": "2026-10-22T04:24:25.9502933Z",
+  "files": [
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/residual_dual_model.py",
+      "sha256": "bfacdcb32850d6c13a7c932eaf27860c947af7fb56cc6328d52a569f65b8c1d0"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/residual_dual_criterion.py",
+      "sha256": "ce927df75dc05aaa968c2f0c1daee315deadb97d1d2aff10eff2df08510ce392"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/residual_papple_data.py",
+      "sha256": "e43e8e1865d5e5215e4eace12fdf7f9713a35154a558d7e8970bbb3537b0078c"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/residual_dual_postprocess.py",
+      "sha256": "20cf95359a4e7db1f9cd444c602a3fb7a55bbb1a67550e393eee06cbdbade3d7"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/residual_dual_evaluate.py",
+      "sha256": "2b150dd1fec1d5a0ecb0d7c6a7f33ba1df0ca0e66edf53980709ce936c65d407"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/probe_residual_dual_gpu.py",
+      "sha256": "32c3804889afdafa13bff05461785970d89ee727ac51c580bef3da3f3b805b8a"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/watch_residual_dual_gpu.py",
+      "sha256": "9e0f1141b6168e709a42bbbb54647cf0c91fe47ef5d1e848f7034a44ae8ca8f7"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/query_model_runtime.py",
+      "sha256": "d3aae8748062bf76aca7639bf0c7e169c74cedde73269cedd30302e81df16d5e"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/query_dual_mask.py",
+      "sha256": "cef59347445af673eceff65cd5d0ed7caa5769683c5e78eb7f4610deb2e48878"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/query_dual_criterion.py",
+      "sha256": "6ceec79c357b0e30864dfd47e0113b574ce7b65eecd24c40ae193bdf9e5b74ee"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/query_papple_data.py",
+      "sha256": "1fbb142f4710454be90833bdacc3ff4841c9339ca1d5332897f743da36be96df"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/query_dual_postprocess.py",
+      "sha256": "d19cedb68be01e68957acff0026b3c50a6c6e4d7fe2bf176b317e37057cfbf9d"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/query_dual_evaluate.py",
+      "sha256": "52ddf3972d650eeb9ab0ac666d17cbc4949ecbd3e4711f6ef78b8da3e548d629"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/watch_query_dual_gpu_native.py",
+      "sha256": "a0c2445a76104680221a65f18e9ffbea9f0ac5973a66a29b6b2779dda1e18686"
+    },
+    {
+      "path": "reference/local_amodal/scripts/dataset.py",
+      "sha256": "4d8fe0f1ac98e3b54dd4f029675ad240b621766140b259a537e99290ace9a0a0"
+    },
+    {
+      "path": "reference/local_amodal/scripts/evaluate.py",
+      "sha256": "a42cd063ffe6aedfd28d2807b800fc368b0782b3073556cba2408d8159236492"
+    },
+    {
+      "path": "reference/local_amodal/scripts/metrics.py",
+      "sha256": "1b0a7e385940fd0c6160cc08b75ddaf2e1f43f3ea00f5bd37d547fea6b08010d"
+    },
+    {
+      "path": "reference/local_amodal/scripts/atomic_io.py",
+      "sha256": "3b5ca14efc337ce3f511f60f1829c14c24e5ab6fc9772714e051bf265e645380"
+    },
+    {
+      "path": "reference/local_amodal/scripts/runtime.py",
+      "sha256": "a21eba633ba1d08cfe07b7695186d811f2e69ac560ce441a236ffce7b93fb64c"
+    },
+    {
+      "path": "reference/local_amodal/scripts/train_refinement.py",
+      "sha256": "94dc54a5212b1e825295f1085bf6c6ce89dffaa10b331220afa08c20b573fc8f"
+    },
+    {
+      "path": "reference/local_amodal/scripts/refinement_config.py",
+      "sha256": "20b31460a36b93d5816358c1f40169ed081d78577b095eb7033fc59cddecd364"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/train_residual_dual.py",
+      "sha256": "40413ed9c97342bb6ed01806b34356d706d9a51a4a9d1f70dce2ebb1797519a0"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_candidate_20261022/watch_residual_dual_train.py",
+      "sha256": "f0267483aee098b37b17e355b87428bfba98fba4660b4a71c23fd6febbcb5d5b"
+    },
+    {
+      "path": "reference/local_amodal/scripts/watch_refinement.py",
+      "sha256": "4f673f671cf1055408da2fd684b68dcbd15bb6f4f9606098e8a89c3b56248b60"
+    },
+    {
+      "path": "reference/local_amodal/temp/context_dual_quality_eval_candidate_20261021/evaluate_fixed_quality_powers_wddm_retry.py",
+      "sha256": "1d923931447fd0147873dab29f678933410ed6bd7fd8d77d27dbc6445f9f17a5"
+    },
+    {
+      "path": "reference/local_amodal/temp/context_dual_quality_eval_candidate_20261021/wddm_process_guard.py",
+      "sha256": "67b3d86f751149f45f0989ebd78ab30abd1dda34aa3df597d4c5e6aac5c45ebe"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/query_dual_train.py",
+      "sha256": "31a346471b2926cec7d822aa34dc04c41cf4e4ff67bb9e0acb7696a746d08d80"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/watch_query_dual_train.py",
+      "sha256": "a81b016f91c16bfce818339a8545792071a16fc2def5b1701e8b7fa6a546dff4"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_dual_mask_candidate_20261021/compare_query_fullval.py",
+      "sha256": "360c6c600499a326e0e3e49285f9d19f3d009c2735e060979d937d8ac33e1dde"
+    },
+    {
+      "path": "reference/local_amodal/temp/query_residual_comparison_20261022/compare_residual_fullval.py",
+      "sha256": "d7503312b0eb85d490332580cf81d9ac15d49adab2e4a8892da07c328c28b73f"
+    }
+  ],
+  "data_or_weights_included": false,
+  "snapshot_executed_as_new_location": false,
+  "purpose": "Exact historical source snapshot; active clean implementation is src/apple_seg"
+}

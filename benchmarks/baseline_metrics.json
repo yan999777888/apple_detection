@@ -1,0 +1,24 @@
+{
+  "schema": "executed_apple_dual_branch_baselines_v1",
+  "scope": {"dataset": "PApple", "split": "val", "images": 814, "GT": 3449, "empty_images": 13, "GT_excluded_or_repaired": false},
+  "matching": "One-to-one IoU>=0.5; each row uses one global confidence for P and R",
+  "completed_query_e6": {
+    "checkpoint_sha256": "aac6f257bf43af3b945dd3469ba66214de99d7ae878e13e85ec7bef0e20b3227",
+    "input_size": 768, "confidence": 0.7655933499336243,
+    "precision": 0.8834444766599014, "recall": 0.8834444766599014,
+    "TP": 3047, "FP": 402, "FN": 402, "heavy_TP": 1202, "heavy_GT": 1514
+  },
+  "residual_joint_experiment_partial": {
+    "planned_epochs": 12, "completed_epochs_recorded": 3,
+    "joint_changes": ["mask-anchored local box residual", "one penultimate auxiliary", "1024 input", "new optimization schedule"],
+    "single_module_causality_proven": false,
+    "rows": [
+      {"epoch": 1, "precision": 0.8616187989556136, "recall": 0.8611191649753551, "confidence": 0.6808785796165466, "TP": 2970, "FP": 477, "FN": 479},
+      {"epoch": 2, "precision": 0.8601682622570351, "recall": 0.8596694694114236, "confidence": 0.7397985458374023, "TP": 2965, "FP": 482, "FN": 484},
+      {"epoch": 3, "precision": 0.8759060597274573, "recall": 0.8759060597274573, "confidence": 0.7498207092285156, "TP": 3021, "FP": 428, "FN": 428}
+    ]
+  },
+  "target_met": false,
+  "external_deployment_accuracy_proven": false,
+  "source_data_and_weights_uploaded": false
+}
