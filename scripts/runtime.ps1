@@ -1,0 +1,19 @@
+$ErrorActionPreference = 'Stop'
+$RepoRoot = Split-Path -Parent $PSScriptRoot
+$env:PYTHONPATH = Join-Path $RepoRoot 'src'
+$env:PYTHONUTF8 = '1'
+$env:PYTHONIOENCODING = 'utf-8'
+$env:PYTHONUNBUFFERED = '1'
+$env:PYTHONPYCACHEPREFIX = Join-Path $RepoRoot 'cache/pycache'
+$env:HF_HOME = Join-Path $RepoRoot 'cache/huggingface'
+$env:TORCH_HOME = Join-Path $RepoRoot 'cache/torch'
+$env:PIP_CACHE_DIR = Join-Path $RepoRoot 'cache/pip'
+$env:TEMP = Join-Path $RepoRoot 'tmp'
+$env:TMP = $env:TEMP
+$env:HF_HUB_OFFLINE = '1'
+$env:TRANSFORMERS_OFFLINE = '1'
+$env:TOKENIZERS_PARALLELISM = 'false'
+$env:OMP_NUM_THREADS = '4'
+$env:MKL_NUM_THREADS = '4'
+New-Item -ItemType Directory -Path $env:TEMP -Force | Out-Null
+$Python = Join-Path $RepoRoot '.venv/Scripts/python.exe'

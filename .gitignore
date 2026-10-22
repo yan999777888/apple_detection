@@ -37,3 +37,9 @@ id_rsa*
 id_ed25519*
 known_hosts*
 *.pem
+assets/
+conversation/
+handoff/
+feedback/
+tmp/
+wheelhouse/

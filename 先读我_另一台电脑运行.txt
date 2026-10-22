@@ -1,0 +1,71 @@
+苹果双分支分割：RTX 3080 20GB 交接说明
+
+本包目标：在另一台 Windows 电脑运行新的混合监督试验，保留可复现的结果供下一轮修改。
+算法仍为 Mask2Former Swin-Tiny 共享特征 + 可见区域 V / 完整果实 A 双分支。
+尚未证明达到 Precision、Recall 同时 95%。请不要把代码测试通过当成精度达标。
+
+一、怎么搬过去
+把整个文件夹复制到另一台电脑，例如 C:\Apple_DualBranch。那台电脑只有 C 盘也可以。
+不要只复制 scripts，也不要直接在 ZIP 内运行。保留 assets、weights、reference、src 的相对位置。
+建议预留至少 30GB 空间供环境、缓存和训练检查点；原始交接资产约 6.9GB。
+当前这台电脑上的文件和新缓存均在 F 盘；目标电脑的环境、缓存、临时目录位于复制后的包内。
+需要 NVIDIA 驱动、64 位 Python 3.11 和首次安装依赖的联网条件。已有 Anaconda 可以使用其中 Python 3.11 环境的 python.exe。
+
+二、依次运行
+1. 双击 01_setup.cmd：在本包 .venv 安装依赖，首次需下载 PyTorch，时间取决于网络。
+   若提示找不到 Python 3.11，在 PowerShell 进入包目录后运行：
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup.ps1 -BasePython "C:\你的Anaconda目录\envs\你的环境\python.exe"
+   依赖固定在 requirements.txt；安装脚本使用官方 cu132 的 torch 2.12.1 / torchvision 0.27.1。
+   如驱动不兼容，02_check 会给出错误。先修复目标电脑驱动或环境，不要把 CPU 训练当成 GPU 通过。
+2. 双击 02_check.cmd：检查 CUDA、显卡、起始权重 SHA、数据和标注契约。报告在 reports。
+3. 双击 03_gpu_stress.cmd：真实 768 输入、两个成功更新的 GPU 检查，包含两种数据。
+   这不是精度评估。若显存溢出或失败，先运行 05_feedback.cmd 把 ZIP 发回，不要继续盲跑。
+4. 检查通过后双击 04_train.cmd：开始独立正式试验。
+   默认 600 个成功更新，每次 4 张微批次，PApple 和 MinneApple 各 2 张；并非 600 个 epoch。
+   每 200 次成功更新评估完整 PApple VAL；显示训练日志，结果在 runs\mixed_pilot01。
+   学习率进度只按成功 optimizer step 推进，AMP 跳过会记录。
+5. 完成或失败后双击 05_feedback.cmd，把 feedback 内新产生的 ZIP 给我。
+   反馈包括日志、状态、评估数值、配置与环境，默认不含模型权重和原始数据，也不含对话记录。
+
+三、中断与恢复
+按 Ctrl+C 请求停止，程序会在当前完整更新边界保存。等窗口出现停止完成后再关闭。
+也可以在 runs\mixed_pilot01 内新建名为 STOP 的空文件。
+恢复前移走这个 STOP 文件，然后双击 04_resume.cmd；配置、源码、数据身份必须一致。
+last.pt 是最近安全边界，best.pt 是已完成完整验证中得分最高的模型；两者不是同一个概念。
+正式入口不会覆盖一个已有的非空输出目录。开始不同试验前更改 configs\pilot.json 中的 output。
+GPU stress 的检查点明确标记为 smoke，不能充当正式训练恢复点。
+
+四、本轮到底改了什么
+从已完成的 query epoch 6 模型仅加载模型参数，不继承旧 optimizer、AMP scaler 或学习率进度。
+PApple：2304 张训练图提供真实 V/A 成对监督，814 张验证图、3449 个 GT 全部保留。
+MinneApple：官方 train 的 670 张中，沿用 570 train / 100 val 文件划分。
+本轮训练仅用这 570 张原图的六个固定 512x512 重叠切片，共 3420 个训练条目。使用实例 ID 掩膜，不使用旧 YOLO 框标注。
+MinneApple 只有可见标注，A 为未知，完全不进入 A 匹配和 A 损失；不把未知 A 设成空掩膜。
+固定网格 x 起点为 0/208，y 起点为 0/384/768，宽高均为 512；全图使用同一网格，不按 GT 偷选窗口，不截断前 100 个目标。
+真实核查 670 张原图：六切片每条目最多 64 个目标，无超 100；全部 28183 个原 GT 至少在一个切片中完整包含，联合像素完整保留。
+原两切片方案因存在 107 个目标的训练切片已弃用；容量检查报告保留在 handoff。重复曝光仍保留原实例 ID，不计作新增原始样本。
+数据加载使用 workers=0、pin_memory=False、逐图读取，避免 Windows 多进程 DataLoader 内存和死锁问题。
+掩膜监督在 CPU 保留原分辨率，按点分块采样，不把密集 MinneApple 的全部完整 float 掩膜搬上 GPU。
+本包不使用你的原自采数据，不训练官方 MinneApple test 331 张图。
+
+五、评估与可信程度
+完整 PApple 验证基线：BOX P=R=88.3444%，重遮挡 BOX Recall=79.3923%。
+先前直接几何修正等联合试验最后可确认完成到 epoch 3，BOX P=R=87.5906%，没有提升。
+旧训练进程在交接检查时已不存在，epoch 4 中途状态不能计作完成结果。本包采用较好的 query epoch 6 起点。
+正式评估保留全部 814 图、3449 GT、13 张空图和原始标注异常；检查图像字节、实例身份和掩膜哈希。
+全体 VAL 使用一个 BOX 置信阈值，并在同一阈值报告独立 V/A 掩膜 P/R。完整曲线和原始预测保留。
+验证集用于开发与阈值选择，不能当成独立部署测试。MinneApple 整图切片融合评估暂未在此包实现。
+当前验收数值仍针对完整公开数据集。前景可采摘范围的验收还需相机深度、作业距离和可达性定义，不能通过随意删除远处 GT 达到指标。
+此包 CPU 契约和小尺度实际训练检查的执行情况另见 handoff\verification.json；目标 3080 上的 768 GPU 检查需要按以上步骤真实执行。
+
+六、文件在哪里
+src\apple_seg：当前实现；scripts：运行入口；configs\pilot.json：本轮配置。
+reference：按原字节保存的历史源码，评估使用其中两个已校验的公共计算模块，请一并保留。
+assets：公开训练/验证数据、Minne 文件划分、PApple 原始验证身份；weights：已校验的起始权重。
+asset_manifest.json / package_manifest.json：资产及交接文件大小与 SHA256，可核验拷贝。
+conversation：本次对话可见文本的脱敏 TXT / HTML / JSONL 和导出范围说明。
+handoff：交接时的实际检查记录、方法说明、版本号和包状态。
+对话记录供换电脑继续工作，未进入 GitHub。历史消息可能引用已废弃路径和方案，以本说明和当前配置为准。
+
+GitHub：https://github.com/yan999777888/apple_detection
+代码、配置与测试进行版本管理；原始数据、权重、环境、训练输出和私有对话不上传普通 Git。

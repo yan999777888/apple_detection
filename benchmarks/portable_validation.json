@@ -1,0 +1,15 @@
+{
+  "schema": "portable_handoff_validation_v1",
+  "date": "2026-10-22",
+  "integrated_CPU_suite": {"passed": 55, "skipped": 2, "subtests_passed": 10, "seconds": 44.67, "exit_code": 0, "notes": "Real parent and dataset integration enabled; default run skipped real mixed smoke and privileged junction creation. Both were additionally tested separately."},
+  "real_mixed_CPU64_suite": {"passed": 5, "seconds": 35.991, "exit_code": 0, "successful_updates": 1, "skipped_updates": 0, "source_order": ["PApple", "MinneApple", "PApple", "MinneApple"], "GT_counts": [3, 21, 1, 21], "GT_unchanged": true, "unknown_A_autograd_edge_absent": true, "A_V_class_shared_parameters_updated": true, "own_checkpoint_roundtrip_equal": true, "CUDA_initialized": false},
+  "relocated_full_PApple_VAL_data_identity": {"images": 814, "GT": 3449, "empty_images": 13, "all_mask_ID_order_box_and_RGB_checks_passed": true, "seconds": 62.875, "model_loaded": false},
+  "handoff_tools_separate_suite": {"passed": 10, "exit_code": 0, "actual_Windows_junction_exclusion_tested": true},
+  "copied_asset_files": 4465,
+  "copied_asset_bytes": 6887486911,
+  "all_assets_source_destination_SHA256_verified": true,
+  "PowerShell_parser_passed": true,
+  "RTX3080_768_GPU_execution_tested": false,
+  "new_full_training_accuracy_measured": false,
+  "Precision_Recall_95_achieved": false
+}

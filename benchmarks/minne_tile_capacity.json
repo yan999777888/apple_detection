@@ -1,0 +1,11 @@
+{
+  "schema": "minne_fixed_six_tile_capacity_summary_v1",
+  "performed_utc": "2026-10-22T04:37:51.665623+00:00",
+  "original_hw": [1280, 720],
+  "policy": {"tile_hw": [512, 512], "x_starts": [0, 208], "y_starts": [0, 384, 768], "GT_dependent_positions": false},
+  "official_train670": {"original_images": 670, "original_instances": 28183, "maximum_instances_per_tile": 64, "tiles_exceeding_100": 0, "all_GT_fully_contained_in_at_least_one_tile": true, "pixel_union_preserved": true},
+  "local_train570": {"original_images": 570, "original_instances": 20644, "tiles": 3420, "maximum_instances_per_tile": 59, "instance_exposures": 43633},
+  "local_val100": {"original_images": 100, "original_instances": 7539, "tiles": 600, "maximum_instances_per_tile": 64, "instance_exposures": 14558},
+  "rejected_two_720_tile_policy": {"reason": "100 query capacity exceeded", "maximum_train_instances_per_tile": 107, "maximum_val_instances_per_tile": 109},
+  "meaning": "Actual mask/ID capacity and preservation check only. Overlap exposures are not new original GT. No model inference or accuracy claim."
+}

@@ -1,0 +1,25 @@
+Bundled privately for the user's cross-computer research handoff; not uploaded to Git.
+
+PApple v4: https://zenodo.org/records/7260694
+Local bundle uses original TRAIN 2304 RGB + paired visible/amodal VIA JSON,
+and original VAL 814 RGB + paired visible/amodal VIA JSON.
+The original validation byte/GT identity is stored in assets/papple_val_provenance.json.
+Annotations are preserved, including visible/amodal geometric inconsistencies.
+The parent checkpoint was trained on the PApple TRAIN split and selected on VAL.
+
+MinneApple: https://github.com/nicolaihaeni/MinneApple
+670 official train RGB + instance-ID PNG masks from the detection download.
+Existing 570/100 train/validation filename assignment is preserved in the manifest.
+Mask pixels, not converted YOLO boxes, are the supervision source.
+The original manifest also references the 331 official test images, which are not bundled or used in this pilot.
+MinneApple has visible instance masks; it does not provide the amodal labels required by this dual-branch model.
+Unknown amodal supervision is omitted rather than assigned an empty mask.
+
+Use and redistribution remain subject to each original dataset's terms.
+The repository's MIT license applies to the repository code and does not replace dataset/model licenses.
+
+PyTorch Windows Python 3.11 wheel index checked during handoff assembly:
+https://download.pytorch.org/whl/cu132/torch/
+https://download.pytorch.org/whl/cu132/torchvision/
+torch 2.12.1+cu132 and torchvision 0.27.1+cu132 were listed.
+The 3080 machine's actual driver and GPU execution still require local preflight.
