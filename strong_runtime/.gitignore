@@ -1,0 +1,8 @@
+# Only the strong OD runtime and its frozen evaluator are versioned here.
+assets/
+reference/*
+!reference/local_amodal/
+reference/local_amodal/*
+!reference/local_amodal/scripts/
+reference/local_amodal/scripts/*
+!reference/local_amodal/scripts/metrics.py

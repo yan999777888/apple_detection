@@ -1,3 +1,11 @@
 * text=auto eol=lf
 # Keep executed historical source bytes, including line endings, exact.
 /reference/** -text
+# Strong experiments bind exact executed bytes in checkpoint/gate manifests.
+/strong_runtime/** -text -whitespace
+/src/apple_strong/** -text
+/scripts/reproduce_strong_baseline.py -text
+/scripts/train_strong.py -text
+/scripts/strong_pipeline.py -text
+/scripts/start_strong_pipeline.ps1 -text
+/configs/strong*.json -text

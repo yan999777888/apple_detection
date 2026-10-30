@@ -1,0 +1,20 @@
+{
+  "schema": "strong_full_four_view_baseline_v1",
+  "path_base": "..",
+  "paths": {
+    "papple_root": "../Apple_DualBranch_3080_20261022/assets/papple",
+    "provenance": "../Apple_DualBranch_3080_20261022/assets/papple_val_provenance.json",
+    "base_checkpoint": "../含权重/苹果检测成果包_20261029/05_模型权重/convnext_base_c2_2304/validated_002304.pt",
+    "small_checkpoint": "../含权重/苹果检测成果包_20261029/05_模型权重/convnext_small_joint2_2304/validated_002304.pt",
+    "output": "runs/strong_baseline_20261030",
+    "gate": "reports/strong_c0c1_20261030/baseline_gate.json"
+  },
+  "base_checkpoint_sha256": "0fe257c5bfe115a77ac7deac830af479e4c2b0ad6ff69e609901b24c7980fa9b",
+  "small_checkpoint_sha256": "e0c1f659c2509d7a01d617e12cb83c673768b440ea5b4b96cb4f763e4207e7e3",
+  "short_side": 1024,
+  "max_size": 1280,
+  "cpu_threads": 4,
+  "fusion": {"iou_threshold": 0.45, "score_mode": "mean", "box_mode": "score_weighted", "coverage_floor": 1.0,
+    "view_weights": [0.65, 0.65, 0.35, 0.35], "consensus_groups": [0, 0, 1, 1],
+    "consensus_bonus": 1.10, "isolation_penalty": 0.90}
+}

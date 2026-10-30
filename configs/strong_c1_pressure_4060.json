@@ -1,0 +1,41 @@
+{
+  "schema": "apple_strong_c0c1_v1",
+  "path_base": "..",
+  "parent_sha256": "0fe257c5bfe115a77ac7deac830af479e4c2b0ad6ff69e609901b24c7980fa9b",
+  "ignore_sha256": "79d6e40e6ed74b179a159d491cb4940a7d2cdf5a979307cc6a6fc671e2d7d958",
+  "paths": {
+    "parent_checkpoint": "../含权重/苹果检测成果包_20261029/05_模型权重/convnext_base_c2_2304/validated_002304.pt",
+    "parent_recipe_config": "../含权重/苹果检测成果包_20261029/07_运行环境与源码/configs/od_step4_convnextbase_c2_3080.json",
+    "papple_root": "../Apple_DualBranch_3080_20261022/assets/papple",
+    "ignore_boxes": "../含权重/苹果检测成果包_20261029/02_证据/step1_20261026/train_ignore_full.json",
+    "baseline_gate": "reports/strong_c0c1_20261030/baseline_gate.json",
+    "output": "runs/strong_C1_pressure_20261030"
+  },
+  "training": {
+    "max_updates": 1152,
+    "accumulate": 4,
+    "checkpoint_every": 50,
+    "gate_updates": 288,
+    "seed": 20261030,
+    "cpu_threads": 4,
+    "short_sides": [
+      768,
+      896,
+      1024
+    ],
+    "max_size": 1536,
+    "head_lr_scale": 0.1,
+    "warmup_updates": 50,
+    "ema_decay": 0.999,
+    "consistency_weight": 0.05,
+    "gradient_clip_norm": 1,
+    "amp_dtype": "bfloat16",
+    "smoke_indices": [
+      63,
+      475,
+      0,
+      2060
+    ]
+  },
+  "arm": "C1"
+}
