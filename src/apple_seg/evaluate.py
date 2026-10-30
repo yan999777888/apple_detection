@@ -14,6 +14,7 @@ import inspect
 import json
 import math
 import os
+import time
 from pathlib import Path
 
 import numpy as np
@@ -331,6 +332,13 @@ def _evaluate_with_contract(model, dataset, device, output_dir, contract):
                 "annotation_source_files_hashed": getattr(dataset, "annotation_paths", None) is not None}
     _atomic_json(metadata_path, metadata)
     records, diagnostics, rgb_records, gt_identity = [], [], [], []
+    started = time.monotonic()
+    def progress(phase):
+        state = {"phase": phase, "consumed_images": len(records), "total_images": len(contract["images"]),
+                 "elapsed_seconds": time.monotonic() - started, "updated_utc": datetime.now(timezone.utc).isoformat()}
+        _atomic_json(output_dir / "evaluation_progress.json", state)
+        print(f"VAL phase={phase} images={len(records)}/{len(contract['images'])} elapsed={state['elapsed_seconds']:.1f}s", flush=True)
+    progress("inference_and_mask_evaluation")
     was_training = model.training
     model.eval()
     try:
@@ -384,6 +392,9 @@ def _evaluate_with_contract(model, dataset, device, output_dir, contract):
                 records.append(record)
                 diagnostics.append(diagnostic)
                 del outputs, matrices, truth, item, target, prediction
+                if len(records) % 25 == 0 or len(records) == len(contract["images"]):
+                    progress("inference_and_mask_evaluation")
+        progress("threshold_calibration")
         calibrated = metrics.calibrate_threshold(records, .5, return_curve=True)
         confidence = calibrated["confidence"]
         replay = metrics.evaluate_at_threshold(records, confidence, .5)
@@ -419,10 +430,12 @@ def _evaluate_with_contract(model, dataset, device, output_dir, contract):
         _atomic_json(output_dir / "occlusion_diagnostics.json", _occlusion(diagnostics, contract, confidence))
         _atomic_json(metadata_path, metadata)
         _atomic_json(output_dir / "summary.json", summary)  # Completion marker written last.
+        progress("complete")
         return summary
     except Exception as error:
         metadata.update(phase="failed", failure_type=type(error).__name__, failure=str(error), consumed_images=len(records))
         _atomic_json(metadata_path, metadata)
+        progress("failed")
         raise
     finally:
         model.train(was_training)

@@ -1,4 +1,4 @@
-"""Mixed PApple/MinneApple training at complete four-image update boundaries."""
+"""PApple-only or mixed training at complete four-image update boundaries."""
 from __future__ import annotations
 
 from copy import deepcopy
@@ -12,11 +12,14 @@ import signal
 import time
 
 SCHEMA = "apple_seg_mixed_update_boundary_v1"
+PAPPLE_SCHEMA = "apple_seg_papple_s0_update_boundary_v1"
 SOURCE_ORDER = ("PApple", "MinneApple", "PApple", "MinneApple")
+SOURCE_ORDERS = {"mixed": SOURCE_ORDER, "papple_only": ("PApple",) * 4}
 DEFAULTS = dict(input_size=768, max_updates=600, accumulate=4, validate_every=200,
                 backbone_lr=1e-6, head_lr=5e-6, warmup_updates=50, workers=0,
                 seed=20261022, weight_decay=.05, gradient_clip_norm=.1,
-                checkpoint_every=50, cpu_threads=4)
+                checkpoint_every=50, cpu_threads=4, data_mode="mixed", shuffle=True,
+                model_selection="balanced_min_pr", smoke_sample_indices=None)
 
 
 def sha(path):
@@ -43,9 +46,25 @@ def load_config(path, *, input_size=None, max_updates=None, smoke=False, output=
     base = (path.parent / base_value).absolute()
     def locate(value):
         return (base / Path(value).expanduser()).absolute()
-    required = ("papple_root", "minne_root", "minne_manifest", "parent_checkpoint", "papple_provenance")
-    paths = {key: locate(raw["paths"][key]) for key in required}
     recipe = {**DEFAULTS, **raw.get("training", {})}
+    if recipe["data_mode"] not in SOURCE_ORDERS:
+        raise ValueError("data_mode must be mixed or papple_only")
+    required = ("papple_root", "parent_checkpoint", "papple_provenance")
+    if recipe["data_mode"] == "mixed":
+        required += ("minne_root", "minne_manifest")
+    paths = {key: locate(raw["paths"][key]) for key in required}
+    if type(recipe["shuffle"]) is not bool:
+        raise ValueError("shuffle must be an explicit boolean")
+    if type(recipe["seed"]) is not int or not 0 <= recipe["seed"] < 2**32:
+        raise ValueError("seed must be an integer in [0, 2**32)")
+    if recipe["model_selection"] not in ("balanced_min_pr", "precision_at_recall90"):
+        raise ValueError("Unknown model_selection rule")
+    fixed = recipe["smoke_sample_indices"]
+    if fixed is not None:
+        if not smoke or recipe["data_mode"] != "papple_only":
+            raise ValueError("smoke_sample_indices are only allowed in PApple-only smoke; never formal training")
+        if not isinstance(fixed, list) or len(fixed) != 4 or any(type(i) is not int or i < 0 for i in fixed):
+            raise ValueError("smoke_sample_indices must contain four nonnegative TRAIN indices")
     if input_size is not None:
         recipe["input_size"] = input_size
     if max_updates is not None:
@@ -60,26 +79,31 @@ def load_config(path, *, input_size=None, max_updates=None, smoke=False, output=
     for key in ("backbone_lr", "head_lr", "weight_decay", "gradient_clip_norm"):
         if not isinstance(recipe[key], (int, float)) or not math.isfinite(recipe[key]) or recipe[key] <= 0:
             raise ValueError(f"Positive finite recipe value required: {key}")
-    recipe["max_attempts"] = int(recipe.get("max_attempts", 10 * recipe["max_updates"] + 100))
-    if recipe["max_attempts"] < recipe["max_updates"]:
+    recipe["max_attempts"] = recipe.get("max_attempts", 10 * recipe["max_updates"] + 100)
+    if type(recipe["max_attempts"]) is not int or recipe["max_attempts"] < recipe["max_updates"]:
         raise ValueError("max_attempts cannot be smaller than successful-update target")
     return {"path": path, "base": base, "raw": raw, "paths": paths, "recipe": recipe,
+            "source_order": SOURCE_ORDERS[recipe["data_mode"]],
+            "checkpoint_schema": PAPPLE_SCHEMA if recipe["data_mode"] == "papple_only" else SCHEMA,
             "output": locate(output or raw.get("paths", {}).get("output") or raw.get("output", "runs/mixed_pilot01")), "smoke": bool(smoke)}
 
 
 class CyclingOrder:
     """One source's shuffled order, cursor and RNG; cycles are not training epochs."""
-    def __init__(self, length, seed):
+    def __init__(self, length, seed, *, shuffle=True):
         if length < 1:
             raise ValueError("Training sources cannot be empty")
         self.rng = random.Random(seed)
+        self.shuffle = shuffle
         self.order = list(range(length))
-        self.rng.shuffle(self.order)
+        if self.shuffle:
+            self.rng.shuffle(self.order)
         self.cursor, self.cycles = 0, 0
 
     def next(self):
         if self.cursor == len(self.order):
-            self.rng.shuffle(self.order)
+            if self.shuffle:
+                self.rng.shuffle(self.order)
             self.cursor = 0
             self.cycles += 1
         value = self.order[self.cursor]
@@ -88,9 +112,11 @@ class CyclingOrder:
 
     def state_dict(self):
         return {"order": list(self.order), "cursor": self.cursor, "cycles": self.cycles,
-                "rng": self.rng.getstate()}
+                "rng": self.rng.getstate(), "shuffle": self.shuffle}
 
     def load_state_dict(self, state):
+        if state.get("shuffle", True) != self.shuffle:
+            raise ValueError("Sampler shuffle policy differs")
         if sorted(state["order"]) != list(range(len(self.order))) or not 0 <= state["cursor"] <= len(self.order):
             raise ValueError("Sampler inventory or cursor differs")
         self.order, self.cursor, self.cycles = list(state["order"]), state["cursor"], state["cycles"]
@@ -148,11 +174,63 @@ def _same(left, right, torch, np):
     return left == right
 
 
-def _datasets(paths, size):
-    from .data import PAppleDataset, MinneAppleDataset
-    return {"PApple": PAppleDataset(paths["papple_root"], split="train", input_size=size),
-            "MinneApple": MinneAppleDataset(paths["minne_root"], paths["minne_manifest"],
-                                           split="train", input_size=size, tiled=True)}
+def _datasets(paths, size, data_mode="mixed"):
+    from .data import PAppleDataset
+    result = {"PApple": PAppleDataset(paths["papple_root"], split="train", input_size=size)}
+    if data_mode == "mixed":
+        from .data import MinneAppleDataset
+        result["MinneApple"] = MinneAppleDataset(paths["minne_root"], paths["minne_manifest"],
+                                               split="train", input_size=size, tiled=True)
+    elif data_mode != "papple_only":
+        raise ValueError("Unknown training data mode")
+    return result
+
+
+def _papple_capacity(dataset):
+    """Inspect every original instance ID without decoding or dropping masks."""
+    counts = [len(sample["instance_ids"]) for sample in dataset.samples]
+    if len(counts) != len(dataset):
+        raise ValueError("PApple inventory and loader length differ")
+    over = [index for index, count in enumerate(counts) if count > 100]
+    return {"images": len(counts), "GT_instances": sum(counts), "empty_images": counts.count(0),
+            "max_instances": max(counts, default=0), "query_capacity": 100,
+            "over_capacity_indices": over, "formal_training_compatible": not over,
+            "GT_truncated_or_skipped": False}
+
+
+def select_validation_point(evaluated, directory, rule):
+    """Select BOX workpoint and replay branch mask counts at that same threshold."""
+    if rule == "balanced_min_pr":
+        metric = evaluated["summary"]
+        return {"eligible": True, "rule": rule, "confidence": evaluated["confidence"],
+                "score": evaluated["score"], "summary": metric,
+                "ranking": [evaluated["score"], metric["f1"], evaluated["confidence"]]}
+    if rule != "precision_at_recall90":
+        raise ValueError("Unknown checkpoint selection rule")
+    curve = json.loads((Path(directory) / "box_threshold_curve.json").read_text(encoding="utf-8"))
+    eligible = [row for row in curve if row["recall"] >= .90]
+    if not eligible:
+        return {"eligible": False, "rule": rule, "confidence": None, "score": None,
+                "summary": None, "ranking": None, "reason": "Full original VAL never reaches Recall >= 0.90",
+                "max_recall": max((row["recall"] for row in curve), default=0.)}
+    chosen = max(eligible, key=lambda row: (row["precision"], row["recall"], row["f1"], row["confidence"]))
+    metric = {**chosen, "images": evaluated["summary"]["images"],
+              "empty_gt_images": evaluated["summary"]["empty_gt_images"]}
+    from . import evaluate as evaluation
+    if sha(evaluation.METRICS_PATH) != evaluation.REFERENCE_PINS[evaluation.METRICS_PATH]:
+        raise ValueError("Frozen metric reference changed before alternate-threshold mask replay")
+    metrics = evaluation._module(evaluation.METRICS_PATH, "_apple_s0_selection_reference_metrics")
+    diagnostics_path = Path(directory) / "mask_pair_diagnostics.json"
+    diagnostics = json.loads(diagnostics_path.read_text(encoding="utf-8"))
+    for branch in ("visible", "amodal"):
+        metric[branch + "_instance_mask_pr_iou50"] = evaluation._mask_pr(
+            diagnostics, branch + "_mask", chosen["confidence"], chosen["gt_count"], metrics)
+    return {"eligible": True, "rule": rule, "confidence": chosen["confidence"],
+            "score": chosen["precision"], "summary": metric,
+            "ranking": [chosen["precision"], chosen["recall"], chosen["f1"], chosen["confidence"]],
+            "mask_metric_scope": "V/A independently matched at mask IoU>=0.5; counts replayed at this selected BOX confidence from complete diagnostics",
+            "mask_diagnostics_sha256": sha(diagnostics_path),
+            "selection_scope": "Complete exact distinct-score development VAL curve; no TEST tuning"}
 
 
 def criterion_in_fp32(criterion, outputs, targets, *, generator=None):
@@ -180,6 +258,7 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
     if dev.type == "cpu" and torch.cuda.is_initialized():
         raise RuntimeError("CPU run requires CUDA to remain uninitialized")
     recipe, paths, out = cfg["recipe"], cfg["paths"], cfg["output"]
+    source_order, checkpoint_schema = cfg["source_order"], cfg["checkpoint_schema"]
     if out.exists() and any(p.name != "runtime.log" for p in out.iterdir()) and resume is None:
         raise FileExistsError("Use a fresh output directory or --resume")
     out.mkdir(parents=True, exist_ok=True)
@@ -197,8 +276,11 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
     source_files = [Path(__file__), Path(__file__).with_name("model.py"), Path(__file__).with_name("losses.py"),
                     Path(__file__).with_name("data.py"), Path(__file__).with_name("evaluate.py")]
     sources = {p.name: sha(p) for p in source_files}
-    datasets = _datasets(paths, recipe["input_size"])
+    datasets = _datasets(paths, recipe["input_size"], recipe["data_mode"])
     datasets_metadata = {name: ds.metadata() if hasattr(ds, "metadata") else {} for name, ds in datasets.items()}
+    datasets_metadata["PApple"]["query_capacity_audit"] = _papple_capacity(datasets["PApple"])
+    if recipe["smoke_sample_indices"] is not None and max(recipe["smoke_sample_indices"]) >= len(datasets["PApple"]):
+        raise ValueError("A fixed smoke TRAIN index is outside the PApple inventory")
     for name, metadata in datasets_metadata.items():
         capacity = metadata.get("query_capacity_audit", {})
         if not smoke and (capacity.get("formal_training_compatible") is False or capacity.get("blocked") is True):
@@ -206,11 +288,18 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
             atomic_json(out / "training_status.json", {"phase": "failed", "failure_type": "QueryCapacity",
                         "failure": message, "query_capacity_audit": capacity})
             raise ValueError(message)
-    identity = {"recipe": recipe, "source_order": list(SOURCE_ORDER), "smoke": smoke,
+    identity = {"recipe": recipe, "source_order": list(source_order), "smoke": smoke,
+                "data_mode": recipe["data_mode"],
                 "parent_sha256": cfg["raw"]["parent_sha256"], "source_sha256": sources,
-                "minne_manifest_sha256": sha(paths["minne_manifest"]),
                 "papple_provenance_sha256": sha(paths["papple_provenance"]),
                 "datasets": {name: {"items": len(ds), "annotation_sha256": getattr(ds, "annotation_sha256", None)} for name, ds in datasets.items()}}
+    if recipe["data_mode"] == "mixed":
+        identity["minne_manifest_sha256"] = sha(paths["minne_manifest"])
+    else:
+        identity["experiment_arm"] = cfg["raw"].get("experiment_arm", "S0_GT_only")
+        identity["runtime"] = {"device_type": dev.type, "model_amp_dtype": "float16" if dev.type == "cuda" else "float32",
+                               "criterion_dtype": "float32", "grad_scaler_enabled": dev.type == "cuda",
+                               "torch_version": torch.__version__, "cuda_build": torch.version.cuda}
     atomic_json(out / "training_status.json", {"phase": "initializing", "identity": identity})
     from .model import from_checkpoint
     from .losses import build_annotation_aware_criterion
@@ -225,7 +314,8 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
         weight_decay=recipe["weight_decay"], foreach=False)
     scaler = torch.amp.GradScaler(dev.type, init_scale=128., enabled=dev.type == "cuda")
     generator = torch.Generator(device=dev).manual_seed(recipe["seed"])
-    samplers = {name: CyclingOrder(len(ds), recipe["seed"] + n) for n, (name, ds) in enumerate(datasets.items())}
+    samplers = {name: CyclingOrder(len(ds), recipe["seed"] + n, shuffle=recipe["shuffle"])
+                for n, (name, ds) in enumerate(datasets.items())}
     updates = {"attempted": 0, "successful": 0, "skipped": 0}
     history, validations, best = [], [], None
     if resume is not None:
@@ -236,8 +326,8 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
         # Own optimizer state must not retain a file mapping of last.pt: on
         # Windows that mapping can prevent atomic replacement at the next save.
         saved = torch.load(checkpoint_path, map_location="cpu", weights_only=False, mmap=False)
-        if saved["schema"] != SCHEMA or saved["identity"] != identity or not saved["update_boundary"] or saved["checkpoint_kind"] != "formal_update_boundary":
-            raise ValueError("Resume requires this exact formal mixed plan at a complete update boundary; smoke is not a warm start")
+        if saved["schema"] != checkpoint_schema or saved["identity"] != identity or not saved["update_boundary"] or saved["checkpoint_kind"] != "formal_update_boundary":
+            raise ValueError("Resume requires this exact formal data plan/runtime at a complete update boundary; smoke is not a warm start")
         model.load_state_dict(saved["model"], strict=True)
         optimizer.load_state_dict(saved["optimizer"])
         scaler.load_state_dict(saved["scaler"])
@@ -253,7 +343,7 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
     last_entry = None
 
     def save_boundary(phase, is_best=False):
-        payload = {"schema": SCHEMA, "checkpoint_kind": "smoke_partial_not_formal_resume" if smoke else "formal_update_boundary",
+        payload = {"schema": checkpoint_schema, "checkpoint_kind": "smoke_partial_not_formal_resume" if smoke else "formal_update_boundary",
                    "formal_training_resumable": not smoke, "update_boundary": True, "phase": phase,
                    "identity": identity, "model_config": model.model_config, "constructed_model_config": model.constructed_model_config,
                    "parent_provenance": parent, "datasets_metadata": datasets_metadata,
@@ -294,9 +384,11 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
             if updates["attempted"] >= recipe["max_attempts"]:
                 raise RuntimeError("Attempt limit reached before requested successful updates")
             optimizer.zero_grad(set_to_none=True)
+            update_started = time.perf_counter()
             micro = []
-            for source_name in SOURCE_ORDER:
-                index = samplers[source_name].next()
+            for micro_index, source_name in enumerate(source_order):
+                index = (recipe["smoke_sample_indices"][micro_index]
+                         if recipe["smoke_sample_indices"] is not None else samplers[source_name].next())
                 item = datasets[source_name][index]
                 target = item["target"]
                 if target["source"]["dataset"] != source_name or target["source"]["split"] != "train":
@@ -310,7 +402,7 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
                 losses = criterion_in_fp32(criterion, outputs, [target], generator=generator)
                 total = sum(losses.values())
                 if not bool(torch.isfinite(total)):
-                    raise RuntimeError("Nonfinite real mixed loss")
+                    raise RuntimeError("Nonfinite real training loss")
                 unknown = not target["annotation_validity"]["amodal"]
                 absent = None
                 if unknown:
@@ -321,10 +413,10 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
                         absent = all(grad is None for grad in grads)
                         if not absent:
                             raise RuntimeError("Unknown real A annotation acquired a gradient edge")
-                scaler.scale(total / 4).backward()
+                scaler.scale(total / len(source_order)).backward()
                 after = target_fingerprint(target)
                 if before != after:
-                    raise RuntimeError("Original real GT changed during mixed backward")
+                    raise RuntimeError("Original real GT changed during backward")
                 micro.append({"source": deepcopy(target["source"]), "dataset_index": index,
                               "GT_count": len(target["labels"]), "GT_fingerprint": before, "GT_unchanged": True,
                               "losses": {key: float(value.detach()) for key, value in losses.items()},
@@ -345,7 +437,7 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
                             "shared_encoder": model.shared.pixel_level_module.encoder}
                 for name, module in readouts.items():
                     gradients = [p.grad for p in module.parameters() if p.grad is not None]
-                    gradient_evidence[name] = sum(float(g.abs().sum()) for g in gradients)
+                    gradient_evidence[name] = sum(float(g.abs().sum()) for g in gradients) if finite else None
                     parameter = next(p for p in module.parameters() if p.grad is not None)
                     before_parameters[name] = (parameter, parameter.detach().clone())
             norm = float(torch.nn.utils.clip_grad_norm_(model.parameters(), recipe["gradient_clip_norm"], error_if_nonfinite=True)) if finite else None
@@ -367,10 +459,17 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
                    "learning_rates": {g["name"]: g["lr"] for g in optimizer.param_groups},
                    "scaler_scale": scaler.get_scale(), "unclipped_gradient_norm": norm,
                    "finite_gradients": finite, "smoke_readout_gradient_abs_sum": gradient_evidence,
-                   "smoke_parameter_max_abs_change": parameter_changes, "micro_batches": micro}
+                   "smoke_parameter_max_abs_change": parameter_changes, "micro_batches": micro,
+                   "seconds_for_update": time.perf_counter() - update_started,
+                   "cuda_peak_allocated_bytes": torch.cuda.max_memory_allocated(dev) if dev.type == "cuda" else None,
+                   "cuda_peak_reserved_bytes": torch.cuda.max_memory_reserved(dev) if dev.type == "cuda" else None}
+            import psutil
+            row["process_memory"] = psutil.Process().memory_info()._asdict()
+            row["available_system_memory_bytes"] = psutil.virtual_memory().available
             history.append(row)
             is_best = False
-            if executed and not smoke and updates["successful"] % recipe["validate_every"] == 0:
+            if executed and not smoke and (updates["successful"] % recipe["validate_every"] == 0
+                                          or updates["successful"] == recipe["max_updates"]):
                 from .data import PAppleDataset
                 from .evaluate import evaluate_papple
                 val = PAppleDataset(paths["papple_root"], split="val", input_size=recipe["input_size"])
@@ -379,10 +478,14 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
                 metric = evaluated["summary"]
                 if evaluated["phase"] != "complete" or not evaluated["model_selection_eligible"] or (metric["images"], metric["gt_count"], metric["empty_gt_images"]) != (814, 3449, 13):
                     raise RuntimeError("Only complete original full PApple VAL can select best")
+                selection = select_validation_point(evaluated, val_dir, recipe["model_selection"])
                 point = {"successful_updates": updates["successful"], "directory": str(val_dir.relative_to(out)),
-                         "confidence": evaluated["confidence"], "score": evaluated["score"], "summary": metric}
+                         **selection, "balanced_evaluation": {"confidence": evaluated["confidence"],
+                         "score": evaluated["score"], "summary": metric,
+                         "mask_metric_scope": "V/A metrics apply only at this original balanced BOX confidence"}}
+                atomic_json(val_dir / "checkpoint_selection.json", point)
                 validations.append(point)
-                is_best = best is None or (point["score"], metric["f1"], point["confidence"]) > (best["score"], best["summary"]["f1"], best["confidence"])
+                is_best = point["eligible"] and (best is None or tuple(point["ranking"]) > tuple(best["ranking"]))
                 if is_best:
                     best = point
                 del val
@@ -390,7 +493,7 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
                 last_entry = save_boundary("running", is_best)
             atomic_json(out / "training_status.json", {"phase": "training", "smoke": smoke, "plan": recipe,
                         "updates": dict(updates), **updates, "last_update": row, "best": best})
-            print(f"MIXED successful={updates['successful']}/{recipe['max_updates']} attempted={updates['attempted']} skipped={updates['skipped']} lr_factor={factor:.6f}", flush=True)
+            print(f"{recipe['data_mode'].upper()} successful={updates['successful']}/{recipe['max_updates']} attempted={updates['attempted']} skipped={updates['skipped']} lr_factor={factor:.6f}", flush=True)
         completed = updates["successful"] == recipe["max_updates"]
         phase = ("smoke_complete" if smoke else "complete") if completed else "interrupted"
         last_entry = save_boundary(phase)
@@ -399,7 +502,9 @@ def run_training(config_path, *, device="cuda", smoke=False, max_updates=None,
             raise RuntimeError("Consumed training/model/data/loss/evaluation source changed")
         if dev.type == "cpu" and torch.cuda.is_initialized():
             raise RuntimeError("CPU execution initialized CUDA")
-        summary = {"schema": SCHEMA, "phase": phase, "smoke": smoke, "plan": recipe, "updates": updates,
+        summary = {"schema": checkpoint_schema, "phase": phase, "smoke": smoke, "plan": recipe, "updates": updates,
+                   "identity": identity, "config_sha256": sha(cfg["path"]),
+                   "data_mode": recipe["data_mode"], "source_order": list(source_order),
                    "requested_successful_updates_completed": completed, "default600_training_complete": completed and not smoke and recipe["max_updates"] == 600,
                    "formal_training_resumable": not smoke, "checkpoint": last_entry, "best": best,
                    "criterion_math_dtype": "float32", "datasets_metadata": datasets_metadata,

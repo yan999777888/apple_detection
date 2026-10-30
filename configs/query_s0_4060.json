@@ -1,0 +1,35 @@
+{
+  "schema": "apple_query_s0_experiment_v1",
+  "experiment_arm": "S0_GT_only",
+  "path_base": "..",
+  "prerequisites": {
+    "q0_directory": "runs/query_q0_fullval_20261030",
+    "pressure_directory": "runs/query_s0_pressure_20261030"
+  },
+  "paths": {
+    "papple_root": "../Apple_DualBranch_3080_20261022/assets/papple",
+    "parent_checkpoint": "../Apple_DualBranch_3080_20261022/weights/query_epoch006.pt",
+    "papple_provenance": "../Apple_DualBranch_3080_20261022/assets/papple_val_provenance.json",
+    "output": "runs/query_s0_20261030_seed20261030"
+  },
+  "parent_sha256": "aac6f257bf43af3b945dd3469ba66214de99d7ae878e13e85ec7bef0e20b3227",
+  "training": {
+    "data_mode": "papple_only",
+    "model_selection": "precision_at_recall90",
+    "input_size": 768,
+    "max_updates": 1152,
+    "max_attempts": 1200,
+    "accumulate": 4,
+    "validate_every": 576,
+    "checkpoint_every": 50,
+    "backbone_lr": 0.000001,
+    "head_lr": 0.000005,
+    "warmup_updates": 50,
+    "weight_decay": 0.05,
+    "gradient_clip_norm": 0.1,
+    "workers": 0,
+    "cpu_threads": 4,
+    "seed": 20261030,
+    "shuffle": true
+  }
+}

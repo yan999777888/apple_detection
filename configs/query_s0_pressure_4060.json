@@ -1,0 +1,32 @@
+{
+  "schema": "apple_query_s0_pressure_v1",
+  "experiment_arm": "pressure_only_not_formal_training",
+  "path_base": "..",
+  "paths": {
+    "papple_root": "../Apple_DualBranch_3080_20261022/assets/papple",
+    "parent_checkpoint": "../Apple_DualBranch_3080_20261022/weights/query_epoch006.pt",
+    "papple_provenance": "../Apple_DualBranch_3080_20261022/assets/papple_val_provenance.json",
+    "output": "runs/query_s0_pressure_20261030"
+  },
+  "parent_sha256": "aac6f257bf43af3b945dd3469ba66214de99d7ae878e13e85ec7bef0e20b3227",
+  "training": {
+    "data_mode": "papple_only",
+    "model_selection": "precision_at_recall90",
+    "input_size": 768,
+    "max_updates": 2,
+    "max_attempts": 8,
+    "accumulate": 4,
+    "validate_every": 576,
+    "checkpoint_every": 1,
+    "backbone_lr": 0.000001,
+    "head_lr": 0.000005,
+    "warmup_updates": 50,
+    "weight_decay": 0.05,
+    "gradient_clip_norm": 0.1,
+    "workers": 0,
+    "cpu_threads": 4,
+    "seed": 20261030,
+    "shuffle": true,
+    "smoke_sample_indices": [63, 475, 0, 2060]
+  }
+}

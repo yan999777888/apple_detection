@@ -1,4 +1,4 @@
-"""Portable mixed-data pilot entry; source paths are resolved from config base."""
+"""Portable PApple-only / mixed entry; source paths resolve from config base."""
 from pathlib import Path
 import argparse
 from datetime import datetime, timezone
@@ -30,10 +30,10 @@ class Tee:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Real PApple/MinneApple four-image mixed updates")
+    parser = argparse.ArgumentParser(description="Real four-image updates; training.data_mode selects PApple-only or mixed")
     parser.add_argument("--config", required=True, type=Path)
     parser.add_argument("--device", choices=("cpu", "cuda"), default="cuda")
-    parser.add_argument("--smoke", action="store_true", help="One real mixed update by default; no full VAL or formal warm start")
+    parser.add_argument("--smoke", action="store_true", help="One real update by default; no full VAL or formal warm start")
     parser.add_argument("--max-updates", type=int)
     parser.add_argument("--input-size", type=int)
     parser.add_argument("--output", type=Path)
