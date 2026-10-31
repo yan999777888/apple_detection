@@ -1,0 +1,23 @@
+{
+  "schema": "strong_fast_original_weights_validation_plan_v1",
+  "baseline_config": "configs/strong_baseline_4060.json",
+  "report_directory": "reports/fast_deploy_20261031/full_validation",
+  "single_output": "runs/fast_fp16_all_single_1024_20261031",
+  "paired_output": "runs/fast_fp16_all_paired_1024_20261031",
+  "small512_output": "runs/fast_fp16_all_small512_fullframe_20261031",
+  "scope": "Original weights, original full VAL, no training; P@R90 and fixed .75. FP16 changes numerics; batch1 and batch2 require distinct inference.",
+  "candidate_cutoff_audit": "Infer all original final-score candidates once; derive .35 high-score prefix using descending greedy NMS invariance, then recompute fusion and metrics.",
+  "pin_sources": ["scripts/evaluate_fast_deployment.py", "deployment/strong_fast.py", "scripts/run_fast_validation_pipeline.py", "configs/strong_baseline_4060.json"],
+  "expected_source_sha256": {
+    "scripts/evaluate_fast_deployment.py": "3db68ec64a0a53f7f9f210de36f6bbd59c0541b7a7eb9897354e2931b04950ff",
+    "deployment/strong_fast.py": "00fdfd2c590ea2ea68fbb7163a5b82cfd1cbaf678a8889e0ebf37f83428eafbb"
+  },
+  "stages": [
+    {"id":"base_single_1024", "stage":"base", "output":"runs/fast_fp16_all_single_1024_20261031", "short_side":1024,"max_size":1280,"views":"original","paired":false},
+    {"id":"small_single_1024", "stage":"small", "output":"runs/fast_fp16_all_single_1024_20261031", "short_side":1024,"max_size":1280,"views":"original","paired":false},
+    {"id":"base_paired_1024", "stage":"base", "output":"runs/fast_fp16_all_paired_1024_20261031", "short_side":1024,"max_size":1280,"views":"both","paired":true},
+    {"id":"small_paired_1024", "stage":"small", "output":"runs/fast_fp16_all_paired_1024_20261031", "short_side":1024,"max_size":1280,"views":"both","paired":true},
+    {"id":"paired_fusion_1024", "stage":"fuse", "output":"runs/fast_fp16_all_paired_1024_20261031", "short_side":1024,"max_size":1280,"views":"both","paired":true},
+    {"id":"small512_fullframe", "stage":"small", "output":"runs/fast_fp16_all_small512_fullframe_20261031", "short_side":512,"max_size":512,"views":"original","paired":false}
+  ]
+}
