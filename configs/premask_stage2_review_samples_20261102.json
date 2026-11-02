@@ -1,0 +1,224 @@
+{
+  "schema": "premask_stage2_review_diagnostic_manifest_v1",
+  "execution_status": "awaiting_user_confirmation_before_GPU",
+  "scope": "41 image regression diagnostic only; not unbiased full VAL or independent test",
+  "sample_count": 41,
+  "original_32_manifest": {
+    "path": "configs\\premask_audit_samples_20261102.json",
+    "sha256": "9477c1aef0704437eabcfe467c78239a04883f2795eea461d08daf1d7dbb1dc5"
+  },
+  "selection_uses_previous_outcomes": true,
+  "GT_must_not_enter_inference": true,
+  "full_validation_scope_unchanged": {
+    "images": 814,
+    "GT": 3449,
+    "empty": 13
+  },
+  "samples": [
+    {
+      "image_index": 25,
+      "image_id": "_MG_2655_12.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 74,
+      "image_id": "_MG_2670_23.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 85,
+      "image_id": "_MG_2674_05.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 114,
+      "image_id": "_MG_2682_21.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 120,
+      "image_id": "_MG_2684_04.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 181,
+      "image_id": "_MG_2699_03.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 224,
+      "image_id": "_MG_2710_16.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 230,
+      "image_id": "_MG_2711_09.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 260,
+      "image_id": "_MG_2719_02.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 280,
+      "image_id": "_MG_2722_22.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 292,
+      "image_id": "_MG_2724_01.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 311,
+      "image_id": "_MG_2729_18.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 333,
+      "image_id": "_MG_2733_16.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 336,
+      "image_id": "_MG_2734_06.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 346,
+      "image_id": "_MG_2736_17.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 368,
+      "image_id": "_MG_2744_04.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 406,
+      "image_id": "_MG_2753_20.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 479,
+      "image_id": "_MG_2774_22.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 509,
+      "image_id": "_MG_2784_19.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 514,
+      "image_id": "_MG_2786_20.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 515,
+      "image_id": "_MG_2787_09.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 543,
+      "image_id": "_MG_6339_17.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 551,
+      "image_id": "_MG_6354_12.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 559,
+      "image_id": "_MG_6365_05.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 579,
+      "image_id": "_MG_6392_12.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 592,
+      "image_id": "_MG_6400_16.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 598,
+      "image_id": "_MG_6402_20.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 640,
+      "image_id": "_MG_6424_13.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 689,
+      "image_id": "_MG_6460_19.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 704,
+      "image_id": "_MG_6468_20.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 734,
+      "image_id": "_MG_6485_04.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 740,
+      "image_id": "_MG_6486_20.png",
+      "reason": "original_prespecified_32_image_diagnostic"
+    },
+    {
+      "image_index": 202,
+      "image_id": "_MG_2702_21.png",
+      "reason": "previous_measured_miss_regression_case"
+    },
+    {
+      "image_index": 384,
+      "image_id": "_MG_2746_17.png",
+      "reason": "previous_measured_miss_regression_case"
+    },
+    {
+      "image_index": 472,
+      "image_id": "_MG_2771_14.png",
+      "reason": "previous_measured_miss_regression_case"
+    },
+    {
+      "image_index": 206,
+      "image_id": "_MG_2704_24.png",
+      "reason": "previous_measured_miss_regression_case"
+    },
+    {
+      "image_index": 413,
+      "image_id": "_MG_2755_07.png",
+      "reason": "previous_measured_miss_regression_case"
+    },
+    {
+      "image_index": 561,
+      "image_id": "_MG_6365_24.png",
+      "reason": "previous_measured_miss_regression_case"
+    },
+    {
+      "image_index": 272,
+      "image_id": "_MG_2721_09.png",
+      "reason": "previous_measured_miss_regression_case"
+    },
+    {
+      "image_index": 133,
+      "image_id": "_MG_2687_04.png",
+      "reason": "previous_measured_miss_regression_case"
+    },
+    {
+      "image_index": 188,
+      "image_id": "_MG_2700_09.png",
+      "reason": "previous_measured_miss_regression_case"
+    }
+  ]
+}
