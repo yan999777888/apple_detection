@@ -1,0 +1,145 @@
+{
+  "schema": "original_strong_premask_full_validation_v1",
+  "report_directory": "reports/premask_20261102/full_validation/jobs",
+  "training": false,
+  "source": "Original Base and Small only; no modified GT or evaluation scope",
+  "scope": "K64-only and bbox NMS .8 + K64 as separated full single-view comparisons; no initial threshold; no automatic promotion",
+  "stages": [
+    {
+      "id": "k64_base",
+      "script": "scripts/evaluate_premask.py",
+      "arguments": [
+        "--config",
+        "configs/strong_baseline_4060.json",
+        "--stage",
+        "base",
+        "--output",
+        "runs/premask_k64_single_20261102",
+        "--candidate-policy",
+        "configs/premask_k64.json",
+        "--views",
+        "original",
+        "--precision",
+        "fp16",
+        "--roi-chunk-size",
+        "64",
+        "--roi-precision",
+        "autocast",
+        "--save-roi-masks"
+      ]
+    },
+    {
+      "id": "k64_base_cpu_audit",
+      "script": "scripts/summarize_premask_validation.py",
+      "arguments": [
+        "--stage-dir",
+        "runs/premask_k64_single_20261102/base",
+        "--mask-metrics",
+        "--output",
+        "reports/premask_20261102/full_validation/k64_base_audit"
+      ]
+    },
+    {
+      "id": "k64_small",
+      "script": "scripts/evaluate_premask.py",
+      "arguments": [
+        "--config",
+        "configs/strong_baseline_4060.json",
+        "--stage",
+        "small",
+        "--output",
+        "runs/premask_k64_single_20261102",
+        "--candidate-policy",
+        "configs/premask_k64.json",
+        "--views",
+        "original",
+        "--precision",
+        "fp16",
+        "--roi-chunk-size",
+        "64",
+        "--roi-precision",
+        "autocast",
+        "--save-roi-masks"
+      ]
+    },
+    {
+      "id": "k64_small_cpu_audit",
+      "script": "scripts/summarize_premask_validation.py",
+      "arguments": [
+        "--stage-dir",
+        "runs/premask_k64_single_20261102/small",
+        "--mask-metrics",
+        "--output",
+        "reports/premask_20261102/full_validation/k64_small_audit"
+      ]
+    },
+    {
+      "id": "nms080_k64_base",
+      "script": "scripts/evaluate_premask.py",
+      "arguments": [
+        "--config",
+        "configs/strong_baseline_4060.json",
+        "--stage",
+        "base",
+        "--output",
+        "runs/premask_nms080_k64_single_20261102",
+        "--candidate-policy",
+        "configs/premask_nms080_k64.json",
+        "--views",
+        "original",
+        "--precision",
+        "fp16",
+        "--roi-chunk-size",
+        "64",
+        "--roi-precision",
+        "autocast",
+        "--save-roi-masks"
+      ]
+    },
+    {
+      "id": "nms080_k64_base_cpu_audit",
+      "script": "scripts/summarize_premask_validation.py",
+      "arguments": [
+        "--stage-dir",
+        "runs/premask_nms080_k64_single_20261102/base",
+        "--mask-metrics",
+        "--output",
+        "reports/premask_20261102/full_validation/nms080_k64_base_audit"
+      ]
+    },
+    {
+      "id": "nms080_k64_small",
+      "script": "scripts/evaluate_premask.py",
+      "arguments": [
+        "--config",
+        "configs/strong_baseline_4060.json",
+        "--stage",
+        "small",
+        "--output",
+        "runs/premask_nms080_k64_single_20261102",
+        "--candidate-policy",
+        "configs/premask_nms080_k64.json",
+        "--views",
+        "original",
+        "--precision",
+        "fp16",
+        "--roi-chunk-size",
+        "64",
+        "--roi-precision",
+        "autocast",
+        "--save-roi-masks"
+      ]
+    },
+    {
+      "id": "nms080_k64_small_cpu_audit",
+      "script": "scripts/summarize_premask_validation.py",
+      "arguments": [
+        "--stage-dir",
+        "runs/premask_nms080_k64_single_20261102/small",
+        "--mask-metrics",
+        "--output",
+        "reports/premask_20261102/full_validation/nms080_k64_small_audit"
+      ]
+    }
+  ]
+}
