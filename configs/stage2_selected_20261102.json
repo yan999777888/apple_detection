@@ -1,0 +1,12 @@
+{
+  "candidate_policy": {
+    "score_threshold": 0.15,
+    "box_nms_iou": 0.8,
+    "topk": 64
+  },
+  "preprocess_device": "cpu",
+  "channels_last": false,
+  "cudnn_benchmark": false,
+  "cudnn_deterministic": false,
+  "roi_align_precision": "fp32"
+}
