@@ -1,0 +1,81 @@
+{
+  "schema": "original_strong_premask_paired_validation_v1",
+  "report_directory": "reports/premask_20261102/paired_validation/jobs",
+  "training": false,
+  "automatic_promotion": false,
+  "reason": "Full single-view NMS64 retains almost all recall; Small lost heavy instances are still detected by new Base original. Independently re-infer every paired view, no mixing old flipped predictions.",
+  "stages": [
+    {
+      "id": "nms080_k64_paired_base",
+      "script": "scripts/evaluate_premask.py",
+      "arguments": [
+        "--config",
+        "configs/strong_baseline_4060.json",
+        "--stage",
+        "base",
+        "--output",
+        "runs/premask_nms080_k64_paired_20261102",
+        "--candidate-policy",
+        "configs/premask_nms080_k64.json",
+        "--views",
+        "both",
+        "--paired-backbone-batch2",
+        "--precision",
+        "fp16",
+        "--roi-chunk-size",
+        "64",
+        "--roi-precision",
+        "autocast",
+        "--save-roi-masks"
+      ]
+    },
+    {
+      "id": "nms080_k64_paired_small",
+      "script": "scripts/evaluate_premask.py",
+      "arguments": [
+        "--config",
+        "configs/strong_baseline_4060.json",
+        "--stage",
+        "small",
+        "--output",
+        "runs/premask_nms080_k64_paired_20261102",
+        "--candidate-policy",
+        "configs/premask_nms080_k64.json",
+        "--views",
+        "both",
+        "--paired-backbone-batch2",
+        "--precision",
+        "fp16",
+        "--roi-chunk-size",
+        "64",
+        "--roi-precision",
+        "autocast",
+        "--save-roi-masks"
+      ]
+    },
+    {
+      "id": "nms080_k64_paired_fuse",
+      "script": "scripts/evaluate_premask.py",
+      "arguments": [
+        "--config",
+        "configs/strong_baseline_4060.json",
+        "--stage",
+        "fuse",
+        "--output",
+        "runs/premask_nms080_k64_paired_20261102",
+        "--candidate-policy",
+        "configs/premask_nms080_k64.json",
+        "--views",
+        "both",
+        "--paired-backbone-batch2",
+        "--precision",
+        "fp16",
+        "--roi-chunk-size",
+        "64",
+        "--roi-precision",
+        "autocast",
+        "--save-roi-masks"
+      ]
+    }
+  ]
+}
