@@ -1,0 +1,12 @@
+# Tested dependency snapshot for the F-drive local_rgbd_v1 entry point.
+# It currently reads packages from F:\anaconda\envs\falldet via system-site-packages.
+# Do NOT install/upgrade this file into that shared strong-model environment.
+# CUDA wheels are the already-installed cu132 builds; no environment install was performed.
+torch==2.12.1+cu132
+torchvision==0.27.1+cu132
+ultralytics==8.4.115
+numpy==2.4.6
+scipy==1.17.1
+opencv-python==5.0.0
+pillow==12.3.0
+pytest==9.1.1

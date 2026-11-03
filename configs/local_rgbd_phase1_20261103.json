@@ -1,0 +1,52 @@
+{
+  "schema": "local_rgbd_phase1_evidence_plan_v1",
+  "scope": "local segmentation runtime readiness and geometry baselines, no training or robot motion",
+  "global_original_model_policy": "preserve original Base+Small weights and original baseline",
+  "environment": {
+    "entry": "scripts/runtime_local_rgbd.ps1",
+    "python": "envs/local_rgbd_v1/Scripts/python.exe",
+    "dependencies": "read-only existing F:/anaconda/envs/falldet system-site-packages",
+    "shared_packages_upgraded": false,
+    "mmcv_compile_attempted": false
+  },
+  "local_candidate": {
+    "name": "YOLO26s-seg",
+    "role": "official COCO pretrained runtime candidate; NOT an approved apple model",
+    "weights": "weights/local_rgbd/yolo26s-seg.pt",
+    "weights_sha256": "3da1d83e31caec96f9300eb4064f4f62882c133c7c264d63dfe61a7c197837a4",
+    "fallback_reason": "RTMDet dependencies absent; user approved avoiding a compilation detour",
+    "benchmark_precision": "quantize=16, actual FP16 CUDA asserted",
+    "input": "complete field of view letterboxed to 512 or 640, no predicted crop",
+    "warmup": 5,
+    "rounds": 5,
+    "images_per_round": 8,
+    "output": "native visible masks and boxes copied to CPU",
+    "amodal_head_implemented": false,
+    "apple_finetuning_started": false,
+    "automatic_promotion": false
+  },
+  "geometry": {
+    "methods": ["ransac_refined", "depth_huber", "joint_huber", "joint_huber_external_prior"],
+    "bounded_solver": "scipy least_squares TRF with Huber loss; not classic LM",
+    "sphere_magsac_plusplus": "not implemented, excluded from comparisons",
+    "real_K_requirement": ["fx", "fy", "cx", "cy", "intrinsics_provenance", "alignment_provenance"],
+    "papple_has_3d_center_GT": false,
+    "papple_focal_only_is_sufficient_for_3d_sphere_comparison": false,
+    "V_A_edge_agreement": "weak candidate only; not verified true outer contour",
+    "test_diameter_as_prior": "forbidden",
+    "synthetic_external_prior": {"radius_mean_m": 0.045, "radius_std_m": 0.015, "source": "illustrative protocol distribution, not measured or fitted from evaluation truth"},
+    "promoted": false
+  },
+  "real_data_diagnostic": {
+    "source": "PApple_RGB-D-Size v4, photogrammetric depth, not D405",
+    "samples": 8,
+    "distinct_fruits": 7,
+    "train_images": 4,
+    "validation_images": 4,
+    "teacher": "historical Base original-view FP16 T15 ROI archives, NOT new inference or four-view pixel fusion",
+    "reported_metric": "diameter error with sample denominators; never 3d-center mm error"
+  },
+  "next_data_requirement": "D405 paired RGB-D with SDK native/aligned intrinsics and timestamps; does not require robot hand-eye calibration to begin camera-frame geometry experiments",
+  "control_route": "gimbal scan/hold and uncalibrated visual-servo route remains a future independent integration task",
+  "whole_pipeline_20fps_claimed": false
+}
