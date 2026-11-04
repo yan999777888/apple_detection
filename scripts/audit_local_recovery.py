@@ -114,6 +114,81 @@ def checkpoint_audit(path: Path, torch: Any, np: Any) -> tuple[dict[str, Any], d
     return report, checkpoint
 
 
+def optimizer_participation_audit(source: dict[str, Any], current: dict[str, Any],
+                                  steps: list[dict[str, Any]], proof: dict[str, Any],
+                                  *, source_sha: str, current_sha: str) -> dict[str, Any]:
+    """Exact per-parameter AdamW counts for this single proven all-empty batch.
+
+    Global optimizer calls and AdamW parameter-local step counters differ when
+    grad is None. Do not substitute a range tolerance for parameter accounting.
+    """
+    import torch
+    from ultralytics.nn.tasks import SegmentationModel
+    import ultralytics.utils.loss as loss_module
+    model = SegmentationModel(cfg=current["model_yaml"], ch=3, nc=1, verbose=False)
+    model.load_state_dict(current["state_dict"], strict=True)
+    frozen = set(current["initialization"]["frozen_parameter_names"])
+    named = [(name, parameter) for name, parameter in model.named_parameters() if name not in frozen]
+    old_opt = source["formal_training"]["optimizer"]
+    new_opt = current["formal_training"]["optimizer"]
+    groups = new_opt["param_groups"]
+    errors = []
+    if len(groups) != 1 or len(old_opt["param_groups"]) != 1:
+        return {"passed": False, "errors": ["Expected exactly one unchanged optimizer parameter group"], "parameters": []}
+    ids = groups[0]["params"]
+    if len(named) != 442 or len(ids) != 442 or ids != old_opt["param_groups"][0]["params"]:
+        return {"passed": False, "errors": ["Native model/optimizer parameter order or count mismatch"], "parameters": []}
+    box_names = {name for name, _ in named if name.startswith(("model.23.cv2.", "model.23.one2one_cv2."))}
+    if len(box_names) != 48 or sum(n.startswith("model.23.cv2.") for n in box_names) != 24:
+        errors.append("Unexpected box-head parameter structure")
+    empties = [x for x in steps if x["instances"] == 0]
+    if (len(steps) != 1152 or len(empties) != 1 or empties[0]["batch"] != 196
+            or empties[0]["image_ids"] != ["_MG_6922_06.png", "_MG_2898_24.png"]):
+        errors.append("This exact participation proof requires original unique empty batch196")
+    for step in steps:
+        for branch in ("one2many", "one2one"):
+            loss = step[branch]
+            if step["instances"] == 0:
+                if not (loss["box_loss"] == loss["l1_loss"] == 0 and loss["cls_loss"] > 0):
+                    errors.append(f"Empty batch {step['batch']} {branch} loss participation mismatch")
+            elif not loss["box_loss"] > 0:
+                errors.append(f"Nonempty batch {step['batch']} {branch} regression participation unproven")
+    if not (proof.get("passed") is True and proof.get("cuda_initialized") is False
+            and proof.get("checkpoint_files_unchanged") is True
+            and proof.get("epoch1_checkpoint_sha256") == source_sha
+            and proof.get("epoch2_checkpoint_sha256") == current_sha
+            and proof.get("loss_source", {}).get("sha256") == digest(Path(loss_module.__file__))):
+        errors.append("CPU participation proof or loss-source/checkpoint identity mismatch")
+    probes = {x["scope"]: x for x in proof.get("probes", [])}
+    for scope, expected_none in (("real_empty_batch196", box_names), ("positive_batch658", set())):
+        probe = probes.get(scope, {})
+        increments = probe.get("optimizer_step_increments", {})
+        if (set(probe.get("grad_none_names", [])) != expected_none or probe.get("nonfinite_grad_names") != []
+                or len(increments) != 442 or any(increments.get(name) != (0 if name in expected_none else 1) for name, _ in named)):
+            errors.append(f"Actual CPU gradient/AdamW probe failed: {scope}")
+    proof_map = proof.get("parameter_mapping", [])
+    if [(x.get("id"), x.get("name")) for x in proof_map] != [(pid, name) for pid, (name, _) in zip(ids, named)]:
+        errors.append("CPU proof parameter mapping differs from independently rebuilt native model")
+    details = []
+    for pid, (name, param) in zip(ids, named):
+        old, new = old_opt["state"][pid], new_opt["state"][pid]
+        old_step, actual = float(old["step"]), float(new["step"])
+        expected_increment = len(steps) - (len(empties) if name in box_names else 0)
+        expected = old_step + expected_increment
+        valid = (old_step == 1152 and actual == expected
+                 and tuple(new["exp_avg"].shape) == tuple(param.shape)
+                 and tuple(old["exp_avg"].shape) == tuple(param.shape))
+        if not valid:
+            errors.append(f"Exact parameter step mismatch: {name}, actual={actual}, expected={expected}")
+        details.append({"optimizer_id": pid, "parameter_name": name, "source_step": old_step,
+            "expected_increment": expected_increment, "expected_step": expected, "actual_step": actual,
+            "empty_batch_grad_none": name in box_names, "passed": valid})
+    return {"passed": not errors, "errors": errors, "parameters": details,
+        "box_head_parameters": len(box_names), "other_parameters": len(named) - len(box_names),
+        "empty_batch_indices": [x["batch"] for x in empties],
+        "scope": "Exact participation check; no optimizer-state rewriting or step-range tolerance"}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--segment", "--run-dir", dest="run_dir", required=True, type=Path)
@@ -122,12 +197,13 @@ def main() -> int:
     parser.add_argument("--source-checkpoint", type=Path, default=Path("runs/local_visible_papple_20261104/train_to_001/checkpoints/epoch_001.pt"))
     parser.add_argument("--checkpoint", type=Path)
     parser.add_argument("--retry-log", type=Path)
+    parser.add_argument("--participation-proof", type=Path, default=Path("reports/local_formal_20261104/recovery_v3/optimizer_participation_audit.json"))
     parser.add_argument("--epoch", type=int, default=2)
     args = parser.parse_args()
     if args.epoch != 2:
         parser.error("This acceptance contract specifically audits the replay of epoch 2")
     repo = Path(__file__).resolve().parents[1]
-    for name in ("run_dir", "output", "manifest", "source_checkpoint", "checkpoint", "retry_log"):
+    for name in ("run_dir", "output", "manifest", "source_checkpoint", "checkpoint", "retry_log", "participation_proof"):
         value = getattr(args, name)
         if value is not None:
             value = (repo / value).resolve() if not value.is_absolute() else value.resolve()
@@ -137,7 +213,7 @@ def main() -> int:
     args.checkpoint = args.checkpoint or args.run_dir / "checkpoints/epoch_002.pt"
     args.retry_log = args.retry_log or args.run_dir / "numerical_retries.jsonl"
     protected = {args.manifest, args.source_checkpoint, args.source_checkpoint.with_suffix(".json"),
-                 args.checkpoint, args.checkpoint.with_suffix(".json"), args.retry_log,
+                 args.checkpoint, args.checkpoint.with_suffix(".json"), args.retry_log, args.participation_proof,
                  args.run_dir / "steps.jsonl", args.run_dir / "migration_receipt.json"}
     if args.output.suffix.lower() != ".json" or args.output in protected:
         parser.error("--output must be a new report JSON, not a checkpoint or input evidence file")
@@ -236,7 +312,11 @@ def main() -> int:
         check("epoch2_checkpoint_boundary", current_report["completed_epochs"] == 2 and current_report["global_step"] == 2304
               and current_report["steps_per_epoch"] == 1152 and current_report["at_epoch_boundary"])
         check("epoch2_checkpoint_all_tensors_finite", not current_report["model_nonfinite"] and not current_report["optimizer_nonfinite"])
-        check("epoch2_optimizer_steps_exact", current_report["optimizer_step_values"] == [2304.0])
+        participation = optimizer_participation_audit(source, current, steps, read_json(args.participation_proof),
+            source_sha=source_report["sha256"], current_sha=current_report["sha256"])
+        report["optimizer_participation"] = participation
+        check("epoch2_optimizer_steps_exact_by_gradient_participation", participation["passed"], participation["errors"])
+        report["participation_proof_sha256"] = digest(args.participation_proof)
         check("checkpoint_state_tensor_counts_preserved", current_report["model_tensor_count"] == source_report["model_tensor_count"]
               and current_report["optimizer_parameter_state_count"] == source_report["optimizer_parameter_state_count"])
         check("epoch2_criterion_updates", current_report["criterion"]["updates"] == 2)
