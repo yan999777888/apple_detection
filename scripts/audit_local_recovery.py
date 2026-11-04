@@ -256,7 +256,7 @@ def main() -> int:
               and new_recipe.get("numerical_policy") == NUMERICAL_POLICY
               and new_recipe.get("amp_scale_policy") == "no scale growth inside fixed budget; bounded same-batch retry then one FP32 fallback")
         check("data_adapter_source_unchanged", new_recipe["sources"]["local_training.py"] == old_recipe["sources"]["local_training.py"])
-        check("only_numerics_source_added", set(new_recipe["sources"]) == set(old_recipe["sources"]) | {"numerics.py"})
+        check("only_numerics_and_artifact_io_sources_added", set(new_recipe["sources"]) == set(old_recipe["sources"]) | {"numerics.py", "artifact_io.py"})
         check("recovery_sources_match_current_files", all(digest(repo / "src/apple_local_rgbd" / name) == sha
               for name, sha in new_recipe["sources"].items()))
         check("manifest_matches_checkpoint", digest(args.manifest) == new_recipe["manifest_sha256"] == old_recipe["manifest_sha256"])
@@ -272,7 +272,8 @@ def main() -> int:
               and migration.get("new_sources") == new_recipe["sources"]
               and migration.get("numerical_policy") == NUMERICAL_POLICY
               and set(migration.get("allowed_changed_fields", [])) == {
-                  "sources.formal_training.py", "sources.numerics.py (added)", "amp_scale_policy", "numerical_policy (added)"}
+                  "sources.formal_training.py", "sources.numerics.py (added)", "sources.artifact_io.py (added)",
+                  "amp_scale_policy", "numerical_policy (added)"}
               and migration.get("all_other_recipe_fields_equal") is True
               and migration.get("dataset_and_optimizer_schedule_unchanged") is True)
         check("source_epoch1_file_unchanged_after_audit", digest(args.source_checkpoint) == SOURCE_SHA)

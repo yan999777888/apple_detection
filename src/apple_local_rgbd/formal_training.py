@@ -24,8 +24,9 @@ from torch.utils.data import DataLoader
 from .local_training import (
     CHECKPOINT_SCHEMA, NativeVisibleDataset, TrainingContractError,
     build_visible_model, collate_native, compute_e2e_loss, configure_f_runtime,
-    gradient_audit, load_local_checkpoint, require_f_path, sha256_file, write_json,
+    gradient_audit, load_local_checkpoint, require_f_path, sha256_file,
 )
+from .artifact_io import write_json
 from .numerics import (AMP_SCALE_POLICY, NUMERICAL_POLICY, capture_rng,
                        finite_optimizer_step, restore_rng)
 
@@ -44,7 +45,8 @@ def now() -> str:
 def source_hashes() -> dict[str, str]:
     return {"formal_training.py": sha256_file(__file__),
             "local_training.py": sha256_file(Path(__file__).with_name("local_training.py")),
-            "numerics.py": sha256_file(Path(__file__).with_name("numerics.py"))}
+            "numerics.py": sha256_file(Path(__file__).with_name("numerics.py")),
+            "artifact_io.py": sha256_file(Path(__file__).with_name("artifact_io.py"))}
 
 
 def epoch_order(count: int, seed: int, epoch: int) -> list[int]:
@@ -122,7 +124,7 @@ def validate_resume(checkpoint: dict[str, Any], config: dict[str, Any], *,
             "new_recipe_sha256": recipe_sha256(config), "old_sources": old["sources"],
             "new_sources": config["sources"], "numerical_policy": config["numerical_policy"],
             "allowed_changed_fields": ["sources.formal_training.py", "sources.numerics.py (added)",
-                                       "amp_scale_policy", "numerical_policy (added)"],
+                                       "sources.artifact_io.py (added)", "amp_scale_policy", "numerical_policy (added)"],
             "all_other_recipe_fields_equal": True, "dataset_and_optimizer_schedule_unchanged": True}
 
 

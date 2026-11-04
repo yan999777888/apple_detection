@@ -19,7 +19,8 @@ import torch
 
 from .local_training import (MANIFEST_SCHEMA, OFFICIAL_SHA256, TrainingContractError,
     build_visible_model, configure_f_runtime, decode_packed_masks, load_local_checkpoint,
-    require_f_path, sha256_file, write_json)
+    require_f_path, sha256_file)
+from .artifact_io import write_json
 
 
 def now() -> str:

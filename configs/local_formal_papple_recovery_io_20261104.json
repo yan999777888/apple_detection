@@ -1,0 +1,277 @@
+{
+  "schema": "local_visible_formal_pipeline_v1",
+  "scope": "Engineering recovery of same 10-epoch PApple V experiment; replay incomplete epoch2 from verified epoch1, no dropped samples",
+  "output": "reports/local_formal_20261104/pipeline_v3",
+  "engineering_gate": "reports/local_formal_20261104/engineering_gate_v3/pipeline_status.json",
+  "evaluation_probe": "reports/local_formal_20261104/eval_gpu_probe_v1/validation_summary.json",
+  "frozen_sources": [
+    "src/apple_local_rgbd/local_training.py",
+    "src/apple_local_rgbd/formal_training.py",
+    "src/apple_local_rgbd/local_evaluation.py",
+    "scripts/train_local_segmenter_formal.py",
+    "scripts/evaluate_local_segmenter.py",
+    "scripts/local_formal_pipeline.py",
+    "src/apple_local_rgbd/numerics.py",
+    "scripts/audit_local_recovery.py",
+    "src/apple_local_rgbd/artifact_io.py"
+  ],
+  "global_base_small_policy": "retain original weights and model role; never automatically replace",
+  "test_split": "sealed",
+  "data": "official PApple train2304/8579 and development val814/3449/13; 309 shared identities",
+  "primary_metrics": "native visible mask IoU>=0.5 PR; custom101-point AP50; fixed0.25 P/R; heavy strata FN and matched IoU",
+  "benchmark": "FP16 whole640/512, conf.25 maxdet64, 8 fixed images, warmup5 rounds5, nativeV toCPU; excludes camera and geometry",
+  "budget_epochs": 10,
+  "optimizer_updates_budget": 11520,
+  "automatic_extension": false,
+  "automatic_promotion": false,
+  "stages": [
+    {
+      "name": "recover_epoch_002",
+      "script": "scripts/train_local_segmenter_formal.py",
+      "args": [
+        "--manifest",
+        "cache/datasets/local_apple_v1/train_manifest.json",
+        "--epochs",
+        "10",
+        "--batch-size",
+        "2",
+        "--imgsz",
+        "640",
+        "--mask-ratio",
+        "2",
+        "--seed",
+        "20261104",
+        "--lr",
+        "0.0001",
+        "--amp-init-scale",
+        "1024",
+        "--preflight-report",
+        "reports/local_train_20261104/formal_preflight_train_v1/data_audit.json",
+        "--prepared-cache",
+        "cache/datasets/local_apple_prepared_v1",
+        "--log-interval",
+        "20",
+        "--output",
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_002",
+        "--until-epoch",
+        "2",
+        "--resume",
+        "runs/local_visible_papple_20261104/train_to_001/checkpoints/epoch_001.pt",
+        "--upgrade-numerical-policy"
+      ],
+      "requires": [
+        "runs/local_visible_papple_20261104/train_to_001/checkpoints/epoch_001.pt"
+      ],
+      "results": [
+        {
+          "path": "runs/local_visible_papple_20261104/recovery_v3/train_to_002/pipeline_status.json",
+          "equals": {
+            "phase": "epoch_node_complete",
+            "completed_epochs": 2,
+            "global_step": 2304
+          }
+        }
+      ]
+    },
+    {
+      "name": "audit_recovered_epoch_002",
+      "script": "scripts/audit_local_recovery.py",
+      "args": [
+        "--segment",
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_002",
+        "--output",
+        "reports/local_formal_20261104/recovery_v3/epoch002_acceptance.json"
+      ],
+      "requires": [
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_002/checkpoints/epoch_002.pt"
+      ],
+      "results": [
+        {
+          "path": "reports/local_formal_20261104/recovery_v3/epoch002_acceptance.json",
+          "equals": {
+            "passed": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "train_to_005",
+      "script": "scripts/train_local_segmenter_formal.py",
+      "args": [
+        "--manifest",
+        "cache/datasets/local_apple_v1/train_manifest.json",
+        "--epochs",
+        "10",
+        "--batch-size",
+        "2",
+        "--imgsz",
+        "640",
+        "--mask-ratio",
+        "2",
+        "--seed",
+        "20261104",
+        "--lr",
+        "0.0001",
+        "--amp-init-scale",
+        "1024",
+        "--preflight-report",
+        "reports/local_train_20261104/formal_preflight_train_v1/data_audit.json",
+        "--prepared-cache",
+        "cache/datasets/local_apple_prepared_v1",
+        "--log-interval",
+        "20",
+        "--output",
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_005",
+        "--until-epoch",
+        "5",
+        "--resume",
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_002/checkpoints/epoch_002.pt"
+      ],
+      "requires": [
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_002/checkpoints/epoch_002.pt"
+      ],
+      "results": [
+        {
+          "path": "runs/local_visible_papple_20261104/recovery_v3/train_to_005/pipeline_status.json",
+          "equals": {
+            "phase": "epoch_node_complete",
+            "completed_epochs": 5,
+            "global_step": 5760
+          }
+        }
+      ]
+    },
+    {
+      "name": "validate_epoch_005",
+      "script": "scripts/evaluate_local_segmenter.py",
+      "args": [
+        "--weights",
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_005/checkpoints/epoch_005.pt",
+        "--output",
+        "reports/local_formal_20261104/val_epoch005",
+        "--run-benchmark"
+      ],
+      "requires": [
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_005/checkpoints/epoch_005.pt"
+      ],
+      "results": [
+        {
+          "path": "reports/local_formal_20261104/val_epoch005/validation_summary.json",
+          "equals": {
+            "phase": "complete",
+            "images": 814,
+            "GT_instances": 3449,
+            "empty_GT_images": 13,
+            "weights_unchanged": true
+          }
+        },
+        {
+          "path": "reports/local_formal_20261104/val_epoch005/status.json",
+          "equals": {
+            "phase": "complete"
+          }
+        },
+        {
+          "path": "reports/local_formal_20261104/val_epoch005/speed_benchmark.json",
+          "equals": {
+            "schema": "local_visible_speed_benchmark_v1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "train_to_010",
+      "script": "scripts/train_local_segmenter_formal.py",
+      "args": [
+        "--manifest",
+        "cache/datasets/local_apple_v1/train_manifest.json",
+        "--epochs",
+        "10",
+        "--batch-size",
+        "2",
+        "--imgsz",
+        "640",
+        "--mask-ratio",
+        "2",
+        "--seed",
+        "20261104",
+        "--lr",
+        "0.0001",
+        "--amp-init-scale",
+        "1024",
+        "--preflight-report",
+        "reports/local_train_20261104/formal_preflight_train_v1/data_audit.json",
+        "--prepared-cache",
+        "cache/datasets/local_apple_prepared_v1",
+        "--log-interval",
+        "20",
+        "--output",
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_010",
+        "--until-epoch",
+        "10",
+        "--resume",
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_005/checkpoints/epoch_005.pt"
+      ],
+      "requires": [
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_005/checkpoints/epoch_005.pt"
+      ],
+      "results": [
+        {
+          "path": "runs/local_visible_papple_20261104/recovery_v3/train_to_010/pipeline_status.json",
+          "equals": {
+            "phase": "training_complete",
+            "completed_epochs": 10,
+            "global_step": 11520
+          }
+        }
+      ]
+    },
+    {
+      "name": "validate_epoch_010",
+      "script": "scripts/evaluate_local_segmenter.py",
+      "args": [
+        "--weights",
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_010/checkpoints/epoch_010.pt",
+        "--output",
+        "reports/local_formal_20261104/val_epoch010",
+        "--run-benchmark"
+      ],
+      "requires": [
+        "runs/local_visible_papple_20261104/recovery_v3/train_to_010/checkpoints/epoch_010.pt"
+      ],
+      "results": [
+        {
+          "path": "reports/local_formal_20261104/val_epoch010/validation_summary.json",
+          "equals": {
+            "phase": "complete",
+            "images": 814,
+            "GT_instances": 3449,
+            "empty_GT_images": 13,
+            "weights_unchanged": true
+          }
+        },
+        {
+          "path": "reports/local_formal_20261104/val_epoch010/status.json",
+          "equals": {
+            "phase": "complete"
+          }
+        },
+        {
+          "path": "reports/local_formal_20261104/val_epoch010/speed_benchmark.json",
+          "equals": {
+            "schema": "local_visible_speed_benchmark_v1"
+          }
+        }
+      ]
+    }
+  ],
+  "recovery": {
+    "original_failed_pipeline": "reports/local_formal_20261104/pipeline_v1",
+    "epoch1_sha256": "3b80d4a866ffa9394134d031edee95cc72f3e55afe6cf7e72bab69b6bbeffa01",
+    "discarded_partial_epoch2_successful_updates": 657,
+    "unchanged_official_budget_epochs": 10,
+    "policy": "Explicit numeric-policy migration only; every failed attempt recomputed on same batch with RNG/buffer rollback",
+    "second_failed_pipeline": "reports/local_formal_20261104/pipeline_v2",
+    "second_failure": "Windows WinError5 status-file replace conflict; bounded write retry added"
+  }
+}
