@@ -1,0 +1,33 @@
+{
+  "schema": "apple_partial_supervision_finetune_v1",
+  "path_base": "..",
+  "paths": {
+    "papple_root": "assets/papple",
+    "minne_root": "assets/minneapple",
+    "minne_manifest": "assets/minne_manifest.json",
+    "parent_checkpoint": "weights/query_epoch006.pt",
+    "papple_provenance": "assets/papple_val_provenance.json",
+    "output": "runs/mixed_occlusion_balanced01"
+  },
+  "parent_sha256": "aac6f257bf43af3b945dd3469ba66214de99d7ae878e13e85ec7bef0e20b3227",
+  "training": {
+    "input_size": 768,
+    "max_updates": 12000,
+    "accumulate": 4,
+    "validate_every": 300,
+    "checkpoint_every": 100,
+    "backbone_lr": 1e-06,
+    "head_lr": 5e-06,
+    "weight_decay": 0.05,
+    "warmup_updates": 200,
+    "workers": 0,
+    "cpu_threads": 4,
+    "seed": 20261022,
+    "train_augment": true,
+    "amp_dtype": "bfloat16",
+    "evaluate_parent": true,
+    "occlusion_refinement": true,
+    "minne_class_weight": 0.05,
+    "classification_adapter_sha256": "b0d86d1d8cf756efda4bd3dabdbe536c7b1bd28dea8a18da788afbcb58a28787"
+  }
+}

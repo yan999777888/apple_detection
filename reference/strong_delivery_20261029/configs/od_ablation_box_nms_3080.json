@@ -1,0 +1,98 @@
+{
+  "schema": "apple_od_amodal_training_v1",
+  "path_base": "..",
+  "paths": {
+    "papple_root": "assets/papple",
+    "minne_root": "assets/minneapple",
+    "minne_manifest": "assets/minne_manifest.json",
+    "parent_checkpoint": "weights/r50_amodal_epoch007.pt",
+    "papple_provenance": "assets/papple_val_provenance.json",
+    "output": "runs/od_partial_box_nms_04"
+  },
+  "parent_sha256": "9b44a9e7416fe13b9788f813161139094217bdbfc4cd62ec9d23ec719e3cb479",
+  "parent_selection_floor": 0.8941722238329951,
+  "model": {
+    "mask_roi_size": 28,
+    "mask_hidden_channels": 256,
+    "roi_chunk_size": 8,
+    "mask_projection_chunk_size": 8,
+    "box_batch_size_per_image": 128,
+    "box_positive_fraction": 0.25,
+    "rpn_pre_nms_top_n_train": 2000,
+    "rpn_pre_nms_top_n_test": 1000,
+    "rpn_post_nms_top_n_train": 1000,
+    "rpn_post_nms_top_n_test": 1000,
+    "anchor_sizes": [
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "score_thresh": 0.001,
+    "detections_per_img": 300,
+    "pre_mask_nms_topk": 600,
+    "checkpoint_roi": true,
+    "occlusion_weight": 2.0,
+    "focal_gamma": 1.0,
+    "use_visible_gate": true,
+    "use_amodal_refinement": true,
+    "final_nms": "box",
+    "hidden_tower_mode": "independent",
+    "zero_initialize_hidden_predictor": true,
+    "unknown_amodal_classifier_policy": "ignore_overlapping_visible"
+  },
+  "training": {
+    "short_sides": [
+      768,
+      896,
+      1024
+    ],
+    "max_size": 1536,
+    "validation_short_side": 800,
+    "validation_max_size": 1024,
+    "joint_papple_epochs": 8,
+    "classifier_papple_epochs": 4,
+    "validate_every": 1152,
+    "pilot_validation_updates": [
+      100,
+      300,
+      600
+    ],
+    "checkpoint_every": 50,
+    "warmup_updates": 50,
+    "seed": 20261022,
+    "cpu_threads": 4,
+    "amp_dtype": "bfloat16",
+    "backbone_lr": 5e-06,
+    "pretrained_head_lr": 1e-05,
+    "new_head_lr": 0.0002,
+    "classifier_lr": 0.0001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "augment": true,
+    "defer_mask_metrics": true
+  },
+  "loss_weights": {
+    "PApple": {
+      "loss_classifier": 1.0,
+      "loss_box_reg": 1.0,
+      "loss_objectness": 1.0,
+      "loss_rpn_box_reg": 1.0,
+      "loss_visible_bce": 1.0,
+      "loss_visible_dice": 1.0,
+      "loss_hidden_bce": 0.5,
+      "loss_hidden_dice": 0.5,
+      "loss_amodal_bce": 1.0,
+      "loss_amodal_dice": 1.0
+    },
+    "MinneApple": {
+      "loss_classifier": 0.25,
+      "loss_objectness": 0.25,
+      "loss_rpn_box_reg": 0.25,
+      "loss_visible_bce": 1.0,
+      "loss_visible_dice": 1.0
+    }
+  },
+  "initialization_policy": "Legacy-compatible validation800/max1024, float normalize-before-resize, anchors32..512, RPN pretest1000; high-resolution ROI56 and multiscale joint training remain enabled.; Independent H copies real trained V conv/deconv without sharing parameters and starts with a zero readout (except explicit legacy parent box control); exact full-VAL deferred mask metrics and validation RNG isolation. Frozen classifier calibration uses the explicitly recorded unknown_amodal_classifier_policy; unknown-A overlapping V boxes are ignored except in the legacy BOX control. No future score gain is implied."
+}

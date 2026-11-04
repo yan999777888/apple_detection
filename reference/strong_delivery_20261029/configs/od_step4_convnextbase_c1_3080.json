@@ -1,0 +1,116 @@
+{
+  "schema": "apple_od_amodal_training_v1",
+  "path_base": "..",
+  "paths": {
+    "papple_root": "assets/papple",
+    "minne_root": "assets/minneapple",
+    "minne_manifest": "assets/minne_manifest.json",
+    "parent_checkpoint": "runs/od_step1_vfl_ignore_joint4_11/validated_002304.pt",
+    "papple_provenance": "assets/papple_val_provenance.json",
+    "output": "runs/od_step4_convnextbase_c1_11",
+    "ignore_boxes": "reports/train_ignore_full.json"
+  },
+  "parent_sha256": "9ef537b8cb05234b7a6fcb889cc8e3f29e02260a8b1c7fca97da276c6f3257c6",
+  "parent_selection_floor": 0.902,
+  "model": {
+    "mask_roi_size": 28,
+    "mask_hidden_channels": 256,
+    "roi_chunk_size": 8,
+    "mask_projection_chunk_size": 8,
+    "box_batch_size_per_image": 128,
+    "box_positive_fraction": 0.25,
+    "rpn_pre_nms_top_n_train": 2000,
+    "rpn_pre_nms_top_n_test": 1000,
+    "rpn_post_nms_top_n_train": 1000,
+    "rpn_post_nms_top_n_test": 1000,
+    "anchor_sizes": [
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "score_thresh": 0.001,
+    "detections_per_img": 300,
+    "pre_mask_nms_topk": 600,
+    "checkpoint_roi": true,
+    "occlusion_weight": 2.0,
+    "focal_gamma": 1.0,
+    "use_visible_gate": true,
+    "use_amodal_refinement": true,
+    "final_nms": "dual_mask",
+    "hidden_tower_mode": "independent",
+    "zero_initialize_hidden_predictor": true,
+    "unknown_amodal_classifier_policy": "ignore_overlapping_visible",
+    "occlusion_verifier": true,
+    "backbone_name": "convnext_base",
+    "backbone_stochastic_depth": 0.25
+  },
+  "training": {
+    "short_sides": [
+      768,
+      896,
+      1024
+    ],
+    "max_size": 1536,
+    "validation_short_side": 1024,
+    "validation_max_size": 1280,
+    "joint_papple_epochs": 2,
+    "classifier_papple_epochs": 0,
+    "validate_every": 2304,
+    "pilot_validation_updates": [
+      2304
+    ],
+    "checkpoint_every": 10,
+    "warmup_updates": 200,
+    "seed": 20261022,
+    "cpu_threads": 4,
+    "amp_dtype": "bfloat16",
+    "backbone_lr": 0.0001,
+    "pretrained_head_lr": 3e-05,
+    "new_head_lr": 5e-05,
+    "classifier_lr": 0.0001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "augment": true,
+    "defer_mask_metrics": true,
+    "validate_initial": false,
+    "unknown_amodal_joint_policy": "visible_mask_only",
+    "verifier_ranking": false,
+    "classifier_negative_sampling": "gate_ohem_half_heavy",
+    "data_source_policy": "papple_only",
+    "classification_loss": "varifocal",
+    "vfl_alpha": 0.75,
+    "vfl_gamma": 2.0,
+    "occlusion_weight_override": 0.0,
+    "box_giou_weight": 0.0,
+    "fpn_lr": 0.0003,
+    "ema_decay": 0.999
+  },
+  "loss_weights": {
+    "PApple": {
+      "loss_classifier": 1.0,
+      "loss_box_reg": 1.0,
+      "loss_objectness": 1.0,
+      "loss_rpn_box_reg": 1.0,
+      "loss_visible_bce": 1.0,
+      "loss_visible_dice": 1.0,
+      "loss_hidden_bce": 0.5,
+      "loss_hidden_dice": 0.5,
+      "loss_amodal_bce": 1.0,
+      "loss_amodal_dice": 1.0,
+      "loss_verifier_rank": 1.0
+    },
+    "MinneApple": {
+      "loss_classifier": 0.25,
+      "loss_objectness": 0.25,
+      "loss_rpn_box_reg": 0.25,
+      "loss_visible_bce": 1.0,
+      "loss_visible_dice": 1.0
+    }
+  },
+  "initialization_policy": "Step 4A: ConvNeXt-Base with the learning rate inversion removed. The replaced FPN is randomly initialized and now gets its own 3e-4 group, the ImageNet body is halved to 1e-4, inherited heads stay at 3e-5, stochastic depth 0.25 regularizes the 2304-image training set, and validation runs on a 0.999 EMA shadow that is restored before any checkpoint is written. Two joint PApple epochs (chunk 1 of 2) to match the periodic annealing that produced 92.03; every inherited tensor still comes from validated_002304.",
+  "initialization": {
+    "kind": "backbone_swap"
+  }
+}

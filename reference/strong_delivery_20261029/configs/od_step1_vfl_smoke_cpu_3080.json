@@ -1,0 +1,112 @@
+{
+  "schema": "apple_od_amodal_training_v1",
+  "path_base": "..",
+  "paths": {
+    "papple_root": "assets/papple",
+    "minne_root": "assets/minneapple",
+    "minne_manifest": "assets/minne_manifest.json",
+    "parent_checkpoint": "runs/od_verifier_plain_joint8_11/validated_006912.pt",
+    "papple_provenance": "assets/papple_val_provenance.json",
+    "output": "runs/od_step1_vfl_smoke_cpu_11",
+    "parent_validation_root": "runs/od_verifier_plain_joint8_11",
+    "ignore_boxes": "reports/train_ignore_probe_200.json"
+  },
+  "parent_sha256": "b372a9d5340ba3e32fb49d0596fbcaaae066760db14752f4c57f569718f37dae",
+  "parent_selection_floor": 0.9023,
+  "model": {
+    "mask_roi_size": 28,
+    "mask_hidden_channels": 256,
+    "roi_chunk_size": 8,
+    "mask_projection_chunk_size": 8,
+    "box_batch_size_per_image": 128,
+    "box_positive_fraction": 0.25,
+    "rpn_pre_nms_top_n_train": 2000,
+    "rpn_pre_nms_top_n_test": 1000,
+    "rpn_post_nms_top_n_train": 1000,
+    "rpn_post_nms_top_n_test": 1000,
+    "anchor_sizes": [
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "score_thresh": 0.001,
+    "detections_per_img": 300,
+    "pre_mask_nms_topk": 600,
+    "checkpoint_roi": true,
+    "occlusion_weight": 2.0,
+    "focal_gamma": 1.0,
+    "use_visible_gate": true,
+    "use_amodal_refinement": true,
+    "final_nms": "dual_mask",
+    "hidden_tower_mode": "independent",
+    "zero_initialize_hidden_predictor": true,
+    "unknown_amodal_classifier_policy": "ignore_overlapping_visible",
+    "occlusion_verifier": true
+  },
+  "training": {
+    "short_sides": [
+      768,
+      896,
+      1024
+    ],
+    "max_size": 1536,
+    "validation_short_side": 1024,
+    "validation_max_size": 1280,
+    "joint_papple_epochs": 4,
+    "classifier_papple_epochs": 0,
+    "validate_every": 2304,
+    "pilot_validation_updates": [],
+    "checkpoint_every": 10,
+    "warmup_updates": 50,
+    "seed": 20261022,
+    "cpu_threads": 4,
+    "amp_dtype": "bfloat16",
+    "backbone_lr": 1e-06,
+    "pretrained_head_lr": 2e-06,
+    "new_head_lr": 5e-05,
+    "classifier_lr": 0.0001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "augment": true,
+    "defer_mask_metrics": true,
+    "validate_initial": false,
+    "unknown_amodal_joint_policy": "visible_mask_only",
+    "verifier_ranking": false,
+    "classifier_negative_sampling": "gate_ohem_half_heavy",
+    "data_source_policy": "papple_only",
+    "classification_loss": "varifocal",
+    "vfl_alpha": 0.75,
+    "vfl_gamma": 2.0,
+    "occlusion_weight_override": 0.0
+  },
+  "loss_weights": {
+    "PApple": {
+      "loss_classifier": 1.0,
+      "loss_box_reg": 1.0,
+      "loss_objectness": 1.0,
+      "loss_rpn_box_reg": 1.0,
+      "loss_visible_bce": 1.0,
+      "loss_visible_dice": 1.0,
+      "loss_hidden_bce": 0.5,
+      "loss_hidden_dice": 0.5,
+      "loss_amodal_bce": 1.0,
+      "loss_amodal_dice": 1.0,
+      "loss_verifier_rank": 1.0
+    },
+    "MinneApple": {
+      "loss_classifier": 0.25,
+      "loss_objectness": 0.25,
+      "loss_rpn_box_reg": 0.25,
+      "loss_visible_bce": 1.0,
+      "loss_visible_dice": 1.0
+    }
+  },
+  "initialization_policy": "Step 1 VFL fine-tune from fully validated 006912. No re-ROIAlign, no GT edits; 4 joint PApple epochs at the proven 1024 evaluation scale. Varifocal quality targets use proposal-to-matched-GT IoU. No accuracy is claimed before complete 814-image VAL + H-Flip TTA.",
+  "initialization": {
+    "kind": "validated_od",
+    "source_commit": "8431713d9eb4af558389f8f091bb88f770bcd11a",
+    "required_stage": "joint"
+  }
+}

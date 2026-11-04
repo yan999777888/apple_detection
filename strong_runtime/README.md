@@ -6,6 +6,6 @@
 
 唯一架构构造补丁位于 `src/apple_seg/od_model.py`：构造 ConvNeXt 时使用 `weights=None`，避免下载与当前模型无关的初始化权重；随后严格恢复交付 checkpoint 的全部参数并检查一致性。模型结构和现有头部不变。
 
-版本管理包含全部 `src/apple_seg/*.py`、原 `tmp/flip_tta.py` 和 `reference/local_amodal/scripts/metrics.py`。本地复制的其他历史参考脚本不进入本轮训练或评估入口，也不提交。数据、权重、实验输出与缓存均不提交 Git。
+版本管理包含全部 `src/apple_seg/*.py`、原 `tmp/flip_tta.py` 和 `reference/local_amodal/scripts/metrics.py`。按用户 2026-11-04 的要求，其余已交付历史文本源码与配置另存于仓库 `reference/strong_delivery_20261029/`，附原字节 SHA 清单；这些参考脚本不是当前默认训练或评估入口。数据、权重、完整实验输出与缓存均不提交 Git。
 
 完整复现期间不要编辑本目录内的 Python 源码或 `scripts/reproduce_strong_baseline.py`：运行前后会核验这些文件的 SHA，变化会使该次结果失效。

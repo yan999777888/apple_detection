@@ -1,0 +1,27 @@
+{
+  "schema": "apple_dual_evidence_quality_training_v1",
+  "path_base": "..",
+  "paths": {
+    "papple_root": "assets/papple",
+    "minne_root": "assets/minneapple",
+    "minne_manifest": "assets/minne_manifest.json",
+    "parent_checkpoint": "weights/query_epoch006.pt",
+    "papple_provenance": "assets/papple_val_provenance.json",
+    "output": "runs/quality_competition01"
+  },
+  "parent_sha256": "aac6f257bf43af3b945dd3469ba66214de99d7ae878e13e85ec7bef0e20b3227",
+  "parent_selection_floor": 0.8828645984343287,
+  "training": {
+    "input_size": 768,
+    "max_updates": 2400,
+    "validate_every": 300,
+    "checkpoint_every": 50,
+    "seed": 20261022,
+    "cpu_threads": 4,
+    "quality_lr": 0.0003,
+    "weight_decay": 0.0001,
+    "competition": true,
+    "evidence": true,
+    "augment": true
+  }
+}

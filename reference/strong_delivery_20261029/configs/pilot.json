@@ -1,0 +1,25 @@
+{
+  "schema": "apple_partial_supervision_pilot_v1",
+  "path_base": "..",
+  "paths": {
+    "papple_root": "assets/papple",
+    "minne_root": "assets/minneapple",
+    "minne_manifest": "assets/minne_manifest.json",
+    "parent_checkpoint": "weights/query_epoch006.pt",
+    "papple_provenance": "assets/papple_val_provenance.json",
+    "output": "runs/mixed_pilot01"
+  },
+  "parent_sha256": "aac6f257bf43af3b945dd3469ba66214de99d7ae878e13e85ec7bef0e20b3227",
+  "training": {
+    "input_size": 768,
+    "max_updates": 600,
+    "accumulate": 4,
+    "validate_every": 200,
+    "backbone_lr": 0.000001,
+    "head_lr": 0.000005,
+    "weight_decay": 0.05,
+    "warmup_updates": 50,
+    "workers": 0,
+    "seed": 20261022
+  }
+}
