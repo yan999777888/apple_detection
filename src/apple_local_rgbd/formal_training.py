@@ -26,9 +26,15 @@ from .local_training import (
     build_visible_model, collate_native, compute_e2e_loss, configure_f_runtime,
     gradient_audit, load_local_checkpoint, require_f_path, sha256_file, write_json,
 )
+from .numerics import (AMP_SCALE_POLICY, NUMERICAL_POLICY, capture_rng,
+                       finite_optimizer_step, restore_rng)
 
 FORMAL_SCHEMA = "local_apple_formal_training_v1"
 CRITERION_FIELDS = ("updates", "total", "o2m", "o2o", "o2m_copy", "final_o2m")
+LEGACY_EPOCH1_SHA256 = "3b80d4a866ffa9394134d031edee95cc72f3e55afe6cf7e72bab69b6bbeffa01"
+LEGACY_FORMAL_SHA256 = "6ff345aa6170da9603e5e57440ec8c017c0b0e5a76eabbc26804b1a706ea95e1"
+LEGACY_ADAPTER_SHA256 = "4aa52fbc1d212c436294b35a970f910b936ce9308b45d4a8064be28bf1d7a037"
+LEGACY_SCALE_POLICY = "no scale growth inside this fixed update budget; nonfinite gradients fail"
 
 
 def now() -> str:
@@ -37,29 +43,14 @@ def now() -> str:
 
 def source_hashes() -> dict[str, str]:
     return {"formal_training.py": sha256_file(__file__),
-            "local_training.py": sha256_file(Path(__file__).with_name("local_training.py"))}
+            "local_training.py": sha256_file(Path(__file__).with_name("local_training.py")),
+            "numerics.py": sha256_file(Path(__file__).with_name("numerics.py"))}
 
 
 def epoch_order(count: int, seed: int, epoch: int) -> list[int]:
     """Epoch 0 based, independent of checkpoint saves and global RNG calls."""
     generator = torch.Generator().manual_seed(seed + epoch * 1000003)
     return torch.randperm(count, generator=generator).tolist()
-
-
-def capture_rng() -> dict[str, Any]:
-    return {"python": random.getstate(), "numpy": np.random.get_state(),
-            "torch_cpu": torch.get_rng_state().clone(),
-            "torch_cuda": torch.cuda.get_rng_state_all() if torch.cuda.is_initialized() else None}
-
-
-def restore_rng(state: dict[str, Any]) -> None:
-    random.setstate(state["python"])
-    np.random.set_state(state["numpy"])
-    torch.set_rng_state(state["torch_cpu"])
-    if state["torch_cuda"] is not None:
-        if not torch.cuda.is_initialized():
-            raise TrainingContractError("CUDA RNG restore requires an initialized training device")
-        torch.cuda.set_rng_state_all(state["torch_cuda"])
 
 
 def criterion_state(criterion: Any) -> dict[str, Any]:
@@ -85,17 +76,54 @@ def cpu_snapshot(value: Any) -> Any:
     return copy.deepcopy(value)
 
 
-def validate_resume(checkpoint: dict[str, Any], config: dict[str, Any]) -> None:
+def recipe_sha256(recipe: dict[str, Any]) -> str:
+    return hashlib.sha256(json.dumps(recipe, sort_keys=True, separators=(",", ":"),
+                                     ensure_ascii=False, allow_nan=False).encode("utf-8")).hexdigest()
+
+
+def validate_resume(checkpoint: dict[str, Any], config: dict[str, Any], *,
+                    upgrade_numerical_policy: bool = False,
+                    checkpoint_sha256: str | None = None) -> dict[str, Any] | None:
     state = checkpoint.get("formal_training", {})
     if checkpoint.get("schema") != CHECKPOINT_SCHEMA or state.get("schema") != FORMAL_SCHEMA:
         raise TrainingContractError("Resume requires a formal checkpoint, not a smoke checkpoint")
     if not state.get("at_epoch_boundary"):
         raise TrainingContractError("Only epoch-boundary checkpoints are resumable")
-    if state.get("recipe") != config:
-        raise TrainingContractError("Resume recipe differs: dataset/source/optimizer/schedule must stay fixed")
     expected = state["completed_epochs"] * state["steps_per_epoch"]
     if state["global_step"] != expected or state["criterion"]["updates"] != state["completed_epochs"]:
         raise TrainingContractError("Checkpoint epoch/update/schedule counters disagree")
+    old = state.get("recipe")
+    if old == config:
+        if upgrade_numerical_policy:
+            raise TrainingContractError("Numerical-policy upgrade is only for the allowlisted legacy epoch-1 checkpoint")
+        return None
+    if not upgrade_numerical_policy:
+        raise TrainingContractError("Resume recipe differs: dataset/source/optimizer/schedule must stay fixed")
+    legacy_sources = {"formal_training.py": LEGACY_FORMAL_SHA256,
+                      "local_training.py": LEGACY_ADAPTER_SHA256}
+    if (checkpoint_sha256 != LEGACY_EPOCH1_SHA256 or state["completed_epochs"] != 1
+            or state["steps_per_epoch"] != 1152 or state["global_step"] != 1152
+            or not isinstance(old, dict) or old.get("sources") != legacy_sources
+            or old.get("amp_scale_policy") != LEGACY_SCALE_POLICY or "numerical_policy" in old
+            or config.get("numerical_policy") != NUMERICAL_POLICY
+            or config.get("amp_scale_policy") != AMP_SCALE_POLICY
+            or config.get("sources") != source_hashes()
+            or config["sources"].get("local_training.py") != LEGACY_ADAPTER_SHA256
+            or checkpoint.get("config") != old):
+        raise TrainingContractError("Numerical-policy migration does not match the fixed checkpoint/source allowlist")
+    comparable = copy.deepcopy(config)
+    comparable.pop("numerical_policy")
+    comparable["amp_scale_policy"] = LEGACY_SCALE_POLICY
+    comparable["sources"] = legacy_sources
+    if comparable != old:
+        raise TrainingContractError("Numerical-policy migration changed fields outside the explicit allowlist")
+    return {"schema": "local_formal_numerical_migration_v1", "created_utc": now(),
+            "checkpoint_sha256": checkpoint_sha256, "old_recipe_sha256": recipe_sha256(old),
+            "new_recipe_sha256": recipe_sha256(config), "old_sources": old["sources"],
+            "new_sources": config["sources"], "numerical_policy": config["numerical_policy"],
+            "allowed_changed_fields": ["sources.formal_training.py", "sources.numerics.py (added)",
+                                       "amp_scale_policy", "numerical_policy (added)"],
+            "all_other_recipe_fields_equal": True, "dataset_and_optimizer_schedule_unchanged": True}
 
 
 def verify_preflight(report_path: Path, dataset: NativeVisibleDataset) -> dict[str, Any]:
@@ -195,7 +223,7 @@ def run_formal(*, repo: Path, manifest: Path, weights: Path, output: Path,
                lr: float = 1e-4, amp_init_scale: float = 1024, device: str = "cuda:0",
                preflight_report: Path | None = None, prepared_cache: Path | None = None,
                resume: Path | None = None, max_updates: int | None = None,
-               log_interval: int = 20) -> dict[str, Any]:
+               log_interval: int = 20, upgrade_numerical_policy: bool = False) -> dict[str, Any]:
     if not 1 <= epochs <= 100 or batch_size < 1 or not math.isfinite(lr) or lr <= 0:
         raise TrainingContractError("Invalid bounded epochs/batch/lr")
     if not math.isfinite(amp_init_scale) or amp_init_scale <= 0:
@@ -207,6 +235,8 @@ def run_formal(*, repo: Path, manifest: Path, weights: Path, output: Path,
         raise TrainingContractError("Epoch zero is a fresh initialization-only node")
     if max_updates is not None and not 1 <= max_updates <= 32:
         raise TrainingContractError("The engineering max_updates override is restricted to 1..32")
+    if upgrade_numerical_policy and resume is None:
+        raise TrainingContractError("Numerical-policy upgrade requires the allowlisted epoch-1 resume checkpoint")
     configure_f_runtime(repo)
     repo, manifest, weights, output = map(require_f_path, (repo, manifest, weights, output))
     if resume is not None:
@@ -255,7 +285,7 @@ def run_formal(*, repo: Path, manifest: Path, weights: Path, output: Path,
             "optimizer": "AdamW", "weight_decay": 1e-4, "lr_schedule": "constant",
             "amp": True, "amp_init_scale": amp_init_scale,
             "amp_growth_interval": math.ceil(len(dataset) / batch_size) * epochs + 1,
-            "amp_scale_policy": "no scale growth inside this fixed update budget; nonfinite gradients fail",
+            "amp_scale_policy": AMP_SCALE_POLICY, "numerical_policy": copy.deepcopy(NUMERICAL_POLICY),
             "gradient_clip_norm": 10.0,
             "workers": 0, "pin_memory": False, "augmentation": "letterbox only",
             "classes": {"0": "apple"}, "A_in_loss": False, "GT_changed": False,
@@ -267,8 +297,16 @@ def run_formal(*, repo: Path, manifest: Path, weights: Path, output: Path,
         if resume is None:
             model, initialization = build_visible_model(weights, epochs=epochs)
         else:
+            resume_sha256 = sha256_file(resume)
+            if upgrade_numerical_policy and resume_sha256 != LEGACY_EPOCH1_SHA256:
+                raise TrainingContractError("Numerical-policy migration checkpoint SHA mismatch before loading")
             checkpoint = torch.load(resume, map_location="cpu", weights_only=False)
-            validate_resume(checkpoint, recipe)
+            migration = validate_resume(checkpoint, recipe,
+                upgrade_numerical_policy=upgrade_numerical_policy, checkpoint_sha256=resume_sha256)
+            if migration is not None:
+                migration["checkpoint_path"] = str(resume)
+                write_json(output / "migration_receipt.json", migration)
+                event("numerical_policy_migration", **migration)
             model = load_local_checkpoint(resume)
             initialization = checkpoint["initialization"]
             frozen = set(initialization["frozen_parameter_names"])
@@ -324,38 +362,35 @@ def run_formal(*, repo: Path, manifest: Path, weights: Path, output: Path,
                 torch.cuda.synchronize(selected)
                 tick = time.perf_counter()
                 batch = {key: value.to(selected, non_blocking=False) for key, value in batch.items()}
-                optimizer.zero_grad(set_to_none=True)
-                with torch.amp.autocast("cuda", dtype=torch.float16):
+                def closure() -> tuple[torch.Tensor, dict[str, Any]]:
                     predictions = model(batch["img"])
-                    loss, loss_log = compute_e2e_loss(criterion, predictions, batch)
-                if not bool(torch.isfinite(loss)):
-                    raise TrainingContractError(f"Nonfinite forward loss at epoch {epoch + 1}, batch {batch_index + 1}")
-                scaler.scale(loss).backward()
-                scaler.unscale_(optimizer)
-                try:
-                    grad_norm = float(torch.nn.utils.clip_grad_norm_(model.parameters(), 10.0, error_if_nonfinite=True))
-                except RuntimeError as error:
-                    write_json(output / "nonfinite_gradient.json", {"epoch": epoch + 1,
+                    return compute_e2e_loss(criterion, predictions, batch)
+                def retry_event(values: dict[str, Any]) -> None:
+                    record = {"utc": now(), "epoch": epoch + 1,
                         "batch": batch_index + 1, "global_step_completed": global_step,
-                        "loss": float(loss.detach()), "scale": scaler.get_scale(),
-                        "samples": metadata, "error": str(error), "optimizer_updated": False})
-                    raise
-                detailed_gradients = gradient_audit(model) if completed_in_segment < 2 or batch_index + 1 == steps_per_epoch else None
-                scale_before = scaler.get_scale()
-                scaler.step(optimizer); scaler.update()
-                if scaler.get_scale() < scale_before:
-                    raise TrainingContractError("Unexpected AMP skipped update; failing instead of counting it")
+                        "samples": metadata, "image_ids": [x["image_id"] for x in metadata], **values}
+                    with (output / "numerical_retries.jsonl").open("a", encoding="utf-8") as stream:
+                        stream.write(json.dumps(record, ensure_ascii=False, allow_nan=False) + "\n")
+                    event("numerical_retry", **{key: value for key, value in record.items() if key != "utc"})
+                    write_json(output / "last_numerical_retry.json", record)
+                step = finite_optimizer_step(model=model, optimizer=optimizer, scaler=scaler,
+                    closure=closure,
+                    autocast_context=lambda enabled: torch.amp.autocast("cuda", dtype=torch.float16, enabled=enabled),
+                    on_retry=retry_event,
+                    gradient_audit=gradient_audit if completed_in_segment < 2 or batch_index + 1 == steps_per_epoch else None,
+                    clip_norm=recipe["gradient_clip_norm"])
                 global_step += 1; completed_in_segment += 1
-                scalar_loss = float(loss.detach()); loss_sum += scalar_loss
+                scalar_loss = step["loss"]; loss_sum += scalar_loss
                 torch.cuda.synchronize(selected)
                 record = {"utc": now(), "global_step": global_step, "epoch": epoch + 1,
-                    "batch": batch_index + 1, "total_loss": scalar_loss, **loss_log,
-                    "grad_norm_before_clip": grad_norm, "amp_scale": scaler.get_scale(),
+                    "batch": batch_index + 1, "total_loss": scalar_loss, **step["loss_log"],
+                    **{key: step[key] for key in ("grad_norm_before_clip", "amp_scale", "numerical_attempts",
+                        "numerical_retries", "fp32_fallback_used", "optimizer_updates")},
                     "step_compute_ms_excluding_loader": (time.perf_counter() - tick) * 1000,
                     "image_ids": [x["image_id"] for x in metadata], "instances": sum(len(x["instance_ids"]) for x in metadata),
                     "peak_allocated_bytes": torch.cuda.max_memory_allocated(selected)}
-                if detailed_gradients is not None:
-                    record["gradient_groups"] = detailed_gradients
+                if step["gradient_groups"] is not None:
+                    record["gradient_groups"] = step["gradient_groups"]
                     record["gradient_audit_stage"] = "after_unscale_and_clip"
                 with (output / "steps.jsonl").open("a", encoding="utf-8") as stream:
                     stream.write(json.dumps(record, ensure_ascii=False, allow_nan=False) + "\n")

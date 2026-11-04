@@ -12,8 +12,9 @@ if ((Test-Path -LiteralPath (Join-Path $FormalOutput 'pipeline_status.json')) -o
 # and interpreter paths are passed as structured Start-Process parameters.
 $FormalArguments = @('scripts\local_formal_pipeline.py', '--config', $ConfigPath)
 if ($ConfigPath -match '\s') { throw 'Use a repository-relative config path without spaces.' }
+New-Item -ItemType Directory -Path $FormalOutput -Force | Out-Null
 $FormalJob = Start-Process -FilePath $LocalRgbdPython -ArgumentList $FormalArguments `
     -WorkingDirectory $LocalRgbdRepo -WindowStyle Hidden -PassThru `
-    -RedirectStandardOutput (Join-Path $LocalRgbdRepo 'reports\local_formal_20261104\controller.stdout.log') `
-    -RedirectStandardError (Join-Path $LocalRgbdRepo 'reports\local_formal_20261104\controller.stderr.log')
+    -RedirectStandardOutput (Join-Path $FormalOutput 'controller.stdout.log') `
+    -RedirectStandardError (Join-Path $FormalOutput 'controller.stderr.log')
 @{ launcher_pid = $FormalJob.Id; config = $ConfigPath; status = (Join-Path $FormalOutput 'pipeline_status.json') } | ConvertTo-Json

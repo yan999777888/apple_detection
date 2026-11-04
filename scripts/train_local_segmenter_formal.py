@@ -26,6 +26,8 @@ def main() -> int:
     parser.add_argument("--preflight-report", type=Path)
     parser.add_argument("--prepared-cache", type=Path, help="Optional F-drive lossless prepared-tensor cache")
     parser.add_argument("--resume", type=Path, help="Formal epoch-boundary checkpoint only")
+    parser.add_argument("--upgrade-numerical-policy", action="store_true",
+                        help="Migrate only the explicitly allowlisted epoch-1 checkpoint to bounded numerical recovery")
     parser.add_argument("--max-updates", type=int, help="Independent 1..32-update engineering gate; not resumable")
     parser.add_argument("--log-interval", type=int, default=20)
     args = parser.parse_args()

@@ -16,7 +16,10 @@ import torch
 from apple_local_rgbd.formal_training import (
     PreparedVisibleDataset, capture_rng, cpu_snapshot, criterion_state, epoch_order,
     restore_criterion, restore_rng, save_checkpoint, validate_resume, verify_preflight,
+    LEGACY_EPOCH1_SHA256, LEGACY_FORMAL_SHA256, LEGACY_ADAPTER_SHA256,
+    LEGACY_SCALE_POLICY, recipe_sha256, source_hashes,
 )
+from apple_local_rgbd.numerics import AMP_SCALE_POLICY, NUMERICAL_POLICY
 from apple_local_rgbd.local_training import (
     MANIFEST_SCHEMA, NativeVisibleDataset, TrainingContractError, sha256_file, tight_boxes,
 )
@@ -148,6 +151,41 @@ class FormalTrainingTests(unittest.TestCase):
             validate_resume(partial, recipe)
         with self.assertRaisesRegex(TrainingContractError, "recipe differs"):
             validate_resume(saved, {**recipe, "epochs": 11})
+
+    def test_numerical_migration_is_explicit_hash_allowlisted_and_otherwise_strict(self):
+        from apple_local_rgbd.formal_training import CHECKPOINT_SCHEMA, FORMAL_SCHEMA
+        old = {"epochs": 10, "lr": 1e-4, "manifest_sha256": "fixed",
+               "amp_scale_policy": LEGACY_SCALE_POLICY,
+               "sources": {"formal_training.py": LEGACY_FORMAL_SHA256,
+                           "local_training.py": LEGACY_ADAPTER_SHA256}}
+        new = {**old, "amp_scale_policy": AMP_SCALE_POLICY,
+               "numerical_policy": copy.deepcopy(NUMERICAL_POLICY), "sources": source_hashes()}
+        saved = {"schema": CHECKPOINT_SCHEMA, "config": old, "formal_training": {
+            "schema": FORMAL_SCHEMA, "at_epoch_boundary": True, "recipe": old,
+            "completed_epochs": 1, "global_step": 1152, "steps_per_epoch": 1152,
+            "criterion": {"updates": 1}}}
+        with self.assertRaisesRegex(TrainingContractError, "recipe differs"):
+            validate_resume(saved, new)
+        receipt = validate_resume(saved, new, upgrade_numerical_policy=True,
+                                  checkpoint_sha256=LEGACY_EPOCH1_SHA256)
+        self.assertEqual(receipt["old_recipe_sha256"], recipe_sha256(old))
+        self.assertEqual(receipt["new_recipe_sha256"], recipe_sha256(new))
+        for changes in ({"lr": 2e-4}, {"manifest_sha256": "changed"}, {"epochs": 11}):
+            with self.assertRaisesRegex(TrainingContractError, "outside the explicit allowlist"):
+                validate_resume(saved, {**new, **changes}, upgrade_numerical_policy=True,
+                                checkpoint_sha256=LEGACY_EPOCH1_SHA256)
+        with self.assertRaisesRegex(TrainingContractError, "checkpoint/source allowlist"):
+            validate_resume(saved, new, upgrade_numerical_policy=True, checkpoint_sha256="unapproved")
+        wrong_source = copy.deepcopy(saved)
+        wrong_source["formal_training"]["recipe"]["sources"]["local_training.py"] = "changed"
+        with self.assertRaisesRegex(TrainingContractError, "checkpoint/source allowlist"):
+            validate_resume(wrong_source, new, upgrade_numerical_policy=True,
+                            checkpoint_sha256=LEGACY_EPOCH1_SHA256)
+        saved["config"] = new
+        saved["formal_training"]["recipe"] = new
+        self.assertIsNone(validate_resume(saved, new))
+        with self.assertRaisesRegex(TrainingContractError, "recipe differs"):
+            validate_resume(saved, {**new, "lr": 2e-4})
 
 
 if __name__ == "__main__":
