@@ -1,0 +1,2879 @@
+{
+  "labels_edited": false,
+  "requires_author_or_independent_domain_review": true,
+  "queue_count": 219,
+  "samples": [
+    {
+      "image_id": "23945062_20211104_122516_754.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_122516_754.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_122516_754.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_124344_710.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_124344_710.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_124344_710.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_124634_749.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_124634_749.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_124634_749.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_125044_108.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_125044_108.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_125044_108.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_125108_240.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_125108_240.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_125108_240.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_125118_240.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_125118_240.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_125118_240.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_125403_608.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_125403_608.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_125403_608.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_125609_235.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_125609_235.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_125609_235.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_125704_307.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_125704_307.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_125704_307.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_125808_306.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_125808_306.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_125808_306.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_125939_106.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_125939_106.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_125939_106.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_130047_305.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_130047_305.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_130047_305.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_130733_705.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_130733_705.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_130733_705.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_130759_105.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_130759_105.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_130759_105.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_131012_606.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_131012_606.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_131012_606.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_131746_222.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_131746_222.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_131746_222.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_131816_206.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_131816_206.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_131816_206.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_131852_606.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_131852_606.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_131852_606.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_132452_310.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_132452_310.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_132452_310.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_132903_213.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_132903_213.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_132903_213.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_132958_237.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_132958_237.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_132958_237.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_133116_740.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_133116_740.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_133116_740.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_133643_716.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_133643_716.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_133643_716.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_133816_317.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_133816_317.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_133816_317.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_134123_117.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_134123_117.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_134123_117.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_134333_245.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_134333_245.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_134333_245.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_134725_119.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_134725_119.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_134725_119.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_134914_319.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_134914_319.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_134914_319.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_135233_220.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_135233_220.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_135233_220.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_135302_821.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_135302_821.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_135302_821.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_135440_221.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_135440_221.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_135440_221.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_135515_621.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_135515_621.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_135515_621.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_135657_121.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_135657_121.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_135657_121.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_135833_221.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_135833_221.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_135833_221.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_140302_121.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_140302_121.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_140302_121.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_140547_740.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_140547_740.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_140547_740.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_140553_238.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_140553_238.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_140553_238.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_141026_122.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_141026_122.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_141026_122.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_141059_223.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_141059_223.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_141059_223.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_141206_323.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_141206_323.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_141206_323.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_141645_736.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_141645_736.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_141645_736.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_141758_735.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_141758_735.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_141758_735.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_141804_224.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_141804_224.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_141804_224.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_141849_324.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_141849_324.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_141849_324.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_142148_233.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_142148_233.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_142148_233.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_142250_233.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_142250_233.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_142250_233.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_142611_125.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_142611_125.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_142611_125.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_142725_126.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_142725_126.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_142725_126.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_142740_626.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_142740_626.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_142740_626.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_142759_325.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_142759_325.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_142759_325.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_143258_628.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_143258_628.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_143258_628.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_143649_241.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_143649_241.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_143649_241.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_143700_330.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_143700_330.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_143700_330.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_143715_743.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_143715_743.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_143715_743.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_143939_331.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_143939_331.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_143939_331.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_144021_243.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_144021_243.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_144021_243.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_144025_745.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_144025_745.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_144025_745.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_144848_248.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_144848_248.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_144848_248.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_144853_749.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_144853_749.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_144853_749.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_144940_234.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_144940_234.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_144940_234.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_145012_234.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_145012_234.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_145012_234.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_145017_750.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_145017_750.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_145017_750.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_145033_234.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_145033_234.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_145033_234.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_145254_249.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_145254_249.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_145254_249.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_145445_835.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_145445_835.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_145445_835.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_145648_336.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_145648_336.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_145648_336.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_145910_753.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_145910_753.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_145910_753.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_150123_251.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_150123_251.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_150123_251.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_150147_639.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_150147_639.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_150147_639.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_150341_251.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_150341_251.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_150341_251.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_150658_750.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_150658_750.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_150658_750.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_150838_244.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_150838_244.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_150838_244.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_151202_636.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_151202_636.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_151202_636.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_151310_836.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_151310_836.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_151310_836.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_152309_236.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_152309_236.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_152309_236.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_152622_238.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_152622_238.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_152622_238.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_152709_738.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_152709_738.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_152709_738.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_152751_737.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_152751_737.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_152751_737.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_152808_238.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_152808_238.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_152808_238.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_152824_837.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_152824_837.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_152824_837.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_153008_737.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_153008_737.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_153008_737.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_153342_839.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_153342_839.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_153342_839.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_153602_234.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_153602_234.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_153602_234.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_153623_139.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_153623_139.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_153623_139.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_153749_234.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_153749_234.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_153749_234.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_153800_234.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_153800_234.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_153800_234.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_153912_140.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_153912_140.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_153912_140.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_154600_743.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_154600_743.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_154600_743.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_154619_342.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_154619_342.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_154619_342.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_154652_642.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_154652_642.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_154652_642.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_154841_746.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_154841_746.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_154841_746.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_154906_242.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_154906_242.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_154906_242.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_154911_742.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_154911_742.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_154911_742.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_154920_342.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_154920_342.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_154920_342.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_155114_245.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_155114_245.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_155114_245.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_155134_244.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_155134_244.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_155134_244.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_155244_747.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_155244_747.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_155244_747.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_161215_347.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_161215_347.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_161215_347.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_161421_247.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_161421_247.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_161421_247.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_161511_147.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_161511_147.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_161511_147.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_161641_647.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_161641_647.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_161641_647.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_161740_148.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_161740_148.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_161740_148.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_161805_347.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_161805_347.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_161805_347.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_161950_249.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_161950_249.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_161950_249.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_162035_741.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_162035_741.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_162035_741.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_162539_249.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_162539_249.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_162539_249.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_162856_850.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_162856_850.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_162856_850.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_163302_232.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_163302_232.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_163302_232.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_163427_231.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_163427_231.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_163427_231.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_163606_651.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_163606_651.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_163606_651.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_164156_352.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211104_164156_352.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945062_20211104_164156_352.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_164229_730.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_164229_730.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_164229_730.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945062_20211104_164300_731.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211104_164300_731.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945062_20211104_164300_731.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_124747_718.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_124747_718.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_124747_718.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_125704_320.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211104_125704_320.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945063_20211104_125704_320.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_125943_320.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_125943_320.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_125943_320.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_130047_320.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_130047_320.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_130047_320.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_131012_622.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211104_131012_622.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945063_20211104_131012_622.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_131108_743.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_131108_743.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_131108_743.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_132023_223.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_132023_223.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_132023_223.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_132100_724.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_132100_724.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_132100_724.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_132821_126.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211104_132821_126.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945063_20211104_132821_126.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_133933_757.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_133933_757.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_133933_757.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_134406_329.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_134406_329.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_134406_329.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_135854_233.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_135854_233.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_135854_233.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_140103_333.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_140103_333.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_140103_333.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_141454_246.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_141454_246.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_141454_246.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_142611_136.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_142611_136.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_142611_136.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_143023_837.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_143023_837.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_143023_837.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_143153_338.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_143153_338.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_143153_338.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_143302_838.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_143302_838.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_143302_838.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_144111_138.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_144111_138.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_144111_138.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_145102_755.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_145102_755.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_145102_755.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_145259_755.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_145259_755.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_145259_755.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_145316_340.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_145316_340.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_145316_340.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_145542_254.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_145542_254.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_145542_254.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_145708_254.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_145708_254.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_145708_254.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_145823_254.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_145823_254.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_145823_254.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_145827_756.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211104_145827_756.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945063_20211104_145827_756.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_145941_756.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_145941_756.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_145941_756.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_150601_342.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211104_150601_342.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945063_20211104_150601_342.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_150643_343.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_150643_343.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_150643_343.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_150822_754.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_150822_754.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_150822_754.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_150855_753.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_150855_753.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_150855_753.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_151402_752.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_151402_752.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_151402_752.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_151630_347.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_151630_347.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_151630_347.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_151833_147.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_151833_147.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_151833_147.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_153251_152.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211104_153251_152.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945063_20211104_153251_152.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_153912_154.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_153912_154.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_153912_154.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_154605_155.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_154605_155.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_154605_155.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_155838_356.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_155838_356.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_155838_356.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_161037_260.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_161037_260.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_161037_260.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_161605_257.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_161605_257.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_161605_257.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_161834_255.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_161834_255.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_161834_255.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_162104_262.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_162104_262.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_162104_262.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_162139_753.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_162139_753.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_162139_753.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_162539_263.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_162539_263.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_162539_263.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_163401_748.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211104_163401_748.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945063_20211104_163401_748.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_163421_748.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_163421_748.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_163421_748.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_163637_367.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_163637_367.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_163637_367.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945063_20211104_164426_768.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211104_164426_768.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945063_20211104_164426_768.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_122444_768.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_122444_768.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_122444_768.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_123117_765.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_123117_765.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_123117_765.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_123330_263.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_123330_263.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_123330_263.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_125118_249.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_125118_249.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_125118_249.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_130127_233.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_130127_233.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_130127_233.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_130619_730.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_130619_730.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_130619_730.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_130733_705.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_130733_705.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_130733_705.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_130849_728.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_130849_728.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_130849_728.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_131222_726.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_131222_726.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_131222_726.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_131412_204.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_131412_204.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_131412_204.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_132137_104.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_132137_104.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_132137_104.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_133116_738.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_133116_738.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_133116_738.txt",
+      "reasons": [
+        "large_region_extent_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_133201_616.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_133201_616.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_133201_616.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_134725_117.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_134725_117.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_134725_117.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_135440_219.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_135440_219.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_135440_219.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_135833_220.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_135833_220.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_135833_220.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_135933_743.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_135933_743.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_135933_743.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_141026_121.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_141026_121.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_141026_121.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_142427_233.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_142427_233.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_142427_233.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_143123_626.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_143123_626.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_143123_626.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_144101_227.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_144101_227.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_144101_227.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_144138_727.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_144138_727.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_144138_727.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_144420_228.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_144420_228.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_144420_228.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_144853_744.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_144853_744.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_144853_744.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_145102_745.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_145102_745.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_145102_745.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_145254_244.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_145254_244.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_145254_244.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_145546_630.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_145546_630.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_145546_630.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_145634_232.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_145634_232.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_145634_232.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_145648_331.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_145648_331.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_145648_331.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_145817_747.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_145817_747.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_145817_747.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_150123_246.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_150123_246.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_150123_246.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_150341_247.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_150341_247.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_150341_247.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_150555_834.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_150555_834.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_150555_834.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_150726_336.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_150726_336.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_150726_336.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_150923_636.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_150923_636.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_150923_636.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_151202_637.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_151202_637.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_151202_637.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_151833_139.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_151833_139.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_151833_139.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_152300_241.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_152300_241.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_152300_241.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_153251_145.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_153251_145.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_153251_145.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_153623_146.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_153623_146.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_153623_146.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_153740_248.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_153740_248.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_153740_248.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_154503_250.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_154503_250.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_154503_250.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_155004_752.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_155004_752.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_155004_752.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_155019_152.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_155019_152.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_155019_152.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_155044_352.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_155044_352.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_155044_352.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_155125_255.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_155125_255.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_155125_255.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_155547_257.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_155547_257.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_155547_257.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_160840_159.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_160840_159.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_160840_159.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_160903_262.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_160903_262.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_160903_262.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_161839_747.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_161839_747.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_161839_747.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_162035_744.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_162035_744.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_162035_744.txt",
+      "reasons": [
+        "random_control_no_error_trigger"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_162139_742.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_162139_742.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_162139_742.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_162226_239.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_162226_239.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_162226_239.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_163302_231.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_163302_231.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_163302_231.txt",
+      "reasons": [
+        "large_region_extent_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_163427_229.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_163427_229.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_163427_229.txt",
+      "reasons": [
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_163733_750.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211104_163733_750.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\train\\23945065_20211104_163733_750.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_164229_728.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_164229_728.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_164229_728.txt",
+      "reasons": [
+        "missed_GT_review",
+        "unmatched_visible_region_review_do_not_auto_negative"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    },
+    {
+      "image_id": "23945065_20211104_164432_226.jpg",
+      "image_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211104_164432_226.jpg",
+      "label_path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\labels\\val\\23945065_20211104_164432_226.txt",
+      "reasons": [
+        "missed_GT_review"
+      ],
+      "review_scope": "entire image, not just predicted region",
+      "adjudication": null,
+      "label_changes": [],
+      "reviewer": null,
+      "review_version": null
+    }
+  ]
+}

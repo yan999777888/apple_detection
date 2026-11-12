@@ -1,0 +1,24 @@
+{
+  "no_training": true,
+  "no_GT_edits": true,
+  "checkpoint_sha256": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "manifest_sha256": "d748a4ada46e4dd3e087aff11c7813d9ab22044d5bbfb2d05c6cfa135a27f19f",
+  "export_conf": 0.001,
+  "deployment_conf": 0.25,
+  "imgsz": 640,
+  "rect": false,
+  "precision": "FP32",
+  "match_iou": 0.5,
+  "NMS_iou": 0.7,
+  "NMS_chosen_from_prior_audit_no_scan": true,
+  "train_role": "seen-training-set resubstitution, NOT independent validation",
+  "hypotheses": [
+    "duplicate predictions",
+    "score suppression",
+    "class confusion",
+    "extent mismatch",
+    "train/dev source or appearance shift",
+    "annotation incompleteness requires visual review"
+  ],
+  "script_sha256": "99e9a689f7ad58f7b9fe4d40ea393602da66fa33519bbef5d55f956fa465ab57"
+}

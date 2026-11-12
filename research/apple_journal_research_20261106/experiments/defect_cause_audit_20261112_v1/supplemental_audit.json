@@ -1,0 +1,919 @@
+{
+  "label_integrity": {
+    "source_images": 710,
+    "included_images": 709,
+    "included_GT": 1506,
+    "source_invalid_boxes": [
+      {
+        "image": "23945062_20211104_133557_241.jpg",
+        "partition": "quarantine",
+        "line": 6
+      }
+    ],
+    "exact_duplicate_annotation_rows": [],
+    "empty_label_images": [],
+    "cross_train_dev_identical_image_hashes": 0,
+    "known_invalid_image_already_quarantined": true,
+    "all_original_file_hashes_verified_by_inference": true
+  },
+  "low_score_FN": {
+    "train": {
+      "low_score_FN_count": 132,
+      "score_quantiles_0_25_50_75_100": [
+        0.001010871259495616,
+        0.08194042555987835,
+        0.15740592032670975,
+        0.20441368967294693,
+        0.2495344579219818
+      ],
+      "by_class": {
+        "1": 52,
+        "0": 80
+      }
+    },
+    "dev": {
+      "low_score_FN_count": 37,
+      "score_quantiles_0_25_50_75_100": [
+        0.004522702656686306,
+        0.023708481341600418,
+        0.0692126676440239,
+        0.18008968234062195,
+        0.22071023285388947
+      ],
+      "by_class": {
+        "1": 18,
+        "0": 19
+      }
+    }
+  },
+  "scale_by_class": {
+    "train": {
+      "0": {
+        "<16": 0,
+        "16-32": 111,
+        "32-96": 377,
+        ">=96": 49
+      },
+      "1": {
+        "<16": 0,
+        "16-32": 459,
+        "32-96": 276,
+        ">=96": 4
+      }
+    },
+    "dev": {
+      "0": {
+        "<16": 0,
+        "16-32": 18,
+        "32-96": 51,
+        ">=96": 18
+      },
+      "1": {
+        "<16": 0,
+        "16-32": 56,
+        "32-96": 83,
+        ">=96": 4
+      }
+    }
+  },
+  "diagnostic_only_floor001_NMS07": {
+    "train": {
+      "TP": 1264,
+      "FP": 4031,
+      "FN": 12,
+      "P": 0.23871576959395657,
+      "R": 0.9905956112852664
+    },
+    "dev": {
+      "TP": 217,
+      "FP": 915,
+      "FN": 13,
+      "P": 0.19169611307420495,
+      "R": 0.9434782608695652
+    }
+  },
+  "visual_review": {
+    "coverage": "all 50 post-NMS FP and 51 FN across 17 sheets; train 24 purposefully selected cases across 4 sheets",
+    "no_near_annotated_GT_cases": 36,
+    "localized_visible_feature_cases": 29,
+    "diffuse_or_ambiguous_cases": 7,
+    "these_are_visual_descriptions_not_missing_label_counts": true,
+    "confirmed_corrected_labels": 0,
+    "notes": [
+      {
+        "review_id": "FP001",
+        "image_id": "23945062_20211025_155302_653.jpg",
+        "sheet": "sheet_01.jpg",
+        "finding": "Overlapping predictions around one annotated region; confirmed redundant detection at this operating point.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP002",
+        "image_id": "23945062_20211025_222546_146.jpg",
+        "sheet": "sheet_01.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP003",
+        "image_id": "23945062_20211027_151639_616.jpg",
+        "sheet": "sheet_01.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP004",
+        "image_id": "23945063_20211025_155327_024.jpg",
+        "sheet": "sheet_01.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP005",
+        "image_id": "23945063_20211025_155727_650.jpg",
+        "sheet": "sheet_01.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP006",
+        "image_id": "23945063_20211025_175943_253.jpg",
+        "sheet": "sheet_01.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP007",
+        "image_id": "23945063_20211027_154503_527.jpg",
+        "sheet": "sheet_02.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP008",
+        "image_id": "23945065_20211025_155327_024.jpg",
+        "sheet": "sheet_02.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP009",
+        "image_id": "23945065_20211025_223938_636.jpg",
+        "sheet": "sheet_02.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP010",
+        "image_id": "23945065_20211027_153112_024.jpg",
+        "sheet": "sheet_02.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP011",
+        "image_id": "23945065_20211027_154503_527.jpg",
+        "sheet": "sheet_02.jpg",
+        "finding": "Predicted extent differs from annotation, including narrow core vs broader halo, shifted box or merging adjacent defects; does not by itself prove bad GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP012",
+        "image_id": "23945062_20211025_155302_653.jpg",
+        "sheet": "sheet_02.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP013",
+        "image_id": "23945062_20211025_204433_658.jpg",
+        "sheet": "sheet_03.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP014",
+        "image_id": "23945062_20211025_222441_147.jpg",
+        "sheet": "sheet_03.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP015",
+        "image_id": "23945062_20211025_223558_635.jpg",
+        "sheet": "sheet_03.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP016",
+        "image_id": "23945062_20211025_223816_636.jpg",
+        "sheet": "sheet_03.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP017",
+        "image_id": "23945062_20211025_223816_636.jpg",
+        "sheet": "sheet_03.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP018",
+        "image_id": "23945062_20211025_223816_636.jpg",
+        "sheet": "sheet_03.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP019",
+        "image_id": "23945062_20211027_143432_594.jpg",
+        "sheet": "sheet_04.jpg",
+        "finding": "Diffuse color/texture/shadow or ambiguous feature; cannot resolve normal vs target defect from RGB alone.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP020",
+        "image_id": "23945062_20211027_153254_619.jpg",
+        "sheet": "sheet_04.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP021",
+        "image_id": "23945062_20211027_153643_120.jpg",
+        "sheet": "sheet_04.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP022",
+        "image_id": "23945062_20211027_155016_622.jpg",
+        "sheet": "sheet_04.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP023",
+        "image_id": "23945063_20211025_153658_222.jpg",
+        "sheet": "sheet_04.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP024",
+        "image_id": "23945063_20211025_175441_148.jpg",
+        "sheet": "sheet_04.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP025",
+        "image_id": "23945063_20211025_175445_251.jpg",
+        "sheet": "sheet_05.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP026",
+        "image_id": "23945063_20211025_175445_251.jpg",
+        "sheet": "sheet_05.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP027",
+        "image_id": "23945063_20211025_175445_251.jpg",
+        "sheet": "sheet_05.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP028",
+        "image_id": "23945063_20211025_201627_679.jpg",
+        "sheet": "sheet_05.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP029",
+        "image_id": "23945063_20211025_205158_654.jpg",
+        "sheet": "sheet_05.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP030",
+        "image_id": "23945063_20211025_222305_149.jpg",
+        "sheet": "sheet_05.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP031",
+        "image_id": "23945063_20211025_224637_140.jpg",
+        "sheet": "sheet_06.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP032",
+        "image_id": "23945063_20211027_151908_619.jpg",
+        "sheet": "sheet_06.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP033",
+        "image_id": "23945063_20211027_154503_527.jpg",
+        "sheet": "sheet_06.jpg",
+        "finding": "Diffuse color/texture/shadow or ambiguous feature; cannot resolve normal vs target defect from RGB alone.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP034",
+        "image_id": "23945065_20211025_154741_223.jpg",
+        "sheet": "sheet_06.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP035",
+        "image_id": "23945065_20211025_155327_024.jpg",
+        "sheet": "sheet_06.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP036",
+        "image_id": "23945065_20211025_155327_024.jpg",
+        "sheet": "sheet_06.jpg",
+        "finding": "Diffuse color/texture/shadow or ambiguous feature; cannot resolve normal vs target defect from RGB alone.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP037",
+        "image_id": "23945065_20211025_155327_024.jpg",
+        "sheet": "sheet_07.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP038",
+        "image_id": "23945065_20211025_181203_150.jpg",
+        "sheet": "sheet_07.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP039",
+        "image_id": "23945065_20211025_181245_052.jpg",
+        "sheet": "sheet_07.jpg",
+        "finding": "Diffuse color/texture/shadow or ambiguous feature; cannot resolve normal vs target defect from RGB alone.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP040",
+        "image_id": "23945065_20211025_203325_241.jpg",
+        "sheet": "sheet_07.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP041",
+        "image_id": "23945065_20211025_203345_160.jpg",
+        "sheet": "sheet_07.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP042",
+        "image_id": "23945065_20211025_204735_042.jpg",
+        "sheet": "sheet_07.jpg",
+        "finding": "Diffuse color/texture/shadow or ambiguous feature; cannot resolve normal vs target defect from RGB alone.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP043",
+        "image_id": "23945065_20211025_213330_197.jpg",
+        "sheet": "sheet_08.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP044",
+        "image_id": "23945065_20211025_221002_631.jpg",
+        "sheet": "sheet_08.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP045",
+        "image_id": "23945065_20211025_221705_154.jpg",
+        "sheet": "sheet_08.jpg",
+        "finding": "Visible localized dark/gray mark or scratch at unmatched prediction; annotation completeness/definition needs adjudication, not confirmed missing GT.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP046",
+        "image_id": "23945065_20211025_222305_149.jpg",
+        "sheet": "sheet_08.jpg",
+        "finding": "Diffuse color/texture/shadow or ambiguous feature; cannot resolve normal vs target defect from RGB alone.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP047",
+        "image_id": "23945065_20211025_222546_146.jpg",
+        "sheet": "sheet_08.jpg",
+        "finding": "Diffuse color/texture/shadow or ambiguous feature; cannot resolve normal vs target defect from RGB alone.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP048",
+        "image_id": "23945062_20211025_223558_635.jpg",
+        "sheet": "sheet_08.jpg",
+        "finding": "Correct general location but numeric class disagrees; visual appearance alone cannot establish causal biological defect class.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP049",
+        "image_id": "23945065_20211025_175441_147.jpg",
+        "sheet": "sheet_09.jpg",
+        "finding": "Correct general location but numeric class disagrees; visual appearance alone cannot establish causal biological defect class.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FP050",
+        "image_id": "23945065_20211025_213218_750.jpg",
+        "sheet": "sheet_09.jpg",
+        "finding": "Correct general location but numeric class disagrees; visual appearance alone cannot establish causal biological defect class.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN001",
+        "image_id": "23945062_20211027_151639_616.jpg",
+        "sheet": "sheet_09.jpg",
+        "finding": "Visible target extent mismatch; high score response covers only part or merges multiple annotated regions.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN002",
+        "image_id": "23945063_20211025_155327_024.jpg",
+        "sheet": "sheet_09.jpg",
+        "finding": "Visible target extent mismatch; high score response covers only part or merges multiple annotated regions.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN003",
+        "image_id": "23945063_20211027_153313_622.jpg",
+        "sheet": "sheet_09.jpg",
+        "finding": "Visible target extent mismatch; high score response covers only part or merges multiple annotated regions.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN004",
+        "image_id": "23945065_20211027_154503_527.jpg",
+        "sheet": "sheet_09.jpg",
+        "finding": "Visible target extent mismatch; high score response covers only part or merges multiple annotated regions.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN005",
+        "image_id": "23945062_20211025_181203_162.jpg",
+        "sheet": "sheet_10.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN006",
+        "image_id": "23945062_20211025_181203_162.jpg",
+        "sheet": "sheet_10.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN007",
+        "image_id": "23945062_20211025_201627_696.jpg",
+        "sheet": "sheet_10.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN008",
+        "image_id": "23945062_20211025_201627_696.jpg",
+        "sheet": "sheet_10.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN009",
+        "image_id": "23945062_20211025_222546_146.jpg",
+        "sheet": "sheet_10.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN010",
+        "image_id": "23945062_20211025_223251_734.jpg",
+        "sheet": "sheet_10.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN011",
+        "image_id": "23945062_20211025_223558_635.jpg",
+        "sheet": "sheet_11.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN012",
+        "image_id": "23945062_20211025_223816_636.jpg",
+        "sheet": "sheet_11.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN013",
+        "image_id": "23945062_20211025_224637_138.jpg",
+        "sheet": "sheet_11.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN014",
+        "image_id": "23945062_20211027_145948_604.jpg",
+        "sheet": "sheet_11.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN015",
+        "image_id": "23945062_20211027_153254_619.jpg",
+        "sheet": "sheet_11.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN016",
+        "image_id": "23945062_20211027_153611_120.jpg",
+        "sheet": "sheet_11.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN017",
+        "image_id": "23945062_20211027_154503_523.jpg",
+        "sheet": "sheet_12.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN018",
+        "image_id": "23945062_20211027_154503_523.jpg",
+        "sheet": "sheet_12.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN019",
+        "image_id": "23945063_20211025_155727_650.jpg",
+        "sheet": "sheet_12.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN020",
+        "image_id": "23945063_20211025_175943_253.jpg",
+        "sheet": "sheet_12.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN021",
+        "image_id": "23945063_20211025_181018_155.jpg",
+        "sheet": "sheet_12.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN022",
+        "image_id": "23945063_20211025_181614_156.jpg",
+        "sheet": "sheet_12.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN023",
+        "image_id": "23945063_20211025_213423_650.jpg",
+        "sheet": "sheet_13.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN024",
+        "image_id": "23945063_20211025_222941_135.jpg",
+        "sheet": "sheet_13.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN025",
+        "image_id": "23945063_20211027_143341_674.jpg",
+        "sheet": "sheet_13.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN026",
+        "image_id": "23945063_20211027_143341_674.jpg",
+        "sheet": "sheet_13.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN027",
+        "image_id": "23945063_20211027_154503_527.jpg",
+        "sheet": "sheet_13.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN028",
+        "image_id": "23945065_20211025_155327_024.jpg",
+        "sheet": "sheet_13.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN029",
+        "image_id": "23945065_20211025_175943_250.jpg",
+        "sheet": "sheet_14.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN030",
+        "image_id": "23945065_20211025_180757_652.jpg",
+        "sheet": "sheet_14.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN031",
+        "image_id": "23945065_20211025_203637_141.jpg",
+        "sheet": "sheet_14.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN032",
+        "image_id": "23945065_20211025_204328_542.jpg",
+        "sheet": "sheet_14.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN033",
+        "image_id": "23945065_20211025_204735_042.jpg",
+        "sheet": "sheet_14.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN034",
+        "image_id": "23945065_20211025_213330_197.jpg",
+        "sheet": "sheet_14.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN035",
+        "image_id": "23945065_20211025_222546_146.jpg",
+        "sheet": "sheet_15.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN036",
+        "image_id": "23945065_20211025_223938_636.jpg",
+        "sheet": "sheet_15.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN037",
+        "image_id": "23945065_20211025_224453_637.jpg",
+        "sheet": "sheet_15.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN038",
+        "image_id": "23945065_20211027_143617_475.jpg",
+        "sheet": "sheet_15.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN039",
+        "image_id": "23945065_20211027_145758_109.jpg",
+        "sheet": "sheet_15.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN040",
+        "image_id": "23945065_20211027_153112_024.jpg",
+        "sheet": "sheet_15.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN041",
+        "image_id": "23945065_20211027_153112_024.jpg",
+        "sheet": "sheet_16.jpg",
+        "finding": "Same-class IoU>=.5 candidate exists below .25. Visible appearance ranges from clear cuts/dark spots to diffuse/edge regions. Score/ranking failure; no automatic relabel.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN042",
+        "image_id": "23945062_20211025_215315_157.jpg",
+        "sheet": "sheet_16.jpg",
+        "finding": "Broad low-contrast/discolored/near-stem region: extent and visual criterion uncertain; retain original GT for evaluation.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN043",
+        "image_id": "23945063_20211025_202430_658.jpg",
+        "sheet": "sheet_16.jpg",
+        "finding": "Broad low-contrast/discolored/near-stem region: extent and visual criterion uncertain; retain original GT for evaluation.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN044",
+        "image_id": "23945063_20211025_213347_148.jpg",
+        "sheet": "sheet_16.jpg",
+        "finding": "Broad low-contrast/discolored/near-stem region: extent and visual criterion uncertain; retain original GT for evaluation.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN045",
+        "image_id": "23945063_20211025_224637_140.jpg",
+        "sheet": "sheet_16.jpg",
+        "finding": "Broad low-contrast/discolored/near-stem region: extent and visual criterion uncertain; retain original GT for evaluation.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN046",
+        "image_id": "23945065_20211025_181245_052.jpg",
+        "sheet": "sheet_16.jpg",
+        "finding": "Broad low-contrast/discolored/near-stem region: extent and visual criterion uncertain; retain original GT for evaluation.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN047",
+        "image_id": "23945065_20211025_181907_155.jpg",
+        "sheet": "sheet_17.jpg",
+        "finding": "Visible elongated wound/scratch near fruit edge; model fails to produce a correct box even at .001 floor.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN048",
+        "image_id": "23945065_20211025_213330_197.jpg",
+        "sheet": "sheet_17.jpg",
+        "finding": "Small visible dark spot among similar surface marks; no correct box at .001 floor.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN049",
+        "image_id": "23945062_20211025_223558_635.jpg",
+        "sheet": "sheet_17.jpg",
+        "finding": "Correct general location but numeric class disagrees; visual appearance alone cannot establish causal biological defect class.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN050",
+        "image_id": "23945065_20211025_175441_147.jpg",
+        "sheet": "sheet_17.jpg",
+        "finding": "Correct general location but numeric class disagrees; visual appearance alone cannot establish causal biological defect class.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      },
+      {
+        "review_id": "FN051",
+        "image_id": "23945065_20211025_213218_750.jpg",
+        "sheet": "sheet_17.jpg",
+        "finding": "Correct general location but numeric class disagrees; visual appearance alone cannot establish causal biological defect class.",
+        "reviewer": "assistant visual inspection; not independent human expert",
+        "GT_changed": false
+      }
+    ]
+  },
+  "semantic_mapping": {
+    "numeric_labels_unchanged": true,
+    "paper_table_inference": "Original counts class0=500 train/124 val and class1=716 train/172 val exactly match the paper Scratch/Pest columns; supports inferred 0=scratch,1=pest, but no explicit release class-ID dictionary was found.",
+    "paper": "https://assets-eu.researchsquare.com/files/rs-4205600/v1_covered_5ca1cd7d-2085-42f9-b29d-e1830ae4d18b.pdf",
+    "mapping_author_confirmed": false
+  }
+}
