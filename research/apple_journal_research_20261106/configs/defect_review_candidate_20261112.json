@@ -1,0 +1,11 @@
+{
+  "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\strong_defect_composite_20261112_v1\\composite_frozen.pt",
+  "sha256": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "mode": "flip_nms",
+  "thresholds": [
+    0.4,
+    0.34
+  ],
+  "status": "review candidate, opt-in only",
+  "source_result": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\defect_algorithm_steps_20261112_v2\\final_review\\results.json"
+}

@@ -17,10 +17,12 @@ def main():
     im=cv2.imread(str(a.image));assert im is not None
     worker=AlgorithmAdapter(model.eval().requires_grad_(False).to('cuda:0'));results=worker.predict_mode(im,a.mode,a.thresholds);output={}
     for task,rr in results.items():
-        r=rr[0];output[task]={'names':r.names,'boxes_xyxy_conf_class':r.boxes.data.tolist(),'mask_files':[]}
+        r=rr[0];output[task]={'names':r.names,'boxes_xyxy_conf_class':r.boxes.data.tolist(),'box_coordinates':'original input image pixels','mask_files':[],'mask_tensor_hw':None}
         if r.masks is not None:
+            output[task]['mask_tensor_hw']=list(r.masks.data.shape[-2:]);output[task]['mask_grid_note']='Native predictor mask tensor grid; use polygons_xy_original for original-image coordinates, not raw PNG indices.'
+            output[task]['polygons_xy_original']=[p.tolist() for p in r.masks.xy]
             for i,mask in enumerate(r.masks.data.numpy()):
                 path=a.output/f'{task}_mask_{i:03d}.png';assert cv2.imwrite(str(path),mask.astype('uint8')*255);output[task]['mask_files'].append(path.name)
         assert cv2.imwrite(str(a.output/f'{task}_overlay.jpg'),r.plot())
-    atomic_json(a.output/'predictions.json',{'mode':a.mode,'thresholds':a.thresholds,'checkpoint':str(a.checkpoint),'checkpoint_sha256':sha(a.checkpoint),'outputs':output,'precision':'FP32','imgsz':640,'scope':'independent stage masks and defect boxes; no fruit association, defect segmentation or 3D claim'})
+    atomic_json(a.output/'predictions.json',{'mode':a.mode,'thresholds':a.thresholds,'checkpoint':str(a.checkpoint),'checkpoint_sha256':sha(a.checkpoint),'image':str(a.image.resolve()),'original_image_hw':list(im.shape[:2]),'outputs':output,'precision':'FP32','imgsz':640,'scope':'independent stage masks and defect boxes; no fruit association, defect segmentation or 3D claim'})
 if __name__=='__main__':main()

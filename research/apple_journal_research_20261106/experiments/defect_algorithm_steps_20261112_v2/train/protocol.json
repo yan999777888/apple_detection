@@ -1,0 +1,52 @@
+{
+  "arms": {
+    "G0_control": {},
+    "G1_shield": {
+      "shield": true
+    },
+    "G2_sampling": {
+      "sampling": true
+    },
+    "G3_scale": {
+      "wide": true
+    },
+    "G4_beta3": {
+      "beta": 3
+    },
+    "G5_combined": {
+      "shield": true,
+      "sampling": true,
+      "wide": true,
+      "beta": 3
+    }
+  },
+  "epochs": 3,
+  "updates_per_arm": 114,
+  "lr": 1e-05,
+  "FP32": true,
+  "fresh_AdamW": true,
+  "seed": 20261112,
+  "microbatch": 4,
+  "effective_batch": 16,
+  "draws_per_epoch": 596,
+  "baseline_scale": [
+    0.75,
+    1.25
+  ],
+  "wide_scale": [
+    0.5,
+    1.3
+  ],
+  "affine_translate": 0.1,
+  "flip": 0.5,
+  "HSV_v": 0.1,
+  "mosaic": 0,
+  "sampling": "2.5x probability for image containing class0 OR sqrt(box area at640)>=96; 596 replacement draws, not 2.5x total updates",
+  "G5": "combined predeclared, individual changes separately measured",
+  "all_from_same_strong_checkpoint": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "GT_edits": false,
+  "criterion": "final40 o2m .1/o2o .9; default box loss retained; TAL beta only in G4/G5",
+  "code_sha256": "d8da60a17c746b7b53c4348ec5dc9473e1fca71b66e89633d2a56e2d6fb3640f",
+  "selection": "fixed epoch3; no auto promotion; accuracy first near20FPS",
+  "smoke": false
+}

@@ -1,0 +1,43 @@
+{
+  "phase": "complete",
+  "arms": {
+    "G0_control": {
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\defect_algorithm_steps_20261112_v2\\train_smoke\\G0_control\\final.pt",
+      "checkpoint_sha256": "3d2db792056c4ecb8e472b9e5cc39b18f4f99bc64bcd92c56306b8a53fdf0ad8",
+      "steps": 2,
+      "stage_unchanged": true
+    },
+    "G1_shield": {
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\defect_algorithm_steps_20261112_v2\\train_smoke\\G1_shield\\final.pt",
+      "checkpoint_sha256": "aebda69d96382c037fa7418cebde297043f1b8a364e156647b845bcff3c1ef0c",
+      "steps": 2,
+      "stage_unchanged": true
+    },
+    "G2_sampling": {
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\defect_algorithm_steps_20261112_v2\\train_smoke\\G2_sampling\\final.pt",
+      "checkpoint_sha256": "8aab819ac131be00f2e1d6ce68615e0dde537d0158be0510c9c6939927cc2741",
+      "steps": 2,
+      "stage_unchanged": true
+    },
+    "G3_scale": {
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\defect_algorithm_steps_20261112_v2\\train_smoke\\G3_scale\\final.pt",
+      "checkpoint_sha256": "377724679b59b9b8c220f4ec4d496f315cbbf06606be1be04c17844b0bbeb7bf",
+      "steps": 2,
+      "stage_unchanged": true
+    },
+    "G4_beta3": {
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\defect_algorithm_steps_20261112_v2\\train_smoke\\G4_beta3\\final.pt",
+      "checkpoint_sha256": "c9ad4f7f484a0e1cb85935eca5c357c984925cb4bce4d162589ebe44ebe72e17",
+      "steps": 2,
+      "stage_unchanged": true
+    },
+    "G5_combined": {
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\defect_algorithm_steps_20261112_v2\\train_smoke\\G5_combined\\final.pt",
+      "checkpoint_sha256": "0665983a92b8601b5bde8d4b9480f41f0c4a3fd1c5d6b27f50da7c1338b1c1c1",
+      "steps": 2,
+      "stage_unchanged": true
+    }
+  },
+  "GT_unchanged": true,
+  "retained_weights_unchanged": true
+}

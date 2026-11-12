@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-12T14:47:43.5116613Z",
+  "snapshot_updated_utc": "2026-11-12T15:47:18.9834481Z",
   "files": [
     {
       "path": "apple_research_audit/benchmark_global_combined.py",
@@ -41,6 +41,11 @@
       "path": "apple_research_v2/adapt_mendeley_manifest.py",
       "sha256": "c34316ff95374785284c44c4def816ed2f6668a9db0dbab121e1b17f85bf8e9d",
       "bytes": 2214
+    },
+    {
+      "path": "apple_research_v2/analyze_defect_mechanisms_20261112.py",
+      "sha256": "521ba0adbff565c496953021b7d811481afe74930adadf653368e44fecad8de6",
+      "bytes": 2386
     },
     {
       "path": "apple_research_v2/analyze_ssda_frozen_errors.py",
@@ -116,6 +121,11 @@
       "path": "apple_research_v2/defect_shield_train_20261112.py",
       "sha256": "d8da60a17c746b7b53c4348ec5dc9473e1fca71b66e89633d2a56e2d6fb3640f",
       "bytes": 14274
+    },
+    {
+      "path": "apple_research_v2/deliver_defect_algorithm_report_20261112.py",
+      "sha256": "03c8e3807b3d60e865a882fe78513705f602a41f3b56f1d2985ec203b1d85dfc",
+      "bytes": 11585
     },
     {
       "path": "apple_research_v2/deployment_shared_v1/dual_output_contract.py",
@@ -269,8 +279,8 @@
     },
     {
       "path": "apple_research_v2/predict_defect_algorithm_20261112.py",
-      "sha256": "20d6cd5625dd78ae7374331c818efe2d1f6b96ebb31c745bc74edfb6f6379b6f",
-      "bytes": 2542
+      "sha256": "068088a5cadc0c1747951c9345a2219401d63c05d810a24ef7c25b8a10f66655",
+      "bytes": 2983
     },
     {
       "path": "apple_research_v2/predict_retained_dual_20261112.py",
@@ -428,6 +438,11 @@
       "bytes": 12149
     },
     {
+      "path": "apple_research_v2/verify_defect_final_runtime_20261112.py",
+      "sha256": "406678bbc4a2ebef7c4c251a392237582862757e771dc45f0847c785f5d31771",
+      "bytes": 2751
+    },
+    {
       "path": "apple_research_v2/verify_defect_modes_20261112.py",
       "sha256": "a48f5ad65a27c659c6aa564ab5771ea3285a01e39fa76827c42445e58492b5e5",
       "bytes": 2505
@@ -473,6 +488,11 @@
       "bytes": 120085
     },
     {
+      "path": "configs/defect_review_candidate_20261112.json",
+      "sha256": "b69e7f012306a30f5e3ba11a40d33153e54ab0cb674a4ea482a92ab17845241a",
+      "bytes": 577
+    },
+    {
       "path": "continue_joint_20261112.ps1",
       "sha256": "e6d5393194c1ef244f3ba3060c1adafb90e4d86095bd53021e386eef2d0318a2",
       "bytes": 2233
@@ -498,9 +518,14 @@
       "bytes": 11551
     },
     {
+      "path": "docs/缺陷零改标算法对照_20261112_最终.md",
+      "sha256": "10a3ddc275023a3b1203d9f42266085aa3957b3a4294cef8515c531fecc86409",
+      "bytes": 9520
+    },
+    {
       "path": "docs/缺陷零改标算法对照_20261112.md",
-      "sha256": "9d6d104b499c63c8f963671fb3f5562ad276c10526c4775184977c2b15509596",
-      "bytes": 5985
+      "sha256": "0efbe088a1d328a59d4a15f2737b42983ca030d20d7cab6fa8686eef769fff64",
+      "bytes": 7184
     },
     {
       "path": "docs/缺陷误检漏检归因与针对性方案_20261112.md",
@@ -518,6 +543,21 @@
       "bytes": 357
     },
     {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/all_mode_OOF_calibration/protocol.json",
+      "sha256": "ff8e2fe94bf0d07e2021c9049afd745c97afbe12dd79ad7b6759ceeda3f4fbef",
+      "bytes": 1530
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/all_mode_OOF_calibration/results.json",
+      "sha256": "f3ce143c61066c5c3f02c72dc32156359b97dc672011ae70848e9bd335121c01",
+      "bytes": 46110
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/all_mode_OOF_calibration/thresholds_frozen.json",
+      "sha256": "1139fc2281d022ffdf188465af214f53af7c4c1865cd4bd74b3dcaa65dd32a43",
+      "bytes": 355122
+    },
+    {
       "path": "experiments/defect_algorithm_steps_20261112_v2/continuation/protocol.json",
       "sha256": "bf7dd043e30fce3e91f2937953b2eb3100ef49cfa8598f825c1f235361da57a4",
       "bytes": 1083
@@ -528,9 +568,19 @@
       "bytes": 738
     },
     {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/delivery_hash_audit.json",
+      "sha256": "37f38a8fc9ec2fe0bb804734854c6e7e01251fd423a8fcd2b05c140b57f8ec62",
+      "bytes": 201
+    },
+    {
       "path": "experiments/defect_algorithm_steps_20261112_v2/deployment_ap.json",
-      "sha256": "0e262fb529f25c16534ec62385381dc78d90c9bae123505e16a412575704e8c2",
-      "bytes": 7578
+      "sha256": "69c07f4d0f2980e44680fe0272f74e00d07f5914228101528cd438cdc3082a05",
+      "bytes": 15230
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/final_review/results.json",
+      "sha256": "47582c288865ad799013c82ef189817b6058961d0a4c524f5e99f4848070bd0d",
+      "bytes": 161541
     },
     {
       "path": "experiments/defect_algorithm_steps_20261112_v2/finish_sequence/protocol.json",
@@ -538,9 +588,29 @@
       "bytes": 401
     },
     {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/mechanism_analysis.json",
+      "sha256": "683a2f612e117114dfad3b1a7917cf092bb7676b08d652a96dc18ea14b40f25a",
+      "bytes": 6925
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/mode_deployment_validation/results.json",
+      "sha256": "e0576ffbac688d386bdf248d3c5a28c590855bdbea9a1cc40324bb51d3265370",
+      "bytes": 29111
+    },
+    {
       "path": "experiments/defect_algorithm_steps_20261112_v2/oof_v2/protocol.json",
       "sha256": "123152215b8012dd3355e354b0055a7e40168e4096e8af9b25d81df98839cf91",
       "bytes": 27045
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/oof_v2/results.json",
+      "sha256": "88fc700c2fbce5a008097c9b0176ebee4509eec44d360340e584d12c86e85b46",
+      "bytes": 5984
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/oof_v2/thresholds_frozen.json",
+      "sha256": "21608fa44833733915ef64db91af053f2181e9d7687f692468aed4bf811baaf0",
+      "bytes": 85843
     },
     {
       "path": "experiments/defect_algorithm_steps_20261112_v2/phase1/protocol.json",
@@ -558,6 +628,11 @@
       "bytes": 105
     },
     {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/runtime_fixed_verification/results.json",
+      "sha256": "084f83668b72642ceacd8a9b1ca5f71cb66a183e983eeaa9ee6a5e7963a21e5b",
+      "bytes": 6883
+    },
+    {
       "path": "experiments/defect_algorithm_steps_20261112_v2/shield_prepare/provenance_verification.json",
       "sha256": "d45b3e496f3554e9721dfe8efff854f0060f5b609c4de0d40956a3f8a2cbdf33",
       "bytes": 338
@@ -566,6 +641,21 @@
       "path": "experiments/defect_algorithm_steps_20261112_v2/shield_prepare/statistics.json",
       "sha256": "3a6b65a6b53e9a2b5ef2f317db3f4c9d96608ae649a05e48bb7c0e96374511ad",
       "bytes": 478
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/train_smoke/results.json",
+      "sha256": "5d8c0d742f973752e5f896350c6a54f5179076f970789247d791cec8808fff2d",
+      "bytes": 2365
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/train/protocol.json",
+      "sha256": "b8615854a021bf6cd65b142cc38b3b425f32175a19da5759bc57f2bbfd7ee1df",
+      "bytes": 1333
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/train/results.json",
+      "sha256": "d9d9f3ce63cea6825f32b2c0383d4014b761ddd6caff66c5497d8c72efa93211",
+      "bytes": 47455
     },
     {
       "path": "experiments/defect_cause_audit_20261112_v1/protocol.json",
