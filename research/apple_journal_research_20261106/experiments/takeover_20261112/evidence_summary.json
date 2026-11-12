@@ -1,0 +1,743 @@
+{
+  "scope": "development experiments; not independent whole-fruit grading",
+  "models": {
+    "joint": {
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\runs\\joint_shared_e40_s20261106_v1\\checkpoints\\final40_complete.pt",
+      "checkpoint_sha256": "91b77d1f4a5038171f783b386b87f6ce83e4d1b39b91326698e058e10b63d5fb",
+      "epochs": 40,
+      "updates": 3480,
+      "component_updates": {
+        "trunks.shared": 3480,
+        "heads.stage": 1960,
+        "heads.defect": 1520
+      },
+      "manifest_sha256": "3b675bf22d3e2a94732a694913bb01375a3f616e85dd351f8f388341d1637a98",
+      "initialization_sha256": "820e5d9ecd38fe654e3fa7aee02361ee37cc9dc4213973a7d4e2e2edb91d8932",
+      "report_sha256": "07c2edff55b00ba16d84b445ee1b052600d7f409abe5bc1dc7354a271bc6217c",
+      "validation": {
+        "stage": {
+          "metrics": {
+            "metrics/precision(B)": 0.9001773233118376,
+            "metrics/recall(B)": 0.9501819770118148,
+            "metrics/mAP50(B)": 0.8943389059467685,
+            "metrics/mAP50-95(B)": 0.8206755016691843,
+            "metrics/precision(M)": 0.9001773233118376,
+            "metrics/recall(M)": 0.9501819770118148,
+            "metrics/mAP50(M)": 0.8943389059467685,
+            "metrics/mAP50-95(M)": 0.8303740140415736
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "immature apple",
+              "instances": 65,
+              "images": 43,
+              "box": {
+                "precision": 0.9834919782495185,
+                "recall": 0.916625236819047,
+                "f1": 0.9488820587734822,
+                "AP50": 0.9534620323297374,
+                "AP50_95": 0.9085381087387283
+              },
+              "mask": {
+                "precision": 0.9834919782495185,
+                "recall": 0.916625236819047,
+                "f1": 0.9488820587734822,
+                "AP50": 0.9534620323297374,
+                "AP50_95": 0.9055387747709103
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "semi-mature apple",
+              "instances": 3,
+              "images": 2,
+              "box": {
+                "precision": 0.7397882200507119,
+                "recall": 1.0,
+                "f1": 0.8504347960571297,
+                "AP50": 0.7462500000000002,
+                "AP50_95": 0.6386250000000002
+              },
+              "mask": {
+                "precision": 0.7397882200507119,
+                "recall": 1.0,
+                "f1": 0.8504347960571297,
+                "AP50": 0.7462500000000002,
+                "AP50_95": 0.6716250000000001
+              }
+            },
+            {
+              "class_id": 2,
+              "name": "mature apple",
+              "instances": 46,
+              "images": 29,
+              "box": {
+                "precision": 0.9772517716352824,
+                "recall": 0.9339206942163977,
+                "f1": 0.955095020776275,
+                "AP50": 0.9833046855105678,
+                "AP50_95": 0.9148633962688251
+              },
+              "mask": {
+                "precision": 0.9772517716352824,
+                "recall": 0.9339206942163977,
+                "f1": 0.955095020776275,
+                "AP50": 0.9833046855105678,
+                "AP50_95": 0.9139582673538106
+              }
+            }
+          ],
+          "seen": 72
+        },
+        "defect": {
+          "metrics": {
+            "metrics/precision(B)": 0.222156066124965,
+            "metrics/recall(B)": 0.27449561932320554,
+            "metrics/mAP50(B)": 0.1809533316322996,
+            "metrics/mAP50-95(B)": 0.10517814597991215
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "class_0",
+              "instances": 87,
+              "images": 54,
+              "box": {
+                "precision": 0.040697674418604654,
+                "recall": 0.08045977011494253,
+                "f1": 0.054054054054054015,
+                "AP50": 0.024623407992973207,
+                "AP50_95": 0.01790253218685713
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "class_1",
+              "instances": 143,
+              "images": 70,
+              "box": {
+                "precision": 0.4036144578313253,
+                "recall": 0.46853146853146854,
+                "f1": 0.43365695792880254,
+                "AP50": 0.337283255271626,
+                "AP50_95": 0.19245375977296722
+              }
+            }
+          ],
+          "seen": 113
+        }
+      }
+    },
+    "separate": {
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\runs\\separate_matched_e40_s20261112_v1\\checkpoints\\final40_complete.pt",
+      "checkpoint_sha256": "a2743af0f1bdbbde9a3f6f3a030e6c53c79ad814905d8b974630f2ad08298340",
+      "epochs": 40,
+      "updates": 3480,
+      "component_updates": {
+        "trunks.stage": 1960,
+        "trunks.defect": 1520,
+        "heads.stage": 1960,
+        "heads.defect": 1520
+      },
+      "manifest_sha256": "3b675bf22d3e2a94732a694913bb01375a3f616e85dd351f8f388341d1637a98",
+      "initialization_sha256": "820e5d9ecd38fe654e3fa7aee02361ee37cc9dc4213973a7d4e2e2edb91d8932",
+      "report_sha256": "279f87eb4c010a679c43a76f17888f69a9949e5ac9a208aba54c2e18adf6b855",
+      "validation": {
+        "stage": {
+          "metrics": {
+            "metrics/precision(B)": 0.9738676364519171,
+            "metrics/recall(B)": 0.9073795885186686,
+            "metrics/mAP50(B)": 0.9809583350806644,
+            "metrics/mAP50-95(B)": 0.9177708533225023,
+            "metrics/precision(M)": 0.9738676364519171,
+            "metrics/recall(M)": 0.9073795885186686,
+            "metrics/mAP50(M)": 0.9809583350806644,
+            "metrics/mAP50-95(M)": 0.9148598034876778
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "immature apple",
+              "instances": 65,
+              "images": 43,
+              "box": {
+                "precision": 1.0,
+                "recall": 0.8320591746991325,
+                "f1": 0.9083322047561878,
+                "AP50": 0.9758641356767763,
+                "AP50_95": 0.9411177970400081
+              },
+              "mask": {
+                "precision": 1.0,
+                "recall": 0.8320591746991325,
+                "f1": 0.9083322047561878,
+                "AP50": 0.9758641356767763,
+                "AP50_95": 0.9316951380831202
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "semi-mature apple",
+              "instances": 3,
+              "images": 2,
+              "box": {
+                "precision": 0.9216029093557511,
+                "recall": 1.0,
+                "f1": 0.959202241908276,
+                "AP50": 0.995,
+                "AP50_95": 0.8963374999999999
+              },
+              "mask": {
+                "precision": 0.9216029093557511,
+                "recall": 1.0,
+                "f1": 0.959202241908276,
+                "AP50": 0.995,
+                "AP50_95": 0.8963374999999999
+              }
+            },
+            {
+              "class_id": 2,
+              "name": "mature apple",
+              "instances": 46,
+              "images": 29,
+              "box": {
+                "precision": 1.0,
+                "recall": 0.8900795908568732,
+                "f1": 0.9418435024245226,
+                "AP50": 0.9720108695652173,
+                "AP50_95": 0.9158572629274984
+              },
+              "mask": {
+                "precision": 1.0,
+                "recall": 0.8900795908568732,
+                "f1": 0.9418435024245226,
+                "AP50": 0.9720108695652173,
+                "AP50_95": 0.916546772379913
+              }
+            }
+          ],
+          "seen": 72
+        },
+        "defect": {
+          "metrics": {
+            "metrics/precision(B)": 0.7076677096355835,
+            "metrics/recall(B)": 0.6601593720509991,
+            "metrics/mAP50(B)": 0.709171750165279,
+            "metrics/mAP50-95(B)": 0.37491466445145505
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "class_0",
+              "instances": 87,
+              "images": 54,
+              "box": {
+                "precision": 0.6854621912843751,
+                "recall": 0.5510879748712288,
+                "f1": 0.6109739518617576,
+                "AP50": 0.6140504416148331,
+                "AP50_95": 0.2900801254639759
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "class_1",
+              "instances": 143,
+              "images": 70,
+              "box": {
+                "precision": 0.7298732279867919,
+                "recall": 0.7692307692307693,
+                "f1": 0.7490353513129137,
+                "AP50": 0.8042930587157249,
+                "AP50_95": 0.4597492034389342
+              }
+            }
+          ],
+          "seen": 113
+        }
+      }
+    }
+  },
+  "matched_image_benchmark": {
+    "joint": {
+      "parameters": 3295921,
+      "peak_allocated_bytes": 280716288,
+      "model_only": {
+        "n": 120,
+        "mean_ms": 19.45903916785028,
+        "p50_ms": 19.188250007573515,
+        "p95_ms": 22.21137997112237,
+        "serial_fps": 51.389998826466936
+      },
+      "array_to_cpu_results": {
+        "n": 120,
+        "mean_ms": 42.533239156667456,
+        "p50_ms": 42.12864994769916,
+        "p95_ms": 45.03215000149794,
+        "serial_fps": 23.511023844588646
+      }
+    },
+    "separate": {
+      "parameters": 5558545,
+      "peak_allocated_bytes": 293488640,
+      "model_only": {
+        "n": 120,
+        "mean_ms": 27.431023336248472,
+        "p50_ms": 26.905600039754063,
+        "p95_ms": 30.86012504645623,
+        "serial_fps": 36.45507452427264
+      },
+      "array_to_cpu_results": {
+        "n": 120,
+        "mean_ms": 59.042809999664314,
+        "p50_ms": 58.42444999143481,
+        "p95_ms": 63.15634503844194,
+        "serial_fps": 16.936863269307228
+      }
+    }
+  },
+  "frozen_adapter": {
+    "scope": "BGR image array to two-task CPU Results including native masks; no camera/depth/robot",
+    "precision": "FP32",
+    "imgsz": 640,
+    "rect": false,
+    "conf": 0.25,
+    "max_det": 300,
+    "timing": {
+      "reference": {
+        "n": 160,
+        "mean_ms": 65.54962749869446,
+        "p50_ms": 63.83455003378913,
+        "p95_ms": 77.46175490319726,
+        "serial_fps": 15.255616822840325
+      },
+      "frozen": {
+        "n": 160,
+        "mean_ms": 33.21550374457729,
+        "p50_ms": 32.57869998924434,
+        "p95_ms": 37.597565003670745,
+        "serial_fps": 30.106422822603086
+      }
+    },
+    "parity_images": 185,
+    "state_sha256_before": "b0f352ec8a85588b8295dcf27e05a24d317d8cdcb11dfd34f557ab485e6d4511",
+    "state_sha256_after": "b0f352ec8a85588b8295dcf27e05a24d317d8cdcb11dfd34f557ab485e6d4511",
+    "checkpoint_sha256": "a2743af0f1bdbbde9a3f6f3a030e6c53c79ad814905d8b974630f2ad08298340",
+    "metric_warning": "Official AP uses its original rect validator. No new AP or whole-fruit grade accuracy is inferred here."
+  },
+  "BN_diagnostic": {
+    "stage_only64": {
+      "validation": {
+        "stage": {
+          "metrics": {
+            "metrics/precision(B)": 0.8699470206077468,
+            "metrics/recall(B)": 0.9529105708481601,
+            "metrics/mAP50(B)": 0.8958961679567271,
+            "metrics/mAP50-95(B)": 0.8336615907237023,
+            "metrics/precision(M)": 0.8699470206077468,
+            "metrics/recall(M)": 0.9529105708481601,
+            "metrics/mAP50(M)": 0.8958961679567271,
+            "metrics/mAP50-95(M)": 0.8383726998679515
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "immature apple",
+              "instances": 65,
+              "images": 43,
+              "box": {
+                "precision": 0.9680359634869385,
+                "recall": 0.9319113336921688,
+                "f1": 0.949630220937706,
+                "AP50": 0.955308143547274,
+                "AP50_95": 0.9084169519579207
+              },
+              "mask": {
+                "precision": 0.9680359634869385,
+                "recall": 0.9319113336921688,
+                "f1": 0.949630220937706,
+                "AP50": 0.955308143547274,
+                "AP50_95": 0.9067378435101612
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "semi-mature apple",
+              "instances": 3,
+              "images": 2,
+              "box": {
+                "precision": 0.7446626425635127,
+                "recall": 0.9786505702540507,
+                "f1": 0.8457714063483129,
+                "AP50": 0.7462500000000002,
+                "AP50_95": 0.6716250000000001
+              },
+              "mask": {
+                "precision": 0.7446626425635127,
+                "recall": 0.9786505702540507,
+                "f1": 0.8457714063483129,
+                "AP50": 0.7462500000000002,
+                "AP50_95": 0.7048750000000001
+              }
+            },
+            {
+              "class_id": 2,
+              "name": "mature apple",
+              "instances": 46,
+              "images": 29,
+              "box": {
+                "precision": 0.8971424557727892,
+                "recall": 0.9481698085982609,
+                "f1": 0.9219506172473088,
+                "AP50": 0.9861303603229069,
+                "AP50_95": 0.9209428202131857
+              },
+              "mask": {
+                "precision": 0.8971424557727892,
+                "recall": 0.9481698085982609,
+                "f1": 0.9219506172473088,
+                "AP50": 0.9861303603229069,
+                "AP50_95": 0.9035052560936929
+              }
+            }
+          ],
+          "seen": 72,
+          "delta_from_original_EMA_pp": {
+            "metrics/precision(B)": -3.0230302704090883,
+            "metrics/recall(B)": 0.2728593836345272,
+            "metrics/mAP50(B)": 0.15572620099586487,
+            "metrics/mAP50-95(B)": 1.2986089054517924,
+            "metrics/precision(M)": -3.0230302704090883,
+            "metrics/recall(M)": 0.2728593836345272,
+            "metrics/mAP50(M)": 0.15572620099586487,
+            "metrics/mAP50-95(M)": 0.799868582637786
+          },
+          "receipt": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\diagnostics\\joint_bn_20261112_run_v1\\stage_only64\\validation_stage\\validation_receipt.json"
+        },
+        "defect": {
+          "metrics": {
+            "metrics/precision(B)": 0.2522149600580973,
+            "metrics/recall(B)": 0.1501085121774777,
+            "metrics/mAP50(B)": 0.10874615300053389,
+            "metrics/mAP50-95(B)": 0.062068885639236446
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "class_0",
+              "instances": 87,
+              "images": 54,
+              "box": {
+                "precision": 0.03529411764705882,
+                "recall": 0.034482758620689655,
+                "f1": 0.03488372093023251,
+                "AP50": 0.022634408602150536,
+                "AP50_95": 0.016689247311827957
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "class_1",
+              "instances": 143,
+              "images": 70,
+              "box": {
+                "precision": 0.4691358024691358,
+                "recall": 0.26573426573426573,
+                "f1": 0.3392857142857142,
+                "AP50": 0.19485789739891723,
+                "AP50_95": 0.10744852396664495
+              }
+            }
+          ],
+          "seen": 113,
+          "delta_from_original_EMA_pp": {
+            "metrics/precision(B)": 3.00588939331323,
+            "metrics/recall(B)": -12.438710714572784,
+            "metrics/mAP50(B)": -7.220717863176571,
+            "metrics/mAP50-95(B)": -4.31092603406757
+          },
+          "receipt": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\diagnostics\\joint_bn_20261112_run_v1\\stage_only64\\validation_defect\\validation_receipt.json"
+        }
+      },
+      "calibration_examples": 64,
+      "parameters_unchanged": true,
+      "head_BN_unchanged": true
+    },
+    "defect_only64": {
+      "validation": {
+        "stage": {
+          "metrics": {
+            "metrics/precision(B)": 0.6434729233941622,
+            "metrics/recall(B)": 0.11594202898550725,
+            "metrics/mAP50(B)": 0.14859948075437984,
+            "metrics/mAP50-95(B)": 0.08856857391569406,
+            "metrics/precision(M)": 0.9517542917314848,
+            "metrics/recall(M)": 0.09420289855072463,
+            "metrics/mAP50(M)": 0.10600257794844453,
+            "metrics/mAP50-95(M)": 0.05991722553029333
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "immature apple",
+              "instances": 65,
+              "images": 43,
+              "box": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "AP50": 2.4916943521594686e-05,
+                "AP50_95": 1.495016611295681e-05
+              },
+              "mask": {
+                "precision": 1.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "AP50": 0.0,
+                "AP50_95": 0.0
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "semi-mature apple",
+              "instances": 3,
+              "images": 2,
+              "box": {
+                "precision": 1.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "AP50": 0.022333333333333337,
+                "AP50_95": 0.008933333333333335
+              },
+              "mask": {
+                "precision": 1.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "AP50": 0.022333333333333337,
+                "AP50_95": 0.0067
+              }
+            },
+            {
+              "class_id": 2,
+              "name": "mature apple",
+              "instances": 46,
+              "images": 29,
+              "box": {
+                "precision": 0.9304187701824866,
+                "recall": 0.34782608695652173,
+                "f1": 0.506356694112292,
+                "AP50": 0.4234401919862846,
+                "AP50_95": 0.2567574382476359
+              },
+              "mask": {
+                "precision": 0.8552628751944542,
+                "recall": 0.2826086956521739,
+                "f1": 0.42483656643006457,
+                "AP50": 0.2956744005120003,
+                "AP50_95": 0.17305167659088
+              }
+            }
+          ],
+          "seen": 72,
+          "delta_from_original_EMA_pp": {
+            "metrics/precision(B)": -25.670439991767545,
+            "metrics/recall(B)": -83.42399480263076,
+            "metrics/mAP50(B)": -74.57394251923886,
+            "metrics/mAP50-95(B)": -73.21069277534903,
+            "metrics/precision(M)": 5.157696841964721,
+            "metrics/recall(M)": -85.59790784610902,
+            "metrics/mAP50(M)": -78.8336327998324,
+            "metrics/mAP50-95(M)": -77.04567885112803
+          },
+          "receipt": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\diagnostics\\joint_bn_20261112_run_v1\\defect_only64\\validation_stage\\validation_receipt.json"
+        },
+        "defect": {
+          "metrics": {
+            "metrics/precision(B)": 0.7577359141135797,
+            "metrics/recall(B)": 0.6212523109074833,
+            "metrics/mAP50(B)": 0.7029339716674479,
+            "metrics/mAP50-95(B)": 0.3689756770942786
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "class_0",
+              "instances": 87,
+              "images": 54,
+              "box": {
+                "precision": 0.7497623751378171,
+                "recall": 0.4942528735632184,
+                "f1": 0.5957679518613467,
+                "AP50": 0.5927406671938373,
+                "AP50_95": 0.291682890548172
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "class_1",
+              "instances": 143,
+              "images": 70,
+              "box": {
+                "precision": 0.7657094530893422,
+                "recall": 0.7482517482517482,
+                "f1": 0.7568799470151125,
+                "AP50": 0.8131272761410585,
+                "AP50_95": 0.4462684636403852
+              }
+            }
+          ],
+          "seen": 113,
+          "delta_from_original_EMA_pp": {
+            "metrics/precision(B)": 53.55798479886147,
+            "metrics/recall(B)": 34.67566915842778,
+            "metrics/mAP50(B)": 52.19806400351483,
+            "metrics/mAP50-95(B)": 26.379753111436642
+          },
+          "receipt": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\diagnostics\\joint_bn_20261112_run_v1\\defect_only64\\validation_defect\\validation_receipt.json"
+        }
+      },
+      "calibration_examples": 64,
+      "parameters_unchanged": true,
+      "head_BN_unchanged": true
+    },
+    "balanced64_64": {
+      "validation": {
+        "stage": {
+          "metrics": {
+            "metrics/precision(B)": 0.8526578557871695,
+            "metrics/recall(B)": 0.9156898323916147,
+            "metrics/mAP50(B)": 0.929260089610433,
+            "metrics/mAP50-95(B)": 0.8434973955082602,
+            "metrics/precision(M)": 0.8526578557871695,
+            "metrics/recall(M)": 0.9156898323916147,
+            "metrics/mAP50(M)": 0.929260089610433,
+            "metrics/mAP50-95(M)": 0.8557193315524433
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "immature apple",
+              "instances": 65,
+              "images": 43,
+              "box": {
+                "precision": 0.995778510123595,
+                "recall": 0.8615384615384616,
+                "f1": 0.9238072970142877,
+                "AP50": 0.9444825861218519,
+                "AP50_95": 0.8906085555771233
+              },
+              "mask": {
+                "precision": 0.995778510123595,
+                "recall": 0.8615384615384616,
+                "f1": 0.9238072970142877,
+                "AP50": 0.9444825861218519,
+                "AP50_95": 0.8863614402291919
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "semi-mature apple",
+              "instances": 3,
+              "images": 2,
+              "box": {
+                "precision": 0.5982680063430886,
+                "recall": 0.9942266878102954,
+                "f1": 0.7470216642518588,
+                "AP50": 0.863,
+                "AP50_95": 0.72705
+              },
+              "mask": {
+                "precision": 0.5982680063430886,
+                "recall": 0.9942266878102954,
+                "f1": 0.7470216642518588,
+                "AP50": 0.863,
+                "AP50_95": 0.7767
+              }
+            },
+            {
+              "class_id": 2,
+              "name": "mature apple",
+              "instances": 46,
+              "images": 29,
+              "box": {
+                "precision": 0.963927050894825,
+                "recall": 0.8913043478260869,
+                "f1": 0.926194297964208,
+                "AP50": 0.9802976827094474,
+                "AP50_95": 0.9128336309476575
+              },
+              "mask": {
+                "precision": 0.963927050894825,
+                "recall": 0.8913043478260869,
+                "f1": 0.926194297964208,
+                "AP50": 0.9802976827094474,
+                "AP50_95": 0.9040965544281383
+              }
+            }
+          ],
+          "seen": 72,
+          "delta_from_original_EMA_pp": {
+            "metrics/precision(B)": -4.751946752466818,
+            "metrics/recall(B)": -3.4492144620200116,
+            "metrics/mAP50(B)": 3.492118366366459,
+            "metrics/mAP50-95(B)": 2.2821893839075846,
+            "metrics/precision(M)": -4.751946752466818,
+            "metrics/recall(M)": -3.4492144620200116,
+            "metrics/mAP50(M)": 3.492118366366459,
+            "metrics/mAP50-95(M)": 2.534531751086966
+          },
+          "receipt": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\diagnostics\\joint_bn_20261112_run_v1\\balanced64_64\\validation_stage\\validation_receipt.json"
+        },
+        "defect": {
+          "metrics": {
+            "metrics/precision(B)": 0.22882085812715314,
+            "metrics/recall(B)": 0.39217104734346114,
+            "metrics/mAP50(B)": 0.22594985320037955,
+            "metrics/mAP50-95(B)": 0.1307146849541925
+          },
+          "per_class": [
+            {
+              "class_id": 0,
+              "name": "class_0",
+              "instances": 87,
+              "images": 54,
+              "box": {
+                "precision": 0.08870967741935484,
+                "recall": 0.25287356321839083,
+                "f1": 0.1313432835820895,
+                "AP50": 0.06703585734469462,
+                "AP50_95": 0.03469584895708872
+              }
+            },
+            {
+              "class_id": 1,
+              "name": "class_1",
+              "instances": 143,
+              "images": 70,
+              "box": {
+                "precision": 0.36893203883495146,
+                "recall": 0.5314685314685315,
+                "f1": 0.4355300859598853,
+                "AP50": 0.38486384905606447,
+                "AP50_95": 0.22673352095129626
+              }
+            }
+          ],
+          "seen": 113,
+          "delta_from_original_EMA_pp": {
+            "metrics/precision(B)": 0.6664792002188141,
+            "metrics/recall(B)": 11.76754280202556,
+            "metrics/mAP50(B)": 4.499652156807995,
+            "metrics/mAP50-95(B)": 2.5536538974280347
+          },
+          "receipt": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\diagnostics\\joint_bn_20261112_run_v1\\balanced64_64\\validation_defect\\validation_receipt.json"
+        }
+      },
+      "calibration_examples": 128,
+      "parameters_unchanged": true,
+      "head_BN_unchanged": true
+    }
+  },
+  "decision": "Retain separate final40 baseline; frozen predict adapter verified at square640/conf.25/FP32 only; no shared/BN variant promotion."
+}
