@@ -1,0 +1,25 @@
+{
+  "checkpoint_sha256": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "modes": [
+    "o2o_nms",
+    "o2m_nms",
+    "heads_wbf_nms",
+    "o2o_wbf",
+    "flip_nms",
+    "flip_wbf"
+  ],
+  "conf": 0.25,
+  "source_floor": 0.001,
+  "NMS": 0.7,
+  "WBF_iou": 0.55,
+  "WBF_scores": "mean member scores times unique source support/source count",
+  "imgsz": 640,
+  "precision": "FP32",
+  "GT_unchanged": true,
+  "OOF_thresholds_pending": true,
+  "TTA": "defect-only batch2 original/hflip, stage single view",
+  "trained_head_parameters": {
+    "one2many_cv2": 71820,
+    "one2many_cv3": 49158
+  }
+}

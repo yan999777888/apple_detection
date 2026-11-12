@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    [
+      "deployment_parity",
+      "verify_defect_modes_20261112.py",
+      []
+    ],
+    [
+      "GPU_smoke",
+      "defect_shield_train_20261112.py",
+      [
+        "--smoke"
+      ]
+    ],
+    [
+      "six_arm_training",
+      "defect_shield_train_20261112.py",
+      []
+    ]
+  ],
+  "frozen_sources": {
+    "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\verify_defect_modes_20261112.py": "a48f5ad65a27c659c6aa564ab5771ea3285a01e39fa76827c42445e58492b5e5",
+    "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\defect_shield_train_20261112.py": "d8da60a17c746b7b53c4348ec5dc9473e1fca71b66e89633d2a56e2d6fb3640f",
+    "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\defect_algorithm_modes_20261112.py": "5e257b241b99c5d893a06dadeea969087b1318dcf2418946dd137638aad4a3cb"
+  },
+  "wait_for_existing_OOF": true,
+  "no_parallel_GPU": true
+}

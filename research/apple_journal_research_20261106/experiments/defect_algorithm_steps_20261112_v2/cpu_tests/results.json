@@ -1,0 +1,18 @@
+{
+  "passed": 13,
+  "checks": [
+    "one2many: empty shield exactly native",
+    "one2many: all assigned positive gradients unchanged",
+    "one2many: all GT-interior gradients unchanged",
+    "one2many: background class gradients zero inside shield",
+    "one2many: regression losses unchanged",
+    "one2one: empty shield exactly native",
+    "one2one: all assigned positive gradients unchanged",
+    "one2one: all GT-interior gradients unchanged",
+    "one2one: background class gradients zero inside shield",
+    "one2one: regression losses unchanged",
+    "original/flip coordinate test",
+    "scale/translation coordinate test",
+    "real augmented duplicate-draw minibatch valid; GT and ignore stay separate"
+  ]
+}

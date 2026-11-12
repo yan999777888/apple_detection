@@ -1,0 +1,1 @@
+Engineering audit invalidation: cached original one2many predictions were overwritten by flipped one2many predictions when collecting both views. Consequently full-validation one2many and mixed-head results cannot be compared to the original-view deployment benchmark. Entire phase superseded by v2; no candidate promoted. Original checkpoint/GT unchanged.
