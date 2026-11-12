@@ -1,0 +1,57 @@
+{
+  "phase": "complete",
+  "protocol": {
+    "source": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\strong_defect_composite_20261112_v1\\composite_frozen.pt",
+    "source_sha256": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+    "seed": 20261112,
+    "arms": {
+      "C0": 7.5,
+      "C1": 7.5
+    },
+    "single_variable": "C1 freezes defect BN running statistics; affine parameters still train",
+    "epochs": 3,
+    "source_windows_per_epoch": 38,
+    "images_per_epoch": 596,
+    "microbatch": 4,
+    "effective_batch_max": 16,
+    "lr": 1e-05,
+    "weight_decay": 0.0005,
+    "optimizer": "fresh AdamW",
+    "precision": "FP32",
+    "imgsz": 640,
+    "data_epochs": [
+      35,
+      36,
+      37
+    ],
+    "criterion_schedule": "fixed final40 o2m .1/o2o .9",
+    "selection": "fixed epoch3 per arm; epoch1 diagnostic; development only; no automatic promotion",
+    "speed_gate": "two-task BGR-array to CPU Results mean and P95 <=50ms; conf.25 square640",
+    "precision_gate": "candidate defect AP50-95 above retained baseline AND C0; AP50 not below retained; stage state exact",
+    "smoke": true,
+    "script_sha256": "9d0b334fac6101083e4df2a3d92fedd0fe6d563962ac858ab6dbf02645f43d0b"
+  },
+  "arms": {
+    "C0": {
+      "phase": "complete",
+      "steps": 2,
+      "stage_state_unchanged": true,
+      "defect_bn_unchanged": false,
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\strong_defect_bn_20261112_smoke\\C0\\epoch_001.pt",
+      "checkpoint_sha256": "68de1976792d4f230618f6c34c6968b00872c7e093e48fa00fba4f71e2ac3851",
+      "validation": [],
+      "speed": null
+    },
+    "C1": {
+      "phase": "complete",
+      "steps": 2,
+      "stage_state_unchanged": true,
+      "defect_bn_unchanged": true,
+      "checkpoint": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\strong_defect_bn_20261112_smoke\\C1\\epoch_001.pt",
+      "checkpoint_sha256": "08ed507cdb9664b27f52fa19d8ec4bcfa54010ec00908b7c77e7569285692129",
+      "validation": [],
+      "speed": null
+    }
+  },
+  "promotion": "none; review paired evidence"
+}

@@ -1,0 +1,15 @@
+{
+  "python": "3.11.15",
+  "packages": {
+    "torch": "2.12.1+cu132",
+    "torchvision": "0.27.1+cu132",
+    "ultralytics": "8.4.115",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "opencv-python": "5.0.0",
+    "Pillow": "12.3.0",
+    "PyYAML": "6.0.3"
+  },
+  "environment": "F:/\u7814\u7a76\u751f\u6bd5\u4e1a\u8bbe\u8ba1/\u6a21\u5757\u4e00\u5b9a\u4f4d\u8865\u507f\u4ee5\u53ca\u9884\u6d4b/apple_detection/envs/local_rgbd_v1",
+  "note": "Observed environment snapshot, not a complete dependency lock or installation recipe"
+}

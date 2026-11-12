@@ -1,5 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
+  "snapshot_updated_utc": "2026-11-12T13:49:13.8927825Z",
   "files": [
     {
       "path": "apple_research_audit/benchmark_global_combined.py",
@@ -83,8 +84,8 @@
     },
     {
       "path": "apple_research_v2/defect_refine_20261112.py",
-      "sha256": "c8b5726a30bc058190342ab23c57b7faa86759a28163befc26e8a105a22a7ebf",
-      "bytes": 7114
+      "sha256": "e6e754037a54a733ecad7295082096ba05fcdc90cf52cd406bb4c8787fdfeff0",
+      "bytes": 7173
     },
     {
       "path": "apple_research_v2/deployment_shared_v1/dual_output_contract.py",
@@ -162,6 +163,11 @@
       "bytes": 2749
     },
     {
+      "path": "apple_research_v2/joint/deployment_amp_20261112.py",
+      "sha256": "cd9dade9ac255f3cc0e39a255d49ef65aabde4c297a12cca539b252ded8b280b",
+      "bytes": 775
+    },
+    {
       "path": "apple_research_v2/joint/joint_data.py",
       "sha256": "4eea90e4b0e6ed55a2187b7f60e31ac27d6de888c4a1210d37eeb7054e7f11dc",
       "bytes": 22431
@@ -173,8 +179,8 @@
     },
     {
       "path": "apple_research_v2/joint/joint_eval_v1.py",
-      "sha256": "7296fa13005421993f5f9c67b784f854c42ac6811126d245c20b580de6da5452",
-      "bytes": 25189
+      "sha256": "cb62fe19c5002c0be0ad20db92bd59d7f426528929743f91bc431a8d7816ace6",
+      "bytes": 25625
     },
     {
       "path": "apple_research_v2/joint/joint_model_v1.py",
@@ -187,14 +193,14 @@
       "bytes": 6309
     },
     {
-      "path": "apple_research_v2/joint/smoke_joint_cuda_v1.py",
-      "sha256": "99cddc670226dc6b9e17ac336f8457f44c37ff1fcf99c4bffc05883bc445e64f",
-      "bytes": 8291
-    },
-    {
       "path": "apple_research_v2/joint/smoke_joint_cuda_v1_1.py",
       "sha256": "c6a4153c8c8e7f5085c2df47f87178721fd8b7604ee1526ab7a7b4b0be2f9013",
       "bytes": 7518
+    },
+    {
+      "path": "apple_research_v2/joint/smoke_joint_cuda_v1.py",
+      "sha256": "99cddc670226dc6b9e17ac336f8457f44c37ff1fcf99c4bffc05883bc445e64f",
+      "bytes": 8291
     },
     {
       "path": "apple_research_v2/joint/test_joint_eval_contract_v1.py",
@@ -247,14 +253,14 @@
       "bytes": 20029
     },
     {
-      "path": "apple_research_v2/prepare_ssda.py",
-      "sha256": "c002e42f18445f6933499d7832214f4d4de6d7e1772054401546e21044fee00e",
-      "bytes": 17962
-    },
-    {
       "path": "apple_research_v2/prepare_ssda_v1_failed_reference.py",
       "sha256": "551884a738e81a8dcf89b5dc77278220327a72a8aebf6722b8089a2529cb8f99",
       "bytes": 15207
+    },
+    {
+      "path": "apple_research_v2/prepare_ssda.py",
+      "sha256": "c002e42f18445f6933499d7832214f4d4de6d7e1772054401546e21044fee00e",
+      "bytes": 17962
     },
     {
       "path": "apple_research_v2/prepare_stage_segmentation.py",
@@ -262,14 +268,14 @@
       "bytes": 13094
     },
     {
-      "path": "apple_research_v2/prototypes/shared_yolo_cpu_baseline_v1.py",
-      "sha256": "b77183e64d5238a756d4a26c38262bd387541f204cdc2445820cc6777904b4a6",
-      "bytes": 17872
-    },
-    {
       "path": "apple_research_v2/prototypes/shared_yolo_cpu_baseline_v1_1.py",
       "sha256": "2c65d31977043c2be90d8132017695ffb575c956813077bcf0ff71749cdb4001",
       "bytes": 19628
+    },
+    {
+      "path": "apple_research_v2/prototypes/shared_yolo_cpu_baseline_v1.py",
+      "sha256": "b77183e64d5238a756d4a26c38262bd387541f204cdc2445820cc6777904b4a6",
+      "bytes": 17872
     },
     {
       "path": "apple_research_v2/README.md",
@@ -282,6 +288,11 @@
       "bytes": 18295
     },
     {
+      "path": "apple_research_v2/strong_defect_bn_refine_20261112.py",
+      "sha256": "9d0b334fac6101083e4df2a3d92fedd0fe6d563962ac858ab6dbf02645f43d0b",
+      "bytes": 7917
+    },
+    {
       "path": "apple_research_v2/summarize_takeover_20261112.py",
       "sha256": "dc7e5b916c4e090bd7a02382eda0752d6454bd846603ac17ae087bf50f9daa2d",
       "bytes": 3636
@@ -292,19 +303,14 @@
       "bytes": 3356
     },
     {
-      "path": "apple_research_v2/train_attribute_full.py",
-      "sha256": "a4315b7a774e4d9e94259bae54f1c3a37b3debdc2fa5415f6e3a89b2ac1119d2",
-      "bytes": 32647
-    },
-    {
       "path": "apple_research_v2/train_attribute_full_v3_1.py",
       "sha256": "d2710b46e8c2203e1996cb7fb5bbcf96683649c9c5301a24791c7628bad33599",
       "bytes": 34457
     },
     {
-      "path": "apple_research_v2/train_attribute_pilot.py",
-      "sha256": "12fcbedf260740effb4d3157dc8778ba8b0e128c2a8303c9a37f71b5e230099c",
-      "bytes": 26922
+      "path": "apple_research_v2/train_attribute_full.py",
+      "sha256": "a4315b7a774e4d9e94259bae54f1c3a37b3debdc2fa5415f6e3a89b2ac1119d2",
+      "bytes": 32647
     },
     {
       "path": "apple_research_v2/train_attribute_pilot_v1_reference.py",
@@ -317,9 +323,19 @@
       "bytes": 29350
     },
     {
+      "path": "apple_research_v2/train_attribute_pilot.py",
+      "sha256": "12fcbedf260740effb4d3157dc8778ba8b0e128c2a8303c9a37f71b5e230099c",
+      "bytes": 26922
+    },
+    {
       "path": "apple_research_v2/train_yolo_full.py",
       "sha256": "71a2cc865537ba2d84f4acbefb530bc0c3d109ee2975aebdbb3b187a20e60235",
       "bytes": 30875
+    },
+    {
+      "path": "apple_research_v2/validate_amp_deployment_20261112.py",
+      "sha256": "d06e198a5e904e65f440338b71d9ed8267882733ae88c1697ae6210f422cdf68",
+      "bytes": 7667
     },
     {
       "path": "apple_research_v2/validate_resolution_pairs_official.py",
@@ -345,6 +361,11 @@
       "path": "apple_research_v2/verify_stage_segmentation_loader.py",
       "sha256": "c88b64be18139fa7fd6b7462fb410236589d990aae8e5df253c28f754d04f17d",
       "bytes": 3414
+    },
+    {
+      "path": "apple_research_v2/verify_strong_defect_composite_20261112.py",
+      "sha256": "3fe3a06daa6e5f5a75e6b89cd99fcf196b4e3afd4d663ada77000f705e37c022",
+      "bytes": 3845
     },
     {
       "path": "apple_research_v2/verify_visible_coco_records.py",
@@ -382,9 +403,19 @@
       "bytes": 9909
     },
     {
+      "path": "docs/缺陷改进对照_20261112.md",
+      "sha256": "4be07bb7507a74b839d360149e4d2d990ad92e3e9ed8bc41f7488c4a37fadc10",
+      "bytes": 6522
+    },
+    {
       "path": "docs/数据条件与采集协议_20261112.md",
       "sha256": "9482bdc98707d6ad2859af6847bd3f6af32f76d908057feca980d78603d5d246",
       "bytes": 19859
+    },
+    {
+      "path": "experiments/defect_refine_20261112_v1/results.json",
+      "sha256": "b472f84fd91e37a9620997d34cbd16b18e42377fc590be7c0fadafdc9aeeddbe",
+      "bytes": 33328
     },
     {
       "path": "experiments/joint_training_v1/data_manifest.json",
@@ -397,9 +428,24 @@
       "bytes": 2748
     },
     {
+      "path": "experiments/strong_defect_bn_20261112_smoke/results.json",
+      "sha256": "8520e83f38a61491e158f1baf1d04d2770492e4b543ff5b5cf7ab4b64557cd41",
+      "bytes": 2318
+    },
+    {
+      "path": "experiments/strong_defect_composite_20261112_v1/results.json",
+      "sha256": "d08ce562b77e046c64bcfad49ae093f26717d32f2c81b3e24a615d1b80a6e359",
+      "bytes": 16240
+    },
+    {
       "path": "experiments/takeover_20261112/evidence_summary.json",
       "sha256": "2543a10b6eeab5eec1aa8bcee646a4cd3a6d8648f241269ede9c10c0d1b99e82",
       "bytes": 27419
+    },
+    {
+      "path": "experiments/takeover_20261112/runtime_versions.json",
+      "sha256": "f6575cb56fdb2b0c0a9491b909927146f297b5bc113f58694dc4b7e7191597bd",
+      "bytes": 541
     },
     {
       "path": "README.md",

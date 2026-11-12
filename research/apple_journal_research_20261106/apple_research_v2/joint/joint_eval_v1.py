@@ -308,7 +308,7 @@ def _per_class(validator):
     return rows
 
 
-def evaluate_task(model, task, data=None, output_dir=None, device=None, batch=1, imgsz=640, *, dataloader=None, scope="full_development", expected_images=None):
+def evaluate_task(model, task, data=None, output_dir=None, device=None, batch=1, imgsz=640, *, dataloader=None, scope="full_development", expected_images=None, inference_precision="FP32"):
     """Run the actual official validator for one labeled source and one head.
 
     Returns a receipt whose metrics are source-specific. No fitness/combined
@@ -319,6 +319,8 @@ def evaluate_task(model, task, data=None, output_dir=None, device=None, batch=1,
     if {int(k): str(v) for k, v in model.names[task].items()} != spec["names"]:
         raise ValueError("Model names differ from source label authority")
     actual_device = _device(model)
+    if inference_precision not in ("FP32", "AMP_FP16") or (inference_precision == "AMP_FP16" and actual_device.type != "cuda"):
+        raise ValueError("Supported validation precision: FP32 or CUDA AMP_FP16")
     if device is not None and torch.device(device) != actual_device:
         raise ValueError("Move the model explicitly; validation cannot move EMA/training weights")
     if output_dir is None or imgsz != 640 or batch < 1:
@@ -348,7 +350,8 @@ def evaluate_task(model, task, data=None, output_dir=None, device=None, batch=1,
     try:
         with offline_network(), preserve_eval_state(model, verify_values=True) as guard:
             validator = AuditedValidator(dataloader=dataloader, save_dir=output, args=args)
-            metrics = validator(model=view)
+            with torch.autocast(device_type=actual_device.type, dtype=torch.float16, enabled=inference_precision == "AMP_FP16"):
+                metrics = validator(model=view)
             if view.forward_calls < 1:
                 raise AssertionError("Official validator did not call the shared task view")
             if validator.seen != expected_images or len(seen_paths) != expected_images or len(set(seen_paths)) != expected_images:
@@ -358,6 +361,7 @@ def evaluate_task(model, task, data=None, output_dir=None, device=None, batch=1,
             if scope == "full_development" and Counter(seen_paths) != Counter(spec["images"]):
                 raise AssertionError("Full development images were not covered exactly once")
             receipt.update(metrics={k: float(v) for k, v in metrics.items() if k != "fitness"}, per_class=_per_class(validator), seen=int(validator.seen), evaluated_image_paths=seen_paths, task_view_forward_calls=view.forward_calls, fusion_performed=False, noop_fuse_calls=view.noop_fuse_calls, contains_unfused_batchnorm=any(isinstance(m, nn.modules.batchnorm._BatchNorm) for m in model.modules()), validator_class=base.__module__ + "." + base.__name__, validator_source_sha256=sha_file(sys.modules[base.__module__].__file__), model_reference_preserved=view.shared_model is model, inference_precision="FP32", state_guard=guard)
+        receipt["inference_precision"] = inference_precision
         receipt["phase"] = "complete"
         save_json(output / "validation_receipt.json", receipt)
         return receipt
