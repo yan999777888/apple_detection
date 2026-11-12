@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-12T14:36:27.7745139Z",
+  "snapshot_updated_utc": "2026-11-12T14:47:43.5116613Z",
   "files": [
     {
       "path": "apple_research_audit/benchmark_global_combined.py",
@@ -88,6 +88,11 @@
       "bytes": 17689
     },
     {
+      "path": "apple_research_v2/calibrate_defect_modes_oof_20261112.py",
+      "sha256": "e2cb20ab7e678523b4b4d2581b087a63e09d7344121f2a0794264084fed2bf99",
+      "bytes": 7015
+    },
+    {
       "path": "apple_research_v2/compare_native_onnx_pipeline.py",
       "sha256": "7c5498a5d0d83014c56c47c987e856351f1562756eafd3ebc0f70f4e2be141ff",
       "bytes": 26885
@@ -166,6 +171,16 @@
       "path": "apple_research_v2/export_papple_original_visible.py",
       "sha256": "4a210186fefdfbef6fb14454bf80c6beffc1167b0c2c16904c81bbd1375c3adf",
       "bytes": 12260
+    },
+    {
+      "path": "apple_research_v2/finalize_defect_experiments_20261112.py",
+      "sha256": "e5d51bd9c23eaa29e82b3d749beb32646444ccdf1fd306ebf296332c36ded1aa",
+      "bytes": 6224
+    },
+    {
+      "path": "apple_research_v2/finish_defect_sequence_20261112.py",
+      "sha256": "b10652328f0362fdf0aee1b6726db1d47c1c53b1d1f41c14dcf97782c7079395",
+      "bytes": 1859
     },
     {
       "path": "apple_research_v2/inspect_local_inventory.py",
@@ -251,6 +266,11 @@
       "path": "apple_research_v2/make_annotation_queue.py",
       "sha256": "4b82f0c923f9827f906c94846c1ec8e9a35f64e2e69e5104fe090353ed39b3c8",
       "bytes": 12747
+    },
+    {
+      "path": "apple_research_v2/predict_defect_algorithm_20261112.py",
+      "sha256": "20d6cd5625dd78ae7374331c818efe2d1f6b96ebb31c745bc74edfb6f6379b6f",
+      "bytes": 2542
     },
     {
       "path": "apple_research_v2/predict_retained_dual_20261112.py",
@@ -356,6 +376,11 @@
       "path": "apple_research_v2/supplement_ssda_geometry_audit.py",
       "sha256": "66df0c12dfec3b84cd2b7b5ca9d7e75d57859e1b4b605caaa1307eb706f0be24",
       "bytes": 3356
+    },
+    {
+      "path": "apple_research_v2/test_defect_metric_prefix_20261112.py",
+      "sha256": "ca4de070e18af27d019a37567ae8ce69080f1c66975db450eb77f6b56cb9be50",
+      "bytes": 1614
     },
     {
       "path": "apple_research_v2/test_defect_shield_20261112.py",
@@ -479,8 +504,8 @@
     },
     {
       "path": "docs/缺陷误检漏检归因与针对性方案_20261112.md",
-      "sha256": "259685b613b949dcccab9c161f2b0d4ea0f2953740b6a9ffa42abb7e41d9a388",
-      "bytes": 15351
+      "sha256": "b56947917dba9b92801212747259d97feebb6b1479cfc46a2929c8fde3e439e6",
+      "bytes": 15679
     },
     {
       "path": "docs/数据条件与采集协议_20261112.md",
@@ -503,6 +528,16 @@
       "bytes": 738
     },
     {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/deployment_ap.json",
+      "sha256": "0e262fb529f25c16534ec62385381dc78d90c9bae123505e16a412575704e8c2",
+      "bytes": 7578
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/finish_sequence/protocol.json",
+      "sha256": "0f06c5cc1ceebd52ac3677bcc3d734a8270780fa563c48b4feff3d59a554ba1a",
+      "bytes": 401
+    },
+    {
       "path": "experiments/defect_algorithm_steps_20261112_v2/oof_v2/protocol.json",
       "sha256": "123152215b8012dd3355e354b0055a7e40168e4096e8af9b25d81df98839cf91",
       "bytes": 27045
@@ -516,6 +551,21 @@
       "path": "experiments/defect_algorithm_steps_20261112_v2/phase1/results.json",
       "sha256": "f21ec20afb24effaee938004f57d058622dd65189e8d31269601a1a103667511",
       "bytes": 50379
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/prefix_tests/results.json",
+      "sha256": "3643ee88bd385988b3e0773a929ca741b3a537616cf39dfa530792747670f883",
+      "bytes": 105
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/shield_prepare/provenance_verification.json",
+      "sha256": "d45b3e496f3554e9721dfe8efff854f0060f5b609c4de0d40956a3f8a2cbdf33",
+      "bytes": 338
+    },
+    {
+      "path": "experiments/defect_algorithm_steps_20261112_v2/shield_prepare/statistics.json",
+      "sha256": "3a6b65a6b53e9a2b5ef2f317db3f4c9d96608ae649a05e48bb7c0e96374511ad",
+      "bytes": 478
     },
     {
       "path": "experiments/defect_cause_audit_20261112_v1/protocol.json",

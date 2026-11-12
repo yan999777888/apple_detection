@@ -1,0 +1,17 @@
+{
+  "train_image_and_label_hashes_verified": 596,
+  "cached_GT_matches_manifest": true,
+  "teacher_audit_protocol_verified": true,
+  "fold_sizes": [
+    199,
+    199,
+    198
+  ],
+  "same_second_group_counts": [
+    156,
+    157,
+    156
+  ],
+  "cross_fold_known_group_overlap": 0,
+  "physical_fruit_ids_verified": false
+}

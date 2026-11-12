@@ -1,0 +1,4 @@
+{
+  "passed": 7,
+  "scope": "score-prefix equivalence, ties, class cuts, perfect/empty AP endpoints"
+}

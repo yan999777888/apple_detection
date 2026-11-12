@@ -1,0 +1,8 @@
+{
+  "sources": {
+    "calibrate_defect_modes_oof_20261112.py": "e2cb20ab7e678523b4b4d2581b087a63e09d7344121f2a0794264084fed2bf99",
+    "report_defect_algorithm_steps_20261112.py": "2b40cb4478a265d79f6c2019672745427b0540eaa6eb4b4f78bf7c1fb3dd0ef7",
+    "finalize_defect_experiments_20261112.py": "e5d51bd9c23eaa29e82b3d749beb32646444ccdf1fd306ebf296332c36ded1aa"
+  },
+  "no_parallel_GPU": true
+}
