@@ -6,7 +6,7 @@ import argparse, gc, json, sys, time, traceback
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'apple_research_v2/joint'))
-from joint_state_v1 import configure,atomic_json,sha,load_checkpoint,seed_everything,get_rng
+from joint_state_v1 import configure,atomic_json,sha,load_checkpoint,seed_everything,get_rng,set_rng
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);p.add_argument('--smoke',action='store_true');a=p.parse_args()
@@ -31,9 +31,10 @@ def main():
         'smoke':a.smoke,'script_sha256':sha(__file__)}
     atomic_json(out/'protocol.json',protocol)
     try:
-        data=JointDataModule();results={}
+        seed_everything(20261112)
+        data=JointDataModule();results={};initial_rng=get_rng()
         for arm,gain in protocol['arms'].items():
-            seed_everything(20261112);folder=out/arm;folder.mkdir()
+            set_rng(initial_rng);folder=out/arm;folder.mkdir()
             state=load_checkpoint(cp);model=build_model('separate',device='cuda:0')
             model.load_state_dict(state['ema']['model']);del state
             model.set_criterion_epoch(40)
