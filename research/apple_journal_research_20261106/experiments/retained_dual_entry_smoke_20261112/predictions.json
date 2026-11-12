@@ -1,0 +1,39 @@
+{
+  "checkpoint_sha256": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "precision": "FP32",
+  "imgsz": 640,
+  "conf": 0.25,
+  "max_det": 300,
+  "image": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\107.jpg",
+  "outputs": {
+    "stage": {
+      "names": {
+        "0": "immature apple",
+        "1": "semi-mature apple",
+        "2": "mature apple"
+      },
+      "boxes_xyxy_conf_class": [
+        [
+          148.79000854492188,
+          66.92449188232422,
+          283.1696472167969,
+          187.29649353027344,
+          0.9816856384277344,
+          2.0
+        ]
+      ],
+      "mask_files": [
+        "stage_mask_000.png"
+      ]
+    },
+    "defect": {
+      "names": {
+        "0": "class_0",
+        "1": "class_1"
+      },
+      "boxes_xyxy_conf_class": [],
+      "mask_files": []
+    }
+  },
+  "warning": "Independent task outputs; no fruit association, grading or 3D localization."
+}

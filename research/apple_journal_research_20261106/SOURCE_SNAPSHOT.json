@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-12T13:49:13.8927825Z",
+  "snapshot_updated_utc": "2026-11-12T13:54:10.4799963Z",
   "files": [
     {
       "path": "apple_research_audit/benchmark_global_combined.py",
@@ -179,8 +179,8 @@
     },
     {
       "path": "apple_research_v2/joint/joint_eval_v1.py",
-      "sha256": "cb62fe19c5002c0be0ad20db92bd59d7f426528929743f91bc431a8d7816ace6",
-      "bytes": 25625
+      "sha256": "b6c841290c3e9c41945a8b0a3ed41956e78a30bd3fba51e971ecfff4e8baf467",
+      "bytes": 26788
     },
     {
       "path": "apple_research_v2/joint/joint_model_v1.py",
@@ -226,6 +226,11 @@
       "path": "apple_research_v2/make_annotation_queue.py",
       "sha256": "4b82f0c923f9827f906c94846c1ec8e9a35f64e2e69e5104fe090353ed39b3c8",
       "bytes": 12747
+    },
+    {
+      "path": "apple_research_v2/predict_retained_dual_20261112.py",
+      "sha256": "8b9d522e00a943b2818d000c3f61e24a800a369b28b99529bace119bff1eeb06",
+      "bytes": 2395
     },
     {
       "path": "apple_research_v2/prepare_full_attribute_manifests.py",
@@ -334,8 +339,8 @@
     },
     {
       "path": "apple_research_v2/validate_amp_deployment_20261112.py",
-      "sha256": "d06e198a5e904e65f440338b71d9ed8267882733ae88c1697ae6210f422cdf68",
-      "bytes": 7667
+      "sha256": "cc6c55eb208045b80dbeec89189fce70a0698876b94d19789dbc7eb049e36777",
+      "bytes": 7722
     },
     {
       "path": "apple_research_v2/validate_resolution_pairs_official.py",
@@ -404,8 +409,8 @@
     },
     {
       "path": "docs/缺陷改进对照_20261112.md",
-      "sha256": "4be07bb7507a74b839d360149e4d2d990ad92e3e9ed8bc41f7488c4a37fadc10",
-      "bytes": 6522
+      "sha256": "244ec78e9b75a9f7d8c6927c0d57f045d99f3e278bd85ba8fea3a48ebb99eab7",
+      "bytes": 11551
     },
     {
       "path": "docs/数据条件与采集协议_20261112.md",
@@ -428,9 +433,34 @@
       "bytes": 2748
     },
     {
+      "path": "experiments/retained_dual_entry_smoke_20261112/predictions.json",
+      "sha256": "8e3ff9bd5c3e50396ce624f9b5fd41a00891cd2da4bc7e79404ca4c1fdfd23c7",
+      "bytes": 1075
+    },
+    {
+      "path": "experiments/strong_defect_amp_20261112_v1/INVALIDATION.md",
+      "sha256": "7eb953d74f17b92bf0caef4062145f49c8ac370cd1420aff8a32e90caab5520c",
+      "bytes": 891
+    },
+    {
+      "path": "experiments/strong_defect_amp_20261112_v1/results.json",
+      "sha256": "a9c9cc8ecd7dff5e7b10262182de9544406b8103479f5e7290c88582f7778d28",
+      "bytes": 142212
+    },
+    {
+      "path": "experiments/strong_defect_amp_20261112_v2/results.json",
+      "sha256": "457b20698ac7bf383e621937221b48af9f3e3a4d9b58c513b3ed7462fb509781",
+      "bytes": 142506
+    },
+    {
       "path": "experiments/strong_defect_bn_20261112_smoke/results.json",
       "sha256": "8520e83f38a61491e158f1baf1d04d2770492e4b543ff5b5cf7ab4b64557cd41",
       "bytes": 2318
+    },
+    {
+      "path": "experiments/strong_defect_bn_20261112_v1/results.json",
+      "sha256": "35490156b866558ba19fce339967b17b7e8a72c360777bd41bca6bbafbddc312",
+      "bytes": 33463
     },
     {
       "path": "experiments/strong_defect_composite_20261112_v1/results.json",

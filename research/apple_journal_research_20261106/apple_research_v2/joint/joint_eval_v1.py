@@ -219,6 +219,8 @@ class TaskView(nn.Module):
         self.args = {"task": self.task, "imgsz": 640, "quantize": 32}
         self.forward_calls = 0
         self.noop_fuse_calls = 0
+        self.inference_precision = "FP32"
+        self.observed_conv_dtypes = set()
 
     @property
     def stride(self):
@@ -258,7 +260,16 @@ class TaskView(nn.Module):
         if self.shared_model.training or self.shared_model.head_for(self.source_task).training:
             raise RuntimeError("TaskView is eval-only")
         self.forward_calls += 1
-        return self.shared_model.predict_source(images, self.source_task)
+        # BaseValidator disables its outer autocast for standalone validation.
+        # Enter the requested context INSIDE forward and verify a real conv.
+        trunk = self.shared_model.trunks["shared" if self.shared_model.mode == "joint" else self.source_task]
+        conv = next(m for m in trunk.modules() if isinstance(m, nn.Conv2d))
+        hook = conv.register_forward_hook(lambda module, inputs, output: self.observed_conv_dtypes.add(str(output.dtype)))
+        try:
+            with torch.autocast(device_type=images.device.type, dtype=torch.float16, enabled=self.inference_precision == "AMP_FP16"):
+                return self.shared_model.predict_source(images, self.source_task)
+        finally:
+            hook.remove()
 
 
 def source_spec(task, data=None):
@@ -346,6 +357,7 @@ def evaluate_task(model, task, data=None, output_dir=None, device=None, batch=1,
             return super().preprocess(batch_data)
     args = dict(task=TASK_TYPES[task], mode="val", data=str(spec["data"]), device=str(actual_device), batch=batch, imgsz=640, workers=0, rect=True, quantize=32, conf=0.001, iou=0.7, max_det=300, single_cls=False, agnostic_nms=False, augment=False, end2end=None, plots=False, save=False, save_json=False, save_txt=False, verbose=False, overlap_mask=False, mask_ratio=4, compile=False, channels_last=False, split="val", project=str(output.parent), name=output.name, exist_ok=False)
     view = TaskView(model, task)
+    view.inference_precision = inference_precision
     receipt = {"schema": "joint_official_source_validation_v1", "source_task": task, "source": {k: v for k, v in spec.items() if k != "images"}, "scope": scope, "model_mode": model.mode, "args": args, "selection_rule": "Fixed epoch 40 primary; no task-combined score or checkpoint selection in this adapter", "precision_recall_convention": "Ultralytics maximum-mean-F1 development operating point; not fixed confidence 0.25", "adapter_sha256": sha_file(__file__)}
     try:
         with offline_network(), preserve_eval_state(model, verify_values=True) as guard:
@@ -354,6 +366,9 @@ def evaluate_task(model, task, data=None, output_dir=None, device=None, batch=1,
                 metrics = validator(model=view)
             if view.forward_calls < 1:
                 raise AssertionError("Official validator did not call the shared task view")
+            expected_dtype = "torch.float16" if inference_precision == "AMP_FP16" else "torch.float32"
+            if view.observed_conv_dtypes != {expected_dtype}:
+                raise AssertionError(f"Actual convolution precision mismatch: {view.observed_conv_dtypes}")
             if validator.seen != expected_images or len(seen_paths) != expected_images or len(set(seen_paths)) != expected_images:
                 raise AssertionError("Incomplete or duplicate source evaluation")
             if not set(seen_paths).issubset(set(spec["images"])):
@@ -362,6 +377,7 @@ def evaluate_task(model, task, data=None, output_dir=None, device=None, batch=1,
                 raise AssertionError("Full development images were not covered exactly once")
             receipt.update(metrics={k: float(v) for k, v in metrics.items() if k != "fitness"}, per_class=_per_class(validator), seen=int(validator.seen), evaluated_image_paths=seen_paths, task_view_forward_calls=view.forward_calls, fusion_performed=False, noop_fuse_calls=view.noop_fuse_calls, contains_unfused_batchnorm=any(isinstance(m, nn.modules.batchnorm._BatchNorm) for m in model.modules()), validator_class=base.__module__ + "." + base.__name__, validator_source_sha256=sha_file(sys.modules[base.__module__].__file__), model_reference_preserved=view.shared_model is model, inference_precision="FP32", state_guard=guard)
         receipt["inference_precision"] = inference_precision
+        receipt["observed_conv_dtypes"] = sorted(view.observed_conv_dtypes)
         receipt["phase"] = "complete"
         save_json(output / "validation_receipt.json", receipt)
         return receipt

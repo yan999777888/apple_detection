@@ -77,7 +77,7 @@ def main():
             for task in ('stage','defect'):
                 atomic_json(out/'status.json',{'phase':'validating','precision':precision,'task':task})
                 receipt=evaluate_task(model,task,output_dir=out/f'{precision}_{task}',device='cuda:0',inference_precision=precision)
-                result['validation'][precision][task]={'metrics':receipt['metrics'],'per_class':receipt['per_class'],'seen':receipt['seen'],'inference_precision':receipt['inference_precision']}
+                result['validation'][precision][task]={'metrics':receipt['metrics'],'per_class':receipt['per_class'],'seen':receipt['seen'],'inference_precision':receipt['inference_precision'],'observed_conv_dtypes':receipt['observed_conv_dtypes']}
         workers={'FP32':FrozenDeploymentAdapter(model),'AMP_FP16':FrozenAMPDeploymentAdapter(model)}
         result['fixed_deployment_defect']={}
         for precision,worker in workers.items():
