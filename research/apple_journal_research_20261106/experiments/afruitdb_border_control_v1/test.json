@@ -1,0 +1,32 @@
+{
+  "manifest_sha256": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "protocol": "128 RGB; only outer 8-pixel perimeter (23.44% of pixels); fixed 200 ExtraTrees, 3 minimum samples per leaf. No tuning. Peripheral fruit may be present.",
+  "train_images": 315,
+  "train_groups": 9,
+  "model_sha256": "6473bbd56c5bc0313c83925697ec3de0cc2437db7605453202d98fa78fbff5ff",
+  "results": {
+    "split": "test",
+    "images": 110,
+    "confusion_true_by_pred": [
+      [
+        54,
+        2,
+        0
+      ],
+      [
+        36,
+        0,
+        1
+      ],
+      [
+        0,
+        5,
+        12
+      ]
+    ],
+    "accuracy": 0.6,
+    "balanced_accuracy": 0.5567226890756303,
+    "severe_as_good": 0,
+    "severe_images": 17
+  }
+}

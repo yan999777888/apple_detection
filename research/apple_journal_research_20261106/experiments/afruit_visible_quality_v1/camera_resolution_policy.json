@@ -1,0 +1,8 @@
+{
+  "long_edge": 1280,
+  "resize": "aspect-preserving, performed before timing",
+  "rounds": 30,
+  "n": 20,
+  "mode": "AFruitDB full scene with per-instance grades",
+  "note": "Simulates receiving frames already delivered at these pixel dimensions. Not real camera latency or grading accuracy at 1280."
+}

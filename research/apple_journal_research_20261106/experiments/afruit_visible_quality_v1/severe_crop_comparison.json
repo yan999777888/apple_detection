@@ -1,0 +1,119 @@
+{
+  "cases": [
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_131820.jpg",
+      "group_id": "burst_0470",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "crop_xyxy": [
+        1145,
+        183,
+        2997,
+        1966
+      ],
+      "input_area_fraction": 0.27517633333333336,
+      "source_prediction": 2,
+      "cropped_prediction": 0,
+      "stage": "mature"
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_131822.jpg",
+      "group_id": "burst_0470",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "crop_xyxy": [
+        758,
+        0,
+        2697,
+        1820
+      ],
+      "input_area_fraction": 0.2940816666666667,
+      "source_prediction": 2,
+      "cropped_prediction": 0,
+      "stage": "mature"
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_131840.jpg",
+      "group_id": "burst_0470",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "crop_xyxy": [
+        1199,
+        423,
+        2948,
+        2098
+      ],
+      "input_area_fraction": 0.24413125,
+      "source_prediction": 2,
+      "cropped_prediction": 0,
+      "stage": "mature"
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230502_175202.jpg",
+      "group_id": "burst_0475",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "crop_xyxy": [
+        1517,
+        237,
+        3281,
+        1964
+      ],
+      "input_area_fraction": 0.253869,
+      "source_prediction": 2,
+      "cropped_prediction": 0,
+      "stage": "mature"
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230502_175211.jpg",
+      "group_id": "burst_0475",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "crop_xyxy": [
+        1776,
+        423,
+        3214,
+        1803
+      ],
+      "input_area_fraction": 0.16537,
+      "source_prediction": 2,
+      "cropped_prediction": 0,
+      "stage": "mature"
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230502_175214.jpg",
+      "group_id": "burst_0475",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "crop_xyxy": [
+        1744,
+        578,
+        3322,
+        2100
+      ],
+      "input_area_fraction": 0.200143,
+      "source_prediction": 2,
+      "cropped_prediction": 0,
+      "stage": "mature"
+    }
+  ],
+  "group_counts": {
+    "burst_0470": 3,
+    "burst_0475": 3
+  },
+  "min_area": 0.16537,
+  "max_area": 0.2940816666666667,
+  "note": "Held-out failure analysis only. Cyan rectangle is the actual contextual crop, not a human fruit or defect boundary."
+}

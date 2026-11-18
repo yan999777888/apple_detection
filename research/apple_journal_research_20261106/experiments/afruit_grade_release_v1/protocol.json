@@ -1,0 +1,58 @@
+{
+  "seed": 18112026,
+  "epochs": 24,
+  "batch": 24,
+  "side": 224,
+  "class_order": [
+    "good",
+    "medium",
+    "bad"
+  ],
+  "architecture": "MobileNet V3 Small",
+  "initial": "torchvision MobileNet_V3_Small_Weights.IMAGENET1K_V1",
+  "pretrained_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+  "optimizer": "AdamW; backbone 0.0002, head 0.001; weight decay 0.008; cosine floor 0.10; fine-tune all",
+  "loss": "CE weighted by inverse sqrt train class frequencies, label smoothing 0.03",
+  "augmentation": "Horizontal flip, -10 to +10 degrees and mild brightness/contrast; train only",
+  "checkpoints": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "checkpoint_policy": "Max validation macro recall - 0.40*severe-to-good rate - 0.12*good-to-severe rate; argmax; then lower NLL, earlier epoch",
+  "thresholds": [
+    1.0,
+    0.3,
+    0.2,
+    0.12,
+    0.08
+  ],
+  "threshold_policy": "On selected checkpoint, allow good to middle if p(severe)>=cut. Validation good recall loss <=0.10 vs argmax. Max same utility; ties prefer fewer changes (higher cutoff).",
+  "test_policy": "One frozen pass. Report ordinary argmax and selected guard on the same logits. No test-time calibration.",
+  "maturity": "The labels and this model cover external appearance only. No joint maturity labels assumed.",
+  "file_sha256": {
+    "afruit_grade_train.py": "9b2412f02d6d418a761c1c45b550a6df27f378e405ea0c9f62437c5710bdb4b7",
+    "afruit_grade_model.py": "01e6fb811577dd551d4bad7ce360e69e3e2044c0a3fb6672b5f72b7559763d5f"
+  }
+}

@@ -1,0 +1,814 @@
+{
+  "mode": "historic",
+  "rounds": 15,
+  "known_single_fruit": false,
+  "all": {
+    "n": 600,
+    "unique_files": 40,
+    "input_to_cpu_results": {
+      "n": 600,
+      "mean_ms": 35.96607766628343,
+      "p50_ms": 35.766799992416054,
+      "p95_ms": 44.755035015987225,
+      "serial_fps": 27.80397710527814
+    },
+    "input_to_annotated_frame": {
+      "n": 600,
+      "mean_ms": 36.70382716688133,
+      "p50_ms": 36.14845000265632,
+      "p95_ms": 45.67218499578303,
+      "serial_fps": 27.2451152151872
+    },
+    "source_including_resize_to_results": {
+      "n": 600,
+      "mean_ms": 35.96664966622484,
+      "p50_ms": 35.76739999698475,
+      "p95_ms": 44.75582999439211,
+      "serial_fps": 27.803534921382152
+    },
+    "source_including_resize_to_overlay": {
+      "n": 600,
+      "mean_ms": 36.704399166822746,
+      "p50_ms": 36.1490499926731,
+      "p95_ms": 45.67278500035172,
+      "serial_fps": 27.24469062836217
+    },
+    "grade_items": 570,
+    "grade_batches": 390,
+    "frames_with_grade": 390,
+    "zero_fruit_frames": 210,
+    "single_fruit_frames": 270,
+    "multiple_fruit_frames": 120,
+    "fruit_instances": 570,
+    "defect_boxes": 690,
+    "unique_linked_defects": 90,
+    "per_frame_fruit_counts": {
+      "0": 210,
+      "1": 270,
+      "2": 75,
+      "3": 30,
+      "4": 15
+    }
+  },
+  "by_source": {
+    "defect": {
+      "n": 300,
+      "unique_files": 20,
+      "input_to_cpu_results": {
+        "n": 300,
+        "mean_ms": 34.11149599958056,
+        "p50_ms": 31.722150000859983,
+        "p95_ms": 44.04475500341505,
+        "serial_fps": 29.315630132794414
+      },
+      "input_to_annotated_frame": {
+        "n": 300,
+        "mean_ms": 35.33847633341793,
+        "p50_ms": 32.76185001595877,
+        "p95_ms": 45.59741498378572,
+        "serial_fps": 28.297767865400218
+      },
+      "source_including_resize_to_results": {
+        "n": 300,
+        "mean_ms": 34.11207033253353,
+        "p50_ms": 31.72269999049604,
+        "p95_ms": 44.0455450094305,
+        "serial_fps": 29.315136555821276
+      },
+      "source_including_resize_to_overlay": {
+        "n": 300,
+        "mean_ms": 35.339050666370895,
+        "p50_ms": 32.7623500052141,
+        "p95_ms": 45.59821498842212,
+        "serial_fps": 28.297307967913614
+      },
+      "grade_items": 105,
+      "grade_batches": 90,
+      "frames_with_grade": 90,
+      "zero_fruit_frames": 210,
+      "single_fruit_frames": 75,
+      "multiple_fruit_frames": 15,
+      "fruit_instances": 105,
+      "defect_boxes": 495,
+      "unique_linked_defects": 45,
+      "per_frame_fruit_counts": {
+        "0": 210,
+        "1": 75,
+        "2": 15
+      }
+    },
+    "stage": {
+      "n": 300,
+      "unique_files": 20,
+      "input_to_cpu_results": {
+        "n": 300,
+        "mean_ms": 37.8206593329863,
+        "p50_ms": 36.37599998910446,
+        "p95_ms": 45.37666999240173,
+        "serial_fps": 26.440575538243543
+      },
+      "input_to_annotated_frame": {
+        "n": 300,
+        "mean_ms": 38.06917800034474,
+        "p50_ms": 36.602349995519035,
+        "p95_ms": 45.67218499578303,
+        "serial_fps": 26.26796932654927
+      },
+      "source_including_resize_to_results": {
+        "n": 300,
+        "mean_ms": 37.82122899991615,
+        "p50_ms": 36.37649997835979,
+        "p95_ms": 45.377269996970426,
+        "serial_fps": 26.440177287792974
+      },
+      "source_including_resize_to_overlay": {
+        "n": 300,
+        "mean_ms": 38.06974766727459,
+        "p50_ms": 36.60284999932628,
+        "p95_ms": 45.67278500035172,
+        "serial_fps": 26.267576258710463
+      },
+      "grade_items": 465,
+      "grade_batches": 300,
+      "frames_with_grade": 300,
+      "zero_fruit_frames": 0,
+      "single_fruit_frames": 195,
+      "multiple_fruit_frames": 105,
+      "fruit_instances": 465,
+      "defect_boxes": 195,
+      "unique_linked_defects": 45,
+      "per_frame_fruit_counts": {
+        "1": 195,
+        "2": 60,
+        "3": 30,
+        "4": 15
+      }
+    }
+  },
+  "by_instance_count": {
+    "zero": {
+      "n": 210,
+      "unique_files": 14,
+      "input_to_cpu_results": {
+        "n": 210,
+        "mean_ms": 31.776144284854777,
+        "p50_ms": 30.424700002186,
+        "p95_ms": 39.28644499392248,
+        "serial_fps": 31.470149148228234
+      },
+      "input_to_annotated_frame": {
+        "n": 210,
+        "mean_ms": 32.760277619291585,
+        "p50_ms": 31.40765000716783,
+        "p95_ms": 40.24805500375805,
+        "serial_fps": 30.524771847816357
+      },
+      "source_including_resize_to_results": {
+        "n": 210,
+        "mean_ms": 31.77671761853465,
+        "p50_ms": 30.42525000637397,
+        "p95_ms": 39.28698999807238,
+        "serial_fps": 31.469581345831713
+      },
+      "source_including_resize_to_overlay": {
+        "n": 210,
+        "mean_ms": 32.76085095297146,
+        "p50_ms": 31.408299997565337,
+        "p95_ms": 40.248600007907946,
+        "serial_fps": 30.524237646803204
+      },
+      "grade_items": 0,
+      "grade_batches": 0,
+      "frames_with_grade": 0,
+      "zero_fruit_frames": 210,
+      "single_fruit_frames": 0,
+      "multiple_fruit_frames": 0,
+      "fruit_instances": 0,
+      "defect_boxes": 360,
+      "unique_linked_defects": 0,
+      "per_frame_fruit_counts": {
+        "0": 210
+      }
+    },
+    "single": {
+      "n": 270,
+      "unique_files": 18,
+      "input_to_cpu_results": {
+        "n": 270,
+        "mean_ms": 37.93103074066393,
+        "p50_ms": 36.60254999704193,
+        "p95_ms": 46.15446499665267,
+        "serial_fps": 26.363638964547064
+      },
+      "input_to_annotated_frame": {
+        "n": 270,
+        "mean_ms": 38.54914185185744,
+        "p50_ms": 37.176400001044385,
+        "p95_ms": 46.74078500538598,
+        "serial_fps": 25.94091468606366
+      },
+      "source_including_resize_to_results": {
+        "n": 270,
+        "mean_ms": 37.931590740616365,
+        "p50_ms": 36.603200001991354,
+        "p95_ms": 46.15506500122137,
+        "serial_fps": 26.363249747109094
+      },
+      "source_including_resize_to_overlay": {
+        "n": 270,
+        "mean_ms": 38.54970185180988,
+        "p50_ms": 37.17695000523236,
+        "p95_ms": 46.74133000953588,
+        "serial_fps": 25.94053785017927
+      },
+      "grade_items": 270,
+      "grade_batches": 270,
+      "frames_with_grade": 270,
+      "zero_fruit_frames": 0,
+      "single_fruit_frames": 270,
+      "multiple_fruit_frames": 0,
+      "fruit_instances": 270,
+      "defect_boxes": 255,
+      "unique_linked_defects": 45,
+      "per_frame_fruit_counts": {
+        "1": 270
+      }
+    },
+    "multiple": {
+      "n": 120,
+      "unique_files": 8,
+      "input_to_cpu_results": {
+        "n": 120,
+        "mean_ms": 38.877316666427454,
+        "p50_ms": 37.51639999973122,
+        "p95_ms": 45.92100499721709,
+        "serial_fps": 25.721939828824425
+      },
+      "input_to_annotated_frame": {
+        "n": 120,
+        "mean_ms": 39.45308083396716,
+        "p50_ms": 38.02965000795666,
+        "p95_ms": 47.73025999893434,
+        "serial_fps": 25.346563027824416
+      },
+      "source_including_resize_to_results": {
+        "n": 120,
+        "mean_ms": 38.87791333230174,
+        "p50_ms": 37.517099975957535,
+        "p95_ms": 45.9217949755839,
+        "serial_fps": 25.721545069888034
+      },
+      "source_including_resize_to_overlay": {
+        "n": 120,
+        "mean_ms": 39.45367749984143,
+        "p50_ms": 38.03020001214463,
+        "p95_ms": 47.730855002009775,
+        "serial_fps": 25.346179706670412
+      },
+      "grade_items": 300,
+      "grade_batches": 120,
+      "frames_with_grade": 120,
+      "zero_fruit_frames": 0,
+      "single_fruit_frames": 0,
+      "multiple_fruit_frames": 120,
+      "fruit_instances": 300,
+      "defect_boxes": 75,
+      "unique_linked_defects": 45,
+      "per_frame_fruit_counts": {
+        "2": 75,
+        "3": 30,
+        "4": 15
+      }
+    },
+    "grade_invoked": {
+      "n": 390,
+      "unique_files": 26,
+      "input_to_cpu_results": {
+        "n": 390,
+        "mean_ms": 38.22219564089886,
+        "p50_ms": 36.80704998259898,
+        "p95_ms": 46.154464996652656,
+        "serial_fps": 26.162808892380085
+      },
+      "input_to_annotated_frame": {
+        "n": 390,
+        "mean_ms": 38.82727692327582,
+        "p50_ms": 37.49454999342561,
+        "p95_ms": 47.26006500277434,
+        "serial_fps": 25.755089700883175
+      },
+      "source_including_resize_to_results": {
+        "n": 390,
+        "mean_ms": 38.2227669226734,
+        "p50_ms": 36.80754998640623,
+        "p95_ms": 46.15506500122135,
+        "serial_fps": 26.162417860095026
+      },
+      "source_including_resize_to_overlay": {
+        "n": 390,
+        "mean_ms": 38.82784820505036,
+        "p50_ms": 37.495049997232854,
+        "p95_ms": 47.26057500665773,
+        "serial_fps": 25.754710761178092
+      },
+      "grade_items": 570,
+      "grade_batches": 390,
+      "frames_with_grade": 390,
+      "zero_fruit_frames": 0,
+      "single_fruit_frames": 270,
+      "multiple_fruit_frames": 120,
+      "fruit_instances": 570,
+      "defect_boxes": 330,
+      "unique_linked_defects": 90,
+      "per_frame_fruit_counts": {
+        "1": 270,
+        "2": 75,
+        "3": 30,
+        "4": 15
+      }
+    }
+  },
+  "long_edge": null,
+  "files": [
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\107.jpg",
+      "source_hw": [
+        277,
+        369
+      ],
+      "prediction_hw": [
+        277,
+        369
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\1210.jpg",
+      "source_hw": [
+        277,
+        369
+      ],
+      "prediction_hw": [
+        277,
+        369
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\1870.jpg",
+      "source_hw": [
+        369,
+        277
+      ],
+      "prediction_hw": [
+        369,
+        277
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\3320.jpg",
+      "source_hw": [
+        277,
+        369
+      ],
+      "prediction_hw": [
+        277,
+        369
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\3460.jpg",
+      "source_hw": [
+        277,
+        369
+      ],
+      "prediction_hw": [
+        277,
+        369
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\384.jpg",
+      "source_hw": [
+        369,
+        277
+      ],
+      "prediction_hw": [
+        369,
+        277
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\3870.jpg",
+      "source_hw": [
+        369,
+        277
+      ],
+      "prediction_hw": [
+        369,
+        277
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\4141.jpg",
+      "source_hw": [
+        369,
+        277
+      ],
+      "prediction_hw": [
+        369,
+        277
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\8100.jpg",
+      "source_hw": [
+        369,
+        277
+      ],
+      "prediction_hw": [
+        369,
+        277
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_12650.jpg",
+      "source_hw": [
+        303,
+        404
+      ],
+      "prediction_hw": [
+        303,
+        404
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_13220.jpg",
+      "source_hw": [
+        303,
+        404
+      ],
+      "prediction_hw": [
+        303,
+        404
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_5385.jpg",
+      "source_hw": [
+        303,
+        404
+      ],
+      "prediction_hw": [
+        303,
+        404
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_5467.jpg",
+      "source_hw": [
+        303,
+        404
+      ],
+      "prediction_hw": [
+        303,
+        404
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_55120.jpg",
+      "source_hw": [
+        303,
+        404
+      ],
+      "prediction_hw": [
+        303,
+        404
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_55230.jpg",
+      "source_hw": [
+        303,
+        404
+      ],
+      "prediction_hw": [
+        303,
+        404
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_55730.jpg",
+      "source_hw": [
+        303,
+        404
+      ],
+      "prediction_hw": [
+        303,
+        404
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_6772.jpg",
+      "source_hw": [
+        277,
+        369
+      ],
+      "prediction_hw": [
+        277,
+        369
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_6801.jpg",
+      "source_hw": [
+        277,
+        369
+      ],
+      "prediction_hw": [
+        277,
+        369
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_6809.jpg",
+      "source_hw": [
+        277,
+        369
+      ],
+      "prediction_hw": [
+        277,
+        369
+      ]
+    },
+    {
+      "source": "stage",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\mendeley_stage_seg_v1\\images\\val\\IMG_6882.jpg",
+      "source_hw": [
+        277,
+        369
+      ],
+      "prediction_hw": [
+        277,
+        369
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211025_155302_653.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211025_201627_696.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211025_215315_157.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211027_142849_211.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945062_20211027_153254_619.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211025_153658_222.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211025_181614_156.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211025_205426_044.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211025_223607_536.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945063_20211027_151908_619.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211025_175508_650.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211025_202455_139.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211025_204433_656.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211025_221002_631.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\train\\23945065_20211027_144216_075.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945062_20211025_222546_146.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211025_204449_154.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945063_20211027_153313_622.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211025_201259_657.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "source": "defect",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\apple_research_v2\\datasets\\ssda_date_v2\\original\\images\\val\\23945065_20211027_143617_475.jpg",
+      "source_hw": [
+        1024,
+        1024
+      ],
+      "prediction_hw": [
+        1024,
+        1024
+      ]
+    }
+  ]
+}

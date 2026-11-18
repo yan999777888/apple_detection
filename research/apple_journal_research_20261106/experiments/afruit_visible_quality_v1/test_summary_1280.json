@@ -1,0 +1,252 @@
+{
+  "pipeline_single_instance": {
+    "rows_by_true_grade": [
+      "good",
+      "minor",
+      "severe"
+    ],
+    "columns_by_prediction": [
+      "good",
+      "minor",
+      "severe",
+      "unresolved"
+    ],
+    "confusion": [
+      [
+        44,
+        1,
+        0,
+        11
+      ],
+      [
+        25,
+        2,
+        0,
+        10
+      ],
+      [
+        6,
+        2,
+        1,
+        8
+      ]
+    ],
+    "images": 110,
+    "resolved": 81,
+    "correct": 47,
+    "severe_total": 17,
+    "severe_to_good": 6,
+    "severe_to_minor": 2,
+    "severe_to_severe": 1,
+    "severe_unresolved": 8,
+    "severe_to_good_fraction_of_all": 0.35294117647058826,
+    "severe_to_good_fraction_among_resolved": 0.6666666666666666,
+    "severe_good_or_unresolved_fraction": 0.8235294117647058
+  },
+  "supplied_single_fruit_image": {
+    "rows_by_true_grade": [
+      "good",
+      "minor",
+      "severe"
+    ],
+    "columns_by_prediction": [
+      "good",
+      "minor",
+      "severe",
+      "unresolved"
+    ],
+    "confusion": [
+      [
+        56,
+        0,
+        0,
+        0
+      ],
+      [
+        35,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        16,
+        0
+      ]
+    ],
+    "images": 110,
+    "resolved": 110,
+    "correct": 73,
+    "severe_total": 17,
+    "severe_to_good": 0,
+    "severe_to_minor": 1,
+    "severe_to_severe": 16,
+    "severe_unresolved": 0,
+    "severe_to_good_fraction_of_all": 0.0,
+    "severe_to_good_fraction_among_resolved": 0.0,
+    "severe_good_or_unresolved_fraction": 0.0
+  },
+  "direct_predictions_differing_from_native_standalone": 0,
+  "long_edge": 1280,
+  "grade_images_with_no_instance": 15,
+  "grade_images_with_multiple_instances": 14,
+  "fruit_instances": 117,
+  "instance_coverage_by_true_grade": {
+    "good": {
+      "single": 45,
+      "none": 8,
+      "multiple": 3
+    },
+    "minor": {
+      "multiple": 3,
+      "single": 27,
+      "none": 7
+    },
+    "severe": {
+      "multiple": 8,
+      "single": 9
+    }
+  },
+  "all_defect_alerts": 82,
+  "stage_output_counts": {
+    "immature": 49,
+    "semi-mature": 2,
+    "mature": 66
+  },
+  "conditional_by_predicted_maturity": {
+    "immature": {
+      "rows_by_true_grade": [
+        "good",
+        "minor",
+        "severe"
+      ],
+      "columns_by_prediction": [
+        "good",
+        "minor",
+        "severe",
+        "unresolved"
+      ],
+      "confusion": [
+        [
+          31,
+          1,
+          0,
+          0
+        ],
+        [
+          13,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "images": 46,
+      "resolved": 46,
+      "correct": 32,
+      "severe_total": 0,
+      "severe_to_good": 0,
+      "severe_to_minor": 0,
+      "severe_to_severe": 0,
+      "severe_unresolved": 0,
+      "severe_to_good_fraction_of_all": null,
+      "severe_to_good_fraction_among_resolved": null,
+      "severe_good_or_unresolved_fraction": null
+    },
+    "semi-mature": {
+      "rows_by_true_grade": [
+        "good",
+        "minor",
+        "severe"
+      ],
+      "columns_by_prediction": [
+        "good",
+        "minor",
+        "severe",
+        "unresolved"
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "images": 0,
+      "resolved": 0,
+      "correct": 0,
+      "severe_total": 0,
+      "severe_to_good": 0,
+      "severe_to_minor": 0,
+      "severe_to_severe": 0,
+      "severe_unresolved": 0,
+      "severe_to_good_fraction_of_all": null,
+      "severe_to_good_fraction_among_resolved": null,
+      "severe_good_or_unresolved_fraction": null
+    },
+    "mature": {
+      "rows_by_true_grade": [
+        "good",
+        "minor",
+        "severe"
+      ],
+      "columns_by_prediction": [
+        "good",
+        "minor",
+        "severe",
+        "unresolved"
+      ],
+      "confusion": [
+        [
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          1,
+          0,
+          0
+        ],
+        [
+          6,
+          2,
+          1,
+          0
+        ]
+      ],
+      "images": 35,
+      "resolved": 35,
+      "correct": 15,
+      "severe_total": 9,
+      "severe_to_good": 6,
+      "severe_to_minor": 2,
+      "severe_to_severe": 1,
+      "severe_unresolved": 0,
+      "severe_to_good_fraction_of_all": 0.6666666666666666,
+      "severe_to_good_fraction_among_resolved": 0.6666666666666666,
+      "severe_good_or_unresolved_fraction": 0.6666666666666666
+    }
+  },
+  "note": "AFruitDB image-level grade only. Single predicted fruit provisionally linked to the image grade; no boxes or maturity labels to validate identity, segmentation, maturity or lesion accuracy. Unresolved frames remain in denominators."
+}

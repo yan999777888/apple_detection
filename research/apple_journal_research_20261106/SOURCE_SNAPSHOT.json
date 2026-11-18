@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T12:21:35.142764+00:00",
+  "snapshot_updated_utc": "2026-11-18T13:04:16.484110+00:00",
   "files": [
     {
       "path": "README.md",
@@ -53,6 +53,56 @@
       "bytes": 2214
     },
     {
+      "path": "apple_research_v2/afruit_grade_background.py",
+      "sha256": "03f165ffa7eaf3f3d49b9686c9ba691b60e299dd34f42e4bb63e962140998ffa",
+      "bytes": 9778
+    },
+    {
+      "path": "apple_research_v2/afruit_grade_errors.py",
+      "sha256": "cfa72028b0c1c58c8df8220a9ad79d6adb7fd3420a05f7eed76382caa9abd425",
+      "bytes": 3516
+    },
+    {
+      "path": "apple_research_v2/afruit_grade_model.py",
+      "sha256": "01e6fb811577dd551d4bad7ce360e69e3e2044c0a3fb6672b5f72b7559763d5f",
+      "bytes": 2678
+    },
+    {
+      "path": "apple_research_v2/afruit_grade_release.py",
+      "sha256": "0bc8903ed1275c6df4f3536dc0f6051d9ed4127094b0239a8c906a5d6a96f5ee",
+      "bytes": 666
+    },
+    {
+      "path": "apple_research_v2/afruit_grade_train.py",
+      "sha256": "9b2412f02d6d418a761c1c45b550a6df27f378e405ea0c9f62437c5710bdb4b7",
+      "bytes": 12634
+    },
+    {
+      "path": "apple_research_v2/afruit_severe_crop_audit.py",
+      "sha256": "41c19e60d89f4e0101b4a6e919a338378d80be780c4862bf1bd5ec00e134211d",
+      "bytes": 3860
+    },
+    {
+      "path": "apple_research_v2/afruit_visible_quality.py",
+      "sha256": "e637c2232c67e8b88b2855af9671ce93e558187b8a36fa504dcd075c8812848a",
+      "bytes": 10327
+    },
+    {
+      "path": "apple_research_v2/afruitdb_border_control.py",
+      "sha256": "68cbcce6732913adb5b54b219ad135cf1fc914e54092f5e2ee2809ac76219a67",
+      "bytes": 3402
+    },
+    {
+      "path": "apple_research_v2/afruitdb_grade_source.py",
+      "sha256": "77be538857022c38f1a31f54985d0471c6ee3ef3fd0dbcbeea9871dfc5f66881",
+      "bytes": 6587
+    },
+    {
+      "path": "apple_research_v2/afruitdb_grade_split.py",
+      "sha256": "c40eb421bf8ca4a053ce6e3e36e88865c9c7362091099773af9a8ed7d8352db0",
+      "bytes": 8359
+    },
+    {
       "path": "apple_research_v2/analyze_defect_mechanisms_20261112.py",
       "sha256": "521ba0adbff565c496953021b7d811481afe74930adadf653368e44fecad8de6",
       "bytes": 2386
@@ -96,6 +146,11 @@
       "path": "apple_research_v2/audit_remote_zip_20261112.py",
       "sha256": "46c769f31b06fa8a9fd95213959e2dc246bf889e1ac9a9c3c59f0b5ac963a8f9",
       "bytes": 3795
+    },
+    {
+      "path": "apple_research_v2/benchmark_afruit_visible_quality.py",
+      "sha256": "2ec4ef265b8183d2b0f941cc1b8b2691081e576d57dfce4e76f57db017c0eeec",
+      "bytes": 15162
     },
     {
       "path": "apple_research_v2/benchmark_class0_paired.py",
@@ -698,6 +753,16 @@
       "bytes": 1859
     },
     {
+      "path": "apple_research_v2/grade_external_rot_panel.py",
+      "sha256": "255ae8f617c3f09ecb9cc544442e0c7d1cce5c326f560cdb0190bf808d59953e",
+      "bytes": 3859
+    },
+    {
+      "path": "apple_research_v2/grade_stage_validation.py",
+      "sha256": "33d5a00249cb36cdf111e5328bc5fad4f8de396cf3b7e93e7f0e1555075617df",
+      "bytes": 3861
+    },
+    {
       "path": "apple_research_v2/inspect_local_inventory.py",
       "sha256": "c43c0669166987883e74ed06701abc372c74748f04276833c7c1d5715253744e",
       "bytes": 9819
@@ -1003,6 +1068,16 @@
       "bytes": 4226
     },
     {
+      "path": "datasets/afruitdb_apples_v1/split_audit.json",
+      "sha256": "a4174d8a01684ed16468179ad7b9bc95d46b679acc08a00663a724ebf8132fc9",
+      "bytes": 1816
+    },
+    {
+      "path": "docs/AFruitDB苹果三级数据卡_20261118.md",
+      "sha256": "8ae4f49b338c85347445ad08903b9098bc003d9738d5c7050674da08549686f3",
+      "bytes": 3980
+    },
+    {
       "path": "docs/SSDA训练图缺陷盲审说明.md",
       "sha256": "d8f06e03a3fe69ba86800d57fac1fb2352768a32dc05864c38f836038da65dba",
       "bytes": 1311
@@ -1011,6 +1086,11 @@
       "path": "docs/class0缺陷逐例复核与模型改进_20261118.md",
       "sha256": "55cdcd3c2c5ceb10da2ba225ee381daead2e77c35b4524398dc26499c7cba4bc",
       "bytes": 14582
+    },
+    {
+      "path": "docs/三级分级与成熟度整机测速_20261118.md",
+      "sha256": "7e72fff2a34845b17ae2ae15aa1176057d928a5c9f375849be8ea5da849a50d3",
+      "bytes": 5352
     },
     {
       "path": "docs/人工复核与缺陷检测更新_20261118.md",
@@ -1086,6 +1166,151 @@
       "path": "docs/缺陷零改标算法对照_20261112_最终.md",
       "sha256": "10a3ddc275023a3b1203d9f42266085aa3957b3a4294cef8515c531fecc86409",
       "bytes": 9520
+    },
+    {
+      "path": "docs/苹果三级品质与成熟度联合实测_20261118.md",
+      "sha256": "45eee02d8f979d4cd086bee7a62ec863556c3e1f553493ab5a5b5264969013b6",
+      "bytes": 11697
+    },
+    {
+      "path": "experiments/afruit_external_appearance_v1/results.json",
+      "sha256": "c0ed2fa8e6767792f6e300a9a71e3aa9d920f11d73f0ca6e929b86ba5f009875",
+      "bytes": 727
+    },
+    {
+      "path": "experiments/afruit_grade_background_v1/augmentation_receipt.json",
+      "sha256": "4db88e7edd8c8d39c76dc7462968f66475c42d29370a7b2441c0a1eec42627b8",
+      "bytes": 225
+    },
+    {
+      "path": "experiments/afruit_grade_background_v1/history.json",
+      "sha256": "c2e17130c1dc021d3a0c0202b502a9a80ef81c21095c1e806ef561ac879ab3fe",
+      "bytes": 30971
+    },
+    {
+      "path": "experiments/afruit_grade_background_v1/preflight.json",
+      "sha256": "a424c769cd960f3b8b0ef7b579d5c4c99307b7b09905684d570359fe80413d7c",
+      "bytes": 263
+    },
+    {
+      "path": "experiments/afruit_grade_background_v1/protocol.json",
+      "sha256": "316168113ef9e84613545e952702eba60dbe7fe0fd7c480590c1ce85cf0f0863",
+      "bytes": 1349
+    },
+    {
+      "path": "experiments/afruit_grade_background_v1/selection.json",
+      "sha256": "0e511b080d9d9e0c56e470dc89398d4991ce49f08224423b89c87fc39a251c78",
+      "bytes": 7308
+    },
+    {
+      "path": "experiments/afruit_grade_release_v1/decision.json",
+      "sha256": "0dd43f46bd2df7c9bfb66018bb976a0ae31ff1c335c7442de324d0dd0eccdd7e",
+      "bytes": 382
+    },
+    {
+      "path": "experiments/afruit_grade_release_v1/protocol.json",
+      "sha256": "8140a5b6415e425e0263c576d984b1b22b952695ed795caa344fefa4ff3e0b25",
+      "bytes": 1748
+    },
+    {
+      "path": "experiments/afruit_grade_release_v1/selection.json",
+      "sha256": "8584df69d923ac6f8c7466c63a9f0afabcd02c50425af0f5929752db3d57a17d",
+      "bytes": 7307
+    },
+    {
+      "path": "experiments/afruit_grade_release_v1/test.json",
+      "sha256": "22b422d949a6e2dcbabb3ce9a00da4ab950b30ff4ca4fbe405e57e6121fc9f9c",
+      "bytes": 3071
+    },
+    {
+      "path": "experiments/afruit_grade_v1/history.json",
+      "sha256": "304353a5303fa8dc6254adb3031db5529eeb982c71d956b0074774016a22d76a",
+      "bytes": 30858
+    },
+    {
+      "path": "experiments/afruit_grade_v1/protocol.json",
+      "sha256": "8140a5b6415e425e0263c576d984b1b22b952695ed795caa344fefa4ff3e0b25",
+      "bytes": 1748
+    },
+    {
+      "path": "experiments/afruit_grade_v1/selection.json",
+      "sha256": "8584df69d923ac6f8c7466c63a9f0afabcd02c50425af0f5929752db3d57a17d",
+      "bytes": 7307
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/camera_grade_protocol.json",
+      "sha256": "17b700fadb6b2e2562a35549e802994a2d90ace3839618235c7c06a8569b6d52",
+      "bytes": 415
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/camera_resolution_policy.json",
+      "sha256": "be2509e207b33c80ba87597b0140a0005b221972c1574633b3538e0a4a080199",
+      "bytes": 311
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/frozen_policy.json",
+      "sha256": "7a851d1d29117bdf326eeb68e2ebc5bc52efbc72e4a66822eb10ed4284edb960",
+      "bytes": 1241
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/latency_historic.json",
+      "sha256": "4e632b37f659d518bbba5d53bcddff48adaac62461852b20b0714da94cc6f049",
+      "bytes": 24235
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/latency_market_frame.json",
+      "sha256": "befbad65961001a0c1c2a9d5dcf718f6044ab50cc7bd15d8c170a953af79d9f7",
+      "bytes": 15386
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/latency_market_frame_1280.json",
+      "sha256": "dac21e126cd497bae5d1a3db191a47402b35252c14991ee86f19915fd2222ed0",
+      "bytes": 15365
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/latency_market_known_crop.json",
+      "sha256": "d1e6e2cf120964cdde55b3e923498809d22d3761359098fc6fdce210b59eaa7d",
+      "bytes": 15397
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/latency_market_known_crop_1280.json",
+      "sha256": "6fc2642c693177df8e9a335727e02038697b1d49c0948ed0ce075686f358b10b",
+      "bytes": 15376
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/latency_market_known_crop_repeat.json",
+      "sha256": "a6bc04fa4ef12e9d5e5d0cc6d7cede9d9ef4ca0fca252cbdf8a63f952d228df8",
+      "bytes": 15391
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/protocol.json",
+      "sha256": "7ae929562f36e4c04d614d0d0d708cc9ebaa29e4d629ee9d0374b0fc3821410c",
+      "bytes": 1720
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/severe_crop_comparison.json",
+      "sha256": "1be1b152f22e9036da3aed24cede777a07e40ae32bafadd013749b7c4cf6e805",
+      "bytes": 2838
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/test_summary.json",
+      "sha256": "4a3e1971bd420246743783b4404c92042496e4833b7cfd22d2f65fc60456e8ae",
+      "bytes": 5190
+    },
+    {
+      "path": "experiments/afruit_visible_quality_v1/test_summary_1280.json",
+      "sha256": "f9636798c3a8871502cb547ce76bdeed2a5dec6924f778490b2a8db2674d4861",
+      "bytes": 5191
+    },
+    {
+      "path": "experiments/afruitdb_border_control_v1/test.json",
+      "sha256": "e2d0df3868d317fb411954e1ac8f4deec7d0b905c0eca7d0153eb92ae39c01c7",
+      "bytes": 786
+    },
+    {
+      "path": "experiments/afruitdb_border_control_v1/validation.json",
+      "sha256": "6c1344af911ea0590c8417384782da8bc8f62ac7c079d743c80695f43f899c51",
+      "bytes": 799
     },
     {
       "path": "experiments/class0_crop_deploy_v1/fp16/results.json",
@@ -2088,6 +2313,11 @@
       "bytes": 5584
     },
     {
+      "path": "experiments/grade_stage_validation_v1/results.json",
+      "sha256": "f9d975e629946dad8278daf4fb66f7fbc72b86fec2aaae5a8d9f24f65e29b5ec",
+      "bytes": 923
+    },
+    {
       "path": "experiments/joint_training_v1/data_manifest.json",
       "sha256": "3b675bf22d3e2a94732a694913bb01375a3f616e85dd351f8f388341d1637a98",
       "bytes": 3464060
@@ -2146,6 +2376,11 @@
       "path": "experiments/takeover_20261112/runtime_versions.json",
       "sha256": "f6575cb56fdb2b0c0a9491b909927146f297b5bc113f58694dc4b7e7191597bd",
       "bytes": 541
+    },
+    {
+      "path": "run_apple_quality.ps1",
+      "sha256": "a5f8f2aad92962b0429e70d84af1d5cfde5310a1c75ee46d7b197fdd7c5e5430",
+      "bytes": 1797
     },
     {
       "path": "set_run_env.ps1",

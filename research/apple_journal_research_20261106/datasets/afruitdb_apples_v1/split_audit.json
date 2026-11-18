@@ -1,0 +1,75 @@
+{
+  "source": "10.17632/bz65dz2pbj.1",
+  "archive_index_sha256": "79defa345ccb75c8d42b78f017118bf69e37f73374525d5333ad64b4e51b70da",
+  "raw_photos": 482,
+  "usable": 482,
+  "exact_duplicate_removals": 0,
+  "conflicting_exact_rows": 0,
+  "date_histograms": {
+    "good": {
+      "2023-09-30": 198
+    },
+    "medium": {
+      "2023-04-19": 2,
+      "2023-04-20": 1,
+      "2023-04-25": 109,
+      "2023-09-30": 60
+    },
+    "bad": {
+      "2023-04-19": 37,
+      "2023-04-20": 10,
+      "2023-04-25": 57,
+      "2023-04-26": 1,
+      "2023-05-02": 6,
+      "2023-05-03": 1
+    }
+  },
+  "seed": 20261118,
+  "groups_total": 18,
+  "groups_per_grade": {
+    "train": {
+      "good": 2,
+      "medium": 2,
+      "bad": 6
+    },
+    "val": {
+      "good": 2,
+      "medium": 3,
+      "bad": 3
+    },
+    "test": {
+      "good": 1,
+      "medium": 2,
+      "bad": 3
+    }
+  },
+  "images_per_grade": {
+    "train": {
+      "good": 117,
+      "medium": 120,
+      "bad": 78
+    },
+    "val": {
+      "good": 25,
+      "medium": 15,
+      "bad": 17
+    },
+    "test": {
+      "good": 56,
+      "medium": 37,
+      "bad": 17
+    }
+  },
+  "correlated_burst_gap_seconds": 20,
+  "total_temporal_edges": 464,
+  "verified_near_duplicate_edges": 1,
+  "near_duplicate_cross_split": 0,
+  "physical_apple_id_available": false,
+  "caveat": "Filename date confounds grade. Burst and conservative visual grouping do not certify independence of physical fruits or orchard domains. A grade is for the provided photo.",
+  "mapping": {
+    "1st grade": "good",
+    "2nd grade": "medium",
+    "3rd grade": "bad"
+  },
+  "input_label": "Author-labelled postharvest appearance, a proxy for the proposed A/B/C severity labels; no per-image physiological maturity truth."
+}

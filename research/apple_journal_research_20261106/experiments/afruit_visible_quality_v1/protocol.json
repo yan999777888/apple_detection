@@ -1,0 +1,30 @@
+{
+  "frozen_policy_sha256": "7a851d1d29117bdf326eeb68e2ebc5bc52efbc72e4a66822eb10ed4284edb960",
+  "manifest_sha256": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "grade_weight_sha256": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+  "grade_policy_sha256": "8584df69d923ac6f8c7466c63a9f0afabcd02c50425af0f5929752db3d57a17d",
+  "grade_code_sha256": "0bc8903ed1275c6df4f3536dc0f6051d9ed4127094b0239a8c906a5d6a96f5ee",
+  "stage_composite_sha256": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "defect_shared_sha256": "5e07009ec94310bd01bfd6c257ff8df853d3eef36c25de15e7f8483706fabd93",
+  "defect_scratch_sha256": "a8ce9e6c9035e1c1c8a2ff6c1907b4d98272e1e33e64d31e3d27c4b43ef8d980",
+  "stage_threshold": 0.25,
+  "defect_workpoints": [
+    0.4,
+    0.34
+  ],
+  "crop_context_per_side": 0.1,
+  "stages": [
+    "immature",
+    "semi-mature",
+    "mature"
+  ],
+  "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu_threads": 2,
+  "warm_frames": 5,
+  "timing": "Serial batch-one image arrays in memory, full-frame maturity instance masks and lesion detector each invoked on every frame. All fruit crops classified in batches of up to 12. Return CPU-accessible masks, boxes, per-instance predictions, associations. Separate synchronous overlay timing; excludes camera, image decode, GUI refresh, disk and robot control.",
+  "scenarios": [
+    "historic: 20 stage and 20 SSDA images, 15 rounds, grades on every detected fruit",
+    "market_frame: up to 20 held-out AFruitDB images, grades on detected instances",
+    "market_known_crop: the same provided single-fruit crops, grade always invoked once alongside both prior tasks"
+  ]
+}

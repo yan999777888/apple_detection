@@ -1,0 +1,12 @@
+{
+  "baseline_protocol": "8140a5b6415e425e0263c576d984b1b22b952695ed795caa344fefa4ff3e0b25",
+  "manifest": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "source": "03f165ffa7eaf3f3d49b9686c9ba691b60e299dd34f42e4bb63e962140998ffa",
+  "seed": 11827,
+  "probability": 0.85,
+  "change": "Before each otherwise identical training augmentation, preserve a convex connected, dilated fruit mask and borrow background from a different training capture group, with donor grade uniform and independent of source.",
+  "mask": "HSV saturation threshold clipped to 40..83; smooth and close; choose largest central-weighted compact component; fill convex hull and dilate 6px. Fallback to original when invalid. Feather only outside protected envelope. Donor fruit is inpainted first.",
+  "unchanged": "Validation/test and deployment preprocessing, ImageNet initialization, minibatch order, common augmentation RNG, learning rate, epoch and threshold selection kept fixed.",
+  "decision": "Use train-only background arm iff on the same validation split medium correct increases by >=3, severe-to-good count does not increase, and macro recall improves. Compare selected operating point of each. Otherwise baseline.",
+  "test": "Evaluate winner only, once, after immutable release decision. No test-based checkpoint selection."
+}

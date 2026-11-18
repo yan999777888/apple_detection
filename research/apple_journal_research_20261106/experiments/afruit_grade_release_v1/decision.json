@@ -1,0 +1,9 @@
+{
+  "medium_gain": 0,
+  "risk_delta": 0,
+  "macro_recall_gain": 0.0,
+  "source": "afruit_grade_v1",
+  "source_selection_sha": "8584df69d923ac6f8c7466c63a9f0afabcd02c50425af0f5929752db3d57a17d",
+  "baseline_sha": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+  "background_arm_sha": "b8a07ce834cf1c992f71ec5c04b94ccf45565872d28b1ba51c23b9b86a05d375"
+}

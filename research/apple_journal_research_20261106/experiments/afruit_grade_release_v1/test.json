@@ -1,0 +1,127 @@
+{
+  "source": "AFruitDB apple image-level grades, held-out groups; one pass, no orchard or maturity truth",
+  "weighted_decision": {
+    "n": 110,
+    "confusion": [
+      [
+        56,
+        0,
+        0
+      ],
+      [
+        35,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        16
+      ]
+    ],
+    "accuracy": 0.6636363636363637,
+    "per_class": [
+      {
+        "grade": "good",
+        "n": 56,
+        "predicted": 91,
+        "precision": 0.6153846153846154,
+        "recall": 1.0
+      },
+      {
+        "grade": "medium",
+        "n": 37,
+        "predicted": 2,
+        "precision": 0.5,
+        "recall": 0.02702702702702703
+      },
+      {
+        "grade": "bad",
+        "n": 17,
+        "predicted": 17,
+        "precision": 0.9411764705882353,
+        "recall": 0.9411764705882353
+      }
+    ],
+    "macro_recall": 0.6560678325384207,
+    "severe_to_good_count": 0,
+    "severe_n": 17,
+    "severe_to_good_rate": 0.0,
+    "good_to_severe_count": 0,
+    "good_n": 56,
+    "good_to_severe_rate": 0.0,
+    "ordinal_mae": 0.33636363636363636,
+    "utility": 0.6560678325384207,
+    "severe_to_good_exact_95_if_images_independent": [
+      0.0,
+      0.19506432296909318
+    ],
+    "severe_group_any_as_good": {
+      "groups": 3,
+      "groups_with_any_error": 0,
+      "exact_95_if_groups_independent": [
+        0.0,
+        0.7075982261787133
+      ]
+    },
+    "interval_scope": "Intervals conditional on approximate independence; audited near-duplicate groups may differ from real fruit identities."
+  },
+  "ordinary_argmax": {
+    "n": 110,
+    "confusion": [
+      [
+        56,
+        0,
+        0
+      ],
+      [
+        35,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        16
+      ]
+    ],
+    "accuracy": 0.6636363636363637,
+    "per_class": [
+      {
+        "grade": "good",
+        "n": 56,
+        "predicted": 91,
+        "precision": 0.6153846153846154,
+        "recall": 1.0
+      },
+      {
+        "grade": "medium",
+        "n": 37,
+        "predicted": 2,
+        "precision": 0.5,
+        "recall": 0.02702702702702703
+      },
+      {
+        "grade": "bad",
+        "n": 17,
+        "predicted": 17,
+        "precision": 0.9411764705882353,
+        "recall": 0.9411764705882353
+      }
+    ],
+    "macro_recall": 0.6560678325384207,
+    "severe_to_good_count": 0,
+    "severe_n": 17,
+    "severe_to_good_rate": 0.0,
+    "good_to_severe_count": 0,
+    "good_n": 56,
+    "good_to_severe_rate": 0.0,
+    "ordinal_mae": 0.33636363636363636,
+    "utility": 0.6560678325384207
+  },
+  "threshold": 1.0,
+  "weights_sha256": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+  "manifest_sha256": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "selection_sha256": "8584df69d923ac6f8c7466c63a9f0afabcd02c50425af0f5929752db3d57a17d",
+  "predictions_sha256": "bcf10154cb24b7c59304903d125e2fd9775e0fdbe650940f20d91111fa20f9d8"
+}

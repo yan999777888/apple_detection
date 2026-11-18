@@ -1,0 +1,48 @@
+{
+  "source": "Mendeley apple stage original development",
+  "backend": "CPU FP32",
+  "checkpoint_sha256": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "threshold": 0.25,
+  "box_iou": 0.5,
+  "images": 72,
+  "gt_instances": 114,
+  "truth_rows": [
+    "immature",
+    "semi-mature",
+    "mature"
+  ],
+  "prediction_columns": [
+    "immature",
+    "semi-mature",
+    "mature",
+    "undetected"
+  ],
+  "confusion": [
+    [
+      62,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      45,
+      1
+    ]
+  ],
+  "unmatched_predictions_by_stage": [
+    3,
+    0,
+    2
+  ],
+  "matched_correct": 110,
+  "matched_any_stage": 111,
+  "meaning": "Appearance-stage ground truth. Matching uses bounding boxes from native polygons. This is not a physiological maturity or AFruitDB joint-grade validation."
+}

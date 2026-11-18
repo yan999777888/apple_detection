@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "crop_context_each_side": 0.1,
+  "stage_score": 0.25,
+  "defect_thresholds": [
+    0.4,
+    0.34
+  ],
+  "grade_rule": "locked AFruitDB validation-selected threshold",
+  "grade_dtype": "FP32",
+  "scene": "grade every distinct predicted stage instance's contextual bounding box",
+  "known_single_fruit": "grade the full supplied fruit image once, regardless of maturity branch detections",
+  "test_single": "only exactly one predicted instance with a valid crop is linkable to the image label; no or multiple instances count as unresolved; no defect or stage override of appearance grade",
+  "severe_denominator": "display all true severe images, resolved only, and unresolved count separately",
+  "speed": "20 legacy Mendeley + 20 SSDA development images at fixed evenly spaced ranks, 15 rounds; up to 20 evenly spaced fixed-test AFruitDB photos with >=600 measured frames in each market mode, 5 warmup per mode",
+  "stage_fp32_checkpoint": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "defect_warm_checkpoint": "5e07009ec94310bd01bfd6c257ff8df853d3eef36c25de15e7f8483706fabd93",
+  "defect_scratch_checkpoint": "a8ce9e6c9035e1c1c8a2ff6c1907b4d98272e1e33e64d31e3d27c4b43ef8d980"
+}

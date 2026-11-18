@@ -1,0 +1,26 @@
+{
+  "protocol_sha256": "d5d94160232609fccf25cc796f5ce083d2e1a32e112e621d34d69e84b21e627a",
+  "model_sha256": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+  "threshold": 1.0,
+  "grade_columns": [
+    "good",
+    "mild",
+    "severe"
+  ],
+  "by_source_label": {
+    "fresh": [
+      52,
+      15,
+      2
+    ],
+    "rot_defect": [
+      69,
+      71,
+      60
+    ]
+  },
+  "removed_exact_afruit_overlap": 0,
+  "near_overlap_across_sources_verified": false,
+  "scope": "fresh/rot are source appearance labels, not project quality grades. This panel reports model outputs, not grade accuracy. No physical fruit ID.",
+  "input": "full image with deployment preprocessing, CPU FP32"
+}

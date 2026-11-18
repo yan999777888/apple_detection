@@ -1,0 +1,44 @@
+<#
+.SYNOPSIS
+Produce an annotated apple image and per-fruit quality, maturity and visible defect predictions.
+.PARAMETER Image
+Path to an image. By default apples must be detected in the scene before grading.
+.PARAMETER SingleFruit
+Use only for an image already known to be a single fruit. Grade the full image as one target.
+.PARAMETER LongEdge
+Maximum inference image edge. Use 1280 for the measured camera-size mode or zero for native size.
+#>
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory, Position = 0)]
+    [ValidateScript({ Test-Path -LiteralPath $_ -PathType Leaf })]
+    [string]$Image,
+    [switch]$SingleFruit,
+    [ValidateSet(0, 1280)]
+    [int]$LongEdge = 0
+)
+
+$ErrorActionPreference = 'Stop'
+$sourceImage = (Resolve-Path -LiteralPath $Image).Path
+$python = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..\apple_detection\envs\local_rgbd_v1\Scripts\python.exe')).Path
+$entry = Join-Path $PSScriptRoot 'apple_research_v2\afruit_visible_quality.py'
+$runName = (Get-Date -Format 'yyyyMMdd_HHmmss_fff') + '_' + [guid]::NewGuid().ToString('N').Substring(0, 6)
+$destination = Join-Path $PSScriptRoot "experiments\afruit_visible_quality_v1\predictions\$runName"
+$arguments = @('-B', $entry, '--image', $sourceImage, '--output', $destination)
+if ($SingleFruit) {
+    $arguments += '--known-single-fruit'
+}
+if ($LongEdge) {
+    $arguments += @('--long-edge', $LongEdge.ToString())
+}
+
+Push-Location -LiteralPath $PSScriptRoot
+try {
+    . (Join-Path $PSScriptRoot 'set_run_env.ps1')
+    & $python @arguments
+    if ($LASTEXITCODE -ne 0) { throw "Inference exited with code $LASTEXITCODE" }
+    Get-Item -LiteralPath (Join-Path $destination 'prediction.jpg'), (Join-Path $destination 'prediction.json') |
+        Select-Object -ExpandProperty FullName
+} finally {
+    Pop-Location
+}

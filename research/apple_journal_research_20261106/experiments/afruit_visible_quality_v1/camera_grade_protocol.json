@@ -1,0 +1,6 @@
+{
+  "long_edge": 1280,
+  "frozen_same_policy_as_native": true,
+  "test": "same complete fixed AFruitDB test images; classify only an exact single predicted fruit for the primary provisional image link; report severe-to-good plus unresolved",
+  "timing": "additional measured source-to-output time includes OpenCV INTER_AREA downsampling before network inference; deliver boxes and overlays on inference grid"
+}
