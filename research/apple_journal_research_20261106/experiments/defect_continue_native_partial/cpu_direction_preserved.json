@@ -1,0 +1,44 @@
+{
+  "active": 5,
+  "source_steps": 12,
+  "native_probe_frames": 12,
+  "heldout_train_ids": [
+    "23945065_20211104_164114_650.jpg",
+    "23945063_20211104_145648_340.jpg",
+    "23945063_20211104_124350_218.jpg",
+    "23945062_20211104_140302_121.jpg",
+    "23945062_20211104_152751_737.jpg",
+    "23945063_20211104_151630_347.jpg",
+    "23945063_20211104_143023_837.jpg",
+    "23945062_20211104_153821_234.jpg",
+    "23945063_20211104_161455_661.jpg",
+    "23945065_20211104_145905_245.jpg",
+    "23945062_20211104_125403_608.jpg",
+    "23945062_20211104_150046_753.jpg"
+  ],
+  "has_both_score_directions": {
+    "0": true,
+    "1": true
+  },
+  "outside_GT_low_score_cells": {
+    "0": {
+      "cells": 103596,
+      "up": 29767,
+      "down": 73807,
+      "median_logit_change": -0.009424209594726562
+    },
+    "1": {
+      "cells": 103596,
+      "up": 32593,
+      "down": 70971,
+      "median_logit_change": -0.010250091552734375
+    }
+  },
+  "weight_relative_step": 0.0001,
+  "probe_precision": "cpu FP32 train-only; normalized summed allowed direction, not an optimizer epoch",
+  "combined_schedule_exposures": {
+    "scratch": 520,
+    "pest": 280
+  },
+  "distinct_regions_seen": 257
+}

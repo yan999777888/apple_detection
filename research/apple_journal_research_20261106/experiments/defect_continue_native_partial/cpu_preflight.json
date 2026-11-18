@@ -1,0 +1,450 @@
+{
+  "real_photos": 96,
+  "annotated_regions": 257,
+  "native_windows": {
+    "(1, 384)": 33,
+    "(0, 384)": 224
+  },
+  "native_shape_and_mask_verified_count": 257,
+  "support_checked_objects": 6,
+  "nonempty_positive_logit_grad_objects": 6,
+  "nonpositive_external_class_or_site_gradients": 0,
+  "manual_directional_probes": [
+    {
+      "cos": 0.011341591365635395,
+      "applied": true,
+      "additional_over_native_norm": 0.1,
+      "cls": 0,
+      "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|228#348",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.3750517666339874
+    },
+    {
+      "cos": -0.00042880361434072256,
+      "applied": false,
+      "additional_over_native_norm": 0.0,
+      "cls": 0,
+      "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|183#263",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.3694610297679901
+    },
+    {
+      "cos": -0.03508627042174339,
+      "applied": false,
+      "additional_over_native_norm": 0.0,
+      "cls": 0,
+      "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|192#275",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.4510008692741394
+    },
+    {
+      "cos": -0.007306693587452173,
+      "applied": false,
+      "additional_over_native_norm": 0.0,
+      "cls": 0,
+      "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|183#264",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.3547811508178711
+    },
+    {
+      "cos": 0.06728439778089523,
+      "applied": true,
+      "additional_over_native_norm": 0.09999999999999999,
+      "cls": 0,
+      "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|92#143",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.29547345638275146
+    },
+    {
+      "cos": 0.16083787381649017,
+      "applied": true,
+      "additional_over_native_norm": 0.016077272626042544,
+      "cls": 0,
+      "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|26#28",
+      "selected_sites": 3,
+      "qualified_score_sites": 0,
+      "mean_selected_iou": 0.03322526067495346
+    },
+    {
+      "cos": -0.09837060421705246,
+      "applied": false,
+      "additional_over_native_norm": 0.0,
+      "cls": 0,
+      "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|88#131",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.3697627782821655
+    },
+    {
+      "cos": -0.027145514264702797,
+      "applied": false,
+      "additional_over_native_norm": 0.0,
+      "cls": 0,
+      "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|215#319",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.3359655439853668
+    },
+    {
+      "cos": -0.019140809774398804,
+      "applied": false,
+      "additional_over_native_norm": 0.0,
+      "cls": 1,
+      "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|38#104",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.6429600715637207
+    },
+    {
+      "cos": 0.05787867307662964,
+      "applied": true,
+      "additional_over_native_norm": 0.1,
+      "cls": 1,
+      "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|41#111",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.5376566648483276
+    },
+    {
+      "cos": -0.03465351462364197,
+      "applied": false,
+      "additional_over_native_norm": 0.0,
+      "cls": 1,
+      "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|48#140",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.5103868246078491
+    },
+    {
+      "cos": -0.20576642453670502,
+      "applied": false,
+      "additional_over_native_norm": 0.0,
+      "cls": 1,
+      "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|2#6",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.22502776980400085
+    },
+    {
+      "cos": 0.07067987322807312,
+      "applied": true,
+      "additional_over_native_norm": 0.1,
+      "cls": 1,
+      "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|39#106",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.5169552564620972
+    },
+    {
+      "cos": 0.030328888446092606,
+      "applied": true,
+      "additional_over_native_norm": 0.1,
+      "cls": 1,
+      "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|53#150",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.5208913683891296
+    },
+    {
+      "cos": 0.06644264608621597,
+      "applied": true,
+      "additional_over_native_norm": 0.1,
+      "cls": 1,
+      "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|59#170",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.7038381099700928
+    },
+    {
+      "cos": 0.013001915998756886,
+      "applied": true,
+      "additional_over_native_norm": 0.1,
+      "cls": 1,
+      "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|24#60",
+      "selected_sites": 3,
+      "qualified_score_sites": 3,
+      "mean_selected_iou": 0.5376965403556824
+    }
+  ],
+  "gradient_alignment": {
+    "0": {
+      "n": 8,
+      "aligned": 3,
+      "median_cosine": -0.003867748600896448,
+      "score_eligible_cases": 7
+    },
+    "1": {
+      "n": 8,
+      "aligned": 5,
+      "median_cosine": 0.021665402222424746,
+      "score_eligible_cases": 8
+    }
+  },
+  "native_vs_paste": {
+    "0": {
+      "samples": 24,
+      "original_median": -14.472504138946533,
+      "synthetic_median": -16.4484224319458,
+      "actual_higher": 16,
+      "note": "same donor identity; actual/context384 vs donated/context320, different pixel scales and lighting",
+      "rows": [
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|163#232",
+          "real_photograph_logit": -20.285051345825195,
+          "prior_synthetic_logit": -20.07228660583496
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|86#124",
+          "real_photograph_logit": -15.25499153137207,
+          "prior_synthetic_logit": -19.185840606689453
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|200#293",
+          "real_photograph_logit": -15.388626098632812,
+          "prior_synthetic_logit": -20.37708854675293
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|170#239",
+          "real_photograph_logit": -14.645102500915527,
+          "prior_synthetic_logit": -14.12512493133545
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|41#61",
+          "real_photograph_logit": -13.702234268188477,
+          "prior_synthetic_logit": -12.490873336791992
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|163#229",
+          "real_photograph_logit": -36.10151672363281,
+          "prior_synthetic_logit": -29.8396053314209
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|237#363",
+          "real_photograph_logit": -11.863784790039062,
+          "prior_synthetic_logit": -16.157888412475586
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|146#204",
+          "real_photograph_logit": -12.272790908813477,
+          "prior_synthetic_logit": -13.279013633728027
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|41#61",
+          "real_photograph_logit": -13.702234268188477,
+          "prior_synthetic_logit": -15.163784980773926
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|49#76",
+          "real_photograph_logit": -15.335857391357422,
+          "prior_synthetic_logit": -22.73622703552246
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|137#186",
+          "real_photograph_logit": -12.090965270996094,
+          "prior_synthetic_logit": -23.44870948791504
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|28#36",
+          "real_photograph_logit": -9.898216247558594,
+          "prior_synthetic_logit": -14.812901496887207
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|58#91",
+          "real_photograph_logit": -14.299905776977539,
+          "prior_synthetic_logit": -24.98784065246582
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|120#176",
+          "real_photograph_logit": -14.712309837341309,
+          "prior_synthetic_logit": -16.738956451416016
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|3#3",
+          "real_photograph_logit": -20.59563636779785,
+          "prior_synthetic_logit": -14.806797981262207
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|197#290",
+          "real_photograph_logit": -25.93944549560547,
+          "prior_synthetic_logit": -14.975408554077148
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|152#215",
+          "real_photograph_logit": -7.017332077026367,
+          "prior_synthetic_logit": -15.56737232208252
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|40#58",
+          "real_photograph_logit": -15.622552871704102,
+          "prior_synthetic_logit": -16.103702545166016
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|58#90",
+          "real_photograph_logit": -11.734796524047852,
+          "prior_synthetic_logit": -14.388758659362793
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|251#384",
+          "real_photograph_logit": -12.227516174316406,
+          "prior_synthetic_logit": -22.032278060913086
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|258#389",
+          "real_photograph_logit": -23.297954559326172,
+          "prior_synthetic_logit": -19.6362247467041
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|107#162",
+          "real_photograph_logit": -13.706254959106445,
+          "prior_synthetic_logit": -15.5446195602417
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|200#294",
+          "real_photograph_logit": -22.211620330810547,
+          "prior_synthetic_logit": -18.006071090698242
+        },
+        {
+          "key": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|28#33",
+          "real_photograph_logit": -11.40903091430664,
+          "prior_synthetic_logit": -17.23767852783203
+        }
+      ]
+    },
+    "1": {
+      "samples": 24,
+      "original_median": -22.332813262939453,
+      "synthetic_median": -25.72231960296631,
+      "actual_higher": 9,
+      "note": "same donor identity; actual/context384 vs donated/context320, different pixel scales and lighting",
+      "rows": [
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|41#111",
+          "real_photograph_logit": -38.64860534667969,
+          "prior_synthetic_logit": -37.21091842651367
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|65#187",
+          "real_photograph_logit": -22.332813262939453,
+          "prior_synthetic_logit": -21.914249420166016
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|17#43",
+          "real_photograph_logit": -20.32598876953125,
+          "prior_synthetic_logit": -33.164146423339844
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|64#184",
+          "real_photograph_logit": -20.48396110534668,
+          "prior_synthetic_logit": -29.520471572875977
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|38#104",
+          "real_photograph_logit": -15.838582992553711,
+          "prior_synthetic_logit": -18.52688217163086
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|38#104",
+          "real_photograph_logit": -15.838582992553711,
+          "prior_synthetic_logit": -14.100245475769043
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|41#111",
+          "real_photograph_logit": -38.64860534667969,
+          "prior_synthetic_logit": -40.22966003417969
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|8#19",
+          "real_photograph_logit": -18.424930572509766,
+          "prior_synthetic_logit": -30.091028213500977
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|21#54",
+          "real_photograph_logit": -32.92504119873047,
+          "prior_synthetic_logit": -28.371139526367188
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|51#146",
+          "real_photograph_logit": -33.132511138916016,
+          "prior_synthetic_logit": -18.89179229736328
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|38#104",
+          "real_photograph_logit": -15.838582992553711,
+          "prior_synthetic_logit": -16.477067947387695
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|66#189",
+          "real_photograph_logit": -17.130577087402344,
+          "prior_synthetic_logit": -15.334707260131836
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|65#187",
+          "real_photograph_logit": -22.332813262939453,
+          "prior_synthetic_logit": -18.865955352783203
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|21#54",
+          "real_photograph_logit": -32.92504119873047,
+          "prior_synthetic_logit": -25.54265022277832
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|48#140",
+          "real_photograph_logit": -19.43746566772461,
+          "prior_synthetic_logit": -25.901988983154297
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|38#104",
+          "real_photograph_logit": -15.838582992553711,
+          "prior_synthetic_logit": -21.598691940307617
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|41#111",
+          "real_photograph_logit": -38.64860534667969,
+          "prior_synthetic_logit": -30.556915283203125
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|7#18",
+          "real_photograph_logit": -32.07691192626953,
+          "prior_synthetic_logit": -28.10104751586914
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|38#104",
+          "real_photograph_logit": -15.838582992553711,
+          "prior_synthetic_logit": -24.455659866333008
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|51#146",
+          "real_photograph_logit": -33.132511138916016,
+          "prior_synthetic_logit": -30.34178352355957
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|41#111",
+          "real_photograph_logit": -38.64860534667969,
+          "prior_synthetic_logit": -30.913156509399414
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|41#111",
+          "real_photograph_logit": -38.64860534667969,
+          "prior_synthetic_logit": -28.620960235595703
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|21#54",
+          "real_photograph_logit": -32.92504119873047,
+          "prior_synthetic_logit": -17.549123764038086
+        },
+        {
+          "key": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|65#187",
+          "real_photograph_logit": -22.332813262939453,
+          "prior_synthetic_logit": -20.475627899169922
+        }
+      ]
+    }
+  },
+  "device": "cpu",
+  "threads": 2
+}

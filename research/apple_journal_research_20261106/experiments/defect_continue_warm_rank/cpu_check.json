@@ -1,0 +1,29 @@
+{
+  "parent_sha256": "21ca5879ab152ce754ed337e5f8abe3f1b611f99e3d86213be299816bf7f9de5",
+  "base_state_keys": 708,
+  "cpu_images": 2,
+  "image_ids": [
+    "23945062_20211104_123536_108.jpg",
+    "23945063_20211104_130047_320.jpg"
+  ],
+  "differentiable_input_size": 512,
+  "original_output_rows": 600,
+  "fused_production_size": 768,
+  "fused_production_rows_verified": 600,
+  "fixed_output_bit_exact": true,
+  "native_loss_bit_exact": true,
+  "native_loss": 4.622817516326904,
+  "quality": 0.5371890664100647,
+  "ranking": 0.0,
+  "real_gradient_quality": [
+    0.14563393592834473,
+    0.021502168849110603,
+    0.0
+  ],
+  "gradient_norm": 15.718414306640625,
+  "first_reference_permutation_verified": true,
+  "replay_weight_sha256": "27fcf984acc450e6d09dc4f0e0a2810ed4daff0911668576b3b75e44feece0cc",
+  "fit": 596,
+  "development": 113,
+  "standalone_calibration": null
+}

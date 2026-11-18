@@ -1,0 +1,387 @@
+{
+  "protocol": {
+    "mode": "native_partial",
+    "parent_sha256": "21ca5879ab152ce754ed337e5f8abe3f1b611f99e3d86213be299816bf7f9de5",
+    "ssda_manifest_sha256": "d748a4ada46e4dd3e087aff11c7813d9ab22044d5bbfb2d05c6cfa135a27f19f",
+    "code_sha256": "d27a54e713d4b4e3a44b318851b34a4377d4c38fc11a2e8cdd932d0b2f73f0e2",
+    "transfer_code_sha256": "1b63d861aa655406ae6758a9e76c9f3250645317f21ba3821e9099215d7296d5",
+    "base_training_code_sha256": "3661850a7694d3e6b7656915db85cdc7d41b6e5c5e09015c4253a90422b7dbad",
+    "train": [
+      596,
+      1276
+    ],
+    "dev": [
+      113,
+      230
+    ],
+    "image_size": 768,
+    "seed": 948518,
+    "epochs": 8,
+    "lr_peak": 0.0001,
+    "learning_rate": "two-epoch warmup, cosine decay ending at 5% of peak",
+    "optimizer": "AdamW, weight decay 5e-4 on non-bias/non-norm weights; gradient norm limit 10",
+    "weights": "eighth epoch EMA; no dev checkpoint or threshold selection",
+    "per_batch": 4,
+    "accumulation": 3,
+    "expected_updates": 400,
+    "thresholds": [
+      0.4,
+      0.34
+    ],
+    "inference": "single-view FP32 with original class NMS 0.70",
+    "extra_rng": "per (seed,epoch,original training row); separate from shuffle and original augment",
+    "transfer_probability": 0.0,
+    "external": null,
+    "prior_exposure": "All 596 images trained the parent. Only the 113-image date development set is scored.",
+    "external_snapshot": "75e57d602dc84195b8d705105909e37c",
+    "external_manifest_sha": "e37fa965b09dc6c1ba5839c88d781dfa785e70ceac837eba22d42859de464e75",
+    "code_sha": "39cf324984dc9474f811a3cf49dc13c724b5a4ad638d3d7f54294b46005ea424",
+    "partial_sha": "fbb51760882f7c9e1008d34523428e79dd74d57a443e64ec2f0f2373777267f2",
+    "check_sha": "8bbf573ef15a501bfd88157d92179d6f178935f4d0b81a2d6b32f9cdfe17340e",
+    "drift_check_sha": "6c6f23f1f7e839c0a8bb16affb8704409212fe99a41a99c489994446bdfd2e2b",
+    "raw_regions_by_class": [
+      224,
+      33
+    ],
+    "exposures": [
+      520,
+      280
+    ],
+    "real_views_per_optimizer_step": 2,
+    "predeclared_auxiliary_stream_sha": "b8ba53ad46a79ffe62ae05b7da9b00a92d7256e4cbe47191ecc2063b2e1df80f",
+    "main_comparator": "original SSDA replay 8 epochs, same parent and per-example augmentation stream",
+    "auxiliary_contract": "top3 sites intersect native polygon; only labeled class and box at these sites. Bias/BN/trunk frozen for external update. Preserve the linearized means of each class's ordinary and hard native out-of-GT-region logit groups. External score only when box overlaps and score below hinge; positive inner product with native detection head gradient, cap at 10% of its norm."
+  },
+  "native_photo": {
+    "TP": 184,
+    "FP": 48,
+    "FN": 46,
+    "P": 0.7931034482758621,
+    "R": 0.8
+  },
+  "classwise": {
+    "class/0": {
+      "TP": 58,
+      "FP": 15,
+      "FN": 29,
+      "GT": 87,
+      "P": 0.7945205479452054,
+      "R": 0.6666666666666666
+    },
+    "class/1": {
+      "TP": 126,
+      "FP": 33,
+      "FN": 17,
+      "GT": 143,
+      "P": 0.7924528301886793,
+      "R": 0.8811188811188811
+    },
+    "date/20211025": {
+      "TP": 141,
+      "FP": 35,
+      "FN": 37,
+      "GT": 178,
+      "P": 0.8011363636363636,
+      "R": 0.7921348314606742
+    },
+    "date/20211025/class/0": {
+      "TP": 34,
+      "FP": 11,
+      "FN": 22,
+      "GT": 56,
+      "P": 0.7555555555555555,
+      "R": 0.6071428571428571
+    },
+    "date/20211025/class/1": {
+      "TP": 107,
+      "FP": 24,
+      "FN": 15,
+      "GT": 122,
+      "P": 0.816793893129771,
+      "R": 0.8770491803278688
+    },
+    "date/20211027": {
+      "TP": 43,
+      "FP": 13,
+      "FN": 9,
+      "GT": 52,
+      "P": 0.7678571428571429,
+      "R": 0.8269230769230769
+    },
+    "date/20211027/class/0": {
+      "TP": 24,
+      "FP": 4,
+      "FN": 7,
+      "GT": 31,
+      "P": 0.8571428571428571,
+      "R": 0.7741935483870968
+    },
+    "date/20211027/class/1": {
+      "TP": 19,
+      "FP": 9,
+      "FN": 2,
+      "GT": 21,
+      "P": 0.6785714285714286,
+      "R": 0.9047619047619048
+    },
+    "total": {
+      "TP": 184,
+      "FP": 48,
+      "FN": 46,
+      "GT": 230,
+      "P": 0.7931034482758621,
+      "R": 0.8
+    }
+  },
+  "replay": {
+    "TP": 188,
+    "FP": 46,
+    "FN": 42,
+    "P": 0.8034188034188035,
+    "R": 0.8173913043478261
+  },
+  "crop_transfer": {
+    "TP": 181,
+    "FP": 54,
+    "FN": 49,
+    "P": 0.7702127659574468,
+    "R": 0.7869565217391304
+  },
+  "replay_gt_transitions": {
+    "transitions": {
+      "0 | retained": 56,
+      "1 | retained": 126,
+      "1 | persistent miss": 12,
+      "0 | persistent miss": 28,
+      "1 | lost": 5,
+      "0 | recovered": 2,
+      "0 | lost": 1
+    },
+    "candidate_miss_diagnostics": {
+      "1 | matched geometry below fixed score": 14,
+      "0 | matched geometry below fixed score": 21,
+      "0 | no nearby same-class proposal at exported score floor": 5,
+      "1 | no nearby same-class proposal at exported score floor": 1,
+      "0 | partial same-class localization (0.20 <= IoU < 0.50)": 3,
+      "1 | partial same-class localization (0.20 <= IoU < 0.50)": 2
+    },
+    "changed_GT": [
+      {
+        "id": "23945063_20211025_155727_650.jpg#0",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "partial same-class localization (0.20 <= IoU < 0.50)"
+      },
+      {
+        "id": "23945063_20211025_203345_159.jpg#1",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945065_20211025_202455_139.jpg#0",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945065_20211025_203345_160.jpg#1",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945065_20211025_181018_151.jpg#3",
+        "cls": 0,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945065_20211025_181203_150.jpg#0",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945065_20211025_181203_150.jpg#5",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945065_20211025_214921_229.jpg#0",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      }
+    ]
+  },
+  "transfer_gt_transitions": {
+    "transitions": {
+      "0 | retained": 50,
+      "1 | retained": 124,
+      "1 | persistent miss": 12,
+      "1 | lost": 5,
+      "0 | persistent miss": 27,
+      "1 | recovered": 2,
+      "0 | recovered": 8,
+      "0 | lost": 2
+    },
+    "candidate_miss_diagnostics": {
+      "1 | matched geometry below fixed score": 14,
+      "0 | matched geometry below fixed score": 21,
+      "0 | no nearby same-class proposal at exported score floor": 5,
+      "1 | no nearby same-class proposal at exported score floor": 1,
+      "0 | partial same-class localization (0.20 <= IoU < 0.50)": 3,
+      "1 | partial same-class localization (0.20 <= IoU < 0.50)": 2
+    },
+    "changed_GT": [
+      {
+        "id": "23945062_20211025_201627_696.jpg#2",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945062_20211025_223816_636.jpg#5",
+        "cls": 1,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945062_20211027_154503_523.jpg#2",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945063_20211025_153658_222.jpg#2",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945063_20211025_155327_024.jpg#0",
+        "cls": 0,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945063_20211025_181018_155.jpg#3",
+        "cls": 1,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945063_20211025_224325_142.jpg#0",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945063_20211027_154503_527.jpg#2",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945065_20211025_175441_147.jpg#3",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945065_20211025_222546_146.jpg#0",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945065_20211027_153112_024.jpg#1",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945065_20211027_153112_024.jpg#2",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945065_20211027_154503_527.jpg#1",
+        "cls": 0,
+        "transition": "recovered",
+        "previous_reason": "matched geometry below fixed score",
+        "new_reason": null
+      },
+      {
+        "id": "23945065_20211025_181018_151.jpg#3",
+        "cls": 0,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945065_20211025_181203_150.jpg#0",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945065_20211025_181203_150.jpg#5",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      },
+      {
+        "id": "23945065_20211025_214921_229.jpg#0",
+        "cls": 1,
+        "transition": "lost",
+        "previous_reason": null,
+        "new_reason": "matched geometry below fixed score"
+      }
+    ]
+  },
+  "false_positives": {
+    "0 | no overlapping same-class reference (IoU >= 0.20)": 6,
+    "1 | no overlapping same-class reference (IoU >= 0.20)": 29,
+    "0 | overlaps reference of the other class": 3,
+    "0 | duplicate same-class detection": 1,
+    "0 | partial localization of same-class reference": 5,
+    "1 | partial localization of same-class reference": 1,
+    "1 | overlaps reference of the other class": 3
+  },
+  "accepted_updates": 194,
+  "total_updates": 400,
+  "speed": {
+    "n": 600,
+    "mean_ms": 29.615328166546533,
+    "p50_ms": 29.029399986029603,
+    "p95_ms": 34.379545008414425,
+    "serial_fps": 33.76629812698141
+  },
+  "weight_sha256": "fe7f72f2c247014499ae0ed9f7a64be7a305f93c3b72f6d6963dc890fc1222fa"
+}
