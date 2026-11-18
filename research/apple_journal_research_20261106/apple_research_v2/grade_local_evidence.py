@@ -33,6 +33,15 @@ class LocalEvidenceGrade(nn.Module):
 
 
 def architecture_model(name):
+    if name == "mobilenet_v3_small_native320_patch_v1":
+        from grade_detail_patch import NativePatchGrade
+        return NativePatchGrade()
+    if name == "mobilenet_v3_small_confirmed_mark_contrast_v1":
+        from grade_mark_contrast import MarkContrastGrade
+        return MarkContrastGrade()
+    if name == "mobilenet_v3_small_supervised_surface_v1":
+        from grade_spatial_repair import SpatialRepairGrade
+        return SpatialRepairGrade()
     if name == "mobilenet_v3_small_local_evidence_v1":
         return LocalEvidenceGrade()
     if name in (None, "MobileNet V3 Small", "MobileNetV3-Small"):

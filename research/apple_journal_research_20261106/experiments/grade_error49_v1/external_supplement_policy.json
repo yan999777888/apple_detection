@@ -1,0 +1,6 @@
+{
+  "selection_access": "Neither the 15 retail fruit faces nor the seven decayed fruit targets may be run through a classifier before freezing the single development-selected challenger.",
+  "units": "Report 15 visible-normal crops in four variety groups, seven obvious visible-decay single-target crops from seven photographers, and the one reserved Penn minor from the separate date. No pooling across sources or estimation of prevalence.",
+  "rule": "Evaluate the same fixed three-grade decision and unchanged photo preprocessing on the previous Woo reference and frozen challenger. Report original-to-new counts and names for any severe-to-good errors, including errors already present with Woo. Counts cannot certify a zero population risk.",
+  "source_receipts": ["datasets/grocery_normal_review_v1/manifest.json","datasets/commons_rot_stress_v1/manifest.json","datasets/grade_guard_sources_v2/manifest.json"]
+}

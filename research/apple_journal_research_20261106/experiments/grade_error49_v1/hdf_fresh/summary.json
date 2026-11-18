@@ -1,0 +1,183 @@
+{
+  "groups": {
+    "H": {
+      "n": 36,
+      "original_counts": {
+        "1": 8,
+        "0": 26,
+        "2": 2
+      },
+      "sizes": {
+        "256x256": 36
+      },
+      "probe_windows": {
+        "identity": [
+          0,
+          0,
+          36
+        ],
+        "neutral_background": [
+          19,
+          3,
+          14
+        ],
+        "border_context": [
+          22,
+          0,
+          14
+        ],
+        "mild_blur": [
+          27,
+          0,
+          9
+        ],
+        "boundary_blur": [
+          23,
+          0,
+          13
+        ],
+        "interior_blur": [
+          6,
+          0,
+          30
+        ],
+        "lift_fruit_luminance": [
+          16,
+          0,
+          20
+        ],
+        "reduce_fruit_chroma": [
+          0,
+          0,
+          36
+        ],
+        "horizontal_mirror": [
+          2,
+          4,
+          30
+        ]
+      }
+    },
+    "C": {
+      "n": 28,
+      "original_counts": {
+        "0": 23,
+        "1": 5
+      },
+      "sizes": {
+        "256x256": 28
+      },
+      "probe_windows": {
+        "identity": [
+          28,
+          0,
+          0
+        ],
+        "neutral_background": [
+          28,
+          0,
+          0
+        ],
+        "border_context": [
+          27,
+          0,
+          1
+        ],
+        "mild_blur": [
+          28,
+          0,
+          0
+        ],
+        "boundary_blur": [
+          28,
+          0,
+          0
+        ],
+        "interior_blur": [
+          25,
+          0,
+          3
+        ],
+        "lift_fruit_luminance": [
+          27,
+          1,
+          0
+        ],
+        "reduce_fruit_chroma": [
+          11,
+          5,
+          12
+        ],
+        "horizontal_mirror": [
+          24,
+          0,
+          4
+        ]
+      }
+    },
+    "M": {
+      "n": 5,
+      "original_counts": {
+        "1": 2,
+        "0": 3
+      },
+      "sizes": {
+        "256x256": 5
+      },
+      "probe_windows": {
+        "identity": [
+          0,
+          5,
+          0
+        ],
+        "neutral_background": [
+          0,
+          5,
+          0
+        ],
+        "border_context": [
+          4,
+          0,
+          1
+        ],
+        "mild_blur": [
+          5,
+          0,
+          0
+        ],
+        "boundary_blur": [
+          5,
+          0,
+          0
+        ],
+        "interior_blur": [
+          0,
+          3,
+          2
+        ],
+        "lift_fruit_luminance": [
+          0,
+          5,
+          0
+        ],
+        "reduce_fruit_chroma": [
+          0,
+          2,
+          3
+        ],
+        "horizontal_mirror": [
+          0,
+          5,
+          0
+        ]
+      }
+    }
+  },
+  "label_scope": "HDF source fresh, not a per-fruit market grade",
+  "input_manifest_sha256": "f43ea51259503a77ee42868408a89cc301c6e435cd0cb2f4cd105a22eef80268",
+  "models": {
+    "original": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+    "candidate": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c"
+  },
+  "experiments": "CPU FP32. Edits performed independently on original RGB, no parameters, GT or split learned or changed."
+}

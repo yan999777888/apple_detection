@@ -1,0 +1,16 @@
+{
+  "architecture": "mobilenet_v3_small_native320_patch_v1",
+  "parent_sha256": "08d67743ff7a7eb766caeffbe22aa7f47ef2a4cccdeac8c405e63d9b09f95835",
+  "marks": "cb6ad4a48eb2023dddfffbcb426c3d84bc64913fb9599757e85cb89382f4206b",
+  "woo": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "seed": 762094,
+  "steps": 240,
+  "checkpoint_every": 40,
+  "source": "AF44 train-only original shallow/hard-normal boxes on the full photo and original detector crop, plus Woo train-only scratch polygons and screened clean crops. No other photos in training.",
+  "negatives": "Exact calyx/highlight/shadow boxes; known neutral exterior of damaged fruit; clean author/screened faces with contact band sampled on both sides. Positive marks override, unknown skin receives no local negative labels.",
+  "parent_input": "independently resize real fruit to 224 for the frozen parent and 320 for the local verifier; only parent good may become mild",
+  "optimization": "fixed AdamW 0.001, 240 updates, 6 AF positives + 6 Woo positives + 7 normal-structure views + 8 clean fruits; local and global losses with damage evidence attenuated by fixed 0.2 of parent good-minus-mild logit margin",
+  "select": "Fixed dev comparison versus border using the same 3-panel safety, mild and lexicographic checks as overall selection; first checkpoint wins exact ties.",
+  "script": "8ff2bbc3e6249e59310700d35897931008c1cddcdbf72cfdd349dbca051aceeb",
+  "network": "c3229cc6ad6a65d1f245e6dfc9d405635075a429a02051283fb7bb75da75fcea"
+}

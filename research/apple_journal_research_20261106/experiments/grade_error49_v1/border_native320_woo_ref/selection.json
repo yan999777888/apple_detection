@@ -1,0 +1,115 @@
+{
+  "architecture": "mobilenet_v3_small_native320_patch_v1",
+  "threshold": 1.0,
+  "input_side": 320,
+  "step": 120,
+  "passed": true,
+  "weights_sha256": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "parent_sha256": "08d67743ff7a7eb766caeffbe22aa7f47ef2a4cccdeac8c405e63d9b09f95835",
+  "protocol_sha256": "ff5000f24da61fff091e5e387ff33c8bbed12ea57df50a81cfaba6b9a1f5bd70",
+  "metrics": {
+    "auto": {
+      "n": 57,
+      "confusion": [
+        [
+          20,
+          1,
+          0,
+          4
+        ],
+        [
+          6,
+          5,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "recall": [
+        0.8,
+        0.3333333333333333,
+        1.0
+      ],
+      "good": 20,
+      "mild": 5,
+      "severe": 17,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 42
+    },
+    "whole": {
+      "n": 57,
+      "confusion": [
+        [
+          23,
+          2,
+          0,
+          0
+        ],
+        [
+          7,
+          6,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "recall": [
+        0.92,
+        0.4,
+        1.0
+      ],
+      "good": 23,
+      "mild": 6,
+      "severe": 17,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 46
+    },
+    "guard": {
+      "n": 1,
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "recall": [
+        null,
+        1.0,
+        null
+      ],
+      "good": 0,
+      "mild": 1,
+      "severe": 0,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 1
+    }
+  },
+  "source_history_sha256": "5cf2e7e055199a058b24643869ae5df3448aa3720b13f13575d85b2e20520d45"
+}

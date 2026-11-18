@@ -1,0 +1,15 @@
+{
+  "start": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "support": "cbb15662fa4067f3a2f2a0d6e9bb514daf07c74d3c564ce94f2da31006631477",
+  "af": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "woo": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "code": "fa8f3096b817bdb71e19b6273134e1b0aaff68ccdb32f8a6ec3887380c627a72",
+  "seed": 18112617,
+  "epochs": 14,
+  "steps": 18,
+  "arm": "grounded: fixed original Woo-selected MobileNet 224 state_dict, fixed training/validation. Border arm adds paired geometry-preserving narrow mobile-band blur consistency once per update from same pictures; no inference changes. Original arm uses unmodified picture pair only.",
+  "strategy": "Accumulate AF canonical ordered CE with original severity and conditional good/minor margins (paired teacher raw, no threshold change); paired Woo supervision; same real three-grade support per step plus grade-extreme cost. Pretrained stages 0:8 and BN stats frozen. Source groups balanced. Borders audited only with frozen rules on all available grades. Training AF only; AF development 57, independently grouped aux validation. Historical HDF and all final photo sets excluded.",
+  "gate": "Improve development AF minor above 3, good >=20, severe>=16 and none to good (also whole view); no new external good losses or extreme errors compared to starting Woo. Prioritize all gates, then safety, minor count, external good, good and severe. No unseen-final data.",
+  "output": "Unmodified MobileNetV3-Small 224, three logits, argmax.",
+  "epochs_selected_by": "development only"
+}

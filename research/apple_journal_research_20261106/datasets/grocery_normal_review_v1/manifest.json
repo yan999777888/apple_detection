@@ -1,0 +1,338 @@
+{
+  "samples": [
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g00.png",
+      "sha256": "97b4e1a60c0fb40c9d20ad8a801a4919ab596011f13ea693b6179d445a74494e",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "val",
+      "source_member": "val/Fruit/Apple/Golden-Delicious/Golden-Delicious_001.jpg",
+      "source_sha256": "4b582a863acd22207e2e5641e42e4b8bb049269a122be806e71888d334d348d5",
+      "original_path": "datasets/grocery_normal_review_v1/originals/val/Fruit/Apple/Golden-Delicious/Golden-Delicious_001.jpg",
+      "crop_xyxy": [
+        126,
+        151,
+        250,
+        282
+      ],
+      "variety": "Golden-Delicious",
+      "group_id": "GroceryStoreDataset_Golden-Delicious",
+      "condition_id": "GroceryStoreDataset_val_Golden-Delicious",
+      "reference_minimum_RGB_MAE_32_D4": 35.945
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g04.png",
+      "sha256": "48dffaa6da058bbb653e46bf536da7071272390045f510a7d05b060e977e31a7",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "val",
+      "source_member": "val/Fruit/Apple/Granny-Smith/Granny-Smith_003.jpg",
+      "source_sha256": "caff798aabef2d822d2cfc1a2debc9511c77b1d66e2415a94ceab59817cf33f0",
+      "original_path": "datasets/grocery_normal_review_v1/originals/val/Fruit/Apple/Granny-Smith/Granny-Smith_003.jpg",
+      "crop_xyxy": [
+        89,
+        61,
+        298,
+        276
+      ],
+      "variety": "Granny-Smith",
+      "group_id": "GroceryStoreDataset_Granny-Smith",
+      "condition_id": "GroceryStoreDataset_val_Granny-Smith",
+      "reference_minimum_RGB_MAE_32_D4": 39.515
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g05.png",
+      "sha256": "6b508be61dd05377c8d7e6a2f3cfe546aa72e38ca2af4357ac5e21448661f43a",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "val",
+      "source_member": "val/Fruit/Apple/Granny-Smith/Granny-Smith_006.jpg",
+      "source_sha256": "a89d1dc18baef1c48fa07816adf8fb36ceae0529f94ecca6aebc77b87009a505",
+      "original_path": "datasets/grocery_normal_review_v1/originals/val/Fruit/Apple/Granny-Smith/Granny-Smith_006.jpg",
+      "crop_xyxy": [
+        101,
+        197,
+        202,
+        292
+      ],
+      "variety": "Granny-Smith",
+      "group_id": "GroceryStoreDataset_Granny-Smith",
+      "condition_id": "GroceryStoreDataset_val_Granny-Smith",
+      "reference_minimum_RGB_MAE_32_D4": 40.986
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g14.png",
+      "sha256": "43bc3ad22f551c9c5922c0d2c5382456d06464e3094daf01411792ffc9299f23",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "test",
+      "source_member": "test/Fruit/Apple/Golden-Delicious/Golden-Delicious_015.jpg",
+      "source_sha256": "81ad1737629c5e8c77814714b0e72abcf0c3e36717e63f8381c828a1e69302ad",
+      "original_path": "datasets/grocery_normal_review_v1/originals/test/Fruit/Apple/Golden-Delicious/Golden-Delicious_015.jpg",
+      "crop_xyxy": [
+        85,
+        272,
+        163,
+        361
+      ],
+      "variety": "Golden-Delicious",
+      "group_id": "GroceryStoreDataset_Golden-Delicious",
+      "condition_id": "GroceryStoreDataset_test_Golden-Delicious",
+      "reference_minimum_RGB_MAE_32_D4": 34.739
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g17.png",
+      "sha256": "625e76e9bc8dae2a1e21bf6a9496c1693c1e3c3f5c22636abe4f7c4fd5e08164",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "test",
+      "source_member": "test/Fruit/Apple/Golden-Delicious/Golden-Delicious_037.jpg",
+      "source_sha256": "e2adc04af1203a8108cd8e14b7e9798f7370d24fc1aca0d59a7068560f3b259f",
+      "original_path": "datasets/grocery_normal_review_v1/originals/test/Fruit/Apple/Golden-Delicious/Golden-Delicious_037.jpg",
+      "crop_xyxy": [
+        109,
+        210,
+        188,
+        296
+      ],
+      "variety": "Golden-Delicious",
+      "group_id": "GroceryStoreDataset_Golden-Delicious",
+      "condition_id": "GroceryStoreDataset_test_Golden-Delicious",
+      "reference_minimum_RGB_MAE_32_D4": 38.352
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g18.png",
+      "sha256": "3d2a01ecc7b038a42cea645aa1318373ede6403edec1b94d5b6d8be367a993ce",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "test",
+      "source_member": "test/Fruit/Apple/Golden-Delicious/Golden-Delicious_045.jpg",
+      "source_sha256": "7a27a94ecbd038bf128e1c86202e71967656467d06662307b089424182ec7348",
+      "original_path": "datasets/grocery_normal_review_v1/originals/test/Fruit/Apple/Golden-Delicious/Golden-Delicious_045.jpg",
+      "crop_xyxy": [
+        138,
+        131,
+        281,
+        278
+      ],
+      "variety": "Golden-Delicious",
+      "group_id": "GroceryStoreDataset_Golden-Delicious",
+      "condition_id": "GroceryStoreDataset_test_Golden-Delicious",
+      "reference_minimum_RGB_MAE_32_D4": 34.851
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g30.png",
+      "sha256": "5b0db3b6da69103cd824b46dc15d59e71e0720e480a3c74c659d354f652ae8ac",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "test",
+      "source_member": "test/Fruit/Apple/Pink-Lady/Pink-Lady_039.jpg",
+      "source_sha256": "486529d707a355a8db820af4240f02199fa5c40e7af0b836b3f69bb956143b67",
+      "original_path": "datasets/grocery_normal_review_v1/originals/test/Fruit/Apple/Pink-Lady/Pink-Lady_039.jpg",
+      "crop_xyxy": [
+        88,
+        217,
+        219,
+        342
+      ],
+      "variety": "Pink-Lady",
+      "group_id": "GroceryStoreDataset_Pink-Lady",
+      "condition_id": "GroceryStoreDataset_test_Pink-Lady",
+      "reference_minimum_RGB_MAE_32_D4": 40.656
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g31.png",
+      "sha256": "4d9e10ff79e33f19580e6ea4876c4408f564061b142e5b054d534ac33fc08bbe",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "test",
+      "source_member": "test/Fruit/Apple/Pink-Lady/Pink-Lady_049.jpg",
+      "source_sha256": "f1c2dcca1480964fbe1f409c28c2968b64e57e0e01b939d812aab636ce8b4ec7",
+      "original_path": "datasets/grocery_normal_review_v1/originals/test/Fruit/Apple/Pink-Lady/Pink-Lady_049.jpg",
+      "crop_xyxy": [
+        27,
+        80,
+        155,
+        207
+      ],
+      "variety": "Pink-Lady",
+      "group_id": "GroceryStoreDataset_Pink-Lady",
+      "condition_id": "GroceryStoreDataset_test_Pink-Lady",
+      "reference_minimum_RGB_MAE_32_D4": 39.84
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g39.png",
+      "sha256": "14ecb305f8af0ea4df4ccf4a83f02dfd1e515c3729701550d5982e3a7efb0c9e",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "test",
+      "source_member": "test/Fruit/Apple/Red-Delicious/Red-Delicious_050.jpg",
+      "source_sha256": "33eec467a14e9b0300cc3611dc936c46b0838c84cb5237031a8cc6472d60f3a9",
+      "original_path": "datasets/grocery_normal_review_v1/originals/test/Fruit/Apple/Red-Delicious/Red-Delicious_050.jpg",
+      "crop_xyxy": [
+        67,
+        54,
+        189,
+        174
+      ],
+      "variety": "Red-Delicious",
+      "group_id": "GroceryStoreDataset_Red-Delicious",
+      "condition_id": "GroceryStoreDataset_test_Red-Delicious",
+      "reference_minimum_RGB_MAE_32_D4": 45.589
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g47.png",
+      "sha256": "6bdfcde685157494a00ad82ceaea3cc2f388c98e73ef4de108c92eeef92a1dcb",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "train",
+      "source_member": "train/Fruit/Apple/Golden-Delicious/Golden-Delicious_001.jpg",
+      "source_sha256": "2cbb7b803c062343da1b8a85d1313ddb301985f513ea44e87cca57fa710854a1",
+      "original_path": "datasets/grocery_normal_review_v1/originals/train/Fruit/Apple/Golden-Delicious/Golden-Delicious_001.jpg",
+      "crop_xyxy": [
+        64,
+        95,
+        269,
+        309
+      ],
+      "variety": "Golden-Delicious",
+      "group_id": "GroceryStoreDataset_Golden-Delicious",
+      "condition_id": "GroceryStoreDataset_train_Golden-Delicious",
+      "reference_minimum_RGB_MAE_32_D4": 34.073
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g49.png",
+      "sha256": "a04c85137393322c99bee0242889d98d95dc6ea9cf5f2b59ffe714884c835a52",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "train",
+      "source_member": "train/Fruit/Apple/Golden-Delicious/Golden-Delicious_023.jpg",
+      "source_sha256": "7e7c6294513a97a8d6df3494a41350b871c841bda5214df835aa619bd017cc5c",
+      "original_path": "datasets/grocery_normal_review_v1/originals/train/Fruit/Apple/Golden-Delicious/Golden-Delicious_023.jpg",
+      "crop_xyxy": [
+        115,
+        111,
+        294,
+        300
+      ],
+      "variety": "Golden-Delicious",
+      "group_id": "GroceryStoreDataset_Golden-Delicious",
+      "condition_id": "GroceryStoreDataset_train_Golden-Delicious",
+      "reference_minimum_RGB_MAE_32_D4": 34.714
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g53.png",
+      "sha256": "7a140bcb847dc74e5fc95f44283086b31495efff810b9031fc69b8c8a9d70258",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "train",
+      "source_member": "train/Fruit/Apple/Granny-Smith/Granny-Smith_015.jpg",
+      "source_sha256": "a6ad8705a9d8246d5788972b5259d8b9060af80b97d002c97fe6820d0532a416",
+      "original_path": "datasets/grocery_normal_review_v1/originals/train/Fruit/Apple/Granny-Smith/Granny-Smith_015.jpg",
+      "crop_xyxy": [
+        83,
+        109,
+        277,
+        310
+      ],
+      "variety": "Granny-Smith",
+      "group_id": "GroceryStoreDataset_Granny-Smith",
+      "condition_id": "GroceryStoreDataset_train_Granny-Smith",
+      "reference_minimum_RGB_MAE_32_D4": 33.491
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g56.png",
+      "sha256": "5b07fdb59b18c229be5e75223eb35975dbbdf61bf31dddaf8af217d307006266",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "train",
+      "source_member": "train/Fruit/Apple/Granny-Smith/Granny-Smith_059.jpg",
+      "source_sha256": "9c0c7d71e3d31d9f15d17d389464f9a517038db7b540f57065f38a20eedd927a",
+      "original_path": "datasets/grocery_normal_review_v1/originals/train/Fruit/Apple/Granny-Smith/Granny-Smith_059.jpg",
+      "crop_xyxy": [
+        140,
+        132,
+        305,
+        307
+      ],
+      "variety": "Granny-Smith",
+      "group_id": "GroceryStoreDataset_Granny-Smith",
+      "condition_id": "GroceryStoreDataset_train_Granny-Smith",
+      "reference_minimum_RGB_MAE_32_D4": 32.64
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g61.png",
+      "sha256": "965341263b7b51d1ecbf67cc9cca0307420d1c7f0081f8641a0f6d0834f953a3",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "train",
+      "source_member": "train/Fruit/Apple/Pink-Lady/Pink-Lady_059.jpg",
+      "source_sha256": "cd67c6d282a929bb2c4eb52cd34e69472a91addcd7adb0146fc9407cdd9794df",
+      "original_path": "datasets/grocery_normal_review_v1/originals/train/Fruit/Apple/Pink-Lady/Pink-Lady_059.jpg",
+      "crop_xyxy": [
+        109,
+        121,
+        286,
+        298
+      ],
+      "variety": "Pink-Lady",
+      "group_id": "GroceryStoreDataset_Pink-Lady",
+      "condition_id": "GroceryStoreDataset_train_Pink-Lady",
+      "reference_minimum_RGB_MAE_32_D4": 32.109
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/crops/g62.png",
+      "sha256": "09735ea283bc45d4ab674e2139b8cc60009b824c80662c2627e34c971f7b77e6",
+      "grade": 0,
+      "split": "test",
+      "source": "GroceryStoreDataset_visible_fruit_normal_proxy",
+      "source_split": "train",
+      "source_member": "train/Fruit/Apple/Red-Delicious/Red-Delicious_001.jpg",
+      "source_sha256": "9599baaac5e96c7229c5d8bcfe7671410fccabf6a03d26671979d40c0b3f1a82",
+      "original_path": "datasets/grocery_normal_review_v1/originals/train/Fruit/Apple/Red-Delicious/Red-Delicious_001.jpg",
+      "crop_xyxy": [
+        91,
+        100,
+        271,
+        302
+      ],
+      "variety": "Red-Delicious",
+      "group_id": "GroceryStoreDataset_Red-Delicious",
+      "condition_id": "GroceryStoreDataset_train_Red-Delicious",
+      "reference_minimum_RGB_MAE_32_D4": 35.336
+    }
+  ],
+  "license": "MIT (repository). Author README explicitly permits application to models.",
+  "root_url": "https://github.com/marcusklasson/GroceryStoreDataset",
+  "source_provenance": "Author smartphone photographs of retail fruit. The training, val, and test source designations are preserved. All selected photographs are external-test-only for this quality study.",
+  "grade_basis": "Image review for a visibly intact target face, no author cosmetic grade or expert assessment. Only this visible face was examined. Differing views or nearby photographs may share physical fruits; source group identifiers are coarse variety groups.",
+  "excluded": "Downloaded iconic images, ambiguous damage, heavily blurred targets, largely occluded targets. Neighboring fruit can be present near a crop boundary.",
+  "source_splits": {
+    "val": 3,
+    "test": 6,
+    "train": 6
+  },
+  "reference_images_screened": 3233,
+  "overlap_rule": "Original and crop SHA-256 and crop RGB mean absolute differences at 32x32 over D4 orientation transforms vs reachable quality manifests and entire HDF fresh. Views of unrecorded same fruits can still evade image screening.",
+  "counts": {
+    "test": {
+      "0": 15,
+      "1": 0,
+      "2": 0
+    }
+  }
+}

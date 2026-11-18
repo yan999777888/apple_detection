@@ -11,6 +11,9 @@ from grade_local_evidence import architecture_model
 
 
 def tensor_at_size(frames, device, side):
+    from grade_detail_patch import DetailSide,pack,square
+    if isinstance(side,DetailSide):
+        return pack([original.rgb_square(im) for im in frames],[square(im,320) for im in frames],device)
     if side == original.SIDE:
         return original.batch_preprocess(frames, device)
     squares=[]
@@ -37,6 +40,11 @@ def load(directory, device):
     side=int(metadata.get("input_side",224))
     if side not in (224,320):
         raise ValueError("Unknown grade input size")
+    if metadata.get("architecture") == "mobilenet_v3_small_native320_patch_v1":
+        from grade_detail_patch import DetailSide
+        if side!=320:
+            raise ValueError("Native local verifier requires dual 320/224 input")
+        side=DetailSide(320)
     model=architecture_model(metadata.get("architecture"))
     model.load_state_dict(torch.load(folder/"weights.pt",map_location="cpu",weights_only=True),strict=True)
     return model.to(device).eval().requires_grad_(False),float(metadata["threshold"]),side

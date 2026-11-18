@@ -1,0 +1,167 @@
+{
+  "checkpoint_sha256": {
+    "original": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+    "crop_aligned": "f2e4a0ba8963f4c7c214331f42c416602d50423b69eab3a2a3ea086642c50543",
+    "replay": "d14c85846c96d79c3585f8035380cbb6e35d09d2ab8afb9faaa14c33a099aba3",
+    "woo": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c"
+  },
+  "reproduced": {
+    "hdf": {
+      "n": 269,
+      "matched_candidate": 269,
+      "matched_original": 269
+    },
+    "af": {
+      "n": 162,
+      "matched_candidate": 162,
+      "matched_original": 162
+    }
+  },
+  "counts": {
+    "hdf_all_fresh": {
+      "original": [
+        52,
+        15,
+        2
+      ],
+      "crop_aligned": [
+        31,
+        25,
+        13
+      ],
+      "replay": [
+        16,
+        7,
+        46
+      ],
+      "woo": [
+        28,
+        5,
+        36
+      ],
+      "woo_bn_from_replay": [
+        28,
+        5,
+        36
+      ],
+      "woo_bn_from_crop_aligned": [
+        28,
+        5,
+        36
+      ],
+      "woo_gray_edge": [
+        38,
+        14,
+        17
+      ]
+    },
+    "hdf_36": {
+      "original": [
+        26,
+        8,
+        2
+      ],
+      "crop_aligned": [
+        11,
+        15,
+        10
+      ],
+      "replay": [
+        1,
+        2,
+        33
+      ],
+      "woo": [
+        0,
+        0,
+        36
+      ],
+      "woo_bn_from_replay": [
+        0,
+        0,
+        36
+      ],
+      "woo_bn_from_crop_aligned": [
+        0,
+        0,
+        36
+      ],
+      "woo_gray_edge": [
+        12,
+        7,
+        17
+      ]
+    },
+    "af_resolved_mild": {
+      "original": [
+        25,
+        2,
+        0
+      ],
+      "crop_aligned": [
+        26,
+        1,
+        0
+      ],
+      "replay": [
+        24,
+        3,
+        0
+      ],
+      "woo": [
+        13,
+        14,
+        0
+      ],
+      "woo_bn_from_replay": [
+        13,
+        14,
+        0
+      ],
+      "woo_bn_from_crop_aligned": [
+        13,
+        14,
+        0
+      ]
+    },
+    "af_13": {
+      "original": [
+        13,
+        0,
+        0
+      ],
+      "crop_aligned": [
+        13,
+        0,
+        0
+      ],
+      "replay": [
+        13,
+        0,
+        0
+      ],
+      "woo": [
+        13,
+        0,
+        0
+      ],
+      "woo_bn_from_replay": [
+        13,
+        0,
+        0
+      ],
+      "woo_bn_from_crop_aligned": [
+        13,
+        0,
+        0
+      ]
+    }
+  },
+  "scope": "Diagnostic counterfactuals, no parameter optimization. Synthetic gray edges illustrate sensitivity, and do not establish the origin of an individual mistake.",
+  "batch_norm_buffer_differences_vs_woo": {
+    "original": 68,
+    "crop_aligned": 0,
+    "replay": 0,
+    "woo": 0
+  }
+}

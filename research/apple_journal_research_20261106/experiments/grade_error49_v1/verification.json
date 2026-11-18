@@ -1,0 +1,26 @@
+{
+  "gates": {
+    "af_mild_increase": true,
+    "af_good_retention": false,
+    "af_severe_no_good": true,
+    "af_severe_correct_retention": true,
+    "HDF_fresh_reduced_extreme": true,
+    "HDF_fresh_good_retention": true,
+    "HDF_rot_to_good_not_increased": false
+  },
+  "satisfies_all": false,
+  "old_default_sha256": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+  "previous_woo_sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "compared_sha256": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "model_path": "experiments/grade_error49_v1/border_native320_woo_ref/weights.pt",
+  "published_as_deployment_default": false,
+  "new_market_good_retention": [
+    6,
+    3
+  ],
+  "new_severe_to_good": [
+    1,
+    0
+  ],
+  "reviewed_old_errors": 49
+}

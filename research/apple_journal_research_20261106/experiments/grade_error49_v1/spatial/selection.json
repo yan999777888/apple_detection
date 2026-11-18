@@ -1,0 +1,135 @@
+{
+  "architecture": "mobilenet_v3_small_supervised_surface_v1",
+  "input_side": 224,
+  "threshold": 1.0,
+  "weights_sha256": "96038a225e1b1502db947ad3067c3c1ae1166f121cbd5c7568e999ed37fec2a0",
+  "step": 20,
+  "passed": true,
+  "metrics": {
+    "auto": [
+      [
+        20,
+        1,
+        0,
+        4
+      ],
+      [
+        8,
+        3,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        17,
+        0
+      ]
+    ],
+    "whole": [
+      [
+        23,
+        2,
+        0,
+        0
+      ],
+      [
+        8,
+        5,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        16,
+        0
+      ]
+    ],
+    "guard": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "parent_validation": {
+    "auto": [
+      [
+        20,
+        1,
+        0,
+        4
+      ],
+      [
+        9,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        17,
+        0
+      ]
+    ],
+    "whole": [
+      [
+        24,
+        1,
+        0,
+        0
+      ],
+      [
+        10,
+        3,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        16,
+        0
+      ]
+    ],
+    "guard": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "original_annotations": 44,
+  "positive_supervision_views": 33,
+  "protocol_sha256": "4e9f79be2ec0015a2a2c5bcf9e5a2c047efdd77de75069ab1f1b904d324f6cf0"
+}

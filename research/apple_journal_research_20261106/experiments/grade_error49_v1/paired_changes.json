@@ -1,0 +1,448 @@
+{
+  "model_sha256": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "order": [
+    "good",
+    "minor",
+    "severe",
+    "unresolved"
+  ],
+  "summary": {
+    "previous_13_mild_as_good": [
+      9,
+      4,
+      0,
+      0
+    ],
+    "previous_36_fresh_as_severe": [
+      6,
+      3,
+      27,
+      0
+    ],
+    "previous_correct_39_auto_good": [
+      37,
+      2,
+      0,
+      0
+    ],
+    "previous_correct_14_auto_mild": [
+      2,
+      12,
+      0,
+      0
+    ],
+    "previous_correct_28_hdf_fresh": [
+      28,
+      0,
+      0,
+      0
+    ],
+    "previous_6_auto_severe_predicted_mild": [
+      0,
+      5,
+      1,
+      0
+    ],
+    "af_all_severe": [
+      0,
+      5,
+      4,
+      8
+    ],
+    "hdf_all_source_fresh": [
+      34,
+      6,
+      29,
+      0
+    ],
+    "hdf_all_source_rot": [
+      6,
+      66,
+      128,
+      0
+    ]
+  },
+  "visual_subgroups": {
+    "hdf_yellow_edge": [
+      5,
+      2,
+      14,
+      0
+    ],
+    "hdf_glossy_red": [
+      0,
+      0,
+      13,
+      0
+    ],
+    "hdf_other": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "弱证据或外观边界": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "此面证据不足": [
+      3,
+      0,
+      0,
+      0
+    ],
+    "清楚局部痕迹": [
+      4,
+      2,
+      0,
+      0
+    ]
+  },
+  "errors49": [
+    {
+      "id": "IMG_20230930_212521",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "IMG_20230930_212530",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "IMG_20230930_212548",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "IMG_20230930_212553",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "IMG_20230930_212954",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "id": "IMG_20230930_213105",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "IMG_20230930_213134",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "id": "IMG_20230930_213153",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "id": "IMG_20230930_213206",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "id": "IMG_20230930_213223",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "IMG_20230930_213230",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "IMG_20230930_213239",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "IMG_20230930_213259",
+      "truth": 1,
+      "group": "burst_0033",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "id": "SD_REAL_2228",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:043af71eb4d332edb23ffb0dac31a90fd1678046f492bbffe4dbcc6e9e5ab155",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_2401",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:0648798c5c54298e63fc445ca9b2e452914989bf51d2fdb416e8f7ea792c2d53",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1804",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:07bd2bcbebb5cc1ee265c2754a5a844612c5acb12084da50fbafa9561e1b4cfe",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_2338",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:08acee8343df9bc6c85d9cc38f38cfcdd1ad6c8c8af1bc969708453af5100d65",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_2464",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:112c3fa9083833fce199425bd3ad98ded95013f8b34cf10981d7391580020f6a",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_2333",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:11f2aa301cfc2f082bd909124e2c2a68424545ee2e523fce4027a0d504456dc1",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_2471",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:12e76fe9f0dfe75b8750b84c561094485e4fb491fcd61ecbc11331b817739fa7",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1812",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:13796703f80eadce7cca79a3a6fad94a09d3fe14692513c86fcbccdb9b39d1e0",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "id": "SD_REAL_1792",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:13af101232577500f60ec7bb4d23c1305e7a5f560bb2661214bad6b0ea57ab0d",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_2495",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:1538cc9c3ecf1add52c77e80a9105ddcc906e086c5d91117ba45e07e79395050",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_2350",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:18b68e2acb84fffd12fed3ba32a54225cc4114cf293f70f57b1ab8fcf498987b",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1703",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:1bbaf46948657dae5c21f7247c0de06dabd62cdbca326e2480060f946af68672",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1827",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:1f05179b9920ea9496bde21bae04cc347c4ae39c9bd42e0898e1ba871e66bebf",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "id": "SD_REAL_1810",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:25867c2a9a440358c1173a18cd325f3628883d9d12ed9e69ebacf14666b8481a",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1491",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:285d5ac0a54bf1e81d32a343669b46b6c32be7f56e4864e76d9d40cb58e69e9b",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "id": "SD_REAL_2425",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:288f3951c5fdaf17432a55769bddc63b953aeedaa57f10d8a961cb356a6b7741",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1730",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:2c2414bcc48f89fb65b18f254a3f5125033c83994f08c10a8ecae4285131f987",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1778",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:2ed8918eefd21ae6d85ddf6beb11ddb5deee683f5bcb93fc7f316377251a53ff",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "id": "SD_REAL_1816",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:30248444f8f12face66427f4dd627b1f36cbe71c2b3eedf0f8f618b5904c3d6d",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "id": "SD_REAL_2410",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:3f297844e9fe137417ee6dccd28b140ce414255dd6fdb1379ad402c7923eae59",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1793",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:3ffff005675f894e5a1c1204b3fa57dc283ae9f0d7da4ed21d5351d4b9c3ccec",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1722",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:478a9b29e3c064f8ab5c2264a4df3fa9d7464aa73627fdc3157e76e355447378",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1600",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:4a0b5b10c3872f693d7ffe8ae0990cf6e0957a25e6c049258906abc5bc06308b",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1771",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:4febdb13b6ebe4a46d07e143c28030a53268910669606d90bd6dfa2e1e6e6f4b",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_2218",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:52505e59ee49c55cd52bf94801920d96dd5b6dce16bd0a9fb5db49e8214231aa",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1584",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:55cafa75e5c3fad1a981f58af665a77c72a1f559fc26bde0e9cd3f91fdf10112",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1590",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:5800c7fa96d325e8b7e3ee341e8f2ee38a6827903dcdbe8e60ac1d168a1af53a",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1626",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:6294a99738bf5570b9d03d0f7c9d6d04cfb2e4228a3222f2a67d7d1e6252273b",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "id": "SD_REAL_2343",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:6a5a45a7996c31288d65baa685c2a77cbcc3692806aaece73bde947883c1b091",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1576",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:7dfbdcb6fa11bfa39cf581d30e5bdfbff50f399c5d5622f7fd4c016313bba59a",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_0334",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:80a70d14e787d923e19c29f9a83eb17b2ca1b2bd39798f4e501c5729981f08ab",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "id": "SD_REAL_1715",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:8191fb6850f05843a743159c6c008a258384ad221938aa2fa3f6c436526a6458",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1617",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:849f50322da5c665ff1a4912bf853f2694800520943a3ffc26cebe7f0f6041c3",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "id": "SD_REAL_1711",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:af6add17bda1ead74680a1cbb353d6e7db7b91753264836f3262295ed5e8c909",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "id": "SD_REAL_1780",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:c8cd1e85ad6ea232ee21fbdd71de41479710284cd71c68e85c5fa46994084b27",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "id": "SD_REAL_2403",
+      "truth": "fresh",
+      "group": "hdf_strong_proxy:ed60402eb22ea32a7e8aff5cc7ae1d7e0f7c3d3dbb183bec728b8334913db44b",
+      "before": 2,
+      "after": 2
+    }
+  ]
+}

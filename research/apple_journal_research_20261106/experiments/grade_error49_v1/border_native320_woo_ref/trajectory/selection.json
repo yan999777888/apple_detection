@@ -1,0 +1,114 @@
+{
+  "architecture": "mobilenet_v3_small_native320_patch_v1",
+  "input_side": 320,
+  "threshold": 1.0,
+  "step": 40,
+  "weights_sha256": "b78ec0c2edfa79bc2cf057457cd4dcfe79e6526f599f63cd5543dbc58f44aa70",
+  "parent_sha256": "08d67743ff7a7eb766caeffbe22aa7f47ef2a4cccdeac8c405e63d9b09f95835",
+  "passed": false,
+  "protocol_sha256": "11e9dd767116e05dac7ed5ee679f486fda99799ac989276b421d14ce420edc64",
+  "metrics": {
+    "auto": {
+      "n": 57,
+      "confusion": [
+        [
+          21,
+          0,
+          0,
+          4
+        ],
+        [
+          10,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "recall": [
+        0.84,
+        0.06666666666666667,
+        1.0
+      ],
+      "good": 21,
+      "mild": 1,
+      "severe": 17,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 39
+    },
+    "whole": {
+      "n": 57,
+      "confusion": [
+        [
+          24,
+          1,
+          0,
+          0
+        ],
+        [
+          11,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "recall": [
+        0.96,
+        0.13333333333333333,
+        1.0
+      ],
+      "good": 24,
+      "mild": 2,
+      "severe": 17,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 43
+    },
+    "guard": {
+      "n": 1,
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "recall": [
+        null,
+        1.0,
+        null
+      ],
+      "good": 0,
+      "mild": 1,
+      "severe": 0,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 1
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T13:44:09.380493+00:00",
+  "snapshot_updated_utc": "2026-11-18T14:24:19.917852+00:00",
   "files": [
     {
       "path": "README.md",
@@ -118,9 +118,14 @@
       "bytes": 3860
     },
     {
+      "path": "apple_research_v2/afruit_train_spot_review.py",
+      "sha256": "c081e5c352cc0a86ce641b66740f30c637b18a60ea3adf610a6b85a4c10d5d5c",
+      "bytes": 6529
+    },
+    {
       "path": "apple_research_v2/afruit_visible_quality.py",
-      "sha256": "3d363db0072d0a281e6a1e18ed0c0cec3cdd0746e1d61515040b21d86627af37",
-      "bytes": 10764
+      "sha256": "bdaad016b149979edf3ab87b8c3a7c2d59fba6d07f94c507b88df525a49aecab",
+      "bytes": 10990
     },
     {
       "path": "apple_research_v2/afruitdb_border_control.py",
@@ -173,6 +178,21 @@
       "bytes": 17701
     },
     {
+      "path": "apple_research_v2/audit_hdf_fresh_severe_views.py",
+      "sha256": "cc075b6fcb6fc7089a36badd020fad91960b6cf57e141b962061603c838e803d",
+      "bytes": 11375
+    },
+    {
+      "path": "apple_research_v2/audit_mark_contrast.py",
+      "sha256": "11522d3738716b99fd34a473d0d361f2fdac51975f9e99d3ee33cd02e80718c2",
+      "bytes": 2476
+    },
+    {
+      "path": "apple_research_v2/audit_mark_native_masks.py",
+      "sha256": "dd84a8516caf6213afae7abcfc9ec0a609f1967e3064771a5fc0b222465c8b9a",
+      "bytes": 3688
+    },
+    {
       "path": "apple_research_v2/audit_papple_outside_distance.py",
       "sha256": "9302ab8bbb6b02c192149fedf573f568aa50c6246fd60955facbd3f699ec5d71",
       "bytes": 3981
@@ -181,6 +201,11 @@
       "path": "apple_research_v2/audit_remote_zip_20261112.py",
       "sha256": "46c769f31b06fa8a9fd95213959e2dc246bf889e1ac9a9c3c59f0b5ac963a8f9",
       "bytes": 3795
+    },
+    {
+      "path": "apple_research_v2/audit_thirteen_minor.py",
+      "sha256": "066aaa9a3218e8000fb82a3c38ebab34c3c9b4c8af8e9944834474bcc4a07105",
+      "bytes": 14639
     },
     {
       "path": "apple_research_v2/benchmark_afruit_visible_quality.py",
@@ -813,14 +838,29 @@
       "bytes": 2844
     },
     {
+      "path": "apple_research_v2/grade_detail_patch.py",
+      "sha256": "377d0e22b3902d532b42cc0823b2cc0518e633c66155c8a5edde9c07b8eff8c6",
+      "bytes": 2631
+    },
+    {
       "path": "apple_research_v2/grade_external_rot_panel.py",
       "sha256": "255ae8f617c3f09ecb9cc544442e0c7d1cce5c326f560cdb0190bf808d59953e",
       "bytes": 3859
     },
     {
+      "path": "apple_research_v2/grade_failure_checkpoint_audit.py",
+      "sha256": "1dbf1bfd4ef682933d9799d733a4d74a637c6505217332a387c7988eeef63475",
+      "bytes": 6326
+    },
+    {
       "path": "apple_research_v2/grade_local_evidence.py",
-      "sha256": "666066455f9fd0d2ba487c5b51f9697acca79aaff4066f914066427d2ffa0ae7",
-      "bytes": 1591
+      "sha256": "fabedf3f87aa8eeb64b5aa9f948cc08f8deb271cfb59ddd749d0f707319c24cb",
+      "bytes": 2049
+    },
+    {
+      "path": "apple_research_v2/grade_mark_contrast.py",
+      "sha256": "3d70519fe2fe2b4d57e9d2e2ffaa3db2d261adff22476bcd3e4075ac184096d6",
+      "bytes": 1990
     },
     {
       "path": "apple_research_v2/grade_matched_external_check.py",
@@ -829,13 +869,43 @@
     },
     {
       "path": "apple_research_v2/grade_matched_field_check.py",
-      "sha256": "31f56c3cde372116f9cb26f98325bd2b0e5f405193b8572677d335d6bcb1bf7f",
-      "bytes": 5014
+      "sha256": "6c7e893ff25ea3dd3ff8fb7179f9208d0b729c7f7da3bf6a34f3ddf7dffdc3b4",
+      "bytes": 5148
+    },
+    {
+      "path": "apple_research_v2/grade_repair_holdout.py",
+      "sha256": "5b3d86def76c566ecbfb00b2cf6d16f86df2bc640188a89ed33e2907e9424550",
+      "bytes": 7698
+    },
+    {
+      "path": "apple_research_v2/grade_spatial_repair.py",
+      "sha256": "116221ee6da062bd6d4c20b470b0604ad9193f948a7425556933a10fceeaaae3",
+      "bytes": 1739
     },
     {
       "path": "apple_research_v2/grade_stage_validation.py",
       "sha256": "33d5a00249cb36cdf111e5328bc5fad4f8de396cf3b7e93e7f0e1555075617df",
       "bytes": 3861
+    },
+    {
+      "path": "apple_research_v2/guard_grade_repair.py",
+      "sha256": "c25f6f747c372fdb3ad5d864bc76366106573a265c70cb5256620491634b0970",
+      "bytes": 10137
+    },
+    {
+      "path": "apple_research_v2/guard_grade_sources.py",
+      "sha256": "79dd6b78346f5369e50fa357d723f2bf329301e9c60524f83923b7494ba0722b",
+      "bytes": 5372
+    },
+    {
+      "path": "apple_research_v2/guard_grade_v2.py",
+      "sha256": "fa8f3096b817bdb71e19b6273134e1b0aaff68ccdb32f8a6ec3887380c627a72",
+      "bytes": 10839
+    },
+    {
+      "path": "apple_research_v2/guard_hdf_training_data.py",
+      "sha256": "4ea2e4ef3a4b18a4ff433898ed17681c869aa6a336b6e1d15f8c3afc43b44624",
+      "bytes": 9876
     },
     {
       "path": "apple_research_v2/inspect_local_inventory.py",
@@ -924,8 +994,8 @@
     },
     {
       "path": "apple_research_v2/matched_grade_loader.py",
-      "sha256": "c52025ed09c5862741452d8828380d68181added62efa8acdda33fbfa34d9f01",
-      "bytes": 1993
+      "sha256": "70618d8b082fdcc6da3d484a1c7d1be9d7a80c04f61cf0663841f38765ec5a87",
+      "bytes": 2455
     },
     {
       "path": "apple_research_v2/penn_surface_challenge.py",
@@ -943,9 +1013,24 @@
       "bytes": 2395
     },
     {
+      "path": "apple_research_v2/prepare_commons_rot_stress.py",
+      "sha256": "9eb2745ebcd6b28a593af1c5e36aa64147144dfb61d21d0c9d3b0121a3fb0517",
+      "bytes": 7305
+    },
+    {
       "path": "apple_research_v2/prepare_full_attribute_manifests.py",
       "sha256": "400415a3989d4b429b044e601742cb1a18d03aa1932bbaeb406ccf003f1f1d4e",
       "bytes": 4967
+    },
+    {
+      "path": "apple_research_v2/prepare_grocery_normal_stress.py",
+      "sha256": "96c2ab0a4672892590dff9224f1b6266bac1b7aa6d82ec3c065e0e5b4a5763bd",
+      "bytes": 8449
+    },
+    {
+      "path": "apple_research_v2/prepare_harvard_normal_anchors.py",
+      "sha256": "05776b3bbb9731aecfaac6ccb1e2c7e887f68ea433fad1ec93be684e2bc3e2c9",
+      "bytes": 4501
     },
     {
       "path": "apple_research_v2/prepare_matched_woo_quality.py",
@@ -1008,6 +1093,11 @@
       "bytes": 18295
     },
     {
+      "path": "apple_research_v2/replay_grade_detail_woo.py",
+      "sha256": "5feae098d780ce2840bf6c5a6f2734311fd90579193d58418d9e9ed7a2e7d87b",
+      "bytes": 6479
+    },
+    {
       "path": "apple_research_v2/report_defect_algorithm_steps_20261112.py",
       "sha256": "2b40cb4478a265d79f6c2019672745427b0540eaa6eb4b4f78bf7c1fb3dd0ef7",
       "bytes": 10185
@@ -1021,6 +1111,11 @@
       "path": "apple_research_v2/run_defect_zero_train_20261112.py",
       "sha256": "e3f5b04f4c16303d8854abb9f69ce609ae687c3096b4aef820497a45ec482d32",
       "bytes": 5132
+    },
+    {
+      "path": "apple_research_v2/select_grade_repair.py",
+      "sha256": "7231b4d8c9e1fd4af72736747ccc8d5d7e57a332235bae5a1d9b147ad4de38db",
+      "bytes": 13755
     },
     {
       "path": "apple_research_v2/strong_defect_bn_refine_20261112.py",
@@ -1076,6 +1171,21 @@
       "path": "apple_research_v2/train_attribute_pilot_v2.py",
       "sha256": "61245d741fc3a295cd40e46b591be7c00c17beac11a4fe582d46ee1c36e80cba",
       "bytes": 29350
+    },
+    {
+      "path": "apple_research_v2/train_grade_detail_patch.py",
+      "sha256": "cf4b375a6251dc82c77db00b22320430667bedf673b5f3603166c96c857867cf",
+      "bytes": 11454
+    },
+    {
+      "path": "apple_research_v2/train_grade_mark_contrast.py",
+      "sha256": "e49f52039425dc3995dd20370f554ae2dd7b911d0d54847efeab11c873ceda4c",
+      "bytes": 8592
+    },
+    {
+      "path": "apple_research_v2/train_grade_spatial_repair.py",
+      "sha256": "bc9225a5f4ee20d8d816a5704bb281b80dc565e8b25052f6e0a97bda4a983336",
+      "bytes": 10178
     },
     {
       "path": "apple_research_v2/train_yolo_full.py",
@@ -1158,6 +1268,11 @@
       "bytes": 4226
     },
     {
+      "path": "datasets/afruit_train_spots_v1/manifest.json",
+      "sha256": "cb6ad4a48eb2023dddfffbcb426c3d84bc64913fb9599757e85cb89382f4206b",
+      "bytes": 30494
+    },
+    {
       "path": "datasets/afruitdb_apples_v1/split_audit.json",
       "sha256": "a4174d8a01684ed16468179ad7b9bc95d46b679acc08a00663a724ebf8132fc9",
       "bytes": 1816
@@ -1188,6 +1303,31 @@
       "bytes": 1978
     },
     {
+      "path": "datasets/commons_rot_stress_v1/ATTRIBUTION.md",
+      "sha256": "27092fcdc1f24cea8b6cfc2dac9202ee78fc8b5bf7d723c48948b293ccde2196",
+      "bytes": 1692
+    },
+    {
+      "path": "datasets/commons_rot_stress_v1/manifest.json",
+      "sha256": "18e254185274c75e670e332a9aa3d064c228448d3409f3c514054d950425f616",
+      "bytes": 9150
+    },
+    {
+      "path": "datasets/grade_guard_sources_v2/manifest.json",
+      "sha256": "cbb15662fa4067f3a2f2a0d6e9bb514daf07c74d3c564ce94f2da31006631477",
+      "bytes": 114368
+    },
+    {
+      "path": "datasets/grocery_normal_review_v1/manifest.json",
+      "sha256": "5282598a4ad0a1447357d97bb4d5e8170b5faee93cd601ed8190b9f49b99eda2",
+      "bytes": 14717
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/manifest.json",
+      "sha256": "5ad9d88954abf376f2ea4919f352fedd3fc36df595f2d2251249e939cc8d3f1e",
+      "bytes": 11261
+    },
+    {
       "path": "datasets/penn_surface_challenge_v1/manifest.json",
       "sha256": "78da774d2611fb2aa95e373f36fe57e24394a82679df83976c5e23a552e8dd21",
       "bytes": 10084
@@ -1198,6 +1338,16 @@
       "bytes": 1133
     },
     {
+      "path": "docs/49张分级错例逐图归因与修正实测_20261118.md",
+      "sha256": "07f74f753d9c08782771e54ee90890a7f4cb49b5439b34ea3f78cc05f454b2c5",
+      "bytes": 12910
+    },
+    {
+      "path": "docs/AFruitDB十三张轻瑕错例逐果核查_20261118.md",
+      "sha256": "c2b171620afcea8b195c46cb123e26e04d3f724aa9e3161d8ec10d86e47e5e48",
+      "bytes": 4718
+    },
+    {
       "path": "docs/AFruitDB苹果三级数据卡_20261118.md",
       "sha256": "8ae4f49b338c85347445ad08903b9098bc003d9738d5c7050674da08549686f3",
       "bytes": 3980
@@ -1206,6 +1356,11 @@
       "path": "docs/FruitLife同实物储藏外观辅助数据_20261118.md",
       "sha256": "48ddcde754bdfdfb5773b530bae23251776af08ebbd8c7db1a06ea2957e72763",
       "bytes": 3568
+    },
+    {
+      "path": "docs/HDF新鲜果36张逐图诊断_20261118.md",
+      "sha256": "2b5dd1845981b36064d1108688edca14e50a49b1eb6422933265a487decd476a",
+      "bytes": 3736
     },
     {
       "path": "docs/SSDA训练图缺陷盲审说明.md",
@@ -1246,6 +1401,11 @@
       "path": "docs/同条件训练果面与果园挑战数据卡_20261118.md",
       "sha256": "a6a3b2e299a2ffa658880a0f45c337d2408d73f91d37b49e39aebba59e4edf61",
       "bytes": 4530
+    },
+    {
+      "path": "docs/商场正常果面与明显腐败果外部验证数据卡_20261118.md",
+      "sha256": "8285b31c569122ef9b6332e428cadc3bfa5e4c949fa4eed1fdf48c8bf1129bfe",
+      "bytes": 3073
     },
     {
       "path": "docs/接手实测与研究路线_20261112.md",
@@ -2568,6 +2728,296 @@
       "bytes": 5584
     },
     {
+      "path": "experiments/grade_error49_v1/49张逐图修正结果.md",
+      "sha256": "2cee4ba301ba88da1c80cb07dcf7461aeaf23eb11fdbb8b38a4a412e6231d723",
+      "bytes": 8742
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320/history.json",
+      "sha256": "5cf2e7e055199a058b24643869ae5df3448aa3720b13f13575d85b2e20520d45",
+      "bytes": 11088
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320/input_audit.json",
+      "sha256": "d82ef838c6893105358a9007412e86a8eb6d6808599a6df704c1016513bf909b",
+      "bytes": 1933
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320/pretraining_memory_layout_protocol.json",
+      "sha256": "927ee791e0fe59b665e6eb89d8a4ba75a63d95e49865556275591fd61510641e",
+      "bytes": 1536
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320/protocol.json",
+      "sha256": "94eced99999e6b95d85aeb909fcbae964528d321bfebd08aa0061d962aa84846",
+      "bytes": 1536
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320/selection.json",
+      "sha256": "467eb5909596af347bce3962618fa358a4e2d9360a1a07288c5b501f5db772c8",
+      "bytes": 1980
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320_woo_ref/replay_protocol.json",
+      "sha256": "ff5000f24da61fff091e5e387ff33c8bbed12ea57df50a81cfaba6b9a1f5bd70",
+      "bytes": 1282
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320_woo_ref/selection.json",
+      "sha256": "9f912cf85b87760c062da056cc41643d158102bd6967387769e0017e39ed65e7",
+      "bytes": 2056
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320_woo_ref/trajectory/history.json",
+      "sha256": "5cf2e7e055199a058b24643869ae5df3448aa3720b13f13575d85b2e20520d45",
+      "bytes": 11088
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320_woo_ref/trajectory/input_audit.json",
+      "sha256": "d82ef838c6893105358a9007412e86a8eb6d6808599a6df704c1016513bf909b",
+      "bytes": 1933
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320_woo_ref/trajectory/protocol.json",
+      "sha256": "11e9dd767116e05dac7ed5ee679f486fda99799ac989276b421d14ce420edc64",
+      "bytes": 1536
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_native320_woo_ref/trajectory/selection.json",
+      "sha256": "dc699e4b1cd999df08563cfc7720cd1da06178851ffe0e2830c3fea3a6a9f840",
+      "bytes": 1980
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_spatial/history.json",
+      "sha256": "9b476cfe77a289dcfa4ac2457307b880bdb4be8cc26a3a224c7ee250ec463316",
+      "bytes": 11115
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_spatial/protocol.json",
+      "sha256": "2defcee94462c17ecc0ca0ab4d08d3d71ebf22cb94e47d59fb0d55f7e4cd636d",
+      "bytes": 866
+    },
+    {
+      "path": "experiments/grade_error49_v1/border_spatial/selection.json",
+      "sha256": "e5e1e12a734af835a4e9514c59dbba138ddbde7d530891ac9d24c5646fddc8ea",
+      "bytes": 1779
+    },
+    {
+      "path": "experiments/grade_error49_v1/checkpoints/summary.json",
+      "sha256": "52d10a5f5a894bc85ea6c031324ccf8cfdf5ba93eb1148e2eac865d62378b305",
+      "bytes": 2894
+    },
+    {
+      "path": "experiments/grade_error49_v1/dev_selection_protocol.json",
+      "sha256": "6d1368929855b4f27b91fbb2e8e8bcc632ba4ba78c7b8f1f3b0625997738debf",
+      "bytes": 2181
+    },
+    {
+      "path": "experiments/grade_error49_v1/external/results.json",
+      "sha256": "1ea5b35f4a3443006d8c562a4526905891776756312e01c7a62fa9e8e076cc72",
+      "bytes": 5764
+    },
+    {
+      "path": "experiments/grade_error49_v1/external_supplement_policy.json",
+      "sha256": "ef48c5e1b978b803294ddef7ba9911f2eaa74a289ed5fe025c8677084af22af8",
+      "bytes": 918
+    },
+    {
+      "path": "experiments/grade_error49_v1/field/latency_scene.json",
+      "sha256": "12cd113abd9d705551571df473edf8e52225e2a967db37643a73dba49666f3d7",
+      "bytes": 15356
+    },
+    {
+      "path": "experiments/grade_error49_v1/field/latency_single.json",
+      "sha256": "65b7a5a9f5f57fa800578fc42678a566efd01797fe5a445d094254892d8e1bdc",
+      "bytes": 15370
+    },
+    {
+      "path": "experiments/grade_error49_v1/field/receipt.json",
+      "sha256": "112fc7a2a828e69b6d2c247f75d382a30ef4bd4e38827a48c073efda55d564a0",
+      "bytes": 965
+    },
+    {
+      "path": "experiments/grade_error49_v1/field/regression.json",
+      "sha256": "29e46c441b020000ba3975459c9e05ee87efa2b89574bf28466a1523bcb5e708",
+      "bytes": 6946
+    },
+    {
+      "path": "experiments/grade_error49_v1/field_protocol.json",
+      "sha256": "694a739f90734fc05713a0d05dc7acc35e1ec745c0847887bcd3a76d0e9b669d",
+      "bytes": 2549
+    },
+    {
+      "path": "experiments/grade_error49_v1/field_threads8/latency_scene.json",
+      "sha256": "544d47f941375d19f199778a30d35850a74b81982ee49c017faa0b287051bfa1",
+      "bytes": 15356
+    },
+    {
+      "path": "experiments/grade_error49_v1/field_threads8/latency_single.json",
+      "sha256": "fc948d06a35d764ed508f97e1107d99e6162de10e31f0c1a28486e9659fbf0dd",
+      "bytes": 15372
+    },
+    {
+      "path": "experiments/grade_error49_v1/field_threads8/receipt.json",
+      "sha256": "31c21124b6150d9b9b56064fc7d2898e2bd7e64aad8428a12ee7d6d912f5a5af",
+      "bytes": 965
+    },
+    {
+      "path": "experiments/grade_error49_v1/frozen_candidate.json",
+      "sha256": "f0f72fd087c0c7892cdacf0a8bd449b2593c991a80410b8c85c0ab5c89e27e81",
+      "bytes": 328836
+    },
+    {
+      "path": "experiments/grade_error49_v1/frozen_field_candidate.json",
+      "sha256": "7d6f7f557d0bf42b02a80032e2939a5236c9cf1050942bc0e8e21aa080c91bdb",
+      "bytes": 366299
+    },
+    {
+      "path": "experiments/grade_error49_v1/hdf_fresh/per_image_probes.json",
+      "sha256": "0999bc23db4a930aaac2937b13e5c60834e60918fbf05217cf2f7c9e5dd47417",
+      "bytes": 312501
+    },
+    {
+      "path": "experiments/grade_error49_v1/hdf_fresh/summary.json",
+      "sha256": "8bfd4b82370bf7c51d3d86d1e2b5927db9b60bdd787b4fcdc66b380b0acffc28",
+      "bytes": 3350
+    },
+    {
+      "path": "experiments/grade_error49_v1/hdf_fresh/visual_notes.json",
+      "sha256": "977550416f5284c1102edca4ea0e3845b38b3a2ed7e87a4c15d6335ec0a6d03b",
+      "bytes": 8621
+    },
+    {
+      "path": "experiments/grade_error49_v1/local_evidence/development_mask_peak_audit.json",
+      "sha256": "cc5de9b9eba71039118ff0b3cd2743ef7d92dcf72d5b6a1f287ab4749e8df224",
+      "bytes": 11190
+    },
+    {
+      "path": "experiments/grade_error49_v1/local_evidence/development_peak_audit.json",
+      "sha256": "281ad1770b24f28b47ab2232450152f49d3e00d8486f8053ef6a6ba69833f273",
+      "bytes": 8164
+    },
+    {
+      "path": "experiments/grade_error49_v1/local_evidence/history.json",
+      "sha256": "6e770dfd0f2749d3fa6bf896d13eb53b9a4454c3cad2f2ad3f8f219d233ef296",
+      "bytes": 36996
+    },
+    {
+      "path": "experiments/grade_error49_v1/local_evidence/protocol.json",
+      "sha256": "48fab1df0333dfc925150b324035e3e8bb868dd5fc9978e61c2e46e182a19903",
+      "bytes": 2327
+    },
+    {
+      "path": "experiments/grade_error49_v1/local_evidence/selection.json",
+      "sha256": "7ded26250f9bbd7bd3be6f908524398a0f2425bfe53b8941404edd794c9b56e1",
+      "bytes": 1718
+    },
+    {
+      "path": "experiments/grade_error49_v1/new_grocery/new_test.json",
+      "sha256": "86f87d6c4c9759f14ea603b57f4a472997560bf68e91524f6a7a6138f8a3b138",
+      "bytes": 982
+    },
+    {
+      "path": "experiments/grade_error49_v1/new_guard/new_test.json",
+      "sha256": "0a6d44f431062ec7b9d6572f8f93c34007cf429ca7af22a4ea68cb6664dd1ecb",
+      "bytes": 951
+    },
+    {
+      "path": "experiments/grade_error49_v1/new_rot/new_test.json",
+      "sha256": "47bda9aeb245cc3efafcee600009bafa6ac72770f2439563ff375cf57f2ace04",
+      "bytes": 975
+    },
+    {
+      "path": "experiments/grade_error49_v1/paired_changes.json",
+      "sha256": "8823a1b1ab4b05c867746e5d7cfa5e3d39f7b64d2015898fad64981be3dd0ea6",
+      "bytes": 10732
+    },
+    {
+      "path": "experiments/grade_error49_v1/resize_threads_train_probe.json",
+      "sha256": "e43e38a7b5d8a8f9818eb6e0de16b2fc7256162b48d10bc744abeed6c62e62c4",
+      "bytes": 526
+    },
+    {
+      "path": "experiments/grade_error49_v1/selection_reference_note.json",
+      "sha256": "22918354352d3b8f05acf4488ef2f13df16495cfb6e212b647cdfac874c97802",
+      "bytes": 993
+    },
+    {
+      "path": "experiments/grade_error49_v1/spatial/history.json",
+      "sha256": "afed48f68df56a91a4641ad89983a6ecd59690f8af1b1a7a58c3836b7a8e03d7",
+      "bytes": 11107
+    },
+    {
+      "path": "experiments/grade_error49_v1/spatial/protocol.json",
+      "sha256": "4e9f79be2ec0015a2a2c5bcf9e5a2c047efdd77de75069ab1f1b904d324f6cf0",
+      "bytes": 866
+    },
+    {
+      "path": "experiments/grade_error49_v1/spatial/selection.json",
+      "sha256": "963358f10a52e4c30b6b50d4fc426cf21f8bddd039bfb4260eeb26485562c9a6",
+      "bytes": 1777
+    },
+    {
+      "path": "experiments/grade_error49_v1/verification.json",
+      "sha256": "4ae1bb64e499896a12daa98f564cb56d369c3d02f249a76880145dff3b9d8dd1",
+      "bytes": 853
+    },
+    {
+      "path": "experiments/grade_failure_audit_20261118/afruit13/interior_matches.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "experiments/grade_failure_audit_20261118/afruit13/summary.json",
+      "sha256": "e64ef32f2adfcc135d471c13d5ec7676a963d99471e0493174a973b176224e69",
+      "bytes": 508
+    },
+    {
+      "path": "experiments/grade_failure_audit_20261118/afruit13/visual_review.json",
+      "sha256": "2e3c6aefc3d40171e5889bfa5c7e09f4c2a3b91c65dfa8ca1d6ac08f605430f1",
+      "bytes": 6408
+    },
+    {
+      "path": "experiments/grade_guard_healthy_v1/withdrawal.json",
+      "sha256": "11edc35b1c43e460e4245d5d17f8017e2029c57edd08b4516698ba5234aeeb9b",
+      "bytes": 766
+    },
+    {
+      "path": "experiments/grade_guard_sources_v2/border/history.json",
+      "sha256": "eec9f39fb149b60134c2055e26ebc24899ed15adb05efa2223d3816bcefe1a32",
+      "bytes": 30659
+    },
+    {
+      "path": "experiments/grade_guard_sources_v2/border/selection.json",
+      "sha256": "5dc531ec00413a1956cec6659707d4498e5184db070508a51d0ea7e4bca1f5b7",
+      "bytes": 2434
+    },
+    {
+      "path": "experiments/grade_guard_sources_v2/grounded/history.json",
+      "sha256": "5c6c79d3d23946a5658f282300bfc295c8304cda3330dd1d7979cdd428a6ebb1",
+      "bytes": 30658
+    },
+    {
+      "path": "experiments/grade_guard_sources_v2/grounded/selection.json",
+      "sha256": "802fa39f5467471bc2e7cfa2bc754610fa0bd40af7843e616523066db7778ac3",
+      "bytes": 2435
+    },
+    {
+      "path": "experiments/grade_guard_sources_v2/parent_validation.json",
+      "sha256": "28d05b36f1b220d5ab102df8abe0f247c8c24565c294914dc77fae08fbd81bd1",
+      "bytes": 1450
+    },
+    {
+      "path": "experiments/grade_guard_sources_v2/protocol.json",
+      "sha256": "de7c9f5aa9f7d1f7a97fa98d185c6ab21468f12d89106db1276ce51c76c5882a",
+      "bytes": 1643
+    },
+    {
+      "path": "experiments/grade_guard_sources_v2/健康锚定对照结果.md",
+      "sha256": "cff12a88f6fe692838bc55f5cefdb8db37b2fd0374c988bbb9a513433e51c581",
+      "bytes": 2861
+    },
+    {
       "path": "experiments/grade_local_evidence_v1/control/selection.json",
       "sha256": "43662edd486c3c05c707710cbba661151fc87ca985323b1868a609d5723f40e0",
       "bytes": 1676
@@ -2684,8 +3134,8 @@
     },
     {
       "path": "run_apple_quality.ps1",
-      "sha256": "6cc870c17f61058f709ee8c96d3d84fae12fc6ee1e8e2e5a3c2ea97809d48bcc",
-      "bytes": 2122
+      "sha256": "79bfa1bdd4586a3e1da61d24d1d59f7b26960e1fab43e69f36c99f8a4dbfa8fc",
+      "bytes": 2328
     },
     {
       "path": "set_run_env.ps1",

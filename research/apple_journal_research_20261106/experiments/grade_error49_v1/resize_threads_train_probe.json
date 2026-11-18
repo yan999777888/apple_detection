@@ -1,0 +1,23 @@
+{
+  "timing": {
+    "1": {
+      "mean_ms": 25.978808332486853,
+      "p95_ms": 28.851130011025813,
+      "equal": 24,
+      "n": 24
+    },
+    "4": {
+      "mean_ms": 9.894333333553126,
+      "p95_ms": 12.86737002956215,
+      "equal": 24,
+      "n": 24
+    },
+    "8": {
+      "mean_ms": 6.797616673187197,
+      "p95_ms": 8.585925018996932,
+      "equal": 24,
+      "n": 24
+    }
+  },
+  "source": "8 AF training photos only, 3 repeats, concurrent grading training; speed isolated CPU component only"
+}

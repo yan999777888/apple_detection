@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "starts_from": "08d67743ff7a7eb766caeffbe22aa7f47ef2a4cccdeac8c405e63d9b09f95835",
+  "seed": 762094,
+  "steps": 240,
+  "recorded_updates": [
+    40,
+    80,
+    120,
+    160,
+    200,
+    240
+  ],
+  "canonical_policy": "661e60330b74efa6fb948aad1ba14675bf619ae7760bd94514df829a0d164f4c",
+  "source_original_sha256": "8ff2bbc3e6249e59310700d35897931008c1cddcdbf72cfdd349dbca051aceeb",
+  "source_replay_sha256": "cf4b375a6251dc82c77db00b22320430667bedf673b5f3603166c96c857867cf",
+  "guard_manifest_sha256": "cbb15662fa4067f3a2f2a0d6e9bb514daf07c74d3c564ce94f2da31006631477",
+  "source_history_sha256": "5cf2e7e055199a058b24643869ae5df3448aa3720b13f13575d85b2e20520d45",
+  "read_only_development": "Same 57 AF full/auto photos and same guard v2 val only. No historical panels.",
+  "fidelity": "Verify all six losses and full cached development confusion counts; verify every tensor of the sole prior saved checkpoint. The same seed is replayed from border, not resumed/past the previous endpoint.",
+  "select": "Apply common Woo panel safety and mild gates and predeclared rank to the fresh development logits of all 6 checkpoints. Chronologically first on complete metric tie; document clinically relevant row changes against both parents."
+}

@@ -1,0 +1,6 @@
+{
+  "prior": "frozen_candidate.json, a development-only snapshot. No field or supplemental evaluation was launched from it.",
+  "reason": "The 320 branch's internal checkpoint eligibility was measured against its newly corrected border parent, which has one extra correct development good example. The common preregistered protocol specifies the previous Woo reference for all candidates. Preserve the stricter exploratory branch, additionally select once from the same fixed 240-step trajectory using that original common reference, then apply the unchanged selection protocol to all branches. No test metric or prediction from a repair candidate has been accessed.",
+  "data": "AF 57 development and one dated additional minor from guard validation. Retain both per-picture and count changes of good fruit vs Woo and vs border.",
+  "final": "frozen_field_candidate.json is the sole decision to use for new test/field runs. No other historical field runs or test-based checkpoint changes."
+}

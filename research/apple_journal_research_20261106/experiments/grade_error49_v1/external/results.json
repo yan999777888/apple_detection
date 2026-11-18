@@ -1,0 +1,304 @@
+{
+  "models": {
+    "original": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+    "candidate": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a"
+  },
+  "scope": "CPU FP32 whole provided fruit inputs; FruitLife physical holdout crops by author masks; HDF uses historical real development panel and binary source labels.",
+  "prediction_columns": [
+    "good",
+    "mild",
+    "severe"
+  ],
+  "panels": {
+    "FruitLife": {
+      "original": {
+        "totals": {
+          "stage_0": [
+            29,
+            0,
+            0
+          ],
+          "stage_1": [
+            19,
+            0,
+            2
+          ],
+          "stage_3": [
+            37,
+            27,
+            7
+          ],
+          "stage_2": [
+            12,
+            0,
+            3
+          ],
+          "stage_4": [
+            9,
+            23,
+            12
+          ]
+        },
+        "per_fruit": {
+          "apple_01": {
+            "stage_0": [
+              1,
+              0,
+              0
+            ],
+            "stage_1": [
+              1,
+              0,
+              2
+            ],
+            "stage_3": [
+              0,
+              27,
+              7
+            ],
+            "stage_2": [
+              0,
+              0,
+              2
+            ],
+            "stage_4": [
+              0,
+              18,
+              2
+            ]
+          },
+          "apple_03": {
+            "stage_0": [
+              11,
+              0,
+              0
+            ],
+            "stage_1": [
+              11,
+              0,
+              0
+            ],
+            "stage_2": [
+              8,
+              0,
+              1
+            ],
+            "stage_3": [
+              15,
+              0,
+              0
+            ],
+            "stage_4": [
+              2,
+              5,
+              7
+            ]
+          },
+          "apple_05": {
+            "stage_0": [
+              17,
+              0,
+              0
+            ],
+            "stage_1": [
+              7,
+              0,
+              0
+            ],
+            "stage_2": [
+              4,
+              0,
+              0
+            ],
+            "stage_3": [
+              22,
+              0,
+              0
+            ],
+            "stage_4": [
+              7,
+              0,
+              3
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "totals": {
+          "stage_0": [
+            4,
+            25,
+            0
+          ],
+          "stage_1": [
+            0,
+            17,
+            4
+          ],
+          "stage_3": [
+            0,
+            27,
+            44
+          ],
+          "stage_2": [
+            0,
+            13,
+            2
+          ],
+          "stage_4": [
+            0,
+            0,
+            44
+          ]
+        },
+        "per_fruit": {
+          "apple_01": {
+            "stage_0": [
+              0,
+              1,
+              0
+            ],
+            "stage_1": [
+              0,
+              0,
+              3
+            ],
+            "stage_3": [
+              0,
+              0,
+              34
+            ],
+            "stage_2": [
+              0,
+              0,
+              2
+            ],
+            "stage_4": [
+              0,
+              0,
+              20
+            ]
+          },
+          "apple_03": {
+            "stage_0": [
+              4,
+              7,
+              0
+            ],
+            "stage_1": [
+              0,
+              10,
+              1
+            ],
+            "stage_2": [
+              0,
+              9,
+              0
+            ],
+            "stage_3": [
+              0,
+              6,
+              9
+            ],
+            "stage_4": [
+              0,
+              0,
+              14
+            ]
+          },
+          "apple_05": {
+            "stage_0": [
+              0,
+              17,
+              0
+            ],
+            "stage_1": [
+              0,
+              7,
+              0
+            ],
+            "stage_2": [
+              0,
+              4,
+              0
+            ],
+            "stage_3": [
+              0,
+              21,
+              1
+            ],
+            "stage_4": [
+              0,
+              0,
+              10
+            ]
+          }
+        }
+      }
+    },
+    "HDF": {
+      "original": {
+        "totals": {
+          "fresh": [
+            52,
+            15,
+            2
+          ],
+          "rot_defect": [
+            69,
+            71,
+            60
+          ]
+        },
+        "per_fruit": {}
+      },
+      "candidate": {
+        "totals": {
+          "fresh": [
+            34,
+            6,
+            29
+          ],
+          "rot_defect": [
+            6,
+            66,
+            128
+          ]
+        },
+        "per_fruit": {}
+      }
+    },
+    "PennState": {
+      "original": {
+        "totals": {
+          "visible_grade_2": [
+            0,
+            3,
+            1
+          ],
+          "visible_grade_1": [
+            1,
+            1,
+            2
+          ]
+        },
+        "per_fruit": {}
+      },
+      "candidate": {
+        "totals": {
+          "visible_grade_2": [
+            0,
+            4,
+            0
+          ],
+          "visible_grade_1": [
+            0,
+            4,
+            0
+          ]
+        },
+        "per_fruit": {}
+      }
+    }
+  }
+}

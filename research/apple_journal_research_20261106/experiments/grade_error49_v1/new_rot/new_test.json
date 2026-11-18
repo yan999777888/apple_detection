@@ -1,0 +1,51 @@
+{
+  "confusion": {
+    "previous": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        5,
+        1
+      ]
+    ],
+    "repair": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        1
+      ]
+    ]
+  },
+  "groups": 7,
+  "grade_counts": {
+    "0": 0,
+    "1": 0,
+    "2": 7
+  },
+  "absent_grade_policy": "No rate or safety claim for a class with zero reserved instances; refer to separately identified external panels.",
+  "source_counts": {
+    "Wikimedia_Commons_photographed_apple_decay": 7
+  },
+  "manifest_sha256": "18e254185274c75e670e332a9aa3d064c228448d3409f3c514054d950425f616",
+  "previous_sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "repair_sha256": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a"
+}

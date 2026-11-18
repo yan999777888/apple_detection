@@ -1,0 +1,521 @@
+{
+  "mode": "scene",
+  "rounds": 30,
+  "known_single_fruit": false,
+  "all": {
+    "n": 600,
+    "unique_files": 20,
+    "input_to_cpu_results": {
+      "n": 600,
+      "mean_ms": 44.214196000248194,
+      "p50_ms": 42.2089500061702,
+      "p95_ms": 48.62619498453567,
+      "serial_fps": 22.617170286086093
+    },
+    "input_to_annotated_frame": {
+      "n": 600,
+      "mean_ms": 45.97037566631722,
+      "p50_ms": 43.89035000349395,
+      "p95_ms": 51.053844991838545,
+      "serial_fps": 21.75313961449104
+    },
+    "source_including_resize_to_results": {
+      "n": 600,
+      "mean_ms": 50.074114333838224,
+      "p50_ms": 48.1133499997668,
+      "p95_ms": 54.62902496219611,
+      "serial_fps": 19.970398144900134
+    },
+    "source_including_resize_to_overlay": {
+      "n": 600,
+      "mean_ms": 51.83029399990725,
+      "p50_ms": 49.801249988377094,
+      "p95_ms": 57.516314985696226,
+      "serial_fps": 19.293735821791586
+    },
+    "grade_items": 660,
+    "grade_batches": 540,
+    "frames_with_grade": 540,
+    "zero_fruit_frames": 60,
+    "single_fruit_frames": 480,
+    "multiple_fruit_frames": 60,
+    "fruit_instances": 660,
+    "defect_boxes": 450,
+    "unique_linked_defects": 360,
+    "per_frame_fruit_counts": {
+      "0": 60,
+      "1": 480,
+      "3": 60
+    }
+  },
+  "by_source": {
+    "AFruitDB": {
+      "n": 600,
+      "unique_files": 20,
+      "input_to_cpu_results": {
+        "n": 600,
+        "mean_ms": 44.214196000248194,
+        "p50_ms": 42.2089500061702,
+        "p95_ms": 48.62619498453567,
+        "serial_fps": 22.617170286086093
+      },
+      "input_to_annotated_frame": {
+        "n": 600,
+        "mean_ms": 45.97037566631722,
+        "p50_ms": 43.89035000349395,
+        "p95_ms": 51.053844991838545,
+        "serial_fps": 21.75313961449104
+      },
+      "source_including_resize_to_results": {
+        "n": 600,
+        "mean_ms": 50.074114333838224,
+        "p50_ms": 48.1133499997668,
+        "p95_ms": 54.62902496219611,
+        "serial_fps": 19.970398144900134
+      },
+      "source_including_resize_to_overlay": {
+        "n": 600,
+        "mean_ms": 51.83029399990725,
+        "p50_ms": 49.801249988377094,
+        "p95_ms": 57.516314985696226,
+        "serial_fps": 19.293735821791586
+      },
+      "grade_items": 660,
+      "grade_batches": 540,
+      "frames_with_grade": 540,
+      "zero_fruit_frames": 60,
+      "single_fruit_frames": 480,
+      "multiple_fruit_frames": 60,
+      "fruit_instances": 660,
+      "defect_boxes": 450,
+      "unique_linked_defects": 360,
+      "per_frame_fruit_counts": {
+        "0": 60,
+        "1": 480,
+        "3": 60
+      }
+    }
+  },
+  "by_instance_count": {
+    "zero": {
+      "n": 60,
+      "unique_files": 2,
+      "input_to_cpu_results": {
+        "n": 60,
+        "mean_ms": 31.093379998734843,
+        "p50_ms": 30.465849995380268,
+        "p95_ms": 36.03405000758357,
+        "serial_fps": 32.1611867233697
+      },
+      "input_to_annotated_frame": {
+        "n": 60,
+        "mean_ms": 31.898523329679545,
+        "p50_ms": 31.285450037103146,
+        "p95_ms": 36.88723500526976,
+        "serial_fps": 31.34941356578609
+      },
+      "source_including_resize_to_results": {
+        "n": 60,
+        "mean_ms": 37.028259999351576,
+        "p50_ms": 36.54714999720454,
+        "p95_ms": 42.172604956431314,
+        "serial_fps": 27.006399977139395
+      },
+      "source_including_resize_to_overlay": {
+        "n": 60,
+        "mean_ms": 37.83340333029628,
+        "p50_ms": 37.329700018744916,
+        "p95_ms": 42.98437997640576,
+        "serial_fps": 26.4316691593859
+      },
+      "grade_items": 0,
+      "grade_batches": 0,
+      "frames_with_grade": 0,
+      "zero_fruit_frames": 60,
+      "single_fruit_frames": 0,
+      "multiple_fruit_frames": 0,
+      "fruit_instances": 0,
+      "defect_boxes": 30,
+      "unique_linked_defects": 0,
+      "per_frame_fruit_counts": {
+        "0": 60
+      }
+    },
+    "single": {
+      "n": 480,
+      "unique_files": 16,
+      "input_to_cpu_results": {
+        "n": 480,
+        "mean_ms": 42.75476937533919,
+        "p50_ms": 42.2149000223726,
+        "p95_ms": 46.63822999864351,
+        "serial_fps": 23.38920346455656
+      },
+      "input_to_annotated_frame": {
+        "n": 480,
+        "mean_ms": 44.47340291674967,
+        "p50_ms": 43.89035000349395,
+        "p95_ms": 48.432175038033165,
+        "serial_fps": 22.48534931927545
+      },
+      "source_including_resize_to_results": {
+        "n": 480,
+        "mean_ms": 48.59308916650965,
+        "p50_ms": 48.14704999444075,
+        "p95_ms": 53.20270998345222,
+        "serial_fps": 20.579057992657933
+      },
+      "source_including_resize_to_overlay": {
+        "n": 480,
+        "mean_ms": 50.311722707920126,
+        "p50_ms": 49.801249988377094,
+        "p95_ms": 54.89354499441106,
+        "serial_fps": 19.8760834687654
+      },
+      "grade_items": 480,
+      "grade_batches": 480,
+      "frames_with_grade": 480,
+      "zero_fruit_frames": 0,
+      "single_fruit_frames": 480,
+      "multiple_fruit_frames": 0,
+      "fruit_instances": 480,
+      "defect_boxes": 420,
+      "unique_linked_defects": 360,
+      "per_frame_fruit_counts": {
+        "1": 480
+      }
+    },
+    "multiple": {
+      "n": 60,
+      "unique_files": 2,
+      "input_to_cpu_results": {
+        "n": 60,
+        "mean_ms": 69.01042500103358,
+        "p50_ms": 46.63779999827966,
+        "p95_ms": 52.38939497503451,
+        "serial_fps": 14.490564287714832
+      },
+      "input_to_annotated_frame": {
+        "n": 60,
+        "mean_ms": 72.0180099994953,
+        "p50_ms": 49.50820002704859,
+        "p95_ms": 55.61155499890446,
+        "serial_fps": 13.885415606554636
+      },
+      "source_including_resize_to_results": {
+        "n": 60,
+        "mean_ms": 74.96817000695349,
+        "p50_ms": 52.82970002735965,
+        "p95_ms": 58.72635003179311,
+        "serial_fps": 13.338994401320553
+      },
+      "source_including_resize_to_overlay": {
+        "n": 60,
+        "mean_ms": 77.97575500541522,
+        "p50_ms": 55.622249987209216,
+        "p95_ms": 61.92675500060431,
+        "serial_fps": 12.824499101426495
+      },
+      "grade_items": 180,
+      "grade_batches": 60,
+      "frames_with_grade": 60,
+      "zero_fruit_frames": 0,
+      "single_fruit_frames": 0,
+      "multiple_fruit_frames": 60,
+      "fruit_instances": 180,
+      "defect_boxes": 0,
+      "unique_linked_defects": 0,
+      "per_frame_fruit_counts": {
+        "3": 60
+      }
+    },
+    "grade_invoked": {
+      "n": 540,
+      "unique_files": 18,
+      "input_to_cpu_results": {
+        "n": 540,
+        "mean_ms": 45.67206444486079,
+        "p50_ms": 42.47805001796223,
+        "p95_ms": 49.173149996204295,
+        "serial_fps": 21.89522221416738
+      },
+      "input_to_annotated_frame": {
+        "n": 540,
+        "mean_ms": 47.533914814832514,
+        "p50_ms": 44.225000019650906,
+        "p95_ms": 51.90692001488059,
+        "serial_fps": 21.03761080684142
+      },
+      "source_including_resize_to_results": {
+        "n": 540,
+        "mean_ms": 51.52365370433674,
+        "p50_ms": 48.35689999163151,
+        "p95_ms": 55.06459003372583,
+        "serial_fps": 19.40856146845483
+      },
+      "source_including_resize_to_overlay": {
+        "n": 540,
+        "mean_ms": 53.38550407430847,
+        "p50_ms": 50.1331000123173,
+        "p95_ms": 57.79546499834395,
+        "serial_fps": 18.731676647804576
+      },
+      "grade_items": 660,
+      "grade_batches": 540,
+      "frames_with_grade": 540,
+      "zero_fruit_frames": 0,
+      "single_fruit_frames": 480,
+      "multiple_fruit_frames": 60,
+      "fruit_instances": 660,
+      "defect_boxes": 420,
+      "unique_linked_defects": 360,
+      "per_frame_fruit_counts": {
+        "1": 480,
+        "3": 60
+      }
+    }
+  },
+  "long_edge": 1280,
+  "files": [
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_212324.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_212446.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_212603.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_212700.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_212741.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_212815.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_212839.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_212916.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_213011.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\1st grade\\IMG_20230930_213055.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\2nd grade\\IMG_20230930_212406.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\2nd grade\\IMG_20230930_212530.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\2nd grade\\IMG_20230930_212636.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\2nd grade\\IMG_20230930_213105.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\2nd grade\\IMG_20230930_213134.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\2nd grade\\IMG_20230930_213202.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\2nd grade\\IMG_20230930_213259.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\3rd grade\\IMG_20230420_173442.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\3rd grade\\IMG_20230425_131847.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "AFruitDB",
+      "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\afruitdb_apples_v1\\original_photos\\3rd grade\\IMG_20230502_175224.jpg",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "prediction_hw": [
+        960,
+        1280
+      ]
+    }
+  ]
+}

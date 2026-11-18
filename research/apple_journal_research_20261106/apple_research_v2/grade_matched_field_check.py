@@ -57,13 +57,14 @@ def main():
     parser.add_argument("candidate", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--speed-only", action="store_true")
+    parser.add_argument("--opencv-threads", type=int, choices=(1,8), default=1)
     args = parser.parse_args()
     dest = args.output.resolve()
     if dest.exists() and any(dest.iterdir()):
         raise FileExistsError("Use a new output directory to preserve measured results")
     configure(dest, "cuda")
     torch.set_num_threads(2)
-    cv2.setNumThreads(1)
+    cv2.setNumThreads(args.opencv_threads)
     reference_report = read(old.OUT / "latency_market_frame_1280.json")
     samples = sorted((r for r in read(old.MANIFEST)["samples"] if r["split"] == "test"), key=lambda r: r["path"])
     timed_images = [(x["source"], Path(x["path"])) for x in reference_report["files"]]
@@ -77,7 +78,7 @@ def main():
         original_grade=sha(old.GRADE_OUT / "weights.pt"), input_manifest=sha(old.MANIFEST),
         input_long_edge=1280, classifier_input_side=side,
         original_models=[old.STAGE_WEIGHT_SHA,old.WARM_SHA,old.SOURCE_SHA],
-        gpu=torch.cuda.get_device_name(0), rounds=30, test_dataset="retrospective AFruitDB regression",
+        gpu=torch.cuda.get_device_name(0), rounds=30, opencv_threads=args.opencv_threads, test_dataset="retrospective AFruitDB regression",
         speed="20 predecoded photos x 30 cycles; 5 warmup frames per mode. Includes CPU results and overlay; also records source downscale separately."))
     with torch.inference_mode():
         if not args.speed_only:

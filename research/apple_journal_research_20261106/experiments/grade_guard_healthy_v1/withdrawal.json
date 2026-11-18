@@ -1,0 +1,7 @@
+{
+  "status": "withdrawn_before_any_final_evaluation",
+  "issue": "The HDF corpus contains visual source series crossing original proxy-group IDs even after D4 and thumbnail duplicate screening. Identifiable pale-speckled and glossy-purple edited stock sets overlap historical diagnosis conditions. Source type is inadequate for new source independence.",
+  "example": "HDF SD_REAL_1773 is in the same visible series as diagnostic fresh frames numbered in the 1491-1816 range.",
+  "decision": "Grounded v1 and stopped control are retained for audit; exclude all v1 checkpoints from selection, downstream training and model comparisons. Entire HDF dataset excluded from v2 training and validation.",
+  "replacement": "datasets/grade_guard_sources_v2/manifest.json"
+}

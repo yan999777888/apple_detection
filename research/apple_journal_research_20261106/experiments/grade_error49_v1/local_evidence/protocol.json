@@ -1,0 +1,49 @@
+{
+  "architecture": "mobilenet_v3_small_confirmed_mark_contrast_v1",
+  "parent": "08d67743ff7a7eb766caeffbe22aa7f47ef2a4cccdeac8c405e63d9b09f95835",
+  "anno": "cb6ad4a48eb2023dddfffbcb426c3d84bc64913fb9599757e85cb89382f4206b",
+  "guard": "cbb15662fa4067f3a2f2a0d6e9bb514daf07c74d3c564ce94f2da31006631477",
+  "woo": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "psu": "14f3879657d6a251a6d8707a421b8e91d5c33fa8a05ad6c940a296dff0daa56a",
+  "scopes": [
+    {
+      "domain": "af",
+      "confirmed_damage": false,
+      "confirmed_normal": true,
+      "views": 47
+    },
+    {
+      "domain": "af",
+      "confirmed_damage": true,
+      "confirmed_normal": false,
+      "views": 5
+    },
+    {
+      "domain": "af",
+      "confirmed_damage": true,
+      "confirmed_normal": true,
+      "views": 18
+    },
+    {
+      "domain": "penn",
+      "confirmed_damage": true,
+      "confirmed_normal": false,
+      "views": 6
+    },
+    {
+      "domain": "woo",
+      "confirmed_damage": true,
+      "confirmed_normal": false,
+      "views": 10
+    }
+  ],
+  "positives": "AF train human-readable boxes, original Woo scratch polygons, original eligible PSU lesion polygons. Only positives in the latter two datasets.",
+  "negatives": "Explicit AF normal-structure boxes only; stem/calyx/skin/specular texture. Unknown locations receive no negative targets. Same-face positive/normal region ranking where both are available.",
+  "grade": "Frozen border parent severe decision. For all other fruit, top three smoothed local heat responses alone decide good vs mild. No photo-grade CE, no whole-image pooled context or previous good/mild scores.",
+  "gate": "development auto good>=20/25, severe correct>=17/17, severe->good=0, mild>3/15; whole good>=23/25, severe->good=0, severe correct>=16/17. Maximize mild then good among passing checkpoints",
+  "seed": 581106,
+  "updates": 400,
+  "code": "e49f52039425dc3995dd20370f554ae2dd7b911d0d54847efeab11c873ceda4c",
+  "network": "3d70519fe2fe2b4d57e9d2e2ffaa3db2d261adff22476bcd3e4075ac184096d6",
+  "exposure": "Each step 8 AF positive, 6 Woo positive, 4 PSU positive, 12 AF confirmed normal. Uniform by source image within source/bucket. Local positions or paired ranks only. Multi-view AF crops share an original key."
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_212521.jpg",
+    "timestamp": "212521",
+    "visual_category": "清楚局部痕迹",
+    "visual_notes": "中央是深色果脐，右下方另有一个边界清楚的椭圆褐痕，两者在裁片与224输入都可分辨。",
+    "full_grade": "好",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 3,
+    "crop_bounds": [
+      276,
+      0,
+      1169,
+      930
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_212530.jpg",
+    "timestamp": "212530",
+    "visual_category": "清楚局部痕迹",
+    "visual_notes": "左半果皮有一条弯长褐线，右下方另有深色果脐。划线完整留在画面内。",
+    "full_grade": "好",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 3,
+    "crop_bounds": [
+      305,
+      60,
+      1216,
+      960
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_212548.jpg",
+    "timestamp": "212548",
+    "visual_category": "此面证据不足",
+    "visual_notes": "果窝有反光、浅纹及中央暗点，未能从天然果窝中可靠分辨一处损伤；没有标注具体伤处。",
+    "full_grade": "好",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 2,
+    "crop_bounds": [
+      289,
+      33,
+      1120,
+      851
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_212553.jpg",
+    "timestamp": "212553",
+    "visual_category": "弱证据或外观边界",
+    "visual_notes": "右侧近果缘有一处浅褐小记号，与散在果点接近。整图判轻，裁片仍看得见这处记号。",
+    "full_grade": "轻",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 1,
+    "crop_bounds": [
+      229,
+      38,
+      1113,
+      900
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_212954.jpg",
+    "timestamp": "212954",
+    "visual_category": "弱证据或外观边界",
+    "visual_notes": "左侧果柄窝附近见褐纹；果皮右上有很淡的细线，未能确定作者判轻依据。",
+    "full_grade": "轻",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 0,
+    "crop_bounds": [
+      279,
+      0,
+      1182,
+      877
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213105.jpg",
+    "timestamp": "213105",
+    "visual_category": "此面证据不足",
+    "visual_notes": "正面接近均匀黄，深色集中于果脐与其阴影，没有清晰独立损伤；轻微浅色差可见。",
+    "full_grade": "好",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 0,
+    "crop_bounds": [
+      285,
+      40,
+      1023,
+      811
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213134.jpg",
+    "timestamp": "213134",
+    "visual_category": "清楚局部痕迹",
+    "visual_notes": "果柄在左侧，面的中央偏右上有边界清楚的细长浅褐痕；224输入保留该痕。",
+    "full_grade": "轻",
+    "crop_grade": "好",
+    "neutral_grade": "轻",
+    "linked_alerts": 1,
+    "crop_bounds": [
+      417,
+      13,
+      1224,
+      906
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213153.jpg",
+    "timestamp": "213153",
+    "visual_category": "清楚局部痕迹",
+    "visual_notes": "果脐外，在果面正下缘有一处浅色椭圆凹痕，裁片包含整处。",
+    "full_grade": "好",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 1,
+    "crop_bounds": [
+      209,
+      28,
+      1064,
+      846
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213206.jpg",
+    "timestamp": "213206",
+    "visual_category": "弱证据或外观边界",
+    "visual_notes": "右半果面有一大片边界较圆的暗色区，轮廓也有局部转折；光照、色泽和压伤从一张图无法区分。",
+    "full_grade": "轻",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 0,
+    "crop_bounds": [
+      332,
+      64,
+      1054,
+      771
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213223.jpg",
+    "timestamp": "213223",
+    "visual_category": "清楚局部痕迹",
+    "visual_notes": "右下缘有小块浅色椭圆痕，果面其余大部分均匀，可见痕貌与213153接近。",
+    "full_grade": "好",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 1,
+    "crop_bounds": [
+      325,
+      29,
+      1066,
+      881
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213230.jpg",
+    "timestamp": "213230",
+    "visual_category": "清楚局部痕迹",
+    "visual_notes": "左上果皮一条偏红褐的弧线比周围果点长，裁框完整保留，整图和裁片均高分判好。",
+    "full_grade": "好",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 0,
+    "crop_bounds": [
+      385,
+      127,
+      1126,
+      960
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213239.jpg",
+    "timestamp": "213239",
+    "visual_category": "弱证据或外观边界",
+    "visual_notes": "大部分为连续黄红过渡，左下缘另有一处短暗痕；所在边缘与阴影接近。",
+    "full_grade": "轻",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 1,
+    "crop_bounds": [
+      209,
+      25,
+      1001,
+      858
+    ]
+  },
+  {
+    "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213259.jpg",
+    "timestamp": "213259",
+    "visual_category": "此面证据不足",
+    "visual_notes": "果脐在右侧，正面有浅色差和零星微痕，未能指认一个有把握的瑕疵。",
+    "full_grade": "好",
+    "crop_grade": "好",
+    "neutral_grade": "好",
+    "linked_alerts": 0,
+    "crop_bounds": [
+      284,
+      94,
+      1137,
+      942
+    ]
+  }
+]

@@ -1,0 +1,337 @@
+{
+  "development_only": true,
+  "model_sha": "3663af85bd04764b45a4b189cbe8ec5fcc32b7a1d6d6579bc39a05cd3d0dc26c",
+  "stage_sha": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "rating": "AUC and optimum recall under one false downgrade diagnose score separation on this development sample only. Threshold was left unchanged.",
+  "full": {
+    "eligible_good": 21,
+    "eligible_mild": 11,
+    "auc": 0.6666666666666666,
+    "upper_mild_at_1_false_good": 4,
+    "deployed_zero": {
+      "good_positive": 0,
+      "mild_positive": 0
+    }
+  },
+  "interior": {
+    "eligible_good": 21,
+    "eligible_mild": 11,
+    "auc": 0.6926406926406926,
+    "upper_mild_at_1_false_good": 5,
+    "deployed_zero": {
+      "good_positive": 0,
+      "mild_positive": 0
+    }
+  },
+  "clearly_out_or_edge": 34,
+  "mostly_background": 1,
+  "n": 34,
+  "rows": [
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172415.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.99478,
+      "peak_inside_margin": false,
+      "full": -0.36818641424179077,
+      "interior": -0.526404857635498
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172429.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.37506335973739624,
+      "interior": -0.6353484392166138
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172439.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.99716,
+      "peak_inside_margin": false,
+      "full": -0.5465207099914551,
+      "interior": -0.6062818765640259
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172444.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.95933,
+      "peak_inside_margin": false,
+      "full": -0.35515737533569336,
+      "interior": -0.6771590709686279
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172456.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.92075,
+      "peak_inside_margin": false,
+      "full": -0.19361065328121185,
+      "interior": -0.5173603296279907
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172505.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.94079,
+      "peak_inside_margin": false,
+      "full": -0.39175236225128174,
+      "interior": -0.6298576593399048
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172509.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.95636,
+      "peak_inside_margin": false,
+      "full": -0.38875719904899597,
+      "interior": -0.5217061042785645
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172513.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.4890199303627014,
+      "interior": -0.6452597379684448
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172516.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.34004366397857666,
+      "interior": -0.47314438223838806
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172524.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.98238,
+      "peak_inside_margin": false,
+      "full": -0.4045987129211426,
+      "interior": -0.5507370233535767
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172528.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.40253838896751404,
+      "interior": -0.54603511095047
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213339.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.17573630809783936,
+      "interior": -0.5930234789848328
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213345.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.08966819941997528,
+      "interior": -0.49257659912109375
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213349.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.41789084672927856,
+      "interior": -0.5752248167991638
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213417.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.90869,
+      "peak_inside_margin": false,
+      "full": -0.2117285579442978,
+      "interior": -0.5891118049621582
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213421.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.57639,
+      "peak_inside_margin": false,
+      "full": -0.2235005795955658,
+      "interior": -0.30918699502944946
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213500.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.90986,
+      "peak_inside_margin": false,
+      "full": -0.3476197123527527,
+      "interior": -0.5042829513549805
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213505.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.90596,
+      "peak_inside_margin": false,
+      "full": -0.23681025207042694,
+      "interior": -0.5541703701019287
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213514.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 0.9979,
+      "peak_inside_margin": false,
+      "full": -0.33282333612442017,
+      "interior": -0.5558196306228638
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213533.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.34046733379364014,
+      "interior": -0.5365558862686157
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213537.jpg",
+      "grade": 0,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.47084951400756836,
+      "interior": -0.6284811496734619
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230419_165355.jpg",
+      "grade": 1,
+      "parent": 2,
+      "peak_foreground_fraction": 0.85465,
+      "peak_inside_margin": false,
+      "full": -0.3325248956680298,
+      "interior": -0.6119869947433472
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230419_165402.jpg",
+      "grade": 1,
+      "parent": 2,
+      "peak_foreground_fraction": 0.7907,
+      "peak_inside_margin": false,
+      "full": -0.2335807979106903,
+      "interior": -0.7164195775985718
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_172449.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 0.94657,
+      "peak_inside_margin": false,
+      "full": -0.29955825209617615,
+      "interior": -0.6021148562431335
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213327.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.45575326681137085,
+      "interior": -0.5554687976837158
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 0.10999,
+      "peak_inside_margin": false,
+      "full": -0.477853387594223,
+      "interior": -0.6195734739303589
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213354.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 0.65496,
+      "peak_inside_margin": false,
+      "full": -0.3277275562286377,
+      "interior": -0.4047048091888428
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213359.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.0877334326505661,
+      "interior": -0.45857760310173035
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213412.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 0.82635,
+      "peak_inside_margin": false,
+      "full": -0.0318608283996582,
+      "interior": -0.39835983514785767
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213425.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.24457719922065735,
+      "interior": -0.5413154363632202
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213442.jpg",
+      "grade": 1,
+      "parent": 1,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.1356264054775238,
+      "interior": -0.44519519805908203
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213446.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.019383376464247704,
+      "interior": -0.45179224014282227
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213455.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.3310510516166687,
+      "interior": -0.508161723613739
+    },
+    {
+      "key": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213541.jpg",
+      "grade": 1,
+      "parent": 0,
+      "peak_foreground_fraction": 1.0,
+      "peak_inside_margin": false,
+      "full": -0.39979785680770874,
+      "interior": -0.5684949159622192
+    }
+  ]
+}

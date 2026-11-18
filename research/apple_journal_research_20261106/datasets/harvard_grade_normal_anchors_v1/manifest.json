@@ -1,0 +1,267 @@
+{
+  "doi": "10.7910/DVN/MR4SXI",
+  "author": "Anjali Sharma",
+  "license": "CC0-1.0",
+  "label_basis": "Author good class plus visual screening for evidently intact visible skin. No commercial inspection of unseen sides.",
+  "sample_unit": "Views of potentially repeated fruits. One training-only floor session. No independent per-fruit count inferred.",
+  "overlap_screen": "Original and crop SHA-256, minimum mean absolute RGB at 32x32 across rotations/reflections vs all 2500 HDF fresh. Conservative source/scene exclusion overrides image-level splits.",
+  "counts": {
+    "train": {
+      "0": 12
+    }
+  },
+  "samples": [
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00002.png",
+      "sha256": "6daecc8e62e4a298d1f95b6f4646a4a4de5e01885d1be7077a952ed991a8d6fb",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00002.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00002.jpg",
+      "source_sha256": "753d480026b38b113894f53bae053a19b68a11aeac9132aa875a69c858079978",
+      "source_md5": "3dcf2bcc2c42063f26cac7a4edb1bd6a",
+      "dataverse_file_id": 10798104,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        590,
+        517,
+        1049,
+        966
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 47.855
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00003.png",
+      "sha256": "bf65ed3eba43026183fdbb2248efa8501f181ff82d92b5fbbbab6fd02d1d2eca",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00003.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00003.jpg",
+      "source_sha256": "f43c7007e077343024a46cc16d0de10827ee5c9166741e00b1710f5c4cd1e33f",
+      "source_md5": "8363121907a81b51e708a8b1f1781896",
+      "dataverse_file_id": 10798099,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        617,
+        471,
+        979,
+        847
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 43.36
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00004.png",
+      "sha256": "3a1d85c725c3a579ce0cabfdff0a06142cfcf7438a8e69c1240e94fc61ffe25b",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00004.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00004.jpg",
+      "source_sha256": "1b226505d785b67c3751be63ab96ee6825662bd1ddc5d92137fff54bd4dd4c42",
+      "source_md5": "d10ad63877b991149ae18601dd41c3fe",
+      "dataverse_file_id": 10798105,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        214,
+        421,
+        578,
+        782
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 46.665
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00008.png",
+      "sha256": "780fdb3a806f1ce7d68e6b223eb23cd0be09d40eba1be3405a6eb4bc6a4ec83e",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00008.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00008.jpg",
+      "source_sha256": "67e40246a3f370d4aafcd38fe5dcad404581366428125c4d1b30a10e3f791471",
+      "source_md5": "1b6a88f475a44d14daa2e6d114e6f2a0",
+      "dataverse_file_id": 10798100,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        695,
+        155,
+        1001,
+        470
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 48.445
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00010.png",
+      "sha256": "f057a03c2a9c283dc0bc9d0a316a0a6dd4af12907467773091c71c8514c5554a",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00010.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00010.jpg",
+      "source_sha256": "41ba3298ff92e0675f02c54a7edf51f33a62bc954512d35edfc5afb09f2d50ae",
+      "source_md5": "9bc5f9e63c1212cc7090251fb9b88448",
+      "dataverse_file_id": 10798096,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        584,
+        488,
+        931,
+        830
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 48.176
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00012.png",
+      "sha256": "ed17d1f4fa4c861d87cb9e7716b1e4e10e7d600c89557ce53722cd1c896a128d",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00012.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00012.jpg",
+      "source_sha256": "059512e21b0e4e6b35f77c5dfefacc6946a1952c2b47ccc01eb3538b37bba09a",
+      "source_md5": "65c09f0c4b67ea2ad7b2b4817292086f",
+      "dataverse_file_id": 10798139,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        810,
+        171,
+        1123,
+        481
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 48.349
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00017.png",
+      "sha256": "0e134d2bf332caf0597242adcf6bd2500fe50a6afee271bdfb9d20d60cfcdc5a",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00017.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00017.jpg",
+      "source_sha256": "3357eb5a0f390a1ba3897340093c7062b84e58243d61b653905b72772a236808",
+      "source_md5": "ab0c0457edc14dafb9628508dfef8271",
+      "dataverse_file_id": 10798126,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        890,
+        649,
+        1302,
+        1021
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 50.195
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00020.png",
+      "sha256": "8f2ab461004d5def30f2690856bb03ef62bf7295be5aba689a8a877818794656",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00020.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00020.jpg",
+      "source_sha256": "6eae1e7e63dbc0b3cf7d54c1cebaae6dc7ea742560fcb1578ed435df2d37d3c4",
+      "source_md5": "ea4ceb6526780668242b591b384a5a73",
+      "dataverse_file_id": 10798153,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        683,
+        654,
+        1111,
+        1060
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 45.559
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00023.png",
+      "sha256": "7b81aaaebc87e4f3e3411bbac240648664db4faf99bc6dc9286ccfd2f14060ef",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00023.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00023.jpg",
+      "source_sha256": "e31a0563ede5568b0f3e2b11564b59a99c442d4bd4560d374ee8f442cf1bb277",
+      "source_md5": "f28ad7d4905e62a1edb5dc90d34f0768",
+      "dataverse_file_id": 10798108,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        556,
+        114,
+        877,
+        474
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 48.988
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00024.png",
+      "sha256": "9694668374890ccf1e6b7fcf1e593d6f4d0e1f09f8a8fb9b4f8dda3011582aa7",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00024.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00024.jpg",
+      "source_sha256": "4562e6fed39e3083a9a6ebf7bffa94145dac2b4cb16dc4f80175f4789a724eb4",
+      "source_md5": "f6aa366b2f624fdf2fca6f568da6f419",
+      "dataverse_file_id": 10798120,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        81,
+        369,
+        454,
+        729
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 44.31
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00030.png",
+      "sha256": "ea00fff782782df73f6ba9b74c886f13525d690243aa9c2cffef2a19ccace081",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00030.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00030.jpg",
+      "source_sha256": "92d83251958761f28e1fade18ccd891428151600e9f033a4dfd6f0c1785790ea",
+      "source_md5": "097309b89314bf70925e3a7fbf9e9070",
+      "dataverse_file_id": 10798133,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        891,
+        508,
+        1351,
+        902
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 49.662
+    },
+    {
+      "path": "datasets/harvard_grade_normal_anchors_v1/crops/00032.png",
+      "sha256": "e8aa89c86be027e4f35ddc64320ed21c4cb83e25368850843f69ee32303891e0",
+      "source": "Harvard_Dataverse_Good_Apple_CC0",
+      "source_member": "Anjali_Apples_Good_00032.jpg",
+      "original_path": "datasets/harvard_grade_normal_anchors_v1/originals/Anjali_Apples_Good_00032.jpg",
+      "source_sha256": "9bbaecaf8a455042c6d697f929d273c928770dcf983cffb2871073e5a69f13cf",
+      "source_md5": "4abb308bb64212f676a1e824060c7e93",
+      "dataverse_file_id": 10798171,
+      "grade": 0,
+      "split": "train",
+      "group_id": "Harvard_Anjali_gray_floor_session",
+      "condition_id": "Harvard_Anjali_gray_floor_session",
+      "crop_xyxy": [
+        858,
+        167,
+        1223,
+        526
+      ],
+      "nearest_hdf_fresh_mean_absolute_RGB_32_D4": 51.455
+    }
+  ]
+}

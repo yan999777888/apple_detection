@@ -1,0 +1,13 @@
+{
+  "start": "b268356c42cd917e662ad4f3e55d11f024bc355c15e4af130b58fb8e3f289075",
+  "architecture": "mobilenet_v3_small_supervised_surface_v1",
+  "af_annotations": "cb6ad4a48eb2023dddfffbcb426c3d84bc64913fb9599757e85cb89382f4206b",
+  "woo": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "guard": "cbb15662fa4067f3a2f2a0d6e9bb514daf07c74d3c564ce94f2da31006631477",
+  "image_training": "balanced by domain, grade and capture group, train only",
+  "location_training": "COCO local scratch mask; AF confirmed shallow marks and normal calyx/texture boxes only",
+  "limits": "The new branch may only move parent-good to mild; fixed boundary at zero. Run exactly 240 optimizer updates, check development every 20.",
+  "seed": 42091,
+  "steps": 240,
+  "script_sha256": "bc9225a5f4ee20d8d816a5704bb281b80dc565e8b25052f6e0a97bda4a983336"
+}

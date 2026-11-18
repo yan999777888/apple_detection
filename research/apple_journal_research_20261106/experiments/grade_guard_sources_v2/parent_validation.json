@@ -1,0 +1,105 @@
+{
+  "whole": {
+    "confusion": [
+      [
+        23,
+        2,
+        0,
+        0
+      ],
+      [
+        9,
+        4,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        16,
+        0
+      ]
+    ],
+    "columns": [
+      "good",
+      "medium",
+      "bad",
+      "unresolved"
+    ],
+    "correct": 43,
+    "medium_correct": 4,
+    "severe_correct": 16,
+    "severe_to_good": 0,
+    "unresolved": 0,
+    "n": 57
+  },
+  "auto": {
+    "confusion": [
+      [
+        20,
+        1,
+        0,
+        4
+      ],
+      [
+        8,
+        3,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        17,
+        0
+      ]
+    ],
+    "columns": [
+      "good",
+      "medium",
+      "bad",
+      "unresolved"
+    ],
+    "correct": 40,
+    "medium_correct": 3,
+    "severe_correct": 17,
+    "severe_to_good": 0,
+    "unresolved": 6,
+    "n": 57
+  },
+  "nll": 0.6682637929916382,
+  "new_dev": {
+    "confusion": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "columns": [
+      "good",
+      "medium",
+      "bad",
+      "unresolved"
+    ],
+    "correct": 0,
+    "medium_correct": 0,
+    "severe_correct": 0,
+    "severe_to_good": 0,
+    "unresolved": 0,
+    "n": 1
+  }
+}

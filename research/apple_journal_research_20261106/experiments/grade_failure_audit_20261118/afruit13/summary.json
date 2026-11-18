@@ -1,0 +1,24 @@
+{
+  "n_total": 66,
+  "n_misses": 13,
+  "primary_visual_counts": {
+    "清楚局部痕迹": 6,
+    "此面证据不足": 3,
+    "弱证据或外观边界": 4
+  },
+  "model_cpu_vs_gpu_disagreements": 0,
+  "neutral_intervention": {
+    "cpu_order": "whole/crop/neutral",
+    "patterns": {
+      "0/0/0": 8,
+      "1/0/0": 4,
+      "1/0/1": 1
+    }
+  },
+  "lesion_alert_images": {
+    "missed_minor": 8,
+    "correct_minor": 11,
+    "correct_good": 9
+  },
+  "supported_near_pairs": []
+}

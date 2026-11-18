@@ -1,0 +1,1654 @@
+[
+  {
+    "epoch": 1,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            25,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            16,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 42,
+        "medium_correct": 1,
+        "severe_correct": 16,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.9455865621566772,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.8302984635035197
+  },
+  {
+    "epoch": 2,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            11,
+            2,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            16,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 42,
+        "medium_correct": 2,
+        "severe_correct": 16,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8972324132919312,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.624914813372824
+  },
+  {
+    "epoch": 3,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            16,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 43,
+        "medium_correct": 3,
+        "severe_correct": 16,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8277418613433838,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.49876751171218026
+  },
+  {
+    "epoch": 4,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            16,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 43,
+        "medium_correct": 3,
+        "severe_correct": 16,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            9,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 39,
+        "medium_correct": 2,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.7551295757293701,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.5040143811040454
+  },
+  {
+    "epoch": 5,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 44,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8137859106063843,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.46327992114755845
+  },
+  {
+    "epoch": 6,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            11,
+            2,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 43,
+        "medium_correct": 2,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.887596845626831,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.4985184090005027
+  },
+  {
+    "epoch": 7,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 44,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8074139356613159,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.47952745027012295
+  },
+  {
+    "epoch": 8,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            16,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 43,
+        "medium_correct": 3,
+        "severe_correct": 16,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            9,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 39,
+        "medium_correct": 2,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.7914224863052368,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.5151994559499953
+  },
+  {
+    "epoch": 9,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 44,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8868491649627686,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.4770447810490926
+  },
+  {
+    "epoch": 10,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 44,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8581690788269043,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.49149329794777763
+  },
+  {
+    "epoch": 11,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 44,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8365049362182617,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.49182628095149994
+  },
+  {
+    "epoch": 12,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 44,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8242166638374329,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.44892288578881157
+  },
+  {
+    "epoch": 13,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 44,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8341898918151855,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.4652319484286838
+  },
+  {
+    "epoch": 14,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            10,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 44,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            10,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 1,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.8378394842147827,
+      "new_dev": {
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 1,
+        "medium_correct": 1,
+        "severe_correct": 0,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 1
+      }
+    },
+    "checks": {
+      "auto_mild": false,
+      "auto_good": true,
+      "auto_severe_correct": true,
+      "auto_severe_good": true,
+      "whole_severe_good": true,
+      "auxiliary_good": true,
+      "auxiliary_extreme": true
+    },
+    "loss": 0.4815805107355118
+  }
+]

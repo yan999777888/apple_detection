@@ -187,13 +187,15 @@ if __name__ == "__main__":
     parser.add_argument("--known-single-fruit", action="store_true")
     parser.add_argument("--grade-directory", type=Path, help="Optional tested grade model directory with weights.pt and selection.json")
     parser.add_argument("--long-edge", type=int, help="Maximum input long edge in pixels; coordinates and overlay refer to resized image")
+    parser.add_argument("--opencv-threads", type=int, choices=(1,8), default=1,
+                        help="CPU threads for decoding and resizing high-resolution frames")
     parser.add_argument("--output", type=Path, default=OUT/"preview")
     args=parser.parse_args()
     configure(args.output, "cpu" if args.smoke else "cuda")
     if args.smoke:
         smoke()
     elif args.image:
-        cv2.setNumThreads(1)
+        cv2.setNumThreads(args.opencv_threads)
         torch.set_num_threads(2)
         im=cv2.imdecode(np.fromfile(args.image,dtype=np.uint8),cv2.IMREAD_COLOR)
         if im is None:
@@ -207,7 +209,7 @@ if __name__ == "__main__":
         result,masks=pipe(im,known_single_fruit=args.known_single_fruit)
         if args.grade_directory:
             result["quality_model"] = dict(sha256=sha(args.grade_directory/"weights.pt"),crop_input_side=side)
-        result.update(source_hw=source_hw,prediction_hw=list(im.shape[:2]),
+        result.update(source_hw=source_hw,prediction_hw=list(im.shape[:2]),opencv_threads=args.opencv_threads,
                       coordinate_frame="inference frame in pixels. To map x/y to the source multiply by source/inference width/height respectively.")
         atomic_json(args.output/"prediction.json",result)
         cv2.imencode(".jpg",overlay(im,result,masks))[1].tofile(str(args.output/"prediction.jpg"))

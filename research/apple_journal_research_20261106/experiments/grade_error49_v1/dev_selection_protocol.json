@@ -1,0 +1,12 @@
+{
+  "version": "af57_guard_val_lexicographic_v1",
+  "reference_sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "permitted_inputs": ["AFruitDB frozen development 57 whole", "same AFruitDB development 57 original detector outputs with 10-percent context", "guard v2 validation rows only, with the recorded source crop"],
+  "decision": "Fixed class argmax in good, mild, severe order; first class wins an exact logit tie. A missing AF automatic crop is a miss in the denominator for its actual class.",
+  "safety_gate": "In each of the three panels independently: correctly good count >= Woo; severe-to-good count <= Woo; correctly severe count >= Woo. Equal comparisons on absent grades are vacuous. All comparisons use the same rows as Woo.",
+  "mild_gate": "AF automatic mild correct strictly exceeds Woo; AF whole mild correct at least Woo. If guard validation includes mild, guard mild correct at least Woo.",
+  "eligible_tiebreak_descending": ["AF automatic mild correct", "AF whole mild correct", "guard mild correct", "guard good correct", "AF automatic good correct", "AF whole good correct", "negative total severe-to-good across panels", "total severe correct", "total correct across panels"],
+  "exact_tie": "Prefer a nonspatial candidate over a spatial candidate, then sort by model directory name and SHA256 in ascending lexical order.",
+  "fallback": "If no challenger clears both gates, select Woo. Preselect exactly one diagnostic challenger when no repair passes; rank first by the fewest total extra severe-to-good cases across the three panels, then fewest total lost severe correct, fewest total lost good correct, fewest failed panel safety checks, fewest failed mild checks, then the usual performance and simplicity tiebreak. Only nonnegative shortfalls relative to Woo count. Freeze this challenger before the single field comparison; it is not eligible for release. Preserve individual predictions, counts, group outcomes, and gate shortfalls for every candidate.",
+  "forbidden": "No AF test, historical error panel, HDF panel, or guard test image. No refitting, threshold sweep, or reranking after any field observations."
+}

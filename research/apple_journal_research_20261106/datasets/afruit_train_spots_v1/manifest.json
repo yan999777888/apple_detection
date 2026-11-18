@@ -1,0 +1,1448 @@
+{
+  "samples": [
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "a53a2442955a3600a85fe74952e016ec2c1fddf7b4651060b83fe7802062b5fc",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        342,
+        233,
+        935,
+        798
+      ],
+      "positives_xyxy": [
+        [
+          2366,
+          1717,
+          2570,
+          1876
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          1977,
+          1523,
+          2125,
+          1646
+        ],
+        [
+          1662,
+          1417,
+          1736,
+          1611
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213651.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "c5bafeabc755e0b7ff94f3a1c0bbd9cbae7210b8ca979ddb36af6d30ab94defa",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        62,
+        0,
+        1076,
+        960
+      ],
+      "positives_xyxy": [
+        [
+          1905,
+          1500,
+          2253,
+          1830
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          1620,
+          1230,
+          1810,
+          1440
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213655.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "9cbb43bdfd775f68106cd1290e48e29437662f42f2fadba84269b11675709491",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        235,
+        0,
+        1162,
+        905
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1980,
+          1329,
+          2154,
+          1584
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213700.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "4a2e318ecb069c11162aaacc6c647d1cc47ca41fbec37499b7e9d14499d7c91e",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        241,
+        1,
+        1164,
+        960
+      ],
+      "positives_xyxy": [
+        [
+          1417,
+          2101,
+          1647,
+          2371
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          2397,
+          1322,
+          2541,
+          1472
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "29deed9ca37f034179a6d79e51f23e4d81fdccc8490ae4c0faa0b521f157e9d8",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        157,
+        0,
+        1136,
+        949
+      ],
+      "positives_xyxy": [
+        [
+          1867,
+          1779,
+          2143,
+          2046
+        ],
+        [
+          2387,
+          890,
+          2693,
+          1097
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          1714,
+          1335,
+          1837,
+          1631
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "2737a0a502c7e5cc4c8430c07303261c76f243f26814117cbc0fdaca013321ca",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        264,
+        137,
+        1103,
+        960
+      ],
+      "positives_xyxy": [
+        [
+          2110,
+          788,
+          2346,
+          968
+        ],
+        [
+          2713,
+          1328,
+          2870,
+          1560
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          1979,
+          1971,
+          2136,
+          2100
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213836.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "02bb7e2e2dd049de009c6ab095e5069466765ad4a8092537b56d182a33187012",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": null,
+      "positives_xyxy": [
+        [
+          2080,
+          510,
+          2360,
+          720
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          2040,
+          1230,
+          2200,
+          1410
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "e9067330a45bad6ee16e5ced6140b1ece66c4588d0f7cb0749a2aeef975a6814",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        184,
+        26,
+        1044,
+        866
+      ],
+      "positives_xyxy": [
+        [
+          1301,
+          1315,
+          1623,
+          1446
+        ],
+        [
+          1677,
+          1656,
+          1838,
+          1998
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          1650,
+          1236,
+          1919,
+          1420
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214028.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "6323dd6ae6446a626255bc9a44e96bb7b2a4f2c627955e06bbef9ce49a5f002c",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        158,
+        25,
+        1013,
+        906
+      ],
+      "positives_xyxy": [
+        [
+          1135,
+          1785,
+          1269,
+          2115
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          841,
+          1290,
+          1215,
+          1455
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214038.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "261f6c09da75be27c34db85991f1e859baf341ebc95be26d967fcea91bb479c1",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        179,
+        0,
+        1134,
+        946
+      ],
+      "positives_xyxy": [
+        [
+          2290,
+          1892,
+          2469,
+          2158
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          2678,
+          1389,
+          2977,
+          1567
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214043.jpg",
+      "grade": 1,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "358132da6ec634439e61a789015ca51b96f30d42b01852f73ad8d2cbbf7275b4",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": null,
+      "positives_xyxy": [
+        [
+          3320,
+          840,
+          3560,
+          1140
+        ]
+      ],
+      "negatives_xyxy": [
+        [
+          3160,
+          1320,
+          3560,
+          1470
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213713.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "a1395231a4a66bc5814c1652737abe8178e4559609ba1efcac1936c795d7d5ca",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": null,
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          2120,
+          1350,
+          2280,
+          1500
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213742.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "343518d1e430d245a6203cf0863ca4a08193de98c2a1db54788570da2da50ece",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        120,
+        37,
+        1115,
+        960
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1277,
+          1269,
+          1712,
+          1673
+        ],
+        [
+          1930,
+          1616,
+          2116,
+          1760
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213826.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "c726b11acd1604b6ba377652145fefe6c9319d90890525c5b83f062e39ef0a47",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        298,
+        31,
+        1109,
+        821
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          2097,
+          1109,
+          2274,
+          1282
+        ],
+        [
+          2452,
+          591,
+          2604,
+          739
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213914.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "5c645720c853c9cfa1cb0d706d4d62525c3bed18b84f95d86a0a116f5467737c",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        162,
+        68,
+        1033,
+        910
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1649,
+          1265,
+          1949,
+          1528
+        ],
+        [
+          2003,
+          923,
+          2112,
+          1081
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213951.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "a03456dba4f362630489a4cadccb73dddf4fa6dea8734faaa6178b8bc947b2a0",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        48,
+        260,
+        841,
+        960
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1141,
+          1206,
+          1340,
+          1381
+        ],
+        [
+          1290,
+          1950,
+          1439,
+          2081
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214053.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "b6a5d62559c047004c1213ffcc260603de9acce589e17b8ffc4d267880061a0e",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        173,
+        58,
+        1030,
+        910
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1237,
+          1033,
+          1505,
+          1379
+        ],
+        [
+          1692,
+          1512,
+          1826,
+          1646
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214139.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "c99218d41a1bed95a7b528eb8e382d7afa483835cb90a45a8d8797101d8b978c",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        131,
+        1,
+        832,
+        711
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1877,
+          1468,
+          2118,
+          1601
+        ],
+        [
+          1001,
+          802,
+          1176,
+          935
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214212.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "efe004dff3dd0b41f9ef2e6156707acc30bd73f758d6d0581a1d6b5a0c1fae3a",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        349,
+        114,
+        1187,
+        944
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          2714,
+          1368,
+          3290,
+          1601
+        ],
+        [
+          2112,
+          1523,
+          2217,
+          1757
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214245.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "0f0a7ced697563e9b2ad78510e00e468182e74640d44d63aa8078f3b9f6ee154",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        219,
+        23,
+        1003,
+        822
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1566,
+          1620,
+          1934,
+          1845
+        ],
+        [
+          1885,
+          1046,
+          2032,
+          1195
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214320.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "af196b21081889263c59c8ab63de1269261bddfb8c968b3e22e95acdcbc3406a",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        93,
+        41,
+        981,
+        914
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1595,
+          1192,
+          1928,
+          1410
+        ],
+        [
+          1262,
+          1056,
+          1456,
+          1219
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214401.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "484d525f3ac4204b15d8fbb0a0524d634bc68bf2ce9043bea34ddabd5484443c",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        277,
+        0,
+        1158,
+        865
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1939,
+          1270,
+          2187,
+          1460
+        ],
+        [
+          2435,
+          1027,
+          2573,
+          1270
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214435.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "ed70db65018a24f67ebae797d227a341da54365e2a9ee5b4434333f4f1b94337",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        147,
+        64,
+        893,
+        907
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1672,
+          1333,
+          1881,
+          1570
+        ],
+        [
+          2558,
+          1464,
+          2674,
+          1596
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214516.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "6e7a125d7a7ff75909b39969d64f3adeebc277609ff86e463ed5d3da3abc2028",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": null,
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1680,
+          1470,
+          1960,
+          1740
+        ],
+        [
+          2200,
+          1260,
+          2320,
+          1470
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214548.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "38f83e0493f81c23f689c05e1ad7a2d8d021c62dd2d15e1cb6f0b5c2b21cf5de",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        177,
+        0,
+        1174,
+        960
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1301,
+          1410,
+          1550,
+          1710
+        ],
+        [
+          2111,
+          1440,
+          2329,
+          1650
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214621.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "75760a786b566f86b420ab79fde458d908ff876107350dd9e391681a687d2914",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        189,
+        101,
+        1013,
+        829
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1595,
+          498,
+          1749,
+          657
+        ],
+        [
+          1775,
+          1362,
+          1955,
+          1521
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214705.jpg",
+      "grade": 0,
+      "group_id": "burst_0100",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "1ae5cf2bf7a8e602eb4a14417c15d87313096cfed9bcd5206d48dfcfa043a669",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        177,
+        111,
+        1082,
+        960
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1458,
+          878,
+          1741,
+          1090
+        ],
+        [
+          2250,
+          1965,
+          2476,
+          2098
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124035.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "274322ff40e95e390cdd574a55efd9d3d8debdff8c2241dffac30a679de5c138",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": null,
+      "positives_xyxy": [],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124129.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "f7d4dcb7a1cc5b5bce50ae2914f522851ea67a4aff8b6bb15bca3883797824f4",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": null,
+      "positives_xyxy": [],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124217.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "5b5a16557ccd4ab13b7d13b71424cad2b50a5b2a8cbca6d925a7f7bff76e0751",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        394,
+        109,
+        1041,
+        723
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124244.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "a013b6ff34aaeedd30cbbfe71c579aad109fcbad5fa58e4bb3421e07d9e612ee",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        461,
+        219,
+        1062,
+        828
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          2211,
+          1503,
+          2380,
+          1674
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124319.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "b892564716c81a0aea2b9a83eaf1815d413431c91789d5e2d2db7576158f232b",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        445,
+        193,
+        988,
+        712
+      ],
+      "positives_xyxy": [
+        [
+          2137,
+          1852,
+          2273,
+          1966
+        ]
+      ],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124352.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "8762291905f695b6d6ea34e82bd4f57cb4101b60280605fcd4f998381aaa2b25",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        325,
+        168,
+        950,
+        798
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124427.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "3b14dcb652850b061848125226fc4e13285bbb518311dbea709e6fb4fb9de99c",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        394,
+        225,
+        931,
+        791
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124501.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "b1e0c4cf9f027d2c967a118708c551b6e45a6da0411db16ba236af37fbfc90eb",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        396,
+        218,
+        874,
+        731
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1745,
+          1419,
+          1865,
+          1579
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124539.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "68c39f4b03b2c041f00991b24840e39402b4f5108cf436386e2f050252489abf",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        431,
+        152,
+        1024,
+        764
+      ],
+      "positives_xyxy": [
+        [
+          2014,
+          1642,
+          2255,
+          1871
+        ]
+      ],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124603.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "6947c3e747c59cf91c2e9025f8c639fefc1cdaf78d2cfaf8733de1c2adaf85ee",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        461,
+        158,
+        963,
+        633
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          2539,
+          969,
+          2711,
+          1073
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124631.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "3f2e2b5b687f94ff338cac9a0c70aef1dae36d205cb4b8f0ce23383159d0d663",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": null,
+      "positives_xyxy": [
+        [
+          2320,
+          1680,
+          2400,
+          1830
+        ]
+      ],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124717.jpg",
+      "grade": 1,
+      "group_id": "burst_0201",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "da0e41c31a1d3fe9ec030829bf28681100149a24638c25299d65746a3583971d",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        284,
+        38,
+        951,
+        665
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172627.jpg",
+      "grade": 0,
+      "group_id": "burst_0014",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "b33b085198aaa06f1619c81066dac573706de584b0c6c5fa309ff3b08ba328bf",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        159,
+        0,
+        1116,
+        960
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1364,
+          1650,
+          1843,
+          1860
+        ],
+        [
+          1125,
+          1110,
+          1364,
+          1290
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172646.jpg",
+      "grade": 0,
+      "group_id": "burst_0014",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "e06dff69a088d5908a529af3b801fbe4a4357a5dc0831ef9f7c02b12c664f6f1",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        122,
+        0,
+        1139,
+        960
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          2002,
+          1890,
+          2479,
+          2190
+        ],
+        [
+          1939,
+          1560,
+          2288,
+          1770
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "grade": 0,
+      "group_id": "burst_0014",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "ae90728b6aef9c246b0b122dae84242a6f6b233f280b12bd9bdeaa24556272f1",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        227,
+        91,
+        1046,
+        941
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1477,
+          1347,
+          1656,
+          1533
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "grade": 0,
+      "group_id": "burst_0014",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "f64878e0d7fe8e453094ceb3e1d0c54e969a010004d2a0e19b9a9def6836a67a",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": [
+        326,
+        0,
+        1269,
+        960
+      ],
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          1225,
+          1140,
+          1520,
+          1380
+        ],
+        [
+          2286,
+          1230,
+          2433,
+          1350
+        ]
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172753.jpg",
+      "grade": 0,
+      "group_id": "burst_0014",
+      "split": "train",
+      "source_hw": [
+        3000,
+        4000
+      ],
+      "sha256": "2afff24cf7febc890214893dddadd991d87e1e367d86b299cf34f3a160d8e82b",
+      "view_hw": [
+        960,
+        1280
+      ],
+      "crop_xyxy_1280": null,
+      "positives_xyxy": [],
+      "negatives_xyxy": [
+        [
+          800,
+          1680,
+          1160,
+          1890
+        ]
+      ]
+    }
+  ],
+  "input_manifest_sha256": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "region_sha256": "9005267be6b849ad16fb83bea9d57eb8dbe5f4ea609e110ee91e6bbd1915f3c6",
+  "scope": "training only; AI-reviewed small rectangles. Lesion type and physical severity unverified. Unmarked areas unknown; green boxes are visually ordinary structures, not exhaustive healthy tissue.",
+  "coordinates": "positives_xyxy and negatives_xyxy are on decoded ORIGINAL image axes. crop_xyxy_1280 is on view_hw. No crop means use whole source."
+}

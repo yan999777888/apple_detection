@@ -1,0 +1,51 @@
+{
+  "confusion": {
+    "previous": [
+      [
+        6,
+        6,
+        3
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "repair": [
+      [
+        3,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "groups": 4,
+  "grade_counts": {
+    "0": 15,
+    "1": 0,
+    "2": 0
+  },
+  "absent_grade_policy": "No rate or safety claim for a class with zero reserved instances; refer to separately identified external panels.",
+  "source_counts": {
+    "GroceryStoreDataset_visible_fruit_normal_proxy": 15
+  },
+  "manifest_sha256": "5282598a4ad0a1447357d97bb4d5e8170b5faee93cd601ed8190b9f49b99eda2",
+  "previous_sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "repair_sha256": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a"
+}

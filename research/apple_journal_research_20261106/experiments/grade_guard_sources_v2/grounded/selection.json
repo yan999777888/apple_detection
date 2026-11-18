@@ -1,0 +1,131 @@
+{
+  "arm": "grounded",
+  "epoch": 4,
+  "updates_completed": 252,
+  "threshold": 1.0,
+  "input_side": 224,
+  "metrics": {
+    "whole": {
+      "confusion": [
+        [
+          24,
+          1,
+          0,
+          0
+        ],
+        [
+          10,
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          16,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 43,
+      "medium_correct": 3,
+      "severe_correct": 16,
+      "severe_to_good": 0,
+      "unresolved": 0,
+      "n": 57
+    },
+    "auto": {
+      "confusion": [
+        [
+          20,
+          1,
+          0,
+          4
+        ],
+        [
+          9,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 39,
+      "medium_correct": 2,
+      "severe_correct": 17,
+      "severe_to_good": 0,
+      "unresolved": 6,
+      "n": 57
+    },
+    "nll": 0.7551295757293701,
+    "new_dev": {
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 1,
+      "medium_correct": 1,
+      "severe_correct": 0,
+      "severe_to_good": 0,
+      "unresolved": 0,
+      "n": 1
+    }
+  },
+  "checks": {
+    "auto_mild": false,
+    "auto_good": true,
+    "auto_severe_correct": true,
+    "auto_severe_good": true,
+    "whole_severe_good": true,
+    "auxiliary_good": true,
+    "auxiliary_extreme": true
+  },
+  "passed": false,
+  "weights_sha256": "b268356c42cd917e662ad4f3e55d11f024bc355c15e4af130b58fb8e3f289075",
+  "protocol_sha256": "de7c9f5aa9f7d1f7a97fa98d185c6ab21468f12d89106db1276ce51c76c5882a",
+  "image_exposures": "be6fe6e8885b0e1056063f39321f5d588c87aaf5d10b9eeea55f28b2ff468864",
+  "opportunity_count_by_class": {
+    "0": 939,
+    "1": 796,
+    "2": 686
+  },
+  "state_dict": "ordinary MobileNetV3-Small"
+}
