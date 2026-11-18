@@ -1,0 +1,13 @@
+{
+  "selection": {
+    "admit": 0.85,
+    "veto": 0,
+    "GT": 537,
+    "TP": 311,
+    "FP": 81,
+    "R": 0.5791433891992551,
+    "P": 0.7933673469387755
+  },
+  "model_sha256": "4da5252f83e3346fcde256ea9bb0674419b2fe9061e509b4a3db1cbfe9366e70",
+  "training_images": 596
+}
