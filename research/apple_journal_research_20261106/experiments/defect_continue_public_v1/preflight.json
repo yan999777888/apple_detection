@@ -1,0 +1,189 @@
+{
+  "parent_sha256": "21ca5879ab152ce754ed337e5f8abe3f1b611f99e3d86213be299816bf7f9de5",
+  "training": [
+    596,
+    1276
+  ],
+  "development": [
+    113,
+    230
+  ],
+  "cpu_parent_loaded_strict": true,
+  "device": "cpu",
+  "external_snapshot_found": true,
+  "external_ready": true,
+  "transfer_code_sha256": "1b63d861aa655406ae6758a9e76c9f3250645317f21ba3821e9099215d7296d5",
+  "snapshot": {
+    "snapshot": "75e57d602dc84195b8d705105909e37c",
+    "manifest_sha256": "e37fa965b09dc6c1ba5839c88d781dfa785e70ceac837eba22d42859de464e75",
+    "source_archives": [
+      "14f3879657d6a251a6d8707a421b8e91d5c33fa8a05ad6c940a296dff0daa56a",
+      "b32b8203a7b92e2149dddbe5c20038b9a292b7c711f166b6a90b66ef54ac02c8"
+    ],
+    "accepted_polygons_by_class": {
+      "0": 200,
+      "1": 33
+    },
+    "groups_by_class": {
+      "0": 69,
+      "1": 24
+    },
+    "excluded": {
+      "insufficient skin around source lesion": 24
+    },
+    "unique_accepted_mask_hashes": 233
+  },
+  "preview_protocol": "epoch 1, first four distinct donor groups per class, before/after/box in 256px native crops",
+  "preview_samples": [
+    {
+      "number": 1,
+      "host": "23945062_20211104_124639_248.jpg",
+      "donor": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|163#232",
+      "group": "14953c60bb01c2c711",
+      "target_class": 0,
+      "box": [
+        293,
+        202,
+        335,
+        250
+      ],
+      "reference_rgb": [
+        147.0,
+        109.0,
+        85.0
+      ]
+    },
+    {
+      "number": 2,
+      "host": "23945062_20211104_125342_606.jpg",
+      "donor": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|41#111",
+      "group": "1793190e42d7fcaa1d",
+      "target_class": 1,
+      "box": [
+        268,
+        179,
+        305,
+        209
+      ],
+      "reference_rgb": [
+        133.0,
+        104.0,
+        66.0
+      ]
+    },
+    {
+      "number": 3,
+      "host": "23945062_20211104_125403_608.jpg",
+      "donor": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|86#124",
+      "group": "eb6c9fc6673ccdeee9",
+      "target_class": 0,
+      "box": [
+        330,
+        207,
+        407,
+        235
+      ],
+      "reference_rgb": [
+        126.0,
+        93.0,
+        71.0
+      ]
+    },
+    {
+      "number": 4,
+      "host": "23945062_20211104_125704_307.jpg",
+      "donor": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|65#187",
+      "group": "47bd19a5c375b7a1f8",
+      "target_class": 1,
+      "box": [
+        483,
+        249,
+        547,
+        292
+      ],
+      "reference_rgb": [
+        96.0,
+        45.0,
+        35.0
+      ]
+    },
+    {
+      "number": 5,
+      "host": "23945062_20211104_125943_306.jpg",
+      "donor": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|17#43",
+      "group": "7a8b1251d99c9e8d18",
+      "target_class": 1,
+      "box": [
+        538,
+        182,
+        581,
+        216
+      ],
+      "reference_rgb": [
+        110.0,
+        85.0,
+        40.0
+      ]
+    },
+    {
+      "number": 6,
+      "host": "23945062_20211104_130047_305.jpg",
+      "donor": "penn-state-university/fruit_defects|2|train/_annotations.coco.json|64#184",
+      "group": "e8db972a96af8d27c8",
+      "target_class": 1,
+      "box": [
+        216,
+        159,
+        253,
+        190
+      ],
+      "reference_rgb": [
+        146.0,
+        112.0,
+        56.0
+      ]
+    },
+    {
+      "number": 7,
+      "host": "23945062_20211104_132903_213.jpg",
+      "donor": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|200#293",
+      "group": "97339b519a97a6a5dc",
+      "target_class": 0,
+      "box": [
+        271,
+        269,
+        320,
+        303
+      ],
+      "reference_rgb": [
+        119.0,
+        94.0,
+        56.0
+      ]
+    },
+    {
+      "number": 8,
+      "host": "23945062_20211104_141026_122.jpg",
+      "donor": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|170#239",
+      "group": "cf2d0e7d81b8e0f332",
+      "target_class": 0,
+      "box": [
+        178,
+        219,
+        387,
+        346
+      ],
+      "reference_rgb": [
+        112.0,
+        82.0,
+        44.0
+      ]
+    }
+  ],
+  "inserted": 197,
+  "inserted_by_class": {
+    "0": 99,
+    "1": 98
+  },
+  "groups_used": 69
+}

@@ -1,0 +1,25 @@
+{
+  "timing": {
+    "n": 600,
+    "mean_ms": 35.607407999535404,
+    "p50_ms": 35.34410000429489,
+    "p95_ms": 41.332679986953735,
+    "serial_fps": 28.084043635331383
+  },
+  "frozen_point": {
+    "thresholds": [
+      0.3964339622641509,
+      0.3022830188679245
+    ],
+    "P": 0.8839779005524862,
+    "R": 0.7960199004975125,
+    "TP": 160,
+    "FP": 21
+  },
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "images": 40,
+  "repeats": 15,
+  "warmup": 5,
+  "precision": "bf16 defect 704, fp32 original maturity",
+  "excludes": "disk read and acquisition"
+}

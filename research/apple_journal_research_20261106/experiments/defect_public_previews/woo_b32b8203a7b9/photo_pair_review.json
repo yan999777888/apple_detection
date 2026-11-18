@@ -1,0 +1,662 @@
+{
+  "source_candidate_sha256": "43900b0bb7c8cc11d5e984d0499b802cf3cd8961b26533463e6b236c9956da4d",
+  "basis": "all 82 displayed pairs personally inspected on fruit-surface panels. Near-same is not byte identity; similar uncertain pairs use one donor view, no claim of verified fruit identity.",
+  "pairs": [
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|25",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|4",
+      "ss": true,
+      "px": false,
+      "code": "W001",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|101",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|23",
+      "ss": true,
+      "px": false,
+      "code": "W002",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|101",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|30",
+      "ss": true,
+      "px": false,
+      "code": "W003",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|109",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|64",
+      "ss": true,
+      "px": false,
+      "code": "W004",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|114",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|19",
+      "ss": true,
+      "px": false,
+      "code": "W005",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|117",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|24",
+      "ss": true,
+      "px": false,
+      "code": "W006",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|117",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|41",
+      "ss": true,
+      "px": false,
+      "code": "W007",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|124",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|19",
+      "ss": true,
+      "px": false,
+      "code": "W008",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|124",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|7",
+      "ss": true,
+      "px": false,
+      "code": "W009",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|124",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|95",
+      "ss": true,
+      "px": false,
+      "code": "W010",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|130",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|124",
+      "ss": true,
+      "px": false,
+      "code": "W011",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|130",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|7",
+      "ss": true,
+      "px": false,
+      "code": "W012",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|130",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|95",
+      "ss": true,
+      "px": false,
+      "code": "W013",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|135",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|12",
+      "ss": true,
+      "px": false,
+      "code": "W014",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|144",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|93",
+      "ss": true,
+      "px": false,
+      "code": "W015",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|164",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|25",
+      "ss": true,
+      "px": false,
+      "code": "W016",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|171",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|1",
+      "ss": true,
+      "px": false,
+      "code": "W017",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|176",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|4",
+      "ss": true,
+      "px": false,
+      "code": "W018",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|177",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|151",
+      "ss": true,
+      "px": false,
+      "code": "W019",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|177",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|163",
+      "ss": true,
+      "px": false,
+      "code": "W020",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|19",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|7",
+      "ss": true,
+      "px": false,
+      "code": "W021",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|196",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|189",
+      "ss": true,
+      "px": false,
+      "code": "W022",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|20",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|11",
+      "ss": true,
+      "px": false,
+      "code": "W023",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|201",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|168",
+      "ss": true,
+      "px": false,
+      "code": "W024",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|207",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|153",
+      "ss": true,
+      "px": false,
+      "code": "W025",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|209",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|25",
+      "ss": true,
+      "px": false,
+      "code": "W026",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|209",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|44",
+      "ss": true,
+      "px": false,
+      "code": "W027",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|221",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|109",
+      "ss": true,
+      "px": false,
+      "code": "W028",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|229",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|30",
+      "ss": true,
+      "px": false,
+      "code": "W029",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|232",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|91",
+      "ss": true,
+      "px": false,
+      "code": "W030",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|235",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|164",
+      "ss": true,
+      "px": false,
+      "code": "W031",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|235",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|180",
+      "ss": true,
+      "px": false,
+      "code": "W032",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|235",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|229",
+      "ss": true,
+      "px": false,
+      "code": "W033",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|239",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|164",
+      "ss": true,
+      "px": false,
+      "code": "W034",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|239",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|217",
+      "ss": true,
+      "px": false,
+      "code": "W035",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|239",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|30",
+      "ss": true,
+      "px": false,
+      "code": "W036",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|241",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|35",
+      "ss": true,
+      "px": false,
+      "code": "W037",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|242",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|101",
+      "ss": true,
+      "px": false,
+      "code": "W038",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|242",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|180",
+      "ss": true,
+      "px": false,
+      "code": "W039",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|242",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|235",
+      "ss": true,
+      "px": false,
+      "code": "W040",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|243",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|177",
+      "ss": true,
+      "px": false,
+      "code": "W041",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|243",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|201",
+      "ss": true,
+      "px": false,
+      "code": "W042",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|249",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|24",
+      "ss": true,
+      "px": false,
+      "code": "W043",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|249",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|211",
+      "ss": true,
+      "px": false,
+      "code": "W044",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|252",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|153",
+      "ss": true,
+      "px": false,
+      "code": "W045",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|255",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|175",
+      "ss": true,
+      "px": false,
+      "code": "W046",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|30",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|23",
+      "ss": true,
+      "px": false,
+      "code": "W047",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|44",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|25",
+      "ss": true,
+      "px": false,
+      "code": "W048",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|44",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|4",
+      "ss": true,
+      "px": false,
+      "code": "W049",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|51",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|40",
+      "ss": true,
+      "px": false,
+      "code": "W050",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|56",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|30",
+      "ss": true,
+      "px": false,
+      "code": "W051",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|88",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|67",
+      "ss": true,
+      "px": false,
+      "code": "W052",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|92",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|33",
+      "ss": true,
+      "px": false,
+      "code": "W053",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|95",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|7",
+      "ss": true,
+      "px": false,
+      "code": "W054",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|1",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|144",
+      "ss": true,
+      "px": false,
+      "code": "W055",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|1",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|30",
+      "ss": true,
+      "px": false,
+      "code": "W056",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|1",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|40",
+      "ss": true,
+      "px": false,
+      "code": "W057",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|1",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|51",
+      "ss": true,
+      "px": false,
+      "code": "W058",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|1",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|93",
+      "ss": true,
+      "px": false,
+      "code": "W059",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|12",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|198",
+      "ss": true,
+      "px": false,
+      "code": "W060",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|17",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|183",
+      "ss": true,
+      "px": false,
+      "code": "W061",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|23",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|14",
+      "ss": true,
+      "px": false,
+      "code": "W062",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|26",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|168",
+      "ss": true,
+      "px": false,
+      "code": "W063",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|26",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|44",
+      "ss": true,
+      "px": false,
+      "code": "W064",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|27",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|144",
+      "ss": true,
+      "px": false,
+      "code": "W065",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|27",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|40",
+      "ss": true,
+      "px": false,
+      "code": "W066",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|27",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|51",
+      "ss": true,
+      "px": false,
+      "code": "W067",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|27",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|1",
+      "ss": true,
+      "px": false,
+      "code": "W068",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|3",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|221",
+      "ss": true,
+      "px": false,
+      "code": "W069",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|34",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|233",
+      "ss": true,
+      "px": false,
+      "code": "W070",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|34",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|238",
+      "ss": true,
+      "px": false,
+      "code": "W071",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|42",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|25",
+      "ss": true,
+      "px": false,
+      "code": "W072",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|42",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|19",
+      "ss": true,
+      "px": false,
+      "code": "W073",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|53",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|160",
+      "ss": true,
+      "px": false,
+      "code": "W074",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|55",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|264",
+      "ss": true,
+      "px": false,
+      "code": "W075",
+      "relationship": "visibly_different_surface_or_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|63",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|24",
+      "ss": true,
+      "px": false,
+      "code": "W076",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|63",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|211",
+      "ss": true,
+      "px": false,
+      "code": "W077",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|63",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|249",
+      "ss": true,
+      "px": false,
+      "code": "W078",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|65",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|test/_annotations.coco.json|14",
+      "ss": true,
+      "px": false,
+      "code": "W079",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|65",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|56",
+      "ss": true,
+      "px": false,
+      "code": "W080",
+      "relationship": "too_similar_to_repeat_train"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|valid/_annotations.coco.json|70",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|176",
+      "ss": true,
+      "px": false,
+      "code": "W081",
+      "relationship": "near_same_visible_view"
+    },
+    {
+      "a": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|220",
+      "b": "woo-wwyog/orchard-apple-defect-segmentatio|1|train/_annotations.coco.json|183",
+      "ss": false,
+      "px": true,
+      "code": "W082",
+      "relationship": "too_similar_to_repeat_train"
+    }
+  ]
+}

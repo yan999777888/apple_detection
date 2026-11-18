@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T10:11:59.530158+00:00",
+  "snapshot_updated_utc": "2026-11-18T10:29:45.033576+00:00",
   "files": [
     {
       "path": "README.md",
@@ -278,6 +278,11 @@
       "bytes": 12335
     },
     {
+      "path": "apple_research_v2/defect_continue_center_consensus.py",
+      "sha256": "af4cb6b177e7ceed01e679d1c9be0e18eb99f88654039402d235f08d5e00d5a8",
+      "bytes": 7968
+    },
+    {
       "path": "apple_research_v2/defect_continue_center_net.py",
       "sha256": "a3bb75619e164e3f8b2621655c1bb3017895180576a98b9374546d9e1763e255",
       "bytes": 7729
@@ -301,6 +306,21 @@
       "path": "apple_research_v2/defect_continue_metric_errors.py",
       "sha256": "c81f73a89009cc016ea5d1ee285011a9d2e6b841bceacd7aedd248f1aee7f23e",
       "bytes": 1781
+    },
+    {
+      "path": "apple_research_v2/defect_continue_public_checks.py",
+      "sha256": "cf0e97073fd8e6dd76cbc614c9c83f8496a762af1ded852104e4f3e331482e46",
+      "bytes": 14330
+    },
+    {
+      "path": "apple_research_v2/defect_continue_public_training.py",
+      "sha256": "d27a54e713d4b4e3a44b318851b34a4377d4c38fc11a2e8cdd932d0b2f73f0e2",
+      "bytes": 18895
+    },
+    {
+      "path": "apple_research_v2/defect_continue_public_transfer.py",
+      "sha256": "1b63d861aa655406ae6758a9e76c9f3250645317f21ba3821e9099215d7296d5",
+      "bytes": 12490
     },
     {
       "path": "apple_research_v2/defect_continue_rank.py",
@@ -376,6 +396,36 @@
       "path": "apple_research_v2/defect_precision92_consensus.py",
       "sha256": "310136028170b16e15b3da70f50f0e718c7cfa8f13ad06a17783fb5ec20379e9",
       "bytes": 5886
+    },
+    {
+      "path": "apple_research_v2/defect_public_foreground.py",
+      "sha256": "2e719300d5abc205ba4143fa36adff803349d31b5f999039193a1436d53d8486",
+      "bytes": 5110
+    },
+    {
+      "path": "apple_research_v2/defect_public_intake.py",
+      "sha256": "586312249748e626944c4f637500c7a94052909e03e915e02a7f336f613b8ab0",
+      "bytes": 25644
+    },
+    {
+      "path": "apple_research_v2/defect_public_intake_checks.py",
+      "sha256": "cc9878931dd62ebdbab75f6dc196d74fc5e7d2673c87adbc4b6a02dd6385e70a",
+      "bytes": 6629
+    },
+    {
+      "path": "apple_research_v2/defect_public_intake_report.py",
+      "sha256": "a3edfdd4075ab269c406e3cd82e218be03ce72760407e886a0c847a05ce7b79e",
+      "bytes": 7545
+    },
+    {
+      "path": "apple_research_v2/defect_public_preview.py",
+      "sha256": "7ec991a459ae459789e729927e312b58af8fa5552c88f0df8d7e96bb69dd714f",
+      "bytes": 6225
+    },
+    {
+      "path": "apple_research_v2/defect_public_review_pairs.py",
+      "sha256": "463e71a6b4f94635a5dccd1d3396e883c20347c59dc8d639b1c7b1ee0dbeaa1a",
+      "bytes": 2955
     },
     {
       "path": "apple_research_v2/defect_refine_20261112.py",
@@ -784,8 +834,8 @@
     },
     {
       "path": "docs/公开缺陷定位数据卡_20261118.md",
-      "sha256": "6077306f3ab1f05671cfb912656d12fa3473edf333e20447db344191c00ab53a",
-      "bytes": 3063
+      "sha256": "f4e978b13e6512486466bf686116a002fbe04d7eeb0d2e9c54710b3c5a2637cd",
+      "bytes": 4533
     },
     {
       "path": "docs/接手实测与研究路线_20261112.md",
@@ -816,6 +866,11 @@
       "path": "docs/缺陷检测_P94R85_架构验证_20261118.md",
       "sha256": "378d1924bec7683d10aa711f9daf8c2ca78bdb1f64e56ec6e9e9da2269ae81e7",
       "bytes": 8658
+    },
+    {
+      "path": "docs/缺陷检测_续训与公开数据验证_20261118.md",
+      "sha256": "0809ff9b1cd2c304e94aea6a338bcc9edca1d6101fa476a96963cbacf2e1225f",
+      "bytes": 4837
     },
     {
       "path": "docs/缺陷检测优化对照_20261118.md",
@@ -1288,9 +1343,49 @@
       "bytes": 7331
     },
     {
+      "path": "experiments/defect_continue_center/benchmark.json",
+      "sha256": "4e28f4c8170e316bc6f148a724211e8cfacf193f5b3c5af648cf8f5dde213046",
+      "bytes": 586
+    },
+    {
+      "path": "experiments/defect_continue_center/comparison.json",
+      "sha256": "a4c219335edba1d512d8c20fb9b763d25fb2e9660caf97204dd2819fcba6ce7e",
+      "bytes": 12938
+    },
+    {
+      "path": "experiments/defect_continue_center/fresh_metrics.json",
+      "sha256": "11af452a08f814e9acdbb18a51d301fd552409b4e19bcbfa1c2072ece9e26aa6",
+      "bytes": 6955
+    },
+    {
+      "path": "experiments/defect_continue_center/frozen.json",
+      "sha256": "767bb5b69eea895cf10ed4f07440472a4ac6c6d407d9942685934b5457b7312c",
+      "bytes": 25558
+    },
+    {
       "path": "experiments/defect_continue_center/preflight.json",
       "sha256": "f322c839ddc8f853ecf4497a3769822c9e84396b75569952f2b4855c1c032251",
       "bytes": 493
+    },
+    {
+      "path": "experiments/defect_continue_center/report.md",
+      "sha256": "bf81fb550c34380c2980b40892874a6f78293b1dac20f38f259f40307e08726b",
+      "bytes": 3064
+    },
+    {
+      "path": "experiments/defect_continue_center_consensus/comparison.json",
+      "sha256": "bf17e17df13f93b46740f38ed51d6c4d423ea65c02e2a732bd43d79204019aac",
+      "bytes": 12518
+    },
+    {
+      "path": "experiments/defect_continue_center_consensus/metrics.json",
+      "sha256": "cec931de0e7965a6fc922457b306acb5890877d06d8c7f11d721bb6be4ba9adb",
+      "bytes": 15246
+    },
+    {
+      "path": "experiments/defect_continue_center_consensus/report.md",
+      "sha256": "828c4ca82f956226a7eb9430fc958bba0b7f5dd2aa408de67792b44b524d3fe4",
+      "bytes": 2286
     },
     {
       "path": "experiments/defect_continue_metric/benchmark.json",
@@ -1316,6 +1411,11 @@
       "path": "experiments/defect_continue_metric/report.md",
       "sha256": "f77755850496d270a495b015fd1bbeb0694ee3f6ffb5a67b5c54414eb1d98fc4",
       "bytes": 3185
+    },
+    {
+      "path": "experiments/defect_continue_public_v1/preflight.json",
+      "sha256": "e543050e4813b8c8442e9b43ffdd8a7e8c8ef78b4e7913318d36597001ea9a7b",
+      "bytes": 4518
     },
     {
       "path": "experiments/defect_continue_rank/cpu_check.json",
@@ -1416,6 +1516,31 @@
       "path": "experiments/defect_precision92_v1/speed.json",
       "sha256": "f4bde7af27b6294daea56e9bd8a5063ab523bb5acbd69706100f26520bb6e60d",
       "bytes": 557
+    },
+    {
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/receipt.json",
+      "sha256": "a7c17bc7b018acb42496eb28d386656668e319b9caccacd894e33424855ca178",
+      "bytes": 5050
+    },
+    {
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/usable_summary.json",
+      "sha256": "09f0dc87db5dd17310d54f4ddc6d2e587b3a7348a3e765960164ed12eb5928c4",
+      "bytes": 1282
+    },
+    {
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/外部病灶入库报告.md",
+      "sha256": "aa95a630b30c69b5951ec103d9a25597242eee3308cd9aea2e8448f1bee9a80e",
+      "bytes": 3663
+    },
+    {
+      "path": "experiments/defect_public_previews/woo_b32b8203a7b9/photo_pair_review.json",
+      "sha256": "3ee5bfed131a7d448f492ad65db5a83d4e8820c10c0bf032c3e27085a7509607",
+      "bytes": 26296
+    },
+    {
+      "path": "experiments/defect_public_previews/woo_b32b8203a7b9/reviewed_pin.json",
+      "sha256": "8c18faf69b135ebf6c31995d118a5b701487c70b5a923274ebc703a9730c679d",
+      "bytes": 1223
     },
     {
       "path": "experiments/defect_refine_20261112_v1/results.json",

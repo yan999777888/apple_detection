@@ -1,0 +1,21 @@
+{
+  "project_id": "woo-wwyog/orchard-apple-defect-segmentatio",
+  "version": "1",
+  "record_url": "https://universe.roboflow.com/woo-wwyog/orchard-apple-defect-segmentatio/dataset/1",
+  "license": "CC BY 4.0",
+  "license_evidence_url": "https://universe.roboflow.com/woo-wwyog/orchard-apple-defect-segmentatio",
+  "archive": "F:\\\u7814\u7a76\u751f\u6bd5\u4e1a\u8bbe\u8ba1\\\u6a21\u5757\u4e00\u5b9a\u4f4d\u8865\u507f\u4ee5\u53ca\u9884\u6d4b\\apple_journal_research_20261106\\datasets\\public_defect_intake\\orchard-apple-defect-segmentatio.v1-orchard_apple_defect_seg_v1.coco-segmentation.zip",
+  "archive_sha256": "b32b8203a7b92e2149dddbe5c20038b9a292b7c711f166b6a90b66ef54ac02c8",
+  "coco_members": [
+    "test/_annotations.coco.json",
+    "train/_annotations.coco.json",
+    "valid/_annotations.coco.json"
+  ],
+  "category_map": {
+    "scratch": 0
+  },
+  "pair_review": {
+    "path": "F:\\\u7814\u7a76\u751f\u6bd5\u4e1a\u8bbe\u8ba1\\\u6a21\u5757\u4e00\u5b9a\u4f4d\u8865\u507f\u4ee5\u53ca\u9884\u6d4b\\apple_journal_research_20261106\\experiments\\defect_public_previews\\woo_b32b8203a7b9\\photo_pair_review.json",
+    "sha256": "3ee5bfed131a7d448f492ad65db5a83d4e8820c10c0bf032c3e27085a7509607"
+  }
+}

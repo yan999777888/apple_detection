@@ -1,0 +1,107 @@
+{
+  "source_specs": [
+    {
+      "project_id": "penn-state-university/fruit_defects",
+      "version": "2",
+      "record_url": "https://universe.roboflow.com/penn-state-university/fruit_defects/dataset/2",
+      "license": "CC BY 4.0",
+      "license_evidence_url": "https://universe.roboflow.com/penn-state-university/fruit_defects",
+      "archive": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\public_defect_intake\\Fruit_defects.v2-severity_val.coco-segmentation.zip",
+      "archive_sha256": "14f3879657d6a251a6d8707a421b8e91d5c33fa8a05ad6c940a296dff0daa56a",
+      "coco_members": [
+        "train/_annotations.coco.json"
+      ],
+      "category_map": {
+        "Codling Moth Entry": 1,
+        "Plum Curculio": 1,
+        "Stink Bug": 1
+      },
+      "exclude_annotations": [
+        {
+          "annotation": 125,
+          "image_id": 45,
+          "reason": "Instance preview: diffuse color or shadow without a clearly distinguishable local wound for a training crop",
+          "coco_member": "train/_annotations.coco.json"
+        },
+        {
+          "annotation": 127,
+          "image_id": 45,
+          "reason": "Instance preview: diffuse color or shadow without a clearly distinguishable local wound for a training crop",
+          "coco_member": "train/_annotations.coco.json"
+        },
+        {
+          "annotation": 123,
+          "image_id": 45,
+          "reason": "Instance preview: diffuse color or shadow without a clearly distinguishable local wound for a training crop",
+          "coco_member": "train/_annotations.coco.json"
+        },
+        {
+          "annotation": 128,
+          "image_id": 45,
+          "reason": "Instance preview: diffuse color or shadow without a clearly distinguishable local wound for a training crop",
+          "coco_member": "train/_annotations.coco.json"
+        },
+        {
+          "annotation": 126,
+          "image_id": 45,
+          "reason": "Instance preview: diffuse color or shadow without a clearly distinguishable local wound for a training crop",
+          "coco_member": "train/_annotations.coco.json"
+        },
+        {
+          "annotation": 124,
+          "image_id": 45,
+          "reason": "Instance preview: diffuse color or shadow without a clearly distinguishable local wound for a training crop",
+          "coco_member": "train/_annotations.coco.json"
+        },
+        {
+          "annotation": 177,
+          "image_id": 61,
+          "reason": "Instance preview: protruding dark material cannot be confidently distinguished from an object on the fruit surface",
+          "coco_member": "train/_annotations.coco.json"
+        },
+        {
+          "annotation": 64,
+          "image_id": 26,
+          "reason": "Instance preview: protruding dark material cannot be confidently distinguished from an object on the fruit surface",
+          "coco_member": "train/_annotations.coco.json"
+        }
+      ]
+    },
+    {
+      "project_id": "woo-wwyog/orchard-apple-defect-segmentatio",
+      "version": "1",
+      "record_url": "https://universe.roboflow.com/woo-wwyog/orchard-apple-defect-segmentatio/dataset/1",
+      "license": "CC BY 4.0",
+      "license_evidence_url": "https://universe.roboflow.com/woo-wwyog/orchard-apple-defect-segmentatio",
+      "archive": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\datasets\\public_defect_intake\\orchard-apple-defect-segmentatio.v1-orchard_apple_defect_seg_v1.coco-segmentation.zip",
+      "archive_sha256": "b32b8203a7b92e2149dddbe5c20038b9a292b7c711f166b6a90b66ef54ac02c8",
+      "coco_members": [
+        "test/_annotations.coco.json",
+        "train/_annotations.coco.json",
+        "valid/_annotations.coco.json"
+      ],
+      "category_map": {
+        "scratch": 0
+      },
+      "pair_review": {
+        "path": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106\\experiments\\defect_public_previews\\woo_b32b8203a7b9\\photo_pair_review.json",
+        "sha256": "3ee5bfed131a7d448f492ad65db5a83d4e8820c10c0bf032c3e27085a7509607"
+      }
+    }
+  ],
+  "SSDA_manifest_sha256": "d748a4ada46e4dd3e087aff11c7813d9ab22044d5bbfb2d05c6cfa135a27f19f",
+  "code_sha256": "586312249748e626944c4f637500c7a94052909e03e915e02a7f336f613b8ab0",
+  "counts": {
+    "images": 448,
+    "positive_crops": 257,
+    "decisions": {
+      "no valid approved localized positive": 178,
+      "export positive crops": 96,
+      "author partition excluded from training": 112,
+      "overlaps external author validation/test group": 41,
+      "same-source group; representative only": 21
+    }
+  },
+  "duplicate_screen": "byte SHA, source lineage and D4 perceptual hashes on full/central views; arbitrary crops, oblique rotations or fruit identities may be unresolved",
+  "manifest_sha256": "e37fa965b09dc6c1ba5839c88d781dfa785e70ceac837eba22d42859de464e75"
+}

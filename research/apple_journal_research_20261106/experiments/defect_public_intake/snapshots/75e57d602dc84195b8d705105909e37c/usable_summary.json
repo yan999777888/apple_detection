@@ -1,0 +1,50 @@
+{
+  "class_counts": {
+    "Codling Moth Entry": {
+      "regions": 15,
+      "source_images": 13,
+      "capture_groups": 13
+    },
+    "Plum Curculio": {
+      "regions": 11,
+      "source_images": 9,
+      "capture_groups": 9
+    },
+    "Stink Bug": {
+      "regions": 7,
+      "source_images": 2,
+      "capture_groups": 2
+    },
+    "scratch": {
+      "regions": 224,
+      "source_images": 72,
+      "capture_groups": 72
+    }
+  },
+  "total_crops": 257,
+  "source_images": 96,
+  "SSDA_ref": {
+    "dev": 113,
+    "train": 596,
+    "quarantine": 1
+  },
+  "external_seen": 448,
+  "ssda_matched": 0,
+  "direct_edge_types": {
+    "fixed_scene_background_unconfirmed": 1508,
+    "uncertain_surface": 1485,
+    "different_visible_surface": 587,
+    "same_source_lineage": 126,
+    "reviewed_near_same_view": 19,
+    "reviewed_similar_view": 16
+  },
+  "decisions": {
+    "no valid approved localized positive": 178,
+    "export positive crops": 96,
+    "author partition excluded from training": 112,
+    "overlaps external author validation/test group": 41,
+    "same-source group; representative only": 21
+  },
+  "repeated_lesion_contexts": 0,
+  "manifest_sha256": "e37fa965b09dc6c1ba5839c88d781dfa785e70ceac837eba22d42859de464e75"
+}
