@@ -1,0 +1,24 @@
+{
+  "theoretical_only": true,
+  "logit_shift_bound": 2.0,
+  "fixed_thresholds": {
+    "scratch": 0.4,
+    "insect": 0.34
+  },
+  "sigmoid_logit_threshold_minus_bound": {
+    "scratch": 0.0827569028956317,
+    "insect": 0.06517434008612316
+  },
+  "scope": "Previously unannotated training points marked as lesions by reader. Any candidate in that class containing the identified center; no localization GT.",
+  "form": "When adjusted_logit = old_logit + delta and delta <= bound, old_score < sigmoid(logit(threshold)-bound) cannot pass threshold.",
+  "model": "a8ce9e6c9035e1c1c8a2ff6c1907b4d98272e1e33e64d31e3d27c4b43ef8d980",
+  "export_sha": "dc752a8de867121974abb5eb379d5612dfb9956b9471213e68f020eac7e96831",
+  "counts": {
+    "insect/no_proposal_at_point": 2,
+    "insect/inside_score_headroom": 1,
+    "insect/cannot_cross_workpoint": 6,
+    "scratch/inside_score_headroom": 1,
+    "insect/already_at_workpoint": 3,
+    "scratch/cannot_cross_workpoint": 4
+  }
+}
