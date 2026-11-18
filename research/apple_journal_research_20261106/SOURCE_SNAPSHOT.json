@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T09:02:14.696064+00:00",
+  "snapshot_updated_utc": "2026-11-18T09:10:05.345961+00:00",
   "files": [
     {
       "path": "README.md",
@@ -171,6 +171,16 @@
       "path": "apple_research_v2/defect_four_orientations_20261118.py",
       "sha256": "b3d69018eabf4d233112017b28375c7b6c6180b967cb4813397eba6e6a4dad2d",
       "bytes": 6063
+    },
+    {
+      "path": "apple_research_v2/defect_precision92.py",
+      "sha256": "f512b05f7178056e9924d01bf5ea306de837edbe664c96f00a688bec41d43caf",
+      "bytes": 13366
+    },
+    {
+      "path": "apple_research_v2/defect_precision92_consensus.py",
+      "sha256": "310136028170b16e15b3da70f50f0e718c7cfa8f13ad06a17783fb5ec20379e9",
+      "bytes": 5886
     },
     {
       "path": "apple_research_v2/defect_refine_20261112.py",
@@ -593,6 +603,11 @@
       "bytes": 11551
     },
     {
+      "path": "docs/缺陷检测92Precision复核_20261118.md",
+      "sha256": "30195b9c16066713c53065f2b80eda0c02762dfe7b73a828f87d8fc75255f7b3",
+      "bytes": 4788
+    },
+    {
       "path": "docs/缺陷检测优化对照_20261118.md",
       "sha256": "d5a7bb9419c07936bfda0ec6dbc8602d3a026e5757c499e48d7f26b60269ffc8",
       "bytes": 3299
@@ -836,6 +851,36 @@
       "path": "experiments/defect_four_orientations_20261118/results.json",
       "sha256": "f040fbfe23496d2d997d735bd3b9013c4d780d8f91fbb8ca23dd6e8a67a10c73",
       "bytes": 4728
+    },
+    {
+      "path": "experiments/defect_precision92_consensus_v1/audit.json",
+      "sha256": "c8fbc509a7c6257caa0f8149cfbf90ed9adb765acabe0ce0ac32b1d648d11f5e",
+      "bytes": 1683
+    },
+    {
+      "path": "experiments/defect_precision92_consensus_v1/dev_metrics.json",
+      "sha256": "e00ee3e1340a7dfbc5969d1437faa51f7a12b297fb3920ae064774d878083611",
+      "bytes": 7823
+    },
+    {
+      "path": "experiments/defect_precision92_consensus_v1/speed.json",
+      "sha256": "1150cf4717527ed9282dd8e52a5169bed212d465810b1622eb9651ca84751ffb",
+      "bytes": 191
+    },
+    {
+      "path": "experiments/defect_precision92_v1/dev_metrics.json",
+      "sha256": "cf18eccfaa05e8afe05a75f77ba258108ed7dd507a516f345d628827a1ed7515",
+      "bytes": 15607
+    },
+    {
+      "path": "experiments/defect_precision92_v1/frozen.json",
+      "sha256": "831960eddc3d92b067f41a083ddcb015d2ccc60e0c8705a5acba33d1800f5277",
+      "bytes": 838
+    },
+    {
+      "path": "experiments/defect_precision92_v1/speed.json",
+      "sha256": "f4bde7af27b6294daea56e9bd8a5063ab523bb5acbd69706100f26520bb6e60d",
+      "bytes": 557
     },
     {
       "path": "experiments/defect_refine_20261112_v1/results.json",
