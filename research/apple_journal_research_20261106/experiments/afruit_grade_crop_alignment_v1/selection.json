@@ -1,0 +1,339 @@
+{
+  "epoch": 22,
+  "threshold": 1.0,
+  "weights_sha256": "f2e4a0ba8963f4c7c214331f42c416602d50423b69eab3a2a3ea086642c50543",
+  "protocol_sha256": "e89fcfc72a2f817bacec6650e1ce42ddb726a783e62b1e644735c6ae4b83587c",
+  "manifest_sha256": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "train_n": 315,
+  "val_n": 57,
+  "images_seen": 7560,
+  "updates": 336,
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "elapsed_seconds": 27.054205199994612,
+  "validation_at_frozen_point": {
+    "n": 57,
+    "confusion": [
+      [
+        25,
+        0,
+        0
+      ],
+      [
+        13,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        17
+      ]
+    ],
+    "accuracy": 0.7368421052631579,
+    "per_class": [
+      {
+        "grade": "good",
+        "n": 25,
+        "predicted": 38,
+        "precision": 0.6578947368421053,
+        "recall": 1.0
+      },
+      {
+        "grade": "medium",
+        "n": 15,
+        "predicted": 0,
+        "precision": null,
+        "recall": 0.0
+      },
+      {
+        "grade": "bad",
+        "n": 17,
+        "predicted": 19,
+        "precision": 0.8947368421052632,
+        "recall": 1.0
+      }
+    ],
+    "macro_recall": 0.6666666666666666,
+    "severe_to_good_count": 0,
+    "severe_n": 17,
+    "severe_to_good_rate": 0.0,
+    "good_to_severe_count": 0,
+    "good_n": 25,
+    "good_to_severe_rate": 0.0,
+    "ordinal_mae": 0.2631578947368421,
+    "utility": 0.6666666666666666,
+    "threshold": 1.0
+  },
+  "alternatives": [
+    {
+      "n": 57,
+      "confusion": [
+        [
+          25,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          17
+        ]
+      ],
+      "accuracy": 0.7368421052631579,
+      "per_class": [
+        {
+          "grade": "good",
+          "n": 25,
+          "predicted": 38,
+          "precision": 0.6578947368421053,
+          "recall": 1.0
+        },
+        {
+          "grade": "medium",
+          "n": 15,
+          "predicted": 0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "grade": "bad",
+          "n": 17,
+          "predicted": 19,
+          "precision": 0.8947368421052632,
+          "recall": 1.0
+        }
+      ],
+      "macro_recall": 0.6666666666666666,
+      "severe_to_good_count": 0,
+      "severe_n": 17,
+      "severe_to_good_rate": 0.0,
+      "good_to_severe_count": 0,
+      "good_n": 25,
+      "good_to_severe_rate": 0.0,
+      "ordinal_mae": 0.2631578947368421,
+      "utility": 0.6666666666666666,
+      "threshold": 1.0
+    },
+    {
+      "n": 57,
+      "confusion": [
+        [
+          25,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          17
+        ]
+      ],
+      "accuracy": 0.7368421052631579,
+      "per_class": [
+        {
+          "grade": "good",
+          "n": 25,
+          "predicted": 38,
+          "precision": 0.6578947368421053,
+          "recall": 1.0
+        },
+        {
+          "grade": "medium",
+          "n": 15,
+          "predicted": 0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "grade": "bad",
+          "n": 17,
+          "predicted": 19,
+          "precision": 0.8947368421052632,
+          "recall": 1.0
+        }
+      ],
+      "macro_recall": 0.6666666666666666,
+      "severe_to_good_count": 0,
+      "severe_n": 17,
+      "severe_to_good_rate": 0.0,
+      "good_to_severe_count": 0,
+      "good_n": 25,
+      "good_to_severe_rate": 0.0,
+      "ordinal_mae": 0.2631578947368421,
+      "utility": 0.6666666666666666,
+      "threshold": 0.3
+    },
+    {
+      "n": 57,
+      "confusion": [
+        [
+          25,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          17
+        ]
+      ],
+      "accuracy": 0.7368421052631579,
+      "per_class": [
+        {
+          "grade": "good",
+          "n": 25,
+          "predicted": 38,
+          "precision": 0.6578947368421053,
+          "recall": 1.0
+        },
+        {
+          "grade": "medium",
+          "n": 15,
+          "predicted": 0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "grade": "bad",
+          "n": 17,
+          "predicted": 19,
+          "precision": 0.8947368421052632,
+          "recall": 1.0
+        }
+      ],
+      "macro_recall": 0.6666666666666666,
+      "severe_to_good_count": 0,
+      "severe_n": 17,
+      "severe_to_good_rate": 0.0,
+      "good_to_severe_count": 0,
+      "good_n": 25,
+      "good_to_severe_rate": 0.0,
+      "ordinal_mae": 0.2631578947368421,
+      "utility": 0.6666666666666666,
+      "threshold": 0.2
+    },
+    {
+      "n": 57,
+      "confusion": [
+        [
+          25,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          17
+        ]
+      ],
+      "accuracy": 0.7368421052631579,
+      "per_class": [
+        {
+          "grade": "good",
+          "n": 25,
+          "predicted": 38,
+          "precision": 0.6578947368421053,
+          "recall": 1.0
+        },
+        {
+          "grade": "medium",
+          "n": 15,
+          "predicted": 0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "grade": "bad",
+          "n": 17,
+          "predicted": 19,
+          "precision": 0.8947368421052632,
+          "recall": 1.0
+        }
+      ],
+      "macro_recall": 0.6666666666666666,
+      "severe_to_good_count": 0,
+      "severe_n": 17,
+      "severe_to_good_rate": 0.0,
+      "good_to_severe_count": 0,
+      "good_n": 25,
+      "good_to_severe_rate": 0.0,
+      "ordinal_mae": 0.2631578947368421,
+      "utility": 0.6666666666666666,
+      "threshold": 0.12
+    },
+    {
+      "n": 57,
+      "confusion": [
+        [
+          25,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          17
+        ]
+      ],
+      "accuracy": 0.7368421052631579,
+      "per_class": [
+        {
+          "grade": "good",
+          "n": 25,
+          "predicted": 38,
+          "precision": 0.6578947368421053,
+          "recall": 1.0
+        },
+        {
+          "grade": "medium",
+          "n": 15,
+          "predicted": 0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "grade": "bad",
+          "n": 17,
+          "predicted": 19,
+          "precision": 0.8947368421052632,
+          "recall": 1.0
+        }
+      ],
+      "macro_recall": 0.6666666666666666,
+      "severe_to_good_count": 0,
+      "severe_n": 17,
+      "severe_to_good_rate": 0.0,
+      "good_to_severe_count": 0,
+      "good_n": 25,
+      "good_to_severe_rate": 0.0,
+      "ordinal_mae": 0.2631578947368421,
+      "utility": 0.6666666666666666,
+      "threshold": 0.08
+    }
+  ]
+}

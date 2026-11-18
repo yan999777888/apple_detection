@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T13:04:16.484110+00:00",
+  "snapshot_updated_utc": "2026-11-18T13:11:12.094135+00:00",
   "files": [
     {
       "path": "README.md",
@@ -56,6 +56,11 @@
       "path": "apple_research_v2/afruit_grade_background.py",
       "sha256": "03f165ffa7eaf3f3d49b9686c9ba691b60e299dd34f42e4bb63e962140998ffa",
       "bytes": 9778
+    },
+    {
+      "path": "apple_research_v2/afruit_grade_crop_alignment.py",
+      "sha256": "49ad9beb21f9d8f09946f7708f070a36e1e1919a57f3d3ee3740f7d56ff47c83",
+      "bytes": 10082
     },
     {
       "path": "apple_research_v2/afruit_grade_errors.py",
@@ -1169,8 +1174,8 @@
     },
     {
       "path": "docs/苹果三级品质与成熟度联合实测_20261118.md",
-      "sha256": "45eee02d8f979d4cd086bee7a62ec863556c3e1f553493ab5a5b5264969013b6",
-      "bytes": 11697
+      "sha256": "92c5eafdbcd37595e20ef5dc98ae344d659374ad103254ec477e1a529df8eca9",
+      "bytes": 14317
     },
     {
       "path": "experiments/afruit_external_appearance_v1/results.json",
@@ -1201,6 +1206,36 @@
       "path": "experiments/afruit_grade_background_v1/selection.json",
       "sha256": "0e511b080d9d9e0c56e470dc89398d4991ce49f08224423b89c87fc39a251c78",
       "bytes": 7308
+    },
+    {
+      "path": "experiments/afruit_grade_crop_alignment_v1/crop_cache.json",
+      "sha256": "30f7e8c0344b7f8cccd1b9c9fcc5d1c6b3272f0716bb7597635ebbceca6b349e",
+      "bytes": 931
+    },
+    {
+      "path": "experiments/afruit_grade_crop_alignment_v1/gate.json",
+      "sha256": "fbf9fd0f47da8041c1c4b587c387756f8d69ebed4c26d7ff6d706715755c2f5c",
+      "bytes": 2955
+    },
+    {
+      "path": "experiments/afruit_grade_crop_alignment_v1/history.json",
+      "sha256": "c352001003e32af11c2b3bc21526d396abc3ff80510ab601f554206f9afbd8d1",
+      "bytes": 30914
+    },
+    {
+      "path": "experiments/afruit_grade_crop_alignment_v1/protocol.json",
+      "sha256": "e89fcfc72a2f817bacec6650e1ce42ddb726a783e62b1e644735c6ae4b83587c",
+      "bytes": 2435
+    },
+    {
+      "path": "experiments/afruit_grade_crop_alignment_v1/selection.json",
+      "sha256": "5c94759ec449cac1fd24bd655c56478fac106d684f757cec7c3539715cd04860",
+      "bytes": 7308
+    },
+    {
+      "path": "experiments/afruit_grade_crop_alignment_v1/training_exposures.json",
+      "sha256": "6dcc6390dde0bd0683188d03f69816f6119e56c8b2a89663cce2f047e78209c5",
+      "bytes": 45
     },
     {
       "path": "experiments/afruit_grade_release_v1/decision.json",

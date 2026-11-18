@@ -1,0 +1,28 @@
+{
+  "initial_protocol": "8140a5b6415e425e0263c576d984b1b22b952695ed795caa344fefa4ff3e0b25",
+  "baseline_selection": "8584df69d923ac6f8c7466c63a9f0afabcd02c50425af0f5929752db3d57a17d",
+  "baseline_weight": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+  "maturity_weight": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "crop_context": 0.1,
+  "long_edge": 1280,
+  "manifest_sha256": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "selected_splits": [
+    "train",
+    "val"
+  ],
+  "untouched_split": "test",
+  "crop_source": "Exact QualityPipeline after prepare_input(frame,1280), scene mode. Exactly one detected fruit with a valid 10%-context crop is eligible. No manual or image-label crop selection.",
+  "train_change": "On every eligible train exposure an independent Bernoulli(0.5) chooses the actual deployment crop, otherwise the original image. Unresolved train exposures always use the original. Same batch ordering, augmentation, optimizer, initializer, 24 epochs, 336 updates, existing validation checkpoint/guard selection on whole images.",
+  "validation_primary": "Same 57 validation images. At 1280px scene input, unresolved if no/multiple fruit or invalid crop. Count all 57, with a fourth unresolved column and original class denominators. Compare selected models and cutoffs on identical crops.",
+  "validation_secondary": "Original supplied full fruit at the same working point as each arm's checkpoint selection.",
+  "gate": "On auto crops, strictly more medium correct, no more severe->good, no fewer severe correct, no fewer total correct; also no more severe->good on original whole images. All five conditions required.",
+  "history": "Previous V1 test had already been inspected before this experiment. No test pixel, prediction, or ground truth is read by this study, even when evaluating its gate. A future test comparison can only be a retrospective regression measurement.",
+  "crop_coin_seed": 2026111813,
+  "training_seed": 18112026,
+  "source_sha256": "49ad9beb21f9d8f09946f7708f070a36e1e1919a57f3d3ee3740f7d56ff47c83",
+  "crop_functions": {
+    "crop_bounds": "c61decf678e7c824c30b7d6a15c04c823d4f3d61f8ef1e53b4aae692579ee838",
+    "prepare_input": "9c35510c8e73a7f567e1c4585e77bc12f42afbab2b92b14a00bcd75324fe8515",
+    "__call__": "a72f0a007986212faeba98782fcd33693e53c175af31c59da27e332d5d54a929"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "metrics": {
+    "baseline": {
+      "whole": {
+        "confusion": [
+          [
+            25,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 42,
+        "medium_correct": 0,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            21,
+            0,
+            0,
+            4
+          ],
+          [
+            11,
+            1,
+            1,
+            2
+          ],
+          [
+            8,
+            0,
+            9,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 31,
+        "medium_correct": 1,
+        "severe_correct": 9,
+        "severe_to_good": 8,
+        "unresolved": 6,
+        "n": 57
+      }
+    },
+    "crop_aligned": {
+      "whole": {
+        "confusion": [
+          [
+            25,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 42,
+        "medium_correct": 0,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            21,
+            0,
+            0,
+            4
+          ],
+          [
+            11,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 0,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      }
+    }
+  },
+  "conditions": {
+    "medium_gain": false,
+    "no_new_severe_to_good": true,
+    "protect_severe_correct": true,
+    "protect_total": true,
+    "whole_no_new_severe_to_good": true
+  },
+  "passed": false,
+  "n": 57,
+  "protocol_sha256": "e89fcfc72a2f817bacec6650e1ce42ddb726a783e62b1e644735c6ae4b83587c",
+  "input_manifest_sha256": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "test_opened": false
+}

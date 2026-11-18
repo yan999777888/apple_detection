@@ -1,0 +1,42 @@
+{
+  "train": {
+    "n": 315,
+    "eligible": 243,
+    "per_class": {
+      "good": {
+        "n": 117,
+        "eligible": 99
+      },
+      "medium": {
+        "n": 120,
+        "eligible": 89
+      },
+      "bad": {
+        "n": 78,
+        "eligible": 55
+      }
+    },
+    "region_sha": "9005267be6b849ad16fb83bea9d57eb8dbe5f4ea609e110ee91e6bbd1915f3c6",
+    "numpy_sha": "d69281a9c120add8addb611821ec067377be1e837c118bf213102be4c9522706"
+  },
+  "val": {
+    "n": 57,
+    "eligible": 51,
+    "per_class": {
+      "good": {
+        "n": 25,
+        "eligible": 21
+      },
+      "medium": {
+        "n": 15,
+        "eligible": 13
+      },
+      "bad": {
+        "n": 17,
+        "eligible": 17
+      }
+    },
+    "region_sha": "6ccd881e430a14ff2c017e3e712917131d21564f2edc749084c207c7628d63fa",
+    "numpy_sha": "9af80c1f2ae279eebe1176454de0ced91c0185abafdf1ef3010a29dc2e6430da"
+  }
+}
