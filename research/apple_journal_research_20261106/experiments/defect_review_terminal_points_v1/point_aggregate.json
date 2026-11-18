@@ -1,0 +1,58 @@
+{
+  "fit_coverage": {
+    "insect/sites": 13,
+    "insect/at_least_one_branch": 13,
+    "insect/positive_same_class": 13,
+    "scratch/sites": 5,
+    "scratch/at_least_one_branch": 5,
+    "scratch/positive_same_class": 5,
+    "other/sites": 3,
+    "other/at_least_one_branch": 3,
+    "other/negative_constraints": 6
+  },
+  "counts": {
+    "parent": {
+      "control/other/response_other_with_detection": 1,
+      "unmatched/other/response_other_with_detection": 2,
+      "unmatched/insect/no_detection": 10,
+      "control/insect/same_class_only": 1,
+      "unmatched/uncertain/not_interpretable": 3,
+      "control/scratch/same_class_only": 3,
+      "unmatched/scratch/no_detection": 5,
+      "control/other/response_other_suppressed": 1,
+      "unmatched/other/response_other_suppressed": 1,
+      "unmatched/insect/same_class_only": 3,
+      "control/insect/other_class_only": 1,
+      "control/insect/no_detection": 3
+    },
+    "control": {
+      "control/other/response_other_with_detection": 1,
+      "unmatched/other/response_other_with_detection": 2,
+      "unmatched/insect/no_detection": 10,
+      "control/insect/same_class_only": 2,
+      "unmatched/uncertain/not_interpretable": 3,
+      "control/scratch/same_class_only": 3,
+      "unmatched/scratch/no_detection": 5,
+      "control/other/response_other_suppressed": 1,
+      "unmatched/other/response_other_suppressed": 1,
+      "unmatched/insect/same_class_only": 3,
+      "control/insect/other_class_only": 1,
+      "control/insect/no_detection": 2
+    },
+    "review": {
+      "control/other/response_other_with_detection": 1,
+      "unmatched/other/response_other_suppressed": 3,
+      "unmatched/insect/no_detection": 4,
+      "unmatched/insect/same_class_only": 9,
+      "control/insect/same_class_only": 3,
+      "unmatched/uncertain/not_interpretable": 3,
+      "control/scratch/same_class_only": 3,
+      "unmatched/scratch/same_class_only": 2,
+      "control/other/response_other_suppressed": 1,
+      "unmatched/scratch/no_detection": 3,
+      "control/insect/other_class_only": 1,
+      "control/insect/no_detection": 1
+    }
+  },
+  "scope": "All 34 reviewed sites are in the training partition. Only 21 newly adjudicated sites supply weak labels. No individual judgments or image identities are included here."
+}

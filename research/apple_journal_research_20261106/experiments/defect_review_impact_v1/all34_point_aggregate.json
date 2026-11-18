@@ -1,0 +1,66 @@
+{
+  "manifest_sha": "d748a4ada46e4dd3e087aff11c7813d9ab22044d5bbfb2d05c6cfa135a27f19f",
+  "final_audit_sha": "5bfa16a43e1487b5b549649bc2c0af5b6c7e79910820f305b06f80c1022e1d93",
+  "late_weak_training": false,
+  "scope": "Matched reader-designated training point at fixed original thresholds .4/.34; teacher independent CPU inference, .675/.65. Parent/control/review full-image GPU. Includes rows seen during native training; control and review share the original frozen 33-answer export. No localization ground-truth geometry from judgments.",
+  "counts": {
+    "parent": {
+      "control/other/response_other_with_detection": 1,
+      "unmatched/other/response_other_with_detection": 2,
+      "unmatched/insect/no_detection": 10,
+      "control/insect/same_class_only": 1,
+      "unmatched/uncertain/not_interpretable": 3,
+      "control/scratch/same_class_only": 3,
+      "unmatched/scratch/no_detection": 5,
+      "control/other/response_other_suppressed": 1,
+      "unmatched/other/response_other_suppressed": 1,
+      "unmatched/insect/same_class_only": 3,
+      "control/insect/other_class_only": 1,
+      "control/insect/no_detection": 3
+    },
+    "control": {
+      "control/other/response_other_with_detection": 1,
+      "unmatched/other/response_other_with_detection": 2,
+      "unmatched/insect/no_detection": 10,
+      "control/insect/same_class_only": 3,
+      "unmatched/uncertain/not_interpretable": 3,
+      "control/scratch/same_class_only": 3,
+      "unmatched/scratch/same_class_only": 1,
+      "control/other/response_other_suppressed": 1,
+      "unmatched/other/response_other_suppressed": 1,
+      "unmatched/insect/same_class_only": 3,
+      "unmatched/scratch/no_detection": 4,
+      "control/insect/other_class_only": 1,
+      "control/insect/no_detection": 1
+    },
+    "review": {
+      "control/other/response_other_with_detection": 1,
+      "unmatched/other/response_other_suppressed": 3,
+      "unmatched/insect/no_detection": 9,
+      "unmatched/insect/same_class_only": 4,
+      "control/insect/same_class_only": 3,
+      "unmatched/uncertain/not_interpretable": 3,
+      "control/scratch/same_class_only": 3,
+      "unmatched/scratch/same_class_only": 1,
+      "control/other/response_other_suppressed": 1,
+      "unmatched/scratch/no_detection": 4,
+      "control/insect/other_class_only": 1,
+      "control/insect/no_detection": 1
+    },
+    "teacher_cpu": {
+      "control/other/response_other_suppressed": 2,
+      "unmatched/other/response_other_with_detection": 1,
+      "unmatched/insect/other_class_only": 1,
+      "unmatched/insect/same_class_only": 9,
+      "control/insect/same_class_only": 3,
+      "unmatched/uncertain/not_interpretable": 3,
+      "control/scratch/same_class_only": 2,
+      "unmatched/scratch/no_detection": 5,
+      "unmatched/other/response_other_suppressed": 2,
+      "control/insect/other_class_only": 1,
+      "control/insect/no_detection": 1,
+      "control/scratch/no_detection": 1,
+      "unmatched/insect/no_detection": 3
+    }
+  }
+}

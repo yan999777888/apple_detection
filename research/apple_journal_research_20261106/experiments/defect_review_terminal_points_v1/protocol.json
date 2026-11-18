@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "split_counts": {
+    "screen": 111,
+    "fit": 485
+  },
+  "split_sha": "f9fdeea20ecacaf49778986e536aee0e4c607db10cc1e2feac1d0b6a486c44fa",
+  "native_manifest": "d748a4ada46e4dd3e087aff11c7813d9ab22044d5bbfb2d05c6cfa135a27f19f",
+  "completed_reader_audit": "5bfa16a43e1487b5b549649bc2c0af5b6c7e79910820f305b06f80c1022e1d93",
+  "earlier_export": "dc752a8de867121974abb5eb379d5612dfb9956b9471213e68f020eac7e96831",
+  "supplement": "5bdd9183357c72e65f2b49310fae12acc29d479d0b75c31e458960d6a13f906e",
+  "raw_reader_targets": {
+    "other": 3,
+    "insect": 13,
+    "scratch": 5
+  },
+  "parent_warm": "5e07009ec94310bd01bfd6c257ff8df853d3eef36c25de15e7f8483706fabd93",
+  "parent_scratch": "a8ce9e6c9035e1c1c8a2ff6c1907b4d98272e1e33e64d31e3d27c4b43ef8d980",
+  "source_sha": "d46ad610b0b699625d23d31efe01aafe2666097fd0abf4a87118334bbcd42cd8",
+  "upstream_dense_sha": "6739bc5bd1622abc7795398a38175b58bd65e948b5d6b73de675c44e2d08f0b8",
+  "arms": "Both minimize native GT logit margins and original-score drift on identical class/scale rows. Only A1 adds point classification loss. All GT boxes and regressor weights fixed. The teacher is not used in either arm.",
+  "thresholds": [
+    0.4,
+    0.34
+  ],
+  "model": "Six final one-to-one classification Conv2d rows and biases. No extra inference op.",
+  "fit": "Closed form ridge with uncentered column RMS and coefficient penalty 0.03. Target native confidence floors .60/.08, weak .75/.08, no update required beyond target. Preserve anchors include exact parent logits for top56 and seeded 40 random per level and all native fixed-threshold dense anchors in the additional high-anchor term.",
+  "objective_weights": {
+    "anchor": 1.0,
+    "high_anchor": 1.0,
+    "native_pos": 0.08,
+    "native_neg": 0.08,
+    "weak_pos": 0.15,
+    "weak_neg": 0.15
+  },
+  "seed": 180413,
+  "weak_rule": "Within original sampler support select strongest native same-branch hypothesis at the human-indicated pixel, centered within 0.55 of proposal extent and overlap >=.15 with the sampling proposal for identity only. Reject if any native GT IoU >=.10. Largest native probability across scales selects one row per class per reviewed site; no weak box supervision.",
+  "screen": "Preexisting, reused 111 same-training-date frames held out by capture minute from these terminal updates; parent trained on all source frames. Must jointly add >=2 TP and no extra FP versus BOTH parent and A0; insect TP >= original parent. No threshold search. On failure stop before development inference/speed. Point replay is training behavior only."
+}
