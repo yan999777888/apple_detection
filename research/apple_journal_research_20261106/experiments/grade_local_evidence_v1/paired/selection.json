@@ -1,0 +1,89 @@
+{
+  "architecture": "mobilenet_v3_small_local_evidence_v1",
+  "weights_sha256": "7b1a5c4259ce1405efeefefe9d60bdbe49f406a6d8482e99af430f0e433c9db1",
+  "threshold": 1.0,
+  "protocol_sha256": "e98569aed9f9f7e95dfd69e733d0419fd8b6da44994ad9ffb15c9c52538a12a2",
+  "public_manifest": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "arm": "paired",
+  "metrics": {
+    "whole": {
+      "confusion": [
+        [
+          25,
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 43,
+      "medium_correct": 1,
+      "severe_correct": 17,
+      "severe_to_good": 0,
+      "unresolved": 0,
+      "n": 57
+    },
+    "auto": {
+      "confusion": [
+        [
+          21,
+          0,
+          0,
+          4
+        ],
+        [
+          11,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 38,
+      "medium_correct": 0,
+      "severe_correct": 17,
+      "severe_to_good": 0,
+      "unresolved": 6,
+      "n": 57
+    },
+    "nll": 1.2732324600219727
+  },
+  "checks": {
+    "severe_good": true,
+    "whole_severe_good": true,
+    "severe_correct": true,
+    "good_correct": true,
+    "overall": true,
+    "minor_gain": false
+  },
+  "feature_views": 966,
+  "passed": false
+}

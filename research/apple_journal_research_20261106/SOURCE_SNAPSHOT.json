@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T13:11:12.094135+00:00",
+  "snapshot_updated_utc": "2026-11-18T13:44:09.380493+00:00",
   "files": [
     {
       "path": "README.md",
@@ -68,6 +68,21 @@
       "bytes": 3516
     },
     {
+      "path": "apple_research_v2/afruit_grade_group_audit.py",
+      "sha256": "db6221b1c381ebf214e1ca9cbd8601ab9fc5459c42d59687c6c6f9b92faef1ca",
+      "bytes": 2532
+    },
+    {
+      "path": "apple_research_v2/afruit_grade_high_resolution.py",
+      "sha256": "f45d4da2dc10ac210756abc9a028c610aca4b86359ff4836f2e83873093dba6d",
+      "bytes": 4576
+    },
+    {
+      "path": "apple_research_v2/afruit_grade_matched.py",
+      "sha256": "e76152c989432f1fd62cba5cede18f9857859a5f0bf4beb23188d2e6457f32d3",
+      "bytes": 12844
+    },
+    {
       "path": "apple_research_v2/afruit_grade_model.py",
       "sha256": "01e6fb811577dd551d4bad7ce360e69e3e2044c0a3fb6672b5f72b7559763d5f",
       "bytes": 2678
@@ -78,9 +93,24 @@
       "bytes": 666
     },
     {
+      "path": "apple_research_v2/afruit_grade_select_source.py",
+      "sha256": "fe4b3d0a72496d34a18c6468eea78dd663b8b8932494a7af8e527991e6e93ef7",
+      "bytes": 2529
+    },
+    {
+      "path": "apple_research_v2/afruit_grade_source_arm.py",
+      "sha256": "45f02f2afce8c827988820e9281e7e137cdf623fae418b13a0113f3ebd8aada1",
+      "bytes": 3281
+    },
+    {
       "path": "apple_research_v2/afruit_grade_train.py",
       "sha256": "9b2412f02d6d418a761c1c45b550a6df27f378e405ea0c9f62437c5710bdb4b7",
       "bytes": 12634
+    },
+    {
+      "path": "apple_research_v2/afruit_minor_visual_audit.py",
+      "sha256": "d41d0e47d77df4b221df8c9b7de1a63182ce427839b57b8957545815f1f13d1a",
+      "bytes": 1732
     },
     {
       "path": "apple_research_v2/afruit_severe_crop_audit.py",
@@ -89,8 +119,8 @@
     },
     {
       "path": "apple_research_v2/afruit_visible_quality.py",
-      "sha256": "e637c2232c67e8b88b2855af9671ce93e558187b8a36fa504dcd075c8812848a",
-      "bytes": 10327
+      "sha256": "3d363db0072d0a281e6a1e18ed0c0cec3cdd0746e1d61515040b21d86627af37",
+      "bytes": 10764
     },
     {
       "path": "apple_research_v2/afruitdb_border_control.py",
@@ -758,9 +788,49 @@
       "bytes": 1859
     },
     {
+      "path": "apple_research_v2/fit_grade_local_evidence.py",
+      "sha256": "7cb02f3ebcef5ae05209aa9ef49fae834402aeaa12610697a0a0c24cfbbd38d0",
+      "bytes": 7016
+    },
+    {
+      "path": "apple_research_v2/freeze_public_grade_candidate.py",
+      "sha256": "262fa7b1f8b164ac43a509bdc6b9fbaf3006109fc4293f7d014e0e1cd4911bf4",
+      "bytes": 2006
+    },
+    {
+      "path": "apple_research_v2/fruitlife_apple_source.py",
+      "sha256": "e7490752b7c8de2c89eaaced6bdc10db2e1f367c3527d537f200ea8c02431c59",
+      "bytes": 8453
+    },
+    {
+      "path": "apple_research_v2/fruitlife_matched_grade.py",
+      "sha256": "211535016aacbfb938d071802c96860a52c13cf7a302d241f84de088e1919ef3",
+      "bytes": 6516
+    },
+    {
+      "path": "apple_research_v2/grade_changed_cases.py",
+      "sha256": "cf2ba1c964ca85fe54f68a3105ee0f819a0c70cf0a8eb5f86cfc80e531620a6e",
+      "bytes": 2844
+    },
+    {
       "path": "apple_research_v2/grade_external_rot_panel.py",
       "sha256": "255ae8f617c3f09ecb9cc544442e0c7d1cce5c326f560cdb0190bf808d59953e",
       "bytes": 3859
+    },
+    {
+      "path": "apple_research_v2/grade_local_evidence.py",
+      "sha256": "666066455f9fd0d2ba487c5b51f9697acca79aaff4066f914066427d2ffa0ae7",
+      "bytes": 1591
+    },
+    {
+      "path": "apple_research_v2/grade_matched_external_check.py",
+      "sha256": "431b3aae6217ce666d16b8b3b139aec3e564032156a236b4ca02c375ae59d0bc",
+      "bytes": 4498
+    },
+    {
+      "path": "apple_research_v2/grade_matched_field_check.py",
+      "sha256": "31f56c3cde372116f9cb26f98325bd2b0e5f405193b8572677d335d6bcb1bf7f",
+      "bytes": 5014
     },
     {
       "path": "apple_research_v2/grade_stage_validation.py",
@@ -853,6 +923,16 @@
       "bytes": 12747
     },
     {
+      "path": "apple_research_v2/matched_grade_loader.py",
+      "sha256": "c52025ed09c5862741452d8828380d68181added62efa8acdda33fbfa34d9f01",
+      "bytes": 1993
+    },
+    {
+      "path": "apple_research_v2/penn_surface_challenge.py",
+      "sha256": "4d49746e23412b6758b73e8d1fdff741ed5f5310358bd1be7d3a28a31dd6f18a",
+      "bytes": 9723
+    },
+    {
       "path": "apple_research_v2/predict_defect_algorithm_20261112.py",
       "sha256": "52b57741e94f6146bd2972665cec46c84ad961c03ed877ed584f08776b158f3f",
       "bytes": 3187
@@ -866,6 +946,11 @@
       "path": "apple_research_v2/prepare_full_attribute_manifests.py",
       "sha256": "400415a3989d4b429b044e601742cb1a18d03aa1932bbaeb406ccf003f1f1d4e",
       "bytes": 4967
+    },
+    {
+      "path": "apple_research_v2/prepare_matched_woo_quality.py",
+      "sha256": "c12ea8eebd7aa7c8584ad35e5bf9ef2d068f1bcaf2b04f0689977e060f72b878",
+      "bytes": 9357
     },
     {
       "path": "apple_research_v2/prepare_mendeley.py",
@@ -1078,9 +1163,49 @@
       "bytes": 1816
     },
     {
+      "path": "datasets/apple_matched_fruitlife_woo_v1/external_test.json",
+      "sha256": "40a7a5ff2e5a8d397af299d270ea7256191bd98b1f0acd092b01724f829ebfe7",
+      "bytes": 230590
+    },
+    {
+      "path": "datasets/apple_matched_fruitlife_woo_v1/manifest.json",
+      "sha256": "8116f7883bbc72d83bd4542f54a019f944850b6cd9114f273dc6ed60bb321fa0",
+      "bytes": 94356
+    },
+    {
+      "path": "datasets/apple_matched_fruitlife_woo_v1/source_audit.json",
+      "sha256": "f053e285d6a0ae25d1c191a6ce905bb860691e706229464d68c1ac6093cdd1d8",
+      "bytes": 814
+    },
+    {
+      "path": "datasets/apple_matched_quality_v1/manifest.json",
+      "sha256": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+      "bytes": 54814
+    },
+    {
+      "path": "datasets/apple_matched_quality_v1/source_audit.json",
+      "sha256": "3ec0900937926cc43fc1ec59efcb53067b1076014d98f374cf6f67c8ac7b1e7f",
+      "bytes": 1978
+    },
+    {
+      "path": "datasets/penn_surface_challenge_v1/manifest.json",
+      "sha256": "78da774d2611fb2aa95e373f36fe57e24394a82679df83976c5e23a552e8dd21",
+      "bytes": 10084
+    },
+    {
+      "path": "datasets/public_defect_intake/fruitlife_v1/physical_id_split.json",
+      "sha256": "c9ffab0bb590b5fbc2df91c4857d33b81ce2289b170a6f86659722291a2dbe74",
+      "bytes": 1133
+    },
+    {
       "path": "docs/AFruitDB苹果三级数据卡_20261118.md",
       "sha256": "8ae4f49b338c85347445ad08903b9098bc003d9738d5c7050674da08549686f3",
       "bytes": 3980
+    },
+    {
+      "path": "docs/FruitLife同实物储藏外观辅助数据_20261118.md",
+      "sha256": "48ddcde754bdfdfb5773b530bae23251776af08ebbd8c7db1a06ea2957e72763",
+      "bytes": 3568
     },
     {
       "path": "docs/SSDA训练图缺陷盲审说明.md",
@@ -1116,6 +1241,11 @@
       "path": "docs/划伤跨日漏检与训练适配核查_20261118.md",
       "sha256": "73fe802321f862c9b970821d6e6adc71afa5e0cbcb2342aa3910b5b53595ec0a",
       "bytes": 10444
+    },
+    {
+      "path": "docs/同条件训练果面与果园挑战数据卡_20261118.md",
+      "sha256": "a6a3b2e299a2ffa658880a0f45c337d2408d73f91d37b49e39aebba59e4edf61",
+      "bytes": 4530
     },
     {
       "path": "docs/接手实测与研究路线_20261112.md",
@@ -1178,6 +1308,11 @@
       "bytes": 14317
     },
     {
+      "path": "docs/苹果轻瑕召回与同条件补训_20261118.md",
+      "sha256": "2bcf24af640c9683d718f9a26b949333c01eca0214837823951d7b299e2788a8",
+      "bytes": 9739
+    },
+    {
       "path": "experiments/afruit_external_appearance_v1/results.json",
       "sha256": "c0ed2fa8e6767792f6e300a9a71e3aa9d920f11d73f0ca6e929b86ba5f009875",
       "bytes": 727
@@ -1238,6 +1373,71 @@
       "bytes": 45
     },
     {
+      "path": "experiments/afruit_grade_matched_v1/control/selection.json",
+      "sha256": "7097b1b6baf3296a0ff34b4ff57f80010a4f319b8475963e1b8dc9ddc67a61e4",
+      "bytes": 1849
+    },
+    {
+      "path": "experiments/afruit_grade_matched_v1/decision.json",
+      "sha256": "f2ccd6e25b0e747d6fd0442fd949baf8950660ba8fc16f8214c1c761a58d7462",
+      "bytes": 4352
+    },
+    {
+      "path": "experiments/afruit_grade_matched_v1/paired/selection.json",
+      "sha256": "16a6de8b30ef50439b66b90539b8a9a7ece65ad60068f04b803176629bc01f70",
+      "bytes": 1909
+    },
+    {
+      "path": "experiments/afruit_grade_matched_v1/protocol.json",
+      "sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+      "bytes": 2249
+    },
+    {
+      "path": "experiments/afruit_grade_matched_v1/source_selection.json",
+      "sha256": "ff58534a9a623f65ecc5e9931563d15c62307068fc095a00c9f38d57e44115fb",
+      "bytes": 9512
+    },
+    {
+      "path": "experiments/afruit_grade_public_sources_v1/fruitlife/comparison.json",
+      "sha256": "d5011e17bdc366e433c977395fbe1204e8d550604cdcfc4a98356b38a9a9ce34",
+      "bytes": 4293
+    },
+    {
+      "path": "experiments/afruit_grade_public_sources_v1/fruitlife/paired/selection.json",
+      "sha256": "de9f511bd03584d416ae2052f16896c94108003d21b584ef51371a5f726bbc6b",
+      "bytes": 1913
+    },
+    {
+      "path": "experiments/afruit_grade_public_sources_v1/fruitlife/protocol.json",
+      "sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+      "bytes": 2249
+    },
+    {
+      "path": "experiments/afruit_grade_public_sources_v1/fruitlife/source_binding.json",
+      "sha256": "e9f0db1bd005aba1323d9077cc03fd5ac5a3e0403cdb6bc4f68c77f3cdbe81b9",
+      "bytes": 771
+    },
+    {
+      "path": "experiments/afruit_grade_public_sources_v1/fruitlife_woo/comparison.json",
+      "sha256": "c76169e1eab3c75b8d7b02daabbee0122d1a26574204d3c8a5b253fa1fc3147a",
+      "bytes": 4293
+    },
+    {
+      "path": "experiments/afruit_grade_public_sources_v1/fruitlife_woo/paired/selection.json",
+      "sha256": "9d5547079a4dd2f47afa7a4cbea735e753d91d1384d6c5326eea889dd58a47fc",
+      "bytes": 1910
+    },
+    {
+      "path": "experiments/afruit_grade_public_sources_v1/fruitlife_woo/protocol.json",
+      "sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+      "bytes": 2249
+    },
+    {
+      "path": "experiments/afruit_grade_public_sources_v1/fruitlife_woo/source_binding.json",
+      "sha256": "35ce3012aed7e7598e60cec77404bafe428d3a22d6594f06a13e894df855f08c",
+      "bytes": 753
+    },
+    {
       "path": "experiments/afruit_grade_release_v1/decision.json",
       "sha256": "0dd43f46bd2df7c9bfb66018bb976a0ae31ff1c335c7442de324d0dd0eccdd7e",
       "bytes": 382
@@ -1271,6 +1471,26 @@
       "path": "experiments/afruit_grade_v1/selection.json",
       "sha256": "8584df69d923ac6f8c7466c63a9f0afabcd02c50425af0f5929752db3d57a17d",
       "bytes": 7307
+    },
+    {
+      "path": "experiments/afruit_grade_woo320_v1/comparison.json",
+      "sha256": "c46069fb1a3953a59740b7ada7d50c21fb159d2cf2ebe8edeeb5f50e6b9b9741",
+      "bytes": 4419
+    },
+    {
+      "path": "experiments/afruit_grade_woo320_v1/paired/selection.json",
+      "sha256": "a90447fb113b69f9cd72dd40045f884e8e8e5d0b6713ef33795bfabeb0200e2c",
+      "bytes": 2036
+    },
+    {
+      "path": "experiments/afruit_grade_woo320_v1/protocol.json",
+      "sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+      "bytes": 2249
+    },
+    {
+      "path": "experiments/afruit_grade_woo320_v1/resolution_protocol.json",
+      "sha256": "2a23448abd025021f9dc3b959d5876ef5196a6619dc1d964a85e0febfc36f092",
+      "bytes": 869
     },
     {
       "path": "experiments/afruit_visible_quality_v1/camera_grade_protocol.json",
@@ -2348,6 +2568,56 @@
       "bytes": 5584
     },
     {
+      "path": "experiments/grade_local_evidence_v1/control/selection.json",
+      "sha256": "43662edd486c3c05c707710cbba661151fc87ca985323b1868a609d5723f40e0",
+      "bytes": 1676
+    },
+    {
+      "path": "experiments/grade_local_evidence_v1/paired/selection.json",
+      "sha256": "d81f1c04afee5910dc6f7781061386f553f77713a4400a046f59c6140a66693f",
+      "bytes": 1737
+    },
+    {
+      "path": "experiments/grade_local_evidence_v1/protocol.json",
+      "sha256": "e98569aed9f9f7e95dfd69e733d0419fd8b6da44994ad9ffb15c9c52538a12a2",
+      "bytes": 1045
+    },
+    {
+      "path": "experiments/grade_matched_review_v1/external/results.json",
+      "sha256": "a35e4bdc1b80e5d32ea3d48ae5f59e6497df5310d605d7b7dab734dc68d50e33",
+      "bytes": 5768
+    },
+    {
+      "path": "experiments/grade_matched_review_v1/field/latency_scene.json",
+      "sha256": "a79545761150b544daed52a1f0950f0573f0029a9cf2739366bb81c70016b57e",
+      "bytes": 15350
+    },
+    {
+      "path": "experiments/grade_matched_review_v1/field/latency_single.json",
+      "sha256": "35ed99e61ab2e9f18bff97b64d69d42da3a5cfaeaf2306e10331afae97fa3308",
+      "bytes": 15372
+    },
+    {
+      "path": "experiments/grade_matched_review_v1/field/receipt.json",
+      "sha256": "54600ba8b1ba422af6deef3282988b8391647f0e3460bee0585514ef99e35c26",
+      "bytes": 941
+    },
+    {
+      "path": "experiments/grade_matched_review_v1/field/regression.json",
+      "sha256": "8ca03a971d8c1695d20147d2c67eac9af4fcda1066a10f9d77ffc63f3d41d47c",
+      "bytes": 6945
+    },
+    {
+      "path": "experiments/grade_matched_review_v1/field_protocol.json",
+      "sha256": "1d6e40e66867d857d1a43a6092c3f262608165d087d40b3ba797ce43e6129243",
+      "bytes": 1948
+    },
+    {
+      "path": "experiments/grade_matched_review_v1/frozen_candidate.json",
+      "sha256": "4fcde1708051b9c4101f704493925a0e8c82f5661470359ef0848dc710343dc7",
+      "bytes": 2415
+    },
+    {
       "path": "experiments/grade_stage_validation_v1/results.json",
       "sha256": "f9d975e629946dad8278daf4fb66f7fbc72b86fec2aaae5a8d9f24f65e29b5ec",
       "bytes": 923
@@ -2414,8 +2684,8 @@
     },
     {
       "path": "run_apple_quality.ps1",
-      "sha256": "a5f8f2aad92962b0429e70d84af1d5cfde5310a1c75ee46d7b197fdd7c5e5430",
-      "bytes": 1797
+      "sha256": "6cc870c17f61058f709ee8c96d3d84fae12fc6ee1e8e2e5a3c2ea97809d48bcc",
+      "bytes": 2122
     },
     {
       "path": "set_run_env.ps1",

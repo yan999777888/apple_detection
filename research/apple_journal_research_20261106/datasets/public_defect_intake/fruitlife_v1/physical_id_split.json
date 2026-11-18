@@ -1,0 +1,19 @@
+{
+  "record": "10.5281/zenodo.23589223",
+  "license": "CC BY 4.0",
+  "id_salt": "FruitLife apple physical ID holdout v1",
+  "split": "For each storage, sort SHA256(salt plus pipe plus specimen_id), first training, last external test.",
+  "assignment": {
+    "apple_04": "train",
+    "apple_03": "external_test",
+    "apple_06": "train",
+    "apple_05": "external_test",
+    "apple_02": "train",
+    "apple_01": "external_test"
+  },
+  "source_labels": "All author consensus stages retained, with original source stage and whether blind relabeled. No age-based labels.",
+  "new_model_predictions_seen": false,
+  "crop": "Original author fruit mask bounding box expanded by 10% each side identical to existing localization context; no card/ruler normalization based on model predictions.",
+  "input_manifest_sha256": "be77317f0decd7363df75ff6c7a4445758e81fe7cc14a6a888cd207850ddc27c",
+  "first_pass": "Train grades only with visually supported grade mapping explicitly identified as auxiliary. Report external all stages at fruit and image level. Never use external results for tuning or hyperparameter selection."
+}

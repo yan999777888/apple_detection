@@ -185,6 +185,7 @@ if __name__ == "__main__":
     parser.add_argument("--smoke", action="store_true")
     parser.add_argument("--image", type=Path)
     parser.add_argument("--known-single-fruit", action="store_true")
+    parser.add_argument("--grade-directory", type=Path, help="Optional tested grade model directory with weights.pt and selection.json")
     parser.add_argument("--long-edge", type=int, help="Maximum input long edge in pixels; coordinates and overlay refer to resized image")
     parser.add_argument("--output", type=Path, default=OUT/"preview")
     args=parser.parse_args()
@@ -199,7 +200,13 @@ if __name__ == "__main__":
             raise ValueError(f"Cannot decode input image: {args.image}")
         source_hw=list(im.shape[:2])
         im=prepare_input(im,args.long_edge)
-        result,masks=QualityPipeline()(im,known_single_fruit=args.known_single_fruit)
+        pipe=QualityPipeline()
+        if args.grade_directory:
+            from matched_grade_loader import install
+            side=install(pipe,args.grade_directory)
+        result,masks=pipe(im,known_single_fruit=args.known_single_fruit)
+        if args.grade_directory:
+            result["quality_model"] = dict(sha256=sha(args.grade_directory/"weights.pt"),crop_input_side=side)
         result.update(source_hw=source_hw,prediction_hw=list(im.shape[:2]),
                       coordinate_frame="inference frame in pixels. To map x/y to the source multiply by source/inference width/height respectively.")
         atomic_json(args.output/"prediction.json",result)

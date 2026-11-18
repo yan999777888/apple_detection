@@ -1,0 +1,41 @@
+{
+  "source_url": "https://universe.roboflow.com/woo-wwyog/orchard-apple-defect-segmentatio/dataset/1",
+  "license": "CC BY 4.0",
+  "attribution": "Woo (orchard-apple-defect-segmentatio v1), Roboflow Universe",
+  "source_sha256": "b32b8203a7b92e2149dddbe5c20038b9a292b7c711f166b6a90b66ef54ac02c8",
+  "prior_audit_sha256": "7f82306db56395f7aed69ad0656e51bc0b0068d9d6fff22a7fb4cd1a47dec47f",
+  "transform": "Color-localized real fruit crop with 10% context. Source lesion polygons support a proxy face grade; all 3 native views use the same station.",
+  "heldout": "Author val/test and their timestamp families excluded; prior visual/name families and a new crop similarity screen excluded. Physical fruit identities were not released, apparent repeated apples appear across multiple timestamps. All accepted Woo examples belong to a single training session. Independent grading evaluation uses other data.",
+  "review": "Author gives lesion types, not whole-fruit grades. Two-stage nonexpert AI visual review on full scene and unmarked enlarged crop. Intact-face is limited to the visible surface. No test predictions or grade model were used in selection.",
+  "n_train_only_timestamp_views": 139,
+  "n_train_only_timestamps": 49,
+  "excluded": {
+    "visual_review_ambiguous_or_not_selected": 48,
+    "earlier_heldout_visual_or_name_family": 18,
+    "automatic_fruit_crop_geometry": 8,
+    "fruit_crop_near_author_holdout": 1,
+    "marked_region_over_6p5_percent": 5,
+    "fruit_crop_near_accepted_train_view": 1
+  },
+  "samples": 58,
+  "grade_counts": {
+    "0": 48,
+    "1": 10
+  },
+  "by_camera": {
+    "Woo_20260814_station_LEFT": {
+      "0": 14,
+      "1": 2
+    },
+    "Woo_20260814_station_RIGHT": {
+      "0": 10,
+      "1": 4
+    },
+    "Woo_20260814_station_TOP": {
+      "0": 24,
+      "1": 4
+    }
+  },
+  "distinct_capture_keys": 35,
+  "manifest_sha256": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8"
+}

@@ -1,0 +1,9 @@
+{
+  "original_grade_sha256": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+  "validation_selection": "Development auto crop first: same frozen controls as the first public-data arm. Among qualifying public-trained arms rank by higher mild correct, higher severe correct, higher good correct, higher total correct; break ties in favor of fewer sources and the existing model architecture. No historical test or physically held-out fruit in selection.",
+  "af_panel": "110 previously viewed AFruitDB grouped test photographs, first retest only after all source arms are locked; identical input at 1280, single-instance association and original GT. Always disclose unresolved and physical-group limits.",
+  "regression_safeguards": "Report whether automated mild recall exceeds original 2/37 while severe to good does not exceed 6/17, severe correct is at least original 1/17, and original 44/56 correctly good falls by no more than 4. Separately report whole-fruit, group results and all changes. Do not sweep policies on this panel.",
+  "heldout": "Report every frozen external source separately, label origin, visible appearance and capture group. FruitLife stage 1 is slight storage-related appearance change, stages 3/4 retain their original labels and are not proof of mechanical injury. No mixing these proxies into AFruitDB accuracy.",
+  "speed": "Original maturity and defect weights, candidate grading weights. Full serial pipeline, results on CPU and annotated frame, long edge 1280, 5 warms, 30 cycles on original 20 market photos, automatic and supplied-single-fruit. Separate source resize from received camera-sized frame, report P95 and real FPS. If severe CPU/GPU load observed repeat with a record.",
+  "default": "Keep prior weights; an improved model is an opt-in research candidate until the development results, retrospective regression, independent evidence and end-to-end speed have all been reviewed."
+}

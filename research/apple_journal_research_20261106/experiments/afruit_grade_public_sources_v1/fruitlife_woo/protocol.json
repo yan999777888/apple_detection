@@ -1,0 +1,22 @@
+{
+  "parent_sha256": "f2e4a0ba8963f4c7c214331f42c416602d50423b69eab3a2a3ea086642c50543",
+  "original_manifest_sha256": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "auto_cache_sha256": "30f7e8c0344b7f8cccd1b9c9fcc5d1c6b3272f0716bb7597635ebbceca6b349e",
+  "source_sha256": "e76152c989432f1fd62cba5cede18f9857859a5f0bf4beb23188d2e6457f32d3",
+  "arm_descriptions": {
+    "control": "AF grade- and capture-group-balanced replay with crop mixing",
+    "paired": "same AF replay and training plus paired public good/minor examples"
+  },
+  "optimizer": "20 epochs x 18 AdamW updates. Backbone 0.00010 and classifier 0.00045 with cosine factor down to 0.1. BN running stats fixed.",
+  "replay": "Each update 6 per original grade, then equal chance for each train acquisition group with that grade, then one image. For eligible fruits choose actual 1280px deployment crop or full image with equal probability.",
+  "auxiliary": "6 pairs each update from a condition with both grades; uniformly sample condition and eligible group before image, with independent RNG for the auxiliary data. BCE-equivalent conditional good/minor CE plus within-condition ranking, both applied only during training.",
+  "objective": "AF 3-grade CE (0.015 label smoothing), plus 0.30 BCE on old severe probability. Paired arm additionally 0.65 CE on external two logits + 0.15 softplus(0.5 - paired log-odds improvement).",
+  "validation": "All 57 official validation photos; scene 1280 with zero or multiple instances unresolved. Also full original images; all metrics fixed argmax.",
+  "gate": "Scene: zero severe->good, at least 2/15 minor correct, 16/17 severe correct, 19/25 good correct, 38/57 all correct. Whole photo zero severe->good.",
+  "selection": "Among gate passers prioritize minor correct, then total correct then severe correct then good correct, then lower whole-image NLL; failing checkpoints first maximize safety conditions including severe route and minimum good and overall correctness.",
+  "test": "No test pixels or predictions enter training, checkpoint selection or the decision. External evaluation partitions excluded.",
+  "epochs": 20,
+  "steps_per_epoch": 18,
+  "seed": 19112026,
+  "threshold": 1.0
+}

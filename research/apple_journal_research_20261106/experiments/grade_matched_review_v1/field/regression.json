@@ -1,0 +1,366 @@
+{
+  "auto": {
+    "rows_by_true_grade": [
+      "good",
+      "minor",
+      "severe"
+    ],
+    "columns_by_prediction": [
+      "good",
+      "minor",
+      "severe",
+      "unresolved"
+    ],
+    "confusion": [
+      [
+        39,
+        6,
+        0,
+        11
+      ],
+      [
+        13,
+        14,
+        0,
+        10
+      ],
+      [
+        0,
+        6,
+        3,
+        8
+      ]
+    ],
+    "images": 110,
+    "resolved": 81,
+    "correct": 56,
+    "severe_total": 17,
+    "severe_to_good": 0,
+    "severe_to_minor": 6,
+    "severe_to_severe": 3,
+    "severe_unresolved": 8,
+    "severe_to_good_fraction_of_all": 0.0,
+    "severe_to_good_fraction_among_resolved": 0.0,
+    "severe_good_or_unresolved_fraction": 0.47058823529411764
+  },
+  "whole": {
+    "rows_by_true_grade": [
+      "good",
+      "minor",
+      "severe"
+    ],
+    "columns_by_prediction": [
+      "good",
+      "minor",
+      "severe",
+      "unresolved"
+    ],
+    "confusion": [
+      [
+        47,
+        9,
+        0,
+        0
+      ],
+      [
+        14,
+        22,
+        1,
+        0
+      ],
+      [
+        0,
+        4,
+        13,
+        0
+      ]
+    ],
+    "images": 110,
+    "resolved": 110,
+    "correct": 82,
+    "severe_total": 17,
+    "severe_to_good": 0,
+    "severe_to_minor": 4,
+    "severe_to_severe": 13,
+    "severe_unresolved": 0,
+    "severe_to_good_fraction_of_all": 0.0,
+    "severe_to_good_fraction_among_resolved": 0.0,
+    "severe_good_or_unresolved_fraction": 0.0
+  },
+  "old_auto": {
+    "rows_by_true_grade": [
+      "good",
+      "minor",
+      "severe"
+    ],
+    "columns_by_prediction": [
+      "good",
+      "minor",
+      "severe",
+      "unresolved"
+    ],
+    "confusion": [
+      [
+        44,
+        1,
+        0,
+        11
+      ],
+      [
+        25,
+        2,
+        0,
+        10
+      ],
+      [
+        6,
+        2,
+        1,
+        8
+      ]
+    ],
+    "images": 110,
+    "resolved": 81,
+    "correct": 47,
+    "severe_total": 17,
+    "severe_to_good": 6,
+    "severe_to_minor": 2,
+    "severe_to_severe": 1,
+    "severe_unresolved": 8,
+    "severe_to_good_fraction_of_all": 0.35294117647058826,
+    "severe_to_good_fraction_among_resolved": 0.6666666666666666,
+    "severe_good_or_unresolved_fraction": 0.8235294117647058
+  },
+  "old_whole": {
+    "rows_by_true_grade": [
+      "good",
+      "minor",
+      "severe"
+    ],
+    "columns_by_prediction": [
+      "good",
+      "minor",
+      "severe",
+      "unresolved"
+    ],
+    "confusion": [
+      [
+        56,
+        0,
+        0,
+        0
+      ],
+      [
+        35,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        16,
+        0
+      ]
+    ],
+    "images": 110,
+    "resolved": 110,
+    "correct": 73,
+    "severe_total": 17,
+    "severe_to_good": 0,
+    "severe_to_minor": 1,
+    "severe_to_severe": 16,
+    "severe_unresolved": 0,
+    "severe_to_good_fraction_of_all": 0.0,
+    "severe_to_good_fraction_among_resolved": 0.0,
+    "severe_good_or_unresolved_fraction": 0.0
+  },
+  "per_group_auto": {
+    "burst_0033": {
+      "rows_by_true_grade": [
+        "good",
+        "minor",
+        "severe"
+      ],
+      "columns_by_prediction": [
+        "good",
+        "minor",
+        "severe",
+        "unresolved"
+      ],
+      "confusion": [
+        [
+          39,
+          6,
+          0,
+          11
+        ],
+        [
+          13,
+          14,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "images": 92,
+      "resolved": 72,
+      "correct": 53,
+      "severe_total": 0,
+      "severe_to_good": 0,
+      "severe_to_minor": 0,
+      "severe_to_severe": 0,
+      "severe_unresolved": 0,
+      "severe_to_good_fraction_of_all": null,
+      "severe_to_good_fraction_among_resolved": null,
+      "severe_good_or_unresolved_fraction": null
+    },
+    "burst_0200": {
+      "rows_by_true_grade": [
+        "good",
+        "minor",
+        "severe"
+      ],
+      "columns_by_prediction": [
+        "good",
+        "minor",
+        "severe",
+        "unresolved"
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "images": 8,
+      "resolved": 0,
+      "correct": 0,
+      "severe_total": 7,
+      "severe_to_good": 0,
+      "severe_to_minor": 0,
+      "severe_to_severe": 0,
+      "severe_unresolved": 7,
+      "severe_to_good_fraction_of_all": 0.0,
+      "severe_to_good_fraction_among_resolved": null,
+      "severe_good_or_unresolved_fraction": 1.0
+    },
+    "burst_0470": {
+      "rows_by_true_grade": [
+        "good",
+        "minor",
+        "severe"
+      ],
+      "columns_by_prediction": [
+        "good",
+        "minor",
+        "severe",
+        "unresolved"
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          1
+        ]
+      ],
+      "images": 4,
+      "resolved": 3,
+      "correct": 3,
+      "severe_total": 4,
+      "severe_to_good": 0,
+      "severe_to_minor": 0,
+      "severe_to_severe": 3,
+      "severe_unresolved": 1,
+      "severe_to_good_fraction_of_all": 0.0,
+      "severe_to_good_fraction_among_resolved": 0.0,
+      "severe_good_or_unresolved_fraction": 0.25
+    },
+    "burst_0475": {
+      "rows_by_true_grade": [
+        "good",
+        "minor",
+        "severe"
+      ],
+      "columns_by_prediction": [
+        "good",
+        "minor",
+        "severe",
+        "unresolved"
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0
+        ]
+      ],
+      "images": 6,
+      "resolved": 6,
+      "correct": 0,
+      "severe_total": 6,
+      "severe_to_good": 0,
+      "severe_to_minor": 6,
+      "severe_to_severe": 0,
+      "severe_unresolved": 0,
+      "severe_to_good_fraction_of_all": 0.0,
+      "severe_to_good_fraction_among_resolved": 0.0,
+      "severe_good_or_unresolved_fraction": 0.0
+    }
+  },
+  "same_regions": 110,
+  "same_lesion_outputs": 110,
+  "frame_instance_counts": {
+    "1": 81,
+    "0": 15,
+    "2": 7,
+    "3": 6,
+    "4": 1
+  },
+  "scope": "Previously inspected fixed AFruitDB regression panel; not a new prospective test."
+}

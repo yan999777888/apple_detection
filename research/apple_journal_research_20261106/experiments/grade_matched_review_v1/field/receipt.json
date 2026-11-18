@@ -1,0 +1,17 @@
+{
+  "selection_sha256": "16a6de8b30ef50439b66b90539b8a9a7ece65ad60068f04b803176629bc01f70",
+  "weight_sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "original_grade": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+  "input_manifest": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "input_long_edge": 1280,
+  "classifier_input_side": 224,
+  "original_models": [
+    "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+    "5e07009ec94310bd01bfd6c257ff8df853d3eef36c25de15e7f8483706fabd93",
+    "a8ce9e6c9035e1c1c8a2ff6c1907b4d98272e1e33e64d31e3d27c4b43ef8d980"
+  ],
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "rounds": 30,
+  "test_dataset": "retrospective AFruitDB regression",
+  "speed": "20 predecoded photos x 30 cycles; 5 warmup frames per mode. Includes CPU results and overlay; also records source downscale separately."
+}

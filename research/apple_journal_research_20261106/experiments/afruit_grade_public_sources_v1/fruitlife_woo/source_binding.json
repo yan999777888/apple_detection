@@ -1,0 +1,11 @@
+{
+  "name": "fruitlife_woo",
+  "manifest": "datasets/apple_matched_fruitlife_woo_v1/manifest.json",
+  "manifest_sha256": "8116f7883bbc72d83bd4542f54a019f944850b6cd9114f273dc6ed60bb321fa0",
+  "applied_manifest_sha256": "8116f7883bbc72d83bd4542f54a019f944850b6cd9114f273dc6ed60bb321fa0",
+  "filtered_source": null,
+  "control_receipt_sha256": "7097b1b6baf3296a0ff34b4ff57f80010a4f319b8475963e1b8dc9ddc67a61e4",
+  "wrapper_sha256": "45f02f2afce8c827988820e9281e7e137cdf623fae418b13a0113f3ebd8aada1",
+  "recipe_sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+  "rule": "Exact same control and protocol as first paired comparison with one new verified source; no held-out input to training or checkpoint selection."
+}

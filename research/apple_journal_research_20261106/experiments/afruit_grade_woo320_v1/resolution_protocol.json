@@ -1,0 +1,11 @@
+{
+  "source_file_sha256": "f45d4da2dc10ac210756abc9a028c610aca4b86359ff4836f2e83873093dba6d",
+  "base_recipe_sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+  "reference_selection_sha256": "16a6de8b30ef50439b66b90539b8a9a7ece65ad60068f04b803176629bc01f70",
+  "woo_sha256": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "input_side": 320,
+  "old_input_side": 224,
+  "initial_weights": "f2e4a0ba8963f4c7c214331f42c416602d50423b69eab3a2a3ea086642c50543",
+  "single_change": "Grade model input canvas changes from 224 to 320, including the training-only severe anchor. Original fruit photos and original 1280 deployment crop bounds are used. Same architecture, optimizer, replay, data, checkpoint policy and class rule.",
+  "test_policy": "Only AF train and val; no reading held-out images or predictions."
+}

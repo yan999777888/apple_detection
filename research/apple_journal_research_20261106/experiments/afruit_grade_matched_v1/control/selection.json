@@ -1,0 +1,92 @@
+{
+  "arm": "control",
+  "epoch": 2,
+  "updates": 360,
+  "metrics": {
+    "whole": {
+      "confusion": [
+        [
+          25,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 42,
+      "medium_correct": 0,
+      "severe_correct": 17,
+      "severe_to_good": 0,
+      "unresolved": 0,
+      "n": 57
+    },
+    "auto": {
+      "confusion": [
+        [
+          21,
+          0,
+          0,
+          4
+        ],
+        [
+          11,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 38,
+      "medium_correct": 0,
+      "severe_correct": 17,
+      "severe_to_good": 0,
+      "unresolved": 6,
+      "n": 57
+    },
+    "nll": 1.0944935083389282
+  },
+  "threshold": 1.0,
+  "checks": {
+    "severe_good": true,
+    "whole_severe_good": true,
+    "severe_correct": true,
+    "good_correct": true,
+    "overall": true,
+    "minor_gain": false
+  },
+  "passed": false,
+  "weights_sha256": "d14c85846c96d79c3585f8035380cbb6e35d09d2ab8afb9faaa14c33a099aba3",
+  "protocol_sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+  "public_train_manifest_sha256": null,
+  "af_draw_sha256": "b2095334ce2d18c5d5ccb9de434baf553c3f55dfb07b04c5cfd8e0149f4865e7",
+  "auxiliary_draw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "auxiliary_pairs": 0
+}

@@ -1,0 +1,190 @@
+{
+  "candidate": "paired",
+  "selected_weight": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "passed": true,
+  "control": {
+    "arm": "control",
+    "epoch": 2,
+    "updates": 360,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            25,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 42,
+        "medium_correct": 0,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            21,
+            0,
+            0,
+            4
+          ],
+          [
+            11,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 38,
+        "medium_correct": 0,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 1.0944935083389282
+    },
+    "threshold": 1.0,
+    "checks": {
+      "severe_good": true,
+      "whole_severe_good": true,
+      "severe_correct": true,
+      "good_correct": true,
+      "overall": true,
+      "minor_gain": false
+    },
+    "passed": false,
+    "weights_sha256": "d14c85846c96d79c3585f8035380cbb6e35d09d2ab8afb9faaa14c33a099aba3",
+    "protocol_sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+    "public_train_manifest_sha256": null,
+    "af_draw_sha256": "b2095334ce2d18c5d5ccb9de434baf553c3f55dfb07b04c5cfd8e0149f4865e7",
+    "auxiliary_draw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "auxiliary_pairs": 0
+  },
+  "paired": {
+    "arm": "paired",
+    "epoch": 2,
+    "updates": 360,
+    "metrics": {
+      "whole": {
+        "confusion": [
+          [
+            23,
+            2,
+            0,
+            0
+          ],
+          [
+            9,
+            4,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            16,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 43,
+        "medium_correct": 4,
+        "severe_correct": 16,
+        "severe_to_good": 0,
+        "unresolved": 0,
+        "n": 57
+      },
+      "auto": {
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            8,
+            3,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "columns": [
+          "good",
+          "medium",
+          "bad",
+          "unresolved"
+        ],
+        "correct": 40,
+        "medium_correct": 3,
+        "severe_correct": 17,
+        "severe_to_good": 0,
+        "unresolved": 6,
+        "n": 57
+      },
+      "nll": 0.6682637929916382
+    },
+    "threshold": 1.0,
+    "checks": {
+      "severe_good": true,
+      "whole_severe_good": true,
+      "severe_correct": true,
+      "good_correct": true,
+      "overall": true,
+      "minor_gain": true
+    },
+    "passed": true,
+    "weights_sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+    "protocol_sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+    "public_train_manifest_sha256": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+    "af_draw_sha256": "b2095334ce2d18c5d5ccb9de434baf553c3f55dfb07b04c5cfd8e0149f4865e7",
+    "auxiliary_draw_sha256": "d5629ca62601737f6a3600b09eb6f8db2e6da79e915710c1722f05e95ad1b8fe",
+    "auxiliary_pairs": 2160
+  },
+  "source": "57 AF validation photos; no held-out data used"
+}

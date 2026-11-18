@@ -1,0 +1,411 @@
+{
+  "winner": "Woo_224",
+  "weights": "experiments/afruit_grade_matched_v1/paired/weights.pt",
+  "sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "input_side": 224,
+  "selection_scope": "57 AF development validation images only. Architecture unchanged; this is a candidate for frozen external verification.",
+  "rank": "Same validation gates and rank function used for every source and resolution",
+  "af_draw_sha256": "b2095334ce2d18c5d5ccb9de434baf553c3f55dfb07b04c5cfd8e0149f4865e7",
+  "arms": [
+    {
+      "arm": "AF_replay",
+      "weights": "experiments/afruit_grade_matched_v1/control/weights.pt",
+      "sha256": "d14c85846c96d79c3585f8035380cbb6e35d09d2ab8afb9faaa14c33a099aba3",
+      "input_side": 224,
+      "epoch": 2,
+      "passed": false,
+      "metrics": {
+        "whole": {
+          "confusion": [
+            [
+              25,
+              0,
+              0,
+              0
+            ],
+            [
+              13,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 42,
+          "medium_correct": 0,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 0,
+          "n": 57
+        },
+        "auto": {
+          "confusion": [
+            [
+              21,
+              0,
+              0,
+              4
+            ],
+            [
+              11,
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 38,
+          "medium_correct": 0,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 6,
+          "n": 57
+        },
+        "nll": 1.0944935083389282
+      },
+      "selection_sha256": "7097b1b6baf3296a0ff34b4ff57f80010a4f319b8475963e1b8dc9ddc67a61e4"
+    },
+    {
+      "arm": "Woo_224",
+      "weights": "experiments/afruit_grade_matched_v1/paired/weights.pt",
+      "sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+      "input_side": 224,
+      "epoch": 2,
+      "passed": true,
+      "metrics": {
+        "whole": {
+          "confusion": [
+            [
+              23,
+              2,
+              0,
+              0
+            ],
+            [
+              9,
+              4,
+              2,
+              0
+            ],
+            [
+              0,
+              1,
+              16,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 43,
+          "medium_correct": 4,
+          "severe_correct": 16,
+          "severe_to_good": 0,
+          "unresolved": 0,
+          "n": 57
+        },
+        "auto": {
+          "confusion": [
+            [
+              20,
+              1,
+              0,
+              4
+            ],
+            [
+              8,
+              3,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 40,
+          "medium_correct": 3,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 6,
+          "n": 57
+        },
+        "nll": 0.6682637929916382
+      },
+      "selection_sha256": "16a6de8b30ef50439b66b90539b8a9a7ece65ad60068f04b803176629bc01f70"
+    },
+    {
+      "arm": "Woo_320",
+      "weights": "experiments/afruit_grade_woo320_v1/paired/weights.pt",
+      "sha256": "e71b583e21827719e3d3e437f665310bc40b7405e4ef68926efb8c1969a9aa21",
+      "input_side": 320,
+      "epoch": 1,
+      "passed": false,
+      "metrics": {
+        "whole": {
+          "confusion": [
+            [
+              25,
+              0,
+              0,
+              0
+            ],
+            [
+              12,
+              1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 43,
+          "medium_correct": 1,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 0,
+          "n": 57
+        },
+        "auto": {
+          "confusion": [
+            [
+              21,
+              0,
+              0,
+              4
+            ],
+            [
+              10,
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 39,
+          "medium_correct": 1,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 6,
+          "n": 57
+        },
+        "nll": 0.9770029783248901
+      },
+      "selection_sha256": "a90447fb113b69f9cd72dd40045f884e8e8e5d0b6713ef33795bfabeb0200e2c"
+    },
+    {
+      "arm": "FruitLife_224",
+      "weights": "experiments/afruit_grade_public_sources_v1/fruitlife/paired/weights.pt",
+      "sha256": "84f9f536a29ea2ce43f2ec3e1b44e2940ba7611f0763b9c5949e67a3223d8028",
+      "input_side": 224,
+      "epoch": 5,
+      "passed": false,
+      "metrics": {
+        "whole": {
+          "confusion": [
+            [
+              25,
+              0,
+              0,
+              0
+            ],
+            [
+              13,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 42,
+          "medium_correct": 0,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 0,
+          "n": 57
+        },
+        "auto": {
+          "confusion": [
+            [
+              20,
+              1,
+              0,
+              4
+            ],
+            [
+              10,
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 38,
+          "medium_correct": 1,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 6,
+          "n": 57
+        },
+        "nll": 1.1203248500823975
+      },
+      "selection_sha256": "de9f511bd03584d416ae2052f16896c94108003d21b584ef51371a5f726bbc6b"
+    },
+    {
+      "arm": "Woo_FruitLife_224",
+      "weights": "experiments/afruit_grade_public_sources_v1/fruitlife_woo/paired/weights.pt",
+      "sha256": "cce640087e750936f9bfb7b3088d8e319e55e0976af288867e26f2a9eb038069",
+      "input_side": 224,
+      "epoch": 4,
+      "passed": true,
+      "metrics": {
+        "whole": {
+          "confusion": [
+            [
+              25,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              3,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 45,
+          "medium_correct": 3,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 0,
+          "n": 57
+        },
+        "auto": {
+          "confusion": [
+            [
+              20,
+              1,
+              0,
+              4
+            ],
+            [
+              9,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "columns": [
+            "good",
+            "medium",
+            "bad",
+            "unresolved"
+          ],
+          "correct": 39,
+          "medium_correct": 2,
+          "severe_correct": 17,
+          "severe_to_good": 0,
+          "unresolved": 6,
+          "n": 57
+        },
+        "nll": 0.9785951972007751
+      },
+      "selection_sha256": "9d5547079a4dd2f47afa7a4cbea735e753d91d1384d6c5326eea889dd58a47fc"
+    }
+  ]
+}

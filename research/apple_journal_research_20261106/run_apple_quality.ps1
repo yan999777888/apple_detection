@@ -7,6 +7,8 @@ Path to an image. By default apples must be detected in the scene before grading
 Use only for an image already known to be a single fruit. Grade the full image as one target.
 .PARAMETER LongEdge
 Maximum inference image edge. Use 1280 for the measured camera-size mode or zero for native size.
+.PARAMETER GradeDirectory
+Optional directory containing a frozen grade candidate and its selection receipt.
 #>
 [CmdletBinding()]
 param(
@@ -15,7 +17,9 @@ param(
     [string]$Image,
     [switch]$SingleFruit,
     [ValidateSet(0, 1280)]
-    [int]$LongEdge = 0
+    [int]$LongEdge = 0,
+    [ValidateScript({ Test-Path -LiteralPath $_ -PathType Container })]
+    [string]$GradeDirectory
 )
 
 $ErrorActionPreference = 'Stop'
@@ -30,6 +34,9 @@ if ($SingleFruit) {
 }
 if ($LongEdge) {
     $arguments += @('--long-edge', $LongEdge.ToString())
+}
+if ($GradeDirectory) {
+    $arguments += @('--grade-directory', (Resolve-Path -LiteralPath $GradeDirectory).Path)
 }
 
 Push-Location -LiteralPath $PSScriptRoot

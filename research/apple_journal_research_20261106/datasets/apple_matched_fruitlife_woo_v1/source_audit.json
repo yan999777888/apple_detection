@@ -1,0 +1,31 @@
+{
+  "license": "CC BY 4.0",
+  "doi": "10.5281/zenodo.23589223",
+  "total_frames": 360,
+  "training_frames": 30,
+  "external_frames": 180,
+  "woo_frames": 58,
+  "source_hash_overlap": 0,
+  "fruit_assignment": {
+    "apple_04": "train",
+    "apple_03": "external_test",
+    "apple_06": "train",
+    "apple_05": "external_test",
+    "apple_02": "train",
+    "apple_01": "external_test"
+  },
+  "training_stage_hist": {
+    "0": 15,
+    "1": 15
+  },
+  "external_stage_hist": {
+    "0": 29,
+    "1": 21,
+    "2": 15,
+    "3": 71,
+    "4": 44
+  },
+  "preserved_woo_sha256": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "manifest_sha256": "8116f7883bbc72d83bd4542f54a019f944850b6cd9114f273dc6ed60bb321fa0",
+  "external_sha256": "40a7a5ff2e5a8d397af299d270ea7256191bd98b1f0acd092b01724f829ebfe7"
+}

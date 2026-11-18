@@ -1,0 +1,92 @@
+{
+  "arm": "paired",
+  "epoch": 5,
+  "updates": 360,
+  "metrics": {
+    "whole": {
+      "confusion": [
+        [
+          25,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 42,
+      "medium_correct": 0,
+      "severe_correct": 17,
+      "severe_to_good": 0,
+      "unresolved": 0,
+      "n": 57
+    },
+    "auto": {
+      "confusion": [
+        [
+          20,
+          1,
+          0,
+          4
+        ],
+        [
+          10,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "columns": [
+        "good",
+        "medium",
+        "bad",
+        "unresolved"
+      ],
+      "correct": 38,
+      "medium_correct": 1,
+      "severe_correct": 17,
+      "severe_to_good": 0,
+      "unresolved": 6,
+      "n": 57
+    },
+    "nll": 1.1203248500823975
+  },
+  "threshold": 1.0,
+  "checks": {
+    "severe_good": true,
+    "whole_severe_good": true,
+    "severe_correct": true,
+    "good_correct": true,
+    "overall": true,
+    "minor_gain": false
+  },
+  "passed": false,
+  "weights_sha256": "84f9f536a29ea2ce43f2ec3e1b44e2940ba7611f0763b9c5949e67a3223d8028",
+  "protocol_sha256": "48e11701aa0a4fb99ca64c5e57098fcdff492c98b822cb5dfcfd800aab7c2a82",
+  "public_train_manifest_sha256": "a274ad3a2bd7298131d06c9892d99ba8280c3e6e0c6daa0bd14f4aa638f2cf71",
+  "af_draw_sha256": "b2095334ce2d18c5d5ccb9de434baf553c3f55dfb07b04c5cfd8e0149f4865e7",
+  "auxiliary_draw_sha256": "48def6c6134bff3275b6898dbe085515881db03c05cd12c5f3ab94b39b173bc8",
+  "auxiliary_pairs": 2160
+}

@@ -1,0 +1,18 @@
+{
+  "architecture": "mobilenet_v3_small_local_evidence_v1",
+  "start_sha256": "f2e4a0ba8963f4c7c214331f42c416602d50423b69eab3a2a3ea086642c50543",
+  "data_manifest": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "grade_rule": "original non-good argmax preserved; positive local log-odds can move good to mild",
+  "source": "All AFruitDB train good/mild, grouped, upweight same capture; real auto crops and whole images plus mirrors. Matched public GOOD/MILD proxies only.",
+  "local": "mean and maximum of 4x4 pooled middle-block grids, one regularized logistic discriminator, weighted training-set feature scaling",
+  "c": 0.12,
+  "effective_weight": 96,
+  "domain_weights": [
+    0.46,
+    0.26,
+    0.28
+  ],
+  "val_gate": "same auto validation as paired training; fixed binary boundary and original 3-class argmax; no threshold scan",
+  "code": "7cb02f3ebcef5ae05209aa9ef49fae834402aeaa12610697a0a0c24cfbbd38d0",
+  "runtime_code": "666066455f9fd0d2ba487c5b51f9697acca79aaff4066f914066427d2ffa0ae7"
+}

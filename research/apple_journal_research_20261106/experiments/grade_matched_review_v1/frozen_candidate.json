@@ -1,0 +1,77 @@
+{
+  "protocol_sha256": "1d6e40e66867d857d1a43a6092c3f262608165d087d40b3ba797ce43e6129243",
+  "arms": [
+    {
+      "directory": "experiments/afruit_grade_matched_v1/paired",
+      "weight_sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+      "selection_sha256": "16a6de8b30ef50439b66b90539b8a9a7ece65ad60068f04b803176629bc01f70",
+      "passed": true,
+      "validation_score": [
+        3,
+        17,
+        20,
+        40
+      ]
+    },
+    {
+      "directory": "experiments/afruit_grade_public_sources_v1/fruitlife/paired",
+      "weight_sha256": "84f9f536a29ea2ce43f2ec3e1b44e2940ba7611f0763b9c5949e67a3223d8028",
+      "selection_sha256": "de9f511bd03584d416ae2052f16896c94108003d21b584ef51371a5f726bbc6b",
+      "passed": false,
+      "validation_score": [
+        1,
+        17,
+        20,
+        38
+      ]
+    },
+    {
+      "directory": "experiments/afruit_grade_public_sources_v1/fruitlife_woo/paired",
+      "weight_sha256": "cce640087e750936f9bfb7b3088d8e319e55e0976af288867e26f2a9eb038069",
+      "selection_sha256": "9d5547079a4dd2f47afa7a4cbea735e753d91d1384d6c5326eea889dd58a47fc",
+      "passed": true,
+      "validation_score": [
+        2,
+        17,
+        20,
+        39
+      ]
+    },
+    {
+      "directory": "experiments/afruit_grade_woo320_v1/paired",
+      "weight_sha256": "e71b583e21827719e3d3e437f665310bc40b7405e4ef68926efb8c1969a9aa21",
+      "selection_sha256": "a90447fb113b69f9cd72dd40045f884e8e8e5d0b6713ef33795bfabeb0200e2c",
+      "passed": false,
+      "validation_score": [
+        1,
+        17,
+        21,
+        39
+      ]
+    },
+    {
+      "directory": "experiments/grade_local_evidence_v1/paired",
+      "weight_sha256": "7b1a5c4259ce1405efeefefe9d60bdbe49f406a6d8482e99af430f0e433c9db1",
+      "selection_sha256": "d81f1c04afee5910dc6f7781061386f553f77713a4400a046f59c6140a66693f",
+      "passed": false,
+      "validation_score": [
+        0,
+        17,
+        21,
+        38
+      ]
+    }
+  ],
+  "selected": {
+    "directory": "experiments/afruit_grade_matched_v1/paired",
+    "weight_sha256": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+    "selection_sha256": "16a6de8b30ef50439b66b90539b8a9a7ece65ad60068f04b803176629bc01f70",
+    "passed": true,
+    "validation_score": [
+      3,
+      17,
+      20,
+      40
+    ]
+  }
+}
