@@ -1,0 +1,10 @@
+{
+  "positive_distance": {
+    "most_FP_removed_losing_at_most_3_TP": 0,
+    "fewest_TP_lost_removing_at_least_30_FP": 145
+  },
+  "other_vs_positive": {
+    "most_FP_removed_losing_at_most_3_TP": 0,
+    "fewest_TP_lost_removing_at_least_30_FP": 79
+  }
+}

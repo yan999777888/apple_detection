@@ -18,6 +18,7 @@ from defect_continue_transplant import OUT, SIDE, sample, split_train
 from defect9485_p2 import samples
 from audit_defect_causes_20261112 import match
 from run_defect_zero_train_20261112 import metrics
+from joint_state_v1 import atomic_checkpoint, load_checkpoint
 
 COCO = ROOT.parent / "apple_vision/local_amodal/cache/torch/hub/checkpoints/maskrcnn_resnet50_fpn_coco-bf2d0c1e.pth"
 COCO_SHA = "bf2d0c1efbc936eeee2bc95a48e80ebc86b891f61b0106485937fc29f9315fc0"
@@ -69,9 +70,34 @@ def train_sample(fit, i, rng, transfer_probability):
                             labels=torch.from_numpy(lab[:, 4].astype(np.int64) + 1).cuda())
 
 
-def train(folder, transfer_probability):
+def save_epoch(folder, ep, model, optim, rng, history, transfer_probability):
+    return atomic_checkpoint(folder / f"epoch{ep:02}.pt", dict(
+        schema="joint_exact_training_checkpoint_v1", resumable=True, epoch_completed=ep,
+        model=model.state_dict(), optimizer=optim.state_dict(),
+        numpy_rng=rng.bit_generator.state, cpu_rng=torch.get_rng_state(),
+        cuda_rng=torch.cuda.get_rng_state_all() if torch.cuda.is_initialized() else [],
+        history=list(history), side=SIDE, seed=SEED, initial_coco=COCO_SHA,
+        transfer_probability=transfer_probability,
+    ))
+
+
+def restore_epoch(state, model, optim, rng, transfer_probability):
+    if (state["side"], state["seed"], state["initial_coco"], state["transfer_probability"]) != (
+            SIDE, SEED, COCO_SHA, transfer_probability):
+        raise ValueError("Checkpoint belongs to a different training recipe")
+    model.load_state_dict(state["model"], strict=True)
+    optim.load_state_dict(state["optimizer"])
+    rng.bit_generator.state = state["numpy_rng"]
+    torch.set_rng_state(state["cpu_rng"])
+    if state["cuda_rng"]:
+        torch.cuda.set_rng_state_all(state["cuda_rng"])
+    return state["epoch_completed"], state["history"]
+
+
+def train(folder, transfer_probability, resume=False):
     fit, calib = split_train()
-    assert not (folder / "training.json").exists(), "Fresh run required"
+    if not resume and (folder / "training.json").exists():
+        raise ValueError("Pass --resume for an existing run")
     torch.manual_seed(SEED)
     rng = np.random.default_rng(SEED)
     model = initialized().cuda().train()
@@ -85,7 +111,16 @@ def train(folder, transfer_probability):
     batches = math.ceil(len(fit) / 2)
     groups = math.ceil(batches / 2)
     total_steps = groups * EPOCHS
-    for ep in range(1, EPOCHS+1):
+    first = 1
+    if resume:
+        receipts = sorted(folder.glob("epoch??.sha256.json"))
+        if not receipts:
+            raise ValueError("No complete checkpoint with a verified receipt")
+        saved = load_checkpoint(receipts[-1].with_suffix("").with_suffix(".pt"))
+        completed, history = restore_epoch(saved, model, optim, rng, transfer_probability)
+        del saved
+        first = completed + 1
+    for ep in range(first, EPOCHS+1):
         start = time.perf_counter()
         order = rng.permutation(len(fit))
         losses = []
@@ -108,11 +143,10 @@ def train(folder, transfer_probability):
         entry = dict(epoch=ep, updates=groups * ep, mean_loss=float(torch.stack(losses).mean()),
                      seconds=round(time.perf_counter()-start, 2))
         history.append(entry)
+        if ep % 3 == 0:
+            save_epoch(folder, ep, model, optim, rng, history, transfer_probability)
         atomic_json(folder / "training.json", history)
         print(entry, flush=True)
-        if ep in CHECKS:
-            from joint_state_v1 import atomic_checkpoint
-            atomic_checkpoint(folder / f"epoch{ep:02}.pt", model.state_dict())
     atomic_json(folder / "fit.json", dict(coco_sha=COCO_SHA, fit_ids=[r["image_id"] for r in fit],
                 calibration_ids=[r["image_id"] for r in calib], epochs=EPOCHS, seed=SEED,
                 transfer_probability=transfer_probability, updates=total_steps))
@@ -178,7 +212,7 @@ def select_model(folder):
     records = []
     for ep in CHECKS:
         w = folder / f"epoch{ep:02}.pt"
-        model.load_state_dict(torch.load(w, map_location="cpu", weights_only=True))
+        model.load_state_dict(load_checkpoint(w)["model"])
         result = calibrate(predictions(model, calib))
         records.append(dict(epoch=ep, sha256=sha(w), **result))
     best = max(records, key=lambda z: z["key"])
@@ -192,7 +226,7 @@ def evaluate(folder):
     w = folder / f"epoch{point['epoch']:02}.pt"
     assert sha(w) == point["sha256"]
     model = initialized().cuda().eval()
-    model.load_state_dict(torch.load(w, map_location="cpu", weights_only=True))
+    model.load_state_dict(load_checkpoint(w)["model"])
     rows = predictions(model, samples("dev"))
     assert len(rows) == 113 and sum(len(r["GT"]) for r in rows) == 230
     fixed = clipped(rows, point["cut"])
@@ -238,8 +272,9 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("action", choices=["check", "train", "evaluate", "all"])
     p.add_argument("--native-only", action="store_true")
+    p.add_argument("--resume", action="store_true")
     args = p.parse_args()
-    folder = OUT / ("native" if args.native_only else "transfer")
+    folder = OUT / ("native_v2" if args.native_only else "transfer_v2")
     configure(folder, "cpu" if args.action == "check" else "cuda:0")
     torch.set_num_threads(2)
     cv2.setNumThreads(1)
@@ -250,7 +285,7 @@ if __name__ == "__main__":
         assert out["boxes"].shape[-1] == 4
         print("Strict COCO box-branch load and CPU forward OK", flush=True)
     if args.action in ("train","all"):
-        train(folder, 0 if args.native_only else 0.5)
+        train(folder, 0 if args.native_only else 0.5, args.resume)
         select_model(folder)
     if args.action in ("evaluate","all"):
         evaluate(folder)

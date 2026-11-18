@@ -1,0 +1,16 @@
+{
+  "training_images": 490,
+  "calibration_images": 106,
+  "fit_gt": 1075,
+  "dev_images": 113,
+  "threads": 2,
+  "device": "cpu",
+  "parameters": 8683788,
+  "local_coco_sha": "73cbd0190fcbe3ba339921fbce2c3a0b6bb9126c9a133c85e43a2a8e060a109e",
+  "real_224_batch2_loss": 8.410463333129883,
+  "empty_loss": 0.07685273140668869,
+  "real_704_forward": true,
+  "backbone_and_all_heads_have_gradient": true,
+  "offset_size_decode_exact": true,
+  "nine_cell_regression_targets": true
+}
