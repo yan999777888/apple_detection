@@ -1,0 +1,28 @@
+{
+  "reference_sha": "0f4223911e71d956f410944e2d386cc4605f7351f1bd35c61bb059fadba73449",
+  "warm_insect_sha": "83cc3f1ed290e5feb10fed80e89290c44c6db248b26dcb4a8f6c51dde4fd6f5a",
+  "insect": [
+    123,
+    7,
+    20
+  ],
+  "files_considered": 129,
+  "fixed_sets": 100,
+  "low_sets": 35,
+  "original_29": 29,
+  "fixed_meets": [],
+  "low_oracle_meets": [],
+  "any_geometry_coverage": 86,
+  "never_geometric_hits": [
+    "23945062_20211025_215315_157.jpg#1"
+  ],
+  "no_fixed_model_recovers_original29": [
+    "M01",
+    "M06",
+    "M23",
+    "M26"
+  ],
+  "no_low_model_recovers_original29": [
+    "M01"
+  ]
+}

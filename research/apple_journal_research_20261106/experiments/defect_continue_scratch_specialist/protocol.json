@@ -1,0 +1,47 @@
+{
+  "mode": "single backbone locked insects plus specialized scratch",
+  "parent_sha256": "21ca5879ab152ce754ed337e5f8abe3f1b611f99e3d86213be299816bf7f9de5",
+  "ssda_manifest_sha256": "d748a4ada46e4dd3e087aff11c7813d9ab22044d5bbfb2d05c6cfa135a27f19f",
+  "code_sha256": "d27a54e713d4b4e3a44b318851b34a4377d4c38fc11a2e8cdd932d0b2f73f0e2",
+  "transfer_code_sha256": "1b63d861aa655406ae6758a9e76c9f3250645317f21ba3821e9099215d7296d5",
+  "base_training_code_sha256": "3661850a7694d3e6b7656915db85cdc7d41b6e5c5e09015c4253a90422b7dbad",
+  "train": [
+    596,
+    1276
+  ],
+  "dev": [
+    113,
+    230
+  ],
+  "image_size": 768,
+  "seed": 948518,
+  "epochs": 8,
+  "lr_peak": 0.0001,
+  "learning_rate": "two-epoch warmup, cosine decay ending at 5% of peak",
+  "optimizer": "AdamW, weight decay 5e-4 on non-bias/non-norm weights; gradient norm limit 10",
+  "weights": "eighth epoch EMA; no dev checkpoint or threshold selection",
+  "per_batch": 4,
+  "accumulation": 3,
+  "expected_updates": 400,
+  "thresholds": [
+    0.4,
+    0.34
+  ],
+  "inference": "single-view FP32 with original class NMS 0.70",
+  "extra_rng": "per (seed,epoch,original training row); separate from shuffle and original augment",
+  "transfer_probability": 0.0,
+  "external": null,
+  "prior_exposure": "All 596 images trained the parent. Only the 113-image date development set is scored.",
+  "locked_sha256": "5e07009ec94310bd01bfd6c257ff8df853d3eef36c25de15e7f8483706fabd93",
+  "scratch_initial_sha256": "27fcf984acc450e6d09dc4f0e0a2810ed4daff0911668576b3b75e44feece0cc",
+  "net_sha256": "385d50dd1d17dd3a5658a5edd8fdf8646f92090881d88fce883f52e031564d0c",
+  "script_sha256": "1973a01f2afee141c44bf6e62c73114cbef476e3fc4495386bada7d07aa76e9d",
+  "class_thresholds": [
+    0.4,
+    0.34
+  ],
+  "workpoint": "last epoch 8 EMA, no development calibration",
+  "input": "shared original 768 FP32 frozen features, scratch head training BF16, production FP32",
+  "additional_training": "single-class native detection; per-GT recall floor .30 and same-image ranking .12 with known insect negatives",
+  "training_domains": "596 original source training frames; no external images used"
+}

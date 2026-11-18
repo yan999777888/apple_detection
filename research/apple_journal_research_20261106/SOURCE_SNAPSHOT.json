@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T11:04:29.608845+00:00",
+  "snapshot_updated_utc": "2026-11-18T11:49:09.995947+00:00",
   "files": [
     {
       "path": "README.md",
@@ -318,6 +318,11 @@
       "bytes": 7729
     },
     {
+      "path": "apple_research_v2/defect_continue_class_complement.py",
+      "sha256": "0fc6b68e36e692954a4e5ea32d9f066ce8a86d974a75ab62e16c5e0f1d74b94c",
+      "bytes": 3047
+    },
+    {
       "path": "apple_research_v2/defect_continue_comparison.py",
       "sha256": "22407398fe5f34be2d77624499583c246a1121d1604d9c95451aaa343b681468",
       "bytes": 2781
@@ -413,6 +418,31 @@
       "bytes": 13085
     },
     {
+      "path": "apple_research_v2/defect_continue_scratch_agreement.py",
+      "sha256": "21a4cc3670ab40d20144f909a11d16d88d71bcce2b281e1b9cf073e4327238c8",
+      "bytes": 9751
+    },
+    {
+      "path": "apple_research_v2/defect_continue_scratch_audit.py",
+      "sha256": "6f6066d5adaf7ff3af73bf2ffd5c4ff5634f89c405acd3e1b31b3e4a8799e67a",
+      "bytes": 10948
+    },
+    {
+      "path": "apple_research_v2/defect_continue_scratch_net.py",
+      "sha256": "385d50dd1d17dd3a5658a5edd8fdf8646f92090881d88fce883f52e031564d0c",
+      "bytes": 8471
+    },
+    {
+      "path": "apple_research_v2/defect_continue_scratch_pairs.py",
+      "sha256": "1c6651b9c6f19519e29fba4bab33e51828bcdfe7f09b770ab1e942b2921fb205",
+      "bytes": 5218
+    },
+    {
+      "path": "apple_research_v2/defect_continue_scratch_specialist.py",
+      "sha256": "1973a01f2afee141c44bf6e62c73114cbef476e3fc4495386bada7d07aa76e9d",
+      "bytes": 11139
+    },
+    {
       "path": "apple_research_v2/defect_continue_stratified.py",
       "sha256": "8536f15da2190441c57805458ffa26938340b52d21c1edaa60c27832128b9aa5",
       "bytes": 7936
@@ -441,6 +471,11 @@
       "path": "apple_research_v2/defect_continue_teacher_proxy.py",
       "sha256": "b3bcb210bd6e5bc3eb52ce4555d651bbe12b0051fd1fb6ef45008500586d2103",
       "bytes": 2749
+    },
+    {
+      "path": "apple_research_v2/defect_continue_tile_scratch.py",
+      "sha256": "136122e88e732456e8d594ea1f059742567a15805b0743e7656bcdd79ab3d2a9",
+      "bytes": 5868
     },
     {
       "path": "apple_research_v2/defect_continue_transplant.py",
@@ -511,6 +546,16 @@
       "path": "apple_research_v2/defect_score_transfer_20261118.py",
       "sha256": "c5d05cdda1ae6bb560f8715da9824c517ab16d675ac9bad542598eafa5781d9b",
       "bytes": 2927
+    },
+    {
+      "path": "apple_research_v2/defect_scratch_morphology.py",
+      "sha256": "ac37ea05b1b1fc97d2b455573bd5996ffb38d962bf58efcf50db82bd2055f52e",
+      "bytes": 14718
+    },
+    {
+      "path": "apple_research_v2/defect_scratch_specialist_audit.py",
+      "sha256": "272dde3bb4a8dd6175651916844376701f6135010e0ee69b52fe38532bbf43fe",
+      "bytes": 10057
     },
     {
       "path": "apple_research_v2/defect_shield_train_20261112.py",
@@ -918,6 +963,11 @@
       "bytes": 8349
     },
     {
+      "path": "docs/划伤跨日漏检与训练适配核查_20261118.md",
+      "sha256": "73fe802321f862c9b970821d6e6adc71afa5e0cbcb2342aa3910b5b53595ec0a",
+      "bytes": 10444
+    },
+    {
       "path": "docs/接手实测与研究路线_20261112.md",
       "sha256": "6a6193b3a1b037c67a4a0b664675807e4bc1da2bb129ef2a985f30de9d6368a9",
       "bytes": 9909
@@ -949,8 +999,8 @@
     },
     {
       "path": "docs/缺陷检测_续训与公开数据验证_20261118.md",
-      "sha256": "8895c86af34a215524317fadf26be4de965d5fa3c7ed7735ba68277444b7f920",
-      "bytes": 9316
+      "sha256": "a1d715390e8ea36f2744d1c52856aafe9db6fec5ed046dcb06e1801648ba432b",
+      "bytes": 12092
     },
     {
       "path": "docs/缺陷检测优化对照_20261118.md",
@@ -1678,6 +1728,46 @@
       "bytes": 248
     },
     {
+      "path": "experiments/defect_continue_scratch_audit/summary.json",
+      "sha256": "7006674d40ec650538815659236fa8a4ede746b24d2ce9ba2d90dec415aa3d55",
+      "bytes": 631
+    },
+    {
+      "path": "experiments/defect_continue_scratch_specialist/independent_audit.json",
+      "sha256": "59ca52be6c240dcebd14d2b9ba57e4e2cf6df4ce3ca30d199631cd62f0d9d223",
+      "bytes": 15306
+    },
+    {
+      "path": "experiments/defect_continue_scratch_specialist/metrics.json",
+      "sha256": "e88791cfea00d5ec7f7dab6d7f5fb47fdcd53b294c7e2a3a1747b60e2af5dec4",
+      "bytes": 3129
+    },
+    {
+      "path": "experiments/defect_continue_scratch_specialist/preflight.json",
+      "sha256": "0bbc8dd828aa1e0a0d4ee7d7600c7c78a212ff3322ca1aa65c5cc36665de88b2",
+      "bytes": 676
+    },
+    {
+      "path": "experiments/defect_continue_scratch_specialist/protocol.json",
+      "sha256": "8487863f1ce85019c4623c4704503099b06240cfcc1b571efecd5bddd1cd060a",
+      "bytes": 2185
+    },
+    {
+      "path": "experiments/defect_continue_scratch_specialist/receipt.json",
+      "sha256": "f87c9f57660a5cecac290cc573712ce1ffe6e3458d752f0a4fc8f82a3a817a22",
+      "bytes": 442
+    },
+    {
+      "path": "experiments/defect_continue_scratch_specialist/remaining_scratch.json",
+      "sha256": "58a5dfe9ed31a5d23beb4fd1570f609145a46eea9877b3bf4941d3e05e3c11b0",
+      "bytes": 7628
+    },
+    {
+      "path": "experiments/defect_continue_scratch_specialist/speed.json",
+      "sha256": "834cddee954f24a33549a2af899d958d56611b5bf2230fb36e70b8fe2316e2a4",
+      "bytes": 152
+    },
+    {
       "path": "experiments/defect_continue_stratified/appearance_diagnostic.json",
       "sha256": "05d7459fa68c03be04082070876d07b0657a376eaf3fd67a7c18304532abcb2f",
       "bytes": 262
@@ -1708,9 +1798,39 @@
       "bytes": 22201
     },
     {
+      "path": "experiments/defect_continue_tile_scratch/frozen.json",
+      "sha256": "34a7296b0ca3748fafd1a55c28b36bd2c2914c56b7916c934bdc5bb434aa71db",
+      "bytes": 691
+    },
+    {
+      "path": "experiments/defect_continue_tile_scratch/metrics.json",
+      "sha256": "743a46ac37c33a0e8dae21e3d13e33c4a993f4261f01c93c52a31ef6d807ffd1",
+      "bytes": 2143
+    },
+    {
       "path": "experiments/defect_continue_warm_rank/cpu_check.json",
       "sha256": "0b3a17c56472784f4bf410ed12e4845461f03caddc6028681c8891f02dcabe19",
       "bytes": 901
+    },
+    {
+      "path": "experiments/defect_continue_warm_rank/metrics.json",
+      "sha256": "d6ed916c7fa02b04f8029cf6f56ecf1cc1f1b02aeffc251f0bbec5ca588f6bc1",
+      "bytes": 3954
+    },
+    {
+      "path": "experiments/defect_continue_warm_rank/protocol.json",
+      "sha256": "4b326b3e34aa3c828e20e21ac75586f5238ee7ed39ffd9e1aec06002d3b8b6e9",
+      "bytes": 1758
+    },
+    {
+      "path": "experiments/defect_continue_warm_rank/receipt.json",
+      "sha256": "bb0db82c0d95766d4c7a67416942636880724e63c6eb8e27982a856d79ea3eed",
+      "bytes": 319
+    },
+    {
+      "path": "experiments/defect_continue_warm_rank/speed.json",
+      "sha256": "09844651a2e831a8ce3da1e3c3ee78aa77afa4251eabd1387dedb8874cb3c95e",
+      "bytes": 151
     },
     {
       "path": "experiments/defect_coordinate_vote_20261118/frozen.json",
@@ -1836,6 +1956,11 @@
       "path": "experiments/retained_dual_entry_smoke_20261112/predictions.json",
       "sha256": "8e3ff9bd5c3e50396ce624f9b5fd41a00891cd2da4bc7e79404ca4c1fdfd23c7",
       "bytes": 1075
+    },
+    {
+      "path": "experiments/ssda_scratch_morphology/descriptive_summary.json",
+      "sha256": "08229364f987e89e2b306bf437d855399e92c468fb2a15f692b0e91bc97692c0",
+      "bytes": 14146
     },
     {
       "path": "experiments/strong_defect_amp_20261112_v1/INVALIDATION.md",

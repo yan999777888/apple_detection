@@ -1,0 +1,639 @@
+{
+  "distributions": {
+    "native_train": {
+      "n": 537,
+      "features": {
+        "side_768": {
+          "n": 537,
+          "quartiles": [
+            40.75021902898236,
+            51.53420469271988,
+            74.99668676897669
+          ]
+        },
+        "aspect": {
+          "n": 537,
+          "quartiles": [
+            1.09375,
+            1.2545454545454546,
+            1.5874999999999995
+          ]
+        },
+        "x_fraction": {
+          "n": 537,
+          "quartiles": [
+            0.3100272851296043,
+            0.4880054832076766,
+            0.6572948328267477
+          ]
+        },
+        "y_fraction": {
+          "n": 537,
+          "quartiles": [
+            0.28171509567682496,
+            0.4643102264927934,
+            0.6334250343878954
+          ]
+        },
+        "image_edge_fraction": {
+          "n": 537,
+          "quartiles": [
+            0.15680473372781065,
+            0.22085276482345106,
+            0.303968253968254
+          ]
+        },
+        "L_inner_minus_ring": {
+          "n": 535,
+          "quartiles": [
+            -2.6336669921875,
+            -1.287841796875,
+            -0.0244140625
+          ]
+        },
+        "dE_median": {
+          "n": 535,
+          "quartiles": [
+            2.058022379875183,
+            3.4103810787200928,
+            5.610165357589722
+          ]
+        },
+        "dark_tail": {
+          "n": 535,
+          "quartiles": [
+            -1.055908203125,
+            0.7080078125,
+            3.4039306640625
+          ]
+        },
+        "light_tail": {
+          "n": 535,
+          "quartiles": [
+            -3.5797119140625,
+            -1.69677734375,
+            -0.3143310546875
+          ]
+        },
+        "surface_neighbor_gap": {
+          "n": 364,
+          "quartiles": [
+            0.14773390646614243,
+            1.1845988427330378,
+            3.3776921615748603
+          ]
+        }
+      }
+    },
+    "development": {
+      "n": 87,
+      "features": {
+        "side_768": {
+          "n": 87,
+          "quartiles": [
+            42.7898940363508,
+            63.393351237586984,
+            95.71464903927935
+          ]
+        },
+        "aspect": {
+          "n": 87,
+          "quartiles": [
+            1.055945945945946,
+            1.2500000000000013,
+            1.5551460278033729
+          ]
+        },
+        "x_fraction": {
+          "n": 87,
+          "quartiles": [
+            0.29622477597646896,
+            0.5157539384846211,
+            0.6719269288056342
+          ]
+        },
+        "y_fraction": {
+          "n": 87,
+          "quartiles": [
+            0.3216895548065094,
+            0.4631205673758866,
+            0.6187624767032511
+          ]
+        },
+        "image_edge_fraction": {
+          "n": 87,
+          "quartiles": [
+            0.15918468651320344,
+            0.23223140495867767,
+            0.30956035767511175
+          ]
+        },
+        "L_inner_minus_ring": {
+          "n": 87,
+          "quartiles": [
+            -3.72467041015625,
+            -1.7120361328125,
+            -0.33721923828125
+          ]
+        },
+        "dE_median": {
+          "n": 87,
+          "quartiles": [
+            2.602335810661316,
+            4.090099811553955,
+            8.29190444946289
+          ]
+        },
+        "dark_tail": {
+          "n": 87,
+          "quartiles": [
+            -0.7598876953125,
+            1.654052734375,
+            4.6038818359375
+          ]
+        },
+        "light_tail": {
+          "n": 87,
+          "quartiles": [
+            -4.0606689453125,
+            -1.67236328125,
+            -0.25360107421875
+          ]
+        },
+        "surface_neighbor_gap": {
+          "n": 62,
+          "quartiles": [
+            0.15113164571070914,
+            1.1868877266832647,
+            2.688680654548682
+          ]
+        }
+      }
+    },
+    "public_scratch": {
+      "n": 224,
+      "features": {
+        "side_768": {
+          "n": 224,
+          "quartiles": [
+            16.50968813777234,
+            20.787348147919825,
+            27.63337551646807
+          ]
+        },
+        "aspect": {
+          "n": 224,
+          "quartiles": [
+            1.1667176463092535,
+            1.428514990929779,
+            1.8271089444679922
+          ]
+        },
+        "x_fraction": {
+          "n": 224,
+          "quartiles": [
+            0.4412373046875,
+            0.52909765625,
+            0.5899130859375
+          ]
+        },
+        "y_fraction": {
+          "n": 224,
+          "quartiles": [
+            0.4242083333333333,
+            0.5369027777777777,
+            0.6373645833333333
+          ]
+        },
+        "image_edge_fraction": {
+          "n": 224,
+          "quartiles": [
+            0.3128576388888889,
+            0.35447309027777785,
+            0.410625
+          ]
+        },
+        "L_inner_minus_ring": {
+          "n": 224,
+          "quartiles": [
+            -5.547332763671875,
+            -3.460693359375,
+            -0.9246826171875
+          ]
+        },
+        "dE_median": {
+          "n": 224,
+          "quartiles": [
+            3.282339334487915,
+            5.078359603881836,
+            7.322656512260437
+          ]
+        },
+        "dark_tail": {
+          "n": 224,
+          "quartiles": [
+            -0.38848876953125,
+            3.9739990234375,
+            7.1588134765625
+          ]
+        },
+        "light_tail": {
+          "n": 224,
+          "quartiles": [
+            -5.81085205078125,
+            -3.19488525390625,
+            -1.109161376953125
+          ]
+        },
+        "surface_neighbor_gap": {
+          "n": 205,
+          "quartiles": [
+            0.1961912952215244,
+            1.0370174206147025,
+            2.253532940409789
+          ]
+        }
+      }
+    },
+    "warm_TP": {
+      "n": 44,
+      "features": {
+        "side_768": {
+          "n": 44,
+          "quartiles": [
+            38.97254880240538,
+            49.905639716887755,
+            75.81362183084366
+          ]
+        },
+        "aspect": {
+          "n": 44,
+          "quartiles": [
+            1.0513830315058321,
+            1.2060574229691885,
+            1.484892787524367
+          ]
+        },
+        "x_fraction": {
+          "n": 44,
+          "quartiles": [
+            0.3487736853310624,
+            0.5162688505850116,
+            0.6790024851448593
+          ]
+        },
+        "y_fraction": {
+          "n": 44,
+          "quartiles": [
+            0.3251517818741936,
+            0.4748137161793059,
+            0.5939665744091973
+          ]
+        },
+        "image_edge_fraction": {
+          "n": 44,
+          "quartiles": [
+            0.16395134696451014,
+            0.22953202336453937,
+            0.3125772662259074
+          ]
+        },
+        "L_inner_minus_ring": {
+          "n": 44,
+          "quartiles": [
+            -3.916168212890625,
+            -2.044677734375,
+            -0.78277587890625
+          ]
+        },
+        "dE_median": {
+          "n": 44,
+          "quartiles": [
+            2.531534194946289,
+            3.9454129934310913,
+            7.853467106819153
+          ]
+        },
+        "dark_tail": {
+          "n": 44,
+          "quartiles": [
+            -0.213470458984375,
+            2.5054931640625,
+            5.970001220703125
+          ]
+        },
+        "light_tail": {
+          "n": 44,
+          "quartiles": [
+            -3.57666015625,
+            -1.66351318359375,
+            -0.06134033203125
+          ]
+        },
+        "surface_neighbor_gap": {
+          "n": 31,
+          "quartiles": [
+            0.15846215833955746,
+            1.6115795082237987,
+            2.753715078999799
+          ]
+        }
+      }
+    },
+    "warm_FN": {
+      "n": 43,
+      "features": {
+        "side_768": {
+          "n": 43,
+          "quartiles": [
+            48.533829588276205,
+            66.43449429897478,
+            117.85597976135458
+          ]
+        },
+        "aspect": {
+          "n": 43,
+          "quartiles": [
+            1.101928851928851,
+            1.2535885167464127,
+            1.596484206637522
+          ]
+        },
+        "x_fraction": {
+          "n": 43,
+          "quartiles": [
+            0.27329736288734896,
+            0.5008110300081104,
+            0.6645289532530018
+          ]
+        },
+        "y_fraction": {
+          "n": 43,
+          "quartiles": [
+            0.2987150292778139,
+            0.4179160419790105,
+            0.6323523504591793
+          ]
+        },
+        "image_edge_fraction": {
+          "n": 43,
+          "quartiles": [
+            0.15167815817113348,
+            0.23553719008264462,
+            0.28560567300185685
+          ]
+        },
+        "L_inner_minus_ring": {
+          "n": 43,
+          "quartiles": [
+            -3.21197509765625,
+            -1.324462890625,
+            0.1312255859375
+          ]
+        },
+        "dE_median": {
+          "n": 43,
+          "quartiles": [
+            2.648285150527954,
+            4.311807632446289,
+            9.082045555114746
+          ]
+        },
+        "dark_tail": {
+          "n": 43,
+          "quartiles": [
+            -1.4031982421875,
+            1.007080078125,
+            2.9693603515625
+          ]
+        },
+        "light_tail": {
+          "n": 43,
+          "quartiles": [
+            -4.43145751953125,
+            -1.8505859375,
+            -0.6903076171875
+          ]
+        },
+        "surface_neighbor_gap": {
+          "n": 31,
+          "quartiles": [
+            0.1815379594564306,
+            1.1476745320898696,
+            2.33595293461497
+          ]
+        }
+      }
+    }
+  },
+  "dated": {
+    "20211025": {
+      "warm_TP": 31,
+      "Small_TP": 37,
+      "replay_TP": 33,
+      "RCNN_TP": 46,
+      "GT": 56
+    },
+    "20211027": {
+      "warm_TP": 13,
+      "Small_TP": 20,
+      "replay_TP": 24,
+      "RCNN_TP": 23,
+      "GT": 31
+    }
+  },
+  "AUC_higher_feature_indicates_miss": {
+    "side_768": 0.6326638477801269,
+    "aspect": 0.5454545454545454,
+    "x_fraction": 0.4788583509513742,
+    "y_fraction": 0.4540169133192389,
+    "image_edge_fraction": 0.45295983086680763,
+    "L_inner_minus_ring": 0.5673890063424947,
+    "dE_median": 0.5153276955602537,
+    "dark_tail": 0.3713002114164905,
+    "light_tail": 0.4513742071881607,
+    "surface_neighbor_gap": 0.4745057232049948
+  },
+  "warm_fn_recoveries": {
+    "warm": 0,
+    "Small": 14,
+    "replay": 16,
+    "RCNN": 31
+  },
+  "historical_cases": {
+    "M01": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": false
+    },
+    "M02": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M03": {
+      "warm": false,
+      "Small": false,
+      "replay": true,
+      "RCNN": false
+    },
+    "M04": {
+      "warm": false,
+      "Small": true,
+      "replay": true,
+      "RCNN": false
+    },
+    "M05": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M06": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": false
+    },
+    "M07": {
+      "warm": true,
+      "Small": true,
+      "replay": false,
+      "RCNN": true
+    },
+    "M08": {
+      "warm": false,
+      "Small": true,
+      "replay": true,
+      "RCNN": true
+    },
+    "M09": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M10": {
+      "warm": false,
+      "Small": true,
+      "replay": true,
+      "RCNN": false
+    },
+    "M11": {
+      "warm": true,
+      "Small": true,
+      "replay": true,
+      "RCNN": false
+    },
+    "M12": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": false
+    },
+    "M13": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M14": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M15": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M16": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M17": {
+      "warm": true,
+      "Small": true,
+      "replay": true,
+      "RCNN": true
+    },
+    "M18": {
+      "warm": false,
+      "Small": true,
+      "replay": false,
+      "RCNN": true
+    },
+    "M19": {
+      "warm": true,
+      "Small": true,
+      "replay": true,
+      "RCNN": true
+    },
+    "M20": {
+      "warm": true,
+      "Small": true,
+      "replay": true,
+      "RCNN": true
+    },
+    "M21": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M22": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": false
+    },
+    "M23": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": false
+    },
+    "M24": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M25": {
+      "warm": false,
+      "Small": true,
+      "replay": true,
+      "RCNN": false
+    },
+    "M26": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": false
+    },
+    "M27": {
+      "warm": false,
+      "Small": true,
+      "replay": true,
+      "RCNN": true
+    },
+    "M28": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": true
+    },
+    "M29": {
+      "warm": false,
+      "Small": false,
+      "replay": false,
+      "RCNN": false
+    }
+  }
+}

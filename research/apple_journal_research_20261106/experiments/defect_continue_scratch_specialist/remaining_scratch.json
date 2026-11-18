@@ -1,0 +1,286 @@
+{
+  "reference_scope": "Fixed teacher only, retrospective development analysis",
+  "missing": [
+    {
+      "image_id": "23945062_20211025_215315_157.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": false,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": false,
+      "best_loc_score": null,
+      "max_IoU": 0.0
+    },
+    {
+      "image_id": "23945062_20211027_151639_616.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": false,
+      "best_loc_score": null,
+      "max_IoU": 0.47685903277444175
+    },
+    {
+      "image_id": "23945062_20211027_153254_619.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.05780933424830437,
+      "max_IoU": 0.719511639317825
+    },
+    {
+      "image_id": "23945063_20211025_153658_222.jpg",
+      "gt_index": 3,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.3026335835456848,
+      "max_IoU": 0.8583531918650235
+    },
+    {
+      "image_id": "23945063_20211025_155327_024.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.2088732123374939,
+      "max_IoU": 0.775105997077138
+    },
+    {
+      "image_id": "23945063_20211025_175943_253.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.009517287835478783,
+      "max_IoU": 0.808001638476679
+    },
+    {
+      "image_id": "23945063_20211025_202430_658.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.2685320973396301,
+      "max_IoU": 0.7512470478275834
+    },
+    {
+      "image_id": "23945063_20211025_202430_658.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": false,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": false,
+      "best_loc_score": null,
+      "max_IoU": 0.0
+    },
+    {
+      "image_id": "23945063_20211025_224637_140.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": false,
+      "best_loc_score": null,
+      "max_IoU": 0.0
+    },
+    {
+      "image_id": "23945065_20211025_181245_052.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": false,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": false,
+      "best_loc_score": null,
+      "max_IoU": 0.0
+    },
+    {
+      "image_id": "23945065_20211025_181907_155.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": false,
+      "best_loc_score": null,
+      "max_IoU": 0.30172881716091643
+    },
+    {
+      "image_id": "23945065_20211025_203637_141.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.13414698839187622,
+      "max_IoU": 0.728121883484806
+    },
+    {
+      "image_id": "23945065_20211025_204035_242.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.007931402884423733,
+      "max_IoU": 0.7969933271529559
+    },
+    {
+      "image_id": "23945065_20211025_204328_542.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.10463620722293854,
+      "max_IoU": 0.702811257126676
+    },
+    {
+      "image_id": "23945065_20211025_213218_750.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.010772700421512127,
+      "max_IoU": 0.7690778306756109
+    },
+    {
+      "image_id": "23945065_20211027_153112_024.jpg",
+      "gt_index": 4,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.03358665853738785,
+      "max_IoU": 0.7976983151930795
+    },
+    {
+      "image_id": "23945065_20211027_154503_527.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.007267784792929888,
+      "max_IoU": 0.6547512700733846
+    },
+    {
+      "image_id": "23945062_20211025_222546_146.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": false,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.0055062128230929375,
+      "max_IoU": 0.6537454251595336
+    },
+    {
+      "image_id": "23945063_20211025_181904_156.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.030514929443597794,
+      "max_IoU": 0.9320199114150785
+    },
+    {
+      "image_id": "23945063_20211025_213347_148.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": false,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": false,
+      "best_loc_score": null,
+      "max_IoU": 0.06347852707930053
+    },
+    {
+      "image_id": "23945063_20211027_143341_674.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.005807932000607252,
+      "max_IoU": 0.5703843849093666
+    },
+    {
+      "image_id": "23945063_20211027_145758_109.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": true,
+      "low_IoU50": true,
+      "best_loc_score": 0.01501124445348978,
+      "max_IoU": 0.7319019953402042
+    },
+    {
+      "image_id": "23945063_20211027_153313_622.jpg",
+      "gt_index": 1,
+      "rcnn_fixed": false,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": false,
+      "best_loc_score": null,
+      "max_IoU": 0.23484397637886426
+    },
+    {
+      "image_id": "23945065_20211025_223938_636.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": true,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.15805375576019287,
+      "max_IoU": 0.7974343513200561
+    },
+    {
+      "image_id": "23945065_20211027_143617_475.jpg",
+      "gt_index": 0,
+      "rcnn_fixed": false,
+      "warm_fixed": false,
+      "replay_fixed": false,
+      "low_IoU50": true,
+      "best_loc_score": 0.07412710785865784,
+      "max_IoU": 0.8543931595321536
+    }
+  ],
+  "count": 25,
+  "recovered_by_rcnn": 18,
+  "recovered_by_replay": 1,
+  "present_below_cutoff": 17,
+  "optimizer_steps": 400,
+  "training_counts": {
+    "actively_protected": [
+      535,
+      535,
+      535,
+      537,
+      537,
+      535,
+      536,
+      537
+    ],
+    "ranked_against_hard_negatives": [
+      56,
+      70,
+      65,
+      44,
+      41,
+      39,
+      42,
+      45
+    ]
+  },
+  "epoch_instance_sums": {
+    "actively_protected": 4287,
+    "ranked_against_hard_negatives": 402
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "warm_sha": "5e07009ec94310bd01bfd6c257ff8df853d3eef36c25de15e7f8483706fabd93",
+  "replay_sha": "27fcf984acc450e6d09dc4f0e0a2810ed4daff0911668576b3b75e44feece0cc",
+  "actual_single_frame_rows_bit_exact": 600,
+  "train_images": [
+    "23945065_20211104_152725_241.jpg",
+    "23945065_20211104_153740_248.jpg"
+  ],
+  "actual_augmented_GT": 16,
+  "scratch_only_GT": 13,
+  "frozen_BN_and_parameter_gradients_locked": true,
+  "p2_has_gradient": true,
+  "synthetic_single_positive_ranking_direction": true,
+  "loss": [
+    2.173074245452881,
+    1.3938833475112915,
+    -0.0
+  ],
+  "norm": 11.84420394897461,
+  "actual_protected": 13,
+  "actual_ranked": 0
+}

@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "full": {
+      "threshold": 0.005,
+      "TP": 420,
+      "FP": 963,
+      "FN": 117,
+      "P": 0.3036876355748373,
+      "R": 0.7821229050279329
+    },
+    "tile": {
+      "threshold": 0.005,
+      "TP": 387,
+      "FP": 1416,
+      "FN": 150,
+      "P": 0.2146422628951747,
+      "R": 0.7206703910614525
+    },
+    "consensus": {
+      "threshold": 0.005,
+      "TP": 429,
+      "FP": 1173,
+      "FN": 108,
+      "P": 0.26779026217228463,
+      "R": 0.7988826815642458
+    }
+  },
+  "chosen": "consensus",
+  "train_scratch_gt": 537,
+  "inputs": "five 640 views, full and four 60% tiles with center ownership; original native OOF nano"
+}

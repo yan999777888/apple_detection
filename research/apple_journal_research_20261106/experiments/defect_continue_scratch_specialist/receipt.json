@@ -1,0 +1,12 @@
+{
+  "weight_sha": "a8ce9e6c9035e1c1c8a2ff6c1907b4d98272e1e33e64d31e3d27c4b43ef8d980",
+  "locked_warm_sha": "5e07009ec94310bd01bfd6c257ff8df853d3eef36c25de15e7f8483706fabd93",
+  "scratch_initial_sha": "27fcf984acc450e6d09dc4f0e0a2810ed4daff0911668576b3b75e44feece0cc",
+  "protocol_sha256": "a4d7c1a9851b352537c77401b3eb67de418c47258669d65718d8554d0c3d1bb4",
+  "updates": 400,
+  "epochs": 8,
+  "thresholds": [
+    0.4,
+    0.34
+  ]
+}

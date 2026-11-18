@@ -1,0 +1,43 @@
+{
+  "mode": "warm_quality_rank",
+  "parent_sha256": "21ca5879ab152ce754ed337e5f8abe3f1b611f99e3d86213be299816bf7f9de5",
+  "ssda_manifest_sha256": "d748a4ada46e4dd3e087aff11c7813d9ab22044d5bbfb2d05c6cfa135a27f19f",
+  "code_sha256": "d27a54e713d4b4e3a44b318851b34a4377d4c38fc11a2e8cdd932d0b2f73f0e2",
+  "transfer_code_sha256": "1b63d861aa655406ae6758a9e76c9f3250645317f21ba3821e9099215d7296d5",
+  "base_training_code_sha256": "3661850a7694d3e6b7656915db85cdc7d41b6e5c5e09015c4253a90422b7dbad",
+  "train": [
+    596,
+    1276
+  ],
+  "dev": [
+    113,
+    230
+  ],
+  "image_size": 768,
+  "seed": 948518,
+  "epochs": 8,
+  "lr_peak": 0.0001,
+  "learning_rate": "two-epoch warmup, cosine decay ending at 5% of peak",
+  "optimizer": "AdamW, weight decay 5e-4 on non-bias/non-norm weights; gradient norm limit 10",
+  "weights": "eighth epoch EMA; no dev checkpoint or threshold selection",
+  "per_batch": 4,
+  "accumulation": 3,
+  "expected_updates": 400,
+  "thresholds": [
+    0.4,
+    0.34
+  ],
+  "inference": "single-view FP32 with original class NMS 0.70",
+  "extra_rng": "per (seed,epoch,original training row); separate from shuffle and original augment",
+  "transfer_probability": 0.0,
+  "external": null,
+  "prior_exposure": "All 596 images trained the parent. Only the 113-image date development set is scored.",
+  "warm_code_sha256": "8fc04a1c1778abda4fcf1d1ec7547c242fb6040df699f428ae9c904ddb5d5a6b",
+  "quality_code_sha256": "1d2183b6f3769e0dfcc18ba5f8e332e740a6b491879f49f92ad86ac3d1bca7a2",
+  "exact_replay_reference": "37a1f584368c040d53da30d6529d672cb0e83a67fd458f14b3d579e0cac42faa",
+  "loss_delta": {
+    "quality": 0.3,
+    "within_image_ranking": 0.15
+  },
+  "primary": "epoch8 EMA, original thresholds"
+}
