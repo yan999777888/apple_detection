@@ -1,0 +1,16 @@
+{
+  "thresholds": [
+    0.24958116561174393,
+    0.05865347385406494
+  ],
+  "counts": [
+    488,
+    755
+  ],
+  "actual_counts": [
+    488,
+    755
+  ],
+  "train_images": 596,
+  "checkpoint_sha256": "a5d8c5df52af0280e9045e6423d026a96d8f4883badb62d27236a6c2f44881a2"
+}

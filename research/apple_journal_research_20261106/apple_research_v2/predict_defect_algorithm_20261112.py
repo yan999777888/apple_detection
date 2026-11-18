@@ -11,11 +11,17 @@ def main():
     import torch,cv2
     from joint_model_v1 import build_model
     from defect_algorithm_modes_20261112 import AlgorithmAdapter,MODES
-    assert a.mode in MODES and all(.001<=x<=1 for x in a.thresholds)
+    assert a.mode in (*MODES, 'coordinate_vote') and all(.001<=x<=1 for x in a.thresholds)
     if sha(a.checkpoint)!=a.checkpoint_sha256:raise ValueError('Checkpoint checksum mismatch')
     torch.set_num_threads(2);torch.backends.cudnn.benchmark=False;state=torch.load(a.checkpoint,map_location='cpu',weights_only=False);model=build_model('separate',device='cpu');model.load_state_dict(state['model']);del state
     im=cv2.imread(str(a.image));assert im is not None
-    worker=AlgorithmAdapter(model.eval().requires_grad_(False).to('cuda:0'));results=worker.predict_mode(im,a.mode,a.thresholds);output={}
+    worker=AlgorithmAdapter(model.eval().requires_grad_(False).to('cuda:0'))
+    if a.mode == 'coordinate_vote':
+        from defect_coordinate_vote_20261118 import predict_vote
+        results = predict_vote(worker, im, a.thresholds)
+    else:
+        results = worker.predict_mode(im,a.mode,a.thresholds)
+    output={}
     for task,rr in results.items():
         r=rr[0];output[task]={'names':r.names,'boxes_xyxy_conf_class':r.boxes.data.tolist(),'box_coordinates':'original input image pixels','mask_files':[],'mask_tensor_hw':None}
         if r.masks is not None:
