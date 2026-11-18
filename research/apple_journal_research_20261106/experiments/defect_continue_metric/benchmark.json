@@ -1,0 +1,28 @@
+{
+  "timing": {
+    "n": 600,
+    "mean_ms": 69.22765716735739,
+    "p50_ms": 65.51845000649337,
+    "p95_ms": 110.12601999682374,
+    "serial_fps": 14.445093780690957
+  },
+  "point": {
+    "blend": 0.35,
+    "thresholds": [
+      0.471754716981132,
+      0.4905849056603773
+    ],
+    "P": 0.791161178509532,
+    "R": 0.7155172413793104,
+    "TP": 913,
+    "FP": 241
+  },
+  "dev_mean_candidates": 8.123893805309734,
+  "dev_max_candidates": 23,
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "detector": "unfused FP32 dual heads + flip, single stage",
+  "verifier": "DINOv2-S/14 140x140 BF16, batch per image with 3 predeclared score fusions",
+  "images": 40,
+  "warmup": 5,
+  "repeats": 15
+}

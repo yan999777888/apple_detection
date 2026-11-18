@@ -1,0 +1,57 @@
+{
+  "OOF": {
+    "R85": {
+      "thresholds": [
+        0.04,
+        0.04
+      ],
+      "TP": 1088,
+      "FP": 855,
+      "P": 0.5599588265568708,
+      "R": 0.8526645768025078
+    },
+    "P94": {
+      "thresholds": [
+        0.89,
+        0.89
+      ],
+      "TP": 659,
+      "FP": 42,
+      "P": 0.9400855920114123,
+      "R": 0.5164576802507836
+    },
+    "tradeoff": {
+      "thresholds": [
+        0.46,
+        0.36
+      ],
+      "TP": 940,
+      "FP": 213,
+      "P": 0.8152645273200347,
+      "R": 0.7366771159874608
+    }
+  },
+  "primary": "tradeoff",
+  "source": {
+    "0": {
+      "weights": "7862fccfb8152b04a7745dc4e5742991a9783d11e67ac090a2f5413ded8f7797",
+      "proxy_sha256": "5b95fec754f5dd1173a55ea4999e5d7344fabe4ee27ac2d212b6e27087de12f2",
+      "native_sha256": "abc5a9752fef60d847a5271e5919c9e57de0c6d07e3179dc13bb68a5fb268329"
+    },
+    "1": {
+      "weights": "0100c2287fc79698afc00a8814aeaf1c675c2e7fdccb2268f108c8bd9c25c710",
+      "proxy_sha256": "cca8bd39fee7a1c536a9e53c8bb849c56af358d29298167f52c19e67830c6eb3",
+      "native_sha256": "f9b474318dc1ba0d3d426f8650cde7ae2a02613c51bc5f525e3ec5ae08a497d2"
+    },
+    "2": {
+      "weights": "6d53251076482e45aab74923229b4b08c82553a0073cabf324415c38a399959d",
+      "proxy_sha256": "7a75054388f4acb3c07adc80088cd896cb6403df630126e576d243be2e117de8",
+      "native_sha256": "1c67aa9dfff2ac5ff68029de7aa71078f59e6c075c2bc1cf2b8f1896515a8eea"
+    }
+  },
+  "script_sha256": "6a3d00d63bba98e1543a4ab4cfadcdfe88f62db7755a9d3fe5fe6d9039f02d86",
+  "head_sha256": "43deb5564250a5f003e285f1d9a5c9aeaba6cb65fb8cab8e04028a341f4cc8c9",
+  "secondary_training": "held-fold nano epoch30 768 proxy",
+  "secondary_dev": "YOLO26s epoch36 768 actual",
+  "selection": "trained on 596 only; classwise cross-fit operating profiles; no development fitting"
+}

@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T09:44:47.933327+00:00",
+  "snapshot_updated_utc": "2026-11-18T09:55:13.407845+00:00",
   "files": [
     {
       "path": "README.md",
@@ -271,6 +271,51 @@
       "path": "apple_research_v2/defect_consensus_20261118.py",
       "sha256": "ed0f00bb6d4728c9fbc5c6fc15edb165f552466e1dcca47f492b8c61351750fd",
       "bytes": 9407
+    },
+    {
+      "path": "apple_research_v2/defect_continue_metric.py",
+      "sha256": "18b5589b1ee140b0f4201fb1c9a4287fd71ce8512a931dc183e6e7c0298d7154",
+      "bytes": 14378
+    },
+    {
+      "path": "apple_research_v2/defect_continue_metric_deploy.py",
+      "sha256": "8719d62130594902d1f23b98e96653f83a8aafb466c1ae6cdd8276489e48d739",
+      "bytes": 4231
+    },
+    {
+      "path": "apple_research_v2/defect_continue_metric_errors.py",
+      "sha256": "c81f73a89009cc016ea5d1ee285011a9d2e6b841bceacd7aedd248f1aee7f23e",
+      "bytes": 1781
+    },
+    {
+      "path": "apple_research_v2/defect_continue_rcnn.py",
+      "sha256": "630805411e8bda8c53fc546979dcd44bf600dc07fa72dbb9981d3c8c70242709",
+      "bytes": 10913
+    },
+    {
+      "path": "apple_research_v2/defect_continue_teacher.py",
+      "sha256": "6a3d00d63bba98e1543a4ab4cfadcdfe88f62db7755a9d3fe5fe6d9039f02d86",
+      "bytes": 9744
+    },
+    {
+      "path": "apple_research_v2/defect_continue_teacher_control.py",
+      "sha256": "074a55a4e1f5ab12611da6ddcdd0941bd3b813e31a4274104a9b53535eec2302",
+      "bytes": 2679
+    },
+    {
+      "path": "apple_research_v2/defect_continue_teacher_ledger.py",
+      "sha256": "99981e41b55cc79e3b50d8e721c1f235f744838caa5b64ac51360e47ae6bdeb0",
+      "bytes": 3608
+    },
+    {
+      "path": "apple_research_v2/defect_continue_teacher_proxy.py",
+      "sha256": "b3bcb210bd6e5bc3eb52ce4555d651bbe12b0051fd1fb6ef45008500586d2103",
+      "bytes": 2749
+    },
+    {
+      "path": "apple_research_v2/defect_continue_transplant.py",
+      "sha256": "2a97d592febf623682a1f3c0be26b7ad48f091055866d495e98dc340b7062101",
+      "bytes": 6020
     },
     {
       "path": "apple_research_v2/defect_coordinate_vote_20261118.py",
@@ -1191,6 +1236,56 @@
       "path": "experiments/defect_consensus_20261118/results.json",
       "sha256": "1b16ccc6e52debd59e3d913894347191a35b2723d53c403ac0cb35c9c8713782",
       "bytes": 7331
+    },
+    {
+      "path": "experiments/defect_continue_metric/benchmark.json",
+      "sha256": "246cabe8138b0b8bec206e8a9dba36b2065c8d7b3500f6a6b9dcb340c8db48bc",
+      "bytes": 724
+    },
+    {
+      "path": "experiments/defect_continue_metric/fresh_metrics.json",
+      "sha256": "fb28f285ef2a18e5509ec25d9fa8cc35187e4c3cab09c6145460aa49557a2310",
+      "bytes": 7287
+    },
+    {
+      "path": "experiments/defect_continue_metric/frozen.json",
+      "sha256": "1a4ba6d59456b135dda922441b4b6ceeecf53fda01e3dee4a81d2e5aaf78dc74",
+      "bytes": 4523
+    },
+    {
+      "path": "experiments/defect_continue_metric/paired_errors.json",
+      "sha256": "2ee2a47481c6fc7e1e134143577b07ee83c4864776b0c13e732d977f9da06bd4",
+      "bytes": 8523
+    },
+    {
+      "path": "experiments/defect_continue_metric/report.md",
+      "sha256": "f77755850496d270a495b015fd1bbeb0694ee3f6ffb5a67b5c54414eb1d98fc4",
+      "bytes": 3185
+    },
+    {
+      "path": "experiments/defect_continue_rcnn/transplant_audit.json",
+      "sha256": "a558b2642d571b05ba21846e4802cdd4db3c39f286c911c252016b676089eac7",
+      "bytes": 248
+    },
+    {
+      "path": "experiments/defect_continue_teacher/control_report.json",
+      "sha256": "e777a10d403c954578ab85d77460d716c84214db30c16ad6ff1577a0c3d3a83c",
+      "bytes": 17067
+    },
+    {
+      "path": "experiments/defect_continue_teacher/error_ledger.json",
+      "sha256": "09194827023833aa5c7b75b7043fc54792d33d648aeb5b2c332a76227ada5419",
+      "bytes": 13788
+    },
+    {
+      "path": "experiments/defect_continue_teacher/frozen.json",
+      "sha256": "07cd94af4f7c0e57325f441f510ec49553a9897af79b6c7aed7be7b45cad3738",
+      "bytes": 1872
+    },
+    {
+      "path": "experiments/defect_continue_teacher/report.json",
+      "sha256": "c5012c74b80559d62fa051c6f181defb3a7f469cb69b386c731d6938a853b3a6",
+      "bytes": 22201
     },
     {
       "path": "experiments/defect_coordinate_vote_20261118/frozen.json",

@@ -1,0 +1,12 @@
+{
+  "training_images": 490,
+  "calibration_images": 106,
+  "fit_gt": 1075,
+  "calibration_gt": 201,
+  "inserted_by_class": [
+    115,
+    93
+  ],
+  "untouched_original_box_coordinates": true,
+  "donor_and_recipient_only_from_fit": true
+}

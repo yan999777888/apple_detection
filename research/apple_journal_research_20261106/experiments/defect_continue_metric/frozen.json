@@ -1,0 +1,167 @@
+{
+  "points": {
+    "joint": {
+      "blend": 0.35,
+      "thresholds": [
+        0.471754716981132,
+        0.4905849056603773
+      ],
+      "P": 0.791161178509532,
+      "R": 0.7155172413793104,
+      "TP": 913,
+      "FP": 241
+    },
+    "recall85": {
+      "blend": 0.65,
+      "thresholds": [
+        0.2269622641509434,
+        0.1390880503144654
+      ],
+      "P": 0.46130952380952384,
+      "R": 0.8503134796238244,
+      "TP": 1085,
+      "FP": 1267
+    },
+    "precision94": {
+      "blend": 0.65,
+      "thresholds": [
+        0.8483584905660377,
+        0.8295283018867924
+      ],
+      "P": 0.9416553595658074,
+      "R": 0.5438871473354232,
+      "TP": 694,
+      "FP": 43
+    }
+  },
+  "scans": {
+    "0.35": {
+      "joint": {
+        "thresholds": [
+          0.471754716981132,
+          0.4905849056603773
+        ],
+        "P": 0.791161178509532,
+        "R": 0.7155172413793104,
+        "TP": 913,
+        "FP": 241
+      },
+      "recall85": {
+        "thresholds": [
+          0.19557861635220125,
+          0.0700440251572327
+        ],
+        "P": 0.45722713864306785,
+        "R": 0.8503134796238244,
+        "TP": 1085,
+        "FP": 1288
+      },
+      "precision94": {
+        "thresholds": [
+          0.779314465408805,
+          0.7604842767295596
+        ],
+        "P": 0.9406077348066298,
+        "R": 0.5336990595611285,
+        "TP": 681,
+        "FP": 43
+      }
+    },
+    "0.65": {
+      "joint": {
+        "thresholds": [
+          0.6663333333333333,
+          0.6223962264150943
+        ],
+        "P": 0.7627705627705628,
+        "R": 0.6904388714733543,
+        "TP": 881,
+        "FP": 274
+      },
+      "recall85": {
+        "thresholds": [
+          0.2269622641509434,
+          0.1390880503144654
+        ],
+        "P": 0.46130952380952384,
+        "R": 0.8503134796238244,
+        "TP": 1085,
+        "FP": 1267
+      },
+      "precision94": {
+        "thresholds": [
+          0.8483584905660377,
+          0.8295283018867924
+        ],
+        "P": 0.9416553595658074,
+        "R": 0.5438871473354232,
+        "TP": 694,
+        "FP": 43
+      }
+    },
+    "0.9": {
+      "joint": {
+        "thresholds": [
+          0.9048490566037736,
+          0.6726100628930817
+        ],
+        "P": 0.7175043327556326,
+        "R": 0.6489028213166145,
+        "TP": 828,
+        "FP": 326
+      },
+      "recall85": {
+        "thresholds": [
+          0.2520691823899371,
+          0.17047169811320753
+        ],
+        "P": 0.4367954911433172,
+        "R": 0.8503134796238244,
+        "TP": 1085,
+        "FP": 1399
+      },
+      "precision94": {
+        "thresholds": [
+          0.9487861635220125,
+          0.9048490566037736
+        ],
+        "P": 0.9419642857142857,
+        "R": 0.49608150470219436,
+        "TP": 633,
+        "FP": 39
+      }
+    }
+  },
+  "training": {
+    "0": {
+      "initial_qkv_sha": "2cbcdc79d8dfe7430e26baa06fb928b74bc35d2651a98a74d63b862f770a0d98",
+      "final_qkv_sha": "94ce117c50e81f88efa9e0cc1dd072a6df7ba29834a29264140a532ffb08899e",
+      "optimizer_steps": 456,
+      "train_images": 397
+    },
+    "1": {
+      "initial_qkv_sha": "2cbcdc79d8dfe7430e26baa06fb928b74bc35d2651a98a74d63b862f770a0d98",
+      "final_qkv_sha": "9348921274d84a64abcd24086c36c3d7c9fac11b9990eea280b0acc0339eb5a3",
+      "optimizer_steps": 456,
+      "train_images": 397
+    },
+    "2": {
+      "initial_qkv_sha": "2cbcdc79d8dfe7430e26baa06fb928b74bc35d2651a98a74d63b862f770a0d98",
+      "final_qkv_sha": "d4e1198e9bb22cdeaf3bcdc1ecdd6e30bce99f3fb29701a7eccf96daf92401e2",
+      "optimizer_steps": 456,
+      "train_images": 398
+    },
+    "final": {
+      "initial_qkv_sha": "2cbcdc79d8dfe7430e26baa06fb928b74bc35d2651a98a74d63b862f770a0d98",
+      "final_qkv_sha": "939675ef77fddfba7d2958f2085ee96d1684f61df3a7b0f500d0c48497c0d109",
+      "optimizer_steps": 688,
+      "train_images": 596
+    }
+  },
+  "detector_sha": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "dino_sha": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "tail_sha": "6361718c56492e5dfe26064a1e8a84a9a5e24cc1d1200be95d774daf861d2462",
+  "benchmark_points": "joint",
+  "feature": "RGB 140px DINOv2-S/14 prefix 10 BF16, last two transformer blocks fine-tuned",
+  "source": "cached 3 fold held-out detector proposals; only 596 train images for adaptation and calibration"
+}
