@@ -1,0 +1,16 @@
+{
+  "passed": [
+    "train polygon hashed and geometry reconstructed",
+    "empty list, held-out partition and missing native mask rejected",
+    "category map cannot be relabelled",
+    "only official train image admitted; different camera view from same capture is not a second donor",
+    "altered mask fails polygon verification",
+    "original RGB/GT untouched; no changes off the inserted box, on background or original GT",
+    "reproducible; no eligible fruit surface or full GT overlap skips insertion",
+    "changing all donor-background pixels cannot change pasted RGB",
+    "external placement consumes no shared original-augmentation RNG draws",
+    "second job refused; released lock can be reacquired",
+    "bare-state checkpoint read by original evaluator, crash recovery, mismatched EMA refused"
+  ],
+  "device": "cpu"
+}

@@ -14,6 +14,7 @@ from defect9485_small import BASE_SHA
 from defect9485_p2 import samples
 from defect_continue_center import resized, labels, reference_gt, pack, measured, calibrate
 from defect_continue_transplant import split_train
+from defect_continue_public_training import atomic_latest,exclusive_run
 from defect_continue_rank_net import QualityDetector, joint_loss
 from defect_algorithm_modes_20261112 import nms
 from joint_model_v1 import LossView
@@ -73,17 +74,24 @@ def predict(model,rows,device="cuda"):
 
 
 def train():
-    if (OUT/"history.json").exists() or (OUT/"frozen.json").exists():
-        raise RuntimeError("Existing training evidence exists; refusing replacement")
+    if (OUT/"frozen.json").exists():
+        raise RuntimeError("A frozen training receipt already exists")
     fit,cal=split_train()
     assert (len(fit),len(cal))==(490,106)
     fids={v["image_id"] for v in fit};cids={v["image_id"] for v in cal}
     assert not fids&cids
-    atomic_json(OUT/"protocol.json",dict(source="COCO generic YOLO26s",source_sha256=BASE_SHA,
+    recipe=dict(source="COCO generic YOLO26s",source_sha256=BASE_SHA,
                                          fit_ids=sorted(fids),calibration_ids=sorted(cids),seed=SEED,
-                                         epochs=EPOCHS,calibration_epochs=CHECKS,size=SIDE,
-                                         native_loss="E2ELoss",quality_gains=[.30,.15,.65],dev_used_for_selection=False))
+                                         epochs=EPOCHS,calibration_epochs=list(CHECKS),size=SIDE,batch=BATCH,accum=ACCUM,
+                                         model_code_sha256=sha(__import__("defect_continue_rank_net").__file__),
+                                         loop_code_sha256=sha(__file__),native_loss="E2ELoss",
+                                         quality_gains=[.30,.15,.65],dev_used_for_selection=False)
+    protocol=OUT/"protocol.json"
+    if protocol.exists() and read(protocol)!=recipe:
+        raise ValueError("Stored training recipe differs from this run")
+    atomic_json(protocol,recipe)
     torch.manual_seed(SEED)
+    torch.backends.cudnn.benchmark=False
     rng=np.random.default_rng(SEED)
     model=QualityDetector().cuda().to(memory_format=torch.channels_last).train()
     ema=ModelEMA(model,decay=.997,tau=200)
@@ -92,7 +100,25 @@ def train():
     nodecay=[p for p in model.parameters() if p.requires_grad and p.ndim<=1]
     opt=torch.optim.AdamW([dict(params=decay,weight_decay=.0005),dict(params=nodecay,weight_decay=0)],lr=.0008)
     history=[];selections=[];updates=0
-    for e in range(EPOCHS):
+    latest=OUT/"latest.pt"
+    if latest.exists():
+        saved=torch.load(latest,map_location="cpu",weights_only=False)
+        if saved["recipe"]!=recipe:raise ValueError("Recovery checkpoint does not match split/inputs")
+        model.load_state_dict(saved["model"]);ema.ema.load_state_dict(saved["ema"])
+        opt.load_state_dict(saved["optimizer"]);rng.bit_generator.state=saved["rng_numpy"]
+        torch.set_rng_state(saved["rng_cpu"]);torch.cuda.set_rng_state_all(saved["rng_cuda"])
+        history=saved["history"];updates=saved["updates"];ema.updates=updates
+        if updates!=len(history)*math.ceil(len(fit)/(BATCH*ACCUM)):
+            raise ValueError("Incomplete or unexpected number of optimizer updates")
+        for row in history:
+            crit.update()
+            if "calibration" in row:selections.append((row["epoch"],row["calibration"]))
+        del saved
+        atomic_json(OUT/"history.json",history)
+        print(f"Continuing after complete epoch {len(history)}, optimizer updates {updates}",flush=True)
+    elif (OUT/"history.json").exists():
+        raise ValueError("Training history exists without a recovery checkpoint")
+    for e in range(len(history),EPOCHS):
         started=perf_counter()
         ids=rng.permutation(len(fit));accumulated={}
         for start in range(0,len(ids),BATCH*ACCUM):
@@ -121,7 +147,7 @@ def train():
         if ep in CHECKS:
             name=f"epoch_{ep:02d}.pt"
             # Save tensors usable with the unfused and single-forward production model.
-            torch.save(ema.ema.state_dict(),OUT/name)
+            atomic_latest(OUT/name,ema.ema.state_dict())
             inference_model=deepcopy(ema.ema).eval()
             inference_model.base.fuse(verbose=False)
             cp=predict(inference_model,cal)
@@ -129,7 +155,11 @@ def train():
             profiles=calibrate(cp)
             row["calibration"]=profiles
             selections.append((ep,profiles))
-        history.append(row);atomic_json(OUT/"history.json",history)
+        history.append(row)
+        atomic_latest(latest,dict(recipe=recipe,model=model.state_dict(),ema=ema.ema.state_dict(),
+                                  optimizer=opt.state_dict(),updates=updates,history=history,rng_numpy=rng.bit_generator.state,
+                                  rng_cpu=torch.get_rng_state(),rng_cuda=torch.cuda.get_rng_state_all()))
+        atomic_json(OUT/"history.json",history)
         print(row,flush=True)
     ep,profiles=max(selections,key=lambda v:(min(v[1]["joint"]["P"]/.94,v[1]["joint"]["R"]/.85),
                                              v[1]["joint"]["TP"],v[1]["joint"]["P"]))
@@ -203,4 +233,5 @@ if __name__=="__main__":
         from defect_continue_rank_checks import check
         check()
     else:
-        {"train":train,"evaluate":evaluate,"benchmark":benchmark}[mode]()
+        with exclusive_run(OUT):
+            {"train":train,"evaluate":evaluate,"benchmark":benchmark}[mode]()

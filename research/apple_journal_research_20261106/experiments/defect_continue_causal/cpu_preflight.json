@@ -1,0 +1,37 @@
+{
+  "source_hashes": {
+    "defect_continue_causal.py": "8905b11782491896e7926636328a130289a1598e0143aa313c92e8d0590a95e0",
+    "defect_continue_causal_pair.py": "feddab16efc6bbc205b00231a9e1ebc218ea196a978e7c2a4ab1e7864091029e",
+    "defect_continue_public_training.py": "d27a54e713d4b4e3a44b318851b34a4377d4c38fc11a2e8cdd932d0b2f73f0e2",
+    "defect9485_small.py": "3661850a7694d3e6b7656915db85cdc7d41b6e5c5e09015c4253a90422b7dbad",
+    "defect_continue_public_transfer.py": "1b63d861aa655406ae6758a9e76c9f3250645317f21ba3821e9099215d7296d5"
+  },
+  "class_counts": {
+    "0": 200,
+    "1": 33
+  },
+  "native_host_images": 100,
+  "identical_native_transfer_outputs": true,
+  "identical_native_augmentation": true,
+  "author_masks_validated": 27,
+  "author_mask_counts": {
+    "0": 8,
+    "1": 19
+  },
+  "no_original_GT_pixel_supervised": true,
+  "identical_base_rng": true,
+  "paired_warps_checked": 6,
+  "paired_crops_after_edge_filter": 6,
+  "aux_rank": 1.545737385749817,
+  "aux_delta_mask": 1.3942251205444336,
+  "gradients": {
+    "temporal_mask_head": 0.293143093585968,
+    "shared_first_conv": 0.9586901664733887,
+    "one2one_classifier": 1255.7974235638976
+  },
+  "setting_all_post_logits_higher_reduces_rank": true,
+  "aux_preserves_BN_buffers": true,
+  "discard_aux_bitwise_identical_deployment_output": true,
+  "device": "cpu",
+  "threads": 2
+}

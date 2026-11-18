@@ -235,6 +235,10 @@ def evaluate(folder):
     m = metrics(fixed)
     atomic_json(folder / "metrics.json", m)
     print("development", m["total"], m["class"], flush=True)
+    benchmark(model, point, folder / "speed.json")
+
+
+def benchmark(model, point, output):
     from joint_eval_v1 import source_spec
     from benchmark_joint_20261112 import summary
     from class0_crop_deploy import Inference
@@ -264,13 +268,13 @@ def evaluate(folder):
             torch.cuda.synchronize()
             latency.append(1000 * (time.perf_counter()-start))
     timing = summary(latency)
-    atomic_json(folder / "speed.json", timing)
+    atomic_json(output, timing)
     print("dual task latency", timing, flush=True)
 
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("action", choices=["check", "train", "evaluate", "all"])
+    p.add_argument("action", choices=["check", "train", "evaluate", "benchmark", "all"])
     p.add_argument("--native-only", action="store_true")
     p.add_argument("--resume", action="store_true")
     args = p.parse_args()
@@ -289,3 +293,10 @@ if __name__ == "__main__":
         select_model(folder)
     if args.action in ("evaluate","all"):
         evaluate(folder)
+    if args.action == "benchmark":
+        point = read(folder / "frozen.json")["selected"]
+        w = folder / f"epoch{point['epoch']:02}.pt"
+        assert sha(w) == point["sha256"]
+        model = initialized().cuda().eval()
+        model.load_state_dict(load_checkpoint(w)["model"])
+        benchmark(model, point, folder / "speed_repeat.json")

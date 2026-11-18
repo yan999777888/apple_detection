@@ -1,0 +1,464 @@
+{
+  "fixed_scores": [
+    0.4,
+    0.34
+  ],
+  "matching_iou": 0.5,
+  "geometry_floor": 0.2,
+  "prediction_floor": 0.001,
+  "note": "Predictions without a matching annotation are counted against fixed original GT. Their biological truth needs a separate annotation review.",
+  "result": {
+    "parent": {
+      "fixed": {
+        "TP": 187,
+        "FP": 51,
+        "FN": 43,
+        "P": 0.7857142857142857,
+        "R": 0.8130434782608695
+      },
+      "false_positives": {
+        "0 | no overlapping same-class reference (IoU >= 0.20)": 6,
+        "1 | no overlapping same-class reference (IoU >= 0.20)": 31,
+        "0 | overlaps reference of the other class": 4,
+        "0 | duplicate same-class detection": 2,
+        "0 | partial localization of same-class reference": 5,
+        "1 | overlaps reference of the other class": 3
+      },
+      "fixed_prediction_sha": "1a004db5e342b906028b734a057b73a9f6e049555c2acc59cf32c473418ece43",
+      "miss_reasons": {
+        "1 | matched geometry below fixed score": 11,
+        "0 | no nearby same-class proposal at exported score floor": 5,
+        "1 | no nearby same-class proposal at exported score floor": 1,
+        "0 | partial same-class localization (0.20 <= IoU < 0.50)": 2,
+        "0 | matched geometry below fixed score": 23,
+        "1 | partial same-class localization (0.20 <= IoU < 0.50)": 1
+      }
+    },
+    "replay": {
+      "fixed": {
+        "TP": 188,
+        "FP": 46,
+        "FN": 42,
+        "P": 0.8034188034188035,
+        "R": 0.8173913043478261
+      },
+      "false_positives": {
+        "0 | no overlapping same-class reference (IoU >= 0.20)": 6,
+        "1 | no overlapping same-class reference (IoU >= 0.20)": 30,
+        "0 | duplicate same-class detection": 2,
+        "0 | partial localization of same-class reference": 4,
+        "1 | overlaps reference of the other class": 4
+      },
+      "fixed_prediction_sha": "fd084f6a5859c775ef800bfb28d0a1edbc3a472dc0b0927e65e598aa2aaa20eb",
+      "miss_reasons": {
+        "1 | matched geometry below fixed score": 10,
+        "0 | matched geometry below fixed score": 22,
+        "0 | no nearby same-class proposal at exported score floor": 5,
+        "1 | no nearby same-class proposal at exported score floor": 1,
+        "0 | partial same-class localization (0.20 <= IoU < 0.50)": 3,
+        "1 | partial same-class localization (0.20 <= IoU < 0.50)": 1
+      }
+    },
+    "external": {
+      "fixed": {
+        "TP": 181,
+        "FP": 54,
+        "FN": 49,
+        "P": 0.7702127659574468,
+        "R": 0.7869565217391304
+      },
+      "false_positives": {
+        "0 | no overlapping same-class reference (IoU >= 0.20)": 7,
+        "1 | no overlapping same-class reference (IoU >= 0.20)": 33,
+        "0 | overlaps reference of the other class": 4,
+        "1 | partial localization of same-class reference": 2,
+        "0 | partial localization of same-class reference": 4,
+        "1 | overlaps reference of the other class": 3,
+        "0 | duplicate same-class detection": 1
+      },
+      "fixed_prediction_sha": "4763306aac615ead1c7b4d1c673e590d3f5564b28726b96c72be4422918c39bf",
+      "miss_reasons": {
+        "1 | matched geometry below fixed score": 12,
+        "0 | matched geometry below fixed score": 26,
+        "0 | partial same-class localization (0.20 <= IoU < 0.50)": 5,
+        "1 | no nearby same-class proposal at exported score floor": 1,
+        "1 | partial same-class localization (0.20 <= IoU < 0.50)": 1,
+        "0 | no nearby same-class proposal at exported score floor": 4
+      }
+    },
+    "parent_to_replay": {
+      "transitions": {
+        "0 | retained": 53,
+        "1 | retained": 129,
+        "1 | persistent miss": 11,
+        "1 | lost": 1,
+        "0 | lost": 4,
+        "0 | persistent miss": 26,
+        "1 | recovered": 2,
+        "0 | recovered": 4
+      },
+      "candidate_miss_diagnostics": {
+        "1 | matched geometry below fixed score": 10,
+        "0 | matched geometry below fixed score": 22,
+        "0 | no nearby same-class proposal at exported score floor": 5,
+        "1 | no nearby same-class proposal at exported score floor": 1,
+        "0 | partial same-class localization (0.20 <= IoU < 0.50)": 3,
+        "1 | partial same-class localization (0.20 <= IoU < 0.50)": 1
+      },
+      "changed_GT": [
+        {
+          "id": "23945062_20211025_201627_696.jpg#2",
+          "cls": 1,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945062_20211025_202359_675.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945062_20211027_145948_604.jpg#2",
+          "cls": 1,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945062_20211027_154503_523.jpg#2",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945063_20211025_181018_155.jpg#3",
+          "cls": 1,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945063_20211025_203345_159.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211027_154503_527.jpg#2",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945065_20211025_203345_160.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211025_222546_146.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211027_145758_109.jpg#1",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945065_20211027_143341_674.jpg#0",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        }
+      ]
+    },
+    "parent_to_external": {
+      "transitions": {
+        "0 | retained": 49,
+        "1 | retained": 127,
+        "1 | persistent miss": 11,
+        "0 | lost": 8,
+        "0 | persistent miss": 27,
+        "1 | lost": 3,
+        "1 | recovered": 2,
+        "0 | recovered": 3
+      },
+      "candidate_miss_diagnostics": {
+        "1 | matched geometry below fixed score": 12,
+        "0 | matched geometry below fixed score": 26,
+        "0 | partial same-class localization (0.20 <= IoU < 0.50)": 5,
+        "1 | no nearby same-class proposal at exported score floor": 1,
+        "1 | partial same-class localization (0.20 <= IoU < 0.50)": 1,
+        "0 | no nearby same-class proposal at exported score floor": 4
+      },
+      "changed_GT": [
+        {
+          "id": "23945062_20211025_202359_675.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945062_20211025_223816_636.jpg#5",
+          "cls": 1,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945062_20211027_145948_604.jpg#2",
+          "cls": 1,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945063_20211025_153658_222.jpg#2",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211025_155327_024.jpg#0",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945063_20211025_155727_650.jpg#0",
+          "cls": 1,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211025_224325_142.jpg#0",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211025_175441_147.jpg#3",
+          "cls": 1,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945065_20211025_202455_139.jpg#0",
+          "cls": 1,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211025_222546_146.jpg#0",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211025_222546_146.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211027_153112_024.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211027_153112_024.jpg#2",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211027_154503_527.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211027_145758_109.jpg#1",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945065_20211027_143341_674.jpg#0",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        }
+      ]
+    },
+    "replay_to_external": {
+      "transitions": {
+        "0 | retained": 49,
+        "1 | retained": 127,
+        "1 | persistent miss": 10,
+        "1 | recovered": 2,
+        "0 | persistent miss": 27,
+        "1 | lost": 4,
+        "0 | lost": 8,
+        "0 | recovered": 3
+      },
+      "candidate_miss_diagnostics": {
+        "1 | matched geometry below fixed score": 12,
+        "0 | matched geometry below fixed score": 26,
+        "0 | partial same-class localization (0.20 <= IoU < 0.50)": 5,
+        "1 | no nearby same-class proposal at exported score floor": 1,
+        "1 | partial same-class localization (0.20 <= IoU < 0.50)": 1,
+        "0 | no nearby same-class proposal at exported score floor": 4
+      },
+      "changed_GT": [
+        {
+          "id": "23945062_20211025_201627_696.jpg#2",
+          "cls": 1,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945062_20211025_223816_636.jpg#5",
+          "cls": 1,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945062_20211027_154503_523.jpg#2",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211025_153658_222.jpg#2",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211025_155327_024.jpg#0",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945063_20211025_155727_650.jpg#0",
+          "cls": 1,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211025_181018_155.jpg#3",
+          "cls": 1,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211025_203345_159.jpg#1",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945063_20211025_224325_142.jpg#0",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945063_20211027_154503_527.jpg#2",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211025_175441_147.jpg#3",
+          "cls": 1,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945065_20211025_202455_139.jpg#0",
+          "cls": 1,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211025_203345_160.jpg#1",
+          "cls": 0,
+          "transition": "recovered",
+          "previous_reason": "matched geometry below fixed score",
+          "new_reason": null
+        },
+        {
+          "id": "23945065_20211025_222546_146.jpg#0",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211027_153112_024.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211027_153112_024.jpg#2",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        },
+        {
+          "id": "23945065_20211027_154503_527.jpg#1",
+          "cls": 0,
+          "transition": "lost",
+          "previous_reason": null,
+          "new_reason": "matched geometry below fixed score"
+        }
+      ]
+    }
+  }
+}

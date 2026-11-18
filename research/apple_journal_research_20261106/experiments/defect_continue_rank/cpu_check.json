@@ -39,7 +39,7 @@
   "extra_parameters": 15062,
   "CPU_real_batch_size": 2,
   "CPU_real_size": 224,
-  "quality_terminal_grad_abs_after_clip": 0.020574056543409824,
+  "quality_terminal_grad_abs_after_clip": 0.020574059104546905,
   "CPU_real_loss": {
     "native": 8.31610107421875,
     "quality": 0.5059974789619446,
