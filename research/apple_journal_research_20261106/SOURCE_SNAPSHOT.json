@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-18T09:10:05.345961+00:00",
+  "snapshot_updated_utc": "2026-11-18T09:44:47.933327+00:00",
   "files": [
     {
       "path": "README.md",
@@ -73,6 +73,11 @@
       "bytes": 9750
     },
     {
+      "path": "apple_research_v2/audit_defect_target9485.py",
+      "sha256": "20dc6cbe27b419a12a914ba9c4da8fa8071d0eabda0ca29d1902219d36c4b7e8",
+      "bytes": 7241
+    },
+    {
       "path": "apple_research_v2/audit_full_attribute_v3_1.py",
       "sha256": "56d32b782a21272d99d197fdff74d64ac12dce7c18089ba541ffa34dcf9c9c7b",
       "bytes": 17701
@@ -143,6 +148,11 @@
       "bytes": 3156
     },
     {
+      "path": "apple_research_v2/compare_defect_target9485.py",
+      "sha256": "f9cdb4de0b8fd5ef94f8456fc048bbf34288d95f99223f6b1bd3eee2527ce362",
+      "bytes": 9404
+    },
+    {
       "path": "apple_research_v2/compare_native_onnx_pipeline.py",
       "sha256": "7c5498a5d0d83014c56c47c987e856351f1562756eafd3ebc0f70f4e2be141ff",
       "bytes": 26885
@@ -151,6 +161,106 @@
       "path": "apple_research_v2/continue_defect_steps_20261112.py",
       "sha256": "445fc06e991dfdd2eee8f2e97a642f12031493872cbfd221d62ff31a5982adf2",
       "bytes": 2735
+    },
+    {
+      "path": "apple_research_v2/defect9485_control.py",
+      "sha256": "bd9914bd70b8d0b11ffe066006db241194f2c595b8f97e70f540be87f3dd29d2",
+      "bytes": 1165
+    },
+    {
+      "path": "apple_research_v2/defect9485_cross.py",
+      "sha256": "e3aae9859250daed6f5f46bdc9667a859138a6327914e9b996b7386109e285db",
+      "bytes": 5466
+    },
+    {
+      "path": "apple_research_v2/defect9485_cross_deploy.py",
+      "sha256": "5325419b149486f7e9061a90a6b2aa034837e4567abd714e7568f1437911daf0",
+      "bytes": 9901
+    },
+    {
+      "path": "apple_research_v2/defect9485_error_atlas.py",
+      "sha256": "03fab72a0cd05df434d77f3a4d752d978747b459a84423cc7f9e2a1e0c165310",
+      "bytes": 3860
+    },
+    {
+      "path": "apple_research_v2/defect9485_gate_transfer.py",
+      "sha256": "530ec86c5b1d696ca61a86608e8112f325b0f83d67f636b1d6c84283d6f0d569",
+      "bytes": 2048
+    },
+    {
+      "path": "apple_research_v2/defect9485_local_fusion.py",
+      "sha256": "b9dddb30ce7cf1b536435d06744a4c58fc63f0b82ebe6c257f5e8795ad149d81",
+      "bytes": 2225
+    },
+    {
+      "path": "apple_research_v2/defect9485_p2.py",
+      "sha256": "fa77aa074326b212dc2662a4df6cf45efc28d56df89ee562e44723d42f7190b8",
+      "bytes": 13051
+    },
+    {
+      "path": "apple_research_v2/defect9485_pit_gate.py",
+      "sha256": "089b8b22f7419ce9104ab5984c2501eb7c1f6a726aabc26388d1da2e46b76bfa",
+      "bytes": 5740
+    },
+    {
+      "path": "apple_research_v2/defect9485_repr.py",
+      "sha256": "341809c64425a8106c28f346888764b7ef6c9074b464fc6198e6ac07fac9d268",
+      "bytes": 9354
+    },
+    {
+      "path": "apple_research_v2/defect9485_repr_encoder.py",
+      "sha256": "4531a07eb94a18846422070c3b826cc622d8d316cc9d4dba3428206c7681f8cd",
+      "bytes": 3156
+    },
+    {
+      "path": "apple_research_v2/defect9485_router.py",
+      "sha256": "062c3cd37393412916a9cebcd1cc016c38a82299402a0ecedc7d2f09dff9993b",
+      "bytes": 5483
+    },
+    {
+      "path": "apple_research_v2/defect9485_router_deploy.py",
+      "sha256": "b6c5f907ef582a13b2328a8bf1abb48df198c1e382f62a9de0e45473029c5baa",
+      "bytes": 5621
+    },
+    {
+      "path": "apple_research_v2/defect9485_scene.py",
+      "sha256": "b792f77ad48698ab32c74353e019454f7920bf7f678f45b3d3d1f4d4929a5943",
+      "bytes": 10201
+    },
+    {
+      "path": "apple_research_v2/defect9485_set.py",
+      "sha256": "719b2b81573a91e3f75f2ea8ab53d98f98c327d8c2d02d0f65a84e1865ee65ab",
+      "bytes": 9642
+    },
+    {
+      "path": "apple_research_v2/defect9485_set_deploy.py",
+      "sha256": "14069c6a796460cea476af492680d22e653716c8d480a8ccf5a4c2e4f6b8c361",
+      "bytes": 9488
+    },
+    {
+      "path": "apple_research_v2/defect9485_set_supplement.py",
+      "sha256": "d62bd15763d045393d63daa6c936281d85b35352c22fb37c3efc7ec5922ef853",
+      "bytes": 2446
+    },
+    {
+      "path": "apple_research_v2/defect9485_small.py",
+      "sha256": "3661850a7694d3e6b7656915db85cdc7d41b6e5c5e09015c4253a90422b7dbad",
+      "bytes": 12284
+    },
+    {
+      "path": "apple_research_v2/defect9485_small_flip.py",
+      "sha256": "c40dbb5e6fd07a09ccd490f52737e1d00369cb5b14ce1e8fc6d1381128a9b5be",
+      "bytes": 1238
+    },
+    {
+      "path": "apple_research_v2/defect9485_surface.py",
+      "sha256": "7532c095794dc3a5ae11477406cb42a789490b4dbb776e3a2f1327f92d67c346",
+      "bytes": 8381
+    },
+    {
+      "path": "apple_research_v2/defect9485_tree_runtime.py",
+      "sha256": "879210744c1552cdaef4ff6a0ffe905ee757824842322b4f2f7250d8b9c5d5cd",
+      "bytes": 3548
     },
     {
       "path": "apple_research_v2/defect_algorithm_modes_20261112.py",
@@ -608,6 +718,11 @@
       "bytes": 4788
     },
     {
+      "path": "docs/缺陷检测_P94R85_架构验证_20261118.md",
+      "sha256": "378d1924bec7683d10aa711f9daf8c2ca78bdb1f64e56ec6e9e9da2269ae81e7",
+      "bytes": 8658
+    },
+    {
       "path": "docs/缺陷检测优化对照_20261118.md",
       "sha256": "d5a7bb9419c07936bfda0ec6dbc8602d3a026e5757c499e48d7f26b60269ffc8",
       "bytes": 3299
@@ -676,6 +791,251 @@
       "path": "experiments/class0_visual_review_v1/outcomes.json",
       "sha256": "0c4cfa6db3736a6fdc8f9efb9889735ac44f0d10ee1c03d57e2ed4d0e2e42ab7",
       "bytes": 5267
+    },
+    {
+      "path": "experiments/defect9485_control800_v1/metrics.json",
+      "sha256": "605a4ebbda49537b5ee38e384fd658718c661f37eb3cc087337f99b8d7203f75",
+      "bytes": 4175
+    },
+    {
+      "path": "experiments/defect9485_control800_v1/speed.json",
+      "sha256": "4f0b1c10d862fcba531ba54a05cb65dcdbe7dc94514266af7c7e7cd2fb26a9dd",
+      "bytes": 150
+    },
+    {
+      "path": "experiments/defect9485_cross/p2/report.json",
+      "sha256": "efca6950ac5e840fa8764a0b21a3fd9f0f17cdee3fde5f99d50380099b523d68",
+      "bytes": 33266
+    },
+    {
+      "path": "experiments/defect9485_cross/protocol.json",
+      "sha256": "094353bb7683fea94949e71745576ec68c6e701756d81b7a2a0f1519d8e0f162",
+      "bytes": 1528
+    },
+    {
+      "path": "experiments/defect9485_cross/yolo26s/report.json",
+      "sha256": "8ee27ac2c179b0cbd2b5ddc9bb6231d25fdd1a66f5b81c59f7c7190924e9647f",
+      "bytes": 35008
+    },
+    {
+      "path": "experiments/defect9485_cross/yolo26s_flip/report.json",
+      "sha256": "fbe9ef115c5baf05f2d415d50d8a3f6b5c3a8a41dd61c542c76f52464fe273e6",
+      "bytes": 35087
+    },
+    {
+      "path": "experiments/defect9485_cross_deploy/cached_check.json",
+      "sha256": "9acc929090eefe4f5877cbf0abf62c7fe9fe89368b754d0f8489ddca2f1371c3",
+      "bytes": 555
+    },
+    {
+      "path": "experiments/defect9485_cross_deploy/gate99/metrics.json",
+      "sha256": "9459ce5e930618e3e14411426e01cafa23b2f62ef84d47102c773df03077b48d",
+      "bytes": 1175
+    },
+    {
+      "path": "experiments/defect9485_cross_deploy/gate99/speed.json",
+      "sha256": "691337c3872380163b7b9b5ecec5a047b6e166b1fd45590dac33486d97ce9f63",
+      "bytes": 150
+    },
+    {
+      "path": "experiments/defect9485_cross_deploy/gate99_small_half/metrics.json",
+      "sha256": "8ff40f029766e1371ecc2b041d2d12d071bbc15a2e69e0e6348e5e78974557ec",
+      "bytes": 1164
+    },
+    {
+      "path": "experiments/defect9485_cross_deploy/gate99_small_half/speed.json",
+      "sha256": "4c0b9c5aea28995bc35a7ba82d78a965f81c0d950a00f0a3d988b6e0902bc075",
+      "bytes": 151
+    },
+    {
+      "path": "experiments/defect9485_local_fusion/metrics.json",
+      "sha256": "6d86f0d3843c112ea9f5b4e614823fa84281425009a738fb5126bc6ebf7b5150",
+      "bytes": 6564
+    },
+    {
+      "path": "experiments/defect9485_local_fusion/surface_only_metrics.json",
+      "sha256": "b4434bb6c7aab5c971c8eb2da420138566be5d71b34c6f70369d0b5ba201de48",
+      "bytes": 1937
+    },
+    {
+      "path": "experiments/defect9485_p2_v1/complement.json",
+      "sha256": "e0f36c5dc74755ddbce724db1c609e52f68535eda454cdc6272d3f29a330804f",
+      "bytes": 471
+    },
+    {
+      "path": "experiments/defect9485_p2_v1/metrics.json",
+      "sha256": "cacc4b7b6798e80c3a579b368ef8698e9dc8c1877e14c5f44cff085d6db40288",
+      "bytes": 4103
+    },
+    {
+      "path": "experiments/defect9485_p2_v1/protocol.json",
+      "sha256": "de959c46958f352c63cb97a1078d35bc82f4f45d3087c2329e2780fd9523fcb4",
+      "bytes": 609
+    },
+    {
+      "path": "experiments/defect9485_p2_v1/receipt.json",
+      "sha256": "9f937de86ff873e2198fbb0b05336afc4aca6203098d363b77dffe9d588310de",
+      "bytes": 119
+    },
+    {
+      "path": "experiments/defect9485_p2_v1/speed.json",
+      "sha256": "ea6cd58b35cb6da36918bc4438839af8b1678f822a07e15837f2104304fa8eb5",
+      "bytes": 151
+    },
+    {
+      "path": "experiments/defect9485_p2_v1/training.json",
+      "sha256": "be9af361dedb743fc26e33f0c70cd1745c7b30eb6a87f03e170143a8c9f2fe25",
+      "bytes": 697
+    },
+    {
+      "path": "experiments/defect9485_pit_gate/frozen.json",
+      "sha256": "70fbb9575f95bed32363e0db0639f6b928138666df1d3aa4e664b84508f1015a",
+      "bytes": 195
+    },
+    {
+      "path": "experiments/defect9485_pit_gate/metrics.json",
+      "sha256": "0e4a4449ef0bb85e1aa3ac81beae0275cd7e76f4413a242c021969490bb59883",
+      "bytes": 9592
+    },
+    {
+      "path": "experiments/defect9485_pit_gate/small_flip_metrics.json",
+      "sha256": "8f88fa893e1e0dafdabcd5178fef70fe793b07134f1fcedef9ebc3ba8aac506f",
+      "bytes": 4243
+    },
+    {
+      "path": "experiments/defect9485_pit_gate/transfer_metrics.json",
+      "sha256": "975a676775e588ab096ae707db780593fa9f041fc7686e62cb2370f54b444df2",
+      "bytes": 12432
+    },
+    {
+      "path": "experiments/defect9485_repr/dino_frozen.json",
+      "sha256": "4b0312ebba989da077abad76bf6e67e26bc39c1c04ab96adcbf9e3a0aa653503",
+      "bytes": 777
+    },
+    {
+      "path": "experiments/defect9485_repr/dino_metrics.json",
+      "sha256": "8b2cd3f1d0ed681d8711419fd3db491364abfd3ca5add08442f3cb1d3bd5416c",
+      "bytes": 2102
+    },
+    {
+      "path": "experiments/defect9485_repr/texture_frozen.json",
+      "sha256": "13f85cddc3d52e8a568f5135d317a3f5bef3605e9502e74001b3220fadc3391a",
+      "bytes": 750
+    },
+    {
+      "path": "experiments/defect9485_repr/texture_metrics.json",
+      "sha256": "764038712d34744e0c829f13a687fa440636cbbbb521ace5072b1dc317b30e4a",
+      "bytes": 2181
+    },
+    {
+      "path": "experiments/defect9485_router/frozen.json",
+      "sha256": "e8bcb80a9c38a958d278ea00cc17a865c78a28d805d1baf4c20f3717fca8794d",
+      "bytes": 593
+    },
+    {
+      "path": "experiments/defect9485_router/metrics.json",
+      "sha256": "f187c230d869bcfafba2b907a43faefa6118852f5ea867e44424acec91b8f469",
+      "bytes": 1411
+    },
+    {
+      "path": "experiments/defect9485_router_deploy/metrics.json",
+      "sha256": "bc42afe06ad985afd490a85e30d8a0f9aba3f49a00712dc8436ac61696cac52c",
+      "bytes": 3295
+    },
+    {
+      "path": "experiments/defect9485_router_deploy/speed.json",
+      "sha256": "c0224ab9f62a63caa7c4f380e59f2925bde011a5bcc7af5353ce1425626fca9e",
+      "bytes": 219
+    },
+    {
+      "path": "experiments/defect9485_scene/frozen.json",
+      "sha256": "971512917b487878b5cc8a07526d33fe8c55014bc9ef16cb211892f0d89b2fd2",
+      "bytes": 613
+    },
+    {
+      "path": "experiments/defect9485_scene/metrics.json",
+      "sha256": "1d93e34a72522296f2121921a0ca1880cc7d5c75d8b401ece7dc6827ecae0871",
+      "bytes": 9250
+    },
+    {
+      "path": "experiments/defect9485_set/frozen.json",
+      "sha256": "bc104971c05eed7846315aa4727a492d1c807ba13efffcf1e450a77d077bbc8c",
+      "bytes": 694
+    },
+    {
+      "path": "experiments/defect9485_set/metrics.json",
+      "sha256": "0e2862735f34b68f29a68c64681ced645d4852e286099a38839ab20bd3a3730c",
+      "bytes": 2206
+    },
+    {
+      "path": "experiments/defect9485_set/supplement.json",
+      "sha256": "1abe39390d7e4861867f63e7abe734f0754839840aef39fc91944737611e85fe",
+      "bytes": 7726
+    },
+    {
+      "path": "experiments/defect9485_set_deploy/cached_check.json",
+      "sha256": "4a41a51b599e93f2331e9ebef8fe5d22cda2ebd6c19e92801ae4f398ca23093e",
+      "bytes": 525
+    },
+    {
+      "path": "experiments/defect9485_set_deploy/metrics.json",
+      "sha256": "dd31e71e4a1fc417fbf3d1cd277e3e75261bf3173c231f0480dce6b8f2eae329",
+      "bytes": 2988
+    },
+    {
+      "path": "experiments/defect9485_set_deploy/speed.json",
+      "sha256": "1868c0627bf6f4442c5334f5785ee57cba91ea12eb997e4b56adfae5ed70d9ae",
+      "bytes": 537
+    },
+    {
+      "path": "experiments/defect9485_small_flip_v1/audit.json",
+      "sha256": "3aa1aa6e2a697db73fa7619c654ef5072bbc37e8174a8e7e451c40b121e5a009",
+      "bytes": 346
+    },
+    {
+      "path": "experiments/defect9485_small_flip_v1/metrics.json",
+      "sha256": "4bf0004bec6b58e72d4c688c304962f557d1d79960ca93fd5ebd6b61de01a065",
+      "bytes": 2392
+    },
+    {
+      "path": "experiments/defect9485_small_flip_v1/speed.json",
+      "sha256": "d86f5f6104200ca37462a788322741e0e65347cc78bd43d08d703d967d9c3aa9",
+      "bytes": 149
+    },
+    {
+      "path": "experiments/defect9485_small_v1/metrics.json",
+      "sha256": "179c4da02b73cbb0a45e394954310967e716e881b5f8a39c4b819e6d4b0cc527",
+      "bytes": 3040
+    },
+    {
+      "path": "experiments/defect9485_small_v1/protocol.json",
+      "sha256": "2e4ba630b44978478ee19ba49e1aec1e8b3d8686101e070010b19edcd5e6d20a",
+      "bytes": 759
+    },
+    {
+      "path": "experiments/defect9485_small_v1/receipt.json",
+      "sha256": "189ff2b02a88a57a87cc0149d16201ea56ca26c7bbb37dd99d6245d52dce8555",
+      "bytes": 125
+    },
+    {
+      "path": "experiments/defect9485_small_v1/speed.json",
+      "sha256": "cc1b4fcc933346382037c6668a68395f51d3c43c05311a1cb6b851aa431b4b90",
+      "bytes": 149
+    },
+    {
+      "path": "experiments/defect9485_small_v1/training.json",
+      "sha256": "7c8f5f2e1c4b2a3d6eef61cd240e07c017af481c0662164b1c04093a5604c03a",
+      "bytes": 4404
+    },
+    {
+      "path": "experiments/defect9485_surface/frozen.json",
+      "sha256": "2ff65a01a31066f338a1426e4a1b8341347d4d14cf8c8177947727957e7d659f",
+      "bytes": 536
+    },
+    {
+      "path": "experiments/defect9485_surface/metrics.json",
+      "sha256": "c18609e021486099cf353c611a8157bcca22cec18fe0753bea93a9b5a2339277",
+      "bytes": 7044
     },
     {
       "path": "experiments/defect_algorithm_steps_20261112_v1/phase1/INVALIDATION.md",
@@ -896,6 +1256,21 @@
       "path": "experiments/defect_score_transfer_20261118/results.json",
       "sha256": "bb20f426fdbc6b532ea8724007e0b2ad7683bf45e6610ac3633a67fbafae9d38",
       "bytes": 2609
+    },
+    {
+      "path": "experiments/defect_target9485_audit/small_cross_gate99_comparison.json",
+      "sha256": "6afa3f237e09d9cb38b91b2529f9074de6cd89cec7f01436c2b0c7eb66bc997c",
+      "bytes": 10968
+    },
+    {
+      "path": "experiments/defect_target9485_audit/small_flip_cross_gate95_comparison.json",
+      "sha256": "d1d8455eca300159c0e2a153e9d12bc8b6c390910235e1fbeb4ff37b2a1f9ba9",
+      "bytes": 11222
+    },
+    {
+      "path": "experiments/defect_target9485_audit/summary.json",
+      "sha256": "0cba56ca20cc87629e3ae303957e9302d00a24db9a8a9ad5979fb57c79302705",
+      "bytes": 4054
     },
     {
       "path": "experiments/defect_weight_average_20261118/results.json",

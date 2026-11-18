@@ -1,0 +1,15 @@
+{
+  "FP_composition": {
+    "class0_no_nearby_gt": 8,
+    "class1_no_nearby_gt": 40,
+    "class0_other_class": 4,
+    "class0_duplicate": 5,
+    "class0_extent": 7,
+    "class1_extent": 1,
+    "class1_other_class": 3
+  },
+  "novel_vs_single": 11,
+  "lost_vs_single": 0,
+  "novel_vs_prior_balance": 17,
+  "lost_vs_prior_balance": 9
+}

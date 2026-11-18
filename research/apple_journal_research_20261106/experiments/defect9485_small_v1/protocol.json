@@ -1,0 +1,22 @@
+{
+  "base_sha": "646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b",
+  "base_metadata": "COCO 80-class YOLO26-small",
+  "epochs": 36,
+  "primary": "final epoch EMA",
+  "imgsz": 768,
+  "batch": 4,
+  "effective_batch": 12,
+  "seed": 49485,
+  "primary_thresholds": [
+    0.4,
+    0.34
+  ],
+  "lr": 0.0008,
+  "lr_schedule": "2-epoch linear warmup, cosine to .05",
+  "augmentation": "±12 degrees, .85–1.14 size, ±.035 translation, .5 horizontal flip, .82–1.18 exposure, per-channel mild color jitter",
+  "train_images": 596,
+  "gt_boxes": 1276,
+  "train_precision": "bfloat16 CUDA forward; FP32 assignment/loss/optimizer",
+  "inference": "single-view, FP32 fused, explicit class NMS .7",
+  "dev_used_before_final": false
+}

@@ -1,0 +1,20 @@
+{
+  "native": "1d10a4a02a852c85bdd4ea5a34eed11f72c70367445ec6176cd411b9b8b674bc",
+  "imgsz": 800,
+  "epochs": 6,
+  "batch": 4,
+  "train_images": 596,
+  "split": "original date split",
+  "detection_thresholds": [
+    0.4,
+    0.34
+  ],
+  "low_floor": 0.001,
+  "incremental_selection": "use final epoch",
+  "proposal": "detector one-to-one head; classwise NMS .7",
+  "features": "stride4 pixel-unshuffle to stride8; 24-channel learned projection + residual",
+  "loss": "native YOLO E2E o2m + o2o",
+  "optimizer": "AdamW, frozen batch statistics",
+  "lr_head": 0.00012,
+  "lr_detail": 0.0007
+}

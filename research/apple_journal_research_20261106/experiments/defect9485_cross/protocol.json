@@ -1,0 +1,17 @@
+{
+  "primary_fixed": "class0_crop_deploy_v1/fp32/dev_predictions.json",
+  "primary_fallback": "original/flip coordinate vote at score >= 0.055 per class",
+  "secondary_arms": ["P2-stride4", "YOLO26s when available"],
+  "secondary_fixed": "detector-specific frozen selection supplied with weights",
+  "secondary_candidate_floor": 0.055,
+  "matching": "Within class, IoU >= 0.50, one-to-one greedy. Prioritize pairs with both frozen votes, then one, then neither. Ties resolved by IoU then score product.",
+  "coordinates": "mean of the two detector boxes",
+  "pair_score": "geometric mean of the incoming scores. Scores are ordering signals, not calibrated probabilities.",
+  "dedup_iou": 0.70,
+  "strategies": ["both_fixed", "one_fixed_plus_other_support", "one_fixed_plus_other_support_and_frozen_set"],
+  "set_supplement": "Use frozen training OOF P94 settings (0.64/0.63). Only unmatched same-class boxes with no >=0.5 overlap insert, behind corroborated boxes in order.",
+  "primary_extra_candidates": "Append vote boxes with no >=0.5 overlap to the same class of any original primary frozen output. Preserve actual frozen crop expert proposals.",
+  "deployment": "Two defect backbones total; original sources support crop and set models. Stage segmentation not counted as a defect backbone; full latency must include it.",
+  "speed": "CPU cache replay for accuracy only",
+  "data": "No fitting, calibration or parameter search on dev. This comparison follows the earlier single-model experiments on the same dev split."
+}

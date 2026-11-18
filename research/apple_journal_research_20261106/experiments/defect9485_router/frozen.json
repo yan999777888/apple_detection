@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "top40": {
+      "threshold": 0.8935193886979153,
+      "train_oof_fraction": 0.401006711409396,
+      "mean_errors_high": 1.598326359832636,
+      "mean_errors_other": 0.5714285714285714
+    },
+    "top60": {
+      "threshold": 0.5429055614256416,
+      "train_oof_fraction": 0.6006711409395973,
+      "mean_errors_high": 1.3435754189944134,
+      "mean_errors_other": 0.4411764705882353
+    }
+  },
+  "train_images": 596,
+  "oof_error_spearman": 0.4964657539063599,
+  "model_sha256": "256f74cf83020d668036ad9ea288306c4d17828cf584abbd76f9b4ee121fc6d4"
+}

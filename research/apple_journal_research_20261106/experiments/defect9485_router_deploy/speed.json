@@ -1,0 +1,9 @@
+{
+  "n": 600,
+  "mean_ms": 60.85966433335367,
+  "p50_ms": 58.900449992506765,
+  "p95_ms": 99.01733498991234,
+  "serial_fps": 16.43124409169568,
+  "distinct_stage_upgrades": 20,
+  "distinct_defect_upgrades": 11
+}

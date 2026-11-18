@@ -1,0 +1,9 @@
+{
+  "limits": {
+    "0.99": 0.31,
+    "0.95": 0.495
+  },
+  "sha256": "b4034f166464e5b61ab029e05c7cb6d62050490784e58f09958ae7bdd19cf239",
+  "fold_positives": 602,
+  "fold_negatives": 129
+}

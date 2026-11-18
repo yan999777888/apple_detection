@@ -1,0 +1,26 @@
+{
+  "image_id": "23945063_20211025_203345_159.jpg",
+  "modes": {
+    "set": {
+      "n": 3,
+      "max_abs_difference": 0.008575439453125,
+      "common_TP": 3,
+      "gained": [],
+      "lost": []
+    },
+    "union": {
+      "n": 3,
+      "max_abs_difference": 0.008575439453125,
+      "common_TP": 3,
+      "gained": [],
+      "lost": []
+    },
+    "surface_only": {
+      "n": 3,
+      "max_abs_difference": 0.008575439453125,
+      "common_TP": 3,
+      "gained": [],
+      "lost": []
+    }
+  }
+}
