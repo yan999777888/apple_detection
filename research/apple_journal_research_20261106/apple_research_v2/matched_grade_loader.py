@@ -11,6 +11,12 @@ from grade_local_evidence import architecture_model
 
 
 def tensor_at_size(frames, device, side):
+    from grade_pairs_context_20261119 import ContextSide,prepare as context_prepare
+    if isinstance(side,ContextSide):
+        return context_prepare(frames,device)
+    from grade_pairs_20261119 import PairSide,prepare
+    if isinstance(side,PairSide):
+        return prepare(frames,device)
     from grade_detail_patch import DetailSide,pack,square
     if isinstance(side,DetailSide):
         return pack([original.rgb_square(im) for im in frames],[square(im,320) for im in frames],device)
@@ -45,12 +51,25 @@ def load(directory, device):
         if side!=320:
             raise ValueError("Native local verifier requires dual 320/224 input")
         side=DetailSide(320)
+    if metadata.get("architecture") == "native320_sparse_grade_pairs_20261119":
+        from grade_pairs_20261119 import PairSide
+        if side!=320:raise ValueError("Sparse local verifier needs its 320/224 input pair")
+        side=PairSide(320)
+    if metadata.get("architecture") == "native320_sparse_grounded_pairs_20261119":
+        from grade_pairs_context_20261119 import ContextSide
+        if side!=320:raise ValueError("Context verifier needs its 320/224 input pair")
+        side=ContextSide(320)
     model=architecture_model(metadata.get("architecture"))
     model.load_state_dict(torch.load(folder/"weights.pt",map_location="cpu",weights_only=True),strict=True)
     return model.to(device).eval().requires_grad_(False),float(metadata["threshold"]),side
 
 
 def install(pipe, directory):
+    from grade_pairs_20261119 import PairSide,prepare
     pipe.grade,pipe.grade_threshold,side=load(directory,"cuda")
     pipe.preprocess_grade=lambda frames,device:tensor_at_size(frames,device,side)
+    pipe.preprocess_grade_with_boxes=prepare if isinstance(side,PairSide) else None
+    from grade_pairs_context_20261119 import ContextSide,prepare as context_prepare
+    if isinstance(side,ContextSide):
+        pipe.preprocess_grade_with_boxes=context_prepare
     return side

@@ -1,0 +1,24 @@
+{
+  "reference_counts": {
+    "mendeley_stage_seg_v1": 772,
+    "papple_visible_stage_seg_v1": 2304,
+    "ssda_date_v2": 596,
+    "HDF": 3790,
+    "afruitdb_apples_v1": 482,
+    "apple_matched_quality_v1": 58,
+    "published_defect_intake": 96,
+    "apple_matched_fruitlife_woo_v1": 60,
+    "commons_rot_stress_v1": 14,
+    "grade_guard_hdf_v1": 8,
+    "grade_guard_sources_v2": 167,
+    "grocery_normal_review_v1": 30,
+    "penn_surface_challenge_v1": 8,
+    "remaining_HDF": 1210,
+    "remaining_FruitLife": 527,
+    "excluded_PLOS": 148
+  },
+  "reference_total": 10270,
+  "historical_matches": [],
+  "within_test_pairs": [],
+  "protocol": "Source SHA-256, full and central 2/3 crop D4 matching with pHash distance <=8 AND 32x32 mean absolute RGB difference <18/255. Compare both full and central views of all references. Unknown provenance or substantial recrops may evade the screen."
+}

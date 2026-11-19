@@ -1,0 +1,192 @@
+{
+  "schema": "grade_pairs_evidence_20261119_v1",
+  "files": {
+    "regions.json": "2e542fe808e75f776f5505b861c76e70036a642ed36bd00766e1ef03071e6ce9",
+    "pairs.json": "1a066d4a2bc1ec3619ade5a0d15e01696a415387361b087dfc993032a8a93972",
+    "severity_evidence.json": "2a157d09ba312099de0f9232c1310a47c35c5c17af665a80bf88a8bafba045fe",
+    "penn_area_train_dev.json": "dd39874000aa57169733c0c86d5d2d58f344b6a6dcb9982596ab2017d08f7399",
+    "review/severity_verified.jpg": "7e58c6078f2d7052c671f5a873649e4b150b6f20f71d55c022f69ec323711e23"
+  },
+  "code_sha256": "f75e9a277eafccde806a3fb5b6f9486fa6dab4a932d4eb1d2a01859bbd9693a4",
+  "region_counts": [
+    {
+      "source": "AFruitDB",
+      "split": "train",
+      "target": "confirmed_normal",
+      "n": 54
+    },
+    {
+      "source": "AFruitDB",
+      "split": "train",
+      "target": "surface_defect",
+      "n": 16
+    },
+    {
+      "source": "AFruitDB",
+      "split": "val",
+      "target": "confirmed_normal",
+      "n": 28
+    },
+    {
+      "source": "AFruitDB",
+      "split": "val",
+      "target": "surface_defect",
+      "n": 7
+    },
+    {
+      "source": "PennState",
+      "split": "train",
+      "target": "surface_defect",
+      "n": 6
+    },
+    {
+      "source": "PennState",
+      "split": "val",
+      "target": "surface_defect",
+      "n": 2
+    },
+    {
+      "source": "SSDA",
+      "split": "train",
+      "target": "surface_defect",
+      "n": 26
+    },
+    {
+      "source": "Woo",
+      "split": "train",
+      "target": "confirmed_normal",
+      "n": 75
+    },
+    {
+      "source": "Woo",
+      "split": "train",
+      "target": "surface_defect",
+      "n": 116
+    }
+  ],
+  "unique_representations": [
+    {
+      "source": "AFruitDB",
+      "split": "train",
+      "target": "confirmed_normal",
+      "n_images": 35
+    },
+    {
+      "source": "AFruitDB",
+      "split": "train",
+      "target": "surface_defect",
+      "n_images": 13
+    },
+    {
+      "source": "AFruitDB",
+      "split": "val",
+      "target": "confirmed_normal",
+      "n_images": 28
+    },
+    {
+      "source": "AFruitDB",
+      "split": "val",
+      "target": "surface_defect",
+      "n_images": 5
+    },
+    {
+      "source": "PennState",
+      "split": "train",
+      "target": "surface_defect",
+      "n_images": 6
+    },
+    {
+      "source": "PennState",
+      "split": "val",
+      "target": "surface_defect",
+      "n_images": 1
+    },
+    {
+      "source": "SSDA",
+      "split": "train",
+      "target": "surface_defect",
+      "n_images": 26
+    },
+    {
+      "source": "Woo",
+      "split": "train",
+      "target": "confirmed_normal",
+      "n_images": 73
+    },
+    {
+      "source": "Woo",
+      "split": "train",
+      "target": "surface_defect",
+      "n_images": 34
+    }
+  ],
+  "source_traces": {
+    "AFruitDB DOI": "10.17632/bz65dz2pbj.1",
+    "AF local": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+    "AF individual original spot review": "cb6ad4a48eb2023dddfffbcb426c3d84bc64913fb9599757e85cb89382f4206b",
+    "Woo source": "b32b8203a7b92e2149dddbe5c20038b9a292b7c711f166b6a90b66ef54ac02c8",
+    "Woo grade review": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+    "PSU source": "14f3879657d6a251a6d8707a421b8e91d5c33fa8a05ad6c940a296dff0daa56a",
+    "SSDA date split": "d748a4ada46e4dd3e087aff11c7813d9ab22044d5bbfb2d05c6cfa135a27f19f",
+    "SSDA manual review": "5bfa16a43e1487b5b549649bc2c0af5b6c7e79910820f305b06f80c1022e1d93"
+  },
+  "history": "AF and confirmed Woo faces/SSDA are previously used training sources. More Woo regions and normal boxes add localized supervision; they are not a new out-of-sample trial. AF development also previously used. Exact source hashes and family filters cannot certify physical identity unless the author supplied IDs.",
+  "exclusions": [
+    "PLOS Dataset_1 (all)",
+    "Manalagi (all)",
+    "HDF (all)",
+    "AFruitDB old 110 test",
+    "author train-excluded Woo trigger/group",
+    "PSU historical external dates incl. 2024-10-05 (all 8 true Rot annotations), additional reserved date 2024-10-30",
+    "SSDA 113 development and quarantine (not used as training regions)",
+    "FruitLife external 3 physical specimens",
+    "Grocery/Commons historical stress sources"
+  ],
+  "source_authority": "Author disease polygons and author grade/stage labels are identified separately from locally reviewed normal structures or conservative extent polygons. Appearance-only grades do not substitute for pathological rotting.",
+  "pairs": [
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "n": 10
+    },
+    {
+      "scope": "same_camera_trigger_different_views",
+      "source": "Woo",
+      "split": "train",
+      "n": 4
+    },
+    {
+      "scope": "same_documented_physical_apple_across_time",
+      "source": "FruitLife",
+      "split": "train",
+      "n": 3
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "n": 14
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "val",
+      "n": 6
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "n": 81
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "n": 11
+    }
+  ],
+  "cross_split_equal_source_file_hash": 0,
+  "qa": "Every localized image path and SHA checked, all reported same-frame pairs bind to matched regions in that exact image. Stored FruitLife masks rehashed after serialization."
+}

@@ -1,0 +1,228 @@
+{
+  "anatomy_control": {
+    "architecture": "mobilenet_v3_small_native320_patch_v1",
+    "input_side": 320,
+    "threshold": 1.0,
+    "weights_sha256": "b3c58b5c4c280e4a0a6cc77c567076d3851752793a1faaaa0422ccb6e7f61ff4",
+    "parent_sha256": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+    "step": 150,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            8,
+            3,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.8,
+          0.2,
+          1.0
+        ],
+        "good": 20,
+        "mild": 3,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 40
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            8,
+            5,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.96,
+          0.3333333333333333,
+          1.0
+        ],
+        "good": 24,
+        "mild": 5,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 46
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false
+  },
+  "localized_change": {
+    "architecture": "mobilenet_v3_small_native320_patch_v1",
+    "input_side": 320,
+    "threshold": 1.0,
+    "weights_sha256": "387d565ec1aed1fbdca9cae8275d113cc19be1779ac7b9d2f488b1a04e7e6fa9",
+    "parent_sha256": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+    "step": 25,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            7,
+            4,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.8,
+          0.26666666666666666,
+          1.0
+        ],
+        "good": 20,
+        "mild": 4,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 41
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            8,
+            5,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.96,
+          0.3333333333333333,
+          1.0
+        ],
+        "good": 24,
+        "mild": 5,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 46
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "steps": 150,
+  "seed": 119027,
+  "check_every": 25,
+  "lr": 0.00035,
+  "instruction": "True author scratch polygons and supervised training marks only. Make an edited companion where just the mark is locally filled. For known normal anatomy apply the identical operator. Penalise a failure to prefer the real trace to its counterpart; keep normal landmark response invariant. No whole-image grade is assigned to the edit, or to unannotated skin. Absolute control and relative arm have identical exposures and parent.",
+  "selection": "Frozen protocol in enclosing experiment. No new data at inference.",
+  "training": "afe261319a3fbff56a42a49504a4c555ba8402de34068402faf6314c796c3e92"
+}

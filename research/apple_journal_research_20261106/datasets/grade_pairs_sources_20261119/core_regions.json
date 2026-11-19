@@ -1,0 +1,3533 @@
+{
+  "schema": "source_xyxy_v1",
+  "regions": [
+    {
+      "id": "5483fc8270ff8a92a797",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg",
+      "image_sha256": "a53a2442955a3600a85fe74952e016ec2c1fddf7b4651060b83fe7802062b5fc",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2366.0,
+        1717.0,
+        2570.0,
+        1876.0
+      ],
+      "parent_fruit_xyxy": [
+        1069,
+        728,
+        2922,
+        2494
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "3a342adad870813c5cbe",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg",
+      "image_sha256": "a53a2442955a3600a85fe74952e016ec2c1fddf7b4651060b83fe7802062b5fc",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1977.0,
+        1523.0,
+        2125.0,
+        1646.0
+      ],
+      "parent_fruit_xyxy": [
+        1069,
+        728,
+        2922,
+        2494
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "d3b8bdd1c903ad463e48",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg",
+      "image_sha256": "a53a2442955a3600a85fe74952e016ec2c1fddf7b4651060b83fe7802062b5fc",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1662.0,
+        1417.0,
+        1736.0,
+        1611.0
+      ],
+      "parent_fruit_xyxy": [
+        1069,
+        728,
+        2922,
+        2494
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "8a279b3a2c7e4c380909",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213651.jpg",
+      "image_sha256": "c5bafeabc755e0b7ff94f3a1c0bbd9cbae7210b8ca979ddb36af6d30ab94defa",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1905.0,
+        1500.0,
+        2253.0,
+        1830.0
+      ],
+      "parent_fruit_xyxy": [
+        194,
+        0,
+        3362,
+        3000
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213651.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "72ea3463661679767e9c",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213651.jpg",
+      "image_sha256": "c5bafeabc755e0b7ff94f3a1c0bbd9cbae7210b8ca979ddb36af6d30ab94defa",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1620.0,
+        1230.0,
+        1810.0,
+        1440.0
+      ],
+      "parent_fruit_xyxy": [
+        194,
+        0,
+        3362,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213651.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "0088cd3e74b188218e2b",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213655.jpg",
+      "image_sha256": "9cbb43bdfd775f68106cd1290e48e29437662f42f2fadba84269b11675709491",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1980.0,
+        1329.0,
+        2154.0,
+        1584.0
+      ],
+      "parent_fruit_xyxy": [
+        734,
+        0,
+        3631,
+        2828
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213655.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "e04bf675af62bfcbde1c",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213700.jpg",
+      "image_sha256": "4a2e318ecb069c11162aaacc6c647d1cc47ca41fbec37499b7e9d14499d7c91e",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1417.0,
+        2101.0,
+        1647.0,
+        2371.0
+      ],
+      "parent_fruit_xyxy": [
+        753,
+        3,
+        3638,
+        3000
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213700.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "2ce3250bd124919e5f38",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213700.jpg",
+      "image_sha256": "4a2e318ecb069c11162aaacc6c647d1cc47ca41fbec37499b7e9d14499d7c91e",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2397.0,
+        1322.0,
+        2541.0,
+        1472.0
+      ],
+      "parent_fruit_xyxy": [
+        753,
+        3,
+        3638,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213700.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "67d7197ac5d58fbac4c1",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg",
+      "image_sha256": "29deed9ca37f034179a6d79e51f23e4d81fdccc8490ae4c0faa0b521f157e9d8",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1867.0,
+        1779.0,
+        2143.0,
+        2046.0
+      ],
+      "parent_fruit_xyxy": [
+        491,
+        0,
+        3550,
+        2966
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "0abb3d16e473798afd4b",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg",
+      "image_sha256": "29deed9ca37f034179a6d79e51f23e4d81fdccc8490ae4c0faa0b521f157e9d8",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2387.0,
+        890.0,
+        2693.0,
+        1097.0
+      ],
+      "parent_fruit_xyxy": [
+        491,
+        0,
+        3550,
+        2966
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg#positives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "21b88b22300a176a5b58",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg",
+      "image_sha256": "29deed9ca37f034179a6d79e51f23e4d81fdccc8490ae4c0faa0b521f157e9d8",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1714.0,
+        1335.0,
+        1837.0,
+        1631.0
+      ],
+      "parent_fruit_xyxy": [
+        491,
+        0,
+        3550,
+        2966
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "70fb41fd30bea47b5259",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg",
+      "image_sha256": "2737a0a502c7e5cc4c8430c07303261c76f243f26814117cbc0fdaca013321ca",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2110.0,
+        788.0,
+        2346.0,
+        968.0
+      ],
+      "parent_fruit_xyxy": [
+        825,
+        428,
+        3447,
+        3000
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "df7de54bb794f48bd8ac",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg",
+      "image_sha256": "2737a0a502c7e5cc4c8430c07303261c76f243f26814117cbc0fdaca013321ca",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2713.0,
+        1328.0,
+        2870.0,
+        1560.0
+      ],
+      "parent_fruit_xyxy": [
+        825,
+        428,
+        3447,
+        3000
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg#positives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "4b5ebd0b04324862828b",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg",
+      "image_sha256": "2737a0a502c7e5cc4c8430c07303261c76f243f26814117cbc0fdaca013321ca",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1979.0,
+        1971.0,
+        2136.0,
+        2100.0
+      ],
+      "parent_fruit_xyxy": [
+        825,
+        428,
+        3447,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "b11f9e0c709c4eb4c4f1",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213836.jpg",
+      "image_sha256": "02bb7e2e2dd049de009c6ab095e5069466765ad4a8092537b56d182a33187012",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2080.0,
+        510.0,
+        2360.0,
+        720.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213836.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "95278a82e85759219f68",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213836.jpg",
+      "image_sha256": "02bb7e2e2dd049de009c6ab095e5069466765ad4a8092537b56d182a33187012",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2040.0,
+        1230.0,
+        2200.0,
+        1410.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213836.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "46e64cf55e7a47beff74",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg",
+      "image_sha256": "e9067330a45bad6ee16e5ced6140b1ece66c4588d0f7cb0749a2aeef975a6814",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1301.0,
+        1315.0,
+        1623.0,
+        1446.0
+      ],
+      "parent_fruit_xyxy": [
+        575,
+        81,
+        3262,
+        2706
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "cd06a5bc30d5cc7a6c60",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg",
+      "image_sha256": "e9067330a45bad6ee16e5ced6140b1ece66c4588d0f7cb0749a2aeef975a6814",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1677.0,
+        1656.0,
+        1838.0,
+        1998.0
+      ],
+      "parent_fruit_xyxy": [
+        575,
+        81,
+        3262,
+        2706
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg#positives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "7a782f3209d1bca9ca81",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg",
+      "image_sha256": "e9067330a45bad6ee16e5ced6140b1ece66c4588d0f7cb0749a2aeef975a6814",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1650.0,
+        1236.0,
+        1919.0,
+        1420.0
+      ],
+      "parent_fruit_xyxy": [
+        575,
+        81,
+        3262,
+        2706
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "adceb44dc0927f2958b7",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214028.jpg",
+      "image_sha256": "6323dd6ae6446a626255bc9a44e96bb7b2a4f2c627955e06bbef9ce49a5f002c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1135.0,
+        1785.0,
+        1269.0,
+        2115.0
+      ],
+      "parent_fruit_xyxy": [
+        494,
+        78,
+        3166,
+        2831
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214028.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "99e01d9a90981638481b",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214028.jpg",
+      "image_sha256": "6323dd6ae6446a626255bc9a44e96bb7b2a4f2c627955e06bbef9ce49a5f002c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        841.0,
+        1290.0,
+        1215.0,
+        1455.0
+      ],
+      "parent_fruit_xyxy": [
+        494,
+        78,
+        3166,
+        2831
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214028.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "e8354dc9cda1e638876f",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214038.jpg",
+      "image_sha256": "261f6c09da75be27c34db85991f1e859baf341ebc95be26d967fcea91bb479c1",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2290.0,
+        1892.0,
+        2469.0,
+        2158.0
+      ],
+      "parent_fruit_xyxy": [
+        559,
+        0,
+        3544,
+        2956
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214038.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "0dcc0e2f277405167621",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214038.jpg",
+      "image_sha256": "261f6c09da75be27c34db85991f1e859baf341ebc95be26d967fcea91bb479c1",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2678.0,
+        1389.0,
+        2977.0,
+        1567.0
+      ],
+      "parent_fruit_xyxy": [
+        559,
+        0,
+        3544,
+        2956
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214038.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "0afdd20a74615ba9a82e",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214043.jpg",
+      "image_sha256": "358132da6ec634439e61a789015ca51b96f30d42b01852f73ad8d2cbbf7275b4",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        3320.0,
+        840.0,
+        3560.0,
+        1140.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214043.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "a56de6c981a481e3bc18",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214043.jpg",
+      "image_sha256": "358132da6ec634439e61a789015ca51b96f30d42b01852f73ad8d2cbbf7275b4",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        3160.0,
+        1320.0,
+        3560.0,
+        1470.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214043.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "4c7639e0424795b9dd76",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213713.jpg",
+      "image_sha256": "a1395231a4a66bc5814c1652737abe8178e4559609ba1efcac1936c795d7d5ca",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2120.0,
+        1350.0,
+        2280.0,
+        1500.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213713.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "584e7978e5e9a8820e0e",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213742.jpg",
+      "image_sha256": "343518d1e430d245a6203cf0863ca4a08193de98c2a1db54788570da2da50ece",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1277.0,
+        1269.0,
+        1712.0,
+        1673.0
+      ],
+      "parent_fruit_xyxy": [
+        375,
+        116,
+        3484,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213742.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "58d3b20d9d2afe5ed5ed",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213742.jpg",
+      "image_sha256": "343518d1e430d245a6203cf0863ca4a08193de98c2a1db54788570da2da50ece",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1930.0,
+        1616.0,
+        2116.0,
+        1760.0
+      ],
+      "parent_fruit_xyxy": [
+        375,
+        116,
+        3484,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213742.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "1ff17e7b0111a2ec1665",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213826.jpg",
+      "image_sha256": "c726b11acd1604b6ba377652145fefe6c9319d90890525c5b83f062e39ef0a47",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2097.0,
+        1109.0,
+        2274.0,
+        1282.0
+      ],
+      "parent_fruit_xyxy": [
+        931,
+        97,
+        3466,
+        2566
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213826.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "498d74c37b643c0ec0ca",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213826.jpg",
+      "image_sha256": "c726b11acd1604b6ba377652145fefe6c9319d90890525c5b83f062e39ef0a47",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2452.0,
+        591.0,
+        2604.0,
+        739.0
+      ],
+      "parent_fruit_xyxy": [
+        931,
+        97,
+        3466,
+        2566
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213826.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "e7b0d3520e39eb4f2359",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213914.jpg",
+      "image_sha256": "5c645720c853c9cfa1cb0d706d4d62525c3bed18b84f95d86a0a116f5467737c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1649.0,
+        1265.0,
+        1949.0,
+        1528.0
+      ],
+      "parent_fruit_xyxy": [
+        506,
+        212,
+        3228,
+        2844
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213914.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "ff0761d2fd90adc78afb",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213914.jpg",
+      "image_sha256": "5c645720c853c9cfa1cb0d706d4d62525c3bed18b84f95d86a0a116f5467737c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2003.0,
+        923.0,
+        2112.0,
+        1081.0
+      ],
+      "parent_fruit_xyxy": [
+        506,
+        212,
+        3228,
+        2844
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213914.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "1b38282917260e94b684",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213951.jpg",
+      "image_sha256": "a03456dba4f362630489a4cadccb73dddf4fa6dea8734faaa6178b8bc947b2a0",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1141.0,
+        1206.0,
+        1340.0,
+        1381.0
+      ],
+      "parent_fruit_xyxy": [
+        150,
+        812,
+        2628,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213951.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "5e25af0a43ebe1f5a2f7",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213951.jpg",
+      "image_sha256": "a03456dba4f362630489a4cadccb73dddf4fa6dea8734faaa6178b8bc947b2a0",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1290.0,
+        1950.0,
+        1439.0,
+        2081.0
+      ],
+      "parent_fruit_xyxy": [
+        150,
+        812,
+        2628,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213951.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "4d130ebbb188a1022a0b",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214053.jpg",
+      "image_sha256": "b6a5d62559c047004c1213ffcc260603de9acce589e17b8ffc4d267880061a0e",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1237.0,
+        1033.0,
+        1505.0,
+        1379.0
+      ],
+      "parent_fruit_xyxy": [
+        541,
+        181,
+        3219,
+        2844
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214053.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "b3d05a1252b3f4996f7b",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214053.jpg",
+      "image_sha256": "b6a5d62559c047004c1213ffcc260603de9acce589e17b8ffc4d267880061a0e",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1692.0,
+        1512.0,
+        1826.0,
+        1646.0
+      ],
+      "parent_fruit_xyxy": [
+        541,
+        181,
+        3219,
+        2844
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214053.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "abf0fed6cb20fd48043d",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214139.jpg",
+      "image_sha256": "c99218d41a1bed95a7b528eb8e382d7afa483835cb90a45a8d8797101d8b978c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1877.0,
+        1468.0,
+        2118.0,
+        1601.0
+      ],
+      "parent_fruit_xyxy": [
+        409,
+        3,
+        2600,
+        2222
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214139.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "d1e25dc833bad33c9f11",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214139.jpg",
+      "image_sha256": "c99218d41a1bed95a7b528eb8e382d7afa483835cb90a45a8d8797101d8b978c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1001.0,
+        802.0,
+        1176.0,
+        935.0
+      ],
+      "parent_fruit_xyxy": [
+        409,
+        3,
+        2600,
+        2222
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214139.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "dbeecb78ba9948d15b41",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214212.jpg",
+      "image_sha256": "efe004dff3dd0b41f9ef2e6156707acc30bd73f758d6d0581a1d6b5a0c1fae3a",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2714.0,
+        1368.0,
+        3290.0,
+        1601.0
+      ],
+      "parent_fruit_xyxy": [
+        1091,
+        356,
+        3709,
+        2950
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214212.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "4b9edbb77881ff0f66fb",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214212.jpg",
+      "image_sha256": "efe004dff3dd0b41f9ef2e6156707acc30bd73f758d6d0581a1d6b5a0c1fae3a",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2112.0,
+        1523.0,
+        2217.0,
+        1757.0
+      ],
+      "parent_fruit_xyxy": [
+        1091,
+        356,
+        3709,
+        2950
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214212.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "5b9e9a95c6700d071552",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214245.jpg",
+      "image_sha256": "0f0a7ced697563e9b2ad78510e00e468182e74640d44d63aa8078f3b9f6ee154",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1566.0,
+        1620.0,
+        1934.0,
+        1845.0
+      ],
+      "parent_fruit_xyxy": [
+        684,
+        72,
+        3134,
+        2569
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214245.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "3f72814c84cee343c8c3",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214245.jpg",
+      "image_sha256": "0f0a7ced697563e9b2ad78510e00e468182e74640d44d63aa8078f3b9f6ee154",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1885.0,
+        1046.0,
+        2032.0,
+        1195.0
+      ],
+      "parent_fruit_xyxy": [
+        684,
+        72,
+        3134,
+        2569
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214245.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "f38c758b9b07eb522b54",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214320.jpg",
+      "image_sha256": "af196b21081889263c59c8ab63de1269261bddfb8c968b3e22e95acdcbc3406a",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1595.0,
+        1192.0,
+        1928.0,
+        1410.0
+      ],
+      "parent_fruit_xyxy": [
+        291,
+        128,
+        3066,
+        2856
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214320.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "95acc1b71c26b527ba9c",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214320.jpg",
+      "image_sha256": "af196b21081889263c59c8ab63de1269261bddfb8c968b3e22e95acdcbc3406a",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1262.0,
+        1056.0,
+        1456.0,
+        1219.0
+      ],
+      "parent_fruit_xyxy": [
+        291,
+        128,
+        3066,
+        2856
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214320.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "e90f8684a12dc74652ff",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214401.jpg",
+      "image_sha256": "484d525f3ac4204b15d8fbb0a0524d634bc68bf2ce9043bea34ddabd5484443c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1939.0,
+        1270.0,
+        2187.0,
+        1460.0
+      ],
+      "parent_fruit_xyxy": [
+        866,
+        0,
+        3619,
+        2703
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214401.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "636b780afd7259221c1b",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214401.jpg",
+      "image_sha256": "484d525f3ac4204b15d8fbb0a0524d634bc68bf2ce9043bea34ddabd5484443c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2435.0,
+        1027.0,
+        2573.0,
+        1270.0
+      ],
+      "parent_fruit_xyxy": [
+        866,
+        0,
+        3619,
+        2703
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214401.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "0ff4241b03fa6e6d1f96",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214435.jpg",
+      "image_sha256": "ed70db65018a24f67ebae797d227a341da54365e2a9ee5b4434333f4f1b94337",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1672.0,
+        1333.0,
+        1881.0,
+        1570.0
+      ],
+      "parent_fruit_xyxy": [
+        459,
+        200,
+        2791,
+        2834
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214435.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "68f07cc3d68b16871e09",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214435.jpg",
+      "image_sha256": "ed70db65018a24f67ebae797d227a341da54365e2a9ee5b4434333f4f1b94337",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2558.0,
+        1464.0,
+        2674.0,
+        1596.0
+      ],
+      "parent_fruit_xyxy": [
+        459,
+        200,
+        2791,
+        2834
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214435.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "f857a6a7be553062494a",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214516.jpg",
+      "image_sha256": "6e7a125d7a7ff75909b39969d64f3adeebc277609ff86e463ed5d3da3abc2028",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1680.0,
+        1470.0,
+        1960.0,
+        1740.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214516.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "c6157cb849910d2727aa",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214516.jpg",
+      "image_sha256": "6e7a125d7a7ff75909b39969d64f3adeebc277609ff86e463ed5d3da3abc2028",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2200.0,
+        1260.0,
+        2320.0,
+        1470.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214516.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "78fb51e3d5ed5238fd52",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214548.jpg",
+      "image_sha256": "38f83e0493f81c23f689c05e1ad7a2d8d021c62dd2d15e1cb6f0b5c2b21cf5de",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1301.0,
+        1410.0,
+        1550.0,
+        1710.0
+      ],
+      "parent_fruit_xyxy": [
+        553,
+        0,
+        3669,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214548.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "067a42fe59945e28f399",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214548.jpg",
+      "image_sha256": "38f83e0493f81c23f689c05e1ad7a2d8d021c62dd2d15e1cb6f0b5c2b21cf5de",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2111.0,
+        1440.0,
+        2329.0,
+        1650.0
+      ],
+      "parent_fruit_xyxy": [
+        553,
+        0,
+        3669,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214548.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "9893b24d880e773a3220",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214621.jpg",
+      "image_sha256": "75760a786b566f86b420ab79fde458d908ff876107350dd9e391681a687d2914",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1595.0,
+        498.0,
+        1749.0,
+        657.0
+      ],
+      "parent_fruit_xyxy": [
+        591,
+        316,
+        3166,
+        2591
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214621.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "4e71cd374c8790303b34",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214621.jpg",
+      "image_sha256": "75760a786b566f86b420ab79fde458d908ff876107350dd9e391681a687d2914",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1775.0,
+        1362.0,
+        1955.0,
+        1521.0
+      ],
+      "parent_fruit_xyxy": [
+        591,
+        316,
+        3166,
+        2591
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214621.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "ffae1cf11d071457bf1d",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214705.jpg",
+      "image_sha256": "1ae5cf2bf7a8e602eb4a14417c15d87313096cfed9bcd5206d48dfcfa043a669",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1458.0,
+        878.0,
+        1741.0,
+        1090.0
+      ],
+      "parent_fruit_xyxy": [
+        553,
+        347,
+        3381,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214705.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "caad90c3c3e8b6147905",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214705.jpg",
+      "image_sha256": "1ae5cf2bf7a8e602eb4a14417c15d87313096cfed9bcd5206d48dfcfa043a669",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2250.0,
+        1965.0,
+        2476.0,
+        2098.0
+      ],
+      "parent_fruit_xyxy": [
+        553,
+        347,
+        3381,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0100",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214705.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "299769c25485d300f206",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124244.jpg",
+      "image_sha256": "a013b6ff34aaeedd30cbbfe71c579aad109fcbad5fa58e4bb3421e07d9e612ee",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2211.0,
+        1503.0,
+        2380.0,
+        1674.0
+      ],
+      "parent_fruit_xyxy": [
+        1441,
+        684,
+        3319,
+        2588
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0201",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124244.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "1f953d71faa5b6840c92",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124319.jpg",
+      "image_sha256": "b892564716c81a0aea2b9a83eaf1815d413431c91789d5e2d2db7576158f232b",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2137.0,
+        1852.0,
+        2273.0,
+        1966.0
+      ],
+      "parent_fruit_xyxy": [
+        1391,
+        603,
+        3088,
+        2225
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0201",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124319.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "12089ae6711ee9ce2b04",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124501.jpg",
+      "image_sha256": "b1e0c4cf9f027d2c967a118708c551b6e45a6da0411db16ba236af37fbfc90eb",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1745.0,
+        1419.0,
+        1865.0,
+        1579.0
+      ],
+      "parent_fruit_xyxy": [
+        1238,
+        681,
+        2731,
+        2284
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0201",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124501.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "a8ad94ebb9f61a846f2e",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124539.jpg",
+      "image_sha256": "68c39f4b03b2c041f00991b24840e39402b4f5108cf436386e2f050252489abf",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2014.0,
+        1642.0,
+        2255.0,
+        1871.0
+      ],
+      "parent_fruit_xyxy": [
+        1347,
+        475,
+        3200,
+        2388
+      ],
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0201",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124539.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "5295e199ca8e31ea42f3",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124603.jpg",
+      "image_sha256": "6947c3e747c59cf91c2e9025f8c639fefc1cdaf78d2cfaf8733de1c2adaf85ee",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2539.0,
+        969.0,
+        2711.0,
+        1073.0
+      ],
+      "parent_fruit_xyxy": [
+        1441,
+        494,
+        3009,
+        1978
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0201",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124603.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "e95dbe24c8f12f3c6b23",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124631.jpg",
+      "image_sha256": "3f2e2b5b687f94ff338cac9a0c70aef1dae36d205cb4b8f0ce23383159d0d663",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2320.0,
+        1680.0,
+        2400.0,
+        1830.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "reviewed_surface_mark",
+      "group_id": "burst_0201",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230425_124631.jpg#positives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "1ac85cc21faddb616d2a",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172627.jpg",
+      "image_sha256": "b33b085198aaa06f1619c81066dac573706de584b0c6c5fa309ff3b08ba328bf",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1364.0,
+        1650.0,
+        1843.0,
+        1860.0
+      ],
+      "parent_fruit_xyxy": [
+        497,
+        0,
+        3488,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0014",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172627.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "408f9174998dfe15a3c5",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172627.jpg",
+      "image_sha256": "b33b085198aaa06f1619c81066dac573706de584b0c6c5fa309ff3b08ba328bf",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1125.0,
+        1110.0,
+        1364.0,
+        1290.0
+      ],
+      "parent_fruit_xyxy": [
+        497,
+        0,
+        3488,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0014",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172627.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "bb79f244be85c44f5246",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172646.jpg",
+      "image_sha256": "e06dff69a088d5908a529af3b801fbe4a4357a5dc0831ef9f7c02b12c664f6f1",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2002.0,
+        1890.0,
+        2479.0,
+        2190.0
+      ],
+      "parent_fruit_xyxy": [
+        381,
+        0,
+        3559,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0014",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172646.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "b5bfae61b989ccf739c6",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172646.jpg",
+      "image_sha256": "e06dff69a088d5908a529af3b801fbe4a4357a5dc0831ef9f7c02b12c664f6f1",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1939.0,
+        1560.0,
+        2288.0,
+        1770.0
+      ],
+      "parent_fruit_xyxy": [
+        381,
+        0,
+        3559,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0014",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172646.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "8036a3973cbeeaea329c",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "image_sha256": "ae90728b6aef9c246b0b122dae84242a6f6b233f280b12bd9bdeaa24556272f1",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1477.0,
+        1347.0,
+        1656.0,
+        1533.0
+      ],
+      "parent_fruit_xyxy": [
+        709,
+        284,
+        3269,
+        2941
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0014",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "9afadadb271f756ab5d3",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "image_sha256": "f64878e0d7fe8e453094ceb3e1d0c54e969a010004d2a0e19b9a9def6836a67a",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1225.0,
+        1140.0,
+        1520.0,
+        1380.0
+      ],
+      "parent_fruit_xyxy": [
+        1019,
+        0,
+        3966,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0014",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "12609c6ee051ed60daed",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "image_sha256": "f64878e0d7fe8e453094ceb3e1d0c54e969a010004d2a0e19b9a9def6836a67a",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2286.0,
+        1230.0,
+        2433.0,
+        1350.0
+      ],
+      "parent_fruit_xyxy": [
+        1019,
+        0,
+        3966,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0014",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg#negatives_xyxy:1",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "d858403dfedc11e39f4d",
+      "source": "AFruitDB",
+      "split": "train",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172753.jpg",
+      "image_sha256": "2afff24cf7febc890214893dddadd991d87e1e367d86b299cf34f3a160d8e82b",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        800.0,
+        1680.0,
+        1160.0,
+        1890.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "reviewed_normal_structure",
+      "group_id": "burst_0014",
+      "source_record": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172753.jpg#negatives_xyxy:0",
+      "trace": "individually reviewed and localized from registered training crop"
+    },
+    {
+      "id": "90ad2fefdbd286360222",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/3fc482639f28d7e9.png",
+      "image_sha256": "86ee447a4e146dcdfcb9c498c776f7ccd208254470a8b3192fb5f10a4a5f6c39",
+      "image_hw": [
+        489,
+        489
+      ],
+      "source_image_xyxy": [
+        201.0,
+        97.47,
+        251.77,
+        121.13
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        489,
+        489
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144118_333418_TOP_jpg.rf.d424fbe8b84a85b6a08707b6e1e7fd6d.jpg#ann214",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144118_333418",
+      "source_photo_sha256": "3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72"
+    },
+    {
+      "id": "16d489b40b2e68d56280",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/3fc482639f28d7e9.png",
+      "image_sha256": "86ee447a4e146dcdfcb9c498c776f7ccd208254470a8b3192fb5f10a4a5f6c39",
+      "image_hw": [
+        489,
+        489
+      ],
+      "source_image_xyxy": [
+        336.9,
+        86.26,
+        389.21,
+        122.17
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        489,
+        489
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144118_333418_TOP_jpg.rf.d424fbe8b84a85b6a08707b6e1e7fd6d.jpg#ann215",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144118_333418",
+      "source_photo_sha256": "3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72"
+    },
+    {
+      "id": "6b0f4b33bdae696c2de1",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/3fc482639f28d7e9.png",
+      "image_sha256": "86ee447a4e146dcdfcb9c498c776f7ccd208254470a8b3192fb5f10a4a5f6c39",
+      "image_hw": [
+        489,
+        489
+      ],
+      "source_image_xyxy": [
+        171.77,
+        382.73,
+        203.56,
+        409.4
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        489,
+        489
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144118_333418_TOP_jpg.rf.d424fbe8b84a85b6a08707b6e1e7fd6d.jpg#ann216",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144118_333418",
+      "source_photo_sha256": "3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72"
+    },
+    {
+      "id": "6940d5beb184acf62d6b",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/98da8cf34ec89329.png",
+      "image_sha256": "32f4585748a69a9b085dd2c8e9999801863cc964d076176e8f353c471cc2f71e",
+      "image_hw": [
+        496,
+        471
+      ],
+      "source_image_xyxy": [
+        125.46,
+        283.18,
+        166.48,
+        356.02
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        471,
+        496
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144155_471847_TOP_jpg.rf.0693746e74c8c3038c79acfcbbfc6209.jpg#ann45",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144155_471847",
+      "source_photo_sha256": "98da8cf34ec8932963d72bd8de13f41b5fb443349e86884160250da4eb7d28d7"
+    },
+    {
+      "id": "c81e9d05078e2afc311d",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/df7c94cdc017bacb.png",
+      "image_sha256": "b0a2151b77628e988d5d631bd46fccfe2d00ab75ead45e5af904a32dbbab2f81",
+      "image_hw": [
+        460,
+        812
+      ],
+      "source_image_xyxy": [
+        641.11,
+        219.56,
+        685.56,
+        241.78
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        812,
+        460
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_LEFT_jpg.rf.32fcd28ab1fd62e6989b33cc5ba0deb7.jpg#ann349",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_LEFT",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7"
+    },
+    {
+      "id": "e4ccf3e0a9d427234c46",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/df7c94cdc017bacb.png",
+      "image_sha256": "b0a2151b77628e988d5d631bd46fccfe2d00ab75ead45e5af904a32dbbab2f81",
+      "image_hw": [
+        460,
+        812
+      ],
+      "source_image_xyxy": [
+        693.33,
+        214.0,
+        715.55,
+        241.78
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        812,
+        460
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_LEFT_jpg.rf.32fcd28ab1fd62e6989b33cc5ba0deb7.jpg#ann350",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_LEFT",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7"
+    },
+    {
+      "id": "229d527a0c702f035ed3",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/df7c94cdc017bacb.png",
+      "image_sha256": "b0a2151b77628e988d5d631bd46fccfe2d00ab75ead45e5af904a32dbbab2f81",
+      "image_hw": [
+        460,
+        812
+      ],
+      "source_image_xyxy": [
+        698.89,
+        241.78,
+        723.33,
+        269.56
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        812,
+        460
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_LEFT_jpg.rf.32fcd28ab1fd62e6989b33cc5ba0deb7.jpg#ann351",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_LEFT",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7"
+    },
+    {
+      "id": "d56e9cc3e2b7e4813fbf",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/df7c94cdc017bacb.png",
+      "image_sha256": "b0a2151b77628e988d5d631bd46fccfe2d00ab75ead45e5af904a32dbbab2f81",
+      "image_hw": [
+        460,
+        812
+      ],
+      "source_image_xyxy": [
+        524.44,
+        66.22,
+        553.33,
+        106.22
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        812,
+        460
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_LEFT_jpg.rf.32fcd28ab1fd62e6989b33cc5ba0deb7.jpg#ann352",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_LEFT",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7"
+    },
+    {
+      "id": "9b4defa80ad50b31e9e4",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/df7c94cdc017bacb.png",
+      "image_sha256": "b0a2151b77628e988d5d631bd46fccfe2d00ab75ead45e5af904a32dbbab2f81",
+      "image_hw": [
+        460,
+        812
+      ],
+      "source_image_xyxy": [
+        434.44,
+        67.33,
+        454.44,
+        89.55
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        812,
+        460
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_LEFT_jpg.rf.32fcd28ab1fd62e6989b33cc5ba0deb7.jpg#ann353",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_LEFT",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7"
+    },
+    {
+      "id": "948031c2cd89415e8d28",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5882f776a47bb907.png",
+      "image_sha256": "4f1af63834b2087cc49bf79693f105ebe2fa5c993dd5cd8109d486f72d037c77",
+      "image_hw": [
+        489,
+        482
+      ],
+      "source_image_xyxy": [
+        316.33,
+        101.33,
+        336.33,
+        125.77
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        482,
+        489
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_TOP_jpg.rf.25f5f138484f4698b12c93a25f71b66a.jpg#ann362",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da"
+    },
+    {
+      "id": "a310bda356008a497b84",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5882f776a47bb907.png",
+      "image_sha256": "4f1af63834b2087cc49bf79693f105ebe2fa5c993dd5cd8109d486f72d037c77",
+      "image_hw": [
+        489,
+        482
+      ],
+      "source_image_xyxy": [
+        100.78,
+        363.56,
+        129.67,
+        399.11
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        482,
+        489
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_TOP_jpg.rf.25f5f138484f4698b12c93a25f71b66a.jpg#ann363",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da"
+    },
+    {
+      "id": "daa8e0ecef40cdba15d2",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5882f776a47bb907.png",
+      "image_sha256": "4f1af63834b2087cc49bf79693f105ebe2fa5c993dd5cd8109d486f72d037c77",
+      "image_hw": [
+        489,
+        482
+      ],
+      "source_image_xyxy": [
+        234.11,
+        385.78,
+        264.11,
+        404.67
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        482,
+        489
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_TOP_jpg.rf.25f5f138484f4698b12c93a25f71b66a.jpg#ann364",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da"
+    },
+    {
+      "id": "fb465cd1fda052565900",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5882f776a47bb907.png",
+      "image_sha256": "4f1af63834b2087cc49bf79693f105ebe2fa5c993dd5cd8109d486f72d037c77",
+      "image_hw": [
+        489,
+        482
+      ],
+      "source_image_xyxy": [
+        116.33,
+        253.56,
+        147.44,
+        291.34
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        482,
+        489
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_TOP_jpg.rf.25f5f138484f4698b12c93a25f71b66a.jpg#ann365",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da"
+    },
+    {
+      "id": "683aaa192b918828d51a",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5882f776a47bb907.png",
+      "image_sha256": "4f1af63834b2087cc49bf79693f105ebe2fa5c993dd5cd8109d486f72d037c77",
+      "image_hw": [
+        489,
+        482
+      ],
+      "source_image_xyxy": [
+        75.22,
+        238.0,
+        114.11,
+        254.67
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        482,
+        489
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144255_135918_TOP_jpg.rf.25f5f138484f4698b12c93a25f71b66a.jpg#ann366",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144255_135918",
+      "source_photo_sha256": "5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da"
+    },
+    {
+      "id": "ebb425743145923e2185",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/32c3e02c954e5991.png",
+      "image_sha256": "c5ce5d16e71eee05eda485db3a5a229533f6aa3196b969591202b34bdf7a7c44",
+      "image_hw": [
+        448,
+        813
+      ],
+      "source_image_xyxy": [
+        556.67,
+        64.56,
+        605.56,
+        94.56
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        813,
+        448
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144258_023021_LEFT_jpg.rf.b3b29b05050ab9dbb97d8d972e59779c.jpg#ann356",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_LEFT",
+      "capture": "FRUIT_20260814_144258_023021",
+      "source_photo_sha256": "32c3e02c954e5991ffde6992ae4cf47717ac84455b1b76e9cfbdf7627080ee95"
+    },
+    {
+      "id": "f6ca9e0d304670a04bdd",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/32c3e02c954e5991.png",
+      "image_sha256": "c5ce5d16e71eee05eda485db3a5a229533f6aa3196b969591202b34bdf7a7c44",
+      "image_hw": [
+        448,
+        813
+      ],
+      "source_image_xyxy": [
+        413.33,
+        162.33,
+        445.55,
+        196.77
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        813,
+        448
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144258_023021_LEFT_jpg.rf.b3b29b05050ab9dbb97d8d972e59779c.jpg#ann357",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_LEFT",
+      "capture": "FRUIT_20260814_144258_023021",
+      "source_photo_sha256": "32c3e02c954e5991ffde6992ae4cf47717ac84455b1b76e9cfbdf7627080ee95"
+    },
+    {
+      "id": "1406749b25da0c6b498c",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/32c3e02c954e5991.png",
+      "image_sha256": "c5ce5d16e71eee05eda485db3a5a229533f6aa3196b969591202b34bdf7a7c44",
+      "image_hw": [
+        448,
+        813
+      ],
+      "source_image_xyxy": [
+        532.22,
+        297.89,
+        576.67,
+        334.56
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        813,
+        448
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144258_023021_LEFT_jpg.rf.b3b29b05050ab9dbb97d8d972e59779c.jpg#ann358",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_LEFT",
+      "capture": "FRUIT_20260814_144258_023021",
+      "source_photo_sha256": "32c3e02c954e5991ffde6992ae4cf47717ac84455b1b76e9cfbdf7627080ee95"
+    },
+    {
+      "id": "464f8a11247411ab8c5e",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/83d5536389cfbeb8.png",
+      "image_sha256": "126b40d721aee725fb7923f0a96576c3fbb4ddb84713be64913057c070e24c19",
+      "image_hw": [
+        386,
+        440
+      ],
+      "source_image_xyxy": [
+        151.34,
+        207.99,
+        175.08,
+        255.46
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        440,
+        386
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144739_544019_RIGHT_jpg.rf.4bbf5b834696d8b673d67036995720ad.jpg#ann331",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_RIGHT",
+      "capture": "FRUIT_20260814_144739_544019",
+      "source_photo_sha256": "83d5536389cfbeb81690fd5959428cca665ea2eb9beb3b3d7453c44de396aceb"
+    },
+    {
+      "id": "05f24e197f4674d85b4f",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/83d5536389cfbeb8.png",
+      "image_sha256": "126b40d721aee725fb7923f0a96576c3fbb4ddb84713be64913057c070e24c19",
+      "image_hw": [
+        386,
+        440
+      ],
+      "source_image_xyxy": [
+        99.49,
+        85.56,
+        123.22,
+        123.04
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        440,
+        386
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144739_544019_RIGHT_jpg.rf.4bbf5b834696d8b673d67036995720ad.jpg#ann332",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_RIGHT",
+      "capture": "FRUIT_20260814_144739_544019",
+      "source_photo_sha256": "83d5536389cfbeb81690fd5959428cca665ea2eb9beb3b3d7453c44de396aceb"
+    },
+    {
+      "id": "549652ecb8615a6ee727",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/83d5536389cfbeb8.png",
+      "image_sha256": "126b40d721aee725fb7923f0a96576c3fbb4ddb84713be64913057c070e24c19",
+      "image_hw": [
+        386,
+        440
+      ],
+      "source_image_xyxy": [
+        348.08,
+        75.57,
+        361.82,
+        124.91
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        440,
+        386
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144739_544019_RIGHT_jpg.rf.4bbf5b834696d8b673d67036995720ad.jpg#ann333",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_RIGHT",
+      "capture": "FRUIT_20260814_144739_544019",
+      "source_photo_sha256": "83d5536389cfbeb81690fd5959428cca665ea2eb9beb3b3d7453c44de396aceb"
+    },
+    {
+      "id": "7de2e54a7a87ab7af5e5",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/23f211b0e70d3753.png",
+      "image_sha256": "932e822bcffcb6b828b99d2a7d74c57050d6568bb80834d626dd69709b22f99e",
+      "image_hw": [
+        379,
+        439
+      ],
+      "source_image_xyxy": [
+        209.2,
+        11.91,
+        254.87,
+        35.8
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        439,
+        379
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144806_169563_RIGHT_jpg.rf.bfcc31bf6f408f93825547f8b1a449a8.jpg#ann306",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_RIGHT",
+      "capture": "FRUIT_20260814_144806_169563",
+      "source_photo_sha256": "23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332"
+    },
+    {
+      "id": "5598dd046a2dc53a1d98",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/23f211b0e70d3753.png",
+      "image_sha256": "932e822bcffcb6b828b99d2a7d74c57050d6568bb80834d626dd69709b22f99e",
+      "image_hw": [
+        379,
+        439
+      ],
+      "source_image_xyxy": [
+        224.66,
+        63.9,
+        238.71,
+        94.11
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        439,
+        379
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144806_169563_RIGHT_jpg.rf.bfcc31bf6f408f93825547f8b1a449a8.jpg#ann307",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_RIGHT",
+      "capture": "FRUIT_20260814_144806_169563",
+      "source_photo_sha256": "23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332"
+    },
+    {
+      "id": "e4e1dea98944c3a36ae5",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/bbe0ca9c53d6e17e.png",
+      "image_sha256": "471e35c122b83102b298494e0f83ff38f459dbf409a3fb04b1cb7dae2e7b9314",
+      "image_hw": [
+        465,
+        490
+      ],
+      "source_image_xyxy": [
+        227.0,
+        129.0,
+        254.0,
+        187.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        490,
+        465
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144819_168558_TOP_jpg.rf.c4043996f79b43732b4408c7b7e82b29.jpg#ann302",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_TOP",
+      "capture": "FRUIT_20260814_144819_168558",
+      "source_photo_sha256": "bbe0ca9c53d6e17e28819af2d11893e7d6d1573b10f9cafc797496e2670a1875"
+    },
+    {
+      "id": "4a2298377ab9930c1e63",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/595adcfb17cab779.png",
+      "image_sha256": "ff054237733ee8ed7631db27648d8e4caca92af0f1a98524fc3ea5411e702556",
+      "image_hw": [
+        401,
+        561
+      ],
+      "source_image_xyxy": [
+        173.93,
+        197.82,
+        209.83,
+        229.45
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        561,
+        401
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144836_952522_RIGHT_jpg.rf.468b67d5729b0ad39ea3883ef6ef8ddb.jpg#ann401",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_RIGHT",
+      "capture": "FRUIT_20260814_144836_952522",
+      "source_photo_sha256": "595adcfb17cab779daff9ffe0ba483917a55239268e8bc1c72cae7edb2d3eeb5"
+    },
+    {
+      "id": "7ea768a4606c8a1296f7",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/0fb786da6904936e.png",
+      "image_sha256": "53113d97536fdcd409b16bf53554d61924a2dd5678f174e5995f98c27005f28f",
+      "image_hw": [
+        418,
+        428
+      ],
+      "source_image_xyxy": [
+        236.0,
+        205.0,
+        268.0,
+        234.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        428,
+        418
+      ],
+      "target": "surface_defect",
+      "subtype": "author_scratch",
+      "group_id": "Woo_20260814_session",
+      "source_record": "train/FRUIT_20260814_144851_759248_RIGHT_jpg.rf.1f85b8e53a311e1fa591496ca7142fec.jpg#ann9",
+      "trace": "Reviewed shallow scratch; original author polygon and crop alignment",
+      "condition": "Woo_20260814_station_RIGHT",
+      "capture": "FRUIT_20260814_144851_759248",
+      "source_photo_sha256": "0fb786da6904936eea2e1595445416026478b807cd7af994593654b51ec3c374"
+    },
+    {
+      "id": "05f0935adfcd2b0b5a3a",
+      "source": "PennState",
+      "split": "val",
+      "path": "datasets/grade_guard_sources_v2/penn/7f41975a7673e8d422bc.png",
+      "image_sha256": "7f41975a7673e8d422bceadd30f62ab749ee6e74d96126145e9e351f5f8b0f9f",
+      "image_hw": [
+        427,
+        590
+      ],
+      "source_image_xyxy": [
+        257.4,
+        137.64,
+        301.56,
+        184.92
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        590,
+        427
+      ],
+      "target": "surface_defect",
+      "subtype": "Plum Curculio",
+      "group_id": "PSU_day_2024-10-10",
+      "source_record": "train/IMG_20241010_013528_jpg.rf.b5eed9fdf87250332aaec4f0f55ee565.jpg#ann106",
+      "trace": "Curated fruit owner, source lesion polygon, visually confirmed limited damage",
+      "marked_fraction": 0.0214970546120601,
+      "source_photo_sha256": "30b1069bf139804c5571f0318a3126d93f17afb9067f865902738adf4cc6f623"
+    },
+    {
+      "id": "abe190aea6ea02dd1806",
+      "source": "PennState",
+      "split": "val",
+      "path": "datasets/grade_guard_sources_v2/penn/7f41975a7673e8d422bc.png",
+      "image_sha256": "7f41975a7673e8d422bceadd30f62ab749ee6e74d96126145e9e351f5f8b0f9f",
+      "image_hw": [
+        427,
+        590
+      ],
+      "source_image_xyxy": [
+        171.96,
+        217.32,
+        219.96,
+        252.12
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        590,
+        427
+      ],
+      "target": "surface_defect",
+      "subtype": "Plum Curculio",
+      "group_id": "PSU_day_2024-10-10",
+      "source_record": "train/IMG_20241010_013528_jpg.rf.b5eed9fdf87250332aaec4f0f55ee565.jpg#ann107",
+      "trace": "Curated fruit owner, source lesion polygon, visually confirmed limited damage",
+      "marked_fraction": 0.0214970546120601,
+      "source_photo_sha256": "30b1069bf139804c5571f0318a3126d93f17afb9067f865902738adf4cc6f623"
+    },
+    {
+      "id": "cbff90603ad2726b4ae8",
+      "source": "PennState",
+      "split": "train",
+      "path": "datasets/grade_guard_sources_v2/penn/bbd0857ed10ccc86cc67.png",
+      "image_sha256": "bbd0857ed10ccc86cc67663bfa15c178d974147e64fa7ed9d6b8f7931a16f7c7",
+      "image_hw": [
+        405,
+        548
+      ],
+      "source_image_xyxy": [
+        309.92,
+        267.96,
+        394.4,
+        323.64
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        548,
+        405
+      ],
+      "target": "surface_defect",
+      "subtype": "Plum Curculio",
+      "group_id": "PSU_day_2025-10-02",
+      "source_record": "train/IMG_20251002_102002_jpg.rf.13a6f5504a434e4c319a61ca94cee19d.jpg#ann187",
+      "trace": "Curated fruit owner, source lesion polygon, visually confirmed limited damage",
+      "marked_fraction": 0.03050490632099602,
+      "source_photo_sha256": "6952dac147d5c4815dfe866ad2bb748418132999b9f095c9e4d620d22445da3c"
+    },
+    {
+      "id": "bcd94d6b40c5e95f81e6",
+      "source": "PennState",
+      "split": "train",
+      "path": "datasets/grade_guard_sources_v2/penn/42042222c4595e5f249f.png",
+      "image_sha256": "42042222c4595e5f249fd9340fc63316777dd57fc86bcfd8fe54676e39bc1514",
+      "image_hw": [
+        391,
+        527
+      ],
+      "source_image_xyxy": [
+        126.52,
+        293.32,
+        160.44,
+        315.88
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        527,
+        391
+      ],
+      "target": "surface_defect",
+      "subtype": "Sting",
+      "group_id": "PSU_day_2025-10-03",
+      "source_record": "train/IMG_20251003_114826_jpg.rf.f0a6361d99e6ebf736876485a391bab0.jpg#ann153",
+      "trace": "Curated fruit owner, source lesion polygon, visually confirmed limited damage",
+      "marked_fraction": 0.005339991744465644,
+      "source_photo_sha256": "d971784a610bdf6ec643f1a698c2a6ba03331c122a2280aabc96300b8df7cdae"
+    },
+    {
+      "id": "ad01330ba021bac6e80e",
+      "source": "PennState",
+      "split": "train",
+      "path": "datasets/grade_guard_sources_v2/penn/e7c14c8db8db3296c493.png",
+      "image_sha256": "e7c14c8db8db3296c493a9e5e976ce176064ce37f99a4f4fb243b5b58c45c201",
+      "image_hw": [
+        320,
+        465
+      ],
+      "source_image_xyxy": [
+        294.24,
+        166.48,
+        328.8,
+        200.32
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        465,
+        320
+      ],
+      "target": "surface_defect",
+      "subtype": "Sting",
+      "group_id": "PSU_day_2025-10-03",
+      "source_record": "train/IMG_20251003_152500_jpg.rf.a6e8ba0448a599eb606b14bf3eee9a83.jpg#ann113",
+      "trace": "Curated fruit owner, source lesion polygon, visually confirmed limited damage",
+      "marked_fraction": 0.011299724667823302,
+      "source_photo_sha256": "443a4eaaac8527cc75c8c97522509f1be3832918359f22c87eea9f0455485f06"
+    },
+    {
+      "id": "2fde765423eb5462a8d6",
+      "source": "PennState",
+      "split": "train",
+      "path": "datasets/grade_guard_sources_v2/penn/43c01faacd9615db89f2.png",
+      "image_sha256": "43c01faacd9615db89f23962744627362552a23e18c9f91498569bbead8535ba",
+      "image_hw": [
+        381,
+        549
+      ],
+      "source_image_xyxy": [
+        389.76,
+        251.76,
+        417.28,
+        271.2
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        549,
+        381
+      ],
+      "target": "surface_defect",
+      "subtype": "Sting",
+      "group_id": "PSU_day_2025-10-03",
+      "source_record": "train/IMG_20251003_153459_jpg.rf.5bfe8a0ab35eaae0704a9725509309c3.jpg#ann109",
+      "trace": "Curated fruit owner, source lesion polygon, visually confirmed limited damage",
+      "marked_fraction": 0.003687608245589889,
+      "source_photo_sha256": "55f44ca9f2082f598c47635c39d0e7114c2c22aa59c35a23dfba2b69aec84591"
+    },
+    {
+      "id": "693bbadae840ef0ee981",
+      "source": "PennState",
+      "split": "train",
+      "path": "datasets/grade_guard_sources_v2/penn/1a2cf6260207b765a47f.png",
+      "image_sha256": "1a2cf6260207b765a47f60b8779d0edc0c5f88df8e6028f275faf08684e8e17a",
+      "image_hw": [
+        506,
+        665
+      ],
+      "source_image_xyxy": [
+        426.96,
+        226.88,
+        490.0,
+        281.84
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        665,
+        506
+      ],
+      "target": "surface_defect",
+      "subtype": "Plum Curculio",
+      "group_id": "PSU_day_2025-10-03",
+      "source_record": "train/IMG_20251003_154830_jpg.rf.6522a6fe9b610b3cb6f54fb884a4e955.jpg#ann64",
+      "trace": "Curated fruit owner, source lesion polygon, visually confirmed limited damage",
+      "marked_fraction": 0.014824566738086357,
+      "source_photo_sha256": "9d195d3f79204e09e96825f66896b13363ed6f7b9e9dbb0b992f6866bde1aa83"
+    },
+    {
+      "id": "ded81a10997e7e5663eb",
+      "source": "PennState",
+      "split": "train",
+      "path": "datasets/grade_guard_sources_v2/penn/1e68143c258f59a63633.png",
+      "image_sha256": "1e68143c258f59a636330837fed3bbb7c15c7305930e2cbad7e3bc7914b61434",
+      "image_hw": [
+        358,
+        446
+      ],
+      "source_image_xyxy": [
+        264.44,
+        131.8,
+        284.28,
+        146.44
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        446,
+        358
+      ],
+      "target": "surface_defect",
+      "subtype": "Sting",
+      "group_id": "PSU_day_2025-10-03",
+      "source_record": "train/IMG_20251003_155818_jpg.rf.83464c94bbf3a95c15020716e179655c.jpg#ann45",
+      "trace": "Curated fruit owner, source lesion polygon, visually confirmed limited damage",
+      "marked_fraction": 0.0026183084736395978,
+      "source_photo_sha256": "d4c72b54ee3883891eb97998a729e014ffc7f8831ee6d253b4e42cea72bc0c96"
+    },
+    {
+      "id": "d94920e40b4a94bcba81",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_164300_731.jpg",
+      "image_sha256": "cdafb3d2de3ea5c68e60275702dd35612804acb416bd0e844ff78ed95159e183",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        198.526,
+        502.224,
+        247.834,
+        575.909
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_164300",
+      "source_record": "2a487150ecb7",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "bbadf6380b303c08eba9",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_130047_305.jpg",
+      "image_sha256": "242321db5e94857c2ea483af1474d457e3961e0c24bd3bcbaaa61afa7002d083",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        870.986,
+        301.505,
+        911.612,
+        341.357
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_130047",
+      "source_record": "c9fab24ec01f",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "521bfcc550c52abdcdd9",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945065_20211104_130759_104.jpg",
+      "image_sha256": "2f54b86d2a8e55571fa3c3ef0c3c2d196658f92418d8927fff0fd4a866f4d870",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        321.621,
+        854.543,
+        361.525,
+        892.523
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_130759",
+      "source_record": "6402246b6720",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "e67cf9735d1a5a17775f",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_143715_743.jpg",
+      "image_sha256": "93a9911c58a2c117d36738820965e7f205e7c540ff8a0266a0e61ef0e032b9b6",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        560.939,
+        326.97,
+        609.307,
+        378.04
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_143715",
+      "source_record": "ef7d6d9ccc08",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "fb2fd16b9cc0235ab457",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945065_20211104_131412_204.jpg",
+      "image_sha256": "515b0fe880b24c302c0bec4a336181407c6286f5ba675d6b75b6b83499ef0ab7",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        261.655,
+        260.901,
+        306.144,
+        303.128
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_131412",
+      "source_record": "4916e12b41da",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "a1cdcf4e91ef2a5a6595",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_161900_744.jpg",
+      "image_sha256": "bf0d2a4167a092bf825085f58c64d599cf68bf8ee6e6e08c400a3550a40e0e36",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        340.868,
+        162.052,
+        416.306,
+        217.233
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "scratch",
+      "group_id": "SSDA_20211104_161900",
+      "source_record": "22641397f105",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "3522f496ceacf9b00bf2",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945065_20211104_153623_146.jpg",
+      "image_sha256": "c52ac4cdd265e612b7da9f9941668e1c037b9e7d3c0ee8fd6b74b6d041c52358",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        133.755,
+        269.9,
+        185.876,
+        345.871
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "scratch",
+      "group_id": "SSDA_20211104_153623",
+      "source_record": "e685a6f313c1",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "85ae0f4bb2d67591a77a",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945065_20211104_155144_153.jpg",
+      "image_sha256": "9cf3b5de7494eb795171dc63079be366387431e7a64d1ec513ca3f637f514705",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        467.552,
+        598.644,
+        515.437,
+        644.983
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_155144",
+      "source_record": "125f3b781628",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "bff46e02c670f25ce63c",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_152709_738.jpg",
+      "image_sha256": "e5a464b31816ae6593bd899528548c8d751308e4b1202b99f5be1ea5b251f1d6",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        837.609,
+        650.87,
+        876.424,
+        689.701
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_152709",
+      "source_record": "0cd7a77e5273",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "5849d3302003782cd9ce",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945063_20211104_144111_138.jpg",
+      "image_sha256": "7e9bb1c898896a7cdfe4327cf9a8554ea5b8d3f4e0f568c6ca596eb138feee07",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        839.655,
+        260.514,
+        931.705,
+        444.956
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "scratch",
+      "group_id": "SSDA_20211104_144111",
+      "source_record": "3ad87601b1b5",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "7bb1feb40c99bfe79292",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/val/23945062_20211104_150510_738.jpg",
+      "image_sha256": "e240480605e58034f4216ea239060971acdd0d8df4d4837fa0e51ff67fea1907",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        779.603,
+        453.983,
+        831.819,
+        530.856
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_150510",
+      "source_record": "0f850e880db6",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "dde97b11984dd71e570b",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945063_20211104_161605_257.jpg",
+      "image_sha256": "3bffcfc8575f11630ce23da955ac4f9aac224df744e6dacf4d595f9b6f2305e7",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        562.556,
+        635.825,
+        607.486,
+        678.771
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_161605",
+      "source_record": "56df5afac5fa",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "2d5a9b9806019f72c24e",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_161805_347.jpg",
+      "image_sha256": "f1c7647dbe943c395782c704eeadae86f3e19cf3fd31992985f66fab5569f999",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        636.484,
+        56.264,
+        682.901,
+        99.165
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_161805",
+      "source_record": "a29c432caefe",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "e25b3a7a4908ffd08134",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_163606_651.jpg",
+      "image_sha256": "5dc110e68819f1226f26fa1b8f9b0887e4118f646113a83e59c3c0cc87e20d6f",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        883.978,
+        362.785,
+        924.287,
+        402.387
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_163606",
+      "source_record": "94529a61b935",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "2bd57a99717655361b87",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_133643_716.jpg",
+      "image_sha256": "fad78600571538af6a66cd99963ba1d201cecd3f9446e8837f23b995cb83c994",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        523.253,
+        0.0,
+        561.934,
+        38.681
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_133643",
+      "source_record": "fce35388430d",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "95e0cbe8ed4f95507777",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_152622_238.jpg",
+      "image_sha256": "364c1d04e5e01330331fe705a7a959a3ad67c64c36fda4c2ec59b902a3132929",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        581.281,
+        150.727,
+        640.084,
+        230.484
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "scratch",
+      "group_id": "SSDA_20211104_152622",
+      "source_record": "04f1f417d7d6",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "641a35d481f2130690a5",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/val/23945063_20211104_132821_126.jpg",
+      "image_sha256": "fb31ddc27f2994c2a50861ba58994be3a59a5dfad1047d8a1682a31ffff41bbc",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        571.88,
+        957.468,
+        619.896,
+        995.305
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_132821",
+      "source_record": "4ffafaacfb94",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "8d048614c0666744202b",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_151449_836.jpg",
+      "image_sha256": "fff26ab8e7314849639ef9052b8c80ba52ee065199c94c0a051031e1539ffc84",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        192.016,
+        501.57,
+        252.208,
+        577.31
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "scratch",
+      "group_id": "SSDA_20211104_151449",
+      "source_record": "fc08a0920387",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "be47d1d0a378ed8f0220",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945065_20211104_133158_739.jpg",
+      "image_sha256": "ef61666072b7b04719bc4cd0976ff654f533270fc42b1d8b7db11b47f8469350",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        687.67,
+        537.224,
+        739.912,
+        581.418
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_133158",
+      "source_record": "f6a527e34fe0",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "84afd47d700c71b84463",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_144848_248.jpg",
+      "image_sha256": "abd95247ae220eee6f4b4d5c98dc0062cd710798d590acadbd32819058681cd0",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        153.09,
+        316.326,
+        194.179,
+        358.345
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_144848",
+      "source_record": "c179559260c9",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "fd2c882cd65cd3c4b091",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945063_20211104_145102_755.jpg",
+      "image_sha256": "fd2798e7c931a2a346fd1819ffa0a7a3389118e3d13bca1b90d76a3d57f4aa15",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        132.462,
+        195.916,
+        233.196,
+        431.492
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "scratch",
+      "group_id": "SSDA_20211104_145102",
+      "source_record": "b158b17f6f5c",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "ab6c2188a62c6177ee78",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_135515_621.jpg",
+      "image_sha256": "40f7c95355c45f4e111d204a05162511f30839478defc39d25fc233733e8fd71",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        496.328,
+        543.232,
+        644.189,
+        658.935
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "scratch",
+      "group_id": "SSDA_20211104_135515",
+      "source_record": "263142c61dbc",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "cc9cec64779740f92f04",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945065_20211104_133116_738.jpg",
+      "image_sha256": "5b12d3f3c9adb3ab9e399e21cddf0d14516a7288d7dc83fd784b13297ab14a9b",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        295.923,
+        753.517,
+        340.157,
+        795.655
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_133116",
+      "source_record": "17f42032f9d7",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "a8c39d0fcaf8a45f8122",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945062_20211104_133816_317.jpg",
+      "image_sha256": "d13129383398b93ad1a7e76448acf5510cab97b19d95f6f583c91bfbda15d4f8",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        152.225,
+        349.773,
+        286.826,
+        504.363
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "scratch",
+      "group_id": "SSDA_20211104_133816",
+      "source_record": "7dad27361385",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "8c034c7bdbd06f9add47",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945065_20211104_145254_244.jpg",
+      "image_sha256": "c5d53167f7d11d123d93de02b4f130d8d09a21772925b1a5569dc25d1e5005b6",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        402.929,
+        114.039,
+        443.204,
+        149.137
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_145254",
+      "source_record": "b48ac631772a",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    },
+    {
+      "id": "3f1770f5981294862975",
+      "source": "SSDA",
+      "split": "train",
+      "path": "apple_research_v2/datasets/ssda_date_v2/original/images/train/23945065_20211104_162226_239.jpg",
+      "image_sha256": "147e95d76f04d9b2f62ce5b355d6c5a68e3cad6f8f9005c44d2d21af95aadac4",
+      "image_hw": [
+        1024,
+        1024
+      ],
+      "source_image_xyxy": [
+        691.481,
+        436.826,
+        730.872,
+        478.201
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "surface_defect",
+      "subtype": "insect",
+      "group_id": "SSDA_20211104_162226",
+      "source_record": "da772d1d7511",
+      "trace": "Operator blind 34-site diagnosis, including explicitly sourced final conversational supplement. Severity per visible fruit undocumented."
+    }
+  ]
+}

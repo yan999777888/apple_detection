@@ -1,0 +1,3398 @@
+{
+  "schema": "source_xyxy_v1",
+  "regions": [
+    {
+      "id": "1c4286f1465263904f0e",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/8dedb463e4207988.png",
+      "image_sha256": "5319ada0b7c5e62fc3ef00c83664716a3d291a828537481712c3d80e318d13a4",
+      "image_hw": [
+        428,
+        813
+      ],
+      "source_image_xyxy": [
+        534.0,
+        72.0,
+        604.0,
+        104.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        813,
+        428
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/8dedb463e4207988.png:0:147:39",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143658_431090",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "5a545a3d7904fb35e82a",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/45fb9392c9777525.png",
+      "image_sha256": "51980f8b2ad063675044de665c3436cebb7559df97d8280397ba60221119528e",
+      "image_hw": [
+        422,
+        803
+      ],
+      "source_image_xyxy": [
+        444.0,
+        102.0,
+        520.0,
+        138.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        803,
+        422
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_gradient",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/45fb9392c9777525.png:1:126:54",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143711_573277",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "a622745fdc406c8d922c",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/15a8dd0f0e8d2c22.png",
+      "image_sha256": "1c0dab1e96afa3fa927d981506cfc185a16b952ff26d4d28d8bf213804dee65f",
+      "image_hw": [
+        458,
+        447
+      ],
+      "source_image_xyxy": [
+        228.0,
+        178.0,
+        266.0,
+        217.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        447,
+        458
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/15a8dd0f0e8d2c22.png:2:116:82",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143711_573277",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "d36759559b2693be1e5b",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/505ede8da0416691.png",
+      "image_sha256": "5b463353c4d87b47d94a3c23c2a07986e7995c939fccf7dba4f92050a556f2f1",
+      "image_hw": [
+        439,
+        821
+      ],
+      "source_image_xyxy": [
+        516.0,
+        83.0,
+        594.0,
+        111.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        821,
+        439
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/505ede8da0416691.png:3:142:42",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143728_619101",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "6acd4e51aa5e006d5f0d",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/0018deab77e6506b.png",
+      "image_sha256": "bff634e4eaf9ff08d6c96e6f273da4d5fddb67f6e2d80bd91095000c8d2b2626",
+      "image_hw": [
+        487,
+        474
+      ],
+      "source_image_xyxy": [
+        194.0,
+        254.0,
+        253.0,
+        305.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        474,
+        487
+      ],
+      "target": "confirmed_normal",
+      "subtype": "lenticels",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/0018deab77e6506b.png:4:99:109",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143728_619101",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "f0a29efc3cfda236aae6",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/e0a1805d982558c0.png",
+      "image_sha256": "9d0c7112ae7c8b2d442663c6de46222e7fd0720f74e3ba39f3c257fc7468c090",
+      "image_hw": [
+        466,
+        434
+      ],
+      "source_image_xyxy": [
+        194.0,
+        243.0,
+        252.0,
+        282.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        434,
+        466
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_stripe",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/e0a1805d982558c0.png:5:108:107",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143738_850148",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "2a2f02361d3715edfb1f",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/d0950975ace4573b.png",
+      "image_sha256": "b8fb16bcae0871a7c18ed5ed1f9c0f5d1e8f3605631d235ee050a7b00dff3806",
+      "image_hw": [
+        408,
+        799
+      ],
+      "source_image_xyxy": [
+        476.0,
+        82.0,
+        544.0,
+        107.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        799,
+        408
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/d0950975ace4573b.png:6:134:44",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143819_872114",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "c6fe519dbca51fca890a",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/df7da859efe621a8.png",
+      "image_sha256": "1c49c51efbe548b54030d089aeb39f42044c8945e0c21d70ac56bf2dfe5f299e",
+      "image_hw": [
+        477,
+        470
+      ],
+      "source_image_xyxy": [
+        237.0,
+        261.0,
+        273.0,
+        311.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        470,
+        477
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/df7da859efe621a8.png:7:114:114",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143850_431015",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "3a9a186c9ba8d5a928f3",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/ee9072d55abd9a75.png",
+      "image_sha256": "2591e284970267a058e1cfa46682b3d08d5a536ba17567e665e01a1d70b38db6",
+      "image_hw": [
+        423,
+        653
+      ],
+      "source_image_xyxy": [
+        386.0,
+        118.0,
+        442.0,
+        154.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        653,
+        423
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_gradient",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/ee9072d55abd9a75.png:8:133:61",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143933_877836",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "08dc4f9247ed20014c39",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/7b7d7c8d69a4ff0e.png",
+      "image_sha256": "56932782aaa2955ca0264cc3d8e8f24a2c0023524e7270ce5c170d3154c57c5f",
+      "image_hw": [
+        462,
+        452
+      ],
+      "source_image_xyxy": [
+        189.0,
+        160.0,
+        224.0,
+        199.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        452,
+        462
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/7b7d7c8d69a4ff0e.png:9:96:74",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143933_877836",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "406341f32b03afb58cb8",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/39098235ef89281d.png",
+      "image_sha256": "fd67e4453afa0f0853bc787e650b1ffdd96709c523c72af0e74ca0aabb885bd4",
+      "image_hw": [
+        452,
+        495
+      ],
+      "source_image_xyxy": [
+        245.0,
+        221.0,
+        306.0,
+        264.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        495,
+        452
+      ],
+      "target": "confirmed_normal",
+      "subtype": "lenticels",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/39098235ef89281d.png:10:117:102",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_143956_518779",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "d6193f39547d5951c317",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/710b7e7a62b69cfd.png",
+      "image_sha256": "d92b999cc788a122960c8c54c14e4405ab7dac29629309f1435e5111f0dbe8d3",
+      "image_hw": [
+        412,
+        853
+      ],
+      "source_image_xyxy": [
+        577.0,
+        78.0,
+        642.0,
+        108.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        853,
+        412
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/710b7e7a62b69cfd.png:11:150:43",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144023_642302",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "a48e2f082233df7521d4",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/b4e380d1eb1edd0c.png",
+      "image_sha256": "93bc4bb1cf4e5493a59e8a881e98277fa96e9d75f84a08707fabfd4e233a7823",
+      "image_hw": [
+        439,
+        488
+      ],
+      "source_image_xyxy": [
+        253.0,
+        252.0,
+        314.0,
+        293.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        488,
+        439
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_stripe",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/b4e380d1eb1edd0c.png:12:122:118",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144023_642302",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "558a4ae27934ea6d1182",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/2c5d79b5384642e9.png",
+      "image_sha256": "05f929fd9a7b0a8122fba2ba48fe8ec385cb0ec1e1211845d6a520bd0dc8819e",
+      "image_hw": [
+        471,
+        473
+      ],
+      "source_image_xyxy": [
+        266.0,
+        238.0,
+        306.0,
+        283.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        473,
+        471
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/2c5d79b5384642e9.png:13:127:105",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144023_642302",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "e2726e631a7dc128c609",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/ee144bcd7604b930.png",
+      "image_sha256": "918b810e81275b26d21e226ac8972050aa0d6ff2f98a5cf28e13e822428e182e",
+      "image_hw": [
+        438,
+        764
+      ],
+      "source_image_xyxy": [
+        182.0,
+        134.0,
+        240.0,
+        189.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        764,
+        438
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/ee144bcd7604b930.png:14:58:70",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144029_928615",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "38c1bd1394a65742ad62",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/ad9917a98fc99b64.png",
+      "image_sha256": "16a6780bf06206bd331c69678e973658b0a82656dff5de6949be7a4eca1ca9a2",
+      "image_hw": [
+        453,
+        463
+      ],
+      "source_image_xyxy": [
+        238.0,
+        231.0,
+        278.0,
+        269.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        463,
+        453
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_stripe",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/ad9917a98fc99b64.png:15:117:105",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144029_928615",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "ee6b741b9344ef3a1aed",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/21b2d5bb1d193182.png",
+      "image_sha256": "11162e3259c26126743ebb27d4be141193c173ccdc907f80db0ee5cd7ec77ba9",
+      "image_hw": [
+        470,
+        485
+      ],
+      "source_image_xyxy": [
+        236.0,
+        233.0,
+        277.0,
+        277.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        485,
+        470
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/21b2d5bb1d193182.png:16:111:103",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144527_839021",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "0d006ef2fe81aac0d5ac",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/a6ff039f3ca70f75.png",
+      "image_sha256": "ba3d4a72214fb1f0b0e228ee3481ab0a2255185e7656f4662433c3aba15c0b15",
+      "image_hw": [
+        478,
+        476
+      ],
+      "source_image_xyxy": [
+        195.0,
+        224.0,
+        236.0,
+        269.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        476,
+        478
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/a6ff039f3ca70f75.png:17:95:98",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144532_060223",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "78a80bca01178ebcd712",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/49b3ed527a0e6688.png",
+      "image_sha256": "8bee49733c18dd3d69ed445691619834151a4a1da39e64e217fa166e8d4a33e6",
+      "image_hw": [
+        462,
+        484
+      ],
+      "source_image_xyxy": [
+        203.0,
+        195.0,
+        249.0,
+        229.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        484,
+        462
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/49b3ed527a0e6688.png:18:98:87",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144538_137482",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "9b26bdc916b93a48310a",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/ebed7b360a087532.png",
+      "image_sha256": "069ccae1338200cc1ba7820b2c1c5851a8f7dde00108582833e5c6022e8d79b6",
+      "image_hw": [
+        424,
+        410
+      ],
+      "source_image_xyxy": [
+        258.0,
+        174.0,
+        293.0,
+        223.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        410,
+        424
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/ebed7b360a087532.png:19:141:89",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144606_036397",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "aa733263e879df2e8807",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/b0601b42c7980cd5.png",
+      "image_sha256": "bb4a3de7c3e02d6d0d7fec4ebde9bebefd2674c668571ffd6bdba5632dafea9d",
+      "image_hw": [
+        386,
+        391
+      ],
+      "source_image_xyxy": [
+        140.0,
+        118.0,
+        196.0,
+        154.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        391,
+        386
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_gradient",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/b0601b42c7980cd5.png:20:90:67",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144621_979939",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "049455e70865ade39c40",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/ecc7e7893c8a8cdd.png",
+      "image_sha256": "1a2eb45b1401ad4ce0a0236d488070df513541b1e110463bcf25e33c1773bd45",
+      "image_hw": [
+        458,
+        486
+      ],
+      "source_image_xyxy": [
+        190.0,
+        186.0,
+        231.0,
+        229.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        486,
+        458
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/ecc7e7893c8a8cdd.png:21:91:86",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144621_979939",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "7b788538d7b381dc2b66",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5c0ff3277df4673b.png",
+      "image_sha256": "6482afde308f16081630b3557087ddd5be9e6820bf1bd6a87f8d266be09c2d9c",
+      "image_hw": [
+        420,
+        825
+      ],
+      "source_image_xyxy": [
+        444.0,
+        148.0,
+        515.0,
+        183.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        825,
+        420
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_gradient",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/5c0ff3277df4673b.png:22:122:75",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144633_649268",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "41f10011f34be9940098",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/ca82172af5ebe7f0.png",
+      "image_sha256": "fb7342a3caab00a35252f6247978f2e063029c6e2352adc247c8c092da1d9f28",
+      "image_hw": [
+        486,
+        482
+      ],
+      "source_image_xyxy": [
+        202.0,
+        200.0,
+        243.0,
+        246.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        482,
+        486
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/ca82172af5ebe7f0.png:23:97:87",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144739_544019",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "e752b4dc40e97ba0aaa1",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/bd2fd885bd42ac64.png",
+      "image_sha256": "aafcd533de7a77d26301818899f7f2c190cb67b2728689f3558ad05a45017535",
+      "image_hw": [
+        484,
+        523
+      ],
+      "source_image_xyxy": [
+        286.0,
+        191.0,
+        336.0,
+        227.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        523,
+        484
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/bd2fd885bd42ac64.png:24:125:82",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144809_648985",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "5c9dc441aa9f6b4347e4",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5fb2d9bb752a10d7.png",
+      "image_sha256": "16476004a9dee5b5f020e0894f00430c6f7ebbf252209763fc99e04498b88cb5",
+      "image_hw": [
+        441,
+        670
+      ],
+      "source_image_xyxy": [
+        239.0,
+        153.0,
+        297.0,
+        200.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        670,
+        441
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/5fb2d9bb752a10d7.png:25:84:76",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144819_168558",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "42a75e37b765716cb643",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/cbc4430ed0fb7159.png",
+      "image_sha256": "93608a6aec0fba53fa20dbabe75c0afd1209af97f40370dfe1fa17fd2daae773",
+      "image_hw": [
+        381,
+        482
+      ],
+      "source_image_xyxy": [
+        246.0,
+        170.0,
+        273.0,
+        215.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        482,
+        381
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/cbc4430ed0fb7159.png:26:113:96",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144819_168558",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "4dca71ddeeabe7dcbcc7",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/6522b279fd083553.png",
+      "image_sha256": "e8f8711310887f1274fd33838f473c1bc77212226db96ce5514774d78619c30c",
+      "image_hw": [
+        462,
+        456
+      ],
+      "source_image_xyxy": [
+        215.0,
+        253.0,
+        254.0,
+        302.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        456,
+        462
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/6522b279fd083553.png:28:108:114",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145116_618670",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "a387d0580c4b2cc518ce",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/3a56cbbcbb30a625.png",
+      "image_sha256": "824a1da3f52c4e6acd97aa1cba6fe798481e195e1ffc45ea7008f5f9fa8ad70b",
+      "image_hw": [
+        438,
+        468
+      ],
+      "source_image_xyxy": [
+        201.0,
+        210.0,
+        241.0,
+        242.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        468,
+        438
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/3a56cbbcbb30a625.png:29:99:98",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145128_748495",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "b90d9e7e9eedf5f7fa3c",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/6dcf5a9347b7dd3d.png",
+      "image_sha256": "f357deff9b3647ff9504e1b0e2e718065f44077e816739e3397a20e60ffb40f0",
+      "image_hw": [
+        470,
+        829
+      ],
+      "source_image_xyxy": [
+        529.0,
+        237.0,
+        616.0,
+        287.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        829,
+        470
+      ],
+      "target": "confirmed_normal",
+      "subtype": "lenticels",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/6dcf5a9347b7dd3d.png:30:145:106",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145132_077424",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "042b4b675264208e8997",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/905a300db80590b1.png",
+      "image_sha256": "718148520a6fbad7c979fafde3e96ba000c9762b8706e5afc6ec2d8f92585d76",
+      "image_hw": [
+        449,
+        448
+      ],
+      "source_image_xyxy": [
+        203.0,
+        196.0,
+        241.0,
+        234.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        448,
+        449
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/905a300db80590b1.png:31:104:91",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145132_077424",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "3369ab6b386245c3ad4b",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/d6d77728e7613ffe.png",
+      "image_sha256": "2f95a414c86f07ea88f6b763083e0e4af6455a9f5b8af5569a96c8200d7da563",
+      "image_hw": [
+        449,
+        690
+      ],
+      "source_image_xyxy": [
+        233.0,
+        213.0,
+        292.0,
+        274.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        690,
+        449
+      ],
+      "target": "confirmed_normal",
+      "subtype": "lenticels",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/d6d77728e7613ffe.png:32:80:103",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145156_700447",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "3984cdac6d429406c82b",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/6845e537b091e637.png",
+      "image_sha256": "72dc7a6fc5b4b1cf37ae8c8217463142f62fb7c912777c8dc99d5155d249d5f0",
+      "image_hw": [
+        377,
+        569
+      ],
+      "source_image_xyxy": [
+        198.0,
+        196.0,
+        247.0,
+        244.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        569,
+        377
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_stripe",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/6845e537b091e637.png:33:82:111",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145156_700447",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "ac910e3269724c13ef04",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/94a2b99cdcc29ead.png",
+      "image_sha256": "5004c8d82fa230352845c51593e7e002480bf0c7bf4f7079445bb134a70f2695",
+      "image_hw": [
+        444,
+        471
+      ],
+      "source_image_xyxy": [
+        197.0,
+        231.0,
+        233.0,
+        264.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        471,
+        444
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/94a2b99cdcc29ead.png:34:96:106",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145156_700447",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "b74f98cc21cc509e9dca",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5c2e47d4d17ae395.png",
+      "image_sha256": "e958b89248662fdc67855434b42e18118070a477a0fdfd6723a570602cc907c0",
+      "image_hw": [
+        441,
+        668
+      ],
+      "source_image_xyxy": [
+        216.0,
+        239.0,
+        274.0,
+        295.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        668,
+        441
+      ],
+      "target": "confirmed_normal",
+      "subtype": "lenticels",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/5c2e47d4d17ae395.png:35:77:115",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145200_096763",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "69ecd36eca4a0265f8b1",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/9298c95ed7ae4bbd.png",
+      "image_sha256": "1ac77becbbd768ba4a2f7c4989c99e5d1ac650a2f3153405cd38ade32392b8b0",
+      "image_hw": [
+        354,
+        475
+      ],
+      "source_image_xyxy": [
+        152.0,
+        157.0,
+        188.0,
+        197.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        475,
+        354
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_stripe",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/9298c95ed7ae4bbd.png:36:75:95",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145200_096763",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "a462c2514f113caaa2cd",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/bf5356b288d271e9.png",
+      "image_sha256": "e2c664a76b462bc0bf4cbbb2a3ccb8f1e7a65428bacff1557614cfa583106564",
+      "image_hw": [
+        386,
+        521
+      ],
+      "source_image_xyxy": [
+        213.0,
+        234.0,
+        258.0,
+        262.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        521,
+        386
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/bf5356b288d271e9.png:37:95:122",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145200_096763",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "a4bdd0bcc5e5f4591109",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/3f15be55be286895.png",
+      "image_sha256": "8b6a309b2c256a83ab6b02c377ea2586da27e3c046c264d536bf454d331144da",
+      "image_hw": [
+        423,
+        465
+      ],
+      "source_image_xyxy": [
+        239.0,
+        203.0,
+        279.0,
+        247.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        465,
+        423
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_stripe",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/3f15be55be286895.png:38:117:101",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145241_592467",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "e8b41844401197a4d9d8",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/307e18b627515d6a.png",
+      "image_sha256": "edc021f42afe38b926b2c9eab22c2e995db7025da1a5988731893743deacd25c",
+      "image_hw": [
+        406,
+        425
+      ],
+      "source_image_xyxy": [
+        247.0,
+        190.0,
+        291.0,
+        246.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        425,
+        406
+      ],
+      "target": "confirmed_normal",
+      "subtype": "lenticels",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/307e18b627515d6a.png:39:133:102",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145241_592467",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "3979ea64745f31f66fe0",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/5df6f321759a942d.png",
+      "image_sha256": "1ecbf6893a84d20f0fbd4e9bc6339dc46a817188bbaa88d237259ae993cd2754",
+      "image_hw": [
+        495,
+        494
+      ],
+      "source_image_xyxy": [
+        271.0,
+        253.0,
+        318.0,
+        294.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        494,
+        495
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/5df6f321759a942d.png:40:125:105",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145241_592467",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "14cd8882d7b3632915c8",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/3ff5e9bddb7fe150.png",
+      "image_sha256": "e059e5a839c140aebd84a41dec361f43709550c67b59fbb17614bdac7b1aac44",
+      "image_hw": [
+        450,
+        483
+      ],
+      "source_image_xyxy": [
+        209.0,
+        227.0,
+        251.0,
+        275.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        483,
+        450
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/3ff5e9bddb7fe150.png:41:100:106",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145244_544879",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "f264c16ac8b8e326081d",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/c2abb68e7137639a.png",
+      "image_sha256": "d7c8d932bd91e1d3a4ad10fe0713fdd5623d37b77cd4be2899e322cc1594461a",
+      "image_hw": [
+        446,
+        698
+      ],
+      "source_image_xyxy": [
+        412.0,
+        85.0,
+        452.0,
+        122.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        698,
+        446
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/c2abb68e7137639a.png:42:130:44",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145248_488912",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "401b841ce0b423fac44b",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/e6d424f1f624bff3.png",
+      "image_sha256": "633bbae017cbe5cd6c5016ba26ba1062f228161882d827fcbc293a1a59656b2e",
+      "image_hw": [
+        390,
+        617
+      ],
+      "source_image_xyxy": [
+        179.0,
+        181.0,
+        232.0,
+        230.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        617,
+        390
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_stripe",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/e6d424f1f624bff3.png:43:70:100",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145248_488912",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "f0e5a35605fcda60f742",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/69df7f171563b0bf.png",
+      "image_sha256": "88d2bcbfb1254f4873909451cbbb688c400f48936dadf56d7f0d7807ff03832f",
+      "image_hw": [
+        472,
+        475
+      ],
+      "source_image_xyxy": [
+        167.0,
+        221.0,
+        217.0,
+        256.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        475,
+        472
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/69df7f171563b0bf.png:44:85:96",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145248_488912",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "f7b0c7270e132d24ca53",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/85d1371dd81979ec.png",
+      "image_sha256": "ccd31a04d31c34435ea1c1404661bea7724d657efc4d8dc575d874543aeb3f0e",
+      "image_hw": [
+        427,
+        724
+      ],
+      "source_image_xyxy": [
+        348.0,
+        238.0,
+        396.0,
+        279.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        724,
+        427
+      ],
+      "target": "confirmed_normal",
+      "subtype": "colour_stripe",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/85d1371dd81979ec.png:45:108:115",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145312_400114",
+      "condition": "Woo_20260814_station_LEFT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "89fddb970c4358383926",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/b5ab8fc794eb3579.png",
+      "image_sha256": "91e54ed87ca13dc466d5db98e9cc1d9f47e516c9a73a0b20a3bb4134ad241585",
+      "image_hw": [
+        396,
+        554
+      ],
+      "source_image_xyxy": [
+        161.0,
+        167.0,
+        219.0,
+        204.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        554,
+        396
+      ],
+      "target": "confirmed_normal",
+      "subtype": "lenticels",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/b5ab8fc794eb3579.png:46:72:89",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145312_400114",
+      "condition": "Woo_20260814_station_RIGHT",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "9cc2c4f767714e7d55c7",
+      "source": "Woo",
+      "split": "train",
+      "path": "datasets/apple_matched_quality_v1/woo_crops/947918a280efbec9.png",
+      "image_sha256": "30491bc1c896e60df1b802b8da6baab867f8bee9ade756c21a4a64a0ad8c8f7d",
+      "image_hw": [
+        486,
+        454
+      ],
+      "source_image_xyxy": [
+        216.0,
+        248.0,
+        259.0,
+        289.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        0,
+        454,
+        486
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:datasets/apple_matched_quality_v1/woo_crops/947918a280efbec9.png:47:110:105",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_145312_400114",
+      "condition": "Woo_20260814_station_TOP",
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "02f860a59be07167fa4f",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/8d48b7f812010b50bb57d1a8c94cd1ca8c5f8c202588276bafbaba88e4ac427d.jpg",
+      "image_sha256": "8d48b7f812010b50bb57d1a8c94cd1ca8c5f8c202588276bafbaba88e4ac427d",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        367.0,
+        245.0,
+        430.0,
+        275.0
+      ],
+      "parent_fruit_xyxy": [
+        17,
+        169,
+        759,
+        581
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/8d48b7f812010b50bb57d1a8c94cd1ca8c5f8c202588276bafbaba88e4ac427d.jpg:0:108:42",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144621_979939",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "f82de432ffa44ddc4a0c",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/8d48b7f812010b50bb57d1a8c94cd1ca8c5f8c202588276bafbaba88e4ac427d.jpg",
+      "image_sha256": "8d48b7f812010b50bb57d1a8c94cd1ca8c5f8c202588276bafbaba88e4ac427d",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        395.0,
+        444.0,
+        459.0,
+        475.0
+      ],
+      "parent_fruit_xyxy": [
+        17,
+        169,
+        759,
+        581
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/8d48b7f812010b50bb57d1a8c94cd1ca8c5f8c202588276bafbaba88e4ac427d.jpg:0:116:134",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144621_979939",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "7fa70b905e9a88431acc",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7cb706d9edac940f493fd1612a756d35ec1d400d8a468fd17a88bab283b84176.jpg",
+      "image_sha256": "7cb706d9edac940f493fd1612a756d35ec1d400d8a468fd17a88bab283b84176",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        670.0,
+        469.0,
+        736.0,
+        518.0
+      ],
+      "parent_fruit_xyxy": [
+        399,
+        215,
+        865,
+        679
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7cb706d9edac940f493fd1612a756d35ec1d400d8a468fd17a88bab283b84176.jpg:1:137:114",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144245_256288",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "55170d9660eb38ed3ea3",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/908bd2194ab8cf488b4bb0943d4717cb6e3c42cba23efd547027498c55a27593.jpg",
+      "image_sha256": "908bd2194ab8cf488b4bb0943d4717cb6e3c42cba23efd547027498c55a27593",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        495.0,
+        453.0,
+        568.0,
+        484.0
+      ],
+      "parent_fruit_xyxy": [
+        4,
+        166,
+        768,
+        592
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/908bd2194ab8cf488b4bb0943d4717cb6e3c42cba23efd547027498c55a27593.jpg:2:145:135",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144851_759248",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "b486691d822382c5e3f3",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8.jpg",
+      "image_sha256": "ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        744.0,
+        413.0,
+        792.0,
+        459.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8.jpg:3:126:115",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144258_023021",
+      "condition": "RIGHT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "32be223fef716089a111",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/46835c681ae38c837c3e4ed977dce7ef2f82ed190bc40953ef705e5d7d160183.jpg",
+      "image_sha256": "46835c681ae38c837c3e4ed977dce7ef2f82ed190bc40953ef705e5d7d160183",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        579.0,
+        379.0,
+        652.0,
+        432.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/46835c681ae38c837c3e4ed977dce7ef2f82ed190bc40953ef705e5d7d160183.jpg:4:101:107",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144903_476667",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "ee96a3a1c67892f11ca2",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/53a057244481c77f12023e3f2faebb6a0a5f679342d5d4e9c555201cd1190e71.jpg",
+      "image_sha256": "53a057244481c77f12023e3f2faebb6a0a5f679342d5d4e9c555201cd1190e71",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        786.0,
+        265.0,
+        847.0,
+        326.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/53a057244481c77f12023e3f2faebb6a0a5f679342d5d4e9c555201cd1190e71.jpg:5:134:78",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144809_648985",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "e8695fb4205145ac8893",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/98da8cf34ec8932963d72bd8de13f41b5fb443349e86884160250da4eb7d28d7.jpg",
+      "image_sha256": "98da8cf34ec8932963d72bd8de13f41b5fb443349e86884160250da4eb7d28d7",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        659.0,
+        415.0,
+        713.0,
+        457.0
+      ],
+      "parent_fruit_xyxy": [
+        403,
+        157,
+        874,
+        653
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/98da8cf34ec8932963d72bd8de13f41b5fb443349e86884160250da4eb7d28d7.jpg:6:126:107",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144155_471847",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "f620a9f32a61351ec949",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/f8ac7178b135c8989eeff89ba716013553ad071161a65099db918fa3a9bcbb0e.jpg",
+      "image_sha256": "f8ac7178b135c8989eeff89ba716013553ad071161a65099db918fa3a9bcbb0e",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        826.0,
+        424.0,
+        864.0,
+        460.0
+      ],
+      "parent_fruit_xyxy": [
+        586,
+        168,
+        986,
+        595
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/f8ac7178b135c8989eeff89ba716013553ad071161a65099db918fa3a9bcbb0e.jpg:8:136:122",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144633_649268",
+      "condition": "RIGHT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "ffac53481db7f755b289",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/735b6c7e2eff39b458e1911eafaa0d485973e1292444475180f92c348fea6113.jpg",
+      "image_sha256": "735b6c7e2eff39b458e1911eafaa0d485973e1292444475180f92c348fea6113",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        442.0,
+        345.0,
+        489.0,
+        375.0
+      ],
+      "parent_fruit_xyxy": [
+        17,
+        136,
+        633,
+        609
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/735b6c7e2eff39b458e1911eafaa0d485973e1292444475180f92c348fea6113.jpg:9:153:90",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144629_218325",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "70f9e14fe4b96a649d29",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/655667933d3f6c781f47fe7b47ccd6d55c8a0f3e12b259295d3c5af7a0936b1e.jpg",
+      "image_sha256": "655667933d3f6c781f47fe7b47ccd6d55c8a0f3e12b259295d3c5af7a0936b1e",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        982.0,
+        300.0,
+        1028.0,
+        334.0
+      ],
+      "parent_fruit_xyxy": [
+        786,
+        75,
+        1269,
+        540
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/655667933d3f6c781f47fe7b47ccd6d55c8a0f3e12b259295d3c5af7a0936b1e.jpg:10:95:99",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144606_036397",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "68f8e64a7db4ad5426d1",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac.jpg",
+      "image_sha256": "0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        600.0,
+        427.0,
+        640.0,
+        468.0
+      ],
+      "parent_fruit_xyxy": [
+        406,
+        178,
+        834,
+        612
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac.jpg:11:105:118",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144118_333418",
+      "condition": "RIGHT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "69e7ad60a870d36f548b",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ffd6621903de5f35da285ddcae532d80b39a609b4aab8365709406df0a1636af.jpg",
+      "image_sha256": "ffd6621903de5f35da285ddcae532d80b39a609b4aab8365709406df0a1636af",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        702.0,
+        392.0,
+        740.0,
+        426.0
+      ],
+      "parent_fruit_xyxy": [
+        443,
+        158,
+        885,
+        612
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ffd6621903de5f35da285ddcae532d80b39a609b4aab8365709406df0a1636af.jpg:12:132:105",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144557_648865",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "9bc42ec0086250aca3a5",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/76608a41a691d123e2d93a3d3042773ffa2b7a1e3d922aa5e81f1f3fcb83452e.jpg",
+      "image_sha256": "76608a41a691d123e2d93a3d3042773ffa2b7a1e3d922aa5e81f1f3fcb83452e",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        876.0,
+        283.0,
+        918.0,
+        303.0
+      ],
+      "parent_fruit_xyxy": [
+        619,
+        203,
+        1055,
+        582
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/76608a41a691d123e2d93a3d3042773ffa2b7a1e3d922aa5e81f1f3fcb83452e.jpg:13:134:45",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144606_036397",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "8cf372766cba28482aec",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72.jpg",
+      "image_sha256": "3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        734.0,
+        333.0,
+        776.0,
+        369.0
+      ],
+      "parent_fruit_xyxy": [
+        529,
+        119,
+        1018,
+        608
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72.jpg:14:97:90",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144118_333418",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "0a67df66c785612d5003",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/2a2b61a4afcc4cf88e9b5a053a6f165f26c5f9d12c8b0d10a80c6776be7eee07.jpg",
+      "image_sha256": "2a2b61a4afcc4cf88e9b5a053a6f165f26c5f9d12c8b0d10a80c6776be7eee07",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        461.0,
+        341.0,
+        494.0,
+        380.0
+      ],
+      "parent_fruit_xyxy": [
+        14,
+        173,
+        714,
+        588
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/2a2b61a4afcc4cf88e9b5a053a6f165f26c5f9d12c8b0d10a80c6776be7eee07.jpg:15:139:86",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144836_952522",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "641f8b66619a8ddc8241",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e9a59270e6fcfe36d5bf7ff8e80453b34edf90501a99a261381d62bbb4664131.jpg",
+      "image_sha256": "e9a59270e6fcfe36d5bf7ff8e80453b34edf90501a99a261381d62bbb4664131",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        723.0,
+        308.0,
+        765.0,
+        344.0
+      ],
+      "parent_fruit_xyxy": [
+        484,
+        102,
+        976,
+        585
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e9a59270e6fcfe36d5bf7ff8e80453b34edf90501a99a261381d62bbb4664131.jpg:16:111:88",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144122_758067",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "704fe1c26d93e4fa2abc",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca365320ecb19b9b3bd242dafbac7d209035cdb328704f82462f5e3e812a1bc7.jpg",
+      "image_sha256": "ca365320ecb19b9b3bd242dafbac7d209035cdb328704f82462f5e3e812a1bc7",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        677.0,
+        299.0,
+        725.0,
+        337.0
+      ],
+      "parent_fruit_xyxy": null,
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca365320ecb19b9b3bd242dafbac7d209035cdb328704f82462f5e3e812a1bc7.jpg:19:115:84",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144859_444488",
+      "condition": "RIGHT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "ab574b649beb62b605ca",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332.jpg",
+      "image_sha256": "23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        436.0,
+        362.0,
+        474.0,
+        398.0
+      ],
+      "parent_fruit_xyxy": [
+        225,
+        208,
+        664,
+        587
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332.jpg:20:110:86",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144806_169563",
+      "condition": "RIGHT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "34aad09aa066c08f94b6",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332.jpg",
+      "image_sha256": "23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        367.0,
+        419.0,
+        417.0,
+        455.0
+      ],
+      "parent_fruit_xyxy": [
+        225,
+        208,
+        664,
+        587
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332.jpg:20:80:115",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144806_169563",
+      "condition": "RIGHT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "1daf86f644c36944de37",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e3f954349922af973c0943e4e6c72adf45a2d2508bef594bfb03f8192ae32082.jpg",
+      "image_sha256": "e3f954349922af973c0943e4e6c72adf45a2d2508bef594bfb03f8192ae32082",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        551.0,
+        312.0,
+        607.0,
+        345.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        160,
+        839,
+        599
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e3f954349922af973c0943e4e6c72adf45a2d2508bef594bfb03f8192ae32082.jpg:22:145:73",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144557_648865",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "ed3398f2fc83768fd7b0",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7e7d6d9b55bc5807f094f0708121af19e93be245a6f91dea44e48cc058dba6c7.jpg",
+      "image_sha256": "7e7d6d9b55bc5807f094f0708121af19e93be245a6f91dea44e48cc058dba6c7",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        687.0,
+        414.0,
+        724.0,
+        449.0
+      ],
+      "parent_fruit_xyxy": [
+        479,
+        197,
+        965,
+        681
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7e7d6d9b55bc5807f094f0708121af19e93be245a6f91dea44e48cc058dba6c7.jpg:23:98:92",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144048_936461",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "139204499d1554edd1d2",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/bbe0ca9c53d6e17e28819af2d11893e7d6d1573b10f9cafc797496e2670a1875.jpg",
+      "image_sha256": "bbe0ca9c53d6e17e28819af2d11893e7d6d1573b10f9cafc797496e2670a1875",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        361.0,
+        463.0,
+        407.0,
+        507.0
+      ],
+      "parent_fruit_xyxy": [
+        118,
+        211,
+        608,
+        676
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/bbe0ca9c53d6e17e28819af2d11893e7d6d1573b10f9cafc797496e2670a1875.jpg:24:114:112",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144819_168558",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "3aa99d4a34c2c976c7c6",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg",
+      "image_sha256": "31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        640.0,
+        471.0,
+        670.0,
+        493.0
+      ],
+      "parent_fruit_xyxy": [
+        527,
+        183,
+        916,
+        598
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg:25:69:137",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144155_471847",
+      "condition": "RIGHT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "c5a24f047345559c0288",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/591be49372c12f2067161ff0bef440685a9f8f9144b03c423904e23b5e3ec441.jpg",
+      "image_sha256": "591be49372c12f2067161ff0bef440685a9f8f9144b03c423904e23b5e3ec441",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        1016.0,
+        490.0,
+        1059.0,
+        525.0
+      ],
+      "parent_fruit_xyxy": [
+        726,
+        206,
+        1225,
+        680
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/591be49372c12f2067161ff0bef440685a9f8f9144b03c423904e23b5e3ec441.jpg:26:131:121",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144806_169563",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "eb11c8ab215bb2af3af0",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7.jpg",
+      "image_sha256": "df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        510.0,
+        459.0,
+        557.0,
+        493.0
+      ],
+      "parent_fruit_xyxy": [
+        0,
+        156,
+        812,
+        616
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7.jpg:27:138:132",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144255_135918",
+      "condition": "LEFT",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "54917e161e840eab93b2",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5c4984c9187649acb7e1d857e2131a295b76ad367e053bf521710af5f380bd8d.jpg",
+      "image_sha256": "5c4984c9187649acb7e1d857e2131a295b76ad367e053bf521710af5f380bd8d",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        543.0,
+        427.0,
+        576.0,
+        460.0
+      ],
+      "parent_fruit_xyxy": [
+        362,
+        143,
+        799,
+        592
+      ],
+      "target": "confirmed_normal",
+      "subtype": "healthy_skin",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5c4984c9187649acb7e1d857e2131a295b76ad367e053bf521710af5f380bd8d.jpg:28:95:127",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144633_649268",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "d1b183d6a7f516c074cb",
+      "source": "Woo",
+      "split": "train",
+      "path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da.jpg",
+      "image_sha256": "5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da",
+      "image_hw": [
+        720,
+        1280
+      ],
+      "source_image_xyxy": [
+        643.0,
+        449.0,
+        685.0,
+        485.0
+      ],
+      "parent_fruit_xyxy": [
+        407,
+        192,
+        889,
+        681
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "Woo_20260814_session",
+      "source_record": "review_20261119:Woo:train:experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da.jpg:29:112:107",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": "FRUIT_20260814_144255_135918",
+      "condition": "TOP",
+      "same_frame_has_author_scratch": true
+    },
+    {
+      "id": "c717118f842d24e5419e",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213327.jpg",
+      "image_sha256": "8227da374fc394cf7bf35a60fc9d7a39a7e569df277769417b292f9de1483740",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2241.0,
+        1708.0,
+        2646.0,
+        1938.0
+      ],
+      "parent_fruit_xyxy": [
+        634,
+        9,
+        3291,
+        2744
+      ],
+      "target": "surface_defect",
+      "subtype": "elongated_gouge",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213327.jpg:24:143:126",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "d50e69ca8f005bd17523",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "image_sha256": "6c16843064110ae6b21231dfda5dd9117c03889e18b39a3609a3b57693baa4a9",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2022.0,
+        540.0,
+        2604.0,
+        715.0
+      ],
+      "parent_fruit_xyxy": [
+        516,
+        0,
+        3291,
+        2772
+      ],
+      "target": "surface_defect",
+      "subtype": "elongated_gouge",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg:25:136:43",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "ecb3321186d98f8b91bd",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "image_sha256": "6c16843064110ae6b21231dfda5dd9117c03889e18b39a3609a3b57693baa4a9",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2274.0,
+        1503.0,
+        2485.0,
+        1736.0
+      ],
+      "parent_fruit_xyxy": [
+        516,
+        0,
+        3291,
+        2772
+      ],
+      "target": "surface_defect",
+      "subtype": "brown_gouge",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg:25:141:111",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "5a27e1b388d4b21ba64c",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "image_sha256": "6c16843064110ae6b21231dfda5dd9117c03889e18b39a3609a3b57693baa4a9",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2617.0,
+        1123.0,
+        2776.0,
+        1444.0
+      ],
+      "parent_fruit_xyxy": [
+        516,
+        0,
+        3291,
+        2772
+      ],
+      "target": "surface_defect",
+      "subtype": "brown_gouge",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg:25:165:88",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "b7f6a87171d50f496e6a",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213442.jpg",
+      "image_sha256": "067ce78dc55f3d2e1f56d851c3b4692a5f8b998d15fa1b83b92fa3eca1278000",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1966.0,
+        2016.0,
+        2389.0,
+        2181.0
+      ],
+      "parent_fruit_xyxy": [
+        822,
+        350,
+        3434,
+        2966
+      ],
+      "target": "surface_defect",
+      "subtype": "abraded_patch",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213442.jpg:30:109:127",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "1087a72ce3b58af41ed6",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213446.jpg",
+      "image_sha256": "2d05d70a827416471a06b63a5ab24c00f72e58a6e2b9cebd034e17a25b7763c5",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2222.0,
+        1933.0,
+        2548.0,
+        2121.0
+      ],
+      "parent_fruit_xyxy": [
+        931,
+        0,
+        3784,
+        2550
+      ],
+      "target": "surface_defect",
+      "subtype": "brown_abraded_patch",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213446.jpg:31:107:151",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "b19d1ccbe8cce7447ffa",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213455.jpg",
+      "image_sha256": "ad031a20b64454d62a62eabfe16e9250b56bbe69f16838549836acaf84b5e3fa",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1568.0,
+        1598.0,
+        1797.0,
+        1783.0
+      ],
+      "parent_fruit_xyxy": [
+        678,
+        200,
+        3075,
+        2706
+      ],
+      "target": "surface_defect",
+      "subtype": "brown_abraded_patch",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213455.jpg:32:88:113",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "d8908371b167e6df0a8b",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172415.jpg",
+      "image_sha256": "3d8522b532808676afab5a21758d7b662ec187dfdad52e2c63ebc34f5f288538",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1307.0,
+        1742.0,
+        1554.0,
+        1929.0
+      ],
+      "parent_fruit_xyxy": [
+        359,
+        50,
+        3244,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172415.jpg:0:78:115",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "a8c2530564c045c32f3c",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172429.jpg",
+      "image_sha256": "f2a4aa7eb44d3d55da034eab8f9192a167ee501a433037e910c19748a157f1d4",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2078.0,
+        1279.0,
+        2318.0,
+        1520.0
+      ],
+      "parent_fruit_xyxy": [
+        847,
+        0,
+        3656,
+        2859
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172429.jpg:1:101:93",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "dc4638bde9bbabba0eb7",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172439.jpg",
+      "image_sha256": "1d791349b86caa51efe1adf9c62cc70459498a4c909390a570589641eefee38d",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1757.0,
+        1365.0,
+        2021.0,
+        1619.0
+      ],
+      "parent_fruit_xyxy": [
+        506,
+        253,
+        3272,
+        2928
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172439.jpg:2:105:88",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "81da71f5e5ac909c51e5",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172444.jpg",
+      "image_sha256": "6054012b993e207c9eb97b82a18c454131b30674eeea6f890c6080af2e73635d",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2392.0,
+        663.0,
+        2708.0,
+        947.0
+      ],
+      "parent_fruit_xyxy": [
+        381,
+        0,
+        3706,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172444.jpg:3:137:51",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "8948496d0f43fae34e8d",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172456.jpg",
+      "image_sha256": "52d3a10d1026f1a09158006e0efc3b9b1e75f18fd346a97fb53708346174ca00",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1743.0,
+        1374.0,
+        2160.0,
+        1721.0
+      ],
+      "parent_fruit_xyxy": [
+        206,
+        0,
+        3569,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "lenticels",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172456.jpg:4:109:98",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "6d8e05f677895b760241",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172505.jpg",
+      "image_sha256": "aa18b2aae5e7012bb2089b34b17e7213eda7132d08616205a33ef0c7f83913c2",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2668.0,
+        1663.0,
+        2847.0,
+        1947.0
+      ],
+      "parent_fruit_xyxy": [
+        844,
+        47,
+        3541,
+        2741
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172505.jpg:5:149:124",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "a06376cc89d2b9ce8460",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172509.jpg",
+      "image_sha256": "64bb5159d8d83bfceed0b6445553dcad3abb0218d1e7059276edaf4b3029b622",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2350.0,
+        1136.0,
+        2606.0,
+        1444.0
+      ],
+      "parent_fruit_xyxy": [
+        859,
+        12,
+        3841,
+        2938
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem_cavity",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172509.jpg:6:114:83",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "74d669da851e72c15f92",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172513.jpg",
+      "image_sha256": "6fc476cfba0359314f74e7390bcf794b5c87815b2665b973216c4e3bacc9c533",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1527.0,
+        1358.0,
+        1819.0,
+        1636.0
+      ],
+      "parent_fruit_xyxy": [
+        606,
+        56,
+        3675,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172513.jpg:7:73:93",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "452156a31466c4830fde",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172516.jpg",
+      "image_sha256": "badc5ca5e49c72f4a291825da521144681b187297a93aa82aa3184c1c1b79d47",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2549.0,
+        1263.0,
+        2847.0,
+        1579.0
+      ],
+      "parent_fruit_xyxy": [
+        819,
+        0,
+        3950,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172516.jpg:8:126:90",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "c6614c48e1fd85d30c3c",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172524.jpg",
+      "image_sha256": "195f46347f1da43dc04aff89ff3402cced58d8905599999700a4ee3ead06ddd4",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1862.0,
+        1285.0,
+        2069.0,
+        1478.0
+      ],
+      "parent_fruit_xyxy": [
+        1334,
+        609,
+        3509,
+        2903
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172524.jpg:9:61:64",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "51c913cddd72bbbd2e89",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172528.jpg",
+      "image_sha256": "34f0cc5e41362913215a41166c045158a1adbaaf0c7376664197789c0500df01",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2614.0,
+        1235.0,
+        2855.0,
+        1497.0
+      ],
+      "parent_fruit_xyxy": [
+        634,
+        228,
+        3444,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0000",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172528.jpg:10:157:78",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "6eafc3d924eec40dec47",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213339.jpg",
+      "image_sha256": "a3019e38684b31b6df168304862a3a5479d3b4a320fad4ee749b1f5dac734c0c",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2792.0,
+        1204.0,
+        3012.0,
+        1444.0
+      ],
+      "parent_fruit_xyxy": [
+        1028,
+        0,
+        3600,
+        2541
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213339.jpg:11:153:99",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "2f7766524e4ae2ebbd29",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213345.jpg",
+      "image_sha256": "a7b44307e4f61af346b8d13ca748ab03ab3a9579ceffc6612d3c506eda9e3299",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2028.0,
+        1624.0,
+        2151.0,
+        1927.0
+      ],
+      "parent_fruit_xyxy": [
+        831,
+        25,
+        3397,
+        2644
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213345.jpg:12:103:127",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "c58bf968071d69cde0e7",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213349.jpg",
+      "image_sha256": "d1fc082a52ffda512b6e8a3010492ffdae45570d9c954ef2c03a5fa867a65f07",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1202.0,
+        1642.0,
+        1444.0,
+        1807.0
+      ],
+      "parent_fruit_xyxy": [
+        803,
+        16,
+        3341,
+        2634
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213349.jpg:13:43:124",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "30be965af7d584789fe1",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213421.jpg",
+      "image_sha256": "5b7a0d2f08bc0feca6a338b1821556d3710656a13432a3129fbb6280f6966b25",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2427.0,
+        1148.0,
+        2554.0,
+        1382.0
+      ],
+      "parent_fruit_xyxy": [
+        728,
+        184,
+        3391,
+        2959
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213421.jpg:15:139:74",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "1791e42d7484740bec68",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213500.jpg",
+      "image_sha256": "3702969abf6fb59cbebf29a17802bcb114bbd0bbe7cf5bb7ec7a4630c08c03bb",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1690.0,
+        1087.0,
+        1934.0,
+        1326.0
+      ],
+      "parent_fruit_xyxy": [
+        578,
+        0,
+        3144,
+        2519
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213500.jpg:16:101:91",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "b6271c996c8318fc4027",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213505.jpg",
+      "image_sha256": "ad135c7e59fe10039df88b6dbb249aabd7d53b71e2b282eaef0d6c81578901f9",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2903.0,
+        1478.0,
+        3172.0,
+        1750.0
+      ],
+      "parent_fruit_xyxy": [
+        928,
+        72,
+        3750,
+        2944
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213505.jpg:17:157:102",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "b3736e9fb162dbfe192a",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213514.jpg",
+      "image_sha256": "b38fbb8fc96b54ee6c8a81efc98f10427ed2d686e74c5597a622b4fc188e3bb2",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2645.0,
+        1258.0,
+        2922.0,
+        1527.0
+      ],
+      "parent_fruit_xyxy": [
+        712,
+        3,
+        3612,
+        2841
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213514.jpg:18:150:93",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "f164e3166b439ef95dce",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213533.jpg",
+      "image_sha256": "a48670f0d5a3ec6d0236f7910c1f36bb53d01654d6305091b324d2793f1713ee",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2311.0,
+        1340.0,
+        2552.0,
+        1615.0
+      ],
+      "parent_fruit_xyxy": [
+        650,
+        394,
+        3178,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213533.jpg:19:148:79",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "32e3e2be3886cc6f3dd2",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213537.jpg",
+      "image_sha256": "5bfc090f34ae7e8c2a9e4598b4ddd7aa64dca1bd962d33a5d37c27316987382f",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2549.0,
+        1960.0,
+        2770.0,
+        2182.0
+      ],
+      "parent_fruit_xyxy": [
+        634,
+        366,
+        3212,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213537.jpg:20:165:123",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "7384d02710b5186bcc15",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213327.jpg",
+      "image_sha256": "8227da374fc394cf7bf35a60fc9d7a39a7e569df277769417b292f9de1483740",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1077.0,
+        1204.0,
+        1229.0,
+        1434.0
+      ],
+      "parent_fruit_xyxy": [
+        634,
+        9,
+        3291,
+        2744
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213327.jpg:24:41:91",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "c877a1486878e1ff8ce2",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "image_sha256": "6c16843064110ae6b21231dfda5dd9117c03889e18b39a3609a3b57693baa4a9",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        952.0,
+        1342.0,
+        1137.0,
+        1576.0
+      ],
+      "parent_fruit_xyxy": [
+        516,
+        0,
+        3291,
+        2772
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg:25:40:100",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "04d87087202818d645c5",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213354.jpg",
+      "image_sha256": "fd9d9832031305e3e8578a1e53f8c10306cb453b7261244b7c4e265d456cf2eb",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1474.0,
+        1551.0,
+        1728.0,
+        1693.0
+      ],
+      "parent_fruit_xyxy": [
+        1056,
+        300,
+        3719,
+        3000
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213354.jpg:26:43:93",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "e5c0dbc7cbe3f0e888fc",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213359.jpg",
+      "image_sha256": "0678fb4846c69c1b1af35449305bc54cfb5c67d3b6f18811aa92476cf000373a",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1770.0,
+        2031.0,
+        2006.0,
+        2156.0
+      ],
+      "parent_fruit_xyxy": [
+        725,
+        0,
+        3816,
+        2969
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213359.jpg:27:79:134",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "7db6471dd4f8f6a8bf84",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213412.jpg",
+      "image_sha256": "f103ad2e26afeb2a730d616ccfd5d225365bc714a26016c24078488bccb51971",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2201.0,
+        1140.0,
+        2425.0,
+        1330.0
+      ],
+      "parent_fruit_xyxy": [
+        884,
+        0,
+        3494,
+        2578
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213412.jpg:28:115:91",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "282aea51e34c6ca048dc",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213442.jpg",
+      "image_sha256": "067ce78dc55f3d2e1f56d851c3b4692a5f8b998d15fa1b83b92fa3eca1278000",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1606.0,
+        1809.0,
+        1730.0,
+        1975.0
+      ],
+      "parent_fruit_xyxy": [
+        822,
+        350,
+        3434,
+        2966
+      ],
+      "target": "confirmed_normal",
+      "subtype": "highlight",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213442.jpg:30:68:112",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "c0c8e980e7c549d7677c",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213455.jpg",
+      "image_sha256": "ad031a20b64454d62a62eabfe16e9250b56bbe69f16838549836acaf84b5e3fa",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        1762.0,
+        1216.0,
+        1922.0,
+        1374.0
+      ],
+      "parent_fruit_xyxy": [
+        678,
+        200,
+        3075,
+        2706
+      ],
+      "target": "confirmed_normal",
+      "subtype": "stem",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213455.jpg:32:102:83",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    },
+    {
+      "id": "9e6a659da4e597e8cebc",
+      "source": "AFruitDB",
+      "split": "val",
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213541.jpg",
+      "image_sha256": "ab37ea4f7dad0d10c9f37c2bcbbeb3a144aded8c77d4fc9d4f7b965443c44db1",
+      "image_hw": [
+        3000,
+        4000
+      ],
+      "source_image_xyxy": [
+        2410.0,
+        905.0,
+        2556.0,
+        1101.0
+      ],
+      "parent_fruit_xyxy": [
+        550,
+        219,
+        3103,
+        2878
+      ],
+      "target": "confirmed_normal",
+      "subtype": "calyx",
+      "group_id": "burst_0089",
+      "source_record": "review_20261119:AFruitDB:val:datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213541.jpg:33:159:56",
+      "trace": "Individually visually reviewed original or registered crop; marked structure only; rest unknown",
+      "capture": null,
+      "condition": null,
+      "same_frame_has_author_scratch": false
+    }
+  ],
+  "audit": {
+    "excluded_touching_author_damage": 4
+  }
+}

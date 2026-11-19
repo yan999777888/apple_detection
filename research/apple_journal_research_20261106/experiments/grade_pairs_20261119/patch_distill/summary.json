@@ -1,0 +1,226 @@
+{
+  "matched_replay": {
+    "architecture": "native320_sparse_grade_pairs_20261119",
+    "input_side": 320,
+    "threshold": 1.0,
+    "weights_sha256": "7a1a0436e50f2fb7e94d88087d54b8cf678de89df8fcca7c441678a1153fda75",
+    "step": 180,
+    "passed": false,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            18,
+            3,
+            0,
+            4
+          ],
+          [
+            3,
+            8,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.72,
+          0.5333333333333333,
+          1.0
+        ],
+        "good": 18,
+        "mild": 8,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 43
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            22,
+            3,
+            0,
+            0
+          ],
+          [
+            6,
+            7,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.88,
+          0.4666666666666667,
+          1.0
+        ],
+        "good": 22,
+        "mild": 7,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 46
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    }
+  },
+  "soft_teacher": {
+    "architecture": "native320_sparse_grade_pairs_20261119",
+    "input_side": 320,
+    "threshold": 1.0,
+    "weights_sha256": "3ca69b3e1be220d438de3dc2d398b7c49648fd10b4076c80a2b2e2f04920c258",
+    "step": 30,
+    "passed": false,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            15,
+            6,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.6,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 15,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 42
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            12,
+            13,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.48,
+          0.8,
+          1.0
+        ],
+        "good": 12,
+        "mild": 12,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 41
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    }
+  }
+}

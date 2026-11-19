@@ -1,0 +1,1611 @@
+{
+  "rules": "Original PSU polygons projected at original COCO resolution. Require lesion majority overlap with exactly one fruit. Area is the pixel union of all accepted lesions intersecting that fruit. Absence of annotations does not certify healthy. No grading labels inferred.",
+  "fruits": [
+    {
+      "id": 0,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/30b1069bf139804c5571.jpg",
+      "sha": "30b1069bf139804c5571f0318a3126d93f17afb9067f865902738adf4cc6f623",
+      "member": "train/IMG_20241010_013528_jpg.rf.b5eed9fdf87250332aaec4f0f55ee565.jpg",
+      "group_id": "PSU_day_2024-10-10",
+      "split": "val",
+      "view": [
+        254,
+        302,
+        794,
+        694
+      ],
+      "fruit_annotation": 108,
+      "fruit_bbox_xyxy": [
+        278.72,
+        320.64,
+        769.9200000000001,
+        676.56
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 127356,
+      "lesion_union_pixels": 3006,
+      "lesion_union_fraction": 0.023603128238952227,
+      "lesions": [
+        {
+          "id": 106,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            486.4,
+            422.64,
+            530.56,
+            469.91999999999996
+          ],
+          "pixel_area_on_fruit": 1648
+        },
+        {
+          "id": 107,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            400.96,
+            502.32,
+            448.96,
+            537.12
+          ],
+          "pixel_area_on_fruit": 1358
+        }
+      ],
+      "note": "2.4% Plum Curculio"
+    },
+    {
+      "id": 1,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/379fbd714919d138a370.jpg",
+      "sha": "379fbd714919d138a3707b9bea98f8d6996dbc7128b96504332370261516a094",
+      "member": "train/IMG_20251001_162454_jpg.rf.d4d2dd05506944deb8698ea6988fdd8e.jpg",
+      "group_id": "PSU_day_2025-10-01",
+      "split": "train",
+      "view": [
+        182,
+        434,
+        589,
+        742
+      ],
+      "fruit_annotation": 31,
+      "fruit_bbox_xyxy": [
+        200.96,
+        448.08,
+        570.5600000000001,
+        728.88
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 78085,
+      "lesion_union_pixels": 3328,
+      "lesion_union_fraction": 0.04262022155343536,
+      "lesions": [
+        {
+          "id": 30,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            381.44,
+            514.08,
+            452.15999999999997,
+            580.08
+          ],
+          "pixel_area_on_fruit": 3328
+        }
+      ],
+      "note": "4.3% Plum Curculio"
+    },
+    {
+      "id": 2,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/c18ed2b0aaf8f0066cf5.jpg",
+      "sha": "c18ed2b0aaf8f0066cf5b46783f4e8f75ac6cf0c4934cb9cb54e033439b173b1",
+      "member": "train/IMG_20251002_101703_jpg.rf.c37ebf36f0fc8490d48b5890e84435d0.jpg",
+      "group_id": "PSU_day_2025-10-02",
+      "split": "train",
+      "view": [
+        264,
+        313,
+        587,
+        627
+      ],
+      "fruit_annotation": 20,
+      "fruit_bbox_xyxy": [
+        278.72,
+        327.36,
+        573.12,
+        613.6800000000001
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 68524,
+      "lesion_union_pixels": 4599,
+      "lesion_union_fraction": 0.0671151713268344,
+      "lesions": [
+        {
+          "id": 19,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            445.12,
+            525.6,
+            544.96,
+            589.6800000000001
+          ],
+          "pixel_area_on_fruit": 4599
+        }
+      ],
+      "note": "6.7% Plum Curculio"
+    },
+    {
+      "id": 3,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/6952dac147d5c4815dfe.jpg",
+      "sha": "6952dac147d5c4815dfe866ad2bb748418132999b9f095c9e4d620d22445da3c",
+      "member": "train/IMG_20251002_102002_jpg.rf.13a6f5504a434e4c319a61ca94cee19d.jpg",
+      "group_id": "PSU_day_2025-10-02",
+      "split": "train",
+      "view": [
+        203,
+        332,
+        705,
+        703
+      ],
+      "fruit_annotation": 188,
+      "fruit_bbox_xyxy": [
+        226.24,
+        348.96,
+        682.56,
+        686.88
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 120203,
+      "lesion_union_pixels": 3422,
+      "lesion_union_fraction": 0.028468507441577997,
+      "lesions": [
+        {
+          "id": 187,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            489.92,
+            582.96,
+            574.4,
+            638.64
+          ],
+          "pixel_area_on_fruit": 3422
+        }
+      ],
+      "note": "2.8% Plum Curculio"
+    },
+    {
+      "id": 4,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/918cf8f3eeabbd08ec10.jpg",
+      "sha": "918cf8f3eeabbd08ec10ff60587526c6b1e19490f91b3679bfa200f57ccf543b",
+      "member": "train/IMG_20251002_102620_jpg.rf.55129567f8d8cd1cc2f6556738d7e48b.jpg",
+      "group_id": "PSU_day_2025-10-02",
+      "split": "train",
+      "view": [
+        238,
+        452,
+        712,
+        765
+      ],
+      "fruit_annotation": 105,
+      "fruit_bbox_xyxy": [
+        260.48,
+        466.32,
+        690.56,
+        751.6800000000001
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 98562,
+      "lesion_union_pixels": 4067,
+      "lesion_union_fraction": 0.041263367220632695,
+      "lesions": [
+        {
+          "id": 104,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            440.64,
+            646.8,
+            529.92,
+            703.92
+          ],
+          "pixel_area_on_fruit": 4067
+        }
+      ],
+      "note": "4.1% Plum Curculio"
+    },
+    {
+      "id": 5,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/748f72c62bee30c8a0ef.jpg",
+      "sha": "748f72c62bee30c8a0ef120c74fe1886ca1131eaf49471055bf3e017d67b0c30",
+      "member": "train/IMG_20251003_114331_jpg.rf.90f12d122e8679825c08b7730de22fb2.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        183,
+        323,
+        829,
+        830
+      ],
+      "fruit_annotation": 44,
+      "fruit_bbox_xyxy": [
+        212.8,
+        346.56,
+        799.6800000000001,
+        807.8399999999999
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 199982,
+      "lesion_union_pixels": 4955,
+      "lesion_union_fraction": 0.024777229950695562,
+      "lesions": [
+        {
+          "id": 43,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            356.16,
+            481.68,
+            448.96000000000004,
+            555.12
+          ],
+          "pixel_area_on_fruit": 4955
+        }
+      ],
+      "note": "2.5% Codling Moth Entry"
+    },
+    {
+      "id": 6,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/b184df135e06986cc554.jpg",
+      "sha": "b184df135e06986cc5540cdab0142c62bbeae986636c08a57a5aa454a3110e83",
+      "member": "train/IMG_20251003_114444_jpg.rf.cdee41f49edb589f4d4641ace06b5233.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        136,
+        265,
+        665,
+        658
+      ],
+      "fruit_annotation": 190,
+      "fruit_bbox_xyxy": [
+        160.32,
+        283.44,
+        641.5999999999999,
+        640.56
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 138145,
+      "lesion_union_pixels": 3072,
+      "lesion_union_fraction": 0.022237504071808606,
+      "lesions": [
+        {
+          "id": 189,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            426.56,
+            406.08,
+            496.64,
+            462.47999999999996
+          ],
+          "pixel_area_on_fruit": 3072
+        }
+      ],
+      "note": "2.2% Plum Curculio"
+    },
+    {
+      "id": 7,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+      "sha": "eab1f1dc2166238225beaf508226bbdb624c157a7f453141a8da096db1e6caa0",
+      "member": "train/IMG_20251003_114507_jpg.rf.51f82924f2c775b92eded62eb8830850.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        153,
+        397,
+        684,
+        824
+      ],
+      "fruit_annotation": 149,
+      "fruit_bbox_xyxy": [
+        177.92,
+        417.36,
+        660.16,
+        804.96
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 146566,
+      "lesion_union_pixels": 49949,
+      "lesion_union_fraction": 0.3407952731192773,
+      "lesions": [
+        {
+          "id": 148,
+          "subtype": "Sunburn",
+          "source_image_xyxy": [
+            236.8,
+            435.6,
+            508.8,
+            681.6
+          ],
+          "pixel_area_on_fruit": 49949
+        }
+      ],
+      "note": "34.1% Sunburn"
+    },
+    {
+      "id": 8,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/ba02dfdcb20e65f66328.jpg",
+      "sha": "ba02dfdcb20e65f66328e655d895ad2d2e0b4339cbae6b8b8a46eff998b534e3",
+      "member": "train/IMG_20251003_114544_jpg.rf.9298afffa5ee18ecd688f7223521e632.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        283,
+        401,
+        695,
+        714
+      ],
+      "fruit_annotation": 59,
+      "fruit_bbox_xyxy": [
+        302.4,
+        415.92,
+        677.12,
+        700.3199999999999
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 83027,
+      "lesion_union_pixels": 3901,
+      "lesion_union_fraction": 0.046984715815337176,
+      "lesions": [
+        {
+          "id": 58,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            401.28,
+            478.8,
+            505.28,
+            533.76
+          ],
+          "pixel_area_on_fruit": 3901
+        }
+      ],
+      "note": "4.7% Codling Moth Entry"
+    },
+    {
+      "id": 9,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/d971784a610bdf6ec643.jpg",
+      "sha": "d971784a610bdf6ec643f1a698c2a6ba03331c122a2280aabc96300b8df7cdae",
+      "member": "train/IMG_20251003_114826_jpg.rf.f0a6361d99e6ebf736876485a391bab0.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        363,
+        303,
+        846,
+        662
+      ],
+      "fruit_annotation": 154,
+      "fruit_bbox_xyxy": [
+        385.6,
+        319.68,
+        824.6400000000001,
+        646.0799999999999
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 112736,
+      "lesion_union_pixels": 469,
+      "lesion_union_fraction": 0.004160161793925632,
+      "lesions": [
+        {
+          "id": 153,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            467.52,
+            580.32,
+            501.44,
+            602.88
+          ],
+          "pixel_area_on_fruit": 469
+        }
+      ],
+      "note": "0.4% Sting"
+    },
+    {
+      "id": 10,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/5e4a91ed75e384210852.jpg",
+      "sha": "5e4a91ed75e3842108523dd27ad9e69e096db1c05025e638c505ef664c2c326d",
+      "member": "train/IMG_20251003_114917_jpg.rf.8a102aa0a2d60a63641c23fa50ea5fe9.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        21,
+        246,
+        656,
+        707
+      ],
+      "fruit_annotation": 141,
+      "fruit_bbox_xyxy": [
+        50.24,
+        267.12,
+        627.84,
+        686.1600000000001
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 177833,
+      "lesion_union_pixels": 5263,
+      "lesion_union_fraction": 0.029595181996592307,
+      "lesions": [
+        {
+          "id": 140,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            352.32,
+            508.32,
+            444.15999999999997,
+            589.92
+          ],
+          "pixel_area_on_fruit": 5263
+        }
+      ],
+      "note": "3.0% Plum Curculio"
+    },
+    {
+      "id": 11,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/ec14be0e755f6a547ecd.jpg",
+      "sha": "ec14be0e755f6a547ecdb980dd77af5c0be6ad9c682047dc58bab5d2b7a71a2a",
+      "member": "train/IMG_20251003_114932_jpg.rf.b1791346407840c821faa56413f67500.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        179,
+        304,
+        694,
+        663
+      ],
+      "fruit_annotation": 173,
+      "fruit_bbox_xyxy": [
+        203.2,
+        320.88,
+        671.04,
+        647.28
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 100688,
+      "lesion_union_pixels": 4629,
+      "lesion_union_fraction": 0.045973700937549655,
+      "lesions": [
+        {
+          "id": 170,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            461.44,
+            487.68,
+            550.08,
+            544.32
+          ],
+          "pixel_area_on_fruit": 3877
+        },
+        {
+          "id": 171,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            572.48,
+            500.4,
+            604.48,
+            526.8
+          ],
+          "pixel_area_on_fruit": 667
+        },
+        {
+          "id": 172,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            320,
+            556.8,
+            332.48,
+            564.9599999999999
+          ],
+          "pixel_area_on_fruit": 85
+        }
+      ],
+      "note": "4.6% Codling Moth Entry,Sting"
+    },
+    {
+      "id": 12,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/42b000248909fc2a910f.jpg",
+      "sha": "42b000248909fc2a910f785dacdb782afbc998933e1cc033a8611e9e5a6a650a",
+      "member": "train/IMG_20251003_115224_jpg.rf.61777e49c21af3b81fb6c0803d5a5796.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        277,
+        359,
+        835,
+        765
+      ],
+      "fruit_annotation": 152,
+      "fruit_bbox_xyxy": [
+        303.04,
+        377.52,
+        809.9200000000001,
+        746.64
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 135824,
+      "lesion_union_pixels": 1825,
+      "lesion_union_fraction": 0.01343650606667452,
+      "lesions": [
+        {
+          "id": 150,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            640.32,
+            542.64,
+            687.36,
+            589.92
+          ],
+          "pixel_area_on_fruit": 1657
+        },
+        {
+          "id": 151,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            435.84,
+            652.08,
+            457.91999999999996,
+            662.4000000000001
+          ],
+          "pixel_area_on_fruit": 168
+        }
+      ],
+      "note": "1.3% Codling Moth Entry,Sting"
+    },
+    {
+      "id": 13,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/8c4314ff3401bc311c06.jpg",
+      "sha": "8c4314ff3401bc311c06b322bfb7da7421e1dd45f541bdc00c5e98f07c9614ef",
+      "member": "train/IMG_20251003_150750_jpg.rf.b79809a46a9365fada87cbd4b067523a.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        126,
+        221,
+        676,
+        645
+      ],
+      "fruit_annotation": 112,
+      "fruit_bbox_xyxy": [
+        151.68,
+        240.72,
+        651.84,
+        626.16
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 152172,
+      "lesion_union_pixels": 1432,
+      "lesion_union_fraction": 0.009410404016507636,
+      "lesions": [
+        {
+          "id": 111,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            522.56,
+            471.12,
+            570.2399999999999,
+            510.48
+          ],
+          "pixel_area_on_fruit": 1432
+        }
+      ],
+      "note": "0.9% Codling Moth Entry"
+    },
+    {
+      "id": 14,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/ac410f54cd7627b2bc41.jpg",
+      "sha": "ac410f54cd7627b2bc41d20fa4f64b3c1cbf0e46d4065e99822e811e30d09c84",
+      "member": "train/IMG_20251003_151439_jpg.rf.87e4f63936419a754a7792337cbbd68b.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        378,
+        462,
+        783,
+        777
+      ],
+      "fruit_annotation": 55,
+      "fruit_bbox_xyxy": [
+        396.8,
+        476.4,
+        765.44,
+        763.2
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 84027,
+      "lesion_union_pixels": 825,
+      "lesion_union_fraction": 0.009818272698061337,
+      "lesions": [
+        {
+          "id": 54,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            474.24,
+            537.12,
+            516.16,
+            561.12
+          ],
+          "pixel_area_on_fruit": 825
+        }
+      ],
+      "note": "1.0% Codling Moth Entry"
+    },
+    {
+      "id": 15,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/1ff2f6598044cc26ed54.jpg",
+      "sha": "1ff2f6598044cc26ed54804a52388fee355e399d4d99ff515b4a30d5ee202d7e",
+      "member": "train/IMG_20251003_151455_jpg.rf.e3982d5978a3dd8148e442c0319e656d.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        168,
+        393,
+        732,
+        783
+      ],
+      "fruit_annotation": 67,
+      "fruit_bbox_xyxy": [
+        194.56,
+        411.6,
+        706.8800000000001,
+        765.6
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 146529,
+      "lesion_union_pixels": 4907,
+      "lesion_union_fraction": 0.03348825147240478,
+      "lesions": [
+        {
+          "id": 66,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            458.88,
+            605.52,
+            541.12,
+            681.12
+          ],
+          "pixel_area_on_fruit": 4907
+        }
+      ],
+      "note": "3.3% Codling Moth Entry"
+    },
+    {
+      "id": 16,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/c91213a997dfa4d29b0c.jpg",
+      "sha": "c91213a997dfa4d29b0ca9867b9e7dfec324c90c626c91925f4b044b44561e40",
+      "member": "train/IMG_20251003_151519_jpg.rf.63727ae8406d576bd08d8a1c611959b3.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        274,
+        371,
+        668,
+        708
+      ],
+      "fruit_annotation": 7,
+      "fruit_bbox_xyxy": [
+        292.8,
+        386.64,
+        650.24,
+        693.12
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 79475,
+      "lesion_union_pixels": 2998,
+      "lesion_union_fraction": 0.03772255426234665,
+      "lesions": [
+        {
+          "id": 5,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            445.76,
+            462.96,
+            518.4,
+            510.96
+          ],
+          "pixel_area_on_fruit": 2566
+        },
+        {
+          "id": 6,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            474.88,
+            628.56,
+            505.92,
+            645.5999999999999
+          ],
+          "pixel_area_on_fruit": 432
+        }
+      ],
+      "note": "3.8% Plum Curculio"
+    },
+    {
+      "id": 17,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/33470dacbb1d3e7c5c0f.jpg",
+      "sha": "33470dacbb1d3e7c5c0fa13d6c98f6b53d8e7243fcf19601a50b404d008834dc",
+      "member": "train/IMG_20251003_151641_jpg.rf.7ddfe1d3e05a4ddde674e74a33b63d04.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        303,
+        415,
+        826,
+        791
+      ],
+      "fruit_annotation": 203,
+      "fruit_bbox_xyxy": [
+        327.68,
+        432.24,
+        802.56,
+        774.72
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 123418,
+      "lesion_union_pixels": 4896,
+      "lesion_union_fraction": 0.03967006433421381,
+      "lesions": [
+        {
+          "id": 201,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            497.28,
+            491.76,
+            566.4,
+            540.48
+          ],
+          "pixel_area_on_fruit": 2668
+        },
+        {
+          "id": 202,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            392.32,
+            515.76,
+            452.48,
+            560.88
+          ],
+          "pixel_area_on_fruit": 2228
+        }
+      ],
+      "note": "4.0% Codling Moth Entry"
+    },
+    {
+      "id": 18,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/b84169afc344fad1fcff.jpg",
+      "sha": "b84169afc344fad1fcff0d8e3220f694b230053e19fce20d509e26d2e1068e6e",
+      "member": "train/IMG_20251003_152400_jpg.rf.e703cf004c2e5056d8bff0336489a5fc.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        313,
+        464,
+        747,
+        755
+      ],
+      "fruit_annotation": 183,
+      "fruit_bbox_xyxy": [
+        333.12,
+        477.36,
+        727.6800000000001,
+        742.3199999999999
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 74719,
+      "lesion_union_pixels": 1265,
+      "lesion_union_fraction": 0.01693009810088465,
+      "lesions": [
+        {
+          "id": 182,
+          "subtype": "Codling Moth Entry",
+          "source_image_xyxy": [
+            521.6,
+            524.16,
+            577.28,
+            554.88
+          ],
+          "pixel_area_on_fruit": 1265
+        }
+      ],
+      "note": "1.7% Codling Moth Entry"
+    },
+    {
+      "id": 19,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/443a4eaaac8527cc75c8.jpg",
+      "sha": "443a4eaaac8527cc75c8c97522509f1be3832918359f22c87eea9f0455485f06",
+      "member": "train/IMG_20251003_152500_jpg.rf.a6e8ba0448a599eb606b14bf3eee9a83.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        455,
+        261,
+        882,
+        554
+      ],
+      "fruit_annotation": 114,
+      "fruit_bbox_xyxy": [
+        474.88,
+        274.8,
+        863.04,
+        541.44
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 83777,
+      "lesion_union_pixels": 828,
+      "lesion_union_fraction": 0.009883380880193847,
+      "lesions": [
+        {
+          "id": 113,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            730.24,
+            414.48,
+            764.8,
+            448.32000000000005
+          ],
+          "pixel_area_on_fruit": 828
+        }
+      ],
+      "note": "1.0% Sting"
+    },
+    {
+      "id": 20,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/cedc2abd4f0f1d2a40a9.jpg",
+      "sha": "cedc2abd4f0f1d2a40a9b73cc62fbf61e0e7ce6953e52deafd33fd4de912799b",
+      "member": "train/IMG_20251003_152622_jpg.rf.dc55189365cba067c2bd26a6c440911e.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        303,
+        304,
+        745,
+        628
+      ],
+      "fruit_annotation": 178,
+      "fruit_bbox_xyxy": [
+        323.2,
+        319.68,
+        725.12,
+        613.9200000000001
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 93400,
+      "lesion_union_pixels": 1357,
+      "lesion_union_fraction": 0.014528907922912206,
+      "lesions": [
+        {
+          "id": 177,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            474.88,
+            414.72,
+            530.88,
+            448.56000000000006
+          ],
+          "pixel_area_on_fruit": 1357
+        }
+      ],
+      "note": "1.5% Plum Curculio"
+    },
+    {
+      "id": 21,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+      "sha": "80d11d4e6bd07b0cb5c50e3d031804b9a49f5b5fc99e0e07d6aeab24fbe4f13c",
+      "member": "train/IMG_20251003_152715_jpg.rf.acc0e0ab670ed65d92983c82e21eb7e3.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        359,
+        522,
+        702,
+        777
+      ],
+      "fruit_annotation": 15,
+      "fruit_bbox_xyxy": [
+        375.04,
+        534.0,
+        687.36,
+        765.84
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 56744,
+      "lesion_union_pixels": 7975,
+      "lesion_union_fraction": 0.14054349358522486,
+      "lesions": [
+        {
+          "id": 14,
+          "subtype": "Sunburn",
+          "source_image_xyxy": [
+            492.8,
+            584.16,
+            636.48,
+            662.4
+          ],
+          "pixel_area_on_fruit": 7975
+        }
+      ],
+      "note": "14.1% Sunburn"
+    },
+    {
+      "id": 22,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/84c806d6826cbc1704b9.jpg",
+      "sha": "84c806d6826cbc1704b9f3dd7e95c0b467219366c2df5a5c20a7d58ac5ad8da1",
+      "member": "train/IMG_20251003_153011_jpg.rf.fdd5f9b4bf36bf6fd20687167dc8fe41.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        227,
+        259,
+        848,
+        701
+      ],
+      "fruit_annotation": 89,
+      "fruit_bbox_xyxy": [
+        256.0,
+        279.36,
+        820.48,
+        681.12
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 173122,
+      "lesion_union_pixels": 12768,
+      "lesion_union_fraction": 0.07375145850902831,
+      "lesions": [
+        {
+          "id": 82,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            445.12,
+            466.08,
+            535.6800000000001,
+            559.92
+          ],
+          "pixel_area_on_fruit": 5639
+        },
+        {
+          "id": 83,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            393.6,
+            525.36,
+            440.0,
+            577.9200000000001
+          ],
+          "pixel_area_on_fruit": 1840
+        },
+        {
+          "id": 84,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            563.2,
+            484.32,
+            620.48,
+            514.56
+          ],
+          "pixel_area_on_fruit": 1304
+        },
+        {
+          "id": 85,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            543.68,
+            346.08,
+            599.04,
+            364.79999999999995
+          ],
+          "pixel_area_on_fruit": 779
+        },
+        {
+          "id": 86,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            575.36,
+            547.92,
+            609.6,
+            566.88
+          ],
+          "pixel_area_on_fruit": 517
+        },
+        {
+          "id": 87,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            556.48,
+            416.16,
+            616.64,
+            478.32000000000005
+          ],
+          "pixel_area_on_fruit": 2408
+        },
+        {
+          "id": 88,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            637.12,
+            343.68,
+            661.44,
+            358.32
+          ],
+          "pixel_area_on_fruit": 281
+        }
+      ],
+      "note": "7.4% Sting,Stink Bug"
+    },
+    {
+      "id": 23,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/55f44ca9f2082f598c47.jpg",
+      "sha": "55f44ca9f2082f598c47635c39d0e7114c2c22aa59c35a23dfba2b69aec84591",
+      "member": "train/IMG_20251003_153459_jpg.rf.5bfe8a0ab35eaae0704a9725509309c3.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        174,
+        310,
+        678,
+        659
+      ],
+      "fruit_annotation": 110,
+      "fruit_bbox_xyxy": [
+        197.76,
+        326.64,
+        655.36,
+        643.6800000000001
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 103805,
+      "lesion_union_pixels": 414,
+      "lesion_union_fraction": 0.0039882471942584655,
+      "lesions": [
+        {
+          "id": 109,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            541.76,
+            545.76,
+            569.28,
+            565.2
+          ],
+          "pixel_area_on_fruit": 414
+        }
+      ],
+      "note": "0.4% Sting"
+    },
+    {
+      "id": 24,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/9d195d3f79204e09e968.jpg",
+      "sha": "9d195d3f79204e09e96825f66896b13363ed6f7b9e9dbb0b992f6866bde1aa83",
+      "member": "train/IMG_20251003_154830_jpg.rf.6522a6fe9b610b3cb6f54fb884a4e955.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        130,
+        229,
+        739,
+        693
+      ],
+      "fruit_annotation": 65,
+      "fruit_bbox_xyxy": [
+        157.76,
+        250.32,
+        712.0,
+        672.0
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 175979,
+      "lesion_union_pixels": 2865,
+      "lesion_union_fraction": 0.016280351632865286,
+      "lesions": [
+        {
+          "id": 64,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            528.96,
+            434.88,
+            592.0,
+            489.84
+          ],
+          "pixel_area_on_fruit": 2865
+        }
+      ],
+      "note": "1.6% Plum Curculio"
+    },
+    {
+      "id": 25,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/dcc79c9f19970956c08e.jpg",
+      "sha": "dcc79c9f19970956c08eb0c65589b7d75aff51a8da5dc46fbab45afbb34f9c45",
+      "member": "train/IMG_20251003_155015_jpg.rf.9aa502494d1637601b6b03bb72e144ff.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        195,
+        496,
+        718,
+        902
+      ],
+      "fruit_annotation": 57,
+      "fruit_bbox_xyxy": [
+        218.82,
+        514.71,
+        694.9,
+        883.83
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 128912,
+      "lesion_union_pixels": 464,
+      "lesion_union_fraction": 0.0035993545984857886,
+      "lesions": [
+        {
+          "id": 56,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            527.06,
+            608.24,
+            559.6099999999999,
+            625.59
+          ],
+          "pixel_area_on_fruit": 464
+        }
+      ],
+      "note": "0.4% Sting"
+    },
+    {
+      "id": 26,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/c67657597408925302ef.jpg",
+      "sha": "c67657597408925302efbad9ee779d5961332f5ccbf4109157ecf3cb49ea3e99",
+      "member": "train/IMG_20251003_155052_jpg.rf.4eb3b4dd6a5571656384a847ff589064.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        282,
+        369,
+        700,
+        671
+      ],
+      "fruit_annotation": 143,
+      "fruit_bbox_xyxy": [
+        301.96,
+        383.24,
+        681.1800000000001,
+        657.6500000000001
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 78028,
+      "lesion_union_pixels": 263,
+      "lesion_union_fraction": 0.00337058491823448,
+      "lesions": [
+        {
+          "id": 142,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            440.39,
+            486.18,
+            461.16999999999996,
+            502.06
+          ],
+          "pixel_area_on_fruit": 263
+        }
+      ],
+      "note": "0.3% Sting"
+    },
+    {
+      "id": 27,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/fb172b42eb89fbd33db6.jpg",
+      "sha": "fb172b42eb89fbd33db630ff0f3f9b531589ebd717a89c2c7ea445d52771cdcc",
+      "member": "train/IMG_20251003_155139_jpg.rf.7928b562a148bff52693d64c41312b0f.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        244,
+        320,
+        591,
+        581
+      ],
+      "fruit_annotation": 181,
+      "fruit_bbox_xyxy": [
+        260.39,
+        332.65,
+        575.29,
+        569.71
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 54028,
+      "lesion_union_pixels": 239,
+      "lesion_union_fraction": 0.004423632190715925,
+      "lesions": [
+        {
+          "id": 179,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            388.63,
+            376.47,
+            408.24,
+            388.82000000000005
+          ],
+          "pixel_area_on_fruit": 198
+        },
+        {
+          "id": 180,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            402.75,
+            495.29,
+            411.38,
+            500.88
+          ],
+          "pixel_area_on_fruit": 41
+        }
+      ],
+      "note": "0.4% Sting"
+    },
+    {
+      "id": 28,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/8e64e70eb9534344e0ca.jpg",
+      "sha": "8e64e70eb9534344e0ca09415f4583d86182c94899746c91b978db46f2de8f59",
+      "member": "train/IMG_20251003_155805_jpg.rf.37ae7b2ebd0562994c122b7a0be1cde0.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        235,
+        349,
+        774,
+        790
+      ],
+      "fruit_annotation": 129,
+      "fruit_bbox_xyxy": [
+        259.61,
+        369.12,
+        749.81,
+        770.3
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 154631,
+      "lesion_union_pixels": 9195,
+      "lesion_union_fraction": 0.05946414367106208,
+      "lesions": [
+        {
+          "id": 122,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            540,
+            500.29,
+            642.75,
+            574.11
+          ],
+          "pixel_area_on_fruit": 3698
+        },
+        {
+          "id": 123,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            642.35,
+            435.88,
+            669.41,
+            468.82
+          ],
+          "pixel_area_on_fruit": 663
+        },
+        {
+          "id": 124,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            437.91,
+            562.75,
+            477.13,
+            597.06
+          ],
+          "pixel_area_on_fruit": 1400
+        },
+        {
+          "id": 125,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            592.16,
+            631.37,
+            615.6899999999999,
+            653.92
+          ],
+          "pixel_area_on_fruit": 600
+        },
+        {
+          "id": 126,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            547.71,
+            449.02,
+            586.9300000000001,
+            477.45
+          ],
+          "pixel_area_on_fruit": 1160
+        },
+        {
+          "id": 127,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            384.32,
+            572.55,
+            405.23,
+            599.02
+          ],
+          "pixel_area_on_fruit": 594
+        },
+        {
+          "id": 128,
+          "subtype": "Stink Bug",
+          "source_image_xyxy": [
+            320.26,
+            604.9,
+            346.40999999999997,
+            644.11
+          ],
+          "pixel_area_on_fruit": 1080
+        }
+      ],
+      "note": "5.9% Stink Bug"
+    },
+    {
+      "id": 29,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/d4c72b54ee3883891eb9.jpg",
+      "sha": "d4c72b54ee3883891eb97998a729e014ffc7f8831ee6d253b4e42cea72bc0c96",
+      "member": "train/IMG_20251003_155818_jpg.rf.83464c94bbf3a95c15020716e179655c.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        311,
+        326,
+        721,
+        654
+      ],
+      "fruit_annotation": 47,
+      "fruit_bbox_xyxy": [
+        330.56,
+        341.52,
+        702.72,
+        639.5999999999999
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 82712,
+      "lesion_union_pixels": 257,
+      "lesion_union_fraction": 0.003107167037431086,
+      "lesions": [
+        {
+          "id": 45,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            557.44,
+            442.8,
+            577.2800000000001,
+            457.44
+          ],
+          "pixel_area_on_fruit": 257
+        }
+      ],
+      "note": "0.3% Sting"
+    },
+    {
+      "id": 30,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/d4c72b54ee3883891eb9.jpg",
+      "sha": "d4c72b54ee3883891eb97998a729e014ffc7f8831ee6d253b4e42cea72bc0c96",
+      "member": "train/IMG_20251003_155818_jpg.rf.83464c94bbf3a95c15020716e179655c.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        244,
+        715,
+        759,
+        960
+      ],
+      "fruit_annotation": 48,
+      "fruit_bbox_xyxy": [
+        267.52,
+        726.96,
+        736.3199999999999,
+        959.76
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 93990,
+      "lesion_union_pixels": 22630,
+      "lesion_union_fraction": 0.24077029471220343,
+      "lesions": [
+        {
+          "id": 46,
+          "subtype": "Sunburn",
+          "source_image_xyxy": [
+            434.13,
+            740,
+            650.66,
+            843.2
+          ],
+          "pixel_area_on_fruit": 22630
+        }
+      ],
+      "note": "24.1% Sunburn"
+    },
+    {
+      "id": 31,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/f675ee44a7ac187acd15.jpg",
+      "sha": "f675ee44a7ac187acd15030bfb659d2d96edf5f443fa6d19ee6d580631cfe21e",
+      "member": "train/IMG_20251003_155835_jpg.rf.c695d47d505c2ba31e0a336194a81802.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        249,
+        337,
+        834,
+        777
+      ],
+      "fruit_annotation": 38,
+      "fruit_bbox_xyxy": [
+        275.69,
+        357.94,
+        807.45,
+        757.94
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 161329,
+      "lesion_union_pixels": 2006,
+      "lesion_union_fraction": 0.012434218274457785,
+      "lesions": [
+        {
+          "id": 36,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            481.18,
+            405.59,
+            506.28000000000003,
+            421.77
+          ],
+          "pixel_area_on_fruit": 305
+        },
+        {
+          "id": 37,
+          "subtype": "Plum Curculio",
+          "source_image_xyxy": [
+            557.65,
+            587.94,
+            612.55,
+            624.7
+          ],
+          "pixel_area_on_fruit": 1701
+        }
+      ],
+      "note": "1.2% Plum Curculio,Sting"
+    },
+    {
+      "id": 32,
+      "path": "datasets/grade_pairs_sources_20261119/penn_train_dev/10d46ead0bdeee1b1799.jpg",
+      "sha": "10d46ead0bdeee1b17993b649d7dbffa586aa9ebd82457266080903a9ac3aa07",
+      "member": "train/IMG_20251003_155925_jpg.rf.1ec1f17fde548bd00fefab4f5bf2cb7d.jpg",
+      "group_id": "PSU_day_2025-10-03",
+      "split": "train",
+      "view": [
+        125,
+        239,
+        742,
+        696
+      ],
+      "fruit_annotation": 103,
+      "fruit_bbox_xyxy": [
+        153.6,
+        259.92,
+        714.88,
+        675.84
+      ],
+      "image_hw": [
+        960,
+        960
+      ],
+      "visible_fruit_pixels": 182281,
+      "lesion_union_pixels": 713,
+      "lesion_union_fraction": 0.003911543166868736,
+      "lesions": [
+        {
+          "id": 102,
+          "subtype": "Sting",
+          "source_image_xyxy": [
+            434.88,
+            505.68,
+            469.76,
+            530.88
+          ],
+          "pixel_area_on_fruit": 713
+        }
+      ],
+      "note": "0.4% Sting"
+    }
+  ]
+}

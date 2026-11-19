@@ -1,0 +1,954 @@
+[
+  {
+    "step": 60,
+    "loss": 0.5249914526939392,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            20,
+            1,
+            0,
+            4
+          ],
+          [
+            6,
+            5,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.8,
+          0.3333333333333333,
+          1.0
+        ],
+        "good": 20,
+        "mild": 5,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 42
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            23,
+            2,
+            0,
+            0
+          ],
+          [
+            8,
+            5,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.92,
+          0.3333333333333333,
+          1.0
+        ],
+        "good": 23,
+        "mild": 5,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 45
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false,
+    "patch_check": {
+      "n": 37,
+      "true_positive": 3,
+      "false_positive": 0,
+      "positive": 9,
+      "normal": 28,
+      "matched_pairs": 6,
+      "matched_positive_rank_fraction": 0.8333333333333334
+    },
+    "relative_lost_good_severe": 1
+  },
+  {
+    "step": 120,
+    "loss": 0.34270310401916504,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            19,
+            2,
+            0,
+            4
+          ],
+          [
+            5,
+            6,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.76,
+          0.4,
+          1.0
+        ],
+        "good": 19,
+        "mild": 6,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 42
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            23,
+            2,
+            0,
+            0
+          ],
+          [
+            7,
+            6,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.92,
+          0.4,
+          1.0
+        ],
+        "good": 23,
+        "mild": 6,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 46
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false,
+    "patch_check": {
+      "n": 37,
+      "true_positive": 4,
+      "false_positive": 0,
+      "positive": 9,
+      "normal": 28,
+      "matched_pairs": 6,
+      "matched_positive_rank_fraction": 1.0
+    },
+    "relative_lost_good_severe": 3
+  },
+  {
+    "step": 180,
+    "loss": 0.35697391629219055,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            19,
+            2,
+            0,
+            4
+          ],
+          [
+            5,
+            6,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.76,
+          0.4,
+          1.0
+        ],
+        "good": 19,
+        "mild": 6,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 42
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            23,
+            2,
+            0,
+            0
+          ],
+          [
+            6,
+            7,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.92,
+          0.4666666666666667,
+          1.0
+        ],
+        "good": 23,
+        "mild": 7,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 47
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false,
+    "patch_check": {
+      "n": 37,
+      "true_positive": 4,
+      "false_positive": 1,
+      "positive": 9,
+      "normal": 28,
+      "matched_pairs": 6,
+      "matched_positive_rank_fraction": 1.0
+    },
+    "relative_lost_good_severe": 3
+  },
+  {
+    "step": 240,
+    "loss": 0.22229179739952087,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            19,
+            2,
+            0,
+            4
+          ],
+          [
+            3,
+            8,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.76,
+          0.5333333333333333,
+          1.0
+        ],
+        "good": 19,
+        "mild": 8,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 44
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            23,
+            2,
+            0,
+            0
+          ],
+          [
+            6,
+            7,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.92,
+          0.4666666666666667,
+          1.0
+        ],
+        "good": 23,
+        "mild": 7,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 47
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false,
+    "patch_check": {
+      "n": 37,
+      "true_positive": 6,
+      "false_positive": 1,
+      "positive": 9,
+      "normal": 28,
+      "matched_pairs": 6,
+      "matched_positive_rank_fraction": 1.0
+    },
+    "relative_lost_good_severe": 3
+  },
+  {
+    "step": 300,
+    "loss": 0.21673548221588135,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            19,
+            2,
+            0,
+            4
+          ],
+          [
+            3,
+            8,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.76,
+          0.5333333333333333,
+          1.0
+        ],
+        "good": 19,
+        "mild": 8,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 44
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            22,
+            3,
+            0,
+            0
+          ],
+          [
+            6,
+            7,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.88,
+          0.4666666666666667,
+          1.0
+        ],
+        "good": 22,
+        "mild": 7,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 46
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false,
+    "patch_check": {
+      "n": 37,
+      "true_positive": 5,
+      "false_positive": 1,
+      "positive": 9,
+      "normal": 28,
+      "matched_pairs": 6,
+      "matched_positive_rank_fraction": 1.0
+    },
+    "relative_lost_good_severe": 3
+  },
+  {
+    "step": 360,
+    "loss": 0.18201938271522522,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            18,
+            3,
+            0,
+            4
+          ],
+          [
+            3,
+            8,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.72,
+          0.5333333333333333,
+          1.0
+        ],
+        "good": 18,
+        "mild": 8,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 43
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            22,
+            3,
+            0,
+            0
+          ],
+          [
+            6,
+            7,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.88,
+          0.4666666666666667,
+          1.0
+        ],
+        "good": 22,
+        "mild": 7,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 46
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false,
+    "patch_check": {
+      "n": 37,
+      "true_positive": 5,
+      "false_positive": 2,
+      "positive": 9,
+      "normal": 28,
+      "matched_pairs": 6,
+      "matched_positive_rank_fraction": 1.0
+    },
+    "relative_lost_good_severe": 5
+  },
+  {
+    "step": 420,
+    "loss": 0.1148848682641983,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            19,
+            2,
+            0,
+            4
+          ],
+          [
+            5,
+            6,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.76,
+          0.4,
+          1.0
+        ],
+        "good": 19,
+        "mild": 6,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 42
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            6,
+            7,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.96,
+          0.4666666666666667,
+          1.0
+        ],
+        "good": 24,
+        "mild": 7,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 48
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false,
+    "patch_check": {
+      "n": 37,
+      "true_positive": 5,
+      "false_positive": 1,
+      "positive": 9,
+      "normal": 28,
+      "matched_pairs": 6,
+      "matched_positive_rank_fraction": 1.0
+    },
+    "relative_lost_good_severe": 3
+  },
+  {
+    "step": 480,
+    "loss": 0.14034253358840942,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            19,
+            2,
+            0,
+            4
+          ],
+          [
+            3,
+            8,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.76,
+          0.5333333333333333,
+          1.0
+        ],
+        "good": 19,
+        "mild": 8,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 44
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            22,
+            3,
+            0,
+            0
+          ],
+          [
+            6,
+            7,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.88,
+          0.4666666666666667,
+          1.0
+        ],
+        "good": 22,
+        "mild": 7,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 46
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "passed": false,
+    "patch_check": {
+      "n": 37,
+      "true_positive": 5,
+      "false_positive": 2,
+      "positive": 9,
+      "normal": 28,
+      "matched_pairs": 6,
+      "matched_positive_rank_fraction": 1.0
+    },
+    "relative_lost_good_severe": 3
+  }
+]

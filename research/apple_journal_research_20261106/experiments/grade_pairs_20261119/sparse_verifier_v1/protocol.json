@@ -1,0 +1,16 @@
+{
+  "seed": 551901,
+  "arch": "native320_sparse_grade_pairs_20261119",
+  "parent": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "woo": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "steps": 480,
+  "check_every": 60,
+  "choices": "Common November 19 gate: auto mild >=6, good >=20, severe correct >=16, severe_good==0 and whole severe_good==0. Rank by pass, auto mild count, fewer lost good and severe cases versus native320 and Woo, then held-out-source patch proof. Chronologically first on complete ties.",
+  "detector": "Top four frozen deployed instance-associated defect boxes + separated interior texture peaks, eight slots, native-resolution 80px patch inputs. New confirmed patch/face classification, frozen parent and local feature encoder.",
+  "objective": "Class-balanced paired region BCE plus within-photo positive versus normal ranking; weak fruit-level normal/mild samples balance the matched burst_0100 group against alternate AF train setups plus Harvard clean train. Development-region labels are never used for fitting.",
+  "scene": "ef533cf633930047deffef8caa57374cc8e0e2181fac225e10ce1943f7ff4c4f",
+  "val_scene": "a26e315d1cd3da9fd390f49e13bc3baec33ebf99184659a91ecb99c737d0ccd9",
+  "regions": "2e542fe808e75f776f5505b861c76e70036a642ed36bd00766e1ef03071e6ce9",
+  "source": "b7c96134a0f147019527901ed2a31df1f79950b438024fb722604597ed2b0d4b",
+  "network": "607a503317ca770dc6b85fb6ffa162272b854c1cecfda2a5d4e3e8abacaf2495"
+}

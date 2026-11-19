@@ -1,0 +1,110 @@
+{
+  "unique_training_images": 556,
+  "n_training_views": 799,
+  "pair_cells": [
+    {
+      "source": "AF",
+      "group": "burst_0100",
+      "lower": 0,
+      "upper": 1,
+      "lower_images": 98,
+      "upper_images": 11
+    },
+    {
+      "source": "Woo",
+      "group": "Woo_20260814_station_LEFT",
+      "lower": 0,
+      "upper": 1,
+      "lower_images": 14,
+      "upper_images": 2
+    },
+    {
+      "source": "Woo",
+      "group": "Woo_20260814_station_TOP",
+      "lower": 0,
+      "upper": 1,
+      "lower_images": 24,
+      "upper_images": 4
+    },
+    {
+      "source": "Woo",
+      "group": "Woo_20260814_station_RIGHT",
+      "lower": 0,
+      "upper": 1,
+      "lower_images": 10,
+      "upper_images": 4
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_02",
+      "lower": 0,
+      "upper": 1,
+      "lower_images": 1,
+      "upper_images": 2
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_02",
+      "lower": 0,
+      "upper": 2,
+      "lower_images": 1,
+      "upper_images": 53
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_02",
+      "lower": 1,
+      "upper": 2,
+      "lower_images": 2,
+      "upper_images": 53
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_04",
+      "lower": 0,
+      "upper": 1,
+      "lower_images": 9,
+      "upper_images": 11
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_04",
+      "lower": 0,
+      "upper": 2,
+      "lower_images": 9,
+      "upper_images": 32
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_04",
+      "lower": 1,
+      "upper": 2,
+      "lower_images": 11,
+      "upper_images": 32
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_06",
+      "lower": 0,
+      "upper": 1,
+      "lower_images": 5,
+      "upper_images": 2
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_06",
+      "lower": 0,
+      "upper": 2,
+      "lower_images": 5,
+      "upper_images": 50
+    },
+    {
+      "source": "FruitLife",
+      "group": "FruitLife_apple_06",
+      "lower": 1,
+      "upper": 2,
+      "lower_images": 2,
+      "upper_images": 50
+    }
+  ]
+}

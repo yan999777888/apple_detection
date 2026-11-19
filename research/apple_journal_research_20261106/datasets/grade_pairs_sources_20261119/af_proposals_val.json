@@ -1,0 +1,2436 @@
+{
+  "samples": [
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172415.jpg",
+      "sha256": "3d8522b532808676afab5a21758d7b662ec187dfdad52e2c63ebc34f5f288538",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        115,
+        16,
+        1038,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            192.70703125,
+            95.96200561523438,
+            960.9057006835938,
+            890.6470947265625
+          ],
+          "crop": [
+            115,
+            16,
+            1038,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.7038706541061401
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            355.79119873046875,
+            541.5750732421875,
+            531.450927734375,
+            663.9505615234375
+          ],
+          "score": 0.46202757954597473,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172429.jpg",
+      "sha256": "f2a4aa7eb44d3d55da034eab8f9192a167ee501a433037e910c19748a157f1d4",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        271,
+        0,
+        1170,
+        915
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            346.8092956542969,
+            64.88360595703125,
+            1095.154296875,
+            837.6005859375
+          ],
+          "crop": [
+            271,
+            0,
+            1170,
+            915
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.8415815234184265
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172432.jpg",
+      "sha256": "7d142228f2983320288d16186fd406c85a8b20e3d257399738c4cb48e07c3a59",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": null,
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            303.1292724609375,
+            101.31271362304688,
+            1074.442626953125,
+            912.7855224609375
+          ],
+          "crop": [
+            225,
+            20,
+            1152,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.8168027400970459
+        },
+        {
+          "fruit_id": 1,
+          "bbox": [
+            303.1292724609375,
+            101.31271362304688,
+            1074.442626953125,
+            912.7855224609375
+          ],
+          "crop": [
+            225,
+            20,
+            1152,
+            960
+          ],
+          "maturity": "semi-mature",
+          "maturity_score": 0.34914514422416687
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172439.jpg",
+      "sha256": "1d791349b86caa51efe1adf9c62cc70459498a4c909390a570589641eefee38d",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        162,
+        81,
+        1047,
+        937
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            236.19711303710938,
+            152.52206420898438,
+            972.4183959960938,
+            865.017578125
+          ],
+          "crop": [
+            162,
+            81,
+            1047,
+            937
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.6674298048019409
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172444.jpg",
+      "sha256": "6054012b993e207c9eb97b82a18c454131b30674eeea6f890c6080af2e73635d",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        122,
+        0,
+        1186,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            210.69757080078125,
+            13.613922119140625,
+            1096.7108154296875,
+            884.48291015625
+          ],
+          "crop": [
+            122,
+            0,
+            1186,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.6394624710083008
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172456.jpg",
+      "sha256": "52d3a10d1026f1a09158006e0efc3b9b1e75f18fd346a97fb53708346174ca00",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        66,
+        0,
+        1142,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            155.66156005859375,
+            29.8638916015625,
+            1051.4879150390625,
+            929.6602783203125
+          ],
+          "crop": [
+            66,
+            0,
+            1142,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.7367856502532959
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172500.jpg",
+      "sha256": "ed8b20c2c0886d1873bbffab231f62b38a5edba21d2274bc259d60301e46ad21",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": null,
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            335.93914794921875,
+            40.56365966796875,
+            1125.974609375,
+            867.375244140625
+          ],
+          "crop": [
+            256,
+            0,
+            1205,
+            951
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.6393405199050903
+        },
+        {
+          "fruit_id": 1,
+          "bbox": [
+            982.2109375,
+            541.4718627929688,
+            1277.2454833984375,
+            958.841796875
+          ],
+          "crop": [
+            952,
+            499,
+            1280,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.3916188180446625
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172505.jpg",
+      "sha256": "aa18b2aae5e7012bb2089b34b17e7213eda7132d08616205a33ef0c7f83913c2",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        270,
+        15,
+        1133,
+        877
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            341.8954772949219,
+            87.25741577148438,
+            1060.8472900390625,
+            804.5580444335938
+          ],
+          "crop": [
+            270,
+            15,
+            1133,
+            877
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.6920309066772461
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172509.jpg",
+      "sha256": "64bb5159d8d83bfceed0b6445553dcad3abb0218d1e7059276edaf4b3029b622",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        275,
+        4,
+        1229,
+        940
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            354.9743957519531,
+            82.45245361328125,
+            1149.35205078125,
+            861.808837890625
+          ],
+          "crop": [
+            275,
+            4,
+            1229,
+            940
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9239138960838318
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172513.jpg",
+      "sha256": "6fc476cfba0359314f74e7390bcf794b5c87815b2665b973216c4e3bacc9c533",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        194,
+        18,
+        1176,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            276.65087890625,
+            98.93014526367188,
+            1093.5694580078125,
+            899.9462890625
+          ],
+          "crop": [
+            194,
+            18,
+            1176,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9213124513626099
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172516.jpg",
+      "sha256": "badc5ca5e49c72f4a291825da521144681b187297a93aa82aa3184c1c1b79d47",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        262,
+        0,
+        1264,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            345.86602783203125,
+            43.158843994140625,
+            1180.4697265625,
+            878.549072265625
+          ],
+          "crop": [
+            262,
+            0,
+            1264,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.25603359937667847
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172521.jpg",
+      "sha256": "020c040c4affb0fb2451b1dcb759d4bf9ff800f42dab2b10be7dc390fd2146de",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": null,
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            365.963623046875,
+            60.22845458984375,
+            1122.8531494140625,
+            782.6624755859375
+          ],
+          "crop": [
+            290,
+            0,
+            1199,
+            855
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.574619710445404
+        },
+        {
+          "fruit_id": 1,
+          "bbox": [
+            363.122314453125,
+            75.64111328125,
+            1126.5087890625,
+            789.3048095703125
+          ],
+          "crop": [
+            286,
+            4,
+            1203,
+            861
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.3199698030948639
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172524.jpg",
+      "sha256": "195f46347f1da43dc04aff89ff3402cced58d8905599999700a4ee3ead06ddd4",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        427,
+        195,
+        1123,
+        929
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            485.7140197753906,
+            256.544677734375,
+            1064.8043212890625,
+            867.4329833984375
+          ],
+          "crop": [
+            427,
+            195,
+            1123,
+            929
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.7201296091079712
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172528.jpg",
+      "sha256": "34f0cc5e41362913215a41166c045158a1adbaaf0c7376664197789c0500df01",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        203,
+        73,
+        1102,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            278.59625244140625,
+            147.25314331054688,
+            1026.802978515625,
+            888.072265625
+          ],
+          "crop": [
+            203,
+            73,
+            1102,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.8784105181694031
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213339.jpg",
+      "sha256": "a3019e38684b31b6df168304862a3a5479d3b4a320fad4ee749b1f5dac734c0c",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        329,
+        0,
+        1152,
+        813
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            398.1321716308594,
+            64.31985473632812,
+            1082.576416015625,
+            744.34912109375
+          ],
+          "crop": [
+            329,
+            0,
+            1152,
+            813
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.8824572563171387
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213345.jpg",
+      "sha256": "a7b44307e4f61af346b8d13ca748ab03ab3a9579ceffc6612d3c506eda9e3299",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        266,
+        8,
+        1087,
+        846
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            334.5868225097656,
+            78.12890625,
+            1018.1558837890625,
+            775.7025146484375
+          ],
+          "crop": [
+            266,
+            8,
+            1087,
+            846
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.8468211889266968
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213349.jpg",
+      "sha256": "d1fc082a52ffda512b6e8a3010492ffdae45570d9c954ef2c03a5fa867a65f07",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        257,
+        5,
+        1069,
+        843
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            324.7961730957031,
+            75.1414794921875,
+            1000.561279296875,
+            772.46875
+          ],
+          "crop": [
+            257,
+            5,
+            1069,
+            843
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.8827048540115356
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            820.3936157226562,
+            105.84349822998047,
+            989.1685791015625,
+            299.8896179199219
+          ],
+          "score": 0.754273533821106,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213417.jpg",
+      "sha256": "01f9f2786a6416d8ab227cd085b200123b8c49b0b85e8171370103f6e17bbf70",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        337,
+        0,
+        1140,
+        854
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            404.154052734375,
+            59.644439697265625,
+            1072.5184326171875,
+            781.312255859375
+          ],
+          "crop": [
+            337,
+            0,
+            1140,
+            854
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9087743759155273
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            578.7905883789062,
+            485.31207275390625,
+            658.3316040039062,
+            567.4021606445312
+          ],
+          "score": 0.5841664671897888,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213421.jpg",
+      "sha256": "5b7a0d2f08bc0feca6a338b1821556d3710656a13432a3129fbb6280f6966b25",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        233,
+        59,
+        1085,
+        947
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            304.6586608886719,
+            133.63482666015625,
+            1013.322998046875,
+            872.853515625
+          ],
+          "crop": [
+            233,
+            59,
+            1085,
+            947
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.925081729888916
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213500.jpg",
+      "sha256": "3702969abf6fb59cbebf29a17802bcb114bbd0bbe7cf5bb7ec7a4630c08c03bb",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        185,
+        0,
+        1006,
+        806
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            253.70098876953125,
+            28.291717529296875,
+            937.064697265625,
+            734.7351684570312
+          ],
+          "crop": [
+            185,
+            0,
+            1006,
+            806
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9146471619606018
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            658.946533203125,
+            412.1502990722656,
+            864.0736694335938,
+            511.5263671875
+          ],
+          "score": 0.570612907409668,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213505.jpg",
+      "sha256": "ad135c7e59fe10039df88b6dbb249aabd7d53b71e2b282eaef0d6c81578901f9",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        297,
+        23,
+        1200,
+        942
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            372.9577941894531,
+            99.8355712890625,
+            1124.34619140625,
+            865.1116943359375
+          ],
+          "crop": [
+            297,
+            23,
+            1200,
+            942
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.6159586906433105
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213510.jpg",
+      "sha256": "a51c9bb63539c9bf82ceb2c4d0989d8cd540667f0620db0b79bdc1a3c4089011",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": null,
+      "fruits": [],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213514.jpg",
+      "sha256": "b38fbb8fc96b54ee6c8a81efc98f10427ed2d686e74c5597a622b4fc188e3bb2",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        228,
+        1,
+        1156,
+        909
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            305.9782409667969,
+            77.50009155273438,
+            1078.2752685546875,
+            832.8430786132812
+          ],
+          "crop": [
+            228,
+            1,
+            1156,
+            909
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9287653565406799
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            757.267822265625,
+            592.1646118164062,
+            889.3350830078125,
+            764.0039672851562
+          ],
+          "score": 0.5506255030632019,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213533.jpg",
+      "sha256": "a48670f0d5a3ec6d0236f7910c1f36bb53d01654d6305091b324d2793f1713ee",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        208,
+        126,
+        1017,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            276.03363037109375,
+            196.996337890625,
+            948.87451171875,
+            898.5185546875
+          ],
+          "crop": [
+            208,
+            126,
+            1017,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9138570427894592
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213537.jpg",
+      "sha256": "5bfc090f34ae7e8c2a9e4598b4ddd7aa64dca1bd962d33a5d37c27316987382f",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 0,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        203,
+        117,
+        1028,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            272.0652160644531,
+            188.55816650390625,
+            958.6014404296875,
+            900.2764892578125
+          ],
+          "crop": [
+            203,
+            117,
+            1028,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.814335286617279
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230419_165355.jpg",
+      "sha256": "25a1ba11f12cc7c0652f00ec44d314bf353e72238d6aa5dbbdd1bd23833a4c8f",
+      "split": "val",
+      "group_id": "burst_0198",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        166,
+        75,
+        776,
+        698
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            217.14697265625,
+            127.47216796875,
+            725.019775390625,
+            645.9459228515625
+          ],
+          "crop": [
+            166,
+            75,
+            776,
+            698
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9752181172370911
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230419_165402.jpg",
+      "sha256": "0278317dde8ff48ff20abf7b0f89695d5a919988bd1090d21f9e2531ef260532",
+      "split": "val",
+      "group_id": "burst_0198",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        193,
+        165,
+        799,
+        788
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            243.73446655273438,
+            217.29910278320312,
+            747.6165771484375,
+            735.657958984375
+          ],
+          "crop": [
+            193,
+            165,
+            799,
+            788
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.978249192237854
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_172449.jpg",
+      "sha256": "1e82a7a1a73908ecf6942e744ab9317ca41f576c1c4c5d18f843434cb5046ace",
+      "split": "val",
+      "group_id": "burst_0000",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        72,
+        0,
+        1136,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            161.162353515625,
+            50.9471435546875,
+            1047.3245849609375,
+            946.62255859375
+          ],
+          "crop": [
+            72,
+            0,
+            1136,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9562249779701233
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213327.jpg",
+      "sha256": "8227da374fc394cf7bf35a60fc9d7a39a7e569df277769417b292f9de1483740",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        203,
+        3,
+        1053,
+        878
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            274.07855224609375,
+            76.3309326171875,
+            981.6242065429688,
+            804.8427734375
+          ],
+          "crop": [
+            203,
+            3,
+            1053,
+            878
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.5688144564628601
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            706.8516235351562,
+            713.8260498046875,
+            768.1041870117188,
+            769.4325561523438
+          ],
+          "score": 0.9068358540534973,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        },
+        {
+          "bbox": [
+            540.7589721679688,
+            717.5382080078125,
+            609.779052734375,
+            775.3283081054688
+          ],
+          "score": 0.8387250304222107,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        },
+        {
+          "bbox": [
+            700.6216430664062,
+            519.2398071289062,
+            873.1517333984375,
+            626.346435546875
+          ],
+          "score": 0.7291556596755981,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "sha256": "6c16843064110ae6b21231dfda5dd9117c03889e18b39a3609a3b57693baa4a9",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        165,
+        0,
+        1053,
+        887
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            239.13092041015625,
+            73.37539672851562,
+            978.9725341796875,
+            812.9534301757812
+          ],
+          "crop": [
+            165,
+            0,
+            1053,
+            887
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.5765674710273743
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            719.9159545898438,
+            501.4571533203125,
+            784.3306274414062,
+            569.5107421875
+          ],
+          "score": 0.9063665270805359,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        },
+        {
+          "bbox": [
+            637.9751586914062,
+            157.27838134765625,
+            844.1068115234375,
+            252.48731994628906
+          ],
+          "score": 0.7562841176986694,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213354.jpg",
+      "sha256": "fd9d9832031305e3e8578a1e53f8c10306cb453b7261244b7c4e265d456cf2eb",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        338,
+        96,
+        1190,
+        960
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            409.60699462890625,
+            168.89569091796875,
+            1118.6534423828125,
+            890.756591796875
+          ],
+          "crop": [
+            338,
+            96,
+            1190,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9130459427833557
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            419.03399658203125,
+            458.0439453125,
+            654.5416870117188,
+            603.9345703125
+          ],
+          "score": 0.8609671592712402,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213359.jpg",
+      "sha256": "0678fb4846c69c1b1af35449305bc54cfb5c67d3b6f18811aa92476cf000373a",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        232,
+        0,
+        1221,
+        950
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            314.4873046875,
+            33.917938232421875,
+            1138.2890625,
+            866.5926513671875
+          ],
+          "crop": [
+            232,
+            0,
+            1221,
+            950
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.552081286907196
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            777.0523681640625,
+            100.95659637451172,
+            867.3909912109375,
+            157.48130798339844
+          ],
+          "score": 0.8428207039833069,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213405.jpg",
+      "sha256": "46e97036afce29363679e2222f8e73e336f6bfd2d7d3ef24773bfdc40127d1c1",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": null,
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            1176.533935546875,
+            416.46826171875,
+            1276.179443359375,
+            724.3506469726562
+          ],
+          "crop": [
+            1166,
+            385,
+            1280,
+            756
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.8404061198234558
+        },
+        {
+          "fruit_id": 1,
+          "bbox": [
+            286.66943359375,
+            7.21258544921875,
+            1119.310302734375,
+            882.732421875
+          ],
+          "crop": [
+            203,
+            0,
+            1203,
+            960
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.648655116558075
+        },
+        {
+          "fruit_id": 2,
+          "bbox": [
+            1191.8966064453125,
+            0.4599609375,
+            1280.0,
+            138.730224609375
+          ],
+          "crop": [
+            1183,
+            0,
+            1280,
+            153
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.5535236597061157
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            930.0938720703125,
+            463.404052734375,
+            985.4811401367188,
+            517.3017578125
+          ],
+          "score": 0.5668757557868958,
+          "defect": "scratch",
+          "fruit_id": 1,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213412.jpg",
+      "sha256": "f103ad2e26afeb2a730d616ccfd5d225365bc714a26016c24078488bccb51971",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        283,
+        0,
+        1118,
+        825
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            352.8625793457031,
+            0.0,
+            1048.1246337890625,
+            749.5720825195312
+          ],
+          "crop": [
+            283,
+            0,
+            1118,
+            825
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.8491761088371277
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213425.jpg",
+      "sha256": "b507c305e2a93a71ec5ae127630122e56e521fd73a5af12c812773618233e22a",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        366,
+        4,
+        1258,
+        922
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            440.7319030761719,
+            80.99612426757812,
+            1183.114013671875,
+            844.8790893554688
+          ],
+          "crop": [
+            366,
+            4,
+            1258,
+            922
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.7268651723861694
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213442.jpg",
+      "sha256": "067ce78dc55f3d2e1f56d851c3b4692a5f8b998d15fa1b83b92fa3eca1278000",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        263,
+        112,
+        1099,
+        949
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            333.16229248046875,
+            182.44552612304688,
+            1028.6363525390625,
+            878.68896484375
+          ],
+          "crop": [
+            263,
+            112,
+            1099,
+            949
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9337847828865051
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            601.7282104492188,
+            625.8604736328125,
+            754.4196166992188,
+            734.6483154296875
+          ],
+          "score": 0.6479020118713379,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213446.jpg",
+      "sha256": "2d05d70a827416471a06b63a5ab24c00f72e58a6e2b9cebd034e17a25b7763c5",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        298,
+        0,
+        1211,
+        816
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            374.43084716796875,
+            18.671234130859375,
+            1134.67724609375,
+            742.9302368164062
+          ],
+          "crop": [
+            298,
+            0,
+            1211,
+            816
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9135377407073975
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213455.jpg",
+      "sha256": "ad031a20b64454d62a62eabfe16e9250b56bbe69f16838549836acaf84b5e3fa",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        217,
+        64,
+        984,
+        866
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            281.3057861328125,
+            131.35906982421875,
+            919.96923828125,
+            798.976318359375
+          ],
+          "crop": [
+            217,
+            64,
+            984,
+            866
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.9351750612258911
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            490.882080078125,
+            485.5539855957031,
+            589.7063598632812,
+            566.828857421875
+          ],
+          "score": 0.8714976906776428,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        },
+        {
+          "bbox": [
+            595.3424072265625,
+            425.0277099609375,
+            719.004638671875,
+            596.1273803710938
+          ],
+          "score": 0.48982033133506775,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213541.jpg",
+      "sha256": "ab37ea4f7dad0d10c9f37c2bcbbeb3a144aded8c77d4fc9d4f7b965443c44db1",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        176,
+        70,
+        993,
+        921
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            244.12664794921875,
+            141.72076416015625,
+            924.80419921875,
+            849.9609985351562
+          ],
+          "crop": [
+            176,
+            70,
+            993,
+            921
+          ],
+          "maturity": "immature",
+          "maturity_score": 0.686486542224884
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213546.jpg",
+      "sha256": "1fb73d8d51d5ff3b269928de415985cfc09a754e67f4e9bc72b5f538ff367c20",
+      "split": "val",
+      "group_id": "burst_0089",
+      "grade": 1,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": null,
+      "fruits": [],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230419_165319.jpg",
+      "sha256": "bd43d8343ed8e63cb0878c0779b83b23c9e941dfbb8922ad3eaae1f61ca18efd",
+      "split": "val",
+      "group_id": "burst_0198",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        319,
+        231,
+        860,
+        748
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            364.4592590332031,
+            274.44122314453125,
+            814.4226684570312,
+            704.7413330078125
+          ],
+          "crop": [
+            319,
+            231,
+            860,
+            748
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.6677387952804565
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            696.416748046875,
+            365.7307434082031,
+            749.8252563476562,
+            421.2369689941406
+          ],
+          "score": 0.4042183756828308,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230419_165325.jpg",
+      "sha256": "a51b3038a73f54b9b47077b32d7dd397aa44156e9ed300f59563b0b8379dc8e4",
+      "split": "val",
+      "group_id": "burst_0198",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        426,
+        283,
+        983,
+        849
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            473.27972412109375,
+            330.32464599609375,
+            936.6307373046875,
+            801.3612060546875
+          ],
+          "crop": [
+            426,
+            283,
+            983,
+            849
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9768123030662537
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230419_165335.jpg",
+      "sha256": "4d51ba67761089f8ab23c0e53e6ea734b01385506507fbdf7e9f86b31d30b7ec",
+      "split": "val",
+      "group_id": "burst_0198",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        329,
+        134,
+        968,
+        743
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            382.27850341796875,
+            185.01980590820312,
+            913.9857177734375,
+            691.7623291015625
+          ],
+          "crop": [
+            329,
+            134,
+            968,
+            743
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9701299667358398
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230419_165347.jpg",
+      "sha256": "75bd748b62922201ade5ba9ff68d60e3949c0b98b60be7a5d084b1842846a027",
+      "split": "val",
+      "group_id": "burst_0198",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        360,
+        110,
+        891,
+        656
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            405.08819580078125,
+            156.21926879882812,
+            846.158935546875,
+            609.8468017578125
+          ],
+          "crop": [
+            360,
+            110,
+            891,
+            656
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9752894639968872
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130649.jpg",
+      "sha256": "b461ada1cbd09384f70c331cd2b82ca89370c0dda6e9b665c15d356cbd3f02be",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        213,
+        69,
+        967,
+        832
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            276.4638366699219,
+            132.60546875,
+            904.014404296875,
+            767.713134765625
+          ],
+          "crop": [
+            213,
+            69,
+            967,
+            832
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.970088541507721
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130655.jpg",
+      "sha256": "6192fddf0b39dee6b0ca7412b486aed5c34bf8a57cfaa23ae61e72786469bb19",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        508,
+        165,
+        1085,
+        761
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            556.80859375,
+            215.49481201171875,
+            1036.7330322265625,
+            711.3662109375
+          ],
+          "crop": [
+            508,
+            165,
+            1085,
+            761
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9669216275215149
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130658.jpg",
+      "sha256": "4c667d0a4ee768b0c8fb926b46e630866d3e4669baf5d11dff529d1d4351ad5a",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        242,
+        0,
+        966,
+        610
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            302.3958740234375,
+            0.0,
+            905.078857421875,
+            554.1990966796875
+          ],
+          "crop": [
+            242,
+            0,
+            966,
+            610
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9745074510574341
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130700.jpg",
+      "sha256": "afce900d83ba26dad81e89bb368c367beef77f37038ae0590546ad36eb5a6b5f",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        261,
+        0,
+        954,
+        662
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            319.1065673828125,
+            41.75140380859375,
+            895.6519775390625,
+            604.7740478515625
+          ],
+          "crop": [
+            261,
+            0,
+            954,
+            662
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.8537020683288574
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            580.267333984375,
+            317.6253662109375,
+            770.9708251953125,
+            456.2329406738281
+          ],
+          "score": 0.6010292768478394,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        },
+        {
+          "bbox": [
+            577.7683715820312,
+            149.32907104492188,
+            921.8629760742188,
+            536.8211669921875
+          ],
+          "score": 0.557857871055603,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130707.jpg",
+      "sha256": "28cfcc5c3a688ae3cc6623bafcc5516869ddd434042f17fa4d332d71f956953a",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        315,
+        123,
+        985,
+        811
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            370.99853515625,
+            180.5457763671875,
+            928.895751953125,
+            753.510498046875
+          ],
+          "crop": [
+            315,
+            123,
+            985,
+            811
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9704647660255432
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            352.3618469238281,
+            342.71044921875,
+            535.4269409179688,
+            514.470947265625
+          ],
+          "score": 0.8820033073425293,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        },
+        {
+          "bbox": [
+            622.91064453125,
+            472.5458679199219,
+            888.1965942382812,
+            794.9291381835938
+          ],
+          "score": 0.7179161310195923,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130714.jpg",
+      "sha256": "bba40ba0db9f8de4f8f51f719b0925713f905846cdc23d4886ba5d9a22835717",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        285,
+        17,
+        903,
+        652
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            336.94378662109375,
+            70.71774291992188,
+            851.2525024414062,
+            598.253173828125
+          ],
+          "crop": [
+            285,
+            17,
+            903,
+            652
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.931907057762146
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130728.jpg",
+      "sha256": "df2c9f585f836cf81d97b93f5912d3d9b79e811ff3eeb2f19cd84336b8747eda",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        270,
+        0,
+        945,
+        673
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            326.57073974609375,
+            37.568115234375,
+            888.46728515625,
+            614.3257446289062
+          ],
+          "crop": [
+            270,
+            0,
+            945,
+            673
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9681182503700256
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130731.jpg",
+      "sha256": "805f7fcb5529d4d772b2e7617a923396ec31cb1262e16a88d0e166d51371c3c2",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        281,
+        87,
+        936,
+        764
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            336.1997375488281,
+            144.14324951171875,
+            880.8724975585938,
+            707.5743408203125
+          ],
+          "crop": [
+            281,
+            87,
+            936,
+            764
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9783282279968262
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130734.jpg",
+      "sha256": "50bf80b7bce6b7f563ad105735b16e9b85b0debb38a64a61b7f3519412f80f94",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        315,
+        0,
+        978,
+        655
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            370.2935791015625,
+            25.8404541015625,
+            921.8931274414062,
+            597.7835693359375
+          ],
+          "crop": [
+            315,
+            0,
+            978,
+            655
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.8051019906997681
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130737.jpg",
+      "sha256": "711967ee5ed17bea738de96199bcaf9ef92a763c14b0959d9d6684e1e9a02e11",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        432,
+        13,
+        1016,
+        612
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            481.5802307128906,
+            63.0267333984375,
+            967.4060668945312,
+            561.7332763671875
+          ],
+          "crop": [
+            432,
+            13,
+            1016,
+            612
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9772959351539612
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            677.58251953125,
+            459.6329040527344,
+            772.0360107421875,
+            535.7716674804688
+          ],
+          "score": 0.5547611713409424,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130743.jpg",
+      "sha256": "0e402e9ae264dfac9eba6c83e6a4f3ee6816bcfb6f6d44678406ae7e9f057e09",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        252,
+        0,
+        946,
+        601
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            310.4005126953125,
+            0.25146484375,
+            887.4263916015625,
+            546.05419921875
+          ],
+          "crop": [
+            252,
+            0,
+            946,
+            601
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9690223932266235
+        }
+      ],
+      "defects": []
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230425_130748.jpg",
+      "sha256": "177f1cd1e436299938735c6f8e170928ce2d0d25fff00ab49f5bd761c3293755",
+      "split": "val",
+      "group_id": "burst_0418",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        454,
+        232,
+        997,
+        770
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            499.54730224609375,
+            277.0157165527344,
+            951.6067504882812,
+            724.6671752929688
+          ],
+          "crop": [
+            454,
+            232,
+            997,
+            770
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9642418622970581
+        }
+      ],
+      "defects": [
+        {
+          "bbox": [
+            616.711669921875,
+            331.7685241699219,
+            805.3285522460938,
+            503.30645751953125
+          ],
+          "score": 0.7812628149986267,
+          "defect": "scratch",
+          "fruit_id": 0,
+          "association": "unique"
+        }
+      ]
+    },
+    {
+      "path": "datasets/afruitdb_apples_v1/original_photos/3rd grade/IMG_20230426_171227.jpg",
+      "sha256": "624e77d3f0da2cc853815a9d63a3cc5a4f2a3b6ce5f21639d27f714f85247785",
+      "split": "val",
+      "group_id": "burst_0474",
+      "grade": 2,
+      "hw": [
+        960,
+        1280
+      ],
+      "crop": [
+        305,
+        126,
+        909,
+        770
+      ],
+      "fruits": [
+        {
+          "fruit_id": 0,
+          "bbox": [
+            355.3652038574219,
+            180.4427490234375,
+            858.1118774414062,
+            716.2892456054688
+          ],
+          "crop": [
+            305,
+            126,
+            909,
+            770
+          ],
+          "maturity": "mature",
+          "maturity_score": 0.9811223745346069
+        }
+      ],
+      "defects": []
+    }
+  ],
+  "counts": {
+    "images": 57,
+    "eligible": 51,
+    "lesions": 23,
+    "unique_lesions": 23
+  },
+  "split": "val",
+  "frame_long_edge": 1280,
+  "stage_sha": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "defect_parent_sha": "a8ce9e6c9035e1c1c8a2ff6c1907b4d98272e1e33e64d31e3d27c4b43ef8d980",
+  "defect_warm_sha": "5e07009ec94310bd01bfd6c257ff8df853d3eef36c25de15e7f8483706fabd93"
+}

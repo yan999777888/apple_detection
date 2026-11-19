@@ -1,0 +1,36 @@
+{
+  "train": {
+    "0": {
+      "all": 117,
+      "one": 99,
+      "with_lesion_hint": 27
+    },
+    "1": {
+      "all": 120,
+      "one": 89,
+      "with_lesion_hint": 28
+    },
+    "2": {
+      "all": 78,
+      "one": 55,
+      "with_lesion_hint": 19
+    }
+  },
+  "val": {
+    "0": {
+      "all": 25,
+      "one": 21,
+      "with_lesion_hint": 5
+    },
+    "1": {
+      "all": 15,
+      "one": 13,
+      "with_lesion_hint": 6
+    },
+    "2": {
+      "all": 17,
+      "one": 17,
+      "with_lesion_hint": 5
+    }
+  }
+}

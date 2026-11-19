@@ -1,0 +1,17 @@
+{
+  "excluded": "All AFruitDB and Harvard annotations",
+  "fit_sources": {
+    "SSDA": 26,
+    "Woo": 191,
+    "PennState": 6
+  },
+  "dev": {
+    "n": 37,
+    "true_positive": 9,
+    "false_positive": 17,
+    "positive": 9,
+    "normal": 28,
+    "matched_pairs": 6,
+    "matched_positive_rank_fraction": 0.8333333333333334
+  }
+}

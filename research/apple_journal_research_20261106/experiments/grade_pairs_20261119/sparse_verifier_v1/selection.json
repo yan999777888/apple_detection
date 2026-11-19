@@ -1,0 +1,113 @@
+{
+  "architecture": "native320_sparse_grade_pairs_20261119",
+  "input_side": 320,
+  "threshold": 1.0,
+  "weights_sha256": "32ca6f03cfe7741d7b0948fcd0eb4cac9506d8bcf4584d10b509171bcc9219dc",
+  "protocol_sha256": "1582e0cca4007a12498f3ce29c16ef43e0121b6b959cef31f3f0d8c885533b6c",
+  "metrics": {
+    "auto": {
+      "n": 57,
+      "confusion": [
+        [
+          19,
+          2,
+          0,
+          4
+        ],
+        [
+          3,
+          8,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "recall": [
+        0.76,
+        0.5333333333333333,
+        1.0
+      ],
+      "good": 19,
+      "mild": 8,
+      "severe": 17,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 44
+    },
+    "whole": {
+      "n": 57,
+      "confusion": [
+        [
+          23,
+          2,
+          0,
+          0
+        ],
+        [
+          6,
+          7,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "recall": [
+        0.92,
+        0.4666666666666667,
+        1.0
+      ],
+      "good": 23,
+      "mild": 7,
+      "severe": 17,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 47
+    },
+    "guard": {
+      "n": 1,
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "recall": [
+        null,
+        1.0,
+        null
+      ],
+      "good": 0,
+      "mild": 1,
+      "severe": 0,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 1
+    }
+  },
+  "step": 240,
+  "passed": false
+}

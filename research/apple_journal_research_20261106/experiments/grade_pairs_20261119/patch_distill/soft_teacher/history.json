@@ -1,0 +1,930 @@
+[
+  {
+    "step": 30,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            15,
+            6,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.6,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 15,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 42
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            12,
+            13,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.48,
+          0.8,
+          1.0
+        ],
+        "good": 12,
+        "mild": 12,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 41
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "rank": [
+      false,
+      3,
+      10,
+      15,
+      17,
+      12,
+      12
+    ]
+  },
+  {
+    "step": 60,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            12,
+            9,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.48,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 12,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 39
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            8,
+            17,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.32,
+          0.8,
+          1.0
+        ],
+        "good": 8,
+        "mild": 12,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 37
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "rank": [
+      false,
+      3,
+      10,
+      12,
+      17,
+      12,
+      8
+    ]
+  },
+  {
+    "step": 90,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            11,
+            10,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.44,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 11,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 38
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            8,
+            17,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.32,
+          0.8,
+          1.0
+        ],
+        "good": 8,
+        "mild": 12,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 37
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "rank": [
+      false,
+      3,
+      10,
+      11,
+      17,
+      12,
+      8
+    ]
+  },
+  {
+    "step": 120,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            13,
+            8,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.52,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 13,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 40
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            12,
+            13,
+            0,
+            0
+          ],
+          [
+            2,
+            11,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.48,
+          0.7333333333333333,
+          1.0
+        ],
+        "good": 12,
+        "mild": 11,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 40
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "rank": [
+      false,
+      3,
+      10,
+      13,
+      17,
+      11,
+      12
+    ]
+  },
+  {
+    "step": 150,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            12,
+            9,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.48,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 12,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 39
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            9,
+            16,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.36,
+          0.8,
+          1.0
+        ],
+        "good": 9,
+        "mild": 12,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 38
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "rank": [
+      false,
+      3,
+      10,
+      12,
+      17,
+      12,
+      9
+    ]
+  },
+  {
+    "step": 180,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            13,
+            8,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.52,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 13,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 40
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            11,
+            14,
+            0,
+            0
+          ],
+          [
+            3,
+            10,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.44,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 11,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 38
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "rank": [
+      false,
+      3,
+      10,
+      13,
+      17,
+      10,
+      11
+    ]
+  },
+  {
+    "step": 210,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            13,
+            8,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.52,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 13,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 40
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            11,
+            14,
+            0,
+            0
+          ],
+          [
+            2,
+            11,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.44,
+          0.7333333333333333,
+          1.0
+        ],
+        "good": 11,
+        "mild": 11,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 39
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "rank": [
+      false,
+      3,
+      10,
+      13,
+      17,
+      11,
+      11
+    ]
+  },
+  {
+    "step": 240,
+    "metrics": {
+      "auto": {
+        "n": 57,
+        "confusion": [
+          [
+            13,
+            8,
+            0,
+            4
+          ],
+          [
+            1,
+            10,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.52,
+          0.6666666666666666,
+          1.0
+        ],
+        "good": 13,
+        "mild": 10,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 40
+      },
+      "whole": {
+        "n": 57,
+        "confusion": [
+          [
+            11,
+            14,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            17,
+            0
+          ]
+        ],
+        "recall": [
+          0.44,
+          0.8,
+          1.0
+        ],
+        "good": 11,
+        "mild": 12,
+        "severe": 17,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 40
+      },
+      "guard": {
+        "n": 1,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "recall": [
+          null,
+          1.0,
+          null
+        ],
+        "good": 0,
+        "mild": 1,
+        "severe": 0,
+        "severe_good": 0,
+        "good_severe": 0,
+        "correct": 1
+      }
+    },
+    "rank": [
+      false,
+      3,
+      10,
+      13,
+      17,
+      12,
+      11
+    ]
+  }
+]

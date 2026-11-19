@@ -1,0 +1,101 @@
+{
+  "counts": {
+    "fresh": 50,
+    "mid": 36,
+    "rotten": 62
+  },
+  "exact_distinct_images": 148,
+  "near_pair_count": 81,
+  "cross_folder_nearest": [
+    {
+      "a": "Dataset_1\\mid\\16.jpeg",
+      "b": "Dataset_1\\rotten\\23 (2).jpeg",
+      "mad": 7.223,
+      "phash_bits": 6,
+      "corr": 0.979
+    },
+    {
+      "a": "Dataset_1\\mid\\16.jpeg",
+      "b": "Dataset_1\\rotten\\10 (2).jpeg",
+      "mad": 9.262,
+      "phash_bits": 8,
+      "corr": 0.959
+    },
+    {
+      "a": "Dataset_1\\mid\\50.jpeg",
+      "b": "Dataset_1\\rotten\\48 (2).jpeg",
+      "mad": 12.803,
+      "phash_bits": 16,
+      "corr": 0.959
+    },
+    {
+      "a": "Dataset_1\\mid\\50.jpeg",
+      "b": "Dataset_1\\rotten\\46 (2).jpeg",
+      "mad": 19.463,
+      "phash_bits": 30,
+      "corr": 0.882
+    },
+    {
+      "a": "Dataset_1\\fresh\\41.jpeg",
+      "b": "Dataset_1\\mid\\1.jpeg",
+      "mad": 19.705,
+      "phash_bits": 22,
+      "corr": 0.807
+    }
+  ],
+  "strict_cross_candidate_pairs": [
+    {
+      "a": "Dataset_1\\mid\\16.jpeg",
+      "b": "Dataset_1\\rotten\\10 (2).jpeg",
+      "mad": 9.262,
+      "phash_bits": 8,
+      "corr": 0.959
+    },
+    {
+      "a": "Dataset_1\\mid\\16.jpeg",
+      "b": "Dataset_1\\rotten\\23 (2).jpeg",
+      "mad": 7.223,
+      "phash_bits": 6,
+      "corr": 0.979
+    }
+  ],
+  "example_neardupes": [
+    {
+      "a": "Dataset_1\\fresh\\18.jpeg",
+      "b": "Dataset_1\\fresh\\20.jpeg",
+      "mad": 1.437,
+      "phash_bits": 2,
+      "corr": 0.999
+    },
+    {
+      "a": "Dataset_1\\mid\\40.jpeg",
+      "b": "Dataset_1\\mid\\42.jpeg",
+      "mad": 2.476,
+      "phash_bits": 4,
+      "corr": 0.997
+    },
+    {
+      "a": "Dataset_1\\mid\\17.jpeg",
+      "b": "Dataset_1\\mid\\24.jpeg",
+      "mad": 2.615,
+      "phash_bits": 0,
+      "corr": 0.997
+    },
+    {
+      "a": "Dataset_1\\mid\\12.jpeg",
+      "b": "Dataset_1\\mid\\18.jpeg",
+      "mad": 2.884,
+      "phash_bits": 2,
+      "corr": 0.997
+    },
+    {
+      "a": "Dataset_1\\rotten\\36.jpeg",
+      "b": "Dataset_1\\rotten\\41.jpeg",
+      "mad": 3.399,
+      "phash_bits": 4,
+      "corr": 0.995
+    }
+  ],
+  "rule": "64x64 direct color MAE<15/255, pHash Hamming<=8, flattened RGB correlation>0.92. Conservative screening only; different crops of repeated poses can evade this test.",
+  "license_note": "Article CC BY; file repo lacks standalone license or working archival DOI in README. No test inclusion."
+}

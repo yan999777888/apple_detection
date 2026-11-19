@@ -1,0 +1,11 @@
+{
+  "real_images": 102,
+  "paired_views": 98,
+  "mark_views": 33,
+  "normal_control_views": 65,
+  "unique_mark_photos": 23,
+  "source_counts": {
+    "AF": 80,
+    "Woo": 58
+  }
+}

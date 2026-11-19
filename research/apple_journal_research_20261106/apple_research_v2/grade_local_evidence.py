@@ -33,6 +33,15 @@ class LocalEvidenceGrade(nn.Module):
 
 
 def architecture_model(name):
+    if name == "native320_sparse_grounded_pairs_20261119":
+        from grade_pairs_context_20261119 import ContextGrade
+        return ContextGrade()
+    if name == "woo_dinov2_capture_contrast_v1":
+        from grade_capture_contrast import CaptureContrastGrade
+        return CaptureContrastGrade()
+    if name == "native320_sparse_grade_pairs_20261119":
+        from grade_pairs_20261119 import PairGrade
+        return PairGrade()
     if name == "mobilenet_v3_small_native320_patch_v1":
         from grade_detail_patch import NativePatchGrade
         return NativePatchGrade()

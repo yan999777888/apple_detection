@@ -1,0 +1,18 @@
+{
+  "seed": 61119,
+  "steps": 400,
+  "checks_every": 40,
+  "adamw_lr": 0.00035,
+  "dino": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "woo": "acb463fbe3c7d258695a5ae0c3a50e5af61affa50e848de26c270c727a7e117c",
+  "input_manifests": [
+    "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+    "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+    "cbb15662fa4067f3a2f2a0d6e9bb514daf07c74d3c564ce94f2da31006631477"
+  ],
+  "fitting": "Only train. Both arms see identical source/class/group-balanced rows and identical pairs. Differ solely by coefficient of ordinal pair loss 0 or 0.65. Pair different labels within AF burst, Woo station or FruitLife specimen. Woo weak scuff and FruitLife storage stages retained as proxies.",
+  "ranking": "all development safety + auto mild at least 6; then safety count, auto mild, good, severe, whole mild, good; ties keep earlier checkpoint",
+  "parameters": "Only final small multilayer head learns. Freeze Woo and DINOv2 encoders. CPU FP32 DINO, CUDA FP16 autocast DINO. Use native 224 preprocessing and fixed argmax.",
+  "code": "2998d4c1dd1e778acec57538f8c32d8abd68e2d1c7b8b72db7024617507367f5",
+  "model_code": "1d7206dd615324211e8c5b0de36abcd4b2683352f1e23f0bdf373b789a60c4af"
+}

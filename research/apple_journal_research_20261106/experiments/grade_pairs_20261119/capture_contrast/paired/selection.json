@@ -1,0 +1,113 @@
+{
+  "architecture": "woo_dinov2_capture_contrast_v1",
+  "threshold": 1.0,
+  "input_side": 224,
+  "weights_sha256": "5d47799eee4da52c0fcf7edaf5d489e5d2621555002849b086531c5ba1b60b99",
+  "step": 40,
+  "metrics": {
+    "auto": {
+      "n": 57,
+      "confusion": [
+        [
+          20,
+          1,
+          0,
+          4
+        ],
+        [
+          9,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "recall": [
+        0.8,
+        0.2,
+        1.0
+      ],
+      "good": 20,
+      "mild": 3,
+      "severe": 17,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 40
+    },
+    "whole": {
+      "n": 57,
+      "confusion": [
+        [
+          23,
+          2,
+          0,
+          0
+        ],
+        [
+          9,
+          4,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "recall": [
+        0.92,
+        0.26666666666666666,
+        1.0
+      ],
+      "good": 23,
+      "mild": 4,
+      "severe": 17,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 44
+    },
+    "guard": {
+      "n": 1,
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "recall": [
+        null,
+        1.0,
+        null
+      ],
+      "good": 0,
+      "mild": 1,
+      "severe": 0,
+      "severe_good": 0,
+      "good_severe": 0,
+      "correct": 1
+    }
+  },
+  "passed": false,
+  "protocol_sha256": "3f0f7658e9e98cb7b3838e45ae063c344f0f7affdf2965f72b125c0bc544d4db"
+}

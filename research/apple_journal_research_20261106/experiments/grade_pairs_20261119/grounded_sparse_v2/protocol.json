@@ -1,0 +1,16 @@
+{
+  "architecture": "native320_sparse_grounded_pairs_20261119",
+  "parent_sparse": "32ca6f03cfe7741d7b0948fcd0eb4cac9506d8bcf4584d10b509171bcc9219dc",
+  "reference_native": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "steps": 360,
+  "checkpoint_every": 30,
+  "seed": 561901,
+  "initial": "previous learned verifier and native320 parent frozen",
+  "method": "One calibrated local head uses candidate type, scale, local/ring skin occupancy, reflection, border support, native parent mark-map responses and frozen patch descriptor. Train true centered regions and same-domain annotated normal regions, plus highest-scoring false locations from each source on each labeled clean training face.",
+  "decisions": "Prior severe protected. Return a mild fruit to good only when separate whole-face visual cleanliness trained on actual grades supports release and two valid patches exist.",
+  "inputs": "AF train/val and already approved existing train or source validation only; no access to field outputs.",
+  "policy_sha256": "8cc10f6b584b9b6c0bc97ab90b1319de4784f785c511bf97eb094d9e703de88e",
+  "regions": "2e542fe808e75f776f5505b861c76e70036a642ed36bd00766e1ef03071e6ce9",
+  "code": "899acaf0ff885372bd259e51ccb97d66bf990fb3fdacfb23f66e74bddcd6d54f",
+  "model": "20f668ee4916688fa7bb813476d4e581e566629bad1ba23023c538ac87ab9e2d"
+}

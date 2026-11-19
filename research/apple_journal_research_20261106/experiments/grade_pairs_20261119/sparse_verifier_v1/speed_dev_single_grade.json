@@ -1,0 +1,7 @@
+{
+  "n": 96,
+  "mean_ms": 33.78516562285464,
+  "p95_ms": 45.87314998207148,
+  "fps": 29.598789337398728,
+  "scope": "One real detected fruit and its existing hints: grade + preparation only; no detector, maturity, overlay, source I/O or 3D."
+}

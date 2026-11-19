@@ -1,0 +1,13 @@
+{
+  "source": "2e542fe808e75f776f5505b861c76e70036a642ed36bd00766e1ef03071e6ce9",
+  "dino": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "parent": "32ca6f03cfe7741d7b0948fcd0eb4cac9506d8bcf4584d10b509171bcc9219dc",
+  "seed": 721119,
+  "steps": 240,
+  "lr": 0.0004,
+  "coef": [
+    0,
+    0.9
+  ],
+  "decision": "Fixed argmax and existing 8-proposal architecture. Both arms start from the same frozen sparse run, same train image exposures. The teacher for proposals on AF and Harvard excludes all AF/Harvard patch labels. No synthetic grade assigned to uncertified apple areas. Distill only soft probability on proposals and keep native supervised patches/fruit loss in both arms. Common development gate and automatic mild primary."
+}

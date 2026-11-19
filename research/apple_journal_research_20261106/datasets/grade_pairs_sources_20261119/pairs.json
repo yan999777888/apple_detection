@@ -1,0 +1,1349 @@
+{
+  "unit": "Each explicitly saved record describes its relation; same-photo pairs reuse sites and are not independent biological replicates. Same-station/burst = time-nearest opposite grade. Source and filename only do not establish physical identity.",
+  "eligible_cross_products": {
+    "woo_camera": 164,
+    "af_burst": 1078
+  },
+  "colour_only_used_for_fit": 0,
+  "counts": [
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "n": 10
+    },
+    {
+      "scope": "same_camera_trigger_different_views",
+      "source": "Woo",
+      "split": "train",
+      "n": 4
+    },
+    {
+      "scope": "same_documented_physical_apple_across_time",
+      "source": "FruitLife",
+      "split": "train",
+      "n": 3
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "n": 14
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "val",
+      "n": 6
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "n": 81
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "n": 11
+    }
+  ],
+  "pairs": [
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "5483fc8270ff8a92a797",
+      "normal": "3a342adad870813c5cbe",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "5483fc8270ff8a92a797",
+      "normal": "d3b8bdd1c903ad463e48",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "8a279b3a2c7e4c380909",
+      "normal": "72ea3463661679767e9c",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213651.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "e04bf675af62bfcbde1c",
+      "normal": "2ce3250bd124919e5f38",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213700.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "67d7197ac5d58fbac4c1",
+      "normal": "21b88b22300a176a5b58",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "0abb3d16e473798afd4b",
+      "normal": "21b88b22300a176a5b58",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "70fb41fd30bea47b5259",
+      "normal": "4b5ebd0b04324862828b",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "df7de54bb794f48bd8ac",
+      "normal": "4b5ebd0b04324862828b",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "b11f9e0c709c4eb4c4f1",
+      "normal": "95278a82e85759219f68",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213836.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "46e64cf55e7a47beff74",
+      "normal": "7a782f3209d1bca9ca81",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "cd06a5bc30d5cc7a6c60",
+      "normal": "7a782f3209d1bca9ca81",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "adceb44dc0927f2958b7",
+      "normal": "99e01d9a90981638481b",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214028.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "e8354dc9cda1e638876f",
+      "normal": "0dcc0e2f277405167621",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214038.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "0afdd20a74615ba9a82e",
+      "normal": "a56de6c981a481e3bc18",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214043.jpg",
+      "group_id": "burst_0100",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "c07f423bab531f9340e8",
+      "normal": "02f860a59be07167fa4f",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/8d48b7f812010b50bb57d1a8c94cd1ca8c5f8c202588276bafbaba88e4ac427d.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "c07f423bab531f9340e8",
+      "normal": "f82de432ffa44ddc4a0c",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/8d48b7f812010b50bb57d1a8c94cd1ca8c5f8c202588276bafbaba88e4ac427d.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "88b96e9e596508d43d73",
+      "normal": "7fa70b905e9a88431acc",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7cb706d9edac940f493fd1612a756d35ec1d400d8a468fd17a88bab283b84176.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "70ff532fdbba36481f97",
+      "normal": "7fa70b905e9a88431acc",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7cb706d9edac940f493fd1612a756d35ec1d400d8a468fd17a88bab283b84176.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "11f02a7e102cc3dc9778",
+      "normal": "55170d9660eb38ed3ea3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/908bd2194ab8cf488b4bb0943d4717cb6e3c42cba23efd547027498c55a27593.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "c8b3eb6dfebfaf0ccadc",
+      "normal": "55170d9660eb38ed3ea3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/908bd2194ab8cf488b4bb0943d4717cb6e3c42cba23efd547027498c55a27593.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "34722a586557fe190895",
+      "normal": "55170d9660eb38ed3ea3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/908bd2194ab8cf488b4bb0943d4717cb6e3c42cba23efd547027498c55a27593.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "2f76db0c9ab6dc4119ce",
+      "normal": "55170d9660eb38ed3ea3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/908bd2194ab8cf488b4bb0943d4717cb6e3c42cba23efd547027498c55a27593.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "37239478d0abe9c3ed11",
+      "normal": "b486691d822382c5e3f3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "b4f5869a43c6bab43a25",
+      "normal": "b486691d822382c5e3f3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "f7f8e70ee705138b1b04",
+      "normal": "b486691d822382c5e3f3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "524b2841ffc42dd77ce3",
+      "normal": "b486691d822382c5e3f3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "7f3c35f4a7757a2a0da3",
+      "normal": "b486691d822382c5e3f3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "046497f726bb32022422",
+      "normal": "b486691d822382c5e3f3",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca882dbf908ae2b45d399d602592b877039886bfbabe707777d87e06f4be92f8.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "5a30630d37b2f430dc2b",
+      "normal": "32be223fef716089a111",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/46835c681ae38c837c3e4ed977dce7ef2f82ed190bc40953ef705e5d7d160183.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "bcd36ceda1046b122b60",
+      "normal": "32be223fef716089a111",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/46835c681ae38c837c3e4ed977dce7ef2f82ed190bc40953ef705e5d7d160183.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "c44f7209f9fa6e11d418",
+      "normal": "32be223fef716089a111",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/46835c681ae38c837c3e4ed977dce7ef2f82ed190bc40953ef705e5d7d160183.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "767925985662a5a5c4ec",
+      "normal": "ee96a3a1c67892f11ca2",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/53a057244481c77f12023e3f2faebb6a0a5f679342d5d4e9c555201cd1190e71.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "a6ac00237c46561bcbb7",
+      "normal": "ee96a3a1c67892f11ca2",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/53a057244481c77f12023e3f2faebb6a0a5f679342d5d4e9c555201cd1190e71.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "a3943b2c2b88397324fc",
+      "normal": "ee96a3a1c67892f11ca2",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/53a057244481c77f12023e3f2faebb6a0a5f679342d5d4e9c555201cd1190e71.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "ae32a15db44cd888fb20",
+      "normal": "e8695fb4205145ac8893",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/98da8cf34ec8932963d72bd8de13f41b5fb443349e86884160250da4eb7d28d7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "e90e9d462167c2598f18",
+      "normal": "f620a9f32a61351ec949",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/f8ac7178b135c8989eeff89ba716013553ad071161a65099db918fa3a9bcbb0e.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "4e3c60b690b9838324ae",
+      "normal": "f620a9f32a61351ec949",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/f8ac7178b135c8989eeff89ba716013553ad071161a65099db918fa3a9bcbb0e.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "0d00a03cd59410f2f038",
+      "normal": "ffac53481db7f755b289",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/735b6c7e2eff39b458e1911eafaa0d485973e1292444475180f92c348fea6113.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "7bda52aa1e98c823fa05",
+      "normal": "68f8e64a7db4ad5426d1",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "1569163d5add9d0e2d82",
+      "normal": "68f8e64a7db4ad5426d1",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "d41b7d2437c5fed72e48",
+      "normal": "68f8e64a7db4ad5426d1",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "cffb3c893b4313e8c255",
+      "normal": "68f8e64a7db4ad5426d1",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "791f6cd58ab7f64fac13",
+      "normal": "68f8e64a7db4ad5426d1",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "2a1f562f4d23463bc849",
+      "normal": "68f8e64a7db4ad5426d1",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/0899c683de050faaf7e377a14030df02e58c7c9a28db374bd6f99cffb3f63cac.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "ce08f75a01d1f3782d0e",
+      "normal": "69e7ad60a870d36f548b",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ffd6621903de5f35da285ddcae532d80b39a609b4aab8365709406df0a1636af.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "cdf8e46eb4fbc128efda",
+      "normal": "69e7ad60a870d36f548b",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ffd6621903de5f35da285ddcae532d80b39a609b4aab8365709406df0a1636af.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "99704dbb6bf6650aae7b",
+      "normal": "9bc42ec0086250aca3a5",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/76608a41a691d123e2d93a3d3042773ffa2b7a1e3d922aa5e81f1f3fcb83452e.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "e44b15a7a008dc8c8517",
+      "normal": "8cf372766cba28482aec",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "9ca97d6acc82fbf7df63",
+      "normal": "8cf372766cba28482aec",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "0b06ecf536af9afb6271",
+      "normal": "8cf372766cba28482aec",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/3fc482639f28d7e980262a5631941e0175ec90cecfcd50f3eda68a7e1d2abb72.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "89b26b53560d09e79c48",
+      "normal": "0a67df66c785612d5003",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/2a2b61a4afcc4cf88e9b5a053a6f165f26c5f9d12c8b0d10a80c6776be7eee07.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "59739a1ac0ac3c3a768d",
+      "normal": "0a67df66c785612d5003",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/2a2b61a4afcc4cf88e9b5a053a6f165f26c5f9d12c8b0d10a80c6776be7eee07.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "e0f1646511edb63c48e2",
+      "normal": "0a67df66c785612d5003",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/2a2b61a4afcc4cf88e9b5a053a6f165f26c5f9d12c8b0d10a80c6776be7eee07.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "485536dc117f883070c1",
+      "normal": "0a67df66c785612d5003",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/2a2b61a4afcc4cf88e9b5a053a6f165f26c5f9d12c8b0d10a80c6776be7eee07.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "e781e5f29f1205756932",
+      "normal": "641f8b66619a8ddc8241",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e9a59270e6fcfe36d5bf7ff8e80453b34edf90501a99a261381d62bbb4664131.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "7ca00cf1c53825e14a9c",
+      "normal": "641f8b66619a8ddc8241",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e9a59270e6fcfe36d5bf7ff8e80453b34edf90501a99a261381d62bbb4664131.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "20f655b38a19343c3233",
+      "normal": "641f8b66619a8ddc8241",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e9a59270e6fcfe36d5bf7ff8e80453b34edf90501a99a261381d62bbb4664131.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "c50b2dea8acbf011c034",
+      "normal": "641f8b66619a8ddc8241",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e9a59270e6fcfe36d5bf7ff8e80453b34edf90501a99a261381d62bbb4664131.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "fb06e797c4a3ac782428",
+      "normal": "641f8b66619a8ddc8241",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e9a59270e6fcfe36d5bf7ff8e80453b34edf90501a99a261381d62bbb4664131.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "b760663db926f97ed2e5",
+      "normal": "704fe1c26d93e4fa2abc",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca365320ecb19b9b3bd242dafbac7d209035cdb328704f82462f5e3e812a1bc7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "f344f36df1ec581510bc",
+      "normal": "704fe1c26d93e4fa2abc",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca365320ecb19b9b3bd242dafbac7d209035cdb328704f82462f5e3e812a1bc7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "7c0013b41d6ad82d0839",
+      "normal": "704fe1c26d93e4fa2abc",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/ca365320ecb19b9b3bd242dafbac7d209035cdb328704f82462f5e3e812a1bc7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "38cb83a1379b15e22732",
+      "normal": "ab574b649beb62b605ca",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "38cb83a1379b15e22732",
+      "normal": "34aad09aa066c08f94b6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "03545c6fb2d8692e20cf",
+      "normal": "ab574b649beb62b605ca",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "03545c6fb2d8692e20cf",
+      "normal": "34aad09aa066c08f94b6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/23f211b0e70d3753475587e7a107b50d796bf4a58cfa5f496376100e34837332.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "9f82e40bfa509da4ddc6",
+      "normal": "1daf86f644c36944de37",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e3f954349922af973c0943e4e6c72adf45a2d2508bef594bfb03f8192ae32082.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "ca9f52537775e1a4633c",
+      "normal": "1daf86f644c36944de37",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/e3f954349922af973c0943e4e6c72adf45a2d2508bef594bfb03f8192ae32082.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "4a750ef4289db603a89f",
+      "normal": "ed3398f2fc83768fd7b0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7e7d6d9b55bc5807f094f0708121af19e93be245a6f91dea44e48cc058dba6c7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "53b59a6289a65ed030e0",
+      "normal": "ed3398f2fc83768fd7b0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7e7d6d9b55bc5807f094f0708121af19e93be245a6f91dea44e48cc058dba6c7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "331488e06a774d16f852",
+      "normal": "ed3398f2fc83768fd7b0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7e7d6d9b55bc5807f094f0708121af19e93be245a6f91dea44e48cc058dba6c7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "99a20ad895b7a803e779",
+      "normal": "ed3398f2fc83768fd7b0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7e7d6d9b55bc5807f094f0708121af19e93be245a6f91dea44e48cc058dba6c7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "2ede3dd3a89c4b0cd04f",
+      "normal": "ed3398f2fc83768fd7b0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/7e7d6d9b55bc5807f094f0708121af19e93be245a6f91dea44e48cc058dba6c7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "9825fa55467ebb2075a6",
+      "normal": "139204499d1554edd1d2",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/bbe0ca9c53d6e17e28819af2d11893e7d6d1573b10f9cafc797496e2670a1875.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "3e56d8d647e6e4ceb9e9",
+      "normal": "3aa99d4a34c2c976c7c6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "b9e46475a83a0faa5e31",
+      "normal": "3aa99d4a34c2c976c7c6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "42d77d2f857e248ee978",
+      "normal": "3aa99d4a34c2c976c7c6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "436532a2ff5a3c6a2068",
+      "normal": "3aa99d4a34c2c976c7c6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "3cf65590b0df8638080b",
+      "normal": "3aa99d4a34c2c976c7c6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "daebcb87aab5c4ae73d8",
+      "normal": "3aa99d4a34c2c976c7c6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "00fb75644a8454d061ff",
+      "normal": "3aa99d4a34c2c976c7c6",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/31c9f35d9b7986dd5602da6b0a8f4d96ae3665c8faf0eab3338da4fde26d3e3f.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "a24d4431179899010c5f",
+      "normal": "c5a24f047345559c0288",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/591be49372c12f2067161ff0bef440685a9f8f9144b03c423904e23b5e3ec441.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "e18fdce77753b8237ce6",
+      "normal": "c5a24f047345559c0288",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/591be49372c12f2067161ff0bef440685a9f8f9144b03c423904e23b5e3ec441.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "a3f619d9411d47ce8fd6",
+      "normal": "eb11c8ab215bb2af3af0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "0f7e051b4c6be1045c69",
+      "normal": "eb11c8ab215bb2af3af0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "f5d6d79842dd715cddff",
+      "normal": "eb11c8ab215bb2af3af0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "a21c8e8e16f9c807dbfe",
+      "normal": "eb11c8ab215bb2af3af0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "19e3fe397f73fb0d87f3",
+      "normal": "eb11c8ab215bb2af3af0",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/df7c94cdc017bacb473c81aa02a3588beecce572f8244ee0eb38f579a4bb08f7.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "f5e88e49d9a8956770b1",
+      "normal": "54917e161e840eab93b2",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5c4984c9187649acb7e1d857e2131a295b76ad367e053bf521710af5f380bd8d.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "cacee091321015912453",
+      "normal": "54917e161e840eab93b2",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5c4984c9187649acb7e1d857e2131a295b76ad367e053bf521710af5f380bd8d.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "fd861b64518bc4e44627",
+      "normal": "d1b183d6a7f516c074cb",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "e33f5f385a2a3795ffdb",
+      "normal": "d1b183d6a7f516c074cb",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "c24a2705db239b49410c",
+      "normal": "d1b183d6a7f516c074cb",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "a056e7ee3f0ba35389ad",
+      "normal": "d1b183d6a7f516c074cb",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "Woo",
+      "split": "train",
+      "positive": "510f8f3f0302f8e1bc25",
+      "normal": "d1b183d6a7f516c074cb",
+      "source_path": "experiments/defect_public_intake/snapshots/75e57d602dc84195b8d705105909e37c/source_images/5882f776a47bb9078f333491746dc9fffc49c0b02eeaddcae718e73a26e519da.jpg",
+      "group_id": "Woo_20260814_session",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "val",
+      "positive": "c717118f842d24e5419e",
+      "normal": "7384d02710b5186bcc15",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213327.jpg",
+      "group_id": "burst_0089",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "val",
+      "positive": "d50e69ca8f005bd17523",
+      "normal": "c877a1486878e1ff8ce2",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "group_id": "burst_0089",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "val",
+      "positive": "ecb3321186d98f8b91bd",
+      "normal": "c877a1486878e1ff8ce2",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "group_id": "burst_0089",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "val",
+      "positive": "5a27e1b388d4b21ba64c",
+      "normal": "c877a1486878e1ff8ce2",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213332.jpg",
+      "group_id": "burst_0089",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "val",
+      "positive": "b7f6a87171d50f496e6a",
+      "normal": "282aea51e34c6ca048dc",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213442.jpg",
+      "group_id": "burst_0089",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_frame_observed_fruit_surface",
+      "source": "AFruitDB",
+      "split": "val",
+      "positive": "b19d1ccbe8cce7447ffa",
+      "normal": "c0c8e980e7c549d7677c",
+      "source_path": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213455.jpg",
+      "group_id": "burst_0089",
+      "fruit_id": "visible fruit in this single frame; no cross-photo identity"
+    },
+    {
+      "scope": "same_camera_trigger_different_views",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/83d5536389cfbeb8.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/ca82172af5ebe7f0.png",
+      "group_id": "FRUIT_20260814_144739_544019",
+      "fruit_id": "same synchronized station trigger; persistent specimen ID absent"
+    },
+    {
+      "scope": "same_camera_trigger_different_views",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/bbe0ca9c53d6e17e.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/5fb2d9bb752a10d7.png",
+      "group_id": "FRUIT_20260814_144819_168558",
+      "fruit_id": "same synchronized station trigger; persistent specimen ID absent"
+    },
+    {
+      "scope": "same_camera_trigger_different_views",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/bbe0ca9c53d6e17e.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/cbc4430ed0fb7159.png",
+      "group_id": "FRUIT_20260814_144819_168558",
+      "fruit_id": "same synchronized station trigger; persistent specimen ID absent"
+    },
+    {
+      "scope": "same_camera_trigger_different_views",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/595adcfb17cab779.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/d604384b90f58ee2.png",
+      "group_id": "FRUIT_20260814_144836_952522",
+      "fruit_id": "same synchronized station trigger; persistent specimen ID absent"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/df7c94cdc017bacb.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/710b7e7a62b69cfd.png",
+      "group_id": "Woo_20260814_station_LEFT",
+      "delta_seconds": 151.493616,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/32c3e02c954e5991.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/710b7e7a62b69cfd.png",
+      "group_id": "Woo_20260814_station_LEFT",
+      "delta_seconds": 154.380719,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/3fc482639f28d7e9.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/ad9917a98fc99b64.png",
+      "group_id": "Woo_20260814_station_TOP",
+      "delta_seconds": 48.404803,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/98da8cf34ec89329.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/ad9917a98fc99b64.png",
+      "group_id": "Woo_20260814_station_TOP",
+      "delta_seconds": 85.543232,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/5882f776a47bb907.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/ad9917a98fc99b64.png",
+      "group_id": "Woo_20260814_station_TOP",
+      "delta_seconds": 145.207303,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/bbe0ca9c53d6e17e.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/bd2fd885bd42ac64.png",
+      "group_id": "Woo_20260814_station_TOP",
+      "delta_seconds": 9.519573,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/83d5536389cfbeb8.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/cbc4430ed0fb7159.png",
+      "group_id": "Woo_20260814_station_RIGHT",
+      "delta_seconds": 39.624539,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/23f211b0e70d3753.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/cbc4430ed0fb7159.png",
+      "group_id": "Woo_20260814_station_RIGHT",
+      "delta_seconds": 12.998995,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/595adcfb17cab779.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/cbc4430ed0fb7159.png",
+      "group_id": "Woo_20260814_station_RIGHT",
+      "delta_seconds": 17.783964,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_camera_and_session",
+      "source": "Woo",
+      "split": "train",
+      "positive": "datasets/apple_matched_quality_v1/woo_crops/0fb786da6904936e.png",
+      "normal": "datasets/apple_matched_quality_v1/woo_crops/cbc4430ed0fb7159.png",
+      "group_id": "Woo_20260814_station_RIGHT",
+      "delta_seconds": 32.59069,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213645.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213713.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 28.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213651.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213713.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 22.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213655.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213713.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 18.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213700.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213713.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 13.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213707.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213713.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 6.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213830.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213826.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 4.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_213836.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213826.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 10.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214024.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214016.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 8.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214028.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214016.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 12.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214038.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214049.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 11.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_inferred_capture_burst",
+      "source": "AFruitDB",
+      "split": "train",
+      "positive": "datasets/afruitdb_apples_v1/original_photos/2nd grade/IMG_20230930_214043.jpg",
+      "normal": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214049.jpg",
+      "group_id": "burst_0100",
+      "delta_seconds": 6.0,
+      "fruit_id": "unknown; temporal nearest qualifying opposite grade in that source condition"
+    },
+    {
+      "scope": "same_documented_physical_apple_across_time",
+      "source": "FruitLife",
+      "split": "train",
+      "group_id": "apple_02",
+      "fruit_id": "apple_02",
+      "earlier": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+      "minor_stage": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_170424.jpg",
+      "advanced_stage3": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260811_170115.jpg",
+      "advanced_stage4": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260820_062916.jpg",
+      "storage": "sun",
+      "meaning": "Author stage trajectory, one representative per stage, not mechanical injury and not commercial whole-fruit grading."
+    },
+    {
+      "scope": "same_documented_physical_apple_across_time",
+      "source": "FruitLife",
+      "split": "train",
+      "group_id": "apple_04",
+      "fruit_id": "apple_04",
+      "earlier": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+      "minor_stage": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260808_173640.jpg",
+      "advanced_stage3": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260817_065857.jpg",
+      "advanced_stage4": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260822_131913.jpg",
+      "storage": "room",
+      "meaning": "Author stage trajectory, one representative per stage, not mechanical injury and not commercial whole-fruit grading."
+    },
+    {
+      "scope": "same_documented_physical_apple_across_time",
+      "source": "FruitLife",
+      "split": "train",
+      "group_id": "apple_06",
+      "fruit_id": "apple_06",
+      "earlier": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+      "minor_stage": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260806_061338.jpg",
+      "advanced_stage3": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260813_064222.jpg",
+      "advanced_stage4": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260821_133427.jpg",
+      "storage": "shade",
+      "meaning": "Author stage trajectory, one representative per stage, not mechanical injury and not commercial whole-fruit grading."
+    }
+  ]
+}

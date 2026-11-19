@@ -84,10 +84,14 @@ class QualityPipeline:
             raise ValueError("Unexpected maturity classes")
 
     @torch.inference_mode()
-    def classify(self, crops):
+    def classify(self, crops, hints=None):
         answers = []
         for start in range(0, len(crops), 12):
-            inp = self.preprocess_grade(crops[start:start+12], "cuda")
+            hinted=getattr(self,"preprocess_grade_with_boxes",None)
+            if hinted is not None and hints is not None:
+                inp=hinted(crops[start:start+12],"cuda",hints[start:start+12])
+            else:
+                inp = self.preprocess_grade(crops[start:start+12], "cuda")
             logits = self.grade(inp)
             grades = self.decide_grade(logits, self.grade_threshold)
             probs = logits.float().softmax(1).cpu().tolist()
@@ -128,13 +132,20 @@ class QualityPipeline:
             # Caller explicitly supplied a single-fruit image. This result is independent
             # of whether the original maturity model detects an apple in this domain.
             crops.append(image)
-        predictions = self.classify(crops)
+        lesions=associate(p,masks,image.shape)
+        if getattr(self,"preprocess_grade_with_boxes",None) is None:
+            predictions=self.classify(crops)
+        else:
+            from grade_pairs_20261119 import map_hints
+            hints=[map_hints(lesions,offset=fruits[i]["crop"][:2],owner=i) for i in crop_ids]
+            if known_single_fruit:hints.append(map_hints(lesions))
+            predictions=self.classify(crops,hints)
         for i, grade in zip(crop_ids, predictions[:len(crop_ids)], strict=True):
             fruits[i].update(grade)
         if known_single_fruit and len(fruits) == 1:
             fruits[0].update(predictions[-1])
         return dict(
-            fruits=fruits, defects=associate(p, masks, image.shape),
+            fruits=fruits, defects=lesions,
             known_single_fruit_grade=predictions[-1] if known_single_fruit else None,
             grade_inference_items=len(crops), grade_batches=(len(crops)+11)//12,
             grade_scope="visible fruit appearance",
