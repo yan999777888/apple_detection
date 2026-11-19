@@ -1,0 +1,18 @@
+{
+  "reference_count": 9342,
+  "counts": {
+    "mendeley_stage_seg_v1": 772,
+    "papple_visible_stage_seg_v1": 2304,
+    "ssda_date_v2": 596,
+    "HDF": 3790,
+    "afruitdb_apples_v1": 315,
+    "apple_matched_quality_v1": 58,
+    "published_defect_intake": 96,
+    "additional_HDF": 1210,
+    "grade_guard_sources_v2": 195,
+    "grade_guard_hdf_v1": 6
+  },
+  "exact_matches": [],
+  "near_matches": [],
+  "rule": "SHA-256 and full/central 2/3 D4 view screening of original, fruit, positive and control. pHash Hamming <=6 and RGB32 MAD <14/255. Covers listed historical training references and all 5000 historical HDF files. No current blind test opened."
+}

@@ -1,0 +1,31 @@
+{
+  "selected": [
+    "ad031a20b64454d62a62eabfe16e9250b56bbe69f16838549836acaf84b5e3fa",
+    "0e402e9ae264dfac9eba6c83e6a4f3ee6816bcfb6f6d44678406ae7e9f057e09",
+    "4c667d0a4ee768b0c8fb926b46e630866d3e4669baf5d11dff529d1d4351ad5a",
+    "a3019e38684b31b6df168304862a3a5479d3b4a320fad4ee749b1f5dac734c0c",
+    "1d791349b86caa51efe1adf9c62cc70459498a4c909390a570589641eefee38d",
+    "01f9f2786a6416d8ab227cd085b200123b8c49b0b85e8171370103f6e17bbf70",
+    "6c16843064110ae6b21231dfda5dd9117c03889e18b39a3609a3b57693baa4a9",
+    "f2a4aa7eb44d3d55da034eab8f9192a167ee501a433037e910c19748a157f1d4",
+    "6054012b993e207c9eb97b82a18c454131b30674eeea6f890c6080af2e73635d",
+    "df2c9f585f836cf81d97b93f5912d3d9b79e811ff3eeb2f19cd84336b8747eda",
+    "b461ada1cbd09384f70c331cd2b82ca89370c0dda6e9b665c15d356cbd3f02be",
+    "a7b44307e4f61af346b8d13ca748ab03ab3a9579ceffc6612d3c506eda9e3299",
+    "805f7fcb5529d4d772b2e7617a923396ec31cb1262e16a88d0e166d51371c3c2",
+    "6192fddf0b39dee6b0ca7412b486aed5c34bf8a57cfaa23ae61e72786469bb19",
+    "2d05d70a827416471a06b63a5ab24c00f72e58a6e2b9cebd034e17a25b7763c5",
+    "fd9d9832031305e3e8578a1e53f8c10306cb453b7261244b7c4e265d456cf2eb",
+    "0278317dde8ff48ff20abf7b0f89695d5a919988bd1090d21f9e2531ef260532",
+    "52d3a10d1026f1a09158006e0efc3b9b1e75f18fd346a97fb53708346174ca00",
+    "1e82a7a1a73908ecf6942e744ab9317ca41f576c1c4c5d18f843434cb5046ace",
+    "badc5ca5e49c72f4a291825da521144681b187297a93aa82aa3184c1c1b79d47"
+  ],
+  "model": "32ca6f03cfe7741d7b0948fcd0eb4cac9506d8bcf4584d10b509171bcc9219dc",
+  "source_split": "AFruitDB development only. 8 good, 6 minor and 6 severe evenly spaced over sorted source hashes. No blind cohort access.",
+  "policy": "Preheat 5. Shuffle 20 images every round with a fixed seed, 30 serial rounds per ordinary end-to-end, 5 rounds in independent synchronized profiling. 1280 long edge from original image, no I/O, same original RGB scene mode. All per-fruit boxes/masks/maturity/visible defect boxes, grade, drawing. Fixed 1-fruit optional graph benchmark if native-to-overlay >50 ms; mandatory direct whole-output comparison.",
+  "torch": "2.12.1+cu132",
+  "cuda": "13.2",
+  "dtype": "original native branch dtypes, classifier FP32",
+  "source_code": "55e24c8ce258d0a33bd3cc24b7d05e715262d170ef570ff7b8efc92f059295a5"
+}

@@ -1,0 +1,265 @@
+{
+  "regions_sha256": "2e542fe808e75f776f5505b861c76e70036a642ed36bd00766e1ef03071e6ce9",
+  "scope": "Development normal anatomy / limited defects. Fixed midpoint; positives indicate similarity to severe texture only.",
+  "rows": [
+    {
+      "id": "05f0935adfcd2b0b5a3a",
+      "source": "PennState",
+      "label": "surface_defect",
+      "type": "Plum Curculio",
+      "score": 11.417499320858704
+    },
+    {
+      "id": "abe190aea6ea02dd1806",
+      "source": "PennState",
+      "label": "surface_defect",
+      "type": "Plum Curculio",
+      "score": 10.869508177238178
+    },
+    {
+      "id": "c717118f842d24e5419e",
+      "source": "AFruitDB",
+      "label": "surface_defect",
+      "type": "elongated_gouge",
+      "score": 0.36755369124905635
+    },
+    {
+      "id": "d50e69ca8f005bd17523",
+      "source": "AFruitDB",
+      "label": "surface_defect",
+      "type": "elongated_gouge",
+      "score": 23.931848213090188
+    },
+    {
+      "id": "ecb3321186d98f8b91bd",
+      "source": "AFruitDB",
+      "label": "surface_defect",
+      "type": "brown_gouge",
+      "score": 34.93304738781023
+    },
+    {
+      "id": "5a27e1b388d4b21ba64c",
+      "source": "AFruitDB",
+      "label": "surface_defect",
+      "type": "brown_gouge",
+      "score": 13.356099084663562
+    },
+    {
+      "id": "b7f6a87171d50f496e6a",
+      "source": "AFruitDB",
+      "label": "surface_defect",
+      "type": "abraded_patch",
+      "score": 22.908277470768585
+    },
+    {
+      "id": "1087a72ce3b58af41ed6",
+      "source": "AFruitDB",
+      "label": "surface_defect",
+      "type": "brown_abraded_patch",
+      "score": 2.589373287706506
+    },
+    {
+      "id": "b19d1ccbe8cce7447ffa",
+      "source": "AFruitDB",
+      "label": "surface_defect",
+      "type": "brown_abraded_patch",
+      "score": 7.610737341343658
+    },
+    {
+      "id": "d8908371b167e6df0a8b",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 16.252991960741618
+    },
+    {
+      "id": "a8c2530564c045c32f3c",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem_cavity",
+      "score": 12.14061198606261
+    },
+    {
+      "id": "dc4638bde9bbabba0eb7",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 43.292288218136456
+    },
+    {
+      "id": "81da71f5e5ac909c51e5",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 40.11796215756503
+    },
+    {
+      "id": "8948496d0f43fae34e8d",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "lenticels",
+      "score": -10.148706714776111
+    },
+    {
+      "id": "6d8e05f677895b760241",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem_cavity",
+      "score": 11.175180344723454
+    },
+    {
+      "id": "a06376cc89d2b9ce8460",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem_cavity",
+      "score": 20.65330018749485
+    },
+    {
+      "id": "74d669da851e72c15f92",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 46.15077631582585
+    },
+    {
+      "id": "452156a31466c4830fde",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 58.84190413780985
+    },
+    {
+      "id": "c6614c48e1fd85d30c3c",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 26.73170387055167
+    },
+    {
+      "id": "51c913cddd72bbbd2e89",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 52.10155545037672
+    },
+    {
+      "id": "6eafc3d924eec40dec47",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 47.82591773352767
+    },
+    {
+      "id": "2f7766524e4ae2ebbd29",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem",
+      "score": 74.98229961106743
+    },
+    {
+      "id": "c58bf968071d69cde0e7",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem",
+      "score": 54.92273558579635
+    },
+    {
+      "id": "30be965af7d584789fe1",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem",
+      "score": 29.556790738540858
+    },
+    {
+      "id": "1791e42d7484740bec68",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 62.08953864078896
+    },
+    {
+      "id": "b6271c996c8318fc4027",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 59.27522453945987
+    },
+    {
+      "id": "b3736e9fb162dbfe192a",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 54.16584563902628
+    },
+    {
+      "id": "f164e3166b439ef95dce",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 54.458811525540455
+    },
+    {
+      "id": "32e3e2be3886cc6f3dd2",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 57.85172676776143
+    },
+    {
+      "id": "7384d02710b5186bcc15",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 72.53107794954245
+    },
+    {
+      "id": "c877a1486878e1ff8ce2",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 72.0974663213499
+    },
+    {
+      "id": "04d87087202818d645c5",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem",
+      "score": 82.10677146455684
+    },
+    {
+      "id": "e5c0dbc7cbe3f0e888fc",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem",
+      "score": 54.85335878694657
+    },
+    {
+      "id": "7db6471dd4f8f6a8bf84",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "highlight",
+      "score": -10.097339651944091
+    },
+    {
+      "id": "282aea51e34c6ca048dc",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "highlight",
+      "score": -4.877457182910616
+    },
+    {
+      "id": "c0c8e980e7c549d7677c",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "stem",
+      "score": 40.50217097923631
+    },
+    {
+      "id": "9e6a659da4e597e8cebc",
+      "source": "AFruitDB",
+      "label": "confirmed_normal",
+      "type": "calyx",
+      "score": 45.335761263743194
+    }
+  ]
+}

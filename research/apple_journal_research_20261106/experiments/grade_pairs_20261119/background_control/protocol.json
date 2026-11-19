@@ -1,0 +1,10 @@
+{
+  "scope": "Grade 1 and grade 2 photos with one resolved fruit, using only pixels outside its expanded padded fruit box. Background proxy; no claim that unseen adjacent fruit are absent.",
+  "split_sha": {
+    "train": "ef533cf633930047deffef8caa57374cc8e0e2181fac225e10ce1943f7ff4c4f",
+    "val": "a26e315d1cd3da9fd390f49e13bc3baec33ebf99184659a91ecb99c737d0ccd9"
+  },
+  "input": "24 per-channel colour summaries of exterior pixels; no position, time, image names, dimensions, grade probabilities, boxes or fruit-pixel features fed to model.",
+  "fit": "One fixed class-balanced standardized logistic regression, C=1, on AF training photos. Validation decision fixed at 0.5.",
+  "limitations": "Condition and grade can be correlated. A predictive exterior alone does not prove that a deployed neural model uses it; poor discrimination does not rule out source cues in fruit appearance."
+}

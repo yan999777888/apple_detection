@@ -17,6 +17,7 @@ ROOT=grade.ROOT
 OUT=ROOT/"experiments/grade_pairs_20261119"
 MODELS=dict(original=ROOT/"experiments/afruit_grade_release_v1",woo=ROOT/"experiments/afruit_grade_matched_v1/paired",
             native320=ROOT/"experiments/grade_error49_v1/border_native320_woo_ref")
+MANALAGI_MANIFEST_SHA="0cbd92a77598951cf13f3180c58dc96a542d165be3890460e0ccd16f508db7ac"
 
 
 def freeze(dirs):
@@ -40,11 +41,18 @@ def freeze(dirs):
 @torch.inference_mode()
 def blind(manifest):
     lock=io.read(OUT/"field_lock.json")
+    if (OUT/"blind_comparison.json").exists():
+        raise FileExistsError("This blind decision has already been recorded")
+    if lock["protocol_sha"]!=grade.file_sha(OUT/"protocol.json"):
+        raise ValueError("Model-selection protocol changed after the candidate was frozen")
+    if grade.file_sha(manifest)!=MANALAGI_MANIFEST_SHA:
+        raise ValueError("The blind set differs from the published selection manifest")
     dirs={**MODELS,"repair":ROOT/lock["candidate"]}
     policy=io.read(OUT/"protocol.json")
     rows=io.read(manifest)["samples"]
-    if not rows or any(r["split"]!="test" for r in rows) or len({r["sha256"] for r in rows})!=len(rows):
-        raise ValueError("Blind manifest must contain unique reserved photographs")
+    if (any(r["split"]!="test" for r in rows) or Counter(r["grade"] for r in rows)!={0:10,1:11,2:11}
+            or len({r["group_id"] for r in rows})!=32 or len({r["sha256"] for r in rows})!=32):
+        raise ValueError("Blind manifest must contain 32 independently grouped, reserved fruit photographs")
     predictions=[dict(r) for r in rows]
     hashes={}
     for name,folder in dirs.items():

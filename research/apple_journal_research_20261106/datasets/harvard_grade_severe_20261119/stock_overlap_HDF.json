@@ -1,0 +1,24 @@
+{
+  "historical_hdf_file_count": 5000,
+  "inputs": {
+    "Harvard_Good": 682,
+    "Harvard_Bad": 4,
+    "older_Imperfect_named": 7
+  },
+  "exact_hash_matches": {},
+  "strict_content_candidates": {
+    "Bad/rotated_by_15_Screen Shot 2018-06-07 at 2.16.41 PM.png": [
+      1.715,
+      "rot_defect\\P_REAL_0264.png"
+    ],
+    "Bad/rotated_by_15_Screen Shot 2018-06-07 at 2.25.26 PM.png": [
+      0.646,
+      "rot_defect\\P_REAL_0286.png"
+    ],
+    "Bad/rotated_by_15_Screen Shot 2018-06-07 at 2.46.32 PM.png": [
+      1.603,
+      "rot_defect\\P_REAL_0339.png"
+    ]
+  },
+  "rule": "File SHA256 and original/central75%, mirror, half-turn, grayscale pHash <=5 and 32x32 RGB mean absolute difference <12/255. For Bad files also screen two 15-degree rotations. Consider near hits candidates for per-pair visual confirmation. No Manalagi blind data opened."
+}

@@ -1,0 +1,42 @@
+{
+  "pairs": [
+    {
+      "harvard_file_id": "7613348",
+      "harvard_name": "rotated_by_15_Screen Shot 2018-06-07 at 2.16.41 PM.png",
+      "harvard_official_md5": "67cbec659735e80dd9f27e0e6ef29de4",
+      "hdf_path": "apple_research_v2/sources/additional_attribute_sources/hdf_real_only/raw/rot_defect/P_REAL_0526.png",
+      "hdf_sha256": "0300210e4ed6328b15cb2793827964e69afab3368a1896f3e225f0472fa560c4",
+      "geometric_inliers": 132,
+      "descriptor_matches": 174
+    },
+    {
+      "harvard_file_id": "7613349",
+      "harvard_name": "rotated_by_15_Screen Shot 2018-06-07 at 2.25.26 PM.png",
+      "harvard_official_md5": "7c699394f343210fed152d6933932f59",
+      "hdf_path": "apple_research_v2/sources/additional_attribute_sources/hdf_real_only/raw/rot_defect/P_REAL_0306.png",
+      "hdf_sha256": "4c6993e3cd7ac9b155bbda4f884f10217f61224b640e4161079d531b598f35b2",
+      "geometric_inliers": 41,
+      "descriptor_matches": 52
+    },
+    {
+      "harvard_file_id": "7613350",
+      "harvard_name": "rotated_by_15_Screen Shot 2018-06-07 at 2.46.32 PM.png",
+      "harvard_official_md5": "700119895de0a3008a81274e9390ff9f",
+      "hdf_path": "apple_research_v2/sources/additional_attribute_sources/hdf_real_only/raw/rot_defect/P_REAL_0339.png",
+      "hdf_sha256": "a110c3a33fbd918ca0e0cd5da96ddb92bb9f4998c3774aefaffd16b324ff6877",
+      "geometric_inliers": 145,
+      "descriptor_matches": 173
+    },
+    {
+      "harvard_file_id": "7613347",
+      "harvard_name": "rotated_by_15_Screen Shot 2018-06-08 at 2.26.44 PM.png",
+      "harvard_official_md5": "edadfa65df4ae1dec2787971cf7658e9",
+      "hdf_path": "apple_research_v2/sources/additional_attribute_sources/hdf_real_only/raw/rot_defect/P_REAL_0048.png",
+      "hdf_sha256": "4e9bbbfec10ab5685d8b01095b35579de6be01d597dc8770b2ee584b13ecde93",
+      "geometric_inliers": 153,
+      "descriptor_matches": 158
+    }
+  ],
+  "reference_count": 1000,
+  "method": "SIFT local matches with Lowe ratio .74 and partial-affine RANSAC at 224-pixel long side, 3-pixel tolerance; side-by-side texture review."
+}

@@ -1,0 +1,277 @@
+{
+  "samples": [],
+  "counts": {
+    "whole_fruit_severe_train": 0,
+    "whole_fruit_good_train": 0,
+    "training_local_pairs": 3
+  },
+  "local_pairs": [
+    {
+      "number": 19,
+      "source_path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00019.jpg",
+      "source_file_id": 10621551,
+      "sha256": "68002e9afeee24ba189c1b19983fa9b14392540351dc43bcc026fddbe7da7f64",
+      "official_md5": "c6ad61144af81e2d347a5237a4571710",
+      "camera": "Canon EOS Rebel T7",
+      "capture_time": "2024:04:20 10:34:25",
+      "source_doi": "10.7910/DVN/KFQKXL",
+      "license": "CC0-1.0",
+      "source_class": "Imperfect",
+      "split": "train",
+      "group_id": "Harvard_Anjali_Canon_20240420_white_studio_single_session",
+      "observation": "A bounded olive-brown stippled mark on the lower-left yellow cheek.",
+      "fruit_crop_xyxy": [
+        1676,
+        1032,
+        3580,
+        2884
+      ],
+      "fruit_projected_pixels": 1918650,
+      "conservative_blemish_pixels": 15294,
+      "visible_projected_fraction": 0.007971229770932687,
+      "polygon_xy_raw": [
+        [
+          2276,
+          1981
+        ],
+        [
+          2300,
+          1963
+        ],
+        [
+          2342,
+          1953
+        ],
+        [
+          2376,
+          1967
+        ],
+        [
+          2395,
+          1995
+        ],
+        [
+          2390,
+          2060
+        ],
+        [
+          2371,
+          2097
+        ],
+        [
+          2338,
+          2115
+        ],
+        [
+          2300,
+          2097
+        ],
+        [
+          2276,
+          2051
+        ]
+      ],
+      "positive_path": "datasets/harvard_grade_severe_20261119/training_patch_pairs/019_positive.png",
+      "positive_sha256": "464a8715f62431c985722089204b48065b444f8e55fb8b77c44417047fffa74c",
+      "positive_xyxy_raw": [
+        2228,
+        1916,
+        2452,
+        2134
+      ],
+      "control_path": "datasets/harvard_grade_severe_20261119/training_patch_pairs/019_control.png",
+      "control_sha256": "209eff12fd67d1f7510b457e42f07ea1d0b4dfecfc95dbd04b735f994bd34609",
+      "control_xyxy_raw": [
+        2457,
+        2051,
+        2681,
+        2269
+      ]
+    },
+    {
+      "number": 75,
+      "source_path": "datasets/apple_matched_quality_v1/harvard_preview/Anjali_Apples_Imperfect_00075.jpg",
+      "source_file_id": 10621378,
+      "sha256": "52de4d84796405a5d265626ea1dba68a4539343999c07f7a1c09c32143a1b588",
+      "official_md5": "9c5a55d43df995df0d2fc795bcc862e5",
+      "camera": "Canon EOS Rebel T7",
+      "capture_time": "2024:04:20 10:39:26",
+      "source_doi": "10.7910/DVN/KFQKXL",
+      "license": "CC0-1.0",
+      "source_class": "Imperfect",
+      "split": "train",
+      "group_id": "Harvard_Anjali_Canon_20240420_white_studio_single_session",
+      "observation": "A discrete irregular matte brown patch on the blushed cheek.",
+      "fruit_crop_xyxy": [
+        1704,
+        916,
+        4500,
+        3636
+      ],
+      "fruit_projected_pixels": 4130102,
+      "conservative_blemish_pixels": 38411,
+      "visible_projected_fraction": 0.009300254569983986,
+      "polygon_xy_raw": [
+        [
+          3417,
+          2670
+        ],
+        [
+          3438,
+          2630
+        ],
+        [
+          3479,
+          2609
+        ],
+        [
+          3528,
+          2582
+        ],
+        [
+          3570,
+          2562
+        ],
+        [
+          3619,
+          2575
+        ],
+        [
+          3647,
+          2609
+        ],
+        [
+          3647,
+          2664
+        ],
+        [
+          3612,
+          2711
+        ],
+        [
+          3570,
+          2759
+        ],
+        [
+          3507,
+          2786
+        ],
+        [
+          3458,
+          2813
+        ],
+        [
+          3424,
+          2772
+        ]
+      ],
+      "positive_path": "datasets/harvard_grade_severe_20261119/training_patch_pairs/075_positive.png",
+      "positive_sha256": "08b7050e5f081ca772f951698e2c81706ff93078b83bde3a7811b670ecbca75f",
+      "positive_xyxy_raw": [
+        3340,
+        2514,
+        3703,
+        2868
+      ],
+      "control_path": "datasets/harvard_grade_severe_20261119/training_patch_pairs/075_control.png",
+      "control_sha256": "4a3c614f3606b0b3c66c8f7d4a24ccfc36a5832d90aee016aa67830eec66148e",
+      "control_xyxy_raw": [
+        2871,
+        2487,
+        3234,
+        2841
+      ]
+    },
+    {
+      "number": 133,
+      "source_path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00133.jpg",
+      "source_file_id": 10621397,
+      "sha256": "b900fa953d13000ef845677ab511700dd4b49eef4520cd8267b92602a148b0c9",
+      "official_md5": "a79b987720c934358d5b2369985a32ce",
+      "camera": "Canon EOS Rebel T7",
+      "capture_time": "2024:04:20 10:47:51",
+      "source_doi": "10.7910/DVN/KFQKXL",
+      "license": "CC0-1.0",
+      "source_class": "Imperfect",
+      "split": "train",
+      "group_id": "Harvard_Anjali_Canon_20240420_white_studio_single_session",
+      "observation": "One small round tan/olive spot on a yellow-orange cheek.",
+      "fruit_crop_xyxy": [
+        1752,
+        352,
+        4236,
+        2844
+      ],
+      "fruit_projected_pixels": 3399052,
+      "conservative_blemish_pixels": 13267,
+      "visible_projected_fraction": 0.003903147112783211,
+      "polygon_xy_raw": [
+        [
+          2615,
+          2109
+        ],
+        [
+          2646,
+          2078
+        ],
+        [
+          2684,
+          2071
+        ],
+        [
+          2721,
+          2078
+        ],
+        [
+          2758,
+          2109
+        ],
+        [
+          2770,
+          2140
+        ],
+        [
+          2733,
+          2177
+        ],
+        [
+          2684,
+          2190
+        ],
+        [
+          2646,
+          2171
+        ],
+        [
+          2615,
+          2140
+        ]
+      ],
+      "positive_path": "datasets/harvard_grade_severe_20261119/training_patch_pairs/133_positive.png",
+      "positive_sha256": "c1aacb478cc7964e95ae3302f7fc4b5c621bbfb978bf7b4bccbc69be2ab7545d",
+      "positive_xyxy_raw": [
+        2590,
+        2034,
+        2789,
+        2233
+      ],
+      "control_path": "datasets/harvard_grade_severe_20261119/training_patch_pairs/133_control.png",
+      "control_sha256": "909dfe637dd36093ada5564c586cacd49173b793111dfb6dd23032671081aa4e",
+      "control_xyxy_raw": [
+        2733,
+        1829,
+        2932,
+        2028
+      ]
+    }
+  ],
+  "source": "Harvard Dataverse Anjali Sharma, CC0",
+  "primary": "10.7910/DVN/KFQKXL",
+  "note": "Only local visual supervision: positively marked patches vs equal-scale nearby patches on the same fruit photograph without the same visible spot. Coloration or physiological origin is uncertain. No whole-fruit grades, no new severe training examples, no test examples; permutations of crops are not independent fruits.",
+  "overlap": "0 earlier-used source/fruit/patch matches under listed checks. Imperfect #75 was viewed previously for source screening only. Entire Canon burst assigned to one training-only group. Bad screenshots all previously seen as HDF source images.",
+  "audit_counts": {
+    "embedded_studio_images": 204,
+    "whole_good_archive_exif_records": 682,
+    "bad_screenshots_matching_HDF": 4
+  }
+}

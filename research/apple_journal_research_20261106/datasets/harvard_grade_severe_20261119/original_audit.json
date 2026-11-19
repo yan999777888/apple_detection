@@ -1,0 +1,534 @@
+[
+  {
+    "number": 1,
+    "path": "datasets/apple_matched_quality_v1/harvard_preview/Anjali_Apples_Imperfect_00001.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:08:43",
+    "raw_frame_crop": [
+      2224,
+      1384,
+      3544,
+      2732
+    ],
+    "source_file_id": 10621479,
+    "md5": "1952c44fff470044cbdada722c4c0f60"
+  },
+  {
+    "number": 7,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00007.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:32:03",
+    "raw_frame_crop": [
+      2064,
+      1040,
+      3904,
+      2928
+    ],
+    "source_file_id": 10621499,
+    "md5": "6e48ce12bcd296f11b4e874f8689d3a3"
+  },
+  {
+    "number": 13,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00013.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:33:59",
+    "raw_frame_crop": [
+      2028,
+      960,
+      3868,
+      2848
+    ],
+    "source_file_id": 10621442,
+    "md5": "ab87542580828c317ad0ff16f19ea24e"
+  },
+  {
+    "number": 19,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00019.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:34:25",
+    "raw_frame_crop": [
+      1676,
+      1032,
+      3580,
+      2884
+    ],
+    "source_file_id": 10621551,
+    "md5": "c6ad61144af81e2d347a5237a4571710"
+  },
+  {
+    "number": 25,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00025.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:35:40",
+    "raw_frame_crop": [
+      1816,
+      1188,
+      3700,
+      3068
+    ],
+    "source_file_id": 10621432,
+    "md5": "702689da81b76d6f8d40cda7e9924161"
+  },
+  {
+    "number": 31,
+    "path": "datasets/apple_matched_quality_v1/harvard_preview/Anjali_Apples_Imperfect_00031.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:36:01",
+    "raw_frame_crop": [
+      1944,
+      1240,
+      3824,
+      3160
+    ],
+    "source_file_id": 10621484,
+    "md5": "8db88e58a576c4e885c51d9566224bd4"
+  },
+  {
+    "number": 37,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00037.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:37:02",
+    "raw_frame_crop": [
+      1564,
+      964,
+      4192,
+      3692
+    ],
+    "source_file_id": 10621453,
+    "md5": "c18a71da8958643dda7b4493d21e1cf8"
+  },
+  {
+    "number": 43,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00043.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:37:11",
+    "raw_frame_crop": [
+      1380,
+      808,
+      4024,
+      3652
+    ],
+    "source_file_id": 10621562,
+    "md5": "c48ac2e99524693e0a857f950062778a"
+  },
+  {
+    "number": 49,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00049.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:37:20",
+    "raw_frame_crop": [
+      1564,
+      768,
+      4184,
+      3444
+    ],
+    "source_file_id": 10621523,
+    "md5": "2e41a754c4cec5590bce29a2a6389384"
+  },
+  {
+    "number": 55,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00055.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:37:30",
+    "raw_frame_crop": [
+      1356,
+      816,
+      4100,
+      3448
+    ],
+    "source_file_id": 10621366,
+    "md5": "5cffd3e00748c1a3f7d38e80bb5575da"
+  },
+  {
+    "number": 61,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00061.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:37:38",
+    "raw_frame_crop": [
+      1504,
+      740,
+      4232,
+      3468
+    ],
+    "source_file_id": 10621388,
+    "md5": "b8139913db2347fc9c1ef09c8e40291e"
+  },
+  {
+    "number": 67,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00067.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:38:58",
+    "raw_frame_crop": [
+      1596,
+      760,
+      4336,
+      3384
+    ],
+    "source_file_id": 10621385,
+    "md5": "2977fb7511d7be9fbb7057c5a55e1b73"
+  },
+  {
+    "number": 73,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00073.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:39:07",
+    "raw_frame_crop": [
+      1600,
+      944,
+      4296,
+      3632
+    ],
+    "source_file_id": 10621473,
+    "md5": "aa77d3c64cdd96c6460716be5dbf6749"
+  },
+  {
+    "number": 75,
+    "path": "datasets/apple_matched_quality_v1/harvard_preview/Anjali_Apples_Imperfect_00075.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:39:26",
+    "raw_frame_crop": [
+      1704,
+      916,
+      4500,
+      3636
+    ],
+    "source_file_id": 10621378,
+    "md5": "9c5a55d43df995df0d2fc795bcc862e5"
+  },
+  {
+    "number": 79,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00079.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:39:36",
+    "raw_frame_crop": [
+      1380,
+      796,
+      4000,
+      3592
+    ],
+    "source_file_id": 10621544,
+    "md5": "6e102f2733e1ecc16b424a5979c691b1"
+  },
+  {
+    "number": 85,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00085.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:39:58",
+    "raw_frame_crop": [
+      1248,
+      1176,
+      3948,
+      3896
+    ],
+    "source_file_id": 10621380,
+    "md5": "ea1783849b704eb779ae33b0ac85c47d"
+  },
+  {
+    "number": 91,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00091.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:40:30",
+    "raw_frame_crop": [
+      1832,
+      1228,
+      3868,
+      3256
+    ],
+    "source_file_id": 10621372,
+    "md5": "25359add64d9bcf2079f2e7a5679d8c0"
+  },
+  {
+    "number": 97,
+    "path": "datasets/apple_matched_quality_v1/harvard_preview/Anjali_Apples_Imperfect_00097.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:40:42",
+    "raw_frame_crop": [
+      1284,
+      892,
+      3412,
+      3044
+    ],
+    "source_file_id": 10621553,
+    "md5": "cb196607d281e2d0b73c95ee28c85d61"
+  },
+  {
+    "number": 103,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00103.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:40:54",
+    "raw_frame_crop": [
+      1744,
+      868,
+      3944,
+      3040
+    ],
+    "source_file_id": 10621521,
+    "md5": "e848144b5e53714f09571ae8611cda00"
+  },
+  {
+    "number": 109,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00109.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:46:18",
+    "raw_frame_crop": [
+      1888,
+      416,
+      4292,
+      2808
+    ],
+    "source_file_id": 10621393,
+    "md5": "4ecdf914070c55b57de05f2b56079c6c"
+  },
+  {
+    "number": 115,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00115.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:47:15",
+    "raw_frame_crop": [
+      1844,
+      1008,
+      4332,
+      3552
+    ],
+    "source_file_id": 10621451,
+    "md5": "29bee02cd136f28c0719862eb45a9184"
+  },
+  {
+    "number": 119,
+    "path": "datasets/apple_matched_quality_v1/harvard_preview/Anjali_Apples_Imperfect_00119.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:47:20",
+    "raw_frame_crop": [
+      1772,
+      928,
+      4268,
+      3380
+    ],
+    "source_file_id": 10621408,
+    "md5": "b4099754d24ec4a14598a19595d4baf5"
+  },
+  {
+    "number": 121,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00121.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:47:23",
+    "raw_frame_crop": [
+      1776,
+      924,
+      4252,
+      3372
+    ],
+    "source_file_id": 10621501,
+    "md5": "164a4759a407a40c66363e5f8585bd02"
+  },
+  {
+    "number": 127,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00127.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:47:42",
+    "raw_frame_crop": [
+      1772,
+      572,
+      4248,
+      3112
+    ],
+    "source_file_id": 10621550,
+    "md5": "7abcad9b9bed94b6f2c84c2993f4aaf4"
+  },
+  {
+    "number": 133,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00133.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:47:51",
+    "raw_frame_crop": [
+      1752,
+      352,
+      4236,
+      2844
+    ],
+    "source_file_id": 10621397,
+    "md5": "a79b987720c934358d5b2369985a32ce"
+  },
+  {
+    "number": 139,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00139.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:48:09",
+    "raw_frame_crop": [
+      1992,
+      476,
+      4652,
+      3212
+    ],
+    "source_file_id": 10621464,
+    "md5": "8280521d9b7a8203bbef2e665b894cd6"
+  },
+  {
+    "number": 145,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00145.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:48:20",
+    "raw_frame_crop": [
+      1700,
+      432,
+      4380,
+      3100
+    ],
+    "source_file_id": 10621414,
+    "md5": "b35256807a824ee4502a32c928e23616"
+  },
+  {
+    "number": 146,
+    "path": "datasets/apple_matched_quality_v1/harvard_preview/Anjali_Apples_Imperfect_00146.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:48:21",
+    "raw_frame_crop": [
+      1592,
+      332,
+      4276,
+      2988
+    ],
+    "source_file_id": 10621536,
+    "md5": "f3441670f2b6eb8e1363edaac92d7522"
+  },
+  {
+    "number": 151,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00151.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:48:42",
+    "raw_frame_crop": [
+      1768,
+      0,
+      4532,
+      2760
+    ],
+    "source_file_id": 10621415,
+    "md5": "882087ebd38fc5fd62f164fb462b8324"
+  },
+  {
+    "number": 157,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00157.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:49:14",
+    "raw_frame_crop": [
+      1536,
+      460,
+      4432,
+      3424
+    ],
+    "source_file_id": 10621508,
+    "md5": "972772cb3ef6f419862e1b7a99096ff4"
+  },
+  {
+    "number": 163,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00163.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:49:22",
+    "raw_frame_crop": [
+      1372,
+      268,
+      4280,
+      3304
+    ],
+    "source_file_id": 10621390,
+    "md5": "45605a3493c1b8226a2d693e3bd425de"
+  },
+  {
+    "number": 169,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00169.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:49:41",
+    "raw_frame_crop": [
+      1296,
+      252,
+      4120,
+      3168
+    ],
+    "source_file_id": 10621413,
+    "md5": "b0f154c9312614a2517366906042e8e2"
+  },
+  {
+    "number": 171,
+    "path": "datasets/apple_matched_quality_v1/harvard_preview/Anjali_Apples_Imperfect_00171.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:49:46",
+    "raw_frame_crop": [
+      1344,
+      312,
+      4136,
+      3144
+    ],
+    "source_file_id": 10621416,
+    "md5": "a2653f93934d9a7f472bc918d080d528"
+  },
+  {
+    "number": 175,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00175.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:50:13",
+    "raw_frame_crop": [
+      1460,
+      772,
+      4200,
+      3468
+    ],
+    "source_file_id": 10621439,
+    "md5": "120ee13b0f21dd1f1667bf6375ba240b"
+  },
+  {
+    "number": 181,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00181.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:50:21",
+    "raw_frame_crop": [
+      1408,
+      732,
+      4112,
+      3472
+    ],
+    "source_file_id": 10621515,
+    "md5": "2dfd4f875da1ae86ba33aab08f8f84b0"
+  },
+  {
+    "number": 187,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00187.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:50:28",
+    "raw_frame_crop": [
+      1332,
+      732,
+      4048,
+      3464
+    ],
+    "source_file_id": 10621386,
+    "md5": "b022c3b2b58f142110be7c50fb89944b"
+  },
+  {
+    "number": 193,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00193.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:50:43",
+    "raw_frame_crop": [
+      1628,
+      796,
+      4392,
+      3616
+    ],
+    "source_file_id": 10621418,
+    "md5": "731bd9381c5d8433be4fa532ac3e6721"
+  },
+  {
+    "number": 199,
+    "path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00199.jpg",
+    "camera": "Canon EOS Rebel T7",
+    "time": "2024:04:20 10:51:06",
+    "raw_frame_crop": [
+      1900,
+      748,
+      4688,
+      3532
+    ],
+    "source_file_id": 10621547,
+    "md5": "40c6fbead22f020c96349400373a617d"
+  }
+]

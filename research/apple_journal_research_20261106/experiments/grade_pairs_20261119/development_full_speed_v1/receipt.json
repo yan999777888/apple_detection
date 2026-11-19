@@ -1,0 +1,127 @@
+{
+  "protocol_sha": "edb69225a3a6173c1331f6026cf7dd6488ef5e6273488aef8d8b8684cdd39ede",
+  "telemetry": [
+    {
+      "time_local": "2026-11-19T10:24:55",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 49, 210 MHz, 4.85 W, 9 %, 2231 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 40
+    },
+    {
+      "time_local": "2026-11-19T10:25:00",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 52, 1890 MHz, 15.68 W, 20 %, 2544 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:25:10",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 52, 1200 MHz, 17.83 W, 35 %, 2539 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:25:20",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 53, 1215 MHz, 17.88 W, 32 %, 2518 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:25:31",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 55, 1215 MHz, 18.18 W, 42 %, 2516 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:25:40",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 55, 1215 MHz, 18.37 W, 45 %, 2503 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:26:03",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 55, 1275 MHz, 18.94 W, 28 %, 2577 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:26:15",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 55, 960 MHz, 14.09 W, 44 %, 2591 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:26:25",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 56, 1185 MHz, 18.15 W, 36 %, 2591 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:26:35",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 56, 1125 MHz, 18.38 W, 35 %, 2590 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:26:48",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 56, 825 MHz, 14.20 W, 34 %, 2579 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    },
+    {
+      "time_local": "2026-11-19T10:27:05",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 56, 1200 MHz, 18.51 W, 30 %, 2580 MiB",
+      "foreign_compute_matches": [],
+      "desktop_graphics_clients": 41
+    }
+  ],
+  "no_parallel_research_process_observed": true,
+  "hardware": "RTX4060 Laptop under Windows WDDM, ordinary desktop processes still present.",
+  "output": {
+    "eager": {
+      "from_ready_to_overlay": {
+        "n": 600,
+        "mean_ms": 58.15031049831305,
+        "p50_ms": 56.48180001298897,
+        "p95_ms": 71.01013498904648,
+        "fps_from_mean": 17.19681273290897
+      },
+      "from_native_to_overlay": {
+        "n": 600,
+        "mean_ms": 83.85801149929951,
+        "p50_ms": 81.75044998642989,
+        "p95_ms": 100.15858501428734,
+        "fps_from_mean": 11.924919064034249
+      },
+      "from_ready_to_results": {
+        "n": 600,
+        "mean_ms": 56.40012066529986,
+        "p50_ms": 54.759300022851676,
+        "p95_ms": 69.27828502957708,
+        "fps_from_mean": 17.730458520370675
+      }
+    },
+    "single_graph": {
+      "from_ready_to_overlay": {
+        "n": 600,
+        "mean_ms": 58.47411566569159,
+        "p50_ms": 55.536450003273785,
+        "p95_ms": 81.15257498284336,
+        "fps_from_mean": 17.10158398490716
+      },
+      "from_native_to_overlay": {
+        "n": 600,
+        "mean_ms": 89.11967733195827,
+        "p50_ms": 84.64924996951595,
+        "p95_ms": 121.6600600106176,
+        "fps_from_mean": 11.220866479073308
+      },
+      "from_ready_to_results": {
+        "n": 600,
+        "mean_ms": 56.409554501102924,
+        "p50_ms": 53.43334999633953,
+        "p95_ms": 77.91037502465765,
+        "fps_from_mean": 17.727493309319573
+      }
+    }
+  }
+}

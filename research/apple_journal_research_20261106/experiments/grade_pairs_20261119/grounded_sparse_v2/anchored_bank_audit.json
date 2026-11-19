@@ -1,0 +1,18 @@
+{
+  "unique_sources": {
+    "hard_texture": 129,
+    "hard_detector": 45,
+    "normal": 44,
+    "mark": 42
+  },
+  "slots_by_type": {
+    "hard_texture": 456,
+    "hard_detector": 85,
+    "normal": 65,
+    "mark": 79
+  },
+  "dev_confirmed_loc_samples": {
+    "0": 33,
+    "1": 15
+  }
+}

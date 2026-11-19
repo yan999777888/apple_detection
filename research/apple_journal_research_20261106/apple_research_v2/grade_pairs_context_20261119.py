@@ -22,13 +22,14 @@ class Batch(NamedTuple):
     geometry:torch.Tensor
 
 
-def encode_input(frames,device,hints=None):
+def encode_input(frames,device,hints=None,region_callback=None):
     if hints is None:hints=[paired.standalone_hints(im) for im in frames]
     all_pixels=[];all_geometry=[];locations=[]
     for frame,cues in zip(frames,hints,strict=True):
         h,w=frame.shape[:2]
         a=grade.rgb_square(frame);b=paired.square(frame,320)
         patches,valid,coords=paired.patch_bank(frame,cues)
+        if region_callback is not None:region_callback(frame,coords,patches)
         locations.append(coords)
         # Pack all pixels for one transfer and normalize all RGB channels once.
         all_pixels.append(np.concatenate([b.reshape(-1,3),a.reshape(-1,3),*(p.reshape(-1,3) for p in patches)]))

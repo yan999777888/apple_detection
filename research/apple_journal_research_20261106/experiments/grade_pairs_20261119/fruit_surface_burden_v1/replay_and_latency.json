@@ -1,0 +1,14 @@
+{
+  "inputs_replayed": 109,
+  "argmax_match": 109,
+  "changes": [],
+  "grade_only": {
+    "measurements": 96,
+    "warmup": 5,
+    "frames": 12,
+    "mean_ms": 30.6135854182988,
+    "p95_ms": 40.70105003484059,
+    "fps": 32.66523624515622,
+    "includes": "decoded native fruit crop and existing proposals to predicted fruit grade; no scene networks or overlay"
+  }
+}

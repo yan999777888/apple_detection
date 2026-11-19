@@ -1,0 +1,10 @@
+{
+  "data_sha256": "2a157d09ba312099de0f9232c1310a47c35c5c17af665a80bf88a8bafba045fe",
+  "units": "Six advanced views of three distinct FruitLife apples; two nonrectangular sunburn regions from one Penn capture day.",
+  "conditions": [
+    "leave one physical fruit/capture day out",
+    "leave entire source out"
+  ],
+  "features": "9 geometry/texture summaries, compared with same features plus 9 Lab colour summaries; fixed linear difference of class means standardized exclusively on fit groups.",
+  "outcome": "Does the lesion score exceed its matched normal patch? Positive ranking is not a whole-fruit severity decision. No AF or external panel inputs."
+}

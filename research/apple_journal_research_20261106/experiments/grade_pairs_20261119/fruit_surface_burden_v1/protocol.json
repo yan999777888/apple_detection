@@ -1,0 +1,11 @@
+{
+  "architecture": "native320_sparse_surface_burden_20261119",
+  "prior": "f1dafce9f558d1bf79da1db1c42f92966b5da90d88986dd42089851e6b13d901",
+  "common": "8cc10f6b584b9b6c0bc97ab90b1319de4784f785c511bf97eb094d9e703de88e",
+  "design": "Estimate severity from a fruit-normalized 36x36 map of local color-contrast traces and a frozen per-site verifier. Posterior-weighted per-pixel maximum avoids adding the same wound twice. Report largest/total fractional area, fractional independent trace count and source counts, spatial spread, strongest supports, skin evidence and parent prior. Physical diameter is not inferred.",
+  "training": "One convex readout, grade BCE + one same-setup, cross-grade pairwise ordering objective + fixed L2=0.08. Across AF/Woo/otherAF/healthy weight .50/.25/.20/.05; normalized by source, class, original photo and its duplicate views. No threshold grid or dev checkpoint selection.",
+  "groups": "Matched pairs within AF mixed-grade burst and same view mode, or Woo same station/camera. Only manually graded Woo examples become fruit-level samples; marks alone do not imply a fruit grade.",
+  "source": "49ab3706c69392e1ad09ca0061be9e473e74d00cd75e156538604f91851b38cd",
+  "network": "9f67be0884cd412937298e88ea28fc3649a28488e90599be36b9ddf4734c8c7a",
+  "train_sha": "2cacd0e92d1adb7ee78ecf7dc23bf459b47d6cc3bd4b35c2d4744521d1ae6d16"
+}

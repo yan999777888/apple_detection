@@ -1,0 +1,5467 @@
+{
+  "mode": "single_graph",
+  "n": 600,
+  "fruit_counts": {
+    "1": 600
+  },
+  "summary": {
+    "all": {
+      "from_ready_to_overlay": {
+        "n": 600,
+        "mean_ms": 58.47411566569159,
+        "p50_ms": 55.536450003273785,
+        "p95_ms": 81.15257498284336,
+        "fps_from_mean": 17.10158398490716
+      },
+      "from_native_to_overlay": {
+        "n": 600,
+        "mean_ms": 89.11967733195827,
+        "p50_ms": 84.64924996951595,
+        "p95_ms": 121.6600600106176,
+        "fps_from_mean": 11.220866479073308
+      },
+      "from_ready_to_results": {
+        "n": 600,
+        "mean_ms": 56.409554501102924,
+        "p50_ms": 53.43334999633953,
+        "p95_ms": 77.91037502465765,
+        "fps_from_mean": 17.727493309319573
+      }
+    },
+    "zero": {
+      "from_ready_to_overlay": null,
+      "from_native_to_overlay": null,
+      "from_ready_to_results": null
+    },
+    "one": {
+      "from_ready_to_overlay": {
+        "n": 600,
+        "mean_ms": 58.47411566569159,
+        "p50_ms": 55.536450003273785,
+        "p95_ms": 81.15257498284336,
+        "fps_from_mean": 17.10158398490716
+      },
+      "from_native_to_overlay": {
+        "n": 600,
+        "mean_ms": 89.11967733195827,
+        "p50_ms": 84.64924996951595,
+        "p95_ms": 121.6600600106176,
+        "fps_from_mean": 11.220866479073308
+      },
+      "from_ready_to_results": {
+        "n": 600,
+        "mean_ms": 56.409554501102924,
+        "p50_ms": 53.43334999633953,
+        "p95_ms": 77.91037502465765,
+        "fps_from_mean": 17.727493309319573
+      }
+    },
+    "multi": {
+      "from_ready_to_overlay": null,
+      "from_native_to_overlay": null,
+      "from_ready_to_results": null
+    }
+  },
+  "rows": [
+    {
+      "round": 0,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 44.242900039535016,
+      "from_native_to_overlay": 68.44040000578389,
+      "from_ready_to_results": 42.401200043968856
+    },
+    {
+      "round": 0,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.24639997584745,
+      "from_native_to_overlay": 73.07799998670816,
+      "from_ready_to_results": 45.05239997524768
+    },
+    {
+      "round": 0,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 48.93910000100732,
+      "from_native_to_overlay": 74.4025000021793,
+      "from_ready_to_results": 46.975099947303534
+    },
+    {
+      "round": 0,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.19069998525083,
+      "from_native_to_overlay": 75.93549997545779,
+      "from_ready_to_results": 47.434500011149794
+    },
+    {
+      "round": 0,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.90480000479147,
+      "from_native_to_overlay": 71.82839995948598,
+      "from_ready_to_results": 43.961299990769476
+    },
+    {
+      "round": 0,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 47.132099978625774,
+      "from_native_to_overlay": 70.3362999483943,
+      "from_ready_to_results": 45.140700007323176
+    },
+    {
+      "round": 0,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.8797999676317,
+      "from_native_to_overlay": 73.78469995455816,
+      "from_ready_to_results": 45.85160000715405
+    },
+    {
+      "round": 0,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.46909998357296,
+      "from_native_to_overlay": 72.44590000482276,
+      "from_ready_to_results": 45.41209997842088
+    },
+    {
+      "round": 0,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.95050002960488,
+      "from_native_to_overlay": 78.51220003794879,
+      "from_ready_to_results": 47.09449998335913
+    },
+    {
+      "round": 0,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.825700021348894,
+      "from_native_to_overlay": 77.47459999518469,
+      "from_ready_to_results": 45.934900001157075
+    },
+    {
+      "round": 0,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.358799947891384,
+      "from_native_to_overlay": 75.77539997873828,
+      "from_ready_to_results": 46.07949999626726
+    },
+    {
+      "round": 0,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 48.53460000595078,
+      "from_native_to_overlay": 74.21410002280027,
+      "from_ready_to_results": 46.46470001898706
+    },
+    {
+      "round": 0,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.805699984077364,
+      "from_native_to_overlay": 81.49880002019927,
+      "from_ready_to_results": 56.691400008276105
+    },
+    {
+      "round": 0,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.99169998196885,
+      "from_native_to_overlay": 87.91529998416081,
+      "from_ready_to_results": 58.97780001396313
+    },
+    {
+      "round": 0,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.964599983766675,
+      "from_native_to_overlay": 80.46229998581111,
+      "from_ready_to_results": 44.9019999941811
+    },
+    {
+      "round": 0,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.83009996917099,
+      "from_native_to_overlay": 85.65329998964444,
+      "from_ready_to_results": 53.37589996634051
+    },
+    {
+      "round": 0,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.74700002418831,
+      "from_native_to_overlay": 94.25910003483295,
+      "from_ready_to_results": 53.56620001839474
+    },
+    {
+      "round": 0,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.784100043121725,
+      "from_native_to_overlay": 91.1939000361599,
+      "from_ready_to_results": 47.037400014232844
+    },
+    {
+      "round": 0,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.70009996416047,
+      "from_native_to_overlay": 78.74849997460842,
+      "from_ready_to_results": 48.81619999650866
+    },
+    {
+      "round": 0,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 48.67509996984154,
+      "from_native_to_overlay": 73.59980000182986,
+      "from_ready_to_results": 46.76709999330342
+    },
+    {
+      "round": 1,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.78059996897355,
+      "from_native_to_overlay": 74.95589996688068,
+      "from_ready_to_results": 45.89849995682016
+    },
+    {
+      "round": 1,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.467500012833625,
+      "from_native_to_overlay": 84.9199999938719,
+      "from_ready_to_results": 52.45340004330501
+    },
+    {
+      "round": 1,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 48.880300018936396,
+      "from_native_to_overlay": 75.30570001108572,
+      "from_ready_to_results": 46.923200017772615
+    },
+    {
+      "round": 1,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.8628999767825,
+      "from_native_to_overlay": 71.60600001225248,
+      "from_ready_to_results": 43.940500007010996
+    },
+    {
+      "round": 1,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.732399977277964,
+      "from_native_to_overlay": 76.97270001517609,
+      "from_ready_to_results": 48.832800006493926
+    },
+    {
+      "round": 1,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.74399998597801,
+      "from_native_to_overlay": 80.56629996281117,
+      "from_ready_to_results": 49.926600011531264
+    },
+    {
+      "round": 1,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 51.82839999906719,
+      "from_native_to_overlay": 76.93379995180294,
+      "from_ready_to_results": 49.44140004226938
+    },
+    {
+      "round": 1,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.07610003789887,
+      "from_native_to_overlay": 84.37510003568605,
+      "from_ready_to_results": 53.904700034763664
+    },
+    {
+      "round": 1,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.12280001817271,
+      "from_native_to_overlay": 78.01200001267716,
+      "from_ready_to_results": 50.78380001941696
+    },
+    {
+      "round": 1,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 68.30909999553114,
+      "from_native_to_overlay": 97.851799975615,
+      "from_ready_to_results": 65.88440004270524
+    },
+    {
+      "round": 1,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.22300002770498,
+      "from_native_to_overlay": 98.67019997909665,
+      "from_ready_to_results": 66.35680003091693
+    },
+    {
+      "round": 1,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 66.18819996947423,
+      "from_native_to_overlay": 102.65349998371676,
+      "from_ready_to_results": 64.15950000518933
+    },
+    {
+      "round": 1,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 58.57689998811111,
+      "from_native_to_overlay": 93.94429996609688,
+      "from_ready_to_results": 56.239500001538545
+    },
+    {
+      "round": 1,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 74.01240000035614,
+      "from_native_to_overlay": 107.27419995237142,
+      "from_ready_to_results": 71.5916000190191
+    },
+    {
+      "round": 1,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.3947000131011,
+      "from_native_to_overlay": 102.49630000907928,
+      "from_ready_to_results": 59.66580001404509
+    },
+    {
+      "round": 1,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.05369999911636,
+      "from_native_to_overlay": 104.14270003093407,
+      "from_ready_to_results": 57.972899987362325
+    },
+    {
+      "round": 1,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 63.87469999026507,
+      "from_native_to_overlay": 88.8050000066869,
+      "from_ready_to_results": 61.57569994684309
+    },
+    {
+      "round": 1,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.359399983193725,
+      "from_native_to_overlay": 80.36859997082502,
+      "from_ready_to_results": 54.311999992933124
+    },
+    {
+      "round": 1,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.62939999578521,
+      "from_native_to_overlay": 89.72529997117817,
+      "from_ready_to_results": 60.7439000159502
+    },
+    {
+      "round": 1,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.74040000606328,
+      "from_native_to_overlay": 80.12340002460405,
+      "from_ready_to_results": 51.243400026578456
+    },
+    {
+      "round": 2,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.24379999283701,
+      "from_native_to_overlay": 74.45549999829382,
+      "from_ready_to_results": 47.33749997103587
+    },
+    {
+      "round": 2,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.37219994422048,
+      "from_native_to_overlay": 80.23949997732416,
+      "from_ready_to_results": 45.50189996371046
+    },
+    {
+      "round": 2,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.62830002093688,
+      "from_native_to_overlay": 74.90100001450628,
+      "from_ready_to_results": 46.68790003051981
+    },
+    {
+      "round": 2,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 51.41459999140352,
+      "from_native_to_overlay": 78.9612999651581,
+      "from_ready_to_results": 49.33569999411702
+    },
+    {
+      "round": 2,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 50.41170003823936,
+      "from_native_to_overlay": 75.11820003855973,
+      "from_ready_to_results": 48.40840003453195
+    },
+    {
+      "round": 2,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.93780000181869,
+      "from_native_to_overlay": 74.15539998328313,
+      "from_ready_to_results": 45.85710004903376
+    },
+    {
+      "round": 2,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.87230004230514,
+      "from_native_to_overlay": 84.42560001276433,
+      "from_ready_to_results": 49.82160002691671
+    },
+    {
+      "round": 2,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.25970000680536,
+      "from_native_to_overlay": 85.26500000152737,
+      "from_ready_to_results": 57.21619998803362
+    },
+    {
+      "round": 2,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.61120001785457,
+      "from_native_to_overlay": 75.52020001458004,
+      "from_ready_to_results": 45.67289998522028
+    },
+    {
+      "round": 2,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.20410002907738,
+      "from_native_to_overlay": 75.81320003373548,
+      "from_ready_to_results": 48.237300012260675
+    },
+    {
+      "round": 2,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.429699963890016,
+      "from_native_to_overlay": 72.15719996020198,
+      "from_ready_to_results": 46.53449996840209
+    },
+    {
+      "round": 2,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 47.43650002637878,
+      "from_native_to_overlay": 72.64480000594631,
+      "from_ready_to_results": 45.223799999803305
+    },
+    {
+      "round": 2,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.19549998501316,
+      "from_native_to_overlay": 72.39849999314174,
+      "from_ready_to_results": 46.034099999815226
+    },
+    {
+      "round": 2,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 46.59460001857951,
+      "from_native_to_overlay": 74.01450001634657,
+      "from_ready_to_results": 44.601599976886064
+    },
+    {
+      "round": 2,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.976400015410036,
+      "from_native_to_overlay": 73.738900013268,
+      "from_ready_to_results": 44.96989998733625
+    },
+    {
+      "round": 2,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.930599957704544,
+      "from_native_to_overlay": 72.95770000200719,
+      "from_ready_to_results": 44.89219997776672
+    },
+    {
+      "round": 2,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.532099976204336,
+      "from_native_to_overlay": 74.87120002042502,
+      "from_ready_to_results": 47.4512999644503
+    },
+    {
+      "round": 2,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.33740000706166,
+      "from_native_to_overlay": 76.14010001998395,
+      "from_ready_to_results": 47.360500029753894
+    },
+    {
+      "round": 2,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.41829996742308,
+      "from_native_to_overlay": 69.97109996154904,
+      "from_ready_to_results": 43.45529997954145
+    },
+    {
+      "round": 2,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 43.97409997181967,
+      "from_native_to_overlay": 66.46310002543032,
+      "from_ready_to_results": 42.161099961958826
+    },
+    {
+      "round": 3,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.67479998897761,
+      "from_native_to_overlay": 69.66310000279918,
+      "from_ready_to_results": 44.71159999957308
+    },
+    {
+      "round": 3,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.443100007716566,
+      "from_native_to_overlay": 71.71709998510778,
+      "from_ready_to_results": 46.33689997717738
+    },
+    {
+      "round": 3,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 47.50569997122511,
+      "from_native_to_overlay": 73.19429999915883,
+      "from_ready_to_results": 45.40859995177016
+    },
+    {
+      "round": 3,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.105699989013374,
+      "from_native_to_overlay": 72.48319999780506,
+      "from_ready_to_results": 47.06429998623207
+    },
+    {
+      "round": 3,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.50480004400015,
+      "from_native_to_overlay": 68.40879999799654,
+      "from_ready_to_results": 43.83750003762543
+    },
+    {
+      "round": 3,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.032900038175285,
+      "from_native_to_overlay": 73.42080003581941,
+      "from_ready_to_results": 44.91360002430156
+    },
+    {
+      "round": 3,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 53.94860001979396,
+      "from_native_to_overlay": 79.63449996896088,
+      "from_ready_to_results": 51.710500032640994
+    },
+    {
+      "round": 3,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 50.794499984476715,
+      "from_native_to_overlay": 79.27529996959493,
+      "from_ready_to_results": 48.64689998794347
+    },
+    {
+      "round": 3,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.39939999068156,
+      "from_native_to_overlay": 101.7969999811612,
+      "from_ready_to_results": 59.36299997847527
+    },
+    {
+      "round": 3,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.067999980878085,
+      "from_native_to_overlay": 96.87249996932223,
+      "from_ready_to_results": 58.17059997934848
+    },
+    {
+      "round": 3,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.949900046456605,
+      "from_native_to_overlay": 88.6367000057362,
+      "from_ready_to_results": 44.973600015509874
+    },
+    {
+      "round": 3,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.583799997810274,
+      "from_native_to_overlay": 91.93200001027435,
+      "from_ready_to_results": 60.647399979643524
+    },
+    {
+      "round": 3,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.59399999724701,
+      "from_native_to_overlay": 83.75260001048446,
+      "from_ready_to_results": 51.319300022441894
+    },
+    {
+      "round": 3,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.888300015591085,
+      "from_native_to_overlay": 79.19130002846941,
+      "from_ready_to_results": 52.88690002635121
+    },
+    {
+      "round": 3,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.8273999793455,
+      "from_native_to_overlay": 91.99709998210892,
+      "from_ready_to_results": 61.2326999544166
+    },
+    {
+      "round": 3,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 75.66140004200861,
+      "from_native_to_overlay": 114.89640001673251,
+      "from_ready_to_results": 72.16680003330112
+    },
+    {
+      "round": 3,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 82.91769999777898,
+      "from_native_to_overlay": 121.65310001000762,
+      "from_ready_to_results": 79.62969999061897
+    },
+    {
+      "round": 3,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 100.77570000430569,
+      "from_native_to_overlay": 147.3139000008814,
+      "from_ready_to_results": 97.51280001364648
+    },
+    {
+      "round": 3,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 73.51020001806319,
+      "from_native_to_overlay": 115.4802999808453,
+      "from_ready_to_results": 70.7236000453122
+    },
+    {
+      "round": 3,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 83.28369999071583,
+      "from_native_to_overlay": 120.20789994858205,
+      "from_ready_to_results": 65.61180000426248
+    },
+    {
+      "round": 4,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 107.45090001728386,
+      "from_native_to_overlay": 157.65740000642836,
+      "from_ready_to_results": 105.03420000895858
+    },
+    {
+      "round": 4,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 72.6260999799706,
+      "from_native_to_overlay": 125.51109999185428,
+      "from_ready_to_results": 69.62679995922372
+    },
+    {
+      "round": 4,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 70.35199995152652,
+      "from_native_to_overlay": 107.9353999812156,
+      "from_ready_to_results": 68.08339996496215
+    },
+    {
+      "round": 4,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 75.83780004642904,
+      "from_native_to_overlay": 121.7923000222072,
+      "from_ready_to_results": 72.9507000069134
+    },
+    {
+      "round": 4,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 66.82350003393367,
+      "from_native_to_overlay": 101.49109998019412,
+      "from_ready_to_results": 63.8034000294283
+    },
+    {
+      "round": 4,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 84.08760000020266,
+      "from_native_to_overlay": 125.77829998917878,
+      "from_ready_to_results": 81.58639998873696
+    },
+    {
+      "round": 4,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 67.711399984546,
+      "from_native_to_overlay": 107.11899999296293,
+      "from_ready_to_results": 65.98110002232715
+    },
+    {
+      "round": 4,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 76.98489999165758,
+      "from_native_to_overlay": 116.62909999722615,
+      "from_ready_to_results": 74.63990000542253
+    },
+    {
+      "round": 4,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 77.24919996690005,
+      "from_native_to_overlay": 110.68049998721108,
+      "from_ready_to_results": 74.33699996909127
+    },
+    {
+      "round": 4,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 91.37010003905743,
+      "from_native_to_overlay": 142.31970004038885,
+      "from_ready_to_results": 89.18650000123307
+    },
+    {
+      "round": 4,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 78.3405999536626,
+      "from_native_to_overlay": 118.7262999592349,
+      "from_ready_to_results": 75.23039996158332
+    },
+    {
+      "round": 4,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 96.26070002559572,
+      "from_native_to_overlay": 144.23739997437224,
+      "from_ready_to_results": 93.74640003079548
+    },
+    {
+      "round": 4,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 72.46589998248965,
+      "from_native_to_overlay": 117.04400001326576,
+      "from_ready_to_results": 70.80169999971986
+    },
+    {
+      "round": 4,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 87.79840002534911,
+      "from_native_to_overlay": 131.609300035052,
+      "from_ready_to_results": 85.85030003450811
+    },
+    {
+      "round": 4,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 81.49609999964014,
+      "from_native_to_overlay": 128.07879998581484,
+      "from_ready_to_results": 79.34600004227832
+    },
+    {
+      "round": 4,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 72.98709999304265,
+      "from_native_to_overlay": 117.57659999420866,
+      "from_ready_to_results": 70.74209995334968
+    },
+    {
+      "round": 4,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 75.59679995756596,
+      "from_native_to_overlay": 114.70789997838438,
+      "from_ready_to_results": 73.06999998399988
+    },
+    {
+      "round": 4,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 92.92129997629672,
+      "from_native_to_overlay": 141.73249999294057,
+      "from_ready_to_results": 90.37749998969957
+    },
+    {
+      "round": 4,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 90.42199997929856,
+      "from_native_to_overlay": 133.69439996313304,
+      "from_ready_to_results": 88.15620001405478
+    },
+    {
+      "round": 4,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 82.55140000255778,
+      "from_native_to_overlay": 117.04759998247027,
+      "from_ready_to_results": 80.52580000367016
+    },
+    {
+      "round": 5,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 73.1536999810487,
+      "from_native_to_overlay": 123.64160001743585,
+      "from_ready_to_results": 71.23229996068403
+    },
+    {
+      "round": 5,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 83.68139999220148,
+      "from_native_to_overlay": 117.34589998377487,
+      "from_ready_to_results": 81.50109997950494
+    },
+    {
+      "round": 5,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.85800001164898,
+      "from_native_to_overlay": 101.60520003410056,
+      "from_ready_to_results": 58.96449997089803
+    },
+    {
+      "round": 5,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.348200018983334,
+      "from_native_to_overlay": 90.12740000616759,
+      "from_ready_to_results": 59.60010003764182
+    },
+    {
+      "round": 5,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 73.03450000472367,
+      "from_native_to_overlay": 114.00210001738742,
+      "from_ready_to_results": 70.48940000822768
+    },
+    {
+      "round": 5,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 67.99000001046807,
+      "from_native_to_overlay": 102.2017999785021,
+      "from_ready_to_results": 65.14530000276864
+    },
+    {
+      "round": 5,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 78.86230002623051,
+      "from_native_to_overlay": 114.74859999725595,
+      "from_ready_to_results": 76.07429998461157
+    },
+    {
+      "round": 5,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 70.40999998571351,
+      "from_native_to_overlay": 106.01209994638339,
+      "from_ready_to_results": 68.41240002540872
+    },
+    {
+      "round": 5,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 86.61170001141727,
+      "from_native_to_overlay": 118.78580000484362,
+      "from_ready_to_results": 83.65139999659732
+    },
+    {
+      "round": 5,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 72.15150003321469,
+      "from_native_to_overlay": 107.55720001179725,
+      "from_ready_to_results": 69.29190002847463
+    },
+    {
+      "round": 5,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 77.42869999492541,
+      "from_native_to_overlay": 120.80299999797717,
+      "from_ready_to_results": 75.19579998916015
+    },
+    {
+      "round": 5,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 76.44299999810755,
+      "from_native_to_overlay": 114.48940000263974,
+      "from_ready_to_results": 73.56310001341626
+    },
+    {
+      "round": 5,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 88.96680001635104,
+      "from_native_to_overlay": 131.06889999471605,
+      "from_ready_to_results": 85.82859998568892
+    },
+    {
+      "round": 5,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 82.68449996830896,
+      "from_native_to_overlay": 130.18019997980446,
+      "from_ready_to_results": 79.91049997508526
+    },
+    {
+      "round": 5,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.97550003323704,
+      "from_native_to_overlay": 97.70530002424493,
+      "from_ready_to_results": 58.916600013617426
+    },
+    {
+      "round": 5,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.59270003950223,
+      "from_native_to_overlay": 87.18480000970885,
+      "from_ready_to_results": 57.50120000448078
+    },
+    {
+      "round": 5,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 76.32539997575805,
+      "from_native_to_overlay": 99.32999999728054,
+      "from_ready_to_results": 74.39949997933581
+    },
+    {
+      "round": 5,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 53.81279997527599,
+      "from_native_to_overlay": 82.01549999648705,
+      "from_ready_to_results": 51.57419998431578
+    },
+    {
+      "round": 5,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.72609999682754,
+      "from_native_to_overlay": 88.81849999306723,
+      "from_ready_to_results": 58.118200046010315
+    },
+    {
+      "round": 5,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 52.48190002748743,
+      "from_native_to_overlay": 90.34240001346916,
+      "from_ready_to_results": 50.3881000331603
+    },
+    {
+      "round": 6,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.55750000430271,
+      "from_native_to_overlay": 82.48690003529191,
+      "from_ready_to_results": 57.28459998499602
+    },
+    {
+      "round": 6,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.298700008075684,
+      "from_native_to_overlay": 78.47760000731796,
+      "from_ready_to_results": 52.01210000086576
+    },
+    {
+      "round": 6,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.35850002383813,
+      "from_native_to_overlay": 81.08740003081039,
+      "from_ready_to_results": 55.15750002814457
+    },
+    {
+      "round": 6,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 66.01660000160336,
+      "from_native_to_overlay": 96.97559999767691,
+      "from_ready_to_results": 63.97570000262931
+    },
+    {
+      "round": 6,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.54579999484122,
+      "from_native_to_overlay": 85.92400001361966,
+      "from_ready_to_results": 54.460300016216934
+    },
+    {
+      "round": 6,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.394099997822195,
+      "from_native_to_overlay": 97.72219997830689,
+      "from_ready_to_results": 61.247200006619096
+    },
+    {
+      "round": 6,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 64.405600016471,
+      "from_native_to_overlay": 98.88550004689023,
+      "from_ready_to_results": 62.157000007573515
+    },
+    {
+      "round": 6,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.3747000307776,
+      "from_native_to_overlay": 85.17600002232939,
+      "from_ready_to_results": 54.84950001118705
+    },
+    {
+      "round": 6,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 55.824499984737486,
+      "from_native_to_overlay": 94.06659996602684,
+      "from_ready_to_results": 53.70819999370724
+    },
+    {
+      "round": 6,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 71.92219997523353,
+      "from_native_to_overlay": 106.72109998995438,
+      "from_ready_to_results": 69.61130001582205
+    },
+    {
+      "round": 6,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.16170001262799,
+      "from_native_to_overlay": 88.73829996446148,
+      "from_ready_to_results": 52.04330000560731
+    },
+    {
+      "round": 6,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.25880001671612,
+      "from_native_to_overlay": 79.70000000204891,
+      "from_ready_to_results": 50.32699997536838
+    },
+    {
+      "round": 6,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.23580000549555,
+      "from_native_to_overlay": 81.92899997811764,
+      "from_ready_to_results": 51.23730003833771
+    },
+    {
+      "round": 6,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.513599971774966,
+      "from_native_to_overlay": 84.26620002137497,
+      "from_ready_to_results": 56.02349998662248
+    },
+    {
+      "round": 6,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.15519999386743,
+      "from_native_to_overlay": 89.21369997551665,
+      "from_ready_to_results": 60.02129998523742
+    },
+    {
+      "round": 6,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.50499995984137,
+      "from_native_to_overlay": 87.39819994661957,
+      "from_ready_to_results": 51.473199971951544
+    },
+    {
+      "round": 6,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 58.76770004397258,
+      "from_native_to_overlay": 83.82180001353845,
+      "from_ready_to_results": 56.747700029518455
+    },
+    {
+      "round": 6,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.214400021824986,
+      "from_native_to_overlay": 85.55179997347295,
+      "from_ready_to_results": 55.972600006498396
+    },
+    {
+      "round": 6,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.42379999253899,
+      "from_native_to_overlay": 81.72779995948076,
+      "from_ready_to_results": 50.265800033230335
+    },
+    {
+      "round": 6,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.42399997264147,
+      "from_native_to_overlay": 81.29509998252615,
+      "from_ready_to_results": 52.267099963501096
+    },
+    {
+      "round": 7,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.65030002919957,
+      "from_native_to_overlay": 85.63039998989552,
+      "from_ready_to_results": 50.50810001557693
+    },
+    {
+      "round": 7,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 64.66739997267723,
+      "from_native_to_overlay": 103.68830000516027,
+      "from_ready_to_results": 61.512499989476055
+    },
+    {
+      "round": 7,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.632200001738966,
+      "from_native_to_overlay": 88.40949996374547,
+      "from_ready_to_results": 56.56150000868365
+    },
+    {
+      "round": 7,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.473500011023134,
+      "from_native_to_overlay": 90.88420000625774,
+      "from_ready_to_results": 51.34760000510141
+    },
+    {
+      "round": 7,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 66.14720000652596,
+      "from_native_to_overlay": 89.21160001773387,
+      "from_ready_to_results": 63.467999978456646
+    },
+    {
+      "round": 7,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 68.7671999912709,
+      "from_native_to_overlay": 102.49299998395145,
+      "from_ready_to_results": 66.8440000154078
+    },
+    {
+      "round": 7,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 64.8090000031516,
+      "from_native_to_overlay": 99.53669999958947,
+      "from_ready_to_results": 62.656500027514994
+    },
+    {
+      "round": 7,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.939000030979514,
+      "from_native_to_overlay": 101.37150000082329,
+      "from_ready_to_results": 54.398000007495284
+    },
+    {
+      "round": 7,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.14840004313737,
+      "from_native_to_overlay": 91.11150004900992,
+      "from_ready_to_results": 55.962700047530234
+    },
+    {
+      "round": 7,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.33249998977408,
+      "from_native_to_overlay": 82.31279999017715,
+      "from_ready_to_results": 56.024599994998425
+    },
+    {
+      "round": 7,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.66759998165071,
+      "from_native_to_overlay": 72.86439999006689,
+      "from_ready_to_results": 45.37760000675917
+    },
+    {
+      "round": 7,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.28720004763454,
+      "from_native_to_overlay": 79.25860001705587,
+      "from_ready_to_results": 50.98510003881529
+    },
+    {
+      "round": 7,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.41430000914261,
+      "from_native_to_overlay": 95.48630000790581,
+      "from_ready_to_results": 57.5542000005953
+    },
+    {
+      "round": 7,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.736999980174005,
+      "from_native_to_overlay": 89.35979998204857,
+      "from_ready_to_results": 51.67660000734031
+    },
+    {
+      "round": 7,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 86.18919999571517,
+      "from_native_to_overlay": 123.18699999013916,
+      "from_ready_to_results": 83.39240000350401
+    },
+    {
+      "round": 7,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.67379998601973,
+      "from_native_to_overlay": 86.5891000139527,
+      "from_ready_to_results": 49.6178999892436
+    },
+    {
+      "round": 7,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.44870000751689,
+      "from_native_to_overlay": 79.39249998889863,
+      "from_ready_to_results": 49.91980001796037
+    },
+    {
+      "round": 7,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.53530000522733,
+      "from_native_to_overlay": 89.54850002191961,
+      "from_ready_to_results": 52.44609998771921
+    },
+    {
+      "round": 7,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 61.075399979017675,
+      "from_native_to_overlay": 87.32819999568164,
+      "from_ready_to_results": 58.93719999585301
+    },
+    {
+      "round": 7,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.888100014068186,
+      "from_native_to_overlay": 82.43300003232434,
+      "from_ready_to_results": 52.85640002693981
+    },
+    {
+      "round": 8,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.17159999301657,
+      "from_native_to_overlay": 78.6208999925293,
+      "from_ready_to_results": 50.08149996865541
+    },
+    {
+      "round": 8,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.55390001507476,
+      "from_native_to_overlay": 75.85439999820665,
+      "from_ready_to_results": 48.14020002959296
+    },
+    {
+      "round": 8,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.04430003464222,
+      "from_native_to_overlay": 75.06120001198724,
+      "from_ready_to_results": 47.935300040990114
+    },
+    {
+      "round": 8,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.34089998016134,
+      "from_native_to_overlay": 86.05410001473501,
+      "from_ready_to_results": 52.54479998257011
+    },
+    {
+      "round": 8,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.80199999874458,
+      "from_native_to_overlay": 81.68590004788712,
+      "from_ready_to_results": 52.71569994511083
+    },
+    {
+      "round": 8,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.684999976307154,
+      "from_native_to_overlay": 79.88500001374632,
+      "from_ready_to_results": 47.600199992302805
+    },
+    {
+      "round": 8,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.926599979400635,
+      "from_native_to_overlay": 80.6690999888815,
+      "from_ready_to_results": 50.91859999811277
+    },
+    {
+      "round": 8,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.018300032708794,
+      "from_native_to_overlay": 73.95950000500306,
+      "from_ready_to_results": 46.08370002824813
+    },
+    {
+      "round": 8,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 50.33050000201911,
+      "from_native_to_overlay": 77.52140000229701,
+      "from_ready_to_results": 48.213500005658716
+    },
+    {
+      "round": 8,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 52.62640002183616,
+      "from_native_to_overlay": 78.81910004653037,
+      "from_ready_to_results": 50.689600000623614
+    },
+    {
+      "round": 8,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.32750000059605,
+      "from_native_to_overlay": 75.70789998862892,
+      "from_ready_to_results": 46.22220003511757
+    },
+    {
+      "round": 8,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.59329995047301,
+      "from_native_to_overlay": 73.30059999367222,
+      "from_ready_to_results": 44.45240000495687
+    },
+    {
+      "round": 8,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.26800001319498,
+      "from_native_to_overlay": 75.6796000059694,
+      "from_ready_to_results": 46.32080002920702
+    },
+    {
+      "round": 8,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 46.91090004052967,
+      "from_native_to_overlay": 75.2830000128597,
+      "from_ready_to_results": 44.583700015209615
+    },
+    {
+      "round": 8,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.784300044644624,
+      "from_native_to_overlay": 74.08240000950173,
+      "from_ready_to_results": 46.618200023658574
+    },
+    {
+      "round": 8,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.545700021553785,
+      "from_native_to_overlay": 76.92249998217449,
+      "from_ready_to_results": 46.59889999311417
+    },
+    {
+      "round": 8,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.430099982302636,
+      "from_native_to_overlay": 79.37110000057146,
+      "from_ready_to_results": 50.240500015206635
+    },
+    {
+      "round": 8,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.467899951618165,
+      "from_native_to_overlay": 88.06159999221563,
+      "from_ready_to_results": 58.35929996101186
+    },
+    {
+      "round": 8,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 58.01839998457581,
+      "from_native_to_overlay": 96.09579999232665,
+      "from_ready_to_results": 55.23519997950643
+    },
+    {
+      "round": 8,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.082200000062585,
+      "from_native_to_overlay": 90.83270002156496,
+      "from_ready_to_results": 50.85639999015257
+    },
+    {
+      "round": 9,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 62.42699996801093,
+      "from_native_to_overlay": 92.02979999827221,
+      "from_ready_to_results": 59.589199954643846
+    },
+    {
+      "round": 9,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.82219999469817,
+      "from_native_to_overlay": 74.03170003090054,
+      "from_ready_to_results": 45.72220001136884
+    },
+    {
+      "round": 9,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.26920001022518,
+      "from_native_to_overlay": 88.49400002509356,
+      "from_ready_to_results": 58.47699998412281
+    },
+    {
+      "round": 9,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.46439998457208,
+      "from_native_to_overlay": 73.70609999634326,
+      "from_ready_to_results": 47.23809997085482
+    },
+    {
+      "round": 9,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.25680003827438,
+      "from_native_to_overlay": 78.45309999538586,
+      "from_ready_to_results": 52.11089999647811
+    },
+    {
+      "round": 9,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.180900000967085,
+      "from_native_to_overlay": 79.92270000977442,
+      "from_ready_to_results": 45.36370001733303
+    },
+    {
+      "round": 9,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.84959999192506,
+      "from_native_to_overlay": 73.80679994821548,
+      "from_ready_to_results": 43.9765999908559
+    },
+    {
+      "round": 9,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.45809999946505,
+      "from_native_to_overlay": 83.80830002715811,
+      "from_ready_to_results": 51.68269999558106
+    },
+    {
+      "round": 9,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.81599997356534,
+      "from_native_to_overlay": 77.11919996654615,
+      "from_ready_to_results": 48.504100006539375
+    },
+    {
+      "round": 9,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.45410003326833,
+      "from_native_to_overlay": 78.38260004064068,
+      "from_ready_to_results": 46.490499982610345
+    },
+    {
+      "round": 9,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.71039997972548,
+      "from_native_to_overlay": 75.1589999999851,
+      "from_ready_to_results": 43.85680000996217
+    },
+    {
+      "round": 9,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.98260001512244,
+      "from_native_to_overlay": 75.90719999279827,
+      "from_ready_to_results": 44.07530004391447
+    },
+    {
+      "round": 9,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.52010001195595,
+      "from_native_to_overlay": 75.73759998194873,
+      "from_ready_to_results": 46.54220002703369
+    },
+    {
+      "round": 9,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.27480001747608,
+      "from_native_to_overlay": 72.3475000122562,
+      "from_ready_to_results": 45.39779998594895
+    },
+    {
+      "round": 9,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 49.69559999881312,
+      "from_native_to_overlay": 77.35129998764023,
+      "from_ready_to_results": 47.68540000077337
+    },
+    {
+      "round": 9,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.578099987935275,
+      "from_native_to_overlay": 74.5685999863781,
+      "from_ready_to_results": 46.6205999837257
+    },
+    {
+      "round": 9,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 49.689200008288026,
+      "from_native_to_overlay": 77.94220000505447,
+      "from_ready_to_results": 47.78010002337396
+    },
+    {
+      "round": 9,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 49.855299992486835,
+      "from_native_to_overlay": 75.32509998418391,
+      "from_ready_to_results": 47.96659998828545
+    },
+    {
+      "round": 9,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.56589999468997,
+      "from_native_to_overlay": 81.2533000134863,
+      "from_ready_to_results": 53.45609999494627
+    },
+    {
+      "round": 9,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.38849997660145,
+      "from_native_to_overlay": 92.24009996978566,
+      "from_ready_to_results": 58.51439997786656
+    },
+    {
+      "round": 10,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.94420004449785,
+      "from_native_to_overlay": 82.34230004018173,
+      "from_ready_to_results": 51.575700053945184
+    },
+    {
+      "round": 10,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.79939998360351,
+      "from_native_to_overlay": 86.41180000267923,
+      "from_ready_to_results": 57.520999980624765
+    },
+    {
+      "round": 10,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.38330000592396,
+      "from_native_to_overlay": 92.08639996359125,
+      "from_ready_to_results": 57.91920004412532
+    },
+    {
+      "round": 10,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.42679999256507,
+      "from_native_to_overlay": 99.6086000232026,
+      "from_ready_to_results": 62.511099968105555
+    },
+    {
+      "round": 10,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.317100004293025,
+      "from_native_to_overlay": 90.81770002376288,
+      "from_ready_to_results": 60.222000000067055
+    },
+    {
+      "round": 10,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.88610000349581,
+      "from_native_to_overlay": 86.42680000048131,
+      "from_ready_to_results": 57.21539998194203
+    },
+    {
+      "round": 10,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.552499981597066,
+      "from_native_to_overlay": 91.92129998700693,
+      "from_ready_to_results": 60.63439999707043
+    },
+    {
+      "round": 10,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 66.67129998095334,
+      "from_native_to_overlay": 94.01879995130002,
+      "from_ready_to_results": 64.66790003469214
+    },
+    {
+      "round": 10,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.82560001919046,
+      "from_native_to_overlay": 91.09659999376163,
+      "from_ready_to_results": 56.79930001497269
+    },
+    {
+      "round": 10,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 55.423000012524426,
+      "from_native_to_overlay": 82.82619999954477,
+      "from_ready_to_results": 53.2039999961853
+    },
+    {
+      "round": 10,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.73899998003617,
+      "from_native_to_overlay": 78.7949999794364,
+      "from_ready_to_results": 47.755700012203306
+    },
+    {
+      "round": 10,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.59690004074946,
+      "from_native_to_overlay": 78.59200000530109,
+      "from_ready_to_results": 49.44900004193187
+    },
+    {
+      "round": 10,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 61.3395000109449,
+      "from_native_to_overlay": 89.22859997255728,
+      "from_ready_to_results": 58.887000021059066
+    },
+    {
+      "round": 10,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.045099961105734,
+      "from_native_to_overlay": 81.82409999426454,
+      "from_ready_to_results": 50.26609997730702
+    },
+    {
+      "round": 10,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.841899996157736,
+      "from_native_to_overlay": 79.4455999857746,
+      "from_ready_to_results": 48.64720004843548
+    },
+    {
+      "round": 10,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.91980002261698,
+      "from_native_to_overlay": 81.47070003906265,
+      "from_ready_to_results": 53.01080003846437
+    },
+    {
+      "round": 10,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.501100031193346,
+      "from_native_to_overlay": 74.3783000507392,
+      "from_ready_to_results": 47.594400006346405
+    },
+    {
+      "round": 10,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 52.264500001911074,
+      "from_native_to_overlay": 77.07090000621974,
+      "from_ready_to_results": 50.12830003397539
+    },
+    {
+      "round": 10,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.47399997804314,
+      "from_native_to_overlay": 78.218900016509,
+      "from_ready_to_results": 49.20579999452457
+    },
+    {
+      "round": 10,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.39570005424321,
+      "from_native_to_overlay": 75.71580004878342,
+      "from_ready_to_results": 46.66670004371554
+    },
+    {
+      "round": 11,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.496899999212474,
+      "from_native_to_overlay": 72.99770001554862,
+      "from_ready_to_results": 47.45150002418086
+    },
+    {
+      "round": 11,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.3445000029169,
+      "from_native_to_overlay": 76.69459999306127,
+      "from_ready_to_results": 47.32100002001971
+    },
+    {
+      "round": 11,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.96300000697374,
+      "from_native_to_overlay": 96.80639998987317,
+      "from_ready_to_results": 57.9394000233151
+    },
+    {
+      "round": 11,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.947100014425814,
+      "from_native_to_overlay": 74.98929998837411,
+      "from_ready_to_results": 45.93600000953302
+    },
+    {
+      "round": 11,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.51950002275407,
+      "from_native_to_overlay": 77.14400003897026,
+      "from_ready_to_results": 49.65200001606718
+    },
+    {
+      "round": 11,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.54280000273138,
+      "from_native_to_overlay": 97.80980000505224,
+      "from_ready_to_results": 63.29670001287013
+    },
+    {
+      "round": 11,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.34840003121644,
+      "from_native_to_overlay": 91.13000001525506,
+      "from_ready_to_results": 58.39610000839457
+    },
+    {
+      "round": 11,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.922199971973896,
+      "from_native_to_overlay": 88.07230001548305,
+      "from_ready_to_results": 53.15799999516457
+    },
+    {
+      "round": 11,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.4604000155814,
+      "from_native_to_overlay": 97.27480000583455,
+      "from_ready_to_results": 63.5855000000447
+    },
+    {
+      "round": 11,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.79110000608489,
+      "from_native_to_overlay": 78.36690003750846,
+      "from_ready_to_results": 49.21599995577708
+    },
+    {
+      "round": 11,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 49.111299973446876,
+      "from_native_to_overlay": 76.05460000922903,
+      "from_ready_to_results": 47.06749995239079
+    },
+    {
+      "round": 11,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 54.37219998566434,
+      "from_native_to_overlay": 81.3763999613002,
+      "from_ready_to_results": 52.31300002196804
+    },
+    {
+      "round": 11,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 49.675999965984374,
+      "from_native_to_overlay": 77.1820999798365,
+      "from_ready_to_results": 47.76579997269437
+    },
+    {
+      "round": 11,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 50.621300004422665,
+      "from_native_to_overlay": 78.89979996252805,
+      "from_ready_to_results": 48.55760000646114
+    },
+    {
+      "round": 11,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.548599974717945,
+      "from_native_to_overlay": 80.94759995583445,
+      "from_ready_to_results": 48.43219998292625
+    },
+    {
+      "round": 11,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.3865000042133,
+      "from_native_to_overlay": 84.0267000021413,
+      "from_ready_to_results": 55.307500006165355
+    },
+    {
+      "round": 11,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.36570004792884,
+      "from_native_to_overlay": 75.65650000469759,
+      "from_ready_to_results": 47.41840000497177
+    },
+    {
+      "round": 11,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.148500002454966,
+      "from_native_to_overlay": 79.583500046283,
+      "from_ready_to_results": 48.89569996157661
+    },
+    {
+      "round": 11,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.730000032577664,
+      "from_native_to_overlay": 81.97620004648343,
+      "from_ready_to_results": 52.47210001107305
+    },
+    {
+      "round": 11,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.37770001217723,
+      "from_native_to_overlay": 77.65849999850616,
+      "from_ready_to_results": 48.47480001626536
+    },
+    {
+      "round": 12,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.30359998717904,
+      "from_native_to_overlay": 79.37559997662902,
+      "from_ready_to_results": 51.492300000973046
+    },
+    {
+      "round": 12,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.52959996648133,
+      "from_native_to_overlay": 85.24439996108413,
+      "from_ready_to_results": 57.03389999689534
+    },
+    {
+      "round": 12,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.026200002525,
+      "from_native_to_overlay": 79.57320002606139,
+      "from_ready_to_results": 49.200600013136864
+    },
+    {
+      "round": 12,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 64.53789997613057,
+      "from_native_to_overlay": 91.65959997335449,
+      "from_ready_to_results": 62.16039997525513
+    },
+    {
+      "round": 12,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.817100008018315,
+      "from_native_to_overlay": 81.04339998681098,
+      "from_ready_to_results": 51.39879998750985
+    },
+    {
+      "round": 12,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 66.07969995820895,
+      "from_native_to_overlay": 94.23529997002333,
+      "from_ready_to_results": 64.09239995991811
+    },
+    {
+      "round": 12,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.951500015798956,
+      "from_native_to_overlay": 77.8017999837175,
+      "from_ready_to_results": 48.50360000273213
+    },
+    {
+      "round": 12,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 70.19589998526499,
+      "from_native_to_overlay": 102.90499997790903,
+      "from_ready_to_results": 67.40280002122745
+    },
+    {
+      "round": 12,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.11150000570342,
+      "from_native_to_overlay": 86.60879998933524,
+      "from_ready_to_results": 55.12000003363937
+    },
+    {
+      "round": 12,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.00589999509975,
+      "from_native_to_overlay": 86.30640001501888,
+      "from_ready_to_results": 56.98969995137304
+    },
+    {
+      "round": 12,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 55.68190000485629,
+      "from_native_to_overlay": 85.58320003794506,
+      "from_ready_to_results": 53.529699973296374
+    },
+    {
+      "round": 12,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.10290000308305,
+      "from_native_to_overlay": 98.24289998505265,
+      "from_ready_to_results": 59.96450001839548
+    },
+    {
+      "round": 12,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 63.67050000699237,
+      "from_native_to_overlay": 93.55520003009588,
+      "from_ready_to_results": 61.46569998236373
+    },
+    {
+      "round": 12,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.457400030922145,
+      "from_native_to_overlay": 83.31830002134666,
+      "from_ready_to_results": 54.47299999650568
+    },
+    {
+      "round": 12,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 56.47880001924932,
+      "from_native_to_overlay": 83.74610001919791,
+      "from_ready_to_results": 54.43230003584176
+    },
+    {
+      "round": 12,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.8038000385277,
+      "from_native_to_overlay": 85.59830003650859,
+      "from_ready_to_results": 55.85689999861643
+    },
+    {
+      "round": 12,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.629700008779764,
+      "from_native_to_overlay": 86.23329998226836,
+      "from_ready_to_results": 59.453300025779754
+    },
+    {
+      "round": 12,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.88919996423647,
+      "from_native_to_overlay": 82.11519999895245,
+      "from_ready_to_results": 52.72330000298098
+    },
+    {
+      "round": 12,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 50.090700038708746,
+      "from_native_to_overlay": 77.43810000829399,
+      "from_ready_to_results": 48.102400032803416
+    },
+    {
+      "round": 12,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.54570001550019,
+      "from_native_to_overlay": 84.21770000131801,
+      "from_ready_to_results": 53.22660005185753
+    },
+    {
+      "round": 13,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.8438999732025,
+      "from_native_to_overlay": 96.59589995862916,
+      "from_ready_to_results": 57.67439998453483
+    },
+    {
+      "round": 13,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 61.79439998231828,
+      "from_native_to_overlay": 89.9076999630779,
+      "from_ready_to_results": 59.43630001274869
+    },
+    {
+      "round": 13,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.09369999123737,
+      "from_native_to_overlay": 90.83179995650426,
+      "from_ready_to_results": 60.166000039316714
+    },
+    {
+      "round": 13,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.36299997242168,
+      "from_native_to_overlay": 92.2349999891594,
+      "from_ready_to_results": 63.093199976719916
+    },
+    {
+      "round": 13,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.580100029241294,
+      "from_native_to_overlay": 77.35229999525473,
+      "from_ready_to_results": 49.397399998269975
+    },
+    {
+      "round": 13,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 53.94929996691644,
+      "from_native_to_overlay": 81.59660000819713,
+      "from_ready_to_results": 51.683500001672655
+    },
+    {
+      "round": 13,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.12840001331642,
+      "from_native_to_overlay": 77.0636000088416,
+      "from_ready_to_results": 50.02219998277724
+    },
+    {
+      "round": 13,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.615499997045845,
+      "from_native_to_overlay": 79.45790002122521,
+      "from_ready_to_results": 50.48169998917729
+    },
+    {
+      "round": 13,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.91659998288378,
+      "from_native_to_overlay": 77.68170000053942,
+      "from_ready_to_results": 48.92610001843423
+    },
+    {
+      "round": 13,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 58.81189997307956,
+      "from_native_to_overlay": 85.80269996309653,
+      "from_ready_to_results": 56.69299996225163
+    },
+    {
+      "round": 13,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.5133999963291,
+      "from_native_to_overlay": 89.53130000736564,
+      "from_ready_to_results": 59.17480000061914
+    },
+    {
+      "round": 13,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.510799987241626,
+      "from_native_to_overlay": 97.15759998653084,
+      "from_ready_to_results": 58.52650001179427
+    },
+    {
+      "round": 13,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.22679998306558,
+      "from_native_to_overlay": 92.0987999998033,
+      "from_ready_to_results": 62.74269998539239
+    },
+    {
+      "round": 13,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 59.48370002442971,
+      "from_native_to_overlay": 91.82259999215603,
+      "from_ready_to_results": 57.091400027275085
+    },
+    {
+      "round": 13,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.66499997116625,
+      "from_native_to_overlay": 85.56159998988733,
+      "from_ready_to_results": 55.240899964701384
+    },
+    {
+      "round": 13,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.64930000016466,
+      "from_native_to_overlay": 82.87900005234405,
+      "from_ready_to_results": 52.75889998301864
+    },
+    {
+      "round": 13,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.501699982210994,
+      "from_native_to_overlay": 83.90549995237961,
+      "from_ready_to_results": 52.336800028569996
+    },
+    {
+      "round": 13,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.301800010260195,
+      "from_native_to_overlay": 81.22930000536144,
+      "from_ready_to_results": 54.37329999404028
+    },
+    {
+      "round": 13,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.71260000579059,
+      "from_native_to_overlay": 83.23640003800392,
+      "from_ready_to_results": 53.62689995672554
+    },
+    {
+      "round": 13,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.944899974856526,
+      "from_native_to_overlay": 88.44729996053502,
+      "from_ready_to_results": 58.99310001404956
+    },
+    {
+      "round": 14,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.06579997483641,
+      "from_native_to_overlay": 88.00519997021183,
+      "from_ready_to_results": 57.28479998651892
+    },
+    {
+      "round": 14,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.76979996962473,
+      "from_native_to_overlay": 106.13259999081492,
+      "from_ready_to_results": 59.589499956928194
+    },
+    {
+      "round": 14,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.202300009317696,
+      "from_native_to_overlay": 91.41039999667555,
+      "from_ready_to_results": 53.781499969772995
+    },
+    {
+      "round": 14,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 66.78930000634864,
+      "from_native_to_overlay": 111.0560999950394,
+      "from_ready_to_results": 64.65389998629689
+    },
+    {
+      "round": 14,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 67.67930003115907,
+      "from_native_to_overlay": 93.44340005191043,
+      "from_ready_to_results": 65.40720001794398
+    },
+    {
+      "round": 14,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.759700019843876,
+      "from_native_to_overlay": 86.14799997303635,
+      "from_ready_to_results": 58.602700009942055
+    },
+    {
+      "round": 14,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.47190003097057,
+      "from_native_to_overlay": 75.84740000311285,
+      "from_ready_to_results": 48.638800042681396
+    },
+    {
+      "round": 14,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.29760000575334,
+      "from_native_to_overlay": 78.2049999688752,
+      "from_ready_to_results": 46.38040001736954
+    },
+    {
+      "round": 14,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.993200020864606,
+      "from_native_to_overlay": 80.31099999789149,
+      "from_ready_to_results": 50.663000030908734
+    },
+    {
+      "round": 14,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.03579997457564,
+      "from_native_to_overlay": 81.47550001740456,
+      "from_ready_to_results": 52.7701000100933
+    },
+    {
+      "round": 14,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.19529997278005,
+      "from_native_to_overlay": 76.23659999808297,
+      "from_ready_to_results": 47.06309997709468
+    },
+    {
+      "round": 14,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.979399969335645,
+      "from_native_to_overlay": 72.9507000069134,
+      "from_ready_to_results": 45.77139997854829
+    },
+    {
+      "round": 14,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 55.7987000211142,
+      "from_native_to_overlay": 83.98310001939535,
+      "from_ready_to_results": 53.60600003041327
+    },
+    {
+      "round": 14,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.310100032016635,
+      "from_native_to_overlay": 77.23739999346435,
+      "from_ready_to_results": 47.39840002730489
+    },
+    {
+      "round": 14,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 49.612100003287196,
+      "from_native_to_overlay": 78.03429994964972,
+      "from_ready_to_results": 47.49730002367869
+    },
+    {
+      "round": 14,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.48710001958534,
+      "from_native_to_overlay": 82.16980000725016,
+      "from_ready_to_results": 49.184000003151596
+    },
+    {
+      "round": 14,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.05090004205704,
+      "from_native_to_overlay": 87.69800001755357,
+      "from_ready_to_results": 51.89640005119145
+    },
+    {
+      "round": 14,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.40729999402538,
+      "from_native_to_overlay": 76.09440002124757,
+      "from_ready_to_results": 48.65459998836741
+    },
+    {
+      "round": 14,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 55.417199968360364,
+      "from_native_to_overlay": 81.79670001845807,
+      "from_ready_to_results": 53.170899976976216
+    },
+    {
+      "round": 14,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.02410002332181,
+      "from_native_to_overlay": 81.48520003305748,
+      "from_ready_to_results": 50.70640001213178
+    },
+    {
+      "round": 15,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 56.32569995941594,
+      "from_native_to_overlay": 87.61609997600317,
+      "from_ready_to_results": 53.985999955330044
+    },
+    {
+      "round": 15,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.975400001741946,
+      "from_native_to_overlay": 79.56360001116991,
+      "from_ready_to_results": 50.874600012321025
+    },
+    {
+      "round": 15,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.35699999239296,
+      "from_native_to_overlay": 75.17560000997037,
+      "from_ready_to_results": 46.539400005713105
+    },
+    {
+      "round": 15,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.946099957916886,
+      "from_native_to_overlay": 84.81689996551722,
+      "from_ready_to_results": 55.867499962914735
+    },
+    {
+      "round": 15,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.84939998900518,
+      "from_native_to_overlay": 85.33749997150153,
+      "from_ready_to_results": 54.776999983005226
+    },
+    {
+      "round": 15,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.536900012753904,
+      "from_native_to_overlay": 77.6713999803178,
+      "from_ready_to_results": 47.601800004485995
+    },
+    {
+      "round": 15,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.280199978966266,
+      "from_native_to_overlay": 77.87999999709427,
+      "from_ready_to_results": 46.804799989331514
+    },
+    {
+      "round": 15,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.33130001742393,
+      "from_native_to_overlay": 98.12360000796616,
+      "from_ready_to_results": 58.48770000739023
+    },
+    {
+      "round": 15,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.75650003366172,
+      "from_native_to_overlay": 85.68060002289712,
+      "from_ready_to_results": 49.600300029851496
+    },
+    {
+      "round": 15,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 55.329800001345575,
+      "from_native_to_overlay": 83.53940001688898,
+      "from_ready_to_results": 53.47839999012649
+    },
+    {
+      "round": 15,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.2771000075154,
+      "from_native_to_overlay": 83.78889999585226,
+      "from_ready_to_results": 52.92170000029728
+    },
+    {
+      "round": 15,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.382699981331825,
+      "from_native_to_overlay": 77.29260000633076,
+      "from_ready_to_results": 49.046400003135204
+    },
+    {
+      "round": 15,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.513099963311106,
+      "from_native_to_overlay": 77.65140000265092,
+      "from_ready_to_results": 51.32979998597875
+    },
+    {
+      "round": 15,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.28300000494346,
+      "from_native_to_overlay": 81.26700000138953,
+      "from_ready_to_results": 51.76020000362769
+    },
+    {
+      "round": 15,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 73.09909997275099,
+      "from_native_to_overlay": 111.62899999180809,
+      "from_ready_to_results": 70.84270002087578
+    },
+    {
+      "round": 15,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 64.26270003430545,
+      "from_native_to_overlay": 102.45220002252609,
+      "from_ready_to_results": 61.94179999874905
+    },
+    {
+      "round": 15,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.32660001842305,
+      "from_native_to_overlay": 95.91630002250895,
+      "from_ready_to_results": 59.1559000313282
+    },
+    {
+      "round": 15,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 66.25050003640354,
+      "from_native_to_overlay": 97.15750004397705,
+      "from_ready_to_results": 63.06020001647994
+    },
+    {
+      "round": 15,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 71.83500000974163,
+      "from_native_to_overlay": 105.26039998512715,
+      "from_ready_to_results": 69.49580000946298
+    },
+    {
+      "round": 15,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 61.89870001981035,
+      "from_native_to_overlay": 99.59870000602677,
+      "from_ready_to_results": 60.05800003185868
+    },
+    {
+      "round": 16,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.41210001381114,
+      "from_native_to_overlay": 97.02909999759868,
+      "from_ready_to_results": 56.33689998649061
+    },
+    {
+      "round": 16,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 60.101899958681315,
+      "from_native_to_overlay": 90.23679996607825,
+      "from_ready_to_results": 56.93209997843951
+    },
+    {
+      "round": 16,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 59.989299974404275,
+      "from_native_to_overlay": 101.01489996304736,
+      "from_ready_to_results": 58.06409998331219
+    },
+    {
+      "round": 16,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.25170000549406,
+      "from_native_to_overlay": 75.70970000233501,
+      "from_ready_to_results": 46.112900017760694
+    },
+    {
+      "round": 16,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 50.56880001211539,
+      "from_native_to_overlay": 77.39210000727326,
+      "from_ready_to_results": 48.49580000154674
+    },
+    {
+      "round": 16,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.80099999718368,
+      "from_native_to_overlay": 73.74720001826063,
+      "from_ready_to_results": 46.757299976889044
+    },
+    {
+      "round": 16,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.87770002055913,
+      "from_native_to_overlay": 72.85900000715628,
+      "from_ready_to_results": 44.59940001834184
+    },
+    {
+      "round": 16,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.7383999847807,
+      "from_native_to_overlay": 84.2253000009805,
+      "from_ready_to_results": 57.17370001366362
+    },
+    {
+      "round": 16,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.856999984011054,
+      "from_native_to_overlay": 79.57110001007095,
+      "from_ready_to_results": 49.42309996113181
+    },
+    {
+      "round": 16,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.44600000232458,
+      "from_native_to_overlay": 85.28290002141148,
+      "from_ready_to_results": 54.45039999904111
+    },
+    {
+      "round": 16,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.74619998130947,
+      "from_native_to_overlay": 81.04989997809753,
+      "from_ready_to_results": 52.43969999719411
+    },
+    {
+      "round": 16,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.493900002446026,
+      "from_native_to_overlay": 80.3143999655731,
+      "from_ready_to_results": 49.612300004810095
+    },
+    {
+      "round": 16,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.690900021232665,
+      "from_native_to_overlay": 87.91559998644516,
+      "from_ready_to_results": 48.09250001562759
+    },
+    {
+      "round": 16,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.84430001443252,
+      "from_native_to_overlay": 77.77319999877363,
+      "from_ready_to_results": 48.91350003890693
+    },
+    {
+      "round": 16,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.82210000930354,
+      "from_native_to_overlay": 80.57200000621378,
+      "from_ready_to_results": 50.309999962337315
+    },
+    {
+      "round": 16,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.39329995634034,
+      "from_native_to_overlay": 74.56599996658042,
+      "from_ready_to_results": 48.58579998835921
+    },
+    {
+      "round": 16,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.027899998705834,
+      "from_native_to_overlay": 88.00559997325763,
+      "from_ready_to_results": 55.70710002211854
+    },
+    {
+      "round": 16,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.68800002988428,
+      "from_native_to_overlay": 86.26040001399815,
+      "from_ready_to_results": 55.78070000046864
+    },
+    {
+      "round": 16,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 50.03220000071451,
+      "from_native_to_overlay": 80.67479997407645,
+      "from_ready_to_results": 48.12140000285581
+    },
+    {
+      "round": 16,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.10520003270358,
+      "from_native_to_overlay": 79.01129999663681,
+      "from_ready_to_results": 48.43810002785176
+    },
+    {
+      "round": 17,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.020800018217415,
+      "from_native_to_overlay": 88.68640003493056,
+      "from_ready_to_results": 60.4211000027135
+    },
+    {
+      "round": 17,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 64.43980004405603,
+      "from_native_to_overlay": 104.16079999413341,
+      "from_ready_to_results": 62.62140005128458
+    },
+    {
+      "round": 17,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.02289999881759,
+      "from_native_to_overlay": 78.14120000693947,
+      "from_ready_to_results": 47.36520000733435
+    },
+    {
+      "round": 17,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 51.60740000428632,
+      "from_native_to_overlay": 78.2420999603346,
+      "from_ready_to_results": 49.945600039791316
+    },
+    {
+      "round": 17,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.588599988259375,
+      "from_native_to_overlay": 83.88859999831766,
+      "from_ready_to_results": 48.82479994557798
+    },
+    {
+      "round": 17,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.70519995409995,
+      "from_native_to_overlay": 87.83839998068288,
+      "from_ready_to_results": 58.54269996052608
+    },
+    {
+      "round": 17,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.84629999147728,
+      "from_native_to_overlay": 91.45820001140237,
+      "from_ready_to_results": 58.267700020223856
+    },
+    {
+      "round": 17,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.098899983335286,
+      "from_native_to_overlay": 86.2166999722831,
+      "from_ready_to_results": 59.62120002368465
+    },
+    {
+      "round": 17,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.24240000359714,
+      "from_native_to_overlay": 72.98130000708625,
+      "from_ready_to_results": 45.6211999990046
+    },
+    {
+      "round": 17,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.219699983950704,
+      "from_native_to_overlay": 79.10819997778162,
+      "from_ready_to_results": 47.65570000745356
+    },
+    {
+      "round": 17,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.30179999489337,
+      "from_native_to_overlay": 78.31449998775497,
+      "from_ready_to_results": 50.69280002498999
+    },
+    {
+      "round": 17,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.687499947845936,
+      "from_native_to_overlay": 74.43129998864606,
+      "from_ready_to_results": 46.937699953559786
+    },
+    {
+      "round": 17,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 51.84129998087883,
+      "from_native_to_overlay": 82.3705000220798,
+      "from_ready_to_results": 50.07959995418787
+    },
+    {
+      "round": 17,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.31650000112131,
+      "from_native_to_overlay": 77.36320002004504,
+      "from_ready_to_results": 49.70969998976216
+    },
+    {
+      "round": 17,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.13030001707375,
+      "from_native_to_overlay": 78.50649999454618,
+      "from_ready_to_results": 51.3556000078097
+    },
+    {
+      "round": 17,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 49.61739998543635,
+      "from_native_to_overlay": 76.52729999972507,
+      "from_ready_to_results": 47.878499957732856
+    },
+    {
+      "round": 17,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.2678999742493,
+      "from_native_to_overlay": 85.00229998026043,
+      "from_ready_to_results": 55.69519998971373
+    },
+    {
+      "round": 17,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.66120005398989,
+      "from_native_to_overlay": 80.26280003832653,
+      "from_ready_to_results": 50.85030000191182
+    },
+    {
+      "round": 17,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.01929997606203,
+      "from_native_to_overlay": 78.2928999979049,
+      "from_ready_to_results": 52.281999960541725
+    },
+    {
+      "round": 17,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 50.84600002737716,
+      "from_native_to_overlay": 89.89370003109798,
+      "from_ready_to_results": 49.237400002311915
+    },
+    {
+      "round": 18,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 70.75080001959577,
+      "from_native_to_overlay": 104.87400001147762,
+      "from_ready_to_results": 68.4700999991037
+    },
+    {
+      "round": 18,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 56.29639996914193,
+      "from_native_to_overlay": 93.52519997628406,
+      "from_ready_to_results": 54.429200012236834
+    },
+    {
+      "round": 18,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 71.68839999940246,
+      "from_native_to_overlay": 98.78960001515225,
+      "from_ready_to_results": 69.38349996926263
+    },
+    {
+      "round": 18,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.34810003032908,
+      "from_native_to_overlay": 75.66610001958907,
+      "from_ready_to_results": 47.7007000008598
+    },
+    {
+      "round": 18,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.90209999959916,
+      "from_native_to_overlay": 74.93450003676116,
+      "from_ready_to_results": 48.371999990195036
+    },
+    {
+      "round": 18,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.04740001540631,
+      "from_native_to_overlay": 81.00589999230579,
+      "from_ready_to_results": 52.38710000412539
+    },
+    {
+      "round": 18,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.94219998177141,
+      "from_native_to_overlay": 80.43410000391304,
+      "from_ready_to_results": 51.324899948667735
+    },
+    {
+      "round": 18,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.652999996207654,
+      "from_native_to_overlay": 88.98080000653863,
+      "from_ready_to_results": 55.70929998066276
+    },
+    {
+      "round": 18,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.2484999964945,
+      "from_native_to_overlay": 81.03319996735081,
+      "from_ready_to_results": 50.20080000394955
+    },
+    {
+      "round": 18,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.2068000221625,
+      "from_native_to_overlay": 85.6387999956496,
+      "from_ready_to_results": 56.67140003060922
+    },
+    {
+      "round": 18,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.957600025460124,
+      "from_native_to_overlay": 81.78279997082427,
+      "from_ready_to_results": 47.275700024329126
+    },
+    {
+      "round": 18,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.0442999904044,
+      "from_native_to_overlay": 89.25969997653738,
+      "from_ready_to_results": 63.30109998816624
+    },
+    {
+      "round": 18,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.52719999104738,
+      "from_native_to_overlay": 88.6867999797687,
+      "from_ready_to_results": 53.852399985771626
+    },
+    {
+      "round": 18,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.55839999578893,
+      "from_native_to_overlay": 98.66249997867271,
+      "from_ready_to_results": 53.86410001665354
+    },
+    {
+      "round": 18,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.11020003259182,
+      "from_native_to_overlay": 93.34429999580607,
+      "from_ready_to_results": 56.91340001067147
+    },
+    {
+      "round": 18,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.80710002221167,
+      "from_native_to_overlay": 79.22190002864227,
+      "from_ready_to_results": 49.16519997641444
+    },
+    {
+      "round": 18,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 61.92860001465306,
+      "from_native_to_overlay": 87.6303999684751,
+      "from_ready_to_results": 59.54159999964759
+    },
+    {
+      "round": 18,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.3038000469096,
+      "from_native_to_overlay": 81.52510004583746,
+      "from_ready_to_results": 52.60720005026087
+    },
+    {
+      "round": 18,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.945600029081106,
+      "from_native_to_overlay": 78.60609999625012,
+      "from_ready_to_results": 49.27100002532825
+    },
+    {
+      "round": 18,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 67.29279999854043,
+      "from_native_to_overlay": 103.82329998537898,
+      "from_ready_to_results": 65.43050002073869
+    },
+    {
+      "round": 19,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 73.60509998397902,
+      "from_native_to_overlay": 108.2833000109531,
+      "from_ready_to_results": 71.38400000985712
+    },
+    {
+      "round": 19,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 72.16679997509345,
+      "from_native_to_overlay": 119.88549999659881,
+      "from_ready_to_results": 70.45010000001639
+    },
+    {
+      "round": 19,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.15529999462888,
+      "from_native_to_overlay": 93.97640003589913,
+      "from_ready_to_results": 60.52309996448457
+    },
+    {
+      "round": 19,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 68.72520002070814,
+      "from_native_to_overlay": 99.8690000269562,
+      "from_ready_to_results": 67.09450000198558
+    },
+    {
+      "round": 19,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 82.9723000060767,
+      "from_native_to_overlay": 109.938699984923,
+      "from_ready_to_results": 80.98440000321716
+    },
+    {
+      "round": 19,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.91299999086186,
+      "from_native_to_overlay": 93.74270000262186,
+      "from_ready_to_results": 61.82449997868389
+    },
+    {
+      "round": 19,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 71.91580004291609,
+      "from_native_to_overlay": 106.22120002517477,
+      "from_ready_to_results": 69.75800002692267
+    },
+    {
+      "round": 19,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.7439999692142,
+      "from_native_to_overlay": 104.1795999626629,
+      "from_ready_to_results": 58.17039997782558
+    },
+    {
+      "round": 19,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.9099999894388,
+      "from_native_to_overlay": 96.859100041911,
+      "from_ready_to_results": 59.180299984291196
+    },
+    {
+      "round": 19,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 73.31979996524751,
+      "from_native_to_overlay": 124.36539999907836,
+      "from_ready_to_results": 70.41689998004586
+    },
+    {
+      "round": 19,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 88.45320000546053,
+      "from_native_to_overlay": 132.445800001733,
+      "from_ready_to_results": 85.0436000037007
+    },
+    {
+      "round": 19,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 96.70120000373572,
+      "from_native_to_overlay": 145.98009997280315,
+      "from_ready_to_results": 92.65030000824481
+    },
+    {
+      "round": 19,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 78.28989997506142,
+      "from_native_to_overlay": 117.84199997782707,
+      "from_ready_to_results": 75.81179996486753
+    },
+    {
+      "round": 19,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 80.0290999468416,
+      "from_native_to_overlay": 130.69959997665137,
+      "from_ready_to_results": 77.13659998262301
+    },
+    {
+      "round": 19,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 88.34299998125061,
+      "from_native_to_overlay": 125.5206999485381,
+      "from_ready_to_results": 85.42369998758659
+    },
+    {
+      "round": 19,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 74.50349995633587,
+      "from_native_to_overlay": 126.92479998804629,
+      "from_ready_to_results": 72.53909995779395
+    },
+    {
+      "round": 19,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 81.9591999752447,
+      "from_native_to_overlay": 122.27419996634126,
+      "from_ready_to_results": 80.0794999813661
+    },
+    {
+      "round": 19,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 79.33489995775744,
+      "from_native_to_overlay": 113.47389995353296,
+      "from_ready_to_results": 76.92209997912869
+    },
+    {
+      "round": 19,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.40200002118945,
+      "from_native_to_overlay": 101.76529997261241,
+      "from_ready_to_results": 59.82990004122257
+    },
+    {
+      "round": 19,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 68.93710000440478,
+      "from_native_to_overlay": 97.31450001709163,
+      "from_ready_to_results": 67.30649998644367
+    },
+    {
+      "round": 20,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 88.934600003995,
+      "from_native_to_overlay": 126.00830005249009,
+      "from_ready_to_results": 87.23669999744743
+    },
+    {
+      "round": 20,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 77.59729999816045,
+      "from_native_to_overlay": 102.92749997461215,
+      "from_ready_to_results": 75.41580003453419
+    },
+    {
+      "round": 20,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 95.58500000275671,
+      "from_native_to_overlay": 130.56560000404716,
+      "from_ready_to_results": 93.2975999894552
+    },
+    {
+      "round": 20,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 65.82760001765564,
+      "from_native_to_overlay": 109.17909996351227,
+      "from_ready_to_results": 64.18610003311187
+    },
+    {
+      "round": 20,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 77.4855999625288,
+      "from_native_to_overlay": 116.29689997062087,
+      "from_ready_to_results": 75.12029999634251
+    },
+    {
+      "round": 20,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 83.41820002533495,
+      "from_native_to_overlay": 121.84859998524189,
+      "from_ready_to_results": 80.88210003916174
+    },
+    {
+      "round": 20,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 75.98059996962547,
+      "from_native_to_overlay": 122.57189996307716,
+      "from_ready_to_results": 74.26249998388812
+    },
+    {
+      "round": 20,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.13979998230934,
+      "from_native_to_overlay": 89.82639998430386,
+      "from_ready_to_results": 60.95419998746365
+    },
+    {
+      "round": 20,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 79.0184999932535,
+      "from_native_to_overlay": 124.63759997626767,
+      "from_ready_to_results": 77.49539997894317
+    },
+    {
+      "round": 20,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 75.11209999211133,
+      "from_native_to_overlay": 117.66499996883795,
+      "from_ready_to_results": 73.30260000890121
+    },
+    {
+      "round": 20,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 79.22039995901287,
+      "from_native_to_overlay": 112.02790000243112,
+      "from_ready_to_results": 77.65130000188947
+    },
+    {
+      "round": 20,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 75.55259997025132,
+      "from_native_to_overlay": 120.18079997505993,
+      "from_ready_to_results": 73.94019997445866
+    },
+    {
+      "round": 20,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.03259997628629,
+      "from_native_to_overlay": 84.29659996181726,
+      "from_ready_to_results": 56.47259997203946
+    },
+    {
+      "round": 20,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.08250000560656,
+      "from_native_to_overlay": 96.67040000203997,
+      "from_ready_to_results": 67.38770002266392
+    },
+    {
+      "round": 20,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 77.69800000824034,
+      "from_native_to_overlay": 105.30669998843223,
+      "from_ready_to_results": 75.17050002934411
+    },
+    {
+      "round": 20,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 64.87840000772849,
+      "from_native_to_overlay": 97.38990000914782,
+      "from_ready_to_results": 62.69449996761978
+    },
+    {
+      "round": 20,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.51999997301027,
+      "from_native_to_overlay": 92.52369997557253,
+      "from_ready_to_results": 55.66569999791682
+    },
+    {
+      "round": 20,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.9668999845162,
+      "from_native_to_overlay": 95.43280000798404,
+      "from_ready_to_results": 52.45779996039346
+    },
+    {
+      "round": 20,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.42860002163798,
+      "from_native_to_overlay": 98.07940002065152,
+      "from_ready_to_results": 67.78800004394725
+    },
+    {
+      "round": 20,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 64.23090002499521,
+      "from_native_to_overlay": 105.81080004340038,
+      "from_ready_to_results": 62.275699980091304
+    },
+    {
+      "round": 21,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.604499970097095,
+      "from_native_to_overlay": 108.48229995463043,
+      "from_ready_to_results": 61.967200017534196
+    },
+    {
+      "round": 21,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.039399969857186,
+      "from_native_to_overlay": 96.05459996964782,
+      "from_ready_to_results": 56.26099999062717
+    },
+    {
+      "round": 21,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 57.18140001408756,
+      "from_native_to_overlay": 84.27380002103746,
+      "from_ready_to_results": 55.537400010507554
+    },
+    {
+      "round": 21,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.70400001388043,
+      "from_native_to_overlay": 86.17980004055426,
+      "from_ready_to_results": 57.49849998392165
+    },
+    {
+      "round": 21,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.98270004661754,
+      "from_native_to_overlay": 85.43570002075285,
+      "from_ready_to_results": 52.30959999607876
+    },
+    {
+      "round": 21,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.194900011178106,
+      "from_native_to_overlay": 84.27160000428557,
+      "from_ready_to_results": 54.67270000372082
+    },
+    {
+      "round": 21,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.20020001474768,
+      "from_native_to_overlay": 82.61060004588217,
+      "from_ready_to_results": 52.514899987727404
+    },
+    {
+      "round": 21,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.45960000017658,
+      "from_native_to_overlay": 88.8042000005953,
+      "from_ready_to_results": 53.97139996057376
+    },
+    {
+      "round": 21,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.73780003376305,
+      "from_native_to_overlay": 82.63170003192499,
+      "from_ready_to_results": 53.22260002139956
+    },
+    {
+      "round": 21,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.72189998626709,
+      "from_native_to_overlay": 88.43320002779365,
+      "from_ready_to_results": 56.699000007938594
+    },
+    {
+      "round": 21,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.60699998913333,
+      "from_native_to_overlay": 97.63149998616427,
+      "from_ready_to_results": 61.95219996152446
+    },
+    {
+      "round": 21,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.245399988256395,
+      "from_native_to_overlay": 86.2673000083305,
+      "from_ready_to_results": 54.301299969665706
+    },
+    {
+      "round": 21,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.05949995899573,
+      "from_native_to_overlay": 91.35359997162595,
+      "from_ready_to_results": 55.4627999663353
+    },
+    {
+      "round": 21,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 54.2958999867551,
+      "from_native_to_overlay": 93.06829998968169,
+      "from_ready_to_results": 52.65500000678003
+    },
+    {
+      "round": 21,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.768000015523285,
+      "from_native_to_overlay": 80.95879998290911,
+      "from_ready_to_results": 49.32020005071536
+    },
+    {
+      "round": 21,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 74.35640000039712,
+      "from_native_to_overlay": 101.09620000002906,
+      "from_ready_to_results": 71.63439999567345
+    },
+    {
+      "round": 21,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 51.6471000155434,
+      "from_native_to_overlay": 86.27260004868731,
+      "from_ready_to_results": 50.04299996653572
+    },
+    {
+      "round": 21,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.20009996974841,
+      "from_native_to_overlay": 96.09599999384955,
+      "from_ready_to_results": 67.52409995533526
+    },
+    {
+      "round": 21,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.36639999970794,
+      "from_native_to_overlay": 83.36089999647811,
+      "from_ready_to_results": 52.826000028289855
+    },
+    {
+      "round": 21,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.67290004203096,
+      "from_native_to_overlay": 85.02210001461208,
+      "from_ready_to_results": 55.16450002323836
+    },
+    {
+      "round": 22,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 59.81519998749718,
+      "from_native_to_overlay": 91.81839996017516,
+      "from_ready_to_results": 58.10760002350435
+    },
+    {
+      "round": 22,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 112.88859997875988,
+      "from_native_to_overlay": 153.45679997699335,
+      "from_ready_to_results": 110.83159997360781
+    },
+    {
+      "round": 22,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 73.06849997257814,
+      "from_native_to_overlay": 109.68240001238883,
+      "from_ready_to_results": 70.63639996340498
+    },
+    {
+      "round": 22,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 64.93239995324984,
+      "from_native_to_overlay": 101.8715999671258,
+      "from_ready_to_results": 63.063499983400106
+    },
+    {
+      "round": 22,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.123399985954165,
+      "from_native_to_overlay": 88.13879999797791,
+      "from_ready_to_results": 49.15500001516193
+    },
+    {
+      "round": 22,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 57.21709999488667,
+      "from_native_to_overlay": 95.51680000731722,
+      "from_ready_to_results": 55.554900027345866
+    },
+    {
+      "round": 22,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.49760000780225,
+      "from_native_to_overlay": 100.37060000468045,
+      "from_ready_to_results": 63.769000000320375
+    },
+    {
+      "round": 22,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 74.05509997624904,
+      "from_native_to_overlay": 113.3657000027597,
+      "from_ready_to_results": 72.4659999832511
+    },
+    {
+      "round": 22,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 55.78400002559647,
+      "from_native_to_overlay": 91.25019999919459,
+      "from_ready_to_results": 53.41059999773279
+    },
+    {
+      "round": 22,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.09760000417009,
+      "from_native_to_overlay": 110.96869996981695,
+      "from_ready_to_results": 67.34860001597553
+    },
+    {
+      "round": 22,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 71.92800001939759,
+      "from_native_to_overlay": 108.62870002165437,
+      "from_ready_to_results": 69.62730002123863
+    },
+    {
+      "round": 22,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 70.80079999286681,
+      "from_native_to_overlay": 110.22709996905178,
+      "from_ready_to_results": 68.32000002032146
+    },
+    {
+      "round": 22,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 76.75210002344102,
+      "from_native_to_overlay": 116.57800001557916,
+      "from_ready_to_results": 74.69540002057329
+    },
+    {
+      "round": 22,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 92.91959996335208,
+      "from_native_to_overlay": 135.32930001383647,
+      "from_ready_to_results": 90.87759995600209
+    },
+    {
+      "round": 22,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.07370000286028,
+      "from_native_to_overlay": 102.06480004126206,
+      "from_ready_to_results": 61.214699991978705
+    },
+    {
+      "round": 22,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 63.606099982280284,
+      "from_native_to_overlay": 97.97190001700073,
+      "from_ready_to_results": 61.45709997508675
+    },
+    {
+      "round": 22,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 81.20529999723658,
+      "from_native_to_overlay": 117.66950000310317,
+      "from_ready_to_results": 79.19750001747161
+    },
+    {
+      "round": 22,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.61260003177449,
+      "from_native_to_overlay": 97.80780004803091,
+      "from_ready_to_results": 61.82599999010563
+    },
+    {
+      "round": 22,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.87649999931455,
+      "from_native_to_overlay": 84.35009996173903,
+      "from_ready_to_results": 56.71840003924444
+    },
+    {
+      "round": 22,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.6155999917537,
+      "from_native_to_overlay": 105.25020002387464,
+      "from_ready_to_results": 56.96630000602454
+    },
+    {
+      "round": 23,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.98919995222241,
+      "from_native_to_overlay": 93.45659997779876,
+      "from_ready_to_results": 60.12629996985197
+    },
+    {
+      "round": 23,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 81.14979998208582,
+      "from_native_to_overlay": 117.57149995537475,
+      "from_ready_to_results": 78.70409998577088
+    },
+    {
+      "round": 23,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.57530001271516,
+      "from_native_to_overlay": 89.70579999731854,
+      "from_ready_to_results": 58.94279998028651
+    },
+    {
+      "round": 23,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 68.67499998770654,
+      "from_native_to_overlay": 98.744299961254,
+      "from_ready_to_results": 66.03490002453327
+    },
+    {
+      "round": 23,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 67.72709998767823,
+      "from_native_to_overlay": 104.50349998427555,
+      "from_ready_to_results": 65.63759996788576
+    },
+    {
+      "round": 23,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 85.76430001994595,
+      "from_native_to_overlay": 121.89379998017102,
+      "from_ready_to_results": 83.39330001035705
+    },
+    {
+      "round": 23,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 77.6033999864012,
+      "from_native_to_overlay": 120.49179995665327,
+      "from_ready_to_results": 75.70580003084615
+    },
+    {
+      "round": 23,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 73.23809998342767,
+      "from_native_to_overlay": 113.33469999954104,
+      "from_ready_to_results": 71.26449997304007
+    },
+    {
+      "round": 23,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 66.35809998260811,
+      "from_native_to_overlay": 97.08570002112538,
+      "from_ready_to_results": 64.73619997268543
+    },
+    {
+      "round": 23,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 62.71769996965304,
+      "from_native_to_overlay": 88.51759997196496,
+      "from_ready_to_results": 60.91589998686686
+    },
+    {
+      "round": 23,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.48449996626005,
+      "from_native_to_overlay": 102.41529997438192,
+      "from_ready_to_results": 63.779099960811436
+    },
+    {
+      "round": 23,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 88.45610002754256,
+      "from_native_to_overlay": 116.35909997858107,
+      "from_ready_to_results": 86.34480001637712
+    },
+    {
+      "round": 23,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 71.10739999916404,
+      "from_native_to_overlay": 101.54189995955676,
+      "from_ready_to_results": 69.42190002882853
+    },
+    {
+      "round": 23,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.64940001489595,
+      "from_native_to_overlay": 99.32520001893863,
+      "from_ready_to_results": 67.70130002405494
+    },
+    {
+      "round": 23,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.52599998190999,
+      "from_native_to_overlay": 87.50959997996688,
+      "from_ready_to_results": 53.27549995854497
+    },
+    {
+      "round": 23,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.30089997127652,
+      "from_native_to_overlay": 90.44409997295588,
+      "from_ready_to_results": 57.10069998167455
+    },
+    {
+      "round": 23,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.79589996300638,
+      "from_native_to_overlay": 88.5549999657087,
+      "from_ready_to_results": 52.314799977466464
+    },
+    {
+      "round": 23,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.746499998960644,
+      "from_native_to_overlay": 84.48159997351468,
+      "from_ready_to_results": 57.03130003530532
+    },
+    {
+      "round": 23,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 64.52859996352345,
+      "from_native_to_overlay": 102.20349999144673,
+      "from_ready_to_results": 62.883100006729364
+    },
+    {
+      "round": 23,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 60.02589996205643,
+      "from_native_to_overlay": 89.8589999997057,
+      "from_ready_to_results": 57.69669997971505
+    },
+    {
+      "round": 24,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.98369996389374,
+      "from_native_to_overlay": 83.43449997482821,
+      "from_ready_to_results": 55.45759998494759
+    },
+    {
+      "round": 24,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.22660000901669,
+      "from_native_to_overlay": 80.88840002892539,
+      "from_ready_to_results": 55.71589997271076
+    },
+    {
+      "round": 24,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.46679997537285,
+      "from_native_to_overlay": 80.786399950739,
+      "from_ready_to_results": 55.98699999973178
+    },
+    {
+      "round": 24,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 68.8732999842614,
+      "from_native_to_overlay": 113.63979999441653,
+      "from_ready_to_results": 67.2589999740012
+    },
+    {
+      "round": 24,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.72359999921173,
+      "from_native_to_overlay": 94.42740003578365,
+      "from_ready_to_results": 56.89539999002591
+    },
+    {
+      "round": 24,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.140500009059906,
+      "from_native_to_overlay": 90.84449999500066,
+      "from_ready_to_results": 59.608700044918805
+    },
+    {
+      "round": 24,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 79.72149999113753,
+      "from_native_to_overlay": 113.81789995357394,
+      "from_ready_to_results": 77.86860002670437
+    },
+    {
+      "round": 24,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.29559998307377,
+      "from_native_to_overlay": 103.56399999000132,
+      "from_ready_to_results": 62.7045999863185
+    },
+    {
+      "round": 24,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.59870003629476,
+      "from_native_to_overlay": 99.4044000399299,
+      "from_ready_to_results": 67.44080001953989
+    },
+    {
+      "round": 24,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 64.1821000026539,
+      "from_native_to_overlay": 109.44030003156513,
+      "from_ready_to_results": 61.810299986973405
+    },
+    {
+      "round": 24,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 67.06999999005347,
+      "from_native_to_overlay": 97.39589999662712,
+      "from_ready_to_results": 64.95550001272932
+    },
+    {
+      "round": 24,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 63.5300999856554,
+      "from_native_to_overlay": 102.75590000674129,
+      "from_ready_to_results": 61.718499986454844
+    },
+    {
+      "round": 24,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 61.45879998803139,
+      "from_native_to_overlay": 90.48449998954311,
+      "from_ready_to_results": 59.67580003198236
+    },
+    {
+      "round": 24,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.16020001517609,
+      "from_native_to_overlay": 101.80010000476614,
+      "from_ready_to_results": 67.1481000026688
+    },
+    {
+      "round": 24,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 64.86230000155047,
+      "from_native_to_overlay": 98.51789998356253,
+      "from_ready_to_results": 62.68520001322031
+    },
+    {
+      "round": 24,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 67.39370001014322,
+      "from_native_to_overlay": 107.06460004439577,
+      "from_ready_to_results": 65.18129998585209
+    },
+    {
+      "round": 24,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 75.68439998431131,
+      "from_native_to_overlay": 113.22669999208301,
+      "from_ready_to_results": 73.69150000158697
+    },
+    {
+      "round": 24,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 70.06100000580773,
+      "from_native_to_overlay": 108.35080000106245,
+      "from_ready_to_results": 68.326500011608
+    },
+    {
+      "round": 24,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 65.15179999405518,
+      "from_native_to_overlay": 98.37089997017756,
+      "from_ready_to_results": 63.01680003525689
+    },
+    {
+      "round": 24,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 68.69019998703152,
+      "from_native_to_overlay": 110.66599999321625,
+      "from_ready_to_results": 67.13189999572933
+    },
+    {
+      "round": 25,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.4281999678351,
+      "from_native_to_overlay": 93.34039996610954,
+      "from_ready_to_results": 50.92869995860383
+    },
+    {
+      "round": 25,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 59.91150002228096,
+      "from_native_to_overlay": 87.61059999233112,
+      "from_ready_to_results": 58.28530003782362
+    },
+    {
+      "round": 25,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 67.70240003243089,
+      "from_native_to_overlay": 94.92450003745034,
+      "from_ready_to_results": 65.53780002286658
+    },
+    {
+      "round": 25,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 66.20209995890036,
+      "from_native_to_overlay": 97.76559995952994,
+      "from_ready_to_results": 64.51699999161065
+    },
+    {
+      "round": 25,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.4697000188753,
+      "from_native_to_overlay": 88.52730004582554,
+      "from_ready_to_results": 53.845299989916384
+    },
+    {
+      "round": 25,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 69.2642999929376,
+      "from_native_to_overlay": 96.93030000198632,
+      "from_ready_to_results": 67.45959998806939
+    },
+    {
+      "round": 25,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.58149995421991,
+      "from_native_to_overlay": 101.76599997794256,
+      "from_ready_to_results": 57.84879997372627
+    },
+    {
+      "round": 25,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.215099996421486,
+      "from_native_to_overlay": 91.61940001649782,
+      "from_ready_to_results": 48.61319996416569
+    },
+    {
+      "round": 25,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.17719999747351,
+      "from_native_to_overlay": 87.09869999438524,
+      "from_ready_to_results": 59.64900000253692
+    },
+    {
+      "round": 25,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.86620002659038,
+      "from_native_to_overlay": 87.56320003885776,
+      "from_ready_to_results": 57.878100022207946
+    },
+    {
+      "round": 25,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 56.44870002288371,
+      "from_native_to_overlay": 90.32860002480447,
+      "from_ready_to_results": 53.897200035862625
+    },
+    {
+      "round": 25,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.96410003211349,
+      "from_native_to_overlay": 82.36270002089441,
+      "from_ready_to_results": 51.37030000332743
+    },
+    {
+      "round": 25,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.139799994416535,
+      "from_native_to_overlay": 83.2943000132218,
+      "from_ready_to_results": 49.329100002069026
+    },
+    {
+      "round": 25,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.39770001126453,
+      "from_native_to_overlay": 78.65079998737201,
+      "from_ready_to_results": 46.77969997283071
+    },
+    {
+      "round": 25,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 57.328600028995425,
+      "from_native_to_overlay": 86.2914000172168,
+      "from_ready_to_results": 55.17530004726723
+    },
+    {
+      "round": 25,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.82029999094084,
+      "from_native_to_overlay": 81.76859997911379,
+      "from_ready_to_results": 45.29869998805225
+    },
+    {
+      "round": 25,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.62039996078238,
+      "from_native_to_overlay": 75.46540000475943,
+      "from_ready_to_results": 47.044700011610985
+    },
+    {
+      "round": 25,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 49.25560002448037,
+      "from_native_to_overlay": 76.54909999109805,
+      "from_ready_to_results": 47.58890002267435
+    },
+    {
+      "round": 25,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.15950002800673,
+      "from_native_to_overlay": 75.98900003358722,
+      "from_ready_to_results": 49.357600044459105
+    },
+    {
+      "round": 25,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.886300017125905,
+      "from_native_to_overlay": 73.25750001473352,
+      "from_ready_to_results": 46.328900032676756
+    },
+    {
+      "round": 26,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.13270003069192,
+      "from_native_to_overlay": 74.89170000189915,
+      "from_ready_to_results": 46.55960004311055
+    },
+    {
+      "round": 26,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.7664999673143,
+      "from_native_to_overlay": 75.72319998871535,
+      "from_ready_to_results": 47.22349997609854
+    },
+    {
+      "round": 26,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.099200043827295,
+      "from_native_to_overlay": 88.13799999188632,
+      "from_ready_to_results": 59.62180002825335
+    },
+    {
+      "round": 26,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.11029996583238,
+      "from_native_to_overlay": 75.7224999833852,
+      "from_ready_to_results": 47.6374999852851
+    },
+    {
+      "round": 26,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.32220000773668,
+      "from_native_to_overlay": 75.05940005648881,
+      "from_ready_to_results": 47.624099999666214
+    },
+    {
+      "round": 26,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.35869995178655,
+      "from_native_to_overlay": 79.11789999343455,
+      "from_ready_to_results": 51.846499962266535
+    },
+    {
+      "round": 26,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 50.21750001469627,
+      "from_native_to_overlay": 75.19440003670752,
+      "from_ready_to_results": 48.4322999836877
+    },
+    {
+      "round": 26,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.80560000007972,
+      "from_native_to_overlay": 77.90170004591346,
+      "from_ready_to_results": 50.27859995607287
+    },
+    {
+      "round": 26,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.84139994485304,
+      "from_native_to_overlay": 77.27529999101534,
+      "from_ready_to_results": 48.034299979917705
+    },
+    {
+      "round": 26,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.94919995078817,
+      "from_native_to_overlay": 80.63149999361485,
+      "from_ready_to_results": 48.2585999998264
+    },
+    {
+      "round": 26,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 56.45500001264736,
+      "from_native_to_overlay": 81.95689995773137,
+      "from_ready_to_results": 54.61320001631975
+    },
+    {
+      "round": 26,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.36440001195297,
+      "from_native_to_overlay": 70.21600002190098,
+      "from_ready_to_results": 44.847499986644834
+    },
+    {
+      "round": 26,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 48.8859000033699,
+      "from_native_to_overlay": 73.31390003673732,
+      "from_ready_to_results": 47.429999976884574
+    },
+    {
+      "round": 26,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 44.18570001143962,
+      "from_native_to_overlay": 70.72580000385642,
+      "from_ready_to_results": 42.73649997776374
+    },
+    {
+      "round": 26,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.525100017897785,
+      "from_native_to_overlay": 78.08000000659376,
+      "from_ready_to_results": 49.852200027089566
+    },
+    {
+      "round": 26,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.75769999064505,
+      "from_native_to_overlay": 71.27519999630749,
+      "from_ready_to_results": 44.23810000298545
+    },
+    {
+      "round": 26,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 52.20470001222566,
+      "from_native_to_overlay": 78.27810000162572,
+      "from_ready_to_results": 50.53900001803413
+    },
+    {
+      "round": 26,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 47.30579996248707,
+      "from_native_to_overlay": 73.09939997503534,
+      "from_ready_to_results": 45.69409997202456
+    },
+    {
+      "round": 26,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 55.80049997661263,
+      "from_native_to_overlay": 80.82350000040606,
+      "from_ready_to_results": 54.22469996847212
+    },
+    {
+      "round": 26,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.07940002158284,
+      "from_native_to_overlay": 74.3961000116542,
+      "from_ready_to_results": 47.4845000426285
+    },
+    {
+      "round": 27,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 61.832399980630726,
+      "from_native_to_overlay": 86.51549997739494,
+      "from_ready_to_results": 60.21590001182631
+    },
+    {
+      "round": 27,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.89230000926182,
+      "from_native_to_overlay": 78.94089998444542,
+      "from_ready_to_results": 51.38359998818487
+    },
+    {
+      "round": 27,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.42450001463294,
+      "from_native_to_overlay": 70.73559996206313,
+      "from_ready_to_results": 44.02270005084574
+    },
+    {
+      "round": 27,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.128699974156916,
+      "from_native_to_overlay": 70.31609996920452,
+      "from_ready_to_results": 43.71220001485199
+    },
+    {
+      "round": 27,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 45.76499998802319,
+      "from_native_to_overlay": 70.97100000828505,
+      "from_ready_to_results": 44.19310000957921
+    },
+    {
+      "round": 27,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 48.42360003385693,
+      "from_native_to_overlay": 73.14980000955984,
+      "from_ready_to_results": 46.746900014113635
+    },
+    {
+      "round": 27,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.59240000182763,
+      "from_native_to_overlay": 72.01420003548265,
+      "from_ready_to_results": 44.979400001466274
+    },
+    {
+      "round": 27,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.61409997101873,
+      "from_native_to_overlay": 74.55159997334704,
+      "from_ready_to_results": 47.04239999409765
+    },
+    {
+      "round": 27,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 46.73609999008477,
+      "from_native_to_overlay": 73.01640004152432,
+      "from_ready_to_results": 45.02899997169152
+    },
+    {
+      "round": 27,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 46.617800020612776,
+      "from_native_to_overlay": 73.03169998340309,
+      "from_ready_to_results": 44.99010002473369
+    },
+    {
+      "round": 27,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.48060001293197,
+      "from_native_to_overlay": 73.76230001682416,
+      "from_ready_to_results": 45.99900002358481
+    },
+    {
+      "round": 27,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 58.848699962254614,
+      "from_native_to_overlay": 81.63420000346377,
+      "from_ready_to_results": 57.36039998009801
+    },
+    {
+      "round": 27,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.351400018669665,
+      "from_native_to_overlay": 74.1540000308305,
+      "from_ready_to_results": 45.92810000758618
+    },
+    {
+      "round": 27,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.31029996462166,
+      "from_native_to_overlay": 74.44210001267493,
+      "from_ready_to_results": 48.80859999684617
+    },
+    {
+      "round": 27,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 47.8480999590829,
+      "from_native_to_overlay": 70.88519999524578,
+      "from_ready_to_results": 46.2971999659203
+    },
+    {
+      "round": 27,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.85170003864914,
+      "from_native_to_overlay": 76.48630003677681,
+      "from_ready_to_results": 52.379800006747246
+    },
+    {
+      "round": 27,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.855300029274076,
+      "from_native_to_overlay": 77.2251000162214,
+      "from_ready_to_results": 50.25140003999695
+    },
+    {
+      "round": 27,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.35429997649044,
+      "from_native_to_overlay": 80.89279994601384,
+      "from_ready_to_results": 51.05960002401844
+    },
+    {
+      "round": 27,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 43.906900042202324,
+      "from_native_to_overlay": 76.5118999988772,
+      "from_ready_to_results": 42.2033000504598
+    },
+    {
+      "round": 27,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.36349997762591,
+      "from_native_to_overlay": 82.91779999854043,
+      "from_ready_to_results": 52.541300014127046
+    },
+    {
+      "round": 28,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.45330002717674,
+      "from_native_to_overlay": 71.14559999899939,
+      "from_ready_to_results": 46.912899997550994
+    },
+    {
+      "round": 28,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 54.38990000402555,
+      "from_native_to_overlay": 81.78619999671355,
+      "from_ready_to_results": 52.870500017888844
+    },
+    {
+      "round": 28,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.600399993825704,
+      "from_native_to_overlay": 73.73609999194741,
+      "from_ready_to_results": 46.10410000896081
+    },
+    {
+      "round": 28,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 52.96010000165552,
+      "from_native_to_overlay": 78.91830004518852,
+      "from_ready_to_results": 51.149899954907596
+    },
+    {
+      "round": 28,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 44.73300004610792,
+      "from_native_to_overlay": 71.26130000688136,
+      "from_ready_to_results": 43.272600043565035
+    },
+    {
+      "round": 28,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.37429999699816,
+      "from_native_to_overlay": 74.31589998304844,
+      "from_ready_to_results": 47.82879998674616
+    },
+    {
+      "round": 28,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.81920003006235,
+      "from_native_to_overlay": 73.58230004319921,
+      "from_ready_to_results": 46.21130001032725
+    },
+    {
+      "round": 28,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.58329999540001,
+      "from_native_to_overlay": 76.58809999702498,
+      "from_ready_to_results": 49.93320000357926
+    },
+    {
+      "round": 28,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 45.70320004131645,
+      "from_native_to_overlay": 71.20850001228973,
+      "from_ready_to_results": 44.10590004408732
+    },
+    {
+      "round": 28,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 46.585500007495284,
+      "from_native_to_overlay": 74.8549000127241,
+      "from_ready_to_results": 45.03330000443384
+    },
+    {
+      "round": 28,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.86909999186173,
+      "from_native_to_overlay": 74.56399995135143,
+      "from_ready_to_results": 47.41440003272146
+    },
+    {
+      "round": 28,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.12370002036914,
+      "from_native_to_overlay": 72.04479997744784,
+      "from_ready_to_results": 46.37610004283488
+    },
+    {
+      "round": 28,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.73519999394193,
+      "from_native_to_overlay": 72.91139999870211,
+      "from_ready_to_results": 44.19190000044182
+    },
+    {
+      "round": 28,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 47.54310002317652,
+      "from_native_to_overlay": 71.7026999918744,
+      "from_ready_to_results": 46.00999999092892
+    },
+    {
+      "round": 28,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.96410000603646,
+      "from_native_to_overlay": 76.77580002928153,
+      "from_ready_to_results": 48.46479999832809
+    },
+    {
+      "round": 28,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.85879997164011,
+      "from_native_to_overlay": 71.41959998989478,
+      "from_ready_to_results": 47.34629997983575
+    },
+    {
+      "round": 28,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 59.64170000515878,
+      "from_native_to_overlay": 82.77649997035041,
+      "from_ready_to_results": 58.107700024265796
+    },
+    {
+      "round": 28,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.82749996613711,
+      "from_native_to_overlay": 80.19409998087212,
+      "from_ready_to_results": 47.39389999303967
+    },
+    {
+      "round": 28,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.862499978393316,
+      "from_native_to_overlay": 80.60479996493086,
+      "from_ready_to_results": 49.16210001101717
+    },
+    {
+      "round": 28,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.8144000149332,
+      "from_native_to_overlay": 70.04049996612594,
+      "from_ready_to_results": 44.33850001078099
+    },
+    {
+      "round": 29,
+      "index": 2,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.21099998662248,
+      "from_native_to_overlay": 72.18890002695844,
+      "from_ready_to_results": 46.723300009034574
+    },
+    {
+      "round": 29,
+      "index": 4,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.22370002511889,
+      "from_native_to_overlay": 75.94190002419055,
+      "from_ready_to_results": 46.74280004110187
+    },
+    {
+      "round": 29,
+      "index": 12,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.1994999893941,
+      "from_native_to_overlay": 69.97249997220933,
+      "from_ready_to_results": 43.80189999938011
+    },
+    {
+      "round": 29,
+      "index": 15,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 47.475599974859506,
+      "from_native_to_overlay": 74.15519998176023,
+      "from_ready_to_results": 46.011900005396456
+    },
+    {
+      "round": 29,
+      "index": 10,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.283300023991615,
+      "from_native_to_overlay": 71.34840002981946,
+      "from_ready_to_results": 45.72100000223145
+    },
+    {
+      "round": 29,
+      "index": 9,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.28349998872727,
+      "from_native_to_overlay": 67.86010001087561,
+      "from_ready_to_results": 43.80380001384765
+    },
+    {
+      "round": 29,
+      "index": 19,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 48.601799993775785,
+      "from_native_to_overlay": 73.88919999357313,
+      "from_ready_to_results": 47.06890002125874
+    },
+    {
+      "round": 29,
+      "index": 6,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 61.96469999849796,
+      "from_native_to_overlay": 86.63610002258793,
+      "from_ready_to_results": 60.33639999805018
+    },
+    {
+      "round": 29,
+      "index": 13,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.0379999820143,
+      "from_native_to_overlay": 70.74930000817403,
+      "from_ready_to_results": 43.59519999707118
+    },
+    {
+      "round": 29,
+      "index": 5,
+      "fruit": 1,
+      "hints": 1,
+      "from_ready_to_overlay": 46.6710000182502,
+      "from_native_to_overlay": 69.94170002872124,
+      "from_ready_to_results": 45.05139996763319
+    },
+    {
+      "round": 29,
+      "index": 3,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 47.3591000190936,
+      "from_native_to_overlay": 73.6186999711208,
+      "from_ready_to_results": 45.77520000748336
+    },
+    {
+      "round": 29,
+      "index": 8,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.8039000085555,
+      "from_native_to_overlay": 76.51720003923401,
+      "from_ready_to_results": 48.11019997578114
+    },
+    {
+      "round": 29,
+      "index": 16,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.92329997103661,
+      "from_native_to_overlay": 70.45160001143813,
+      "from_ready_to_results": 44.50769996037707
+    },
+    {
+      "round": 29,
+      "index": 1,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 45.402999967336655,
+      "from_native_to_overlay": 70.7721000071615,
+      "from_ready_to_results": 43.90039999270812
+    },
+    {
+      "round": 29,
+      "index": 18,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 49.00419997284189,
+      "from_native_to_overlay": 76.16150000831112,
+      "from_ready_to_results": 47.29279997991398
+    },
+    {
+      "round": 29,
+      "index": 17,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 50.34169997088611,
+      "from_native_to_overlay": 82.1771000046283,
+      "from_ready_to_results": 48.71209996053949
+    },
+    {
+      "round": 29,
+      "index": 14,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 51.33310001110658,
+      "from_native_to_overlay": 76.59160002367571,
+      "from_ready_to_results": 49.66020002029836
+    },
+    {
+      "round": 29,
+      "index": 0,
+      "fruit": 1,
+      "hints": 2,
+      "from_ready_to_overlay": 67.4519999884069,
+      "from_native_to_overlay": 92.57740003522485,
+      "from_ready_to_results": 65.88309997459874
+    },
+    {
+      "round": 29,
+      "index": 11,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 52.746000001206994,
+      "from_native_to_overlay": 83.68699997663498,
+      "from_ready_to_results": 51.18509999010712
+    },
+    {
+      "round": 29,
+      "index": 7,
+      "fruit": 1,
+      "hints": 0,
+      "from_ready_to_overlay": 53.994900023099035,
+      "from_native_to_overlay": 80.49359999131411,
+      "from_ready_to_results": 51.936800009571016
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "source_root": "F:\\研究生毕业设计\\模块一定位补偿以及预测\\apple_journal_research_20261106",
-  "snapshot_updated_utc": "2026-11-19T02:24:00.359989+00:00",
+  "snapshot_updated_utc": "2026-11-19T02:34:19.530222+00:00",
   "files": [
     {
       "path": "README.md",
@@ -176,6 +176,11 @@
       "path": "apple_research_v2/audit_full_attribute_v3_1.py",
       "sha256": "56d32b782a21272d99d197fdff74d64ac12dce7c18089ba541ffa34dcf9c9c7b",
       "bytes": 17701
+    },
+    {
+      "path": "apple_research_v2/audit_grade_burden_20261119.py",
+      "sha256": "9a31f51336ebccdd5aba8d020c7d0b271cd0cc88b4b8daeb1208e076e5b4ad14",
+      "bytes": 2025
     },
     {
       "path": "apple_research_v2/audit_grade_pairs_20261119.py",
@@ -884,8 +889,8 @@
     },
     {
       "path": "apple_research_v2/grade_local_evidence.py",
-      "sha256": "1a183d265c64b45df833972959f5f0338372835a1083e6202f6a9aa186a7cba1",
-      "bytes": 2485
+      "sha256": "703faa454c358441f88f1d9a4861f1d75aab19e37bb00f8fd6148b055ec0af86",
+      "bytes": 2633
     },
     {
       "path": "apple_research_v2/grade_mark_contrast.py",
@@ -908,14 +913,34 @@
       "bytes": 6148
     },
     {
+      "path": "apple_research_v2/grade_pairs_background_control.py",
+      "sha256": "21f9368571a7ec75f018ea7875054c8c278be8cfa05dbf86c949f7f90226dcbd",
+      "bytes": 4260
+    },
+    {
+      "path": "apple_research_v2/grade_pairs_burden_20261119.py",
+      "sha256": "9f67be0884cd412937298e88ea28fc3649a28488e90599be36b9ddf4734c8c7a",
+      "bytes": 5474
+    },
+    {
       "path": "apple_research_v2/grade_pairs_comparison.py",
-      "sha256": "8053ba404e468f74fa6bef260be43cc4f8ec3562255b5e788d04abaa824668c5",
-      "bytes": 4281
+      "sha256": "9c97fb3950d1840f782bc29058307895880c279f48400983fec85a1011d97c66",
+      "bytes": 4915
     },
     {
       "path": "apple_research_v2/grade_pairs_context_20261119.py",
-      "sha256": "20f668ee4916688fa7bb813476d4e581e566629bad1ba23023c538ac87ab9e2d",
-      "bytes": 4935
+      "sha256": "4cb7a892d7fa275c34a250a513d85bb748a80dc19b36e1611a7236bfd735e081",
+      "bytes": 5033
+    },
+    {
+      "path": "apple_research_v2/grade_pairs_cpu_threads.py",
+      "sha256": "75b4ecfc6686e4e7096813ab1ee790a03c3650d9e4505c37f3d7700d2c9d060e",
+      "bytes": 6203
+    },
+    {
+      "path": "apple_research_v2/grade_pairs_dev_speed.py",
+      "sha256": "55e24c8ce258d0a33bd3cc24b7d05e715262d170ef570ff7b8efc92f059295a5",
+      "bytes": 9728
     },
     {
       "path": "apple_research_v2/grade_pairs_field_review.py",
@@ -956,6 +981,21 @@
       "path": "apple_research_v2/guard_hdf_training_data.py",
       "sha256": "4ea2e4ef3a4b18a4ff433898ed17681c869aa6a336b6e1d15f8c3afc43b44624",
       "bytes": 9876
+    },
+    {
+      "path": "apple_research_v2/harvard_lesion_extent_audit.py",
+      "sha256": "1d0e58ba9f047c84809e3dbbe8fb431aaf472e895e00f79aa0c5c3e5c467d3a7",
+      "bytes": 3683
+    },
+    {
+      "path": "apple_research_v2/harvard_severe_source_review.py",
+      "sha256": "ab9ed85efc3d2c3b9b78958f485d0653406cd5b02254f43f72de967c1a7c7258",
+      "bytes": 3810
+    },
+    {
+      "path": "apple_research_v2/harvard_studio_preview_inventory.py",
+      "sha256": "bd2bb1d475f757cde08f802be35757419e4c6362a96e679f2e8c76abf5b81310",
+      "bytes": 3786
     },
     {
       "path": "apple_research_v2/inspect_local_inventory.py",
@@ -1049,8 +1089,8 @@
     },
     {
       "path": "apple_research_v2/matched_grade_loader.py",
-      "sha256": "6d84cdda1b710d6e5b37c05c344fd63637e04c7a37d1e515ba95d74e1e71dca5",
-      "bytes": 3574
+      "sha256": "e06648afb645f143bab53bd9f81dab60a8efb1453d7fd72daaa87b2093619bb8",
+      "bytes": 4170
     },
     {
       "path": "apple_research_v2/penn_surface_challenge.py",
@@ -1086,6 +1126,11 @@
       "path": "apple_research_v2/prepare_grocery_normal_stress.py",
       "sha256": "96c2ab0a4672892590dff9224f1b6266bac1b7aa6d82ec3c065e0e5b4a5763bd",
       "bytes": 8449
+    },
+    {
+      "path": "apple_research_v2/prepare_harvard_local_blemish_pairs.py",
+      "sha256": "ebb33022b37a7edff3e2df6296e5d4bf2d63a8609d18e25e621031fb9ba4cf56",
+      "bytes": 9200
     },
     {
       "path": "apple_research_v2/prepare_harvard_normal_anchors.py",
@@ -1131,6 +1176,11 @@
       "path": "apple_research_v2/prepare_stage_segmentation.py",
       "sha256": "5cf4d5517cf143227fc429ee149c19acc08187f0304936da7d976c498545edad",
       "bytes": 13094
+    },
+    {
+      "path": "apple_research_v2/probe_visible_severity_regions.py",
+      "sha256": "5477128a19c71464c2aa150cb749dbb3054c20875498404208b7d13829854400",
+      "bytes": 8174
     },
     {
       "path": "apple_research_v2/prototypes/shared_yolo_cpu_baseline_v1.py",
@@ -1233,6 +1283,11 @@
       "bytes": 29350
     },
     {
+      "path": "apple_research_v2/train_grade_burden_20261119.py",
+      "sha256": "30e76f30fcd4dfecda752f83cf221e1b2b12e289d02510f0f460e6927e0a592f",
+      "bytes": 9426
+    },
+    {
       "path": "apple_research_v2/train_grade_capture_contrast.py",
       "sha256": "2998d4c1dd1e778acec57538f8c32d8abd68e2d1c7b8b72db7024617507367f5",
       "bytes": 7752
@@ -1291,6 +1346,11 @@
       "path": "apple_research_v2/verify_defect_modes_20261112.py",
       "sha256": "a48f5ad65a27c659c6aa564ab5771ea3285a01e39fa76827c42445e58492b5e5",
       "bytes": 2505
+    },
+    {
+      "path": "apple_research_v2/verify_harvard_bad_hdf.py",
+      "sha256": "cfd40b36e121374232e31012af4f4376c840a361ce02a019f2b0e9a915d3dd24",
+      "bytes": 2994
     },
     {
       "path": "apple_research_v2/verify_native_onnx_record_cpu.py",
@@ -1478,6 +1538,51 @@
       "bytes": 11261
     },
     {
+      "path": "datasets/harvard_grade_severe_20261119/camera_thumbnails_audit.json",
+      "sha256": "35e71a385168ad210a0177c1810d17cd989dd5b246d5100766d83f47716c1990",
+      "bytes": 44981
+    },
+    {
+      "path": "datasets/harvard_grade_severe_20261119/fourth_local_feature_search.json",
+      "sha256": "325475bedb4a62416ef4ebb019daea545841db756b394e93b0d69631aa0f2221",
+      "bytes": 991
+    },
+    {
+      "path": "datasets/harvard_grade_severe_20261119/good_exif_audit.json",
+      "sha256": "a45d0b11566c41ef28913068c06fecb7bc3a078c5aaaeac2ec1cc7827996806a",
+      "bytes": 104532
+    },
+    {
+      "path": "datasets/harvard_grade_severe_20261119/hdf_geometric_overlap.json",
+      "sha256": "415ff3487919b79c32ef4b584511009c01c08898eb817ddd615a053e3094af74",
+      "bytes": 2111
+    },
+    {
+      "path": "datasets/harvard_grade_severe_20261119/lesion_extent_diagnostic.json",
+      "sha256": "12f1fe33caa42403d3fe791a8fe50c124afc2882b294f260ab3219ce50c6a876",
+      "bytes": 4155
+    },
+    {
+      "path": "datasets/harvard_grade_severe_20261119/manifest.json",
+      "sha256": "f056401f6ce7718a101e8a1fc94311510c8a52eb10842206bdacdbed18e98ea5",
+      "bytes": 7573
+    },
+    {
+      "path": "datasets/harvard_grade_severe_20261119/original_audit.json",
+      "sha256": "822df0f1e11b0e11e566a724334b6b12cd724ccba531431d071c4f9d83b9f25c",
+      "bytes": 13906
+    },
+    {
+      "path": "datasets/harvard_grade_severe_20261119/patch_overlap_audit.json",
+      "sha256": "752f30da976b29a889ff9e6a8604d2d1f5a5cd863f49b5c5358da7c4bd250bb4",
+      "bytes": 675
+    },
+    {
+      "path": "datasets/harvard_grade_severe_20261119/stock_overlap_HDF.json",
+      "sha256": "f341d91e1704e5f5be77e68195fb6aff4f0805499eee23863b1cacbc1a622dbf",
+      "bytes": 881
+    },
+    {
       "path": "datasets/penn_surface_challenge_v1/manifest.json",
       "sha256": "78da774d2611fb2aa95e373f36fe57e24394a82679df83976c5e23a552e8dd21",
       "bytes": 10084
@@ -1511,6 +1616,11 @@
       "path": "docs/HDF新鲜果36张逐图诊断_20261118.md",
       "sha256": "2b5dd1845981b36064d1108688edca14e50a49b1eb6422933265a487decd476a",
       "bytes": 3736
+    },
+    {
+      "path": "docs/Harvard同场景浅斑训练对照与重瑕来源审核_20261119.md",
+      "sha256": "0d3564e9980be9b7e967267187a97fbbf498618820b25228c6e1bd08273b44b2",
+      "bytes": 3443
     },
     {
       "path": "docs/SSDA训练图缺陷盲审说明.md",
@@ -1578,6 +1688,16 @@
       "bytes": 4310
     },
     {
+      "path": "docs/稀疏补丁与果面负荷三版开发对照_20261119.md",
+      "sha256": "7841834cd51967f15f3e1c0b4fc6bab2204c3a8b13773e9662eb3002d2fa300e",
+      "bytes": 6066
+    },
+    {
+      "path": "docs/稀疏验证器开发集整链测速_20261119.md",
+      "sha256": "4deeb6081cf6b7be0012f6483ff9a28dc4a8aff22a6714529552312ec14ec4b0",
+      "bytes": 5108
+    },
+    {
       "path": "docs/缺陷改进对照_20261112.md",
       "sha256": "244ec78e9b75a9f7d8c6927c0d57f045d99f3e278bd85ba8fea3a48ebb99eab7",
       "bytes": 11551
@@ -1624,8 +1744,8 @@
     },
     {
       "path": "docs/苹果三级分级目标与实验_20261119.md",
-      "sha256": "e6e8fb411111a376e77f0a3694c405ef628221e40fd81974d0737219c81f705f",
-      "bytes": 4626
+      "sha256": "c9a0cfe5f36a4e0d1f2d6a0877d726a695011b0d9e27260c35f71c5a2e348e67",
+      "bytes": 9064
     },
     {
       "path": "docs/苹果三级品质与成熟度联合实测_20261118.md",
@@ -3233,6 +3353,16 @@
       "bytes": 2415
     },
     {
+      "path": "experiments/grade_pairs_20261119/background_control/protocol.json",
+      "sha256": "5d40da517e5801461c64a099c34505254434bbf673490e602258d70a5cbcc99c",
+      "bytes": 902
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/background_control/result.json",
+      "sha256": "5b62105d7c8f594e56d662b6891d68be88564558edcbaa2c904d026521757163",
+      "bytes": 9507
+    },
+    {
       "path": "experiments/grade_pairs_20261119/capture_contrast/absolute/history.json",
       "sha256": "9ed1c3258134f678aa8a2f421238b55086be0e6d21898637ce943050995e1faf",
       "bytes": 18945
@@ -3268,9 +3398,119 @@
       "bytes": 4231
     },
     {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/eager.json",
+      "sha256": "19f53efe39e4c8c9a20b5de9b2e58c73722c8e8490dd2a4b010e92ac0126d66c",
+      "bytes": 149039
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/eager_stages.json",
+      "sha256": "26fa12f28b869210dc393185bef17f59ffe864ea8d819e8c9f2795d5ada170f7",
+      "bytes": 1511
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/graph_equivalence.json",
+      "sha256": "f4db2bfc75c87c67e4afb95439b4fd94fe0ffb59f3a73016d0a4d5584c8f2ed2",
+      "bytes": 79
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/opencv_thread_trial/cpu_check.json",
+      "sha256": "c3eb280555124a75771da9755bf4896e69831bb6922b6639db6aef0a5910abcf",
+      "bytes": 442
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/opencv_thread_trial/equivalence.json",
+      "sha256": "2693d9eb8622c2a3651bb4571ebedc15a1ef0665dd91a650dcfd222731f0cedc",
+      "bytes": 97
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/opencv_thread_trial/protocol.json",
+      "sha256": "c1685974afd669e0cd2f27d0ce3353ac9cd974778f0dc8131d735988dc5bf761",
+      "bytes": 2368
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/opencv_thread_trial/timings.json",
+      "sha256": "110dcb4cf08dcdea96a1a2d206a94264e6e865ab75731182ceaaf1e1b30ba370",
+      "bytes": 242116
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/protocol.json",
+      "sha256": "edb69225a3a6173c1331f6026cf7dd6488ef5e6273488aef8d8b8684cdd39ede",
+      "bytes": 2328
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/receipt.json",
+      "sha256": "55ce6e86a32d47e554e59f3ce83e8128249d7c9bc57bbee479d7f976586c7365",
+      "bytes": 4478
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/single_graph.json",
+      "sha256": "dfbc11b34be5720e1f1b3ce640ade866afe88523adbc97cdf21ffa85adc9c344",
+      "bytes": 149098
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/development_full_speed_v1/single_graph_stages.json",
+      "sha256": "7877c62d9430a9ceb4ebba53dc4f9c035853d4e66119ab0002ab3d9a0298d83a",
+      "bytes": 1518
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/fruit_surface_burden_v1/development_predictions.json",
+      "sha256": "2a80eb628540c521001d970aec655e0dd115ca541ac3efe2013ee5dbc8cd8fea",
+      "bytes": 142573
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/fruit_surface_burden_v1/fit.json",
+      "sha256": "38a751fe63857f7cda1d3756448caf5290436b89e84012016eb6d70b5506eda0",
+      "bytes": 1141
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/fruit_surface_burden_v1/protocol.json",
+      "sha256": "eb074a358c87722fbf529af02e3312f79216062b5d2c0cb5636d146646e95f1e",
+      "bytes": 1376
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/fruit_surface_burden_v1/replay_and_latency.json",
+      "sha256": "d176ba0c54fe0a113d4d46a597590ac6ad51611f305aef8bf9a6f89ff4db19d1",
+      "bytes": 383
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/fruit_surface_burden_v1/selection.json",
+      "sha256": "14433961d165583071c0d55f897bc687105384fe7ecdc5872aa7a51201e9ef63",
+      "bytes": 1876
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/fruit_surface_burden_v1/unit_geometry.json",
+      "sha256": "b0cd3e2c46a599972b49f7eb996cb73acdf992b2db6badbbb415f57248939d42",
+      "bytes": 245
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/grounded_sparse_v2/anchored_bank_audit.json",
+      "sha256": "9eccb42bcd5a6ab71576979065a2ab76b31a94354a13673406ad4909787839e5",
+      "bytes": 303
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/grounded_sparse_v2/development_predictions.json",
+      "sha256": "680eb36084e97afa436f1e62cba50ec38edefa1c5bb98a7fb16bb6527082d719",
+      "bytes": 105042
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/grounded_sparse_v2/history.json",
+      "sha256": "6a15d338b93284234de07a820c64033258ee5153018b137671df72fab0fd9fdd",
+      "bytes": 23200
+    },
+    {
       "path": "experiments/grade_pairs_20261119/grounded_sparse_v2/protocol.json",
       "sha256": "35b9e83f1a18f064baef91af9b7a529a6cdbfb948ccb195c2ed5f971091ddab6",
       "bytes": 1369
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/grounded_sparse_v2/selection.json",
+      "sha256": "1a9f9f9817899132d1cb253e7f7e72f48f44feb2318d10abed5f67ace47e6d7c",
+      "bytes": 1891
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/grounded_sparse_v2/speed_dev_single_grade.json",
+      "sha256": "53c8c9caf986b005039a1a2bd30b0e552cf1f2ebde84b3a895bf5051f1428abb",
+      "bytes": 113
     },
     {
       "path": "experiments/grade_pairs_20261119/paired_edits/anatomy_control/history.json",
@@ -3351,6 +3591,21 @@
       "path": "experiments/grade_pairs_20261119/protocol.json",
       "sha256": "8cc10f6b584b9b6c0bc97ab90b1319de4784f785c511bf97eb094d9e703de88e",
       "bytes": 2211
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/severity_transfer/development_controls.json",
+      "sha256": "212f1461e05c3a7bc2b2f479b905a8f8523d93bde7ebaa80116d65659a21bb0d",
+      "bytes": 6827
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/severity_transfer/protocol.json",
+      "sha256": "74017fbbc4ad6785441ba9d8857d921e2c1c472476a9c5f6366f24c71293fd86",
+      "bytes": 673
+    },
+    {
+      "path": "experiments/grade_pairs_20261119/severity_transfer/result.json",
+      "sha256": "a1813fcdbb45aedf861c114be4c58fb5e29c55dae9e1a7ab073306eec3b9f884",
+      "bytes": 13244
     },
     {
       "path": "experiments/grade_pairs_20261119/sparse_verifier_v1/development_predictions.json",

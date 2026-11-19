@@ -1,0 +1,293 @@
+{
+  "photos": 8,
+  "results": {
+    "held_group_texture": {
+      "correct_by_source": {
+        "PennState": 2,
+        "FruitLife": 6
+      },
+      "rows": [
+        {
+          "group": "PSU_day_2025-10-03",
+          "source": "PennState",
+          "image": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+          "normal_image": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+          "lesion_score": 20.340707399707362,
+          "normal_score": -13.015791701426387
+        },
+        {
+          "group": "PSU_day_2025-10-03",
+          "source": "PennState",
+          "image": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+          "normal_image": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+          "lesion_score": -14.021056387717172,
+          "normal_score": -19.16656108632482
+        },
+        {
+          "group": "apple_02",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260811_170115.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+          "lesion_score": -1.4909707415514348,
+          "normal_score": -13.064800033523497
+        },
+        {
+          "group": "apple_02",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260820_062916.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+          "lesion_score": 4.561338482364933,
+          "normal_score": -13.064800033523497
+        },
+        {
+          "group": "apple_04",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260817_065857.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+          "lesion_score": 5.388653206003446,
+          "normal_score": -5.580930679480942
+        },
+        {
+          "group": "apple_04",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260822_131913.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+          "lesion_score": 24.22610755063542,
+          "normal_score": -5.580930679480942
+        },
+        {
+          "group": "apple_06",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260813_064222.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+          "lesion_score": 24.92628411370478,
+          "normal_score": -6.7987473149556035
+        },
+        {
+          "group": "apple_06",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260821_133427.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+          "lesion_score": 17.676482093936166,
+          "normal_score": -6.7987473149556035
+        }
+      ]
+    },
+    "held_group_texture_colour": {
+      "correct_by_source": {
+        "PennState": 2,
+        "FruitLife": 6
+      },
+      "rows": [
+        {
+          "group": "PSU_day_2025-10-03",
+          "source": "PennState",
+          "image": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+          "normal_image": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+          "lesion_score": 9.682303214557287,
+          "normal_score": -34.12077605950822
+        },
+        {
+          "group": "PSU_day_2025-10-03",
+          "source": "PennState",
+          "image": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+          "normal_image": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+          "lesion_score": -28.37054417673765,
+          "normal_score": -41.1228254171517
+        },
+        {
+          "group": "apple_02",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260811_170115.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+          "lesion_score": 6.3889764900675505,
+          "normal_score": -18.031524366246455
+        },
+        {
+          "group": "apple_02",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260820_062916.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+          "lesion_score": 12.76625745372275,
+          "normal_score": -18.031524366246455
+        },
+        {
+          "group": "apple_04",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260817_065857.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+          "lesion_score": 19.64318514623174,
+          "normal_score": 13.983666666776697
+        },
+        {
+          "group": "apple_04",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260822_131913.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+          "lesion_score": 37.61098190467513,
+          "normal_score": 13.983666666776697
+        },
+        {
+          "group": "apple_06",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260813_064222.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+          "lesion_score": 33.06314891875811,
+          "normal_score": -14.800669882909895
+        },
+        {
+          "group": "apple_06",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260821_133427.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+          "lesion_score": 24.81836778082417,
+          "normal_score": -14.800669882909895
+        }
+      ]
+    },
+    "held_source_texture": {
+      "correct_by_source": {
+        "FruitLife": 6,
+        "PennState": 2
+      },
+      "rows": [
+        {
+          "group": "apple_02",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260811_170115.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+          "lesion_score": 4.244246522406401,
+          "normal_score": -6.999511064238909
+        },
+        {
+          "group": "apple_02",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260820_062916.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+          "lesion_score": 10.087485206055463,
+          "normal_score": -6.999511064238909
+        },
+        {
+          "group": "apple_04",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260817_065857.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+          "lesion_score": 8.25562014744451,
+          "normal_score": -2.262581156995956
+        },
+        {
+          "group": "apple_04",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260822_131913.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+          "lesion_score": 24.234560309969936,
+          "normal_score": -2.262581156995956
+        },
+        {
+          "group": "apple_06",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260813_064222.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+          "lesion_score": 24.238289806071904,
+          "normal_score": -3.5501931647590106
+        },
+        {
+          "group": "apple_06",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260821_133427.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+          "lesion_score": 17.91929761765071,
+          "normal_score": -3.5501931647590106
+        },
+        {
+          "group": "PSU_day_2025-10-03",
+          "source": "PennState",
+          "image": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+          "normal_image": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+          "lesion_score": 20.340707399707362,
+          "normal_score": -13.015791701426387
+        },
+        {
+          "group": "PSU_day_2025-10-03",
+          "source": "PennState",
+          "image": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+          "normal_image": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+          "lesion_score": -14.021056387717172,
+          "normal_score": -19.16656108632482
+        }
+      ]
+    },
+    "held_source_texture_colour": {
+      "correct_by_source": {
+        "FruitLife": 6,
+        "PennState": 2
+      },
+      "rows": [
+        {
+          "group": "apple_02",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260811_170115.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+          "lesion_score": 70.11286469284292,
+          "normal_score": -0.4020506811526774
+        },
+        {
+          "group": "apple_02",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260820_062916.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_02/20260804_061138.jpg",
+          "lesion_score": 76.65033666514526,
+          "normal_score": -0.4020506811526774
+        },
+        {
+          "group": "apple_04",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260817_065857.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+          "lesion_score": 76.50127040585939,
+          "normal_score": 52.96570824200417
+        },
+        {
+          "group": "apple_04",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260822_131913.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_04/20260805_131436.jpg",
+          "lesion_score": 89.32385871499541,
+          "normal_score": 52.96570824200417
+        },
+        {
+          "group": "apple_06",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260813_064222.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+          "lesion_score": 90.56788599826727,
+          "normal_score": -9.42302543571471
+        },
+        {
+          "group": "apple_06",
+          "source": "FruitLife",
+          "image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260821_133427.jpg",
+          "normal_image": "datasets/public_defect_intake/fruitlife_v1/crops/apple_06/20260804_170503.jpg",
+          "lesion_score": 80.13345602940156,
+          "normal_score": -9.42302543571471
+        },
+        {
+          "group": "PSU_day_2025-10-03",
+          "source": "PennState",
+          "image": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+          "normal_image": "datasets/grade_pairs_sources_20261119/penn_train_dev/eab1f1dc2166238225be.jpg",
+          "lesion_score": 9.682303214557287,
+          "normal_score": -34.12077605950822
+        },
+        {
+          "group": "PSU_day_2025-10-03",
+          "source": "PennState",
+          "image": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+          "normal_image": "datasets/grade_pairs_sources_20261119/penn_train_dev/80d11d4e6bd07b0cb5c5.jpg",
+          "lesion_score": -28.37054417673765,
+          "normal_score": -41.1228254171517
+        }
+      ]
+    }
+  }
+}

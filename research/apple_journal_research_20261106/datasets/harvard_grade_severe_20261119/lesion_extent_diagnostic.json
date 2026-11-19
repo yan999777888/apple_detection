@@ -1,0 +1,208 @@
+[
+  {
+    "source_id": 10621439,
+    "name": "Anjali_Apples_Imperfect_00175.jpg",
+    "source_path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00175.jpg",
+    "source_sha256": "f229c8336035619fb0be3adc0fcb3b4aab1acf61671a3d82aade31e04736c7bb",
+    "source_md5": "120ee13b0f21dd1f1667bf6375ba240b",
+    "capture_time": "2024:04:20 10:50:13",
+    "camera": "Canon EOS Rebel T7",
+    "crop_xyxy": [
+      1460,
+      772,
+      4200,
+      3468
+    ],
+    "polygon_raw_xy": [
+      [
+        3275,
+        2046
+      ],
+      [
+        3296,
+        1965
+      ],
+      [
+        3351,
+        1904
+      ],
+      [
+        3364,
+        1844
+      ],
+      [
+        3426,
+        1817
+      ],
+      [
+        3515,
+        1837
+      ],
+      [
+        3577,
+        1871
+      ],
+      [
+        3638,
+        1965
+      ],
+      [
+        3659,
+        2046
+      ],
+      [
+        3673,
+        2140
+      ],
+      [
+        3631,
+        2248
+      ],
+      [
+        3584,
+        2309
+      ],
+      [
+        3515,
+        2349
+      ],
+      [
+        3426,
+        2349
+      ],
+      [
+        3364,
+        2329
+      ],
+      [
+        3310,
+        2295
+      ],
+      [
+        3275,
+        2235
+      ],
+      [
+        3262,
+        2167
+      ]
+    ],
+    "segmentation_sensitivity": {
+      "28": {
+        "fruit_projected_pixels": 4051706,
+        "confirmed_lesion_pixels": 167725,
+        "fraction": 0.04139614276060504
+      },
+      "42": {
+        "fruit_projected_pixels": 4023568,
+        "confirmed_lesion_pixels": 167725,
+        "fraction": 0.041685638219610056
+      },
+      "58": {
+        "fruit_projected_pixels": 3981723,
+        "confirmed_lesion_pixels": 167725,
+        "fraction": 0.042123723825087785
+      }
+    },
+    "observation": "Localized brown depressed/wrinkled area; neighboring gray-brown flat spots excluded. Etiology and interior condition undetermined.",
+    "group_id": "Canon_2024-04-20_same_marked_fruit_10h50",
+    "training_eligible": false
+  },
+  {
+    "source_id": 10621386,
+    "name": "Anjali_Apples_Imperfect_00187.jpg",
+    "source_path": "datasets/harvard_grade_severe_20261119/originals/Anjali_Apples_Imperfect_00187.jpg",
+    "source_sha256": "a69c90da73a37f7311b197d8de659b8196cd10e093bdfdb180818cecfd390c9b",
+    "source_md5": "b022c3b2b58f142110be7c50fb89944b",
+    "capture_time": "2024:04:20 10:50:28",
+    "camera": "Canon EOS Rebel T7",
+    "crop_xyxy": [
+      1332,
+      732,
+      4048,
+      3464
+    ],
+    "polygon_raw_xy": [
+      [
+        1665,
+        1873
+      ],
+      [
+        1692,
+        1770
+      ],
+      [
+        1739,
+        1709
+      ],
+      [
+        1787,
+        1640
+      ],
+      [
+        1862,
+        1620
+      ],
+      [
+        1923,
+        1634
+      ],
+      [
+        1991,
+        1681
+      ],
+      [
+        2004,
+        1777
+      ],
+      [
+        1977,
+        1907
+      ],
+      [
+        1916,
+        2064
+      ],
+      [
+        1848,
+        2146
+      ],
+      [
+        1794,
+        2173
+      ],
+      [
+        1739,
+        2153
+      ],
+      [
+        1692,
+        2105
+      ],
+      [
+        1658,
+        2023
+      ]
+    ],
+    "segmentation_sensitivity": {
+      "28": {
+        "fruit_projected_pixels": 4060065,
+        "confirmed_lesion_pixels": 138834,
+        "fraction": 0.03419501904526159
+      },
+      "42": {
+        "fruit_projected_pixels": 4029212,
+        "confirmed_lesion_pixels": 138834,
+        "fraction": 0.03445686154017212
+      },
+      "58": {
+        "fruit_projected_pixels": 3977743,
+        "confirmed_lesion_pixels": 138834,
+        "fraction": 0.03490270738959254
+      }
+    },
+    "observation": "Localized brown depressed/wrinkled area; neighboring gray-brown flat spots excluded. Etiology and interior condition undetermined.",
+    "group_id": "Canon_2024-04-20_same_marked_fruit_10h50",
+    "training_eligible": false
+  }
+]

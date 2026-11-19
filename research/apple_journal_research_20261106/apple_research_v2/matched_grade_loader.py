@@ -11,6 +11,9 @@ from grade_local_evidence import architecture_model
 
 
 def tensor_at_size(frames, device, side):
+    from grade_pairs_burden_20261119 import BurdenSide,prepare as burden_prepare
+    if isinstance(side,BurdenSide):
+        return burden_prepare(frames,device)
     from grade_pairs_context_20261119 import ContextSide,prepare as context_prepare
     if isinstance(side,ContextSide):
         return context_prepare(frames,device)
@@ -59,6 +62,10 @@ def load(directory, device):
         from grade_pairs_context_20261119 import ContextSide
         if side!=320:raise ValueError("Context verifier needs its 320/224 input pair")
         side=ContextSide(320)
+    if metadata.get("architecture") == "native320_sparse_surface_burden_20261119":
+        from grade_pairs_burden_20261119 import BurdenSide
+        if side!=320:raise ValueError("Surface burden requires registered 320/224 input")
+        side=BurdenSide(320)
     model=architecture_model(metadata.get("architecture"))
     model.load_state_dict(torch.load(folder/"weights.pt",map_location="cpu",weights_only=True),strict=True)
     return model.to(device).eval().requires_grad_(False),float(metadata["threshold"]),side
@@ -72,4 +79,7 @@ def install(pipe, directory):
     from grade_pairs_context_20261119 import ContextSide,prepare as context_prepare
     if isinstance(side,ContextSide):
         pipe.preprocess_grade_with_boxes=context_prepare
+    from grade_pairs_burden_20261119 import BurdenSide,prepare as burden_prepare
+    if isinstance(side,BurdenSide):
+        pipe.preprocess_grade_with_boxes=burden_prepare
     return side

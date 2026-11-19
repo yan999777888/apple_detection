@@ -1,0 +1,7 @@
+{
+  "duplicate_max_abs_error": 0.0,
+  "identical_native_input_ratio": 2,
+  "normalized_trace_area_small": 9.097501754760742,
+  "normalized_trace_area_large": 9.270354270935059,
+  "normalized_footprint_max_abs_error": 0.1594683825969696
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "hdf": "P_REAL_0048.png",
+    "geometric_inliers": 153,
+    "ratio_matches": 158
+  },
+  {
+    "hdf": "P_REAL_0319.png",
+    "geometric_inliers": 153,
+    "ratio_matches": 156
+  },
+  {
+    "hdf": "P_REAL_0832.png",
+    "geometric_inliers": 153,
+    "ratio_matches": 156
+  },
+  {
+    "hdf": "P_REAL_0948.png",
+    "geometric_inliers": 149,
+    "ratio_matches": 164
+  },
+  {
+    "hdf": "P_REAL_0577.png",
+    "geometric_inliers": 145,
+    "ratio_matches": 148
+  },
+  {
+    "hdf": "P_REAL_0578.png",
+    "geometric_inliers": 143,
+    "ratio_matches": 146
+  },
+  {
+    "hdf": "P_REAL_0834.png",
+    "geometric_inliers": 135,
+    "ratio_matches": 142
+  },
+  {
+    "hdf": "P_REAL_0682.png",
+    "geometric_inliers": 134,
+    "ratio_matches": 147
+  },
+  {
+    "hdf": "P_REAL_0258.png",
+    "geometric_inliers": 21,
+    "ratio_matches": 22
+  },
+  {
+    "hdf": "P_REAL_0825.png",
+    "geometric_inliers": 21,
+    "ratio_matches": 22
+  }
+]
