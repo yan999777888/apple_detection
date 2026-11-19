@@ -33,6 +33,9 @@ class LocalEvidenceGrade(nn.Module):
 
 
 def architecture_model(name):
+    if name == "original_native320_severity_agreement_v1":
+        from grade_severity_agreement import SeverityAgreement
+        return SeverityAgreement()
     if name == "native320_sparse_surface_burden_20261119":
         from grade_pairs_burden_20261119 import BurdenGrade
         return BurdenGrade()

@@ -1,0 +1,93 @@
+{
+  "results": {
+    "train": {
+      "resolved_auto_confusion": [
+        [
+          84,
+          15,
+          0
+        ],
+        [
+          0,
+          89,
+          0
+        ],
+        [
+          0,
+          0,
+          55
+        ]
+      ],
+      "unresolved": {
+        "0": 18,
+        "1": 31,
+        "2": 23
+      },
+      "mismatches_by_burst": [
+        {
+          "group": "burst_0014",
+          "truth": 0,
+          "prediction": 1,
+          "count": 4
+        },
+        {
+          "group": "burst_0100",
+          "truth": 0,
+          "prediction": 1,
+          "count": 11
+        }
+      ]
+    },
+    "val": {
+      "resolved_auto_confusion": [
+        [
+          20,
+          1,
+          0
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          0,
+          0,
+          17
+        ]
+      ],
+      "unresolved": {
+        "0": 4,
+        "1": 2
+      },
+      "mismatches_by_burst": [
+        {
+          "group": "burst_0000",
+          "truth": 1,
+          "prediction": 0,
+          "count": 1
+        },
+        {
+          "group": "burst_0089",
+          "truth": 0,
+          "prediction": 1,
+          "count": 1
+        },
+        {
+          "group": "burst_0089",
+          "truth": 1,
+          "prediction": 0,
+          "count": 5
+        },
+        {
+          "group": "burst_0198",
+          "truth": 1,
+          "prediction": 2,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "source_protocol_sha256": "cfc5bbaf00818e6922b70b9fa04aa8d42e143a3a79131056e515548e060f27c5",
+  "scope": "Actual native320 parent outputs before the new head. Train was used in earlier model development and cannot estimate generalization. Val is a different AF capture split."
+}

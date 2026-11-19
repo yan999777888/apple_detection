@@ -1,6 +1,6 @@
 """Freeze a development-qualified model, and compare models on a source-isolated blind panel."""
 import argparse
-from collections import Counter,defaultdict
+from collections import Counter
 from pathlib import Path
 
 import cv2
@@ -20,22 +20,40 @@ MODELS=dict(original=ROOT/"experiments/afruit_grade_release_v1",woo=ROOT/"experi
 MANALAGI_MANIFEST_SHA="0cbd92a77598951cf13f3180c58dc96a542d165be3890460e0ccd16f508db7ac"
 
 
-def freeze(dirs):
+def check_candidates(dirs):
     arms=[]
     for folder in dirs:
         folder=folder.resolve();d=io.read(folder/"selection.json");sha=grade.file_sha(folder/"weights.pt")
         if sha!=d["weights_sha256"]:raise ValueError("Selected checkpoint changed")
         a,h=d["metrics"]["auto"],d["metrics"]["whole"]
         assert len(a["confusion"])==3 and [sum(row) for row in a["confusion"]]==[25,15,17]
-        passed=a["mild"]>=6 and a["good"]>=20 and a["severe_good"]==0 and a["severe"]>=16 and h["severe_good"]==0
-        arms.append(dict(directory=folder.relative_to(ROOT).as_posix(),sha256=sha,passed=passed,
+        checks=dict(mild=a["mild"]>=6,good=a["good"]>=20,no_severe_release=a["severe_good"]==0,
+                    severe_correct=a["severe"]>=16,whole_no_severe_release=h["severe_good"]==0)
+        arms.append(dict(directory=folder.relative_to(ROOT).as_posix(),sha256=sha,passed=all(checks.values()),checks=checks,
                   rank=[a["mild"],a["good"]+a["severe"],a["good"],h["mild"]],metrics=d["metrics"]))
+    return arms
+
+
+def freeze(dirs):
+    arms=check_candidates(dirs)
     eligible=[arm for arm in arms if arm["passed"]]
     if not eligible:raise ValueError("No qualified candidate. Keep blind results sealed.")
     chosen=max(eligible,key=lambda arm:arm["rank"])
     publish(OUT/"field_lock.json",dict(candidate=chosen["directory"],sha256=chosen["sha256"],
              protocol_sha=grade.file_sha(OUT/"protocol.json"),arms=arms))
     print(chosen["directory"],chosen["sha256"])
+
+
+def development_review():
+    selections=sorted(p for p in OUT.rglob("selection.json") if (p.parent/"weights.pt").is_file())
+    folders=[p.parent for p in selections if {"auto","whole"}<=io.read(p).get("metrics",{}).keys()]
+    local_only=[p.parent.relative_to(ROOT).as_posix() for p in selections if p.parent not in folders]
+    arms=check_candidates(folders)
+    eligible=[arm["directory"] for arm in arms if arm["passed"]]
+    io.atomic(OUT/"development_review.json",dict(protocol_sha=grade.file_sha(OUT/"protocol.json"),
+        eligible=eligible,arms=arms,without_full_development_metrics=local_only,
+        scope="Complete selected checkpoints with recorded AF 57-photo metrics. Mechanism-only controls without a whole-fruit evaluation are documented separately."))
+    print("Checked",len(arms),"eligible",eligible)
 
 
 @torch.inference_mode()
@@ -58,7 +76,12 @@ def blind(manifest):
     for name,folder in dirs.items():
         hashes[name]=grade.file_sha(folder/"weights.pt")
         assert hashes[name]==(lock["sha256"] if name=="repair" else policy["reference"][name])
-        model,cut,side=load(folder,"cuda")
+        shared=io.read(folder/"selection.json").get("architecture")=="stage_neck_native320_v1"
+        if shared:
+            from grade_pairs_neck_field import FieldRuntime
+            model=FieldRuntime(folder)
+        else:
+            model,cut,side=load(folder,"cuda")
         for start in range(0,len(rows),8):
             frames=[]
             for row in rows[start:start+8]:
@@ -67,7 +90,8 @@ def blind(manifest):
                 frame=cv2.imdecode(np.fromfile(path,np.uint8),cv2.IMREAD_COLOR)
                 if frame is None:raise ValueError(path)
                 frames.append(frame)
-            labels=grade.decide(model(tensor_at_size(frames,"cuda",side)),cut).tolist()
+            labels=([r["grade_id"] for r in model.classify(frames)] if shared else
+                    grade.decide(model(tensor_at_size(frames,"cuda",side)),cut).tolist())
             for row,p in zip(predictions[start:start+8],labels,strict=True):row[name]=int(p)
         del model
     results={}
@@ -88,9 +112,11 @@ def blind(manifest):
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)
     sub=parser.add_subparsers(dest="action",required=True)
+    sub.add_parser("development-review")
     sub.add_parser("freeze").add_argument("dirs",type=Path,nargs="+")
     sub.add_parser("blind").add_argument("manifest",type=Path)
     args=parser.parse_args()
     torch.set_num_threads(2);cv2.setNumThreads(1)
     if args.action=="freeze":freeze(args.dirs)
+    elif args.action=="development-review":development_review()
     else:blind(args.manifest)

@@ -1,0 +1,1062 @@
+{
+  "pairs": [
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172636.jpg",
+      "xy": [
+        146,
+        200
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172636.jpg",
+      "xy": [
+        146,
+        200
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172636.jpg",
+      "xy": [
+        146,
+        200
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172636.jpg",
+      "xy": [
+        146,
+        200
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172636.jpg",
+      "xy": [
+        146,
+        200
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172636.jpg",
+      "xy": [
+        146,
+        200
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172636.jpg",
+      "xy": [
+        146,
+        200
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172636.jpg",
+      "xy": [
+        146,
+        200
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172742.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172742.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172742.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172742.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172742.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172742.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172742.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172742.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172736.jpg",
+      "xy": [
+        146,
+        218
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172736.jpg",
+      "xy": [
+        146,
+        218
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172736.jpg",
+      "xy": [
+        146,
+        218
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172736.jpg",
+      "xy": [
+        146,
+        218
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172736.jpg",
+      "xy": [
+        146,
+        218
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172736.jpg",
+      "xy": [
+        146,
+        218
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172736.jpg",
+      "xy": [
+        146,
+        218
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172736.jpg",
+      "xy": [
+        146,
+        218
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "xy": [
+        164,
+        182
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "xy": [
+        164,
+        182
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "xy": [
+        164,
+        182
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "xy": [
+        164,
+        182
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "xy": [
+        164,
+        182
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "xy": [
+        164,
+        182
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "xy": [
+        164,
+        182
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172707.jpg",
+      "xy": [
+        164,
+        182
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172658.jpg",
+      "xy": [
+        110,
+        218
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172658.jpg",
+      "xy": [
+        110,
+        218
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172658.jpg",
+      "xy": [
+        110,
+        218
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172658.jpg",
+      "xy": [
+        110,
+        218
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172658.jpg",
+      "xy": [
+        110,
+        218
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172658.jpg",
+      "xy": [
+        110,
+        218
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172658.jpg",
+      "xy": [
+        110,
+        218
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172658.jpg",
+      "xy": [
+        110,
+        218
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172722.jpg",
+      "xy": [
+        128,
+        92
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172722.jpg",
+      "xy": [
+        128,
+        92
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172722.jpg",
+      "xy": [
+        128,
+        92
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172722.jpg",
+      "xy": [
+        128,
+        92
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172722.jpg",
+      "xy": [
+        128,
+        92
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172722.jpg",
+      "xy": [
+        128,
+        92
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172722.jpg",
+      "xy": [
+        128,
+        92
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172722.jpg",
+      "xy": [
+        128,
+        92
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "xy": [
+        110,
+        92
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "xy": [
+        110,
+        92
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "xy": [
+        110,
+        92
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "xy": [
+        110,
+        92
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "xy": [
+        110,
+        92
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "xy": [
+        110,
+        92
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "xy": [
+        110,
+        92
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_172732.jpg",
+      "xy": [
+        110,
+        92
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214241.jpg",
+      "xy": [
+        200,
+        200
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214241.jpg",
+      "xy": [
+        200,
+        200
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214241.jpg",
+      "xy": [
+        200,
+        200
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214241.jpg",
+      "xy": [
+        200,
+        200
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214241.jpg",
+      "xy": [
+        200,
+        200
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214241.jpg",
+      "xy": [
+        200,
+        200
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214241.jpg",
+      "xy": [
+        200,
+        200
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214241.jpg",
+      "xy": [
+        200,
+        200
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214303.jpg",
+      "xy": [
+        146,
+        110
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214303.jpg",
+      "xy": [
+        146,
+        110
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214303.jpg",
+      "xy": [
+        146,
+        110
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214303.jpg",
+      "xy": [
+        146,
+        110
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214303.jpg",
+      "xy": [
+        146,
+        110
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214303.jpg",
+      "xy": [
+        146,
+        110
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214303.jpg",
+      "xy": [
+        146,
+        110
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214303.jpg",
+      "xy": [
+        146,
+        110
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214217.jpg",
+      "xy": [
+        200,
+        128
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214217.jpg",
+      "xy": [
+        200,
+        128
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214217.jpg",
+      "xy": [
+        200,
+        128
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214217.jpg",
+      "xy": [
+        200,
+        128
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214217.jpg",
+      "xy": [
+        200,
+        128
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214217.jpg",
+      "xy": [
+        200,
+        128
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214217.jpg",
+      "xy": [
+        200,
+        128
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214217.jpg",
+      "xy": [
+        200,
+        128
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214431.jpg",
+      "xy": [
+        128,
+        146
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214431.jpg",
+      "xy": [
+        128,
+        146
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214431.jpg",
+      "xy": [
+        128,
+        146
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214431.jpg",
+      "xy": [
+        128,
+        146
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214431.jpg",
+      "xy": [
+        128,
+        146
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214431.jpg",
+      "xy": [
+        128,
+        146
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214431.jpg",
+      "xy": [
+        128,
+        146
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214431.jpg",
+      "xy": [
+        128,
+        146
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213931.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213931.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213931.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213931.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213931.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213931.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213931.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_213931.jpg",
+      "xy": [
+        182,
+        92
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214641.jpg",
+      "xy": [
+        200,
+        110
+      ],
+      "donor": "88b96e9e596508d43d73",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214641.jpg",
+      "xy": [
+        200,
+        110
+      ],
+      "donor": "70ff532fdbba36481f97",
+      "normal_donor": "7fa70b905e9a88431acc",
+      "donor_capture": "FRUIT_20260814_144245_256288"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214641.jpg",
+      "xy": [
+        200,
+        110
+      ],
+      "donor": "34722a586557fe190895",
+      "normal_donor": "55170d9660eb38ed3ea3",
+      "donor_capture": "FRUIT_20260814_144851_759248"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214641.jpg",
+      "xy": [
+        200,
+        110
+      ],
+      "donor": "03545c6fb2d8692e20cf",
+      "normal_donor": "34aad09aa066c08f94b6",
+      "donor_capture": "FRUIT_20260814_144806_169563"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214641.jpg",
+      "xy": [
+        200,
+        110
+      ],
+      "donor": "0f7e051b4c6be1045c69",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214641.jpg",
+      "xy": [
+        200,
+        110
+      ],
+      "donor": "f5d6d79842dd715cddff",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214641.jpg",
+      "xy": [
+        200,
+        110
+      ],
+      "donor": "19e3fe397f73fb0d87f3",
+      "normal_donor": "eb11c8ab215bb2af3af0",
+      "donor_capture": "FRUIT_20260814_144255_135918"
+    },
+    {
+      "host": "datasets/afruitdb_apples_v1/original_photos/1st grade/IMG_20230930_214641.jpg",
+      "xy": [
+        200,
+        110
+      ],
+      "donor": "cacee091321015912453",
+      "normal_donor": "54917e161e840eab93b2",
+      "donor_capture": "FRUIT_20260814_144633_649268"
+    }
+  ],
+  "hosts": 13,
+  "donors": 8,
+  "unique_donor_timestamps": 5,
+  "source": "train only; identical geometry, alpha, host and placement",
+  "host_groups": [
+    "burst_0014",
+    "burst_0100"
+  ],
+  "area320": [
+    93.84375,
+    130.78125,
+    58.753658294677734,
+    135.03912353515625,
+    70.90322875976562,
+    63.08823776245117,
+    39.05672836303711,
+    130.779296875
+  ]
+}

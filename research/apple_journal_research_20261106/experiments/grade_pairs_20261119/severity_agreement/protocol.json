@@ -1,0 +1,9 @@
+{
+  "parents": {
+    "original": "6968780d0e1ff61e991369ee6d72d63940121bb8a8467f0eaaa82ff5ee36e591",
+    "native320": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a"
+  },
+  "fit": "No new training, fitted scalar, threshold search or dev-label-dependent branch.",
+  "rule": "If native320 predicts severe but original predicts non-severe, return mild. If native320 predicts good but original predicts severe, return mild. Otherwise keep native320. No severe output may become good. Both models see the actual same visible fruit; no image IDs passed to model.",
+  "goal": "Recover mild/severe confusions and lower release risk only when independent historical graders disagree about severe. Apply common development gates."
+}

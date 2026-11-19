@@ -1,0 +1,15 @@
+{
+  "parent": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "seed": 919027,
+  "updates_each": 120,
+  "checkpoints": "last only",
+  "learning": "AdamW .00025; frozen parent, train native320 local verifier alone. Same real supervised items, placebos, tensors, step count and RNG draws in both arms; one adds an intra-footprint true/sham ranking loss .65.",
+  "local_gate": "On the separately marked real AF and PSU dev sites, TP, normal FP and same-photo paired wins must all be noninferior with at least one strict gain. On the three single-session white-studio pairs, at least two of three correct and no decrease versus control. Fixed local logit zero used for both. Only on pass evaluate both final frozen checkpoints on the AF57 graded development set.",
+  "synthesis": "Actual author Woo scratch residual relative to inpainted surroundings versus identical-shaped normal residual from visually verified healthy skin on that same donor image, same scale/gain/location/feather. Only score within the altered region; no fabricated image grade.",
+  "quality_review": "Exclude hosts 6/11 for ambiguous pre-existing marks. Exclude two pit-like donor appearances and smallest nearly invisible transfer. Fixed before optimization, using training-only visual montages.",
+  "code": "9319f66df75c39f3b6ca285821781ba6ec33152af85919bdd9f5964bcd4d2f98",
+  "builder": "54438a0098e9f7a0c107b9d0bedc7571479a2695fff93eadef7b3ba7d9a5ac8d",
+  "region_source": "2e542fe808e75f776f5505b861c76e70036a642ed36bd00766e1ef03071e6ce9",
+  "white": "f056401f6ce7718a101e8a1fc94311510c8a52eb10842206bdacdbed18e98ea5",
+  "eligibility": "bded2af190e50f0552319b5342cce7040a4c9ab9577944c44c4eeff72309ed51"
+}

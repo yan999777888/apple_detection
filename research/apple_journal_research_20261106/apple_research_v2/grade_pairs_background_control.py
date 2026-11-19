@@ -1,7 +1,5 @@
 """Test how informative the space outside an automatically detected fruit is for grade."""
-import json
 from collections import Counter
-from pathlib import Path
 
 import cv2
 import numpy as np

@@ -1,0 +1,16 @@
+{
+  "stage": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "parent": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "AF": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "Woo": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "regions": "2e542fe808e75f776f5505b861c76e70036a642ed36bd00766e1ef03071e6ce9",
+  "source": "3d72aa6fe7f1fdad423fbaa04dcf4ff424b2d6aab1bef6c1b9b69a133b70162f",
+  "network": "4860910346285d528722a61167951b9b8040236e5816e6be86ec474f1f803f63",
+  "seed": 19061141,
+  "steps": 420,
+  "mechanism": "Passive read of the original stage head P3/P4/P5 (strides 8,16,32). ROIAlign 10x10 uses actual rounded content/padding. Original visible mask support. The full supplied-photo mode pools its whole rectangle regardless of native instance count; use a unique native mask only when exactly one is present.",
+  "training": "Use original AF training split and the previously checked matched Woo 48 good + 10 minor training-only surface views. For AF use frozen auto crop only when exactly one predicted fruit, plus supplied whole view. Woo uses supplied face crops. No HDF/AF-test/field/source holdouts.",
+  "objective": "Frozen native320 and detectors. Only train 3 level projections, mark convolution and pooled appearance readout. Preserve every native320 severe argmax. Other fruit combine .35 native mild-good with learned local evidence. AF/ Woo condition-matched good versus light pairs; fixed 420 AdamW updates. True mark and explicit normal cells alone supply location loss.",
+  "selection": "Development every 30 steps. Gate all 57 auto: good>=20/25, mild>=6/15,severe>=16/17,none severe->good. Whole zero severe->good. Prioritize all safety gates, then mild, then good+severe, then whole mild. First strict tie wins.",
+  "detection_control": "Direct comparison of full frozen baseline outputs with and without passive head hooks for two train and at least six development in each pathway. Check all source-grid sizes on synthetic padding fill. Underlying models/stage are never optimized."
+}

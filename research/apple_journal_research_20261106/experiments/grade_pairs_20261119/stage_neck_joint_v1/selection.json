@@ -1,0 +1,127 @@
+{
+  "architecture": "stage_neck_native320_v1",
+  "entry": "grade_stage_neck.Runtime(selection).observe / __call__(1280px BGR,known_single_fruit=...)",
+  "step": 30,
+  "stage_sha256": "f8becdeff0e042fa19d681141aa56e133393130b4a2af23133706fd7766367f6",
+  "native320_sha256": "b77cecb5695dcc6296e7d0c86b8aa3683fdc2dc5dcee6dbf2e0143bcb66b769a",
+  "weights_sha256": "65846f7b3627921974456d28197c235b92bd68950c478f0f4b08c6a61a2aa758",
+  "channels": [
+    64,
+    128,
+    256
+  ],
+  "metrics": {
+    "auto": {
+      "n": 57,
+      "confusion": [
+        [
+          21,
+          0,
+          0,
+          4
+        ],
+        [
+          11,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "good": 21,
+      "mild": 0,
+      "severe": 17,
+      "severe_good": 0
+    },
+    "whole": {
+      "n": 57,
+      "confusion": [
+        [
+          24,
+          1,
+          0,
+          0
+        ],
+        [
+          11,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "good": 24,
+      "mild": 2,
+      "severe": 17,
+      "severe_good": 0
+    }
+  },
+  "parent": {
+    "auto": {
+      "n": 57,
+      "confusion": [
+        [
+          20,
+          1,
+          0,
+          4
+        ],
+        [
+          6,
+          5,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "good": 20,
+      "mild": 5,
+      "severe": 17,
+      "severe_good": 0
+    },
+    "whole": {
+      "n": 57,
+      "confusion": [
+        [
+          23,
+          2,
+          0,
+          0
+        ],
+        [
+          7,
+          6,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0
+        ]
+      ],
+      "good": 23,
+      "mild": 6,
+      "severe": 17,
+      "severe_good": 0
+    }
+  },
+  "passed": false,
+  "protocol_sha256": "cfc5bbaf00818e6922b70b9fa04aa8d42e143a3a79131056e515548e060f27c5"
+}

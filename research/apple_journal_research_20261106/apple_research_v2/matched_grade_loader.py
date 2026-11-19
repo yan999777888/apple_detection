@@ -49,7 +49,7 @@ def load(directory, device):
     side=int(metadata.get("input_side",224))
     if side not in (224,320):
         raise ValueError("Unknown grade input size")
-    if metadata.get("architecture") == "mobilenet_v3_small_native320_patch_v1":
+    if metadata.get("architecture") in ("mobilenet_v3_small_native320_patch_v1","original_native320_severity_agreement_v1"):
         from grade_detail_patch import DetailSide
         if side!=320:
             raise ValueError("Native local verifier requires dual 320/224 input")

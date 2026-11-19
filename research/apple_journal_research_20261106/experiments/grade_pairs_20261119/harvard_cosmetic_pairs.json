@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "id": 19,
+      "group": "Harvard_Anjali_Canon_20240420_white_studio_single_session",
+      "spot": 0.31340962648391724,
+      "normal": 0.2895440459251404,
+      "spot_above_normal": true
+    },
+    {
+      "id": 75,
+      "group": "Harvard_Anjali_Canon_20240420_white_studio_single_session",
+      "spot": -0.1533854454755783,
+      "normal": 1.5585708618164062,
+      "spot_above_normal": false
+    },
+    {
+      "id": 133,
+      "group": "Harvard_Anjali_Canon_20240420_white_studio_single_session",
+      "spot": -0.1824461668729782,
+      "normal": -3.9568047523498535,
+      "spot_above_normal": true
+    }
+  ],
+  "model_sha": "32ca6f03cfe7741d7b0948fcd0eb4cac9506d8bcf4584d10b509171bcc9219dc",
+  "source_sha": "f056401f6ce7718a101e8a1fc94311510c8a52eb10842206bdacdbed18e98ea5",
+  "scope": "Three newly audited training-source spot/control pairs from a single white-studio session. Scores are fixed pre-fruit aggregation patch logits, never whole-fruit grades. No fitting on these pairs in this replay."
+}

@@ -1,0 +1,1305 @@
+{
+  "protocol_sha": "8cc10f6b584b9b6c0bc97ab90b1319de4784f785c511bf97eb094d9e703de88e",
+  "eligible": [],
+  "arms": [
+    {
+      "directory": "experiments/grade_pairs_20261119/capture_contrast/absolute",
+      "sha256": "e4c2e5d39f13a74149332a982c65d7b3f065976a6742086c0984345e94494642",
+      "passed": false,
+      "checks": {
+        "mild": false,
+        "good": true,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        1,
+        38,
+        21,
+        1
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              21,
+              0,
+              0,
+              4
+            ],
+            [
+              10,
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.84,
+            0.06666666666666667,
+            1.0
+          ],
+          "good": 21,
+          "mild": 1,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 39
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              25,
+              0,
+              0,
+              0
+            ],
+            [
+              12,
+              1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            1.0,
+            0.06666666666666667,
+            1.0
+          ],
+          "good": 25,
+          "mild": 1,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 43
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/capture_contrast/paired",
+      "sha256": "5d47799eee4da52c0fcf7edaf5d489e5d2621555002849b086531c5ba1b60b99",
+      "passed": false,
+      "checks": {
+        "mild": false,
+        "good": true,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        3,
+        37,
+        20,
+        4
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              20,
+              1,
+              0,
+              4
+            ],
+            [
+              9,
+              3,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.8,
+            0.2,
+            1.0
+          ],
+          "good": 20,
+          "mild": 3,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 40
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              23,
+              2,
+              0,
+              0
+            ],
+            [
+              9,
+              4,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.92,
+            0.26666666666666666,
+            1.0
+          ],
+          "good": 23,
+          "mild": 4,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 44
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/fruit_surface_burden_v1",
+      "sha256": "c643bcb4140b9156825bdf68d9f6b7ad7ca77d77151456ec626cdf274d29fbfb",
+      "passed": false,
+      "checks": {
+        "mild": false,
+        "good": true,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        4,
+        37,
+        20,
+        5
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              20,
+              1,
+              0,
+              4
+            ],
+            [
+              7,
+              4,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.8,
+            0.26666666666666666,
+            1.0
+          ],
+          "good": 20,
+          "mild": 4,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 41
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              24,
+              1,
+              0,
+              0
+            ],
+            [
+              8,
+              5,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.96,
+            0.3333333333333333,
+            1.0
+          ],
+          "good": 24,
+          "mild": 5,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 46
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/grounded_sparse_v2",
+      "sha256": "f1dafce9f558d1bf79da1db1c42f92966b5da90d88986dd42089851e6b13d901",
+      "passed": false,
+      "checks": {
+        "mild": true,
+        "good": false,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        7,
+        36,
+        19,
+        7
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              19,
+              2,
+              0,
+              4
+            ],
+            [
+              4,
+              7,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.76,
+            0.4666666666666667,
+            1.0
+          ],
+          "good": 19,
+          "mild": 7,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 43
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              23,
+              2,
+              0,
+              0
+            ],
+            [
+              6,
+              7,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.92,
+            0.4666666666666667,
+            1.0
+          ],
+          "good": 23,
+          "mild": 7,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 47
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/paired_edits/anatomy_control",
+      "sha256": "b3c58b5c4c280e4a0a6cc77c567076d3851752793a1faaaa0422ccb6e7f61ff4",
+      "passed": false,
+      "checks": {
+        "mild": false,
+        "good": true,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        3,
+        37,
+        20,
+        5
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              20,
+              1,
+              0,
+              4
+            ],
+            [
+              8,
+              3,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.8,
+            0.2,
+            1.0
+          ],
+          "good": 20,
+          "mild": 3,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 40
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              24,
+              1,
+              0,
+              0
+            ],
+            [
+              8,
+              5,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.96,
+            0.3333333333333333,
+            1.0
+          ],
+          "good": 24,
+          "mild": 5,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 46
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/paired_edits/localized_change",
+      "sha256": "387d565ec1aed1fbdca9cae8275d113cc19be1779ac7b9d2f488b1a04e7e6fa9",
+      "passed": false,
+      "checks": {
+        "mild": false,
+        "good": true,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        4,
+        37,
+        20,
+        5
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              20,
+              1,
+              0,
+              4
+            ],
+            [
+              7,
+              4,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.8,
+            0.26666666666666666,
+            1.0
+          ],
+          "good": 20,
+          "mild": 4,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 41
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              24,
+              1,
+              0,
+              0
+            ],
+            [
+              8,
+              5,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.96,
+            0.3333333333333333,
+            1.0
+          ],
+          "good": 24,
+          "mild": 5,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 46
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/patch_distill/matched_replay",
+      "sha256": "7a1a0436e50f2fb7e94d88087d54b8cf678de89df8fcca7c441678a1153fda75",
+      "passed": false,
+      "checks": {
+        "mild": true,
+        "good": false,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        8,
+        35,
+        18,
+        7
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              18,
+              3,
+              0,
+              4
+            ],
+            [
+              3,
+              8,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.72,
+            0.5333333333333333,
+            1.0
+          ],
+          "good": 18,
+          "mild": 8,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 43
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              22,
+              3,
+              0,
+              0
+            ],
+            [
+              6,
+              7,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.88,
+            0.4666666666666667,
+            1.0
+          ],
+          "good": 22,
+          "mild": 7,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 46
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/patch_distill/soft_teacher",
+      "sha256": "3ca69b3e1be220d438de3dc2d398b7c49648fd10b4076c80a2b2e2f04920c258",
+      "passed": false,
+      "checks": {
+        "mild": true,
+        "good": false,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        10,
+        32,
+        15,
+        12
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              15,
+              6,
+              0,
+              4
+            ],
+            [
+              1,
+              10,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.6,
+            0.6666666666666666,
+            1.0
+          ],
+          "good": 15,
+          "mild": 10,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 42
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              12,
+              13,
+              0,
+              0
+            ],
+            [
+              1,
+              12,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.48,
+            0.8,
+            1.0
+          ],
+          "good": 12,
+          "mild": 12,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 41
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/severity_agreement",
+      "sha256": "b56b0432c6fbcfc523046aa2327da595a5383d870a5213853e3fb7b30d6eab16",
+      "passed": false,
+      "checks": {
+        "mild": true,
+        "good": true,
+        "no_severe_release": true,
+        "severe_correct": false,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        6,
+        29,
+        20,
+        6
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              20,
+              1,
+              0,
+              4
+            ],
+            [
+              6,
+              6,
+              1,
+              2
+            ],
+            [
+              0,
+              8,
+              9,
+              0
+            ]
+          ],
+          "recall": [
+            0.8,
+            0.4,
+            0.5294117647058824
+          ],
+          "good": 20,
+          "mild": 6,
+          "severe": 9,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 35
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              23,
+              2,
+              0,
+              0
+            ],
+            [
+              7,
+              6,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.92,
+            0.4,
+            1.0
+          ],
+          "good": 23,
+          "mild": 6,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 46
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/sparse_verifier_v1",
+      "sha256": "32ca6f03cfe7741d7b0948fcd0eb4cac9506d8bcf4584d10b509171bcc9219dc",
+      "passed": false,
+      "checks": {
+        "mild": true,
+        "good": false,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        8,
+        36,
+        19,
+        7
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              19,
+              2,
+              0,
+              4
+            ],
+            [
+              3,
+              8,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.76,
+            0.5333333333333333,
+            1.0
+          ],
+          "good": 19,
+          "mild": 8,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 44
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              23,
+              2,
+              0,
+              0
+            ],
+            [
+              6,
+              7,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "recall": [
+            0.92,
+            0.4666666666666667,
+            1.0
+          ],
+          "good": 23,
+          "mild": 7,
+          "severe": 17,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 47
+        },
+        "guard": {
+          "n": 1,
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "recall": [
+            null,
+            1.0,
+            null
+          ],
+          "good": 0,
+          "mild": 1,
+          "severe": 0,
+          "severe_good": 0,
+          "good_severe": 0,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "directory": "experiments/grade_pairs_20261119/stage_neck_joint_v1",
+      "sha256": "65846f7b3627921974456d28197c235b92bd68950c478f0f4b08c6a61a2aa758",
+      "passed": false,
+      "checks": {
+        "mild": false,
+        "good": true,
+        "no_severe_release": true,
+        "severe_correct": true,
+        "whole_no_severe_release": true
+      },
+      "rank": [
+        0,
+        38,
+        21,
+        2
+      ],
+      "metrics": {
+        "auto": {
+          "n": 57,
+          "confusion": [
+            [
+              21,
+              0,
+              0,
+              4
+            ],
+            [
+              11,
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "good": 21,
+          "mild": 0,
+          "severe": 17,
+          "severe_good": 0
+        },
+        "whole": {
+          "n": 57,
+          "confusion": [
+            [
+              24,
+              1,
+              0,
+              0
+            ],
+            [
+              11,
+              2,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              0
+            ]
+          ],
+          "good": 24,
+          "mild": 2,
+          "severe": 17,
+          "severe_good": 0
+        }
+      }
+    }
+  ],
+  "without_full_development_metrics": [
+    "experiments/grade_pairs_20261119/transfer_sham_native/paired_sham",
+    "experiments/grade_pairs_20261119/transfer_sham_native/real_only"
+  ],
+  "scope": "Complete selected checkpoints with recorded AF 57-photo metrics. Mechanism-only controls without a whole-fruit evaluation are documented separately."
+}

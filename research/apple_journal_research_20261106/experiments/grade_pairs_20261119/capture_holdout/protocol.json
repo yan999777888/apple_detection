@@ -1,0 +1,8 @@
+{
+  "feature_encoder": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "af_train": "18c4109dd0ec1a422d2d5edc1e1f8ad70e53230e35919ce320a5bde2dcf4f8c3",
+  "woo": "c16b77c739678369ac0192304cb58eff90ac5976ff3164c81ee6cbdf157c86d8",
+  "scope": "Hold out each entire AF train capture group containing grade 0 or 1. Use automatically located single AF fruit, no second view of a photo included. Woo uses reviewed training crops.",
+  "classifier": "Fixed L2 logistic estimator C=12 on L2-normalized, frozen generic DINO features. Balance each source/class cell, fixed 0.5 decision. Only contrast adding the unchanged 58 Woo training views to AF.",
+  "independence": "The feature encoder never fitted to this project's AF training labels. Capture group is a proxy, physical individual identities unknown. No AF development, history or independent orchard evaluation."
+}

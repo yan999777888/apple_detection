@@ -1,0 +1,8 @@
+{
+  "input_side": 320,
+  "architecture": "mobilenet_v3_small_native320_patch_v1",
+  "threshold": 1.0,
+  "step": 120,
+  "weights_sha256": "a6c520a0f025587b311b40fc7ebbe7f8b11fd95c607280bfea1f18908b171e1a",
+  "protocol_sha256": "68ef4220ab4cdd487e41c3faca8ab095f2f04658cf093991593840496a5753b3"
+}
